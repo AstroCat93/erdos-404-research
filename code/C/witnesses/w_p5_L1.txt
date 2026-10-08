@@ -1,0 +1,2 @@
+# p=5 L=1 witness for f(1,p) >= 5 ; exact v_p(sum)=5
+1 4 10 11 20 22

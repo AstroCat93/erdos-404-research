@@ -1,0 +1,73 @@
+=== E404Structure.lean
+occurrences of sorry|native_decide (comments included): 0
+'sigma_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'two_adic_never_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+real 37.24
+user 3.90
+sys 6.88
+exit=0
+=== E404Block.lean
+occurrences of sorry|native_decide (comments included): 0
+'E404.block_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'E404.first_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'E404.all_below' depends on axioms: [propext, Classical.choice, Quot.sound]
+real 6.61
+user 2.65
+sys 3.21
+exit=0
+=== NoCancel.lean
+occurrences of sorry|native_decide (comments included): 0
+'NS_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'gate_prod' depends on axioms: [propext, Classical.choice, Quot.sound]
+real 5.77
+user 2.62
+sys 3.05
+exit=0
+=== E404Halving.lean
+occurrences of sorry|native_decide (comments included): 1
+<workdir>/e404/note/code/lean/E404Halving.lean:453:58: warning: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h0, h1, h2, h3, h4, ite_true, ite_false, not_true, not_false_eq_true, P_one, P_two, P_three,
+    P_four, P_five, add_zero] at hB
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'E404.halving' depends on axioms: [propext, Classical.choice, Quot.sound]
+'E404.residue_lemma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'E404.factorial_mul_S' depends on axioms: [propext, Classical.choice, Quot.sound]
+'E404.g_eq_three' depends on axioms: [propext, Classical.choice, Quot.sound]
+'E404.halving2' depends on axioms: [propext, Classical.choice, Quot.sound]
+real 9.64
+user 10.42
+sys 3.21
+exit=0
+=== E404Behaviour.lean
+occurrences of sorry|native_decide (comments included): 0
+'E404.sibling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'E404.constancy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'E404.good_iff_fact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'E404.constancy_f' depends on axioms: [propext, Classical.choice, Quot.sound]
+real 6.92
+user 5.32
+sys 3.03
+exit=0
+=== E404Frozen.lean
+occurrences of sorry|native_decide (comments included): 0
+'E404F.frozen_f' depends on axioms: [propext, Classical.choice, Quot.sound]
+'E404F.frozen_m1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'E404F.frozen_m3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'E404F.frozen_m4' depends on axioms: [propext, Classical.choice, Quot.sound]
+real 5.49
+user 3.13
+sys 2.94
+exit=0
+=== SubsetSumsCD.lean
+occurrences of sorry|native_decide (comments included): 0
+'card_subsetSums' depends on axioms: [propext, Classical.choice, Quot.sound]
+'subsetSums_eq_univ' depends on axioms: [propext, Classical.choice, Quot.sound]
+real 5.69
+user 2.67
+sys 3.02
+exit=0
+LEAN_DONE

@@ -1,0 +1,14 @@
+# p=13
+# G  survivors  density  children-survival-histogram(0..p)
+0 1 1.0000000000
+1 10 0.7692307692 0 0 0 0 0 0 0 0 0 0 1 0 0 0
+2 128 0.7573964497 0 0 0 0 0 0 0 0 0 0 0 0 2 8
+3 1658 0.7546654529 0 0 0 0 0 0 0 0 0 0 0 0 6 122
+4 21553 0.7546304401 0 0 0 0 0 0 0 0 0 0 0 0 1 1657
+5 280157 0.7545442548 1 0 0 0 0 1 0 1 0 1 0 0 1 21548
+<workdir>/e404/E-behaviour/src/run_trees.sh: line 9: 86588 Terminated: 15          ./tree 13 6 3 $D/p13 2
+
+real	41m16.281s
+user	75m9.384s
+sys	1m36.795s
+# p=13 level 6 not completed: run stopped after ~40 min wall (single straggler thread)

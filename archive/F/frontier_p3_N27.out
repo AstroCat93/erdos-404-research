@@ -1,0 +1,5 @@
+# p=3 N0=27 e(N0)=13 Gmax=6600 step=27 tailmax=16 maxwin=170
+G=54 v_p(G)=3 e(G)=26: COVER(27,54) holds (window 27, jump 13, tries 1)  [0s]
+G=81 v_p(G)=4 e(G)=40: COVER(27,81) holds (window 54, jump 27, tries 7)  [11s]
+STOP at G=90 v_p(G)=2 e(G)=44: no covering window found among 19 candidates (maxwin=170)
+FRONTIER p=3 N0=27: E_N0 covers p^13Z/p^42Z  (R=87, e(R)=42)

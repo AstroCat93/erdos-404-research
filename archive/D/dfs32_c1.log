@@ -1,0 +1,31 @@
+k=16 count=3314
+k=17 count=6552
+k=18 count=12858
+k=19 count=25462
+k=20 count=49628
+k=21 count=95840
+k=22 count=187178
+k=23 count=368236
+k=24 count=723020
+k=25 count=1416560
+k=26 count=2765702
+k=27 count=5334792
+k=28 count=10407616
+k=29 count=20282152
+k=30 count=38814110
+k=31 count=73998412
+k=32 count=145526238
+dist_to_-2 v=1 count=26267990
+dist_to_-2 v=2 count=29677848
+dist_to_-2 v=3 count=16877216
+dist_to_-2 v=4 count=27954512
+dist_to_-2 v=5 count=22400896
+dist_to_-2 v=6 count=11141120
+dist_to_-2 v=7 count=5636096
+dist_to_-2 v=8 count=2752512
+dist_to_-2 v=9 count=1441792
+dist_to_-2 v=10 count=655360
+dist_to_-2 v=11 count=393216
+dist_to_-2 v=12 count=131072
+dist_to_-2 v=13 count=131072
+dist_to_-2 v=15 count=65536

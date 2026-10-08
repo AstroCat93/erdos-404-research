@@ -1,0 +1,48 @@
+p=3 start(a=1): OK
+p=3 L=1 p^L=3 covered=3 FULL frac=1.000000
+p=3 L=2 p^L=9 covered=6 partial frac=0.666667
+p=5 start(a=1): OK
+p=5 L=1 p^L=5 covered=5 FULL frac=1.000000
+p=5 L=2 p^L=25 covered=16 partial frac=0.640000
+p=7 start(a=1): OK
+p=7 L=1 p^L=7 covered=7 FULL frac=1.000000
+p=7 L=2 p^L=49 covered=49 FULL frac=1.000000
+p=7 L=3 p^L=343 covered=95 partial frac=0.276968
+p=11 start(a=1): OK
+p=11 L=1 p^L=11 covered=11 FULL frac=1.000000
+p=11 L=2 p^L=121 covered=121 FULL frac=1.000000
+p=11 L=3 p^L=1331 covered=932 partial frac=0.700225
+p=13 start(a=1): OK
+p=13 L=1 p^L=13 covered=13 FULL frac=1.000000
+p=13 L=2 p^L=169 covered=169 FULL frac=1.000000
+p=13 L=3 p^L=2197 covered=2163 partial frac=0.984524
+p=17 start(a=1): OK
+p=17 L=1 p^L=17 covered=17 FULL frac=1.000000
+p=17 L=2 p^L=289 covered=289 FULL frac=1.000000
+p=17 L=3 p^L=4913 covered=4913 FULL frac=1.000000
+p=17 L=4 p^L=83521 covered=58024 partial frac=0.694723
+p=19 start(a=1): OK
+p=19 L=1 p^L=19 covered=19 FULL frac=1.000000
+p=19 L=2 p^L=361 covered=361 FULL frac=1.000000
+p=19 L=3 p^L=6859 covered=6859 FULL frac=1.000000
+p=19 L=4 p^L=130321 covered=125661 partial frac=0.964242
+p=23 start(a=1): OK
+p=23 L=1 p^L=23 covered=23 FULL frac=1.000000
+p=23 L=2 p^L=529 covered=529 FULL frac=1.000000
+p=23 L=3 p^L=12167 covered=12167 FULL frac=1.000000
+p=23 L=4 p^L=279841 covered=279841 FULL frac=1.000000
+p=23 L=5 p^L=6436343 covered=3812340 partial frac=0.592315
+p=29 start(a=1): OK
+p=29 L=1 p^L=29 covered=29 FULL frac=1.000000
+p=29 L=2 p^L=841 covered=841 FULL frac=1.000000
+p=29 L=3 p^L=24389 covered=24389 FULL frac=1.000000
+p=29 L=4 p^L=707281 covered=707281 FULL frac=1.000000
+p=29 L=5 p^L=20511149 covered=20511149 FULL frac=1.000000
+p=29 L=6 p^L=594823321 covered=292292934 partial frac=0.491395
+p=31 start(a=1): OK
+p=31 L=1 p^L=31 covered=31 FULL frac=1.000000
+p=31 L=2 p^L=961 covered=961 FULL frac=1.000000
+p=31 L=3 p^L=29791 covered=29791 FULL frac=1.000000
+p=31 L=4 p^L=923521 covered=923521 FULL frac=1.000000
+p=31 L=5 p^L=28629151 covered=28629151 FULL frac=1.000000
+p=31 L=6 p^L=887503681 covered=742275572 partial frac=0.836363

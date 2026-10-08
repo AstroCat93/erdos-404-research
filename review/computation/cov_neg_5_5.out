@@ -1,0 +1,30 @@
+H=1 fails by counting
+H=2 fails by counting
+H=3 fails by counting
+H=4 fails by counting
+H=5 fails by counting
+H=6 fails by counting
+H=7 fails by counting
+H=8 fails by counting
+H=9 fails by counting
+H=10 fails by counting
+H=11 fails by counting
+H=12 fails by counting
+H=13 fails by counting
+H=14 fails by counting
+H=15 fails by counting
+H=16 fails by counting
+H=17 fails by counting
+H=18 fails by counting
+H=19 c=3: FAILS at K'=1 (missing 168481)
+H=20 c=3: FAILS at K'=1 (missing 71646)
+H=21 c=4: FAILS at K'=1 (missing 1315167)
+H=22 c=4: FAILS at K'=1 (missing 939596)
+H=23 c=4: FAILS at K'=1 (missing 185888)
+H=24 c=4: FAILS at K'=1 (missing 17650)
+H=25 c=4: FAILS at K'=1 (missing 90)
+H=26 c=6: FAILS at K'=1 (missing 44922055)
+H=27 c=6: FAILS at K'=1 (missing 42968930)
+H=28 c=6: FAILS at K'=1 (missing 37109735)
+H=29 c=6: FAILS at K'=1 (missing 25391345)
+H=30 c=6: FAILS at K'=1 (missing 17578845)

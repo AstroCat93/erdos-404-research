@@ -1,0 +1,41 @@
+# compiled binaries (rebuild with: sh code/build.sh)
+code/B/bin/
+code/C/bin/
+code/A/zdens
+code/A/dens2
+code/A/gdens
+code/D/gclass
+code/D/gdfs
+code/D/gdfsp
+code/D/gall
+code/D/halving_check
+code/D/sumform_big
+code/D/gsample128
+code/D/gsample256
+code/D/gsamplep
+code/D/gvalp
+code/D/randmodel
+code/D/shell_period
+code/D/shell_period_deep
+code/E/tree
+code/E/frozen
+code/F/wincheck
+code/F/wincheck2
+code/F/cover
+code/F/chain
+code/F/fourier
+review/computation/rcover
+review/computation/census
+review/logic/ecov
+*.o
+*.dSYM/
+
+# large regenerable outputs
+code/outputs/f1_5_K1000000.txt
+code/outputs/E_trees/
+archive/witnesses/*.txt
+
+# python / OS
+__pycache__/
+*.pyc
+.DS_Store

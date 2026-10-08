@@ -1,0 +1,3 @@
+p=3 a=1 K=2000002 terms=1625856 max=4000017  sum mod p^K != 0  -> FAILED  (287.7s)
+./verify_bin 3 1 2000002 "$W"  288.12s user 0.47s system 99% cpu 4:49.15 total
+DONE

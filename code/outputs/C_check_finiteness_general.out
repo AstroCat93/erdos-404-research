@@ -1,0 +1,10 @@
+p=2 tau(K) K=1..22: 0 * 0 3 0 6 0 8 0 10 0 3 0 15 0 6 0 22 0 3 0 6
+p=3 tau(K) K=1..20: 0 * 1 0 3 4 0 7 5 0 7 1 0 7 7 0 12 9 0 15
+p=5 tau(K) K=1..18: 0 * 0 1 2 0 4 0 3 4 0 4 0 5 5 0 7 0
+p=7 tau(K) K=1..16: 0 * 0 1 1 1 1 0 3 0 3 3 3 4 0 5
+consistency violations: 0
+DP checks: 43 mismatches: 0
+
+real	0m2.023s
+user	0m1.951s
+sys	0m0.060s

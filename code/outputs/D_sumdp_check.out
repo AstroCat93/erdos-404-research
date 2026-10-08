@@ -1,0 +1,12 @@
+0 254 True
+0 255 False
+2 254 True
+2 255 False
+6 133 True
+6 134 False
+4 6 True
+4 7 False
+
+real	0m0.050s
+user	0m0.028s
+sys	0m0.009s

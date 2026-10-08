@@ -1,0 +1,1 @@
+p=3 a=1 K=2000000 terms=1625856 max=4000017  sum mod p^K == 0  -> VERIFIED  (328.3s)

@@ -1,0 +1,13 @@
+p=11 t=7 H=40 c=3 mod p^10  K''=1  missing=0  COVERED  [6.3s]
+p=11 t=7 H=40 c=3 mod p^10  K''=2  missing=0  COVERED  [6.0s]
+p=11 t=7 H=40 c=3 mod p^10  K''=3  missing=0  COVERED  [8.8s]
+p=11 t=7 H=40 c=3 mod p^10  K''=4  missing=0  COVERED  [7.1s]
+p=11 t=7 H=40 c=3 mod p^10  K''=5  missing=0  COVERED  [6.4s]
+p=11 t=7 H=40 c=3 mod p^10  K''=6  missing=0  COVERED  [6.3s]
+p=11 t=7 H=40 c=3 mod p^10  K''=7  missing=0  COVERED  [6.1s]
+p=11 t=7 H=40 c=3 mod p^10  K''=8  missing=0  COVERED  [7.2s]
+p=11 t=7 H=40 c=3 mod p^10  K''=9  missing=0  COVERED  [8.1s]
+p=11 t=7 H=40 c=3 mod p^10  K''=10  missing=0  COVERED  [8.0s]
+ALL LISTED POSITIONS COVERED
+./cov_pos 11 7 40 1 2 3 4 5 6 7 8 9 10  65.97s user 4.66s system 98% cpu 1:11.96 total
+DONE

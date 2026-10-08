@@ -1,0 +1,10 @@
+m=2 samples=20000 E[Z']=0.5007 P(Z'>=1)=0.5007 meanfield=0.3760 (exact mean-field average 0.3750) maxZ=1
+m=3 samples=20000 E[Z']=0.5022 P(Z'>=1)=0.3288 meanfield=0.2815 (exact mean-field average 0.2812) maxZ=2
+m=4 samples=20000 E[Z']=0.3411 P(Z'>=1)=0.1942 meanfield=0.2092 (exact mean-field average 0.2109) maxZ=7
+m=5 samples=20000 E[Z']=0.3431 P(Z'>=1)=0.1419 meanfield=0.1571 (exact mean-field average 0.1582) maxZ=17
+m=6 samples=20000 E[Z']=0.3174 P(Z'>=1)=0.0963 meanfield=0.1182 (exact mean-field average 0.1187) maxZ=26
+m=7 samples=20000 E[Z']=0.2730 P(Z'>=1)=0.0695 meanfield=0.0891 (exact mean-field average 0.0890) maxZ=32
+m=8 samples=20000 E[Z']=0.2283 P(Z'>=1)=0.0418 meanfield=0.0667 (exact mean-field average 0.0667) maxZ=66
+m=9 samples=20000 E[Z']=0.1749 P(Z'>=1)=0.0249 meanfield=0.0504 (exact mean-field average 0.0501) maxZ=93
+m=10 samples=20000 E[Z']=0.1366 P(Z'>=1)=0.0181 meanfield=0.0372 (exact mean-field average 0.0375) maxZ=88
+m=11 samples=20000 E[Z']=0.1040 P(Z'>=1)=0.0103 meanfield=0.0277 (exact mean-field average 0.0282) maxZ=156

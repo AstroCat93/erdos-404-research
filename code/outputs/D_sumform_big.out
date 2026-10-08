@@ -1,0 +1,8 @@
+a=2 K=254 reachable=1 (final stage N=255, maxpop=496)
+a=2 K=255 reachable=0 (died at final gate N+1=256, maxpop=496)
+a=14 K=1533 reachable=1 (final stage N=1535, maxpop=8380)
+a=14 K=1534 reachable=0 (died at final gate N+1=1536, maxpop=8380)
+a=38 K=828 reachable=1 (final stage N=831, maxpop=4396)
+a=38 K=829 reachable=0 (died at final gate N+1=832, maxpop=4396)
+a=34 K=18444 reachable=1 (final stage N=18447, maxpop=128928)
+a=34 K=18445 reachable=0 (died at final gate N+1=18448, maxpop=128928)

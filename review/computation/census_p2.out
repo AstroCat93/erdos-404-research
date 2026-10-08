@@ -1,0 +1,30 @@
+p=2 G=1 count=1 delta=0.500000  children-dist: 2:1
+p=2 G=2 count=2 delta=0.500000  children-dist: 2:2
+p=2 G=3 count=4 delta=0.500000  children-dist: 0:1 2:3
+p=2 G=4 count=6 delta=0.375000  children-dist: 2:6
+p=2 G=5 count=12 delta=0.375000  children-dist: 2:12
+p=2 G=6 count=24 delta=0.375000  children-dist: 0:7 2:17
+p=2 G=7 count=34 delta=0.265625  children-dist: 0:3 2:31
+p=2 G=8 count=62 delta=0.242188  children-dist: 0:2 2:60
+p=2 G=9 count=120 delta=0.234375  children-dist: 0:1 2:119
+p=2 G=10 count=238 delta=0.232422  children-dist: 0:25 2:213
+p=2 G=11 count=426 delta=0.208008  children-dist: 0:25 2:401
+p=2 G=12 count=802 delta=0.195801  children-dist: 0:28 2:774
+p=2 G=13 count=1548 delta=0.188965  children-dist: 0:113 2:1435
+p=2 G=14 count=2870 delta=0.175171  children-dist: 0:244 2:2626
+p=2 G=15 count=5252 delta=0.160278  children-dist: 0:281 2:4971
+p=2 G=16 count=9942 delta=0.151703  children-dist: 0:116 2:9826
+p=2 G=17 count=19652 delta=0.149933  children-dist: 0:375 2:19277
+p=2 G=18 count=38554 delta=0.147072  children-dist: 0:398 2:38156
+p=2 G=19 count=76312 delta=0.145554  children-dist: 0:2028 2:74284
+p=2 G=20 count=148568 delta=0.141685  children-dist: 0:4966 2:143602
+p=2 G=21 count=287204 delta=0.136950  children-dist: 0:6833 2:280371
+p=2 G=22 count=560742 delta=0.133691  children-dist: 0:8922 2:551820
+p=2 G=23 count=1103640 delta=0.131564  children-dist: 0:20086 2:1083554
+p=2 G=24 count=2167108 delta=0.129170  children-dist: 0:42866 2:2124242
+p=2 G=25 count=4248484 delta=0.126615  children-dist: 0:100577 2:4147907
+p=2 G=26 count=8295814 delta=0.123617  children-dist: 0:284332 2:8011482
+p=2 G=27 count=16022964 delta=0.119380  children-dist: 0:399688 2:15623276
+p=2 G=28 count=31246552 delta=0.116402  children-dist: 0:802409 2:30444143
+p=2 G=29 count=60888286 delta=0.113413  children-dist: 0:2652998 2:58235288
+p=2 G=30 count=116470576 delta=0.108472

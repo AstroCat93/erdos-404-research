@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below. The mathematics, code and text were produced by Claude (Anthropic); see README.md for the AI disclosure. Please also credit the prior work listed in README.md (Lin, Kovač, Tao, Kitamura and others)."
+title: "Erdős Problem #404: structure, finiteness families and certified lower bounds"
+authors:
+  - family-names: Durfee
+    given-names: Nathan
+date-released: 2026-10-08
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/AstroCat93/erdos-404-research"
+url: "https://www.erdosproblems.com/404"

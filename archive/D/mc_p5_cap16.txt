@@ -1,0 +1,18 @@
+k=0 surv=20000 frac=1.000000
+k=1 surv=12045 frac=0.602250
+k=2 surv=11224 frac=0.561200
+k=3 surv=10922 frac=0.546100
+k=4 surv=10824 frac=0.541200
+k=5 surv=10537 frac=0.526850
+k=6 surv=10490 frac=0.524500
+k=7 surv=10466 frac=0.523300
+k=8 surv=10454 frac=0.522700
+k=9 surv=10452 frac=0.522600
+k=10 surv=10449 frac=0.522450
+k=11 surv=10449 frac=0.522450
+k=12 surv=10449 frac=0.522450
+k=13 surv=10448 frac=0.522400
+k=14 surv=10448 frac=0.522400
+k=15 surv=10448 frac=0.522400
+k=16 surv=10448 frac=0.522400
+maxpop=303137 overflow=0

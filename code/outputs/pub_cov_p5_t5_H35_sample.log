@@ -1,0 +1,2 @@
+[split 1/1000] p=5 t=5 H=35 c=7 M=12 Q=p^12 (2^27 bits) classes=79 FAIL=5 worst_missing=4  [4.4s]  failing K' mod p^c e.g. 21001 31001 36001 42001 61001
+B/bin/cov 5 5 35 35 34 1 1000 1  4.36s user 0.02s system 99% cpu 4.417 total

@@ -1,0 +1,48 @@
+k=16 count=3314
+k=17 count=6556
+k=18 count=12852
+k=19 count=25434
+k=20 count=49404
+k=21 count=95594
+k=22 count=186602
+k=23 count=367206
+k=24 count=720626
+k=25 count=1412460
+k=26 count=2757832
+k=27 count=5327778
+k=28 count=10393268
+k=29 count=20247688
+k=30 count=38727590
+k=31 count=73793556
+k=32 count=145133352
+dist_to_-2 v=1 count=25964112
+dist_to_-2 v=2 count=29224776
+dist_to_-2 v=3 count=16980352
+dist_to_-2 v=4 count=28227856
+dist_to_-2 v=5 count=22322944
+dist_to_-2 v=6 count=11206656
+dist_to_-2 v=7 count=5570560
+dist_to_-2 v=8 count=2818048
+dist_to_-2 v=9 count=1376256
+dist_to_-2 v=10 count=720896
+dist_to_-2 v=11 count=327680
+dist_to_-2 v=12 count=196608
+dist_to_-2 v=13 count=65536
+dist_to_-2 v=14 count=65536
+dist_to_-2 v=16 count=32768
+dist_to_-2 v=17 count=16384
+dist_to_-2 v=18 count=8192
+dist_to_-2 v=19 count=4096
+dist_to_-2 v=20 count=2048
+dist_to_-2 v=21 count=1024
+dist_to_-2 v=22 count=512
+dist_to_-2 v=23 count=256
+dist_to_-2 v=24 count=128
+dist_to_-2 v=25 count=64
+dist_to_-2 v=26 count=32
+dist_to_-2 v=27 count=16
+dist_to_-2 v=28 count=8
+dist_to_-2 v=29 count=4
+dist_to_-2 v=30 count=2
+dist_to_-2 v=31 count=1
+dist_to_-2 v=32 count=1

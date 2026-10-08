@@ -1,0 +1,16 @@
+p=47 start(a=1): OK
+p=47 L=1 p^L=47 covered=47 FULL frac=1.000000
+p=47 L=2 p^L=2209 covered=2209 FULL frac=1.000000
+p=47 L=3 p^L=103823 covered=103823 FULL frac=1.000000
+p=47 L=4 p^L=4879681 covered=4879681 FULL frac=1.000000
+p=47 L=5 p^L=229345007 covered=229345007 FULL frac=1.000000
+p=47 L=6 p^L=10779215329 covered=10779215329 FULL frac=1.000000
+p=47 L=7 skipped (p^L=5.07e+11 > maxbits)
+p=53 start(a=1): OK
+p=53 L=1 p^L=53 covered=53 FULL frac=1.000000
+p=53 L=2 p^L=2809 covered=2809 FULL frac=1.000000
+p=53 L=3 p^L=148877 covered=148877 FULL frac=1.000000
+p=53 L=4 p^L=7890481 covered=7890481 FULL frac=1.000000
+p=53 L=5 p^L=418195493 covered=418195493 FULL frac=1.000000
+p=53 L=6 p^L=22164361129 covered=22164361129 FULL frac=1.000000
+p=53 L=7 skipped (p^L=1.17e+12 > maxbits)

@@ -1,0 +1,7 @@
+# witness for f(39,3) >= 25 ; terms=6 ; max=49 ; builder=search.c (internal check passed; verify independently)
+39
+41
+44
+46
+47
+49

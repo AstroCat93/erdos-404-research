@@ -1,0 +1,2001 @@
+p,a,v_p(a!),status,value,detail
+3,1,0,GE,10000,DP CAPPED at G=39; witness K=10000 verified
+3,2,0,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,3,1,EXACT,2,DP maxstates=4
+3,4,1,GE,10000,DP CAPPED at G=39; witness K=10001 verified
+3,5,1,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,6,2,EXACT,1,DP maxstates=2
+3,7,2,GE,10000,DP CAPPED at G=39; witness K=10002 verified
+3,8,2,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,9,4,GE,10000,DP CAPPED at G=39; witness K=10004 verified
+3,10,4,GE,10000,DP CAPPED at G=39; witness K=10004 verified
+3,11,4,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,12,5,GE,10000,DP CAPPED at G=39; witness K=10005 verified
+3,13,5,GE,10000,DP CAPPED at G=39; witness K=10005 verified
+3,14,5,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,15,6,EXACT,1,DP maxstates=2
+3,16,6,GE,10000,DP CAPPED at G=39; witness K=10006 verified
+3,17,6,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,18,8,GE,10000,DP EXPLODED at G=39; witness K=10008 verified
+3,19,8,GE,10000,DP CAPPED at G=39; witness K=10008 verified
+3,20,8,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,21,9,EXACT,3,DP maxstates=4
+3,22,9,EXACT,3,DP maxstates=4
+3,23,9,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,24,10,EXACT,1,DP maxstates=2
+3,25,10,GE,10000,DP EXPLODED at G=38; witness K=10010 verified
+3,26,10,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,27,13,GE,10000,DP CAPPED at G=39; witness K=10013 verified
+3,28,13,GE,10000,DP CAPPED at G=39; witness K=10013 verified
+3,29,13,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,30,14,EXACT,2,DP maxstates=4
+3,31,14,GE,10000,DP CAPPED at G=39; witness K=10014 verified
+3,32,14,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,33,15,EXACT,1,DP maxstates=2
+3,34,15,GE,10000,DP CAPPED at G=39; witness K=10015 verified
+3,35,15,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,36,17,GE,10000,DP CAPPED at G=39; witness K=10017 verified
+3,37,17,GE,10000,DP CAPPED at G=39; witness K=10017 verified
+3,38,17,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,39,18,EXACT,7,DP maxstates=17
+3,40,18,GE,10000,DP CAPPED at G=39; witness K=10018 verified
+3,41,18,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,42,19,EXACT,1,DP maxstates=2
+3,43,19,GE,10000,DP CAPPED at G=39; witness K=10019 verified
+3,44,19,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,45,21,GE,10000,DP CAPPED at G=39; witness K=10021 verified
+3,46,21,GE,10000,DP CAPPED at G=39; witness K=10021 verified
+3,47,21,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,48,22,EXACT,3,DP maxstates=4
+3,49,22,EXACT,3,DP maxstates=4
+3,50,22,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,51,23,EXACT,1,DP maxstates=2
+3,52,23,GE,10000,DP CAPPED at G=39; witness K=10023 verified
+3,53,23,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,54,26,GE,10000,DP CAPPED at G=39; witness K=10026 verified
+3,55,26,GE,10000,DP CAPPED at G=39; witness K=10026 verified
+3,56,26,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,57,27,EXACT,2,DP maxstates=4
+3,58,27,GE,10000,DP CAPPED at G=39; witness K=10027 verified
+3,59,27,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,60,28,EXACT,1,DP maxstates=2
+3,61,28,GE,10000,DP CAPPED at G=39; witness K=10028 verified
+3,62,28,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,63,30,EXACT,9,DP maxstates=61
+3,64,30,GE,10000,DP CAPPED at G=39; witness K=10030 verified
+3,65,30,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,66,31,GE,10000,DP CAPPED at G=39; witness K=10031 verified
+3,67,31,EXACT,8,DP maxstates=28
+3,68,31,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,69,32,EXACT,1,DP maxstates=2
+3,70,32,EXACT,7,DP maxstates=32
+3,71,32,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,72,34,EXACT,4,DP maxstates=9
+3,73,34,EXACT,5,DP maxstates=12
+3,74,34,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,75,35,EXACT,4,DP maxstates=4
+3,76,35,EXACT,3,DP maxstates=4
+3,77,35,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,78,36,EXACT,1,DP maxstates=2
+3,79,36,GE,10000,DP EXPLODED at G=38; witness K=10036 verified
+3,80,36,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,81,40,GE,10000,DP CAPPED at G=39; witness K=10040 verified
+3,82,40,GE,10000,DP CAPPED at G=39; witness K=10040 verified
+3,83,40,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,84,41,EXACT,2,DP maxstates=4
+3,85,41,EXACT,11,DP maxstates=16
+3,86,41,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,87,42,EXACT,1,DP maxstates=2
+3,88,42,GE,10000,DP CAPPED at G=39; witness K=10042 verified
+3,89,42,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,90,44,GE,10000,DP CAPPED at G=39; witness K=10044 verified
+3,91,44,GE,10000,DP CAPPED at G=39; witness K=10044 verified
+3,92,44,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,93,45,GE,10000,DP CAPPED at G=39; witness K=10045 verified
+3,94,45,GE,10000,DP CAPPED at G=39; witness K=10045 verified
+3,95,45,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,96,46,EXACT,1,DP maxstates=2
+3,97,46,GE,10000,DP CAPPED at G=39; witness K=10046 verified
+3,98,46,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,99,48,GE,10000,DP EXPLODED at G=39; witness K=10048 verified
+3,100,48,GE,10000,DP CAPPED at G=39; witness K=10048 verified
+3,101,48,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,102,49,EXACT,3,DP maxstates=4
+3,103,49,EXACT,3,DP maxstates=4
+3,104,49,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,105,50,EXACT,1,DP maxstates=2
+3,106,50,GE,10000,DP EXPLODED at G=38; witness K=10050 verified
+3,107,50,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,108,53,GE,10000,DP CAPPED at G=39; witness K=10053 verified
+3,109,53,GE,10000,DP CAPPED at G=39; witness K=10053 verified
+3,110,53,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,111,54,EXACT,2,DP maxstates=4
+3,112,54,GE,10000,DP CAPPED at G=39; witness K=10054 verified
+3,113,54,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,114,55,EXACT,1,DP maxstates=2
+3,115,55,GE,10000,DP CAPPED at G=39; witness K=10055 verified
+3,116,55,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,117,57,GE,10000,DP CAPPED at G=39; witness K=10057 verified
+3,118,57,GE,10000,DP CAPPED at G=39; witness K=10057 verified
+3,119,57,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,120,58,GE,10000,DP CAPPED at G=39; witness K=10058 verified
+3,121,58,GE,10000,DP CAPPED at G=39; witness K=10058 verified
+3,122,58,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,123,59,EXACT,1,DP maxstates=2
+3,124,59,GE,10000,DP CAPPED at G=39; witness K=10059 verified
+3,125,59,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,126,61,EXACT,4,DP maxstates=9
+3,127,61,GE,10000,DP CAPPED at G=39; witness K=10061 verified
+3,128,61,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,129,62,EXACT,3,DP maxstates=4
+3,130,62,EXACT,3,DP maxstates=4
+3,131,62,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,132,63,EXACT,1,DP maxstates=2
+3,133,63,GE,10000,DP CAPPED at G=39; witness K=10063 verified
+3,134,63,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,135,66,GE,10000,DP CAPPED at G=39; witness K=10066 verified
+3,136,66,GE,10000,DP CAPPED at G=39; witness K=10066 verified
+3,137,66,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,138,67,EXACT,2,DP maxstates=4
+3,139,67,GE,10000,DP CAPPED at G=39; witness K=10067 verified
+3,140,67,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,141,68,EXACT,1,DP maxstates=2
+3,142,68,GE,10000,DP CAPPED at G=39; witness K=10068 verified
+3,143,68,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,144,70,GE,10000,DP CAPPED at G=39; witness K=10070 verified
+3,145,70,GE,10000,DP CAPPED at G=39; witness K=10070 verified
+3,146,70,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,147,71,EXACT,8,DP maxstates=17
+3,148,71,EXACT,7,DP maxstates=19
+3,149,71,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,150,72,EXACT,1,DP maxstates=2
+3,151,72,EXACT,7,DP maxstates=27
+3,152,72,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,153,74,EXACT,4,DP maxstates=9
+3,154,74,EXACT,5,DP maxstates=9
+3,155,74,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,156,75,GE,10000,DP CAPPED at G=39; witness K=10075 verified
+3,157,75,EXACT,3,DP maxstates=4
+3,158,75,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,159,76,EXACT,1,DP maxstates=2
+3,160,76,GE,10000,DP EXPLODED at G=39; witness K=10076 verified
+3,161,76,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,162,80,GE,10000,DP CAPPED at G=39; witness K=10080 verified
+3,163,80,GE,10000,DP CAPPED at G=39; witness K=10080 verified
+3,164,80,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,165,81,EXACT,2,DP maxstates=4
+3,166,81,GE,10000,DP CAPPED at G=39; witness K=10081 verified
+3,167,81,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,168,82,EXACT,1,DP maxstates=2
+3,169,82,GE,10000,DP CAPPED at G=39; witness K=10082 verified
+3,170,82,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,171,84,GE,10000,DP CAPPED at G=39; witness K=10084 verified
+3,172,84,GE,10000,DP CAPPED at G=39; witness K=10084 verified
+3,173,84,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,174,85,GE,10000,DP CAPPED at G=39; witness K=10085 verified
+3,175,85,GE,10000,DP CAPPED at G=39; witness K=10085 verified
+3,176,85,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,177,86,EXACT,1,DP maxstates=2
+3,178,86,GE,10000,DP CAPPED at G=39; witness K=10086 verified
+3,179,86,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,180,88,GE,10000,DP EXPLODED at G=39; witness K=10088 verified
+3,181,88,GE,10000,DP CAPPED at G=39; witness K=10088 verified
+3,182,88,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,183,89,EXACT,3,DP maxstates=4
+3,184,89,EXACT,3,DP maxstates=4
+3,185,89,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,186,90,EXACT,1,DP maxstates=2
+3,187,90,GE,10000,DP EXPLODED at G=39; witness K=10090 verified
+3,188,90,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,189,93,GE,10000,DP CAPPED at G=39; witness K=10093 verified
+3,190,93,GE,10000,DP CAPPED at G=39; witness K=10093 verified
+3,191,93,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,192,94,EXACT,2,DP maxstates=4
+3,193,94,GE,10000,DP CAPPED at G=39; witness K=10094 verified
+3,194,94,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,195,95,EXACT,1,DP maxstates=2
+3,196,95,GE,10000,DP CAPPED at G=39; witness K=10095 verified
+3,197,95,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,198,97,GE,10000,DP CAPPED at G=39; witness K=10097 verified
+3,199,97,GE,10000,DP CAPPED at G=39; witness K=10097 verified
+3,200,97,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,201,98,GE,10000,DP CAPPED at G=39; witness K=10098 verified
+3,202,98,GE,10000,DP CAPPED at G=39; witness K=10098 verified
+3,203,98,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,204,99,EXACT,1,DP maxstates=2
+3,205,99,GE,10000,DP CAPPED at G=39; witness K=10099 verified
+3,206,99,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,207,101,EXACT,4,DP maxstates=9
+3,208,101,GE,10000,DP CAPPED at G=39; witness K=10101 verified
+3,209,101,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,210,102,EXACT,3,DP maxstates=4
+3,211,102,EXACT,3,DP maxstates=4
+3,212,102,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,213,103,EXACT,1,DP maxstates=2
+3,214,103,GE,10000,DP CAPPED at G=39; witness K=10103 verified
+3,215,103,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,216,106,EXACT,14,DP maxstates=104
+3,217,106,GE,10000,DP CAPPED at G=39; witness K=10106 verified
+3,218,106,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,219,107,EXACT,2,DP maxstates=4
+3,220,107,EXACT,13,DP maxstates=113
+3,221,107,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,222,108,EXACT,1,DP maxstates=2
+3,223,108,GE,10000,DP CAPPED at G=39; witness K=10108 verified
+3,224,108,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,225,110,EXACT,9,DP maxstates=45
+3,226,110,GE,10000,DP CAPPED at G=39; witness K=10110 verified
+3,227,110,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,228,111,EXACT,8,DP maxstates=14
+3,229,111,EXACT,7,DP maxstates=14
+3,230,111,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,231,112,EXACT,1,DP maxstates=2
+3,232,112,EXACT,8,DP maxstates=36
+3,233,112,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,234,114,EXACT,5,DP maxstates=12
+3,235,114,EXACT,6,DP maxstates=12
+3,236,114,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,237,115,EXACT,4,DP maxstates=4
+3,238,115,EXACT,3,DP maxstates=4
+3,239,115,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,240,116,EXACT,1,DP maxstates=2
+3,241,116,GE,10000,DP CAPPED at G=39; witness K=10116 verified
+3,242,116,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,243,121,GE,10000,DP CAPPED at G=39; witness K=10121 verified
+3,244,121,GE,10000,DP CAPPED at G=39; witness K=10121 verified
+3,245,121,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,246,122,EXACT,2,DP maxstates=4
+3,247,122,GE,10000,DP CAPPED at G=39; witness K=10122 verified
+3,248,122,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,249,123,EXACT,1,DP maxstates=2
+3,250,123,GE,10000,DP CAPPED at G=39; witness K=10123 verified
+3,251,123,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,252,125,GE,10000,DP CAPPED at G=39; witness K=10125 verified
+3,253,125,GE,10000,DP CAPPED at G=39; witness K=10125 verified
+3,254,125,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,255,126,GE,10000,DP CAPPED at G=39; witness K=10126 verified
+3,256,126,GE,10000,DP CAPPED at G=39; witness K=10126 verified
+3,257,126,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,258,127,EXACT,1,DP maxstates=2
+3,259,127,GE,10000,DP CAPPED at G=39; witness K=10127 verified
+3,260,127,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,261,129,GE,10000,DP EXPLODED at G=39; witness K=10129 verified
+3,262,129,GE,10000,DP CAPPED at G=39; witness K=10129 verified
+3,263,129,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,264,130,EXACT,3,DP maxstates=4
+3,265,130,EXACT,3,DP maxstates=4
+3,266,130,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,267,131,EXACT,1,DP maxstates=2
+3,268,131,GE,10000,DP EXPLODED at G=38; witness K=10131 verified
+3,269,131,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,270,134,GE,10000,DP CAPPED at G=39; witness K=10134 verified
+3,271,134,GE,10000,DP CAPPED at G=39; witness K=10134 verified
+3,272,134,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,273,135,EXACT,2,DP maxstates=4
+3,274,135,GE,10000,DP CAPPED at G=39; witness K=10135 verified
+3,275,135,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,276,136,EXACT,1,DP maxstates=2
+3,277,136,GE,10000,DP CAPPED at G=39; witness K=10136 verified
+3,278,136,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,279,138,GE,10000,DP CAPPED at G=39; witness K=10138 verified
+3,280,138,GE,10000,DP CAPPED at G=39; witness K=10138 verified
+3,281,138,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,282,139,GE,10000,DP CAPPED at G=39; witness K=10139 verified
+3,283,139,EXACT,7,DP maxstates=13
+3,284,139,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,285,140,EXACT,1,DP maxstates=2
+3,286,140,GE,10000,DP CAPPED at G=39; witness K=10140 verified
+3,287,140,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,288,142,GE,10000,DP CAPPED at G=39; witness K=10142 verified
+3,289,142,GE,10000,DP CAPPED at G=39; witness K=10142 verified
+3,290,142,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,291,143,EXACT,3,DP maxstates=4
+3,292,143,EXACT,3,DP maxstates=4
+3,293,143,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,294,144,EXACT,1,DP maxstates=2
+3,295,144,GE,10000,DP CAPPED at G=39; witness K=10144 verified
+3,296,144,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,297,147,GE,10000,DP CAPPED at G=39; witness K=10147 verified
+3,298,147,GE,10000,DP CAPPED at G=39; witness K=10147 verified
+3,299,147,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,300,148,EXACT,2,DP maxstates=4
+3,301,148,GE,10000,DP CAPPED at G=39; witness K=10148 verified
+3,302,148,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,303,149,EXACT,1,DP maxstates=2
+3,304,149,GE,10000,DP CAPPED at G=39; witness K=10149 verified
+3,305,149,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,306,151,GE,10000,DP CAPPED at G=39; witness K=10151 verified
+3,307,151,EXACT,9,DP maxstates=43
+3,308,151,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,309,152,EXACT,7,DP maxstates=13
+3,310,152,GE,10000,DP CAPPED at G=39; witness K=10152 verified
+3,311,152,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,312,153,EXACT,1,DP maxstates=2
+3,313,153,EXACT,7,DP maxstates=33
+3,314,153,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,315,155,EXACT,4,DP maxstates=9
+3,316,155,EXACT,5,DP maxstates=12
+3,317,155,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,318,156,EXACT,4,DP maxstates=4
+3,319,156,EXACT,3,DP maxstates=4
+3,320,156,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,321,157,EXACT,1,DP maxstates=2
+3,322,157,GE,10000,DP EXPLODED at G=39; witness K=10157 verified
+3,323,157,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,324,161,GE,10000,DP CAPPED at G=39; witness K=10161 verified
+3,325,161,GE,10000,DP CAPPED at G=39; witness K=10161 verified
+3,326,161,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,327,162,EXACT,2,DP maxstates=4
+3,328,162,GE,10000,DP CAPPED at G=39; witness K=10162 verified
+3,329,162,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,330,163,EXACT,1,DP maxstates=2
+3,331,163,GE,10000,DP CAPPED at G=39; witness K=10163 verified
+3,332,163,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,333,165,GE,10000,DP CAPPED at G=39; witness K=10165 verified
+3,334,165,GE,10000,DP CAPPED at G=39; witness K=10165 verified
+3,335,165,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,336,166,GE,10000,DP CAPPED at G=39; witness K=10166 verified
+3,337,166,GE,10000,DP CAPPED at G=39; witness K=10166 verified
+3,338,166,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,339,167,EXACT,1,DP maxstates=2
+3,340,167,GE,10000,DP CAPPED at G=39; witness K=10167 verified
+3,341,167,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,342,169,GE,10000,DP CAPPED at G=39; witness K=10169 verified
+3,343,169,GE,10000,DP CAPPED at G=39; witness K=10169 verified
+3,344,169,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,345,170,EXACT,3,DP maxstates=4
+3,346,170,EXACT,3,DP maxstates=4
+3,347,170,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,348,171,EXACT,1,DP maxstates=2
+3,349,171,GE,10000,DP EXPLODED at G=38; witness K=10171 verified
+3,350,171,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,351,174,GE,10000,DP CAPPED at G=39; witness K=10174 verified
+3,352,174,GE,10000,DP CAPPED at G=39; witness K=10174 verified
+3,353,174,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,354,175,EXACT,2,DP maxstates=4
+3,355,175,GE,10000,DP CAPPED at G=39; witness K=10175 verified
+3,356,175,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,357,176,EXACT,1,DP maxstates=2
+3,358,176,GE,10000,DP CAPPED at G=39; witness K=10176 verified
+3,359,176,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,360,178,GE,10000,DP CAPPED at G=39; witness K=10178 verified
+3,361,178,GE,10000,DP CAPPED at G=39; witness K=10178 verified
+3,362,178,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,363,179,GE,10000,DP CAPPED at G=39; witness K=10179 verified
+3,364,179,GE,10000,DP CAPPED at G=39; witness K=10179 verified
+3,365,179,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,366,180,EXACT,1,DP maxstates=2
+3,367,180,GE,10000,DP CAPPED at G=39; witness K=10180 verified
+3,368,180,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,369,182,EXACT,4,DP maxstates=9
+3,370,182,GE,10000,DP CAPPED at G=39; witness K=10182 verified
+3,371,182,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,372,183,EXACT,3,DP maxstates=4
+3,373,183,EXACT,3,DP maxstates=4
+3,374,183,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,375,184,EXACT,1,DP maxstates=2
+3,376,184,GE,10000,DP CAPPED at G=39; witness K=10184 verified
+3,377,184,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,378,187,GE,10000,DP CAPPED at G=39; witness K=10187 verified
+3,379,187,GE,10000,DP CAPPED at G=39; witness K=10187 verified
+3,380,187,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,381,188,EXACT,2,DP maxstates=4
+3,382,188,GE,10000,DP CAPPED at G=39; witness K=10188 verified
+3,383,188,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,384,189,EXACT,1,DP maxstates=2
+3,385,189,GE,10000,DP CAPPED at G=39; witness K=10189 verified
+3,386,189,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,387,191,EXACT,9,DP maxstates=48
+3,388,191,GE,10000,DP CAPPED at G=39; witness K=10191 verified
+3,389,191,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,390,192,EXACT,8,DP maxstates=18
+3,391,192,GE,10000,DP CAPPED at G=39; witness K=10192 verified
+3,392,192,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,393,193,EXACT,1,DP maxstates=2
+3,394,193,GE,10000,DP CAPPED at G=39; witness K=10193 verified
+3,395,193,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,396,195,EXACT,4,DP maxstates=9
+3,397,195,EXACT,5,DP maxstates=9
+3,398,195,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,399,196,GE,10000,DP CAPPED at G=39; witness K=10196 verified
+3,400,196,EXACT,3,DP maxstates=4
+3,401,196,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,402,197,EXACT,1,DP maxstates=2
+3,403,197,GE,10000,DP EXPLODED at G=39; witness K=10197 verified
+3,404,197,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,405,201,GE,10000,DP CAPPED at G=39; witness K=10201 verified
+3,406,201,GE,10000,DP CAPPED at G=39; witness K=10201 verified
+3,407,201,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,408,202,EXACT,2,DP maxstates=4
+3,409,202,GE,10000,DP CAPPED at G=39; witness K=10202 verified
+3,410,202,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,411,203,EXACT,1,DP maxstates=2
+3,412,203,GE,10000,DP CAPPED at G=39; witness K=10203 verified
+3,413,203,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,414,205,GE,10000,DP CAPPED at G=39; witness K=10205 verified
+3,415,205,GE,10000,DP CAPPED at G=39; witness K=10205 verified
+3,416,205,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,417,206,GE,10000,DP CAPPED at G=39; witness K=10206 verified
+3,418,206,GE,10000,DP CAPPED at G=39; witness K=10206 verified
+3,419,206,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,420,207,EXACT,1,DP maxstates=2
+3,421,207,GE,10000,DP CAPPED at G=39; witness K=10207 verified
+3,422,207,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,423,209,GE,10000,DP EXPLODED at G=39; witness K=10209 verified
+3,424,209,GE,10000,DP CAPPED at G=39; witness K=10209 verified
+3,425,209,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,426,210,EXACT,3,DP maxstates=4
+3,427,210,EXACT,3,DP maxstates=4
+3,428,210,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,429,211,EXACT,1,DP maxstates=2
+3,430,211,GE,10000,DP CAPPED at G=39; witness K=10211 verified
+3,431,211,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,432,214,GE,10000,DP CAPPED at G=39; witness K=10214 verified
+3,433,214,GE,10000,DP CAPPED at G=39; witness K=10214 verified
+3,434,214,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,435,215,EXACT,2,DP maxstates=4
+3,436,215,GE,10000,DP CAPPED at G=39; witness K=10215 verified
+3,437,215,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,438,216,EXACT,1,DP maxstates=2
+3,439,216,GE,10000,DP CAPPED at G=39; witness K=10216 verified
+3,440,216,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,441,218,GE,10000,DP CAPPED at G=39; witness K=10218 verified
+3,442,218,GE,10000,DP CAPPED at G=39; witness K=10218 verified
+3,443,218,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,444,219,GE,10000,DP CAPPED at G=39; witness K=10219 verified
+3,445,219,GE,10000,DP CAPPED at G=39; witness K=10219 verified
+3,446,219,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,447,220,EXACT,1,DP maxstates=2
+3,448,220,GE,10000,DP CAPPED at G=39; witness K=10220 verified
+3,449,220,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,450,222,EXACT,4,DP maxstates=9
+3,451,222,GE,10000,DP CAPPED at G=39; witness K=10222 verified
+3,452,222,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,453,223,EXACT,3,DP maxstates=4
+3,454,223,EXACT,3,DP maxstates=4
+3,455,223,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,456,224,EXACT,1,DP maxstates=2
+3,457,224,GE,10000,DP CAPPED at G=39; witness K=10224 verified
+3,458,224,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,459,227,GE,10000,DP CAPPED at G=39; witness K=10227 verified
+3,460,227,GE,10000,DP CAPPED at G=39; witness K=10227 verified
+3,461,227,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,462,228,EXACT,2,DP maxstates=4
+3,463,228,GE,10000,DP CAPPED at G=39; witness K=10228 verified
+3,464,228,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,465,229,EXACT,1,DP maxstates=2
+3,466,229,GE,10000,DP CAPPED at G=39; witness K=10229 verified
+3,467,229,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,468,231,EXACT,8,DP maxstates=25
+3,469,231,EXACT,8,DP maxstates=23
+3,470,231,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,471,232,EXACT,8,DP maxstates=16
+3,472,232,EXACT,8,DP maxstates=20
+3,473,232,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,474,233,EXACT,1,DP maxstates=2
+3,475,233,EXACT,7,DP maxstates=25
+3,476,233,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,477,235,EXACT,6,DP maxstates=12
+3,478,235,EXACT,6,DP maxstates=12
+3,479,235,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,480,236,EXACT,4,DP maxstates=4
+3,481,236,EXACT,3,DP maxstates=4
+3,482,236,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,483,237,EXACT,1,DP maxstates=2
+3,484,237,GE,10000,DP EXPLODED at G=39; witness K=10237 verified
+3,485,237,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,486,242,GE,10000,DP CAPPED at G=39; witness K=10242 verified
+3,487,242,GE,10000,DP CAPPED at G=39; witness K=10242 verified
+3,488,242,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,489,243,EXACT,2,DP maxstates=4
+3,490,243,GE,10000,DP CAPPED at G=39; witness K=10243 verified
+3,491,243,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,492,244,EXACT,1,DP maxstates=2
+3,493,244,GE,10000,DP CAPPED at G=39; witness K=10244 verified
+3,494,244,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,495,246,GE,10000,DP CAPPED at G=39; witness K=10246 verified
+3,496,246,GE,10000,DP CAPPED at G=39; witness K=10246 verified
+3,497,246,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,498,247,GE,10000,DP CAPPED at G=39; witness K=10247 verified
+3,499,247,GE,10000,DP CAPPED at G=39; witness K=10247 verified
+3,500,247,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,501,248,EXACT,1,DP maxstates=2
+3,502,248,GE,10000,DP CAPPED at G=39; witness K=10248 verified
+3,503,248,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,504,250,GE,10000,DP EXPLODED at G=39; witness K=10250 verified
+3,505,250,GE,10000,DP CAPPED at G=39; witness K=10250 verified
+3,506,250,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,507,251,EXACT,3,DP maxstates=4
+3,508,251,EXACT,3,DP maxstates=4
+3,509,251,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,510,252,EXACT,1,DP maxstates=2
+3,511,252,GE,10000,DP EXPLODED at G=38; witness K=10252 verified
+3,512,252,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,513,255,GE,10000,DP CAPPED at G=39; witness K=10255 verified
+3,514,255,GE,10000,DP CAPPED at G=39; witness K=10255 verified
+3,515,255,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,516,256,EXACT,2,DP maxstates=4
+3,517,256,GE,10000,DP CAPPED at G=39; witness K=10256 verified
+3,518,256,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,519,257,EXACT,1,DP maxstates=2
+3,520,257,GE,10000,DP CAPPED at G=39; witness K=10257 verified
+3,521,257,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,522,259,GE,10000,DP CAPPED at G=39; witness K=10259 verified
+3,523,259,GE,10000,DP CAPPED at G=39; witness K=10259 verified
+3,524,259,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,525,260,GE,10000,DP CAPPED at G=39; witness K=10260 verified
+3,526,260,GE,10000,DP CAPPED at G=39; witness K=10260 verified
+3,527,260,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,528,261,EXACT,1,DP maxstates=2
+3,529,261,GE,10000,DP CAPPED at G=39; witness K=10261 verified
+3,530,261,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,531,263,GE,10000,DP CAPPED at G=39; witness K=10263 verified
+3,532,263,GE,10000,DP CAPPED at G=39; witness K=10263 verified
+3,533,263,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,534,264,EXACT,3,DP maxstates=4
+3,535,264,EXACT,3,DP maxstates=4
+3,536,264,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,537,265,EXACT,1,DP maxstates=2
+3,538,265,GE,10000,DP CAPPED at G=39; witness K=10265 verified
+3,539,265,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,540,268,GE,10000,DP CAPPED at G=39; witness K=10268 verified
+3,541,268,GE,10000,DP CAPPED at G=39; witness K=10268 verified
+3,542,268,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,543,269,EXACT,2,DP maxstates=4
+3,544,269,GE,10000,DP CAPPED at G=39; witness K=10269 verified
+3,545,269,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,546,270,EXACT,1,DP maxstates=2
+3,547,270,GE,10000,DP CAPPED at G=39; witness K=10270 verified
+3,548,270,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,549,272,GE,10000,DP CAPPED at G=39; witness K=10272 verified
+3,550,272,EXACT,9,DP maxstates=49
+3,551,272,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,552,273,GE,10000,DP CAPPED at G=39; witness K=10273 verified
+3,553,273,EXACT,8,DP maxstates=32
+3,554,273,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,555,274,EXACT,1,DP maxstates=2
+3,556,274,EXACT,7,DP maxstates=36
+3,557,274,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,558,276,EXACT,4,DP maxstates=9
+3,559,276,EXACT,5,DP maxstates=12
+3,560,276,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,561,277,EXACT,4,DP maxstates=4
+3,562,277,EXACT,3,DP maxstates=4
+3,563,277,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,564,278,EXACT,1,DP maxstates=2
+3,565,278,GE,10000,DP EXPLODED at G=38; witness K=10278 verified
+3,566,278,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,567,282,GE,10000,DP CAPPED at G=39; witness K=10282 verified
+3,568,282,GE,10000,DP CAPPED at G=39; witness K=10282 verified
+3,569,282,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,570,283,EXACT,2,DP maxstates=4
+3,571,283,GE,10000,DP CAPPED at G=39; witness K=10283 verified
+3,572,283,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,573,284,EXACT,1,DP maxstates=2
+3,574,284,GE,10000,DP CAPPED at G=39; witness K=10284 verified
+3,575,284,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,576,286,GE,10000,DP CAPPED at G=39; witness K=10286 verified
+3,577,286,GE,10000,DP CAPPED at G=39; witness K=10286 verified
+3,578,286,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,579,287,EXACT,7,DP maxstates=21
+3,580,287,GE,10000,DP CAPPED at G=39; witness K=10287 verified
+3,581,287,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,582,288,EXACT,1,DP maxstates=2
+3,583,288,GE,10000,DP CAPPED at G=39; witness K=10288 verified
+3,584,288,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,585,290,GE,10000,DP CAPPED at G=39; witness K=10290 verified
+3,586,290,GE,10000,DP CAPPED at G=39; witness K=10290 verified
+3,587,290,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,588,291,EXACT,3,DP maxstates=4
+3,589,291,EXACT,3,DP maxstates=4
+3,590,291,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,591,292,EXACT,1,DP maxstates=2
+3,592,292,GE,10000,DP EXPLODED at G=38; witness K=10292 verified
+3,593,292,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,594,295,GE,10000,DP CAPPED at G=39; witness K=10295 verified
+3,595,295,GE,10000,DP CAPPED at G=39; witness K=10295 verified
+3,596,295,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,597,296,EXACT,2,DP maxstates=4
+3,598,296,GE,10000,DP CAPPED at G=39; witness K=10296 verified
+3,599,296,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,600,297,EXACT,1,DP maxstates=2
+3,601,297,GE,10000,DP CAPPED at G=39; witness K=10297 verified
+3,602,297,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,603,299,GE,10000,DP CAPPED at G=39; witness K=10299 verified
+3,604,299,GE,10000,DP CAPPED at G=39; witness K=10299 verified
+3,605,299,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,606,300,GE,10000,DP CAPPED at G=39; witness K=10300 verified
+3,607,300,GE,10000,DP CAPPED at G=39; witness K=10300 verified
+3,608,300,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,609,301,EXACT,1,DP maxstates=2
+3,610,301,GE,10000,DP CAPPED at G=39; witness K=10301 verified
+3,611,301,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,612,303,EXACT,4,DP maxstates=9
+3,613,303,GE,10000,DP CAPPED at G=39; witness K=10303 verified
+3,614,303,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,615,304,EXACT,3,DP maxstates=4
+3,616,304,EXACT,3,DP maxstates=4
+3,617,304,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,618,305,EXACT,1,DP maxstates=2
+3,619,305,GE,10000,DP CAPPED at G=39; witness K=10305 verified
+3,620,305,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,621,308,GE,10000,DP CAPPED at G=39; witness K=10308 verified
+3,622,308,GE,10000,DP CAPPED at G=39; witness K=10308 verified
+3,623,308,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,624,309,EXACT,2,DP maxstates=4
+3,625,309,GE,10000,DP CAPPED at G=39; witness K=10309 verified
+3,626,309,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,627,310,EXACT,1,DP maxstates=2
+3,628,310,GE,10000,DP CAPPED at G=39; witness K=10310 verified
+3,629,310,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,630,312,GE,10000,DP CAPPED at G=39; witness K=10312 verified
+3,631,312,EXACT,9,DP maxstates=45
+3,632,312,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,633,313,EXACT,8,DP maxstates=18
+3,634,313,GE,10000,DP CAPPED at G=39; witness K=10313 verified
+3,635,313,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,636,314,EXACT,1,DP maxstates=2
+3,637,314,GE,10000,DP CAPPED at G=39; witness K=10314 verified
+3,638,314,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,639,316,EXACT,4,DP maxstates=9
+3,640,316,EXACT,5,DP maxstates=9
+3,641,316,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,642,317,GE,10000,DP EXPLODED at G=39; witness K=10317 verified
+3,643,317,EXACT,3,DP maxstates=4
+3,644,317,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,645,318,EXACT,1,DP maxstates=2
+3,646,318,GE,10000,DP CAPPED at G=39; witness K=10318 verified
+3,647,318,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,648,322,GE,10000,DP CAPPED at G=39; witness K=10322 verified
+3,649,322,GE,10000,DP CAPPED at G=39; witness K=10322 verified
+3,650,322,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,651,323,EXACT,2,DP maxstates=4
+3,652,323,GE,10000,DP CAPPED at G=39; witness K=10323 verified
+3,653,323,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,654,324,EXACT,1,DP maxstates=2
+3,655,324,GE,10000,DP CAPPED at G=39; witness K=10324 verified
+3,656,324,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,657,326,GE,10000,DP CAPPED at G=39; witness K=10326 verified
+3,658,326,GE,10000,DP CAPPED at G=39; witness K=10326 verified
+3,659,326,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,660,327,GE,10000,DP CAPPED at G=39; witness K=10327 verified
+3,661,327,GE,10000,DP CAPPED at G=39; witness K=10327 verified
+3,662,327,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,663,328,EXACT,1,DP maxstates=2
+3,664,328,GE,10000,DP CAPPED at G=39; witness K=10328 verified
+3,665,328,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,666,330,GE,10000,DP EXPLODED at G=39; witness K=10330 verified
+3,667,330,GE,10000,DP CAPPED at G=39; witness K=10330 verified
+3,668,330,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,669,331,EXACT,3,DP maxstates=4
+3,670,331,EXACT,3,DP maxstates=4
+3,671,331,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,672,332,EXACT,1,DP maxstates=2
+3,673,332,GE,10000,DP CAPPED at G=39; witness K=10332 verified
+3,674,332,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,675,335,GE,10000,DP CAPPED at G=39; witness K=10335 verified
+3,676,335,GE,10000,DP CAPPED at G=39; witness K=10335 verified
+3,677,335,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,678,336,EXACT,2,DP maxstates=4
+3,679,336,GE,10000,DP CAPPED at G=39; witness K=10336 verified
+3,680,336,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,681,337,EXACT,1,DP maxstates=2
+3,682,337,GE,10000,DP CAPPED at G=39; witness K=10337 verified
+3,683,337,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,684,339,GE,10000,DP CAPPED at G=39; witness K=10339 verified
+3,685,339,GE,10000,DP CAPPED at G=39; witness K=10339 verified
+3,686,339,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,687,340,EXACT,7,DP maxstates=16
+3,688,340,GE,10000,DP CAPPED at G=39; witness K=10340 verified
+3,689,340,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,690,341,EXACT,1,DP maxstates=2
+3,691,341,GE,10000,DP CAPPED at G=39; witness K=10341 verified
+3,692,341,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,693,343,EXACT,4,DP maxstates=9
+3,694,343,GE,10000,DP CAPPED at G=39; witness K=10343 verified
+3,695,343,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,696,344,EXACT,3,DP maxstates=4
+3,697,344,EXACT,3,DP maxstates=4
+3,698,344,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,699,345,EXACT,1,DP maxstates=2
+3,700,345,EXACT,18,DP maxstates=649
+3,701,345,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,702,348,EXACT,15,DP maxstates=104
+3,703,348,GE,10000,DP CAPPED at G=39; witness K=10348 verified
+3,704,348,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,705,349,EXACT,2,DP maxstates=4
+3,706,349,EXACT,14,DP maxstates=161
+3,707,349,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,708,350,EXACT,1,DP maxstates=2
+3,709,350,GE,10000,DP CAPPED at G=39; witness K=10350 verified
+3,710,350,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,711,352,GE,10000,DP CAPPED at G=39; witness K=10352 verified
+3,712,352,EXACT,10,DP maxstates=66
+3,713,352,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,714,353,EXACT,7,DP maxstates=14
+3,715,353,EXACT,9,DP maxstates=32
+3,716,353,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,717,354,EXACT,1,DP maxstates=2
+3,718,354,EXACT,7,DP maxstates=32
+3,719,354,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,720,356,EXACT,5,DP maxstates=12
+3,721,356,GE,10000,DP CAPPED at G=39; witness K=10356 verified
+3,722,356,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,723,357,EXACT,4,DP maxstates=4
+3,724,357,EXACT,3,DP maxstates=4
+3,725,357,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,726,358,EXACT,1,DP maxstates=2
+3,727,358,GE,10000,DP CAPPED at G=39; witness K=10358 verified
+3,728,358,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,729,364,GE,10000,DP CAPPED at G=39; witness K=10364 verified
+3,730,364,GE,10000,DP CAPPED at G=39; witness K=10364 verified
+3,731,364,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,732,365,EXACT,2,DP maxstates=4
+3,733,365,GE,10000,DP CAPPED at G=39; witness K=10365 verified
+3,734,365,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,735,366,EXACT,1,DP maxstates=2
+3,736,366,GE,10000,DP CAPPED at G=39; witness K=10366 verified
+3,737,366,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,738,368,GE,10000,DP CAPPED at G=39; witness K=10368 verified
+3,739,368,GE,10000,DP CAPPED at G=39; witness K=10368 verified
+3,740,368,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,741,369,GE,10000,DP CAPPED at G=39; witness K=10369 verified
+3,742,369,GE,10000,DP CAPPED at G=39; witness K=10369 verified
+3,743,369,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,744,370,EXACT,1,DP maxstates=2
+3,745,370,GE,10000,DP CAPPED at G=39; witness K=10370 verified
+3,746,370,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,747,372,GE,10000,DP CAPPED at G=39; witness K=10372 verified
+3,748,372,GE,10000,DP CAPPED at G=39; witness K=10372 verified
+3,749,372,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,750,373,EXACT,3,DP maxstates=4
+3,751,373,EXACT,3,DP maxstates=4
+3,752,373,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,753,374,EXACT,1,DP maxstates=2
+3,754,374,GE,10000,DP EXPLODED at G=38; witness K=10374 verified
+3,755,374,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,756,377,GE,10000,DP CAPPED at G=39; witness K=10377 verified
+3,757,377,GE,10000,DP CAPPED at G=39; witness K=10377 verified
+3,758,377,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,759,378,EXACT,2,DP maxstates=4
+3,760,378,GE,10000,DP CAPPED at G=39; witness K=10378 verified
+3,761,378,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,762,379,EXACT,1,DP maxstates=2
+3,763,379,GE,10000,DP CAPPED at G=39; witness K=10379 verified
+3,764,379,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,765,381,GE,10000,DP CAPPED at G=39; witness K=10381 verified
+3,766,381,GE,10000,DP CAPPED at G=39; witness K=10381 verified
+3,767,381,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,768,382,GE,10000,DP CAPPED at G=39; witness K=10382 verified
+3,769,382,EXACT,7,DP maxstates=13
+3,770,382,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,771,383,EXACT,1,DP maxstates=2
+3,772,383,GE,10000,DP CAPPED at G=39; witness K=10383 verified
+3,773,383,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,774,385,GE,10000,DP CAPPED at G=39; witness K=10385 verified
+3,775,385,GE,10000,DP CAPPED at G=39; witness K=10385 verified
+3,776,385,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,777,386,EXACT,3,DP maxstates=4
+3,778,386,EXACT,3,DP maxstates=4
+3,779,386,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,780,387,EXACT,1,DP maxstates=2
+3,781,387,GE,10000,DP CAPPED at G=39; witness K=10387 verified
+3,782,387,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,783,390,GE,10000,DP CAPPED at G=39; witness K=10390 verified
+3,784,390,GE,10000,DP CAPPED at G=39; witness K=10390 verified
+3,785,390,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,786,391,EXACT,2,DP maxstates=4
+3,787,391,GE,10000,DP CAPPED at G=39; witness K=10391 verified
+3,788,391,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,789,392,EXACT,1,DP maxstates=2
+3,790,392,GE,10000,DP CAPPED at G=39; witness K=10392 verified
+3,791,392,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,792,394,GE,10000,DP CAPPED at G=39; witness K=10394 verified
+3,793,394,GE,10000,DP CAPPED at G=39; witness K=10394 verified
+3,794,394,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,795,395,EXACT,7,DP maxstates=13
+3,796,395,EXACT,7,DP maxstates=19
+3,797,395,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,798,396,EXACT,1,DP maxstates=2
+3,799,396,EXACT,7,DP maxstates=32
+3,800,396,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,801,398,EXACT,4,DP maxstates=9
+3,802,398,EXACT,5,DP maxstates=12
+3,803,398,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,804,399,EXACT,4,DP maxstates=4
+3,805,399,EXACT,3,DP maxstates=4
+3,806,399,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,807,400,EXACT,1,DP maxstates=2
+3,808,400,GE,10000,DP EXPLODED at G=38; witness K=10400 verified
+3,809,400,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,810,404,GE,10000,DP EXPLODED at G=39; witness K=10404 verified
+3,811,404,GE,10000,DP CAPPED at G=39; witness K=10404 verified
+3,812,404,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,813,405,EXACT,2,DP maxstates=4
+3,814,405,EXACT,11,DP maxstates=21
+3,815,405,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,816,406,EXACT,1,DP maxstates=2
+3,817,406,GE,10000,DP CAPPED at G=39; witness K=10406 verified
+3,818,406,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,819,408,GE,10000,DP CAPPED at G=39; witness K=10408 verified
+3,820,408,GE,10000,DP CAPPED at G=39; witness K=10408 verified
+3,821,408,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,822,409,GE,10000,DP CAPPED at G=39; witness K=10409 verified
+3,823,409,GE,10000,DP CAPPED at G=39; witness K=10409 verified
+3,824,409,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,825,410,EXACT,1,DP maxstates=2
+3,826,410,GE,10000,DP CAPPED at G=39; witness K=10410 verified
+3,827,410,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,828,412,GE,10000,DP CAPPED at G=39; witness K=10412 verified
+3,829,412,GE,10000,DP CAPPED at G=39; witness K=10412 verified
+3,830,412,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,831,413,EXACT,3,DP maxstates=4
+3,832,413,EXACT,3,DP maxstates=4
+3,833,413,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,834,414,EXACT,1,DP maxstates=2
+3,835,414,GE,10000,DP EXPLODED at G=38; witness K=10414 verified
+3,836,414,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,837,417,GE,10000,DP CAPPED at G=39; witness K=10417 verified
+3,838,417,GE,10000,DP CAPPED at G=39; witness K=10417 verified
+3,839,417,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,840,418,EXACT,2,DP maxstates=4
+3,841,418,GE,10000,DP CAPPED at G=39; witness K=10418 verified
+3,842,418,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,843,419,EXACT,1,DP maxstates=2
+3,844,419,GE,10000,DP CAPPED at G=39; witness K=10419 verified
+3,845,419,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,846,421,GE,10000,DP CAPPED at G=39; witness K=10421 verified
+3,847,421,GE,10000,DP CAPPED at G=39; witness K=10421 verified
+3,848,421,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,849,422,GE,10000,DP CAPPED at G=39; witness K=10422 verified
+3,850,422,GE,10000,DP CAPPED at G=39; witness K=10422 verified
+3,851,422,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,852,423,EXACT,1,DP maxstates=2
+3,853,423,GE,10000,DP CAPPED at G=39; witness K=10423 verified
+3,854,423,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,855,425,EXACT,4,DP maxstates=9
+3,856,425,GE,10000,DP CAPPED at G=39; witness K=10425 verified
+3,857,425,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,858,426,EXACT,3,DP maxstates=4
+3,859,426,EXACT,3,DP maxstates=4
+3,860,426,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,861,427,EXACT,1,DP maxstates=2
+3,862,427,GE,10000,DP CAPPED at G=39; witness K=10427 verified
+3,863,427,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,864,430,GE,10000,DP CAPPED at G=39; witness K=10430 verified
+3,865,430,GE,10000,DP CAPPED at G=39; witness K=10430 verified
+3,866,430,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,867,431,EXACT,2,DP maxstates=4
+3,868,431,GE,10000,DP CAPPED at G=39; witness K=10431 verified
+3,869,431,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,870,432,EXACT,1,DP maxstates=2
+3,871,432,GE,10000,DP CAPPED at G=39; witness K=10432 verified
+3,872,432,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,873,434,GE,10000,DP CAPPED at G=39; witness K=10434 verified
+3,874,434,GE,10000,DP CAPPED at G=39; witness K=10434 verified
+3,875,434,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,876,435,EXACT,8,DP maxstates=17
+3,877,435,EXACT,8,DP maxstates=22
+3,878,435,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,879,436,EXACT,1,DP maxstates=2
+3,880,436,EXACT,7,DP maxstates=27
+3,881,436,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,882,438,EXACT,4,DP maxstates=9
+3,883,438,EXACT,5,DP maxstates=9
+3,884,438,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,885,439,GE,10000,DP CAPPED at G=39; witness K=10439 verified
+3,886,439,EXACT,3,DP maxstates=4
+3,887,439,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,888,440,EXACT,1,DP maxstates=2
+3,889,440,GE,10000,DP EXPLODED at G=39; witness K=10440 verified
+3,890,440,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,891,444,GE,10000,DP CAPPED at G=39; witness K=10444 verified
+3,892,444,GE,10000,DP CAPPED at G=39; witness K=10444 verified
+3,893,444,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,894,445,EXACT,2,DP maxstates=4
+3,895,445,GE,10000,DP CAPPED at G=39; witness K=10445 verified
+3,896,445,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,897,446,EXACT,1,DP maxstates=2
+3,898,446,GE,10000,DP CAPPED at G=39; witness K=10446 verified
+3,899,446,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,900,448,GE,10000,DP CAPPED at G=39; witness K=10448 verified
+3,901,448,GE,10000,DP CAPPED at G=39; witness K=10448 verified
+3,902,448,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,903,449,GE,10000,DP CAPPED at G=39; witness K=10449 verified
+3,904,449,GE,10000,DP CAPPED at G=39; witness K=10449 verified
+3,905,449,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,906,450,EXACT,1,DP maxstates=2
+3,907,450,GE,10000,DP CAPPED at G=39; witness K=10450 verified
+3,908,450,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,909,452,GE,10000,DP CAPPED at G=39; witness K=10452 verified
+3,910,452,GE,10000,DP CAPPED at G=39; witness K=10452 verified
+3,911,452,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,912,453,EXACT,3,DP maxstates=4
+3,913,453,EXACT,3,DP maxstates=4
+3,914,453,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,915,454,EXACT,1,DP maxstates=2
+3,916,454,GE,10000,DP EXPLODED at G=38; witness K=10454 verified
+3,917,454,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,918,457,GE,10000,DP CAPPED at G=39; witness K=10457 verified
+3,919,457,GE,10000,DP CAPPED at G=39; witness K=10457 verified
+3,920,457,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,921,458,EXACT,2,DP maxstates=4
+3,922,458,GE,10000,DP CAPPED at G=39; witness K=10458 verified
+3,923,458,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,924,459,EXACT,1,DP maxstates=2
+3,925,459,GE,10000,DP CAPPED at G=39; witness K=10459 verified
+3,926,459,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,927,461,GE,10000,DP CAPPED at G=39; witness K=10461 verified
+3,928,461,GE,10000,DP CAPPED at G=39; witness K=10461 verified
+3,929,461,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,930,462,EXACT,7,DP maxstates=16
+3,931,462,GE,10000,DP CAPPED at G=39; witness K=10462 verified
+3,932,462,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,933,463,EXACT,1,DP maxstates=2
+3,934,463,GE,10000,DP CAPPED at G=39; witness K=10463 verified
+3,935,463,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,936,465,EXACT,4,DP maxstates=9
+3,937,465,GE,10000,DP CAPPED at G=39; witness K=10465 verified
+3,938,465,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,939,466,EXACT,3,DP maxstates=4
+3,940,466,EXACT,3,DP maxstates=4
+3,941,466,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,942,467,EXACT,1,DP maxstates=2
+3,943,467,GE,10000,DP CAPPED at G=39; witness K=10467 verified
+3,944,467,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,945,470,GE,10000,DP CAPPED at G=39; witness K=10470 verified
+3,946,470,GE,10000,DP CAPPED at G=39; witness K=10470 verified
+3,947,470,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,948,471,EXACT,2,DP maxstates=4
+3,949,471,EXACT,17,DP maxstates=164
+3,950,471,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,951,472,EXACT,1,DP maxstates=2
+3,952,472,EXACT,12,DP maxstates=166
+3,953,472,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,954,474,EXACT,9,DP maxstates=41
+3,955,474,EXACT,8,DP maxstates=17
+3,956,474,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,957,475,GE,10000,DP CAPPED at G=39; witness K=10475 verified
+3,958,475,EXACT,9,DP maxstates=27
+3,959,475,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,960,476,EXACT,1,DP maxstates=2
+3,961,476,EXACT,8,DP maxstates=30
+3,962,476,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,963,478,EXACT,5,DP maxstates=12
+3,964,478,EXACT,6,DP maxstates=12
+3,965,478,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,966,479,EXACT,4,DP maxstates=4
+3,967,479,EXACT,3,DP maxstates=4
+3,968,479,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,969,480,EXACT,1,DP maxstates=2
+3,970,480,GE,10000,DP EXPLODED at G=39; witness K=10480 verified
+3,971,480,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,972,485,GE,10000,DP CAPPED at G=39; witness K=10485 verified
+3,973,485,GE,10000,DP CAPPED at G=39; witness K=10485 verified
+3,974,485,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,975,486,EXACT,2,DP maxstates=4
+3,976,486,GE,10000,DP CAPPED at G=39; witness K=10486 verified
+3,977,486,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,978,487,EXACT,1,DP maxstates=2
+3,979,487,GE,10000,DP CAPPED at G=39; witness K=10487 verified
+3,980,487,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,981,489,GE,10000,DP CAPPED at G=39; witness K=10489 verified
+3,982,489,GE,10000,DP CAPPED at G=39; witness K=10489 verified
+3,983,489,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,984,490,GE,10000,DP CAPPED at G=39; witness K=10490 verified
+3,985,490,GE,10000,DP CAPPED at G=39; witness K=10490 verified
+3,986,490,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,987,491,EXACT,1,DP maxstates=2
+3,988,491,GE,10000,DP CAPPED at G=39; witness K=10491 verified
+3,989,491,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,990,493,GE,10000,DP EXPLODED at G=39; witness K=10493 verified
+3,991,493,GE,10000,DP CAPPED at G=39; witness K=10493 verified
+3,992,493,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,993,494,EXACT,3,DP maxstates=4
+3,994,494,EXACT,3,DP maxstates=4
+3,995,494,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,996,495,EXACT,1,DP maxstates=2
+3,997,495,GE,10000,DP CAPPED at G=39; witness K=10495 verified
+3,998,495,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,999,498,GE,10000,DP CAPPED at G=39; witness K=10498 verified
+3,1000,498,GE,10000,DP CAPPED at G=39; witness K=10498 verified
+3,1001,498,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1002,499,EXACT,2,DP maxstates=4
+3,1003,499,GE,10000,DP CAPPED at G=39; witness K=10499 verified
+3,1004,499,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1005,500,EXACT,1,DP maxstates=2
+3,1006,500,GE,10000,DP CAPPED at G=39; witness K=10500 verified
+3,1007,500,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1008,502,GE,10000,DP CAPPED at G=39; witness K=10502 verified
+3,1009,502,GE,10000,DP CAPPED at G=39; witness K=10502 verified
+3,1010,502,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1011,503,GE,10000,DP CAPPED at G=39; witness K=10503 verified
+3,1012,503,GE,10000,DP CAPPED at G=39; witness K=10503 verified
+3,1013,503,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1014,504,EXACT,1,DP maxstates=2
+3,1015,504,GE,10000,DP CAPPED at G=39; witness K=10504 verified
+3,1016,504,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1017,506,GE,10000,DP CAPPED at G=39; witness K=10506 verified
+3,1018,506,GE,10000,DP CAPPED at G=39; witness K=10506 verified
+3,1019,506,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1020,507,EXACT,3,DP maxstates=4
+3,1021,507,EXACT,3,DP maxstates=4
+3,1022,507,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1023,508,EXACT,1,DP maxstates=2
+3,1024,508,GE,10000,DP CAPPED at G=39; witness K=10508 verified
+3,1025,508,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1026,511,GE,10000,DP CAPPED at G=39; witness K=10511 verified
+3,1027,511,GE,10000,DP CAPPED at G=39; witness K=10511 verified
+3,1028,511,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1029,512,EXACT,2,DP maxstates=4
+3,1030,512,GE,10000,DP CAPPED at G=39; witness K=10512 verified
+3,1031,512,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1032,513,EXACT,1,DP maxstates=2
+3,1033,513,GE,10000,DP CAPPED at G=39; witness K=10513 verified
+3,1034,513,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1035,515,GE,10000,DP CAPPED at G=39; witness K=10515 verified
+3,1036,515,EXACT,9,DP maxstates=50
+3,1037,515,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1038,516,EXACT,8,DP maxstates=23
+3,1039,516,EXACT,8,DP maxstates=29
+3,1040,516,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1041,517,EXACT,1,DP maxstates=2
+3,1042,517,EXACT,7,DP maxstates=33
+3,1043,517,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1044,519,EXACT,4,DP maxstates=9
+3,1045,519,EXACT,5,DP maxstates=12
+3,1046,519,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1047,520,EXACT,4,DP maxstates=4
+3,1048,520,EXACT,3,DP maxstates=4
+3,1049,520,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1050,521,EXACT,1,DP maxstates=2
+3,1051,521,GE,10000,DP EXPLODED at G=38; witness K=10521 verified
+3,1052,521,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1053,525,GE,10000,DP CAPPED at G=39; witness K=10525 verified
+3,1054,525,GE,10000,DP CAPPED at G=39; witness K=10525 verified
+3,1055,525,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1056,526,EXACT,2,DP maxstates=4
+3,1057,526,GE,10000,DP CAPPED at G=39; witness K=10526 verified
+3,1058,526,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1059,527,EXACT,1,DP maxstates=2
+3,1060,527,GE,10000,DP CAPPED at G=39; witness K=10527 verified
+3,1061,527,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1062,529,GE,10000,DP CAPPED at G=39; witness K=10529 verified
+3,1063,529,GE,10000,DP CAPPED at G=39; witness K=10529 verified
+3,1064,529,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1065,530,GE,10000,DP CAPPED at G=39; witness K=10530 verified
+3,1066,530,GE,10000,DP CAPPED at G=39; witness K=10530 verified
+3,1067,530,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1068,531,EXACT,1,DP maxstates=2
+3,1069,531,GE,10000,DP CAPPED at G=39; witness K=10531 verified
+3,1070,531,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1071,533,GE,10000,DP CAPPED at G=39; witness K=10533 verified
+3,1072,533,GE,10000,DP CAPPED at G=39; witness K=10533 verified
+3,1073,533,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1074,534,EXACT,3,DP maxstates=4
+3,1075,534,EXACT,3,DP maxstates=4
+3,1076,534,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1077,535,EXACT,1,DP maxstates=2
+3,1078,535,GE,10000,DP EXPLODED at G=38; witness K=10535 verified
+3,1079,535,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1080,538,GE,10000,DP CAPPED at G=39; witness K=10538 verified
+3,1081,538,GE,10000,DP CAPPED at G=39; witness K=10538 verified
+3,1082,538,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1083,539,EXACT,2,DP maxstates=4
+3,1084,539,GE,10000,DP CAPPED at G=39; witness K=10539 verified
+3,1085,539,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1086,540,EXACT,1,DP maxstates=2
+3,1087,540,GE,10000,DP CAPPED at G=39; witness K=10540 verified
+3,1088,540,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1089,542,GE,10000,DP CAPPED at G=39; witness K=10542 verified
+3,1090,542,GE,10000,DP CAPPED at G=39; witness K=10542 verified
+3,1091,542,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1092,543,GE,10000,DP CAPPED at G=39; witness K=10543 verified
+3,1093,543,GE,10000,DP CAPPED at G=39; witness K=10543 verified
+3,1094,543,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1095,544,EXACT,1,DP maxstates=2
+3,1096,544,GE,10000,DP CAPPED at G=39; witness K=10544 verified
+3,1097,544,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1098,546,EXACT,4,DP maxstates=9
+3,1099,546,GE,10000,DP CAPPED at G=39; witness K=10546 verified
+3,1100,546,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1101,547,EXACT,3,DP maxstates=4
+3,1102,547,EXACT,3,DP maxstates=4
+3,1103,547,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1104,548,EXACT,1,DP maxstates=2
+3,1105,548,GE,10000,DP CAPPED at G=39; witness K=10548 verified
+3,1106,548,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1107,551,GE,10000,DP CAPPED at G=39; witness K=10551 verified
+3,1108,551,GE,10000,DP CAPPED at G=39; witness K=10551 verified
+3,1109,551,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1110,552,EXACT,2,DP maxstates=4
+3,1111,552,EXACT,12,DP maxstates=50
+3,1112,552,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1113,553,EXACT,1,DP maxstates=2
+3,1114,553,GE,10000,DP CAPPED at G=39; witness K=10553 verified
+3,1115,553,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1116,555,GE,10000,DP CAPPED at G=39; witness K=10555 verified
+3,1117,555,GE,10000,DP CAPPED at G=39; witness K=10555 verified
+3,1118,555,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1119,556,EXACT,7,DP maxstates=17
+3,1120,556,GE,10000,DP CAPPED at G=39; witness K=10556 verified
+3,1121,556,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1122,557,EXACT,1,DP maxstates=2
+3,1123,557,GE,10000,DP CAPPED at G=39; witness K=10557 verified
+3,1124,557,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1125,559,EXACT,4,DP maxstates=9
+3,1126,559,EXACT,5,DP maxstates=9
+3,1127,559,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1128,560,GE,10000,DP CAPPED at G=39; witness K=10560 verified
+3,1129,560,EXACT,3,DP maxstates=4
+3,1130,560,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1131,561,EXACT,1,DP maxstates=2
+3,1132,561,GE,10000,DP EXPLODED at G=38; witness K=10561 verified
+3,1133,561,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1134,565,GE,10000,DP CAPPED at G=39; witness K=10565 verified
+3,1135,565,GE,10000,DP CAPPED at G=39; witness K=10565 verified
+3,1136,565,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1137,566,EXACT,2,DP maxstates=4
+3,1138,566,GE,10000,DP CAPPED at G=39; witness K=10566 verified
+3,1139,566,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1140,567,EXACT,1,DP maxstates=2
+3,1141,567,GE,10000,DP CAPPED at G=39; witness K=10567 verified
+3,1142,567,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1143,569,GE,10000,DP CAPPED at G=39; witness K=10569 verified
+3,1144,569,GE,10000,DP CAPPED at G=39; witness K=10569 verified
+3,1145,569,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1146,570,GE,10000,DP CAPPED at G=39; witness K=10570 verified
+3,1147,570,GE,10000,DP CAPPED at G=39; witness K=10570 verified
+3,1148,570,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1149,571,EXACT,1,DP maxstates=2
+3,1150,571,GE,10000,DP CAPPED at G=39; witness K=10571 verified
+3,1151,571,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1152,573,GE,10000,DP CAPPED at G=39; witness K=10573 verified
+3,1153,573,GE,10000,DP CAPPED at G=39; witness K=10573 verified
+3,1154,573,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1155,574,EXACT,3,DP maxstates=4
+3,1156,574,EXACT,3,DP maxstates=4
+3,1157,574,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1158,575,EXACT,1,DP maxstates=2
+3,1159,575,GE,10000,DP CAPPED at G=39; witness K=10575 verified
+3,1160,575,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1161,578,GE,10000,DP CAPPED at G=39; witness K=10578 verified
+3,1162,578,GE,10000,DP CAPPED at G=39; witness K=10578 verified
+3,1163,578,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1164,579,EXACT,2,DP maxstates=4
+3,1165,579,GE,10000,DP CAPPED at G=39; witness K=10579 verified
+3,1166,579,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1167,580,EXACT,1,DP maxstates=2
+3,1168,580,GE,10000,DP CAPPED at G=39; witness K=10580 verified
+3,1169,580,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1170,582,GE,10000,DP CAPPED at G=39; witness K=10582 verified
+3,1171,582,GE,10000,DP CAPPED at G=39; witness K=10582 verified
+3,1172,582,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1173,583,GE,10000,DP CAPPED at G=39; witness K=10583 verified
+3,1174,583,EXACT,7,DP maxstates=16
+3,1175,583,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1176,584,EXACT,1,DP maxstates=2
+3,1177,584,GE,10000,DP CAPPED at G=39; witness K=10584 verified
+3,1178,584,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1179,586,EXACT,4,DP maxstates=9
+3,1180,586,GE,10000,DP CAPPED at G=39; witness K=10586 verified
+3,1181,586,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1182,587,EXACT,3,DP maxstates=4
+3,1183,587,EXACT,3,DP maxstates=4
+3,1184,587,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1185,588,EXACT,1,DP maxstates=2
+3,1186,588,GE,10000,DP CAPPED at G=39; witness K=10588 verified
+3,1187,588,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1188,591,EXACT,13,DP maxstates=58
+3,1189,591,GE,10000,DP CAPPED at G=39; witness K=10591 verified
+3,1190,591,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1191,592,EXACT,2,DP maxstates=4
+3,1192,592,GE,10000,DP CAPPED at G=39; witness K=10592 verified
+3,1193,592,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1194,593,EXACT,1,DP maxstates=2
+3,1195,593,GE,10000,DP CAPPED at G=39; witness K=10593 verified
+3,1196,593,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1197,595,GE,10000,DP CAPPED at G=39; witness K=10595 verified
+3,1198,595,GE,10000,DP CAPPED at G=39; witness K=10595 verified
+3,1199,595,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1200,596,GE,10000,DP CAPPED at G=39; witness K=10596 verified
+3,1201,596,EXACT,9,DP maxstates=30
+3,1202,596,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1203,597,EXACT,1,DP maxstates=2
+3,1204,597,EXACT,7,DP maxstates=25
+3,1205,597,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1206,599,GE,10000,DP CAPPED at G=39; witness K=10599 verified
+3,1207,599,EXACT,6,DP maxstates=12
+3,1208,599,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1209,600,EXACT,4,DP maxstates=4
+3,1210,600,EXACT,3,DP maxstates=4
+3,1211,600,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1212,601,EXACT,1,DP maxstates=2
+3,1213,601,GE,10000,DP EXPLODED at G=39; witness K=10601 verified
+3,1214,601,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1215,606,GE,10000,DP CAPPED at G=39; witness K=10606 verified
+3,1216,606,GE,10000,DP CAPPED at G=39; witness K=10606 verified
+3,1217,606,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1218,607,EXACT,2,DP maxstates=4
+3,1219,607,GE,10000,DP CAPPED at G=39; witness K=10607 verified
+3,1220,607,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1221,608,EXACT,1,DP maxstates=2
+3,1222,608,GE,10000,DP CAPPED at G=39; witness K=10608 verified
+3,1223,608,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1224,610,GE,10000,DP CAPPED at G=39; witness K=10610 verified
+3,1225,610,GE,10000,DP CAPPED at G=39; witness K=10610 verified
+3,1226,610,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1227,611,GE,10000,DP CAPPED at G=39; witness K=10611 verified
+3,1228,611,GE,10000,DP CAPPED at G=39; witness K=10611 verified
+3,1229,611,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1230,612,EXACT,1,DP maxstates=2
+3,1231,612,GE,10000,DP CAPPED at G=39; witness K=10612 verified
+3,1232,612,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1233,614,GE,10000,DP EXPLODED at G=39; witness K=10614 verified
+3,1234,614,GE,10000,DP CAPPED at G=39; witness K=10614 verified
+3,1235,614,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1236,615,EXACT,3,DP maxstates=4
+3,1237,615,EXACT,3,DP maxstates=4
+3,1238,615,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1239,616,EXACT,1,DP maxstates=2
+3,1240,616,GE,10000,DP EXPLODED at G=38; witness K=10616 verified
+3,1241,616,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1242,619,GE,10000,DP CAPPED at G=39; witness K=10619 verified
+3,1243,619,GE,10000,DP CAPPED at G=39; witness K=10619 verified
+3,1244,619,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1245,620,EXACT,2,DP maxstates=4
+3,1246,620,GE,10000,DP CAPPED at G=39; witness K=10620 verified
+3,1247,620,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1248,621,EXACT,1,DP maxstates=2
+3,1249,621,GE,10000,DP CAPPED at G=39; witness K=10621 verified
+3,1250,621,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1251,623,GE,10000,DP CAPPED at G=39; witness K=10623 verified
+3,1252,623,GE,10000,DP CAPPED at G=39; witness K=10623 verified
+3,1253,623,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1254,624,GE,10000,DP CAPPED at G=39; witness K=10624 verified
+3,1255,624,EXACT,7,DP maxstates=13
+3,1256,624,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1257,625,EXACT,1,DP maxstates=2
+3,1258,625,GE,10000,DP CAPPED at G=39; witness K=10625 verified
+3,1259,625,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1260,627,GE,10000,DP CAPPED at G=39; witness K=10627 verified
+3,1261,627,GE,10000,DP CAPPED at G=39; witness K=10627 verified
+3,1262,627,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1263,628,EXACT,3,DP maxstates=4
+3,1264,628,EXACT,3,DP maxstates=4
+3,1265,628,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1266,629,EXACT,1,DP maxstates=2
+3,1267,629,GE,10000,DP CAPPED at G=39; witness K=10629 verified
+3,1268,629,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1269,632,GE,10000,DP CAPPED at G=39; witness K=10632 verified
+3,1270,632,GE,10000,DP CAPPED at G=39; witness K=10632 verified
+3,1271,632,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1272,633,EXACT,2,DP maxstates=4
+3,1273,633,GE,10000,DP CAPPED at G=39; witness K=10633 verified
+3,1274,633,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1275,634,EXACT,1,DP maxstates=2
+3,1276,634,GE,10000,DP CAPPED at G=39; witness K=10634 verified
+3,1277,634,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1278,636,GE,10000,DP CAPPED at G=39; witness K=10636 verified
+3,1279,636,GE,10000,DP CAPPED at G=39; witness K=10636 verified
+3,1280,636,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1281,637,GE,10000,DP CAPPED at G=39; witness K=10637 verified
+3,1282,637,EXACT,8,DP maxstates=32
+3,1283,637,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1284,638,EXACT,1,DP maxstates=2
+3,1285,638,EXACT,7,DP maxstates=36
+3,1286,638,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1287,640,EXACT,4,DP maxstates=9
+3,1288,640,EXACT,5,DP maxstates=12
+3,1289,640,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1290,641,EXACT,4,DP maxstates=4
+3,1291,641,EXACT,3,DP maxstates=4
+3,1292,641,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1293,642,EXACT,1,DP maxstates=2
+3,1294,642,GE,10000,DP EXPLODED at G=38; witness K=10642 verified
+3,1295,642,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1296,646,GE,10000,DP CAPPED at G=39; witness K=10646 verified
+3,1297,646,GE,10000,DP CAPPED at G=39; witness K=10646 verified
+3,1298,646,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1299,647,EXACT,2,DP maxstates=4
+3,1300,647,GE,10000,DP CAPPED at G=39; witness K=10647 verified
+3,1301,647,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1302,648,EXACT,1,DP maxstates=2
+3,1303,648,GE,10000,DP CAPPED at G=39; witness K=10648 verified
+3,1304,648,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1305,650,GE,10000,DP CAPPED at G=39; witness K=10650 verified
+3,1306,650,GE,10000,DP CAPPED at G=39; witness K=10650 verified
+3,1307,650,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1308,651,GE,10000,DP CAPPED at G=39; witness K=10651 verified
+3,1309,651,GE,10000,DP CAPPED at G=39; witness K=10651 verified
+3,1310,651,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1311,652,EXACT,1,DP maxstates=2
+3,1312,652,GE,10000,DP CAPPED at G=39; witness K=10652 verified
+3,1313,652,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1314,654,GE,10000,DP CAPPED at G=39; witness K=10654 verified
+3,1315,654,GE,10000,DP CAPPED at G=39; witness K=10654 verified
+3,1316,654,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1317,655,EXACT,3,DP maxstates=4
+3,1318,655,EXACT,3,DP maxstates=4
+3,1319,655,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1320,656,EXACT,1,DP maxstates=2
+3,1321,656,GE,10000,DP EXPLODED at G=38; witness K=10656 verified
+3,1322,656,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1323,659,GE,10000,DP CAPPED at G=39; witness K=10659 verified
+3,1324,659,GE,10000,DP CAPPED at G=39; witness K=10659 verified
+3,1325,659,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1326,660,EXACT,2,DP maxstates=4
+3,1327,660,GE,10000,DP CAPPED at G=39; witness K=10660 verified
+3,1328,660,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1329,661,EXACT,1,DP maxstates=2
+3,1330,661,GE,10000,DP CAPPED at G=39; witness K=10661 verified
+3,1331,661,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1332,663,GE,10000,DP CAPPED at G=39; witness K=10663 verified
+3,1333,663,GE,10000,DP CAPPED at G=39; witness K=10663 verified
+3,1334,663,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1335,664,EXACT,7,DP maxstates=20
+3,1336,664,GE,10000,DP CAPPED at G=39; witness K=10664 verified
+3,1337,664,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1338,665,EXACT,1,DP maxstates=2
+3,1339,665,GE,10000,DP CAPPED at G=39; witness K=10665 verified
+3,1340,665,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1341,667,EXACT,4,DP maxstates=9
+3,1342,667,GE,10000,DP CAPPED at G=39; witness K=10667 verified
+3,1343,667,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1344,668,EXACT,3,DP maxstates=4
+3,1345,668,EXACT,3,DP maxstates=4
+3,1346,668,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1347,669,EXACT,1,DP maxstates=2
+3,1348,669,GE,10000,DP CAPPED at G=39; witness K=10669 verified
+3,1349,669,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1350,672,GE,10000,DP CAPPED at G=39; witness K=10672 verified
+3,1351,672,GE,10000,DP CAPPED at G=39; witness K=10672 verified
+3,1352,672,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1353,673,EXACT,2,DP maxstates=4
+3,1354,673,GE,10000,DP CAPPED at G=39; witness K=10673 verified
+3,1355,673,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1356,674,EXACT,1,DP maxstates=2
+3,1357,674,GE,10000,DP CAPPED at G=39; witness K=10674 verified
+3,1358,674,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1359,676,GE,10000,DP CAPPED at G=39; witness K=10676 verified
+3,1360,676,GE,10000,DP CAPPED at G=39; witness K=10676 verified
+3,1361,676,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1362,677,EXACT,7,DP maxstates=17
+3,1363,677,EXACT,8,DP maxstates=24
+3,1364,677,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1365,678,EXACT,1,DP maxstates=2
+3,1366,678,GE,10000,DP CAPPED at G=39; witness K=10678 verified
+3,1367,678,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1368,680,EXACT,4,DP maxstates=9
+3,1369,680,EXACT,5,DP maxstates=9
+3,1370,680,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1371,681,GE,10000,DP CAPPED at G=39; witness K=10681 verified
+3,1372,681,EXACT,3,DP maxstates=4
+3,1373,681,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1374,682,EXACT,1,DP maxstates=2
+3,1375,682,GE,10000,DP EXPLODED at G=39; witness K=10682 verified
+3,1376,682,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1377,686,GE,10000,DP CAPPED at G=39; witness K=10686 verified
+3,1378,686,GE,10000,DP CAPPED at G=39; witness K=10686 verified
+3,1379,686,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1380,687,EXACT,2,DP maxstates=4
+3,1381,687,GE,10000,DP CAPPED at G=39; witness K=10687 verified
+3,1382,687,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1383,688,EXACT,1,DP maxstates=2
+3,1384,688,GE,10000,DP CAPPED at G=39; witness K=10688 verified
+3,1385,688,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1386,690,GE,10000,DP CAPPED at G=39; witness K=10690 verified
+3,1387,690,GE,10000,DP CAPPED at G=39; witness K=10690 verified
+3,1388,690,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1389,691,GE,10000,DP CAPPED at G=39; witness K=10691 verified
+3,1390,691,GE,10000,DP CAPPED at G=39; witness K=10691 verified
+3,1391,691,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1392,692,EXACT,1,DP maxstates=2
+3,1393,692,GE,10000,DP CAPPED at G=39; witness K=10692 verified
+3,1394,692,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1395,694,GE,10000,DP CAPPED at G=39; witness K=10694 verified
+3,1396,694,GE,10000,DP CAPPED at G=39; witness K=10694 verified
+3,1397,694,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1398,695,EXACT,3,DP maxstates=4
+3,1399,695,EXACT,3,DP maxstates=4
+3,1400,695,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1401,696,EXACT,1,DP maxstates=2
+3,1402,696,GE,10000,DP EXPLODED at G=39; witness K=10696 verified
+3,1403,696,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1404,699,GE,10000,DP CAPPED at G=39; witness K=10699 verified
+3,1405,699,GE,10000,DP CAPPED at G=39; witness K=10699 verified
+3,1406,699,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1407,700,EXACT,2,DP maxstates=4
+3,1408,700,EXACT,11,DP maxstates=24
+3,1409,700,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1410,701,EXACT,1,DP maxstates=2
+3,1411,701,GE,10000,DP CAPPED at G=39; witness K=10701 verified
+3,1412,701,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1413,703,GE,10000,DP CAPPED at G=39; witness K=10703 verified
+3,1414,703,GE,10000,DP CAPPED at G=39; witness K=10703 verified
+3,1415,703,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1416,704,GE,10000,DP CAPPED at G=39; witness K=10704 verified
+3,1417,704,GE,10000,DP CAPPED at G=39; witness K=10704 verified
+3,1418,704,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1419,705,EXACT,1,DP maxstates=2
+3,1420,705,GE,10000,DP CAPPED at G=39; witness K=10705 verified
+3,1421,705,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1422,707,EXACT,4,DP maxstates=9
+3,1423,707,GE,10000,DP CAPPED at G=39; witness K=10707 verified
+3,1424,707,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1425,708,EXACT,3,DP maxstates=4
+3,1426,708,EXACT,3,DP maxstates=4
+3,1427,708,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1428,709,EXACT,1,DP maxstates=2
+3,1429,709,GE,10000,DP CAPPED at G=39; witness K=10709 verified
+3,1430,709,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1431,712,GE,10000,DP CAPPED at G=39; witness K=10712 verified
+3,1432,712,GE,10000,DP CAPPED at G=39; witness K=10712 verified
+3,1433,712,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1434,713,EXACT,2,DP maxstates=4
+3,1435,713,EXACT,13,DP maxstates=109
+3,1436,713,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1437,714,EXACT,1,DP maxstates=2
+3,1438,714,EXACT,13,DP maxstates=261
+3,1439,714,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1440,716,EXACT,11,DP maxstates=80
+3,1441,716,EXACT,10,DP maxstates=62
+3,1442,716,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1443,717,EXACT,7,DP maxstates=14
+3,1444,717,EXACT,10,DP maxstates=32
+3,1445,717,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1446,718,EXACT,1,DP maxstates=2
+3,1447,718,EXACT,7,DP maxstates=32
+3,1448,718,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1449,720,EXACT,5,DP maxstates=12
+3,1450,720,EXACT,7,DP maxstates=12
+3,1451,720,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1452,721,EXACT,4,DP maxstates=4
+3,1453,721,EXACT,3,DP maxstates=4
+3,1454,721,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1455,722,EXACT,1,DP maxstates=2
+3,1456,722,GE,10000,DP CAPPED at G=39; witness K=10722 verified
+3,1457,722,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1458,728,GE,10000,DP CAPPED at G=39; witness K=10728 verified
+3,1459,728,GE,10000,DP CAPPED at G=39; witness K=10728 verified
+3,1460,728,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1461,729,EXACT,2,DP maxstates=4
+3,1462,729,GE,10000,DP CAPPED at G=39; witness K=10729 verified
+3,1463,729,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1464,730,EXACT,1,DP maxstates=2
+3,1465,730,GE,10000,DP CAPPED at G=39; witness K=10730 verified
+3,1466,730,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1467,732,GE,10000,DP CAPPED at G=39; witness K=10732 verified
+3,1468,732,GE,10000,DP CAPPED at G=39; witness K=10732 verified
+3,1469,732,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1470,733,GE,10000,DP CAPPED at G=39; witness K=10733 verified
+3,1471,733,GE,10000,DP CAPPED at G=39; witness K=10733 verified
+3,1472,733,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1473,734,EXACT,1,DP maxstates=2
+3,1474,734,GE,10000,DP CAPPED at G=39; witness K=10734 verified
+3,1475,734,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1476,736,GE,10000,DP EXPLODED at G=39; witness K=10736 verified
+3,1477,736,GE,10000,DP CAPPED at G=39; witness K=10736 verified
+3,1478,736,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1479,737,EXACT,3,DP maxstates=4
+3,1480,737,EXACT,3,DP maxstates=4
+3,1481,737,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1482,738,EXACT,1,DP maxstates=2
+3,1483,738,GE,10000,DP EXPLODED at G=38; witness K=10738 verified
+3,1484,738,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1485,741,GE,10000,DP CAPPED at G=39; witness K=10741 verified
+3,1486,741,GE,10000,DP CAPPED at G=39; witness K=10741 verified
+3,1487,741,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1488,742,EXACT,2,DP maxstates=4
+3,1489,742,GE,10000,DP CAPPED at G=39; witness K=10742 verified
+3,1490,742,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1491,743,EXACT,1,DP maxstates=2
+3,1492,743,GE,10000,DP CAPPED at G=39; witness K=10743 verified
+3,1493,743,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1494,745,GE,10000,DP CAPPED at G=39; witness K=10745 verified
+3,1495,745,GE,10000,DP CAPPED at G=39; witness K=10745 verified
+3,1496,745,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1497,746,GE,10000,DP CAPPED at G=39; witness K=10746 verified
+3,1498,746,GE,10000,DP CAPPED at G=39; witness K=10746 verified
+3,1499,746,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1500,747,EXACT,1,DP maxstates=2
+3,1501,747,GE,10000,DP CAPPED at G=39; witness K=10747 verified
+3,1502,747,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1503,749,GE,10000,DP CAPPED at G=39; witness K=10749 verified
+3,1504,749,GE,10000,DP CAPPED at G=39; witness K=10749 verified
+3,1505,749,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1506,750,EXACT,3,DP maxstates=4
+3,1507,750,EXACT,3,DP maxstates=4
+3,1508,750,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1509,751,EXACT,1,DP maxstates=2
+3,1510,751,GE,10000,DP CAPPED at G=39; witness K=10751 verified
+3,1511,751,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1512,754,GE,10000,DP CAPPED at G=39; witness K=10754 verified
+3,1513,754,GE,10000,DP CAPPED at G=39; witness K=10754 verified
+3,1514,754,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1515,755,EXACT,2,DP maxstates=4
+3,1516,755,GE,10000,DP CAPPED at G=39; witness K=10755 verified
+3,1517,755,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1518,756,EXACT,1,DP maxstates=2
+3,1519,756,GE,10000,DP CAPPED at G=39; witness K=10756 verified
+3,1520,756,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1521,758,GE,10000,DP CAPPED at G=39; witness K=10758 verified
+3,1522,758,GE,10000,DP CAPPED at G=39; witness K=10758 verified
+3,1523,758,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1524,759,EXACT,7,DP maxstates=13
+3,1525,759,EXACT,12,DP maxstates=32
+3,1526,759,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1527,760,EXACT,1,DP maxstates=2
+3,1528,760,EXACT,7,DP maxstates=32
+3,1529,760,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1530,762,EXACT,4,DP maxstates=9
+3,1531,762,EXACT,5,DP maxstates=12
+3,1532,762,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1533,763,EXACT,4,DP maxstates=4
+3,1534,763,EXACT,3,DP maxstates=4
+3,1535,763,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1536,764,EXACT,1,DP maxstates=2
+3,1537,764,GE,10000,DP EXPLODED at G=38; witness K=10764 verified
+3,1538,764,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1539,768,GE,10000,DP CAPPED at G=39; witness K=10768 verified
+3,1540,768,GE,10000,DP CAPPED at G=39; witness K=10768 verified
+3,1541,768,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1542,769,EXACT,2,DP maxstates=4
+3,1543,769,GE,10000,DP CAPPED at G=39; witness K=10769 verified
+3,1544,769,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1545,770,EXACT,1,DP maxstates=2
+3,1546,770,GE,10000,DP CAPPED at G=39; witness K=10770 verified
+3,1547,770,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1548,772,EXACT,8,DP maxstates=18
+3,1549,772,GE,10000,DP CAPPED at G=39; witness K=10772 verified
+3,1550,772,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1551,773,EXACT,7,DP maxstates=21
+3,1552,773,GE,10000,DP CAPPED at G=39; witness K=10773 verified
+3,1553,773,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1554,774,EXACT,1,DP maxstates=2
+3,1555,774,GE,10000,DP CAPPED at G=39; witness K=10774 verified
+3,1556,774,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1557,776,GE,10000,DP CAPPED at G=39; witness K=10776 verified
+3,1558,776,GE,10000,DP CAPPED at G=39; witness K=10776 verified
+3,1559,776,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1560,777,EXACT,3,DP maxstates=4
+3,1561,777,EXACT,3,DP maxstates=4
+3,1562,777,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1563,778,EXACT,1,DP maxstates=2
+3,1564,778,GE,10000,DP EXPLODED at G=38; witness K=10778 verified
+3,1565,778,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1566,781,GE,10000,DP CAPPED at G=39; witness K=10781 verified
+3,1567,781,GE,10000,DP CAPPED at G=39; witness K=10781 verified
+3,1568,781,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1569,782,EXACT,2,DP maxstates=4
+3,1570,782,GE,10000,DP CAPPED at G=39; witness K=10782 verified
+3,1571,782,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1572,783,EXACT,1,DP maxstates=2
+3,1573,783,GE,10000,DP CAPPED at G=39; witness K=10783 verified
+3,1574,783,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1575,785,GE,10000,DP CAPPED at G=39; witness K=10785 verified
+3,1576,785,GE,10000,DP CAPPED at G=39; witness K=10785 verified
+3,1577,785,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1578,786,GE,10000,DP CAPPED at G=39; witness K=10786 verified
+3,1579,786,GE,10000,DP CAPPED at G=39; witness K=10786 verified
+3,1580,786,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1581,787,EXACT,1,DP maxstates=2
+3,1582,787,GE,10000,DP CAPPED at G=39; witness K=10787 verified
+3,1583,787,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1584,789,EXACT,4,DP maxstates=9
+3,1585,789,GE,10000,DP CAPPED at G=39; witness K=10789 verified
+3,1586,789,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1587,790,EXACT,3,DP maxstates=4
+3,1588,790,EXACT,3,DP maxstates=4
+3,1589,790,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1590,791,EXACT,1,DP maxstates=2
+3,1591,791,GE,10000,DP CAPPED at G=39; witness K=10791 verified
+3,1592,791,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1593,794,GE,10000,DP CAPPED at G=39; witness K=10794 verified
+3,1594,794,GE,10000,DP CAPPED at G=39; witness K=10794 verified
+3,1595,794,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1596,795,EXACT,2,DP maxstates=4
+3,1597,795,GE,10000,DP CAPPED at G=39; witness K=10795 verified
+3,1598,795,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1599,796,EXACT,1,DP maxstates=2
+3,1600,796,GE,10000,DP CAPPED at G=39; witness K=10796 verified
+3,1601,796,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1602,798,GE,10000,DP CAPPED at G=39; witness K=10798 verified
+3,1603,798,GE,10000,DP CAPPED at G=39; witness K=10798 verified
+3,1604,798,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1605,799,EXACT,8,DP maxstates=17
+3,1606,799,EXACT,7,DP maxstates=19
+3,1607,799,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1608,800,EXACT,1,DP maxstates=2
+3,1609,800,EXACT,7,DP maxstates=27
+3,1610,800,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1611,802,EXACT,4,DP maxstates=9
+3,1612,802,EXACT,5,DP maxstates=9
+3,1613,802,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1614,803,GE,10000,DP CAPPED at G=39; witness K=10803 verified
+3,1615,803,EXACT,3,DP maxstates=4
+3,1616,803,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1617,804,EXACT,1,DP maxstates=2
+3,1618,804,GE,10000,DP EXPLODED at G=38; witness K=10804 verified
+3,1619,804,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1620,808,GE,10000,DP CAPPED at G=39; witness K=10808 verified
+3,1621,808,GE,10000,DP CAPPED at G=39; witness K=10808 verified
+3,1622,808,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1623,809,EXACT,2,DP maxstates=4
+3,1624,809,GE,10000,DP CAPPED at G=39; witness K=10809 verified
+3,1625,809,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1626,810,EXACT,1,DP maxstates=2
+3,1627,810,GE,10000,DP CAPPED at G=39; witness K=10810 verified
+3,1628,810,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1629,812,GE,10000,DP CAPPED at G=39; witness K=10812 verified
+3,1630,812,GE,10000,DP CAPPED at G=39; witness K=10812 verified
+3,1631,812,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1632,813,GE,10000,DP CAPPED at G=39; witness K=10813 verified
+3,1633,813,GE,10000,DP CAPPED at G=39; witness K=10813 verified
+3,1634,813,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1635,814,EXACT,1,DP maxstates=2
+3,1636,814,GE,10000,DP CAPPED at G=39; witness K=10814 verified
+3,1637,814,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1638,816,GE,10000,DP CAPPED at G=39; witness K=10816 verified
+3,1639,816,GE,10000,DP CAPPED at G=39; witness K=10816 verified
+3,1640,816,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1641,817,EXACT,3,DP maxstates=4
+3,1642,817,EXACT,3,DP maxstates=4
+3,1643,817,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1644,818,EXACT,1,DP maxstates=2
+3,1645,818,GE,10000,DP CAPPED at G=39; witness K=10818 verified
+3,1646,818,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1647,821,GE,10000,DP CAPPED at G=39; witness K=10821 verified
+3,1648,821,GE,10000,DP CAPPED at G=39; witness K=10821 verified
+3,1649,821,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1650,822,EXACT,2,DP maxstates=4
+3,1651,822,GE,10000,DP CAPPED at G=39; witness K=10822 verified
+3,1652,822,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1653,823,EXACT,1,DP maxstates=2
+3,1654,823,GE,10000,DP CAPPED at G=39; witness K=10823 verified
+3,1655,823,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1656,825,GE,10000,DP CAPPED at G=39; witness K=10825 verified
+3,1657,825,GE,10000,DP CAPPED at G=39; witness K=10825 verified
+3,1658,825,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1659,826,GE,10000,DP CAPPED at G=39; witness K=10826 verified
+3,1660,826,EXACT,7,DP maxstates=16
+3,1661,826,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1662,827,EXACT,1,DP maxstates=2
+3,1663,827,GE,10000,DP CAPPED at G=39; witness K=10827 verified
+3,1664,827,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1665,829,EXACT,4,DP maxstates=9
+3,1666,829,GE,10000,DP CAPPED at G=39; witness K=10829 verified
+3,1667,829,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1668,830,EXACT,3,DP maxstates=4
+3,1669,830,EXACT,3,DP maxstates=4
+3,1670,830,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1671,831,EXACT,1,DP maxstates=2
+3,1672,831,GE,10000,DP CAPPED at G=39; witness K=10831 verified
+3,1673,831,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1674,834,EXACT,14,DP maxstates=103
+3,1675,834,GE,10000,DP CAPPED at G=39; witness K=10834 verified
+3,1676,834,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1677,835,EXACT,2,DP maxstates=4
+3,1678,835,GE,10000,DP CAPPED at G=39; witness K=10835 verified
+3,1679,835,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1680,836,EXACT,1,DP maxstates=2
+3,1681,836,GE,10000,DP CAPPED at G=39; witness K=10836 verified
+3,1682,836,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1683,838,EXACT,10,DP maxstates=56
+3,1684,838,EXACT,8,DP maxstates=24
+3,1685,838,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1686,839,EXACT,7,DP maxstates=14
+3,1687,839,EXACT,7,DP maxstates=14
+3,1688,839,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1689,840,EXACT,1,DP maxstates=2
+3,1690,840,GE,10000,DP CAPPED at G=39; witness K=10840 verified
+3,1691,840,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1692,842,EXACT,5,DP maxstates=12
+3,1693,842,EXACT,6,DP maxstates=12
+3,1694,842,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1695,843,EXACT,4,DP maxstates=4
+3,1696,843,EXACT,3,DP maxstates=4
+3,1697,843,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1698,844,EXACT,1,DP maxstates=2
+3,1699,844,GE,10000,DP EXPLODED at G=39; witness K=10844 verified
+3,1700,844,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1701,849,GE,10000,DP CAPPED at G=39; witness K=10849 verified
+3,1702,849,GE,10000,DP EXPLODED at G=39; witness K=10849 verified
+3,1703,849,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1704,850,EXACT,2,DP maxstates=4
+3,1705,850,GE,10000,DP CAPPED at G=39; witness K=10850 verified
+3,1706,850,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1707,851,EXACT,1,DP maxstates=2
+3,1708,851,GE,10000,DP CAPPED at G=39; witness K=10851 verified
+3,1709,851,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1710,853,GE,10000,DP CAPPED at G=39; witness K=10853 verified
+3,1711,853,GE,10000,DP CAPPED at G=39; witness K=10853 verified
+3,1712,853,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1713,854,GE,10000,DP CAPPED at G=39; witness K=10854 verified
+3,1714,854,GE,10000,DP CAPPED at G=39; witness K=10854 verified
+3,1715,854,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1716,855,EXACT,1,DP maxstates=2
+3,1717,855,GE,10000,DP CAPPED at G=39; witness K=10855 verified
+3,1718,855,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1719,857,GE,10000,DP EXPLODED at G=39; witness K=10857 verified
+3,1720,857,GE,10000,DP CAPPED at G=39; witness K=10857 verified
+3,1721,857,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1722,858,EXACT,3,DP maxstates=4
+3,1723,858,EXACT,3,DP maxstates=4
+3,1724,858,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1725,859,EXACT,1,DP maxstates=2
+3,1726,859,GE,10000,DP EXPLODED at G=37; witness K=10859 verified
+3,1727,859,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1728,862,GE,10000,DP CAPPED at G=39; witness K=10862 verified
+3,1729,862,GE,10000,DP CAPPED at G=39; witness K=10862 verified
+3,1730,862,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1731,863,EXACT,2,DP maxstates=4
+3,1732,863,GE,10000,DP CAPPED at G=39; witness K=10863 verified
+3,1733,863,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1734,864,EXACT,1,DP maxstates=2
+3,1735,864,GE,10000,DP CAPPED at G=39; witness K=10864 verified
+3,1736,864,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1737,866,GE,10000,DP CAPPED at G=39; witness K=10866 verified
+3,1738,866,GE,10000,DP CAPPED at G=39; witness K=10866 verified
+3,1739,866,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1740,867,GE,10000,DP CAPPED at G=39; witness K=10867 verified
+3,1741,867,GE,10000,DP CAPPED at G=39; witness K=10867 verified
+3,1742,867,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1743,868,EXACT,1,DP maxstates=2
+3,1744,868,GE,10000,DP CAPPED at G=39; witness K=10868 verified
+3,1745,868,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1746,870,GE,10000,DP CAPPED at G=39; witness K=10870 verified
+3,1747,870,GE,10000,DP CAPPED at G=39; witness K=10870 verified
+3,1748,870,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1749,871,EXACT,3,DP maxstates=4
+3,1750,871,EXACT,3,DP maxstates=4
+3,1751,871,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1752,872,EXACT,1,DP maxstates=2
+3,1753,872,GE,10000,DP CAPPED at G=39; witness K=10872 verified
+3,1754,872,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1755,875,GE,10000,DP CAPPED at G=39; witness K=10875 verified
+3,1756,875,GE,10000,DP CAPPED at G=39; witness K=10875 verified
+3,1757,875,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1758,876,EXACT,2,DP maxstates=4
+3,1759,876,GE,10000,DP CAPPED at G=39; witness K=10876 verified
+3,1760,876,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1761,877,EXACT,1,DP maxstates=2
+3,1762,877,GE,10000,DP CAPPED at G=39; witness K=10877 verified
+3,1763,877,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1764,879,GE,10000,DP CAPPED at G=39; witness K=10879 verified
+3,1765,879,EXACT,9,DP maxstates=49
+3,1766,879,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1767,880,GE,10000,DP CAPPED at G=39; witness K=10880 verified
+3,1768,880,GE,10000,DP CAPPED at G=39; witness K=10880 verified
+3,1769,880,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1770,881,EXACT,1,DP maxstates=2
+3,1771,881,EXACT,7,DP maxstates=33
+3,1772,881,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1773,883,EXACT,4,DP maxstates=9
+3,1774,883,EXACT,5,DP maxstates=12
+3,1775,883,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1776,884,EXACT,4,DP maxstates=4
+3,1777,884,EXACT,3,DP maxstates=4
+3,1778,884,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1779,885,EXACT,1,DP maxstates=2
+3,1780,885,GE,10000,DP EXPLODED at G=38; witness K=10885 verified
+3,1781,885,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1782,889,GE,10000,DP CAPPED at G=39; witness K=10889 verified
+3,1783,889,GE,10000,DP CAPPED at G=39; witness K=10889 verified
+3,1784,889,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1785,890,EXACT,2,DP maxstates=4
+3,1786,890,GE,10000,DP CAPPED at G=39; witness K=10890 verified
+3,1787,890,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1788,891,EXACT,1,DP maxstates=2
+3,1789,891,GE,10000,DP CAPPED at G=39; witness K=10891 verified
+3,1790,891,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1791,893,GE,10000,DP CAPPED at G=39; witness K=10893 verified
+3,1792,893,GE,10000,DP CAPPED at G=39; witness K=10893 verified
+3,1793,893,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1794,894,GE,10000,DP CAPPED at G=39; witness K=10894 verified
+3,1795,894,GE,10000,DP CAPPED at G=39; witness K=10894 verified
+3,1796,894,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1797,895,EXACT,1,DP maxstates=2
+3,1798,895,GE,10000,DP CAPPED at G=39; witness K=10895 verified
+3,1799,895,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1800,897,GE,10000,DP CAPPED at G=39; witness K=10897 verified
+3,1801,897,GE,10000,DP CAPPED at G=39; witness K=10897 verified
+3,1802,897,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1803,898,EXACT,3,DP maxstates=4
+3,1804,898,EXACT,3,DP maxstates=4
+3,1805,898,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1806,899,EXACT,1,DP maxstates=2
+3,1807,899,GE,10000,DP CAPPED at G=39; witness K=10899 verified
+3,1808,899,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1809,902,GE,10000,DP CAPPED at G=39; witness K=10902 verified
+3,1810,902,GE,10000,DP CAPPED at G=39; witness K=10902 verified
+3,1811,902,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1812,903,EXACT,2,DP maxstates=4
+3,1813,903,GE,10000,DP CAPPED at G=39; witness K=10903 verified
+3,1814,903,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1815,904,EXACT,1,DP maxstates=2
+3,1816,904,GE,10000,DP CAPPED at G=39; witness K=10904 verified
+3,1817,904,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1818,906,GE,10000,DP CAPPED at G=39; witness K=10906 verified
+3,1819,906,GE,10000,DP CAPPED at G=39; witness K=10906 verified
+3,1820,906,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1821,907,GE,10000,DP CAPPED at G=39; witness K=10907 verified
+3,1822,907,EXACT,7,DP maxstates=20
+3,1823,907,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1824,908,EXACT,1,DP maxstates=2
+3,1825,908,GE,10000,DP CAPPED at G=39; witness K=10908 verified
+3,1826,908,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1827,910,EXACT,4,DP maxstates=9
+3,1828,910,GE,10000,DP CAPPED at G=39; witness K=10910 verified
+3,1829,910,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1830,911,EXACT,3,DP maxstates=4
+3,1831,911,EXACT,3,DP maxstates=4
+3,1832,911,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1833,912,EXACT,1,DP maxstates=2
+3,1834,912,GE,10000,DP CAPPED at G=39; witness K=10912 verified
+3,1835,912,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1836,915,GE,10000,DP CAPPED at G=39; witness K=10915 verified
+3,1837,915,GE,10000,DP CAPPED at G=39; witness K=10915 verified
+3,1838,915,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1839,916,EXACT,2,DP maxstates=4
+3,1840,916,GE,10000,DP CAPPED at G=39; witness K=10916 verified
+3,1841,916,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1842,917,EXACT,1,DP maxstates=2
+3,1843,917,GE,10000,DP CAPPED at G=39; witness K=10917 verified
+3,1844,917,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1845,919,GE,10000,DP CAPPED at G=39; witness K=10919 verified
+3,1846,919,GE,10000,DP CAPPED at G=39; witness K=10919 verified
+3,1847,919,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1848,920,EXACT,8,DP maxstates=18
+3,1849,920,EXACT,8,DP maxstates=26
+3,1850,920,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1851,921,EXACT,1,DP maxstates=2
+3,1852,921,GE,10000,DP CAPPED at G=39; witness K=10921 verified
+3,1853,921,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1854,923,EXACT,4,DP maxstates=9
+3,1855,923,EXACT,5,DP maxstates=9
+3,1856,923,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1857,924,GE,10000,DP CAPPED at G=39; witness K=10924 verified
+3,1858,924,EXACT,3,DP maxstates=4
+3,1859,924,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1860,925,EXACT,1,DP maxstates=2
+3,1861,925,GE,10000,DP EXPLODED at G=38; witness K=10925 verified
+3,1862,925,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1863,929,GE,10000,DP EXPLODED at G=39; witness K=10929 verified
+3,1864,929,GE,10000,DP CAPPED at G=39; witness K=10929 verified
+3,1865,929,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1866,930,EXACT,2,DP maxstates=4
+3,1867,930,GE,10000,DP CAPPED at G=39; witness K=10930 verified
+3,1868,930,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1869,931,EXACT,1,DP maxstates=2
+3,1870,931,GE,10000,DP CAPPED at G=39; witness K=10931 verified
+3,1871,931,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1872,933,GE,10000,DP CAPPED at G=39; witness K=10933 verified
+3,1873,933,GE,10000,DP CAPPED at G=39; witness K=10933 verified
+3,1874,933,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1875,934,GE,10000,DP CAPPED at G=39; witness K=10934 verified
+3,1876,934,GE,10000,DP CAPPED at G=39; witness K=10934 verified
+3,1877,934,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1878,935,EXACT,1,DP maxstates=2
+3,1879,935,GE,10000,DP CAPPED at G=39; witness K=10935 verified
+3,1880,935,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1881,937,GE,10000,DP EXPLODED at G=39; witness K=10937 verified
+3,1882,937,GE,10000,DP CAPPED at G=39; witness K=10937 verified
+3,1883,937,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1884,938,EXACT,3,DP maxstates=4
+3,1885,938,EXACT,3,DP maxstates=4
+3,1886,938,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1887,939,EXACT,1,DP maxstates=2
+3,1888,939,GE,10000,DP CAPPED at G=39; witness K=10939 verified
+3,1889,939,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1890,942,GE,10000,DP CAPPED at G=39; witness K=10942 verified
+3,1891,942,GE,10000,DP CAPPED at G=39; witness K=10942 verified
+3,1892,942,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1893,943,EXACT,2,DP maxstates=4
+3,1894,943,GE,10000,DP CAPPED at G=39; witness K=10943 verified
+3,1895,943,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1896,944,EXACT,1,DP maxstates=2
+3,1897,944,GE,10000,DP CAPPED at G=39; witness K=10944 verified
+3,1898,944,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1899,946,GE,10000,DP CAPPED at G=39; witness K=10946 verified
+3,1900,946,GE,10000,DP CAPPED at G=39; witness K=10946 verified
+3,1901,946,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1902,947,EXACT,7,DP maxstates=16
+3,1903,947,GE,10000,DP CAPPED at G=39; witness K=10947 verified
+3,1904,947,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1905,948,EXACT,1,DP maxstates=2
+3,1906,948,GE,10000,DP CAPPED at G=39; witness K=10948 verified
+3,1907,948,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1908,950,EXACT,4,DP maxstates=9
+3,1909,950,GE,10000,DP CAPPED at G=39; witness K=10950 verified
+3,1910,950,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1911,951,EXACT,3,DP maxstates=4
+3,1912,951,EXACT,3,DP maxstates=4
+3,1913,951,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1914,952,EXACT,1,DP maxstates=2
+3,1915,952,GE,10000,DP CAPPED at G=39; witness K=10952 verified
+3,1916,952,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1917,955,GE,10000,DP CAPPED at G=39; witness K=10955 verified
+3,1918,955,GE,10000,DP CAPPED at G=39; witness K=10955 verified
+3,1919,955,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1920,956,EXACT,2,DP maxstates=4
+3,1921,956,GE,10000,DP CAPPED at G=39; witness K=10956 verified
+3,1922,956,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1923,957,EXACT,1,DP maxstates=2
+3,1924,957,GE,10000,DP CAPPED at G=39; witness K=10957 verified
+3,1925,957,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1926,959,EXACT,10,DP maxstates=57
+3,1927,959,GE,10000,DP CAPPED at G=39; witness K=10959 verified
+3,1928,959,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1929,960,GE,10000,DP CAPPED at G=39; witness K=10960 verified
+3,1930,960,EXACT,7,DP maxstates=14
+3,1931,960,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1932,961,EXACT,1,DP maxstates=2
+3,1933,961,EXACT,7,DP maxstates=25
+3,1934,961,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1935,963,EXACT,6,DP maxstates=12
+3,1936,963,EXACT,6,DP maxstates=12
+3,1937,963,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1938,964,EXACT,4,DP maxstates=4
+3,1939,964,EXACT,3,DP maxstates=4
+3,1940,964,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1941,965,EXACT,1,DP maxstates=2
+3,1942,965,GE,10000,DP EXPLODED at G=39; witness K=10965 verified
+3,1943,965,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1944,970,GE,10000,DP EXPLODED at G=39; witness K=10970 verified
+3,1945,970,GE,10000,DP CAPPED at G=39; witness K=10970 verified
+3,1946,970,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1947,971,EXACT,2,DP maxstates=4
+3,1948,971,GE,10000,DP CAPPED at G=39; witness K=10971 verified
+3,1949,971,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1950,972,EXACT,1,DP maxstates=2
+3,1951,972,GE,10000,DP CAPPED at G=39; witness K=10972 verified
+3,1952,972,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1953,974,GE,10000,DP CAPPED at G=39; witness K=10974 verified
+3,1954,974,GE,10000,DP CAPPED at G=39; witness K=10974 verified
+3,1955,974,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1956,975,GE,10000,DP CAPPED at G=39; witness K=10975 verified
+3,1957,975,GE,10000,DP CAPPED at G=39; witness K=10975 verified
+3,1958,975,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1959,976,EXACT,1,DP maxstates=2
+3,1960,976,GE,10000,DP CAPPED at G=39; witness K=10976 verified
+3,1961,976,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1962,978,GE,10000,DP EXPLODED at G=39; witness K=10978 verified
+3,1963,978,GE,10000,DP CAPPED at G=39; witness K=10978 verified
+3,1964,978,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1965,979,EXACT,3,DP maxstates=4
+3,1966,979,EXACT,3,DP maxstates=4
+3,1967,979,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1968,980,EXACT,1,DP maxstates=2
+3,1969,980,GE,10000,DP EXPLODED at G=38; witness K=10980 verified
+3,1970,980,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1971,983,GE,10000,DP CAPPED at G=39; witness K=10983 verified
+3,1972,983,GE,10000,DP CAPPED at G=39; witness K=10983 verified
+3,1973,983,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1974,984,EXACT,2,DP maxstates=4
+3,1975,984,GE,10000,DP CAPPED at G=39; witness K=10984 verified
+3,1976,984,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1977,985,EXACT,1,DP maxstates=2
+3,1978,985,GE,10000,DP CAPPED at G=39; witness K=10985 verified
+3,1979,985,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1980,987,GE,10000,DP CAPPED at G=39; witness K=10987 verified
+3,1981,987,GE,10000,DP CAPPED at G=39; witness K=10987 verified
+3,1982,987,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1983,988,GE,10000,DP CAPPED at G=39; witness K=10988 verified
+3,1984,988,EXACT,7,DP maxstates=13
+3,1985,988,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1986,989,EXACT,1,DP maxstates=2
+3,1987,989,GE,10000,DP CAPPED at G=39; witness K=10989 verified
+3,1988,989,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1989,991,GE,10000,DP CAPPED at G=39; witness K=10991 verified
+3,1990,991,GE,10000,DP CAPPED at G=39; witness K=10991 verified
+3,1991,991,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1992,992,EXACT,3,DP maxstates=4
+3,1993,992,EXACT,3,DP maxstates=4
+3,1994,992,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1995,993,EXACT,1,DP maxstates=2
+3,1996,993,GE,10000,DP CAPPED at G=39; witness K=10993 verified
+3,1997,993,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+3,1998,996,GE,10000,DP CAPPED at G=39; witness K=10996 verified
+3,1999,996,GE,10000,DP CAPPED at G=39; witness K=10996 verified
+3,2000,996,BLOCKED,0,a==-1 mod p; f=v_p(a!)

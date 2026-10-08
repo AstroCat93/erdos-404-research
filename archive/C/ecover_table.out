@@ -1,0 +1,150 @@
+p=3 start(a=1): OK
+p=3 L=1 p^L=3 covered=3 FULL frac=1.000000
+p=3 L=2 p^L=9 covered=6 partial frac=0.666667
+p=5 start(a=1): OK
+p=5 L=1 p^L=5 covered=5 FULL frac=1.000000
+p=5 L=2 p^L=25 covered=16 partial frac=0.640000
+p=7 start(a=1): OK
+p=7 L=1 p^L=7 covered=7 FULL frac=1.000000
+p=7 L=2 p^L=49 covered=49 FULL frac=1.000000
+p=7 L=3 p^L=343 covered=95 partial frac=0.276968
+p=11 start(a=1): OK
+p=11 L=1 p^L=11 covered=11 FULL frac=1.000000
+p=11 L=2 p^L=121 covered=121 FULL frac=1.000000
+p=11 L=3 p^L=1331 covered=932 partial frac=0.700225
+p=13 start(a=1): OK
+p=13 L=1 p^L=13 covered=13 FULL frac=1.000000
+p=13 L=2 p^L=169 covered=169 FULL frac=1.000000
+p=13 L=3 p^L=2197 covered=2163 partial frac=0.984524
+p=17 start(a=1): OK
+p=17 L=1 p^L=17 covered=17 FULL frac=1.000000
+p=17 L=2 p^L=289 covered=289 FULL frac=1.000000
+p=17 L=3 p^L=4913 covered=4913 FULL frac=1.000000
+p=17 L=4 p^L=83521 covered=58024 partial frac=0.694723
+p=19 start(a=1): OK
+p=19 L=1 p^L=19 covered=19 FULL frac=1.000000
+p=19 L=2 p^L=361 covered=361 FULL frac=1.000000
+p=19 L=3 p^L=6859 covered=6859 FULL frac=1.000000
+p=19 L=4 p^L=130321 covered=125661 partial frac=0.964242
+p=23 start(a=1): OK
+p=23 L=1 p^L=23 covered=23 FULL frac=1.000000
+p=23 L=2 p^L=529 covered=529 FULL frac=1.000000
+p=23 L=3 p^L=12167 covered=12167 FULL frac=1.000000
+p=23 L=4 p^L=279841 covered=279841 FULL frac=1.000000
+p=23 L=5 p^L=6436343 covered=3812340 partial frac=0.592315
+p=29 start(a=1): OK
+p=29 L=1 p^L=29 covered=29 FULL frac=1.000000
+p=29 L=2 p^L=841 covered=841 FULL frac=1.000000
+p=29 L=3 p^L=24389 covered=24389 FULL frac=1.000000
+p=29 L=4 p^L=707281 covered=707281 FULL frac=1.000000
+p=29 L=5 p^L=20511149 covered=20511149 FULL frac=1.000000
+p=29 L=6 p^L=594823321 covered=292292934 partial frac=0.491395
+p=31 start(a=1): OK
+p=31 L=1 p^L=31 covered=31 FULL frac=1.000000
+p=31 L=2 p^L=961 covered=961 FULL frac=1.000000
+p=31 L=3 p^L=29791 covered=29791 FULL frac=1.000000
+p=31 L=4 p^L=923521 covered=923521 FULL frac=1.000000
+p=31 L=5 p^L=28629151 covered=28629151 FULL frac=1.000000
+p=31 L=6 p^L=887503681 covered=742275572 partial frac=0.836363
+p=37 start(a=1): OK
+p=37 L=1 p^L=37 covered=37 FULL frac=1.000000
+p=37 L=2 p^L=1369 covered=1369 FULL frac=1.000000
+p=37 L=3 p^L=50653 covered=50653 FULL frac=1.000000
+p=37 L=4 p^L=1874161 covered=1874161 FULL frac=1.000000
+p=37 L=5 p^L=69343957 covered=69343957 FULL frac=1.000000
+p=37 L=6 p^L=2565726409 covered=2565726409 FULL frac=1.000000
+p=37 L=7 skipped (p^L=9.49e+10 > maxbits)
+p=41 start(a=1): OK
+p=41 L=1 p^L=41 covered=41 FULL frac=1.000000
+p=41 L=2 p^L=1681 covered=1681 FULL frac=1.000000
+p=41 L=3 p^L=68921 covered=68921 FULL frac=1.000000
+p=41 L=4 p^L=2825761 covered=2825761 FULL frac=1.000000
+p=41 L=5 p^L=115856201 covered=115856201 FULL frac=1.000000
+p=41 L=6 p^L=4750104241 covered=4750104241 FULL frac=1.000000
+p=41 L=7 skipped (p^L=1.95e+11 > maxbits)
+p=43 start(a=1): OK
+p=43 L=1 p^L=43 covered=43 FULL frac=1.000000
+p=43 L=2 p^L=1849 covered=1849 FULL frac=1.000000
+p=43 L=3 p^L=79507 covered=79507 FULL frac=1.000000
+p=43 L=4 p^L=3418801 covered=3418801 FULL frac=1.000000
+p=43 L=5 p^L=147008443 covered=147008443 FULL frac=1.000000
+p=43 L=6 p^L=6321363049 covered=6321363049 FULL frac=1.000000
+p=43 L=7 skipped (p^L=2.72e+11 > maxbits)
+p=47 start(a=1): OK
+p=47 L=1 p^L=47 covered=47 FULL frac=1.000000
+p=47 L=2 p^L=2209 covered=2209 FULL frac=1.000000
+p=47 L=3 p^L=103823 covered=103823 FULL frac=1.000000
+p=47 L=4 p^L=4879681 covered=4879681 FULL frac=1.000000
+p=47 L=5 p^L=229345007 covered=229345007 FULL frac=1.000000
+p=47 L=6 skipped (p^L=1.08e+10 > maxbits)
+p=53 start(a=1): OK
+p=53 L=1 p^L=53 covered=53 FULL frac=1.000000
+p=53 L=2 p^L=2809 covered=2809 FULL frac=1.000000
+p=53 L=3 p^L=148877 covered=148877 FULL frac=1.000000
+p=53 L=4 p^L=7890481 covered=7890481 FULL frac=1.000000
+p=53 L=5 p^L=418195493 covered=418195493 FULL frac=1.000000
+p=53 L=6 skipped (p^L=2.22e+10 > maxbits)
+p=59 start(a=1): OK
+p=59 L=1 p^L=59 covered=59 FULL frac=1.000000
+p=59 L=2 p^L=3481 covered=3481 FULL frac=1.000000
+p=59 L=3 p^L=205379 covered=205379 FULL frac=1.000000
+p=59 L=4 p^L=12117361 covered=12117361 FULL frac=1.000000
+p=59 L=5 p^L=714924299 covered=714924299 FULL frac=1.000000
+p=59 L=6 skipped (p^L=4.22e+10 > maxbits)
+p=61 start(a=1): OK
+p=61 L=1 p^L=61 covered=61 FULL frac=1.000000
+p=61 L=2 p^L=3721 covered=3721 FULL frac=1.000000
+p=61 L=3 p^L=226981 covered=226981 FULL frac=1.000000
+p=61 L=4 p^L=13845841 covered=13845841 FULL frac=1.000000
+p=61 L=5 p^L=844596301 covered=844596301 FULL frac=1.000000
+p=61 L=6 skipped (p^L=5.15e+10 > maxbits)
+p=67 start(a=1): OK
+p=67 L=1 p^L=67 covered=67 FULL frac=1.000000
+p=67 L=2 p^L=4489 covered=4489 FULL frac=1.000000
+p=67 L=3 p^L=300763 covered=300763 FULL frac=1.000000
+p=67 L=4 p^L=20151121 covered=20151121 FULL frac=1.000000
+p=67 L=5 p^L=1350125107 covered=1350125107 FULL frac=1.000000
+p=67 L=6 skipped (p^L=9.05e+10 > maxbits)
+p=71 start(a=1): OK
+p=71 L=1 p^L=71 covered=71 FULL frac=1.000000
+p=71 L=2 p^L=5041 covered=5041 FULL frac=1.000000
+p=71 L=3 p^L=357911 covered=357911 FULL frac=1.000000
+p=71 L=4 p^L=25411681 covered=25411681 FULL frac=1.000000
+p=71 L=5 p^L=1804229351 covered=1804229351 FULL frac=1.000000
+p=71 L=6 skipped (p^L=1.28e+11 > maxbits)
+p=73 start(a=1): OK
+p=73 L=1 p^L=73 covered=73 FULL frac=1.000000
+p=73 L=2 p^L=5329 covered=5329 FULL frac=1.000000
+p=73 L=3 p^L=389017 covered=389017 FULL frac=1.000000
+p=73 L=4 p^L=28398241 covered=28398241 FULL frac=1.000000
+p=73 L=5 p^L=2073071593 covered=2073071593 FULL frac=1.000000
+p=73 L=6 skipped (p^L=1.51e+11 > maxbits)
+p=79 start(a=1): OK
+p=79 L=1 p^L=79 covered=79 FULL frac=1.000000
+p=79 L=2 p^L=6241 covered=6241 FULL frac=1.000000
+p=79 L=3 p^L=493039 covered=493039 FULL frac=1.000000
+p=79 L=4 p^L=38950081 covered=38950081 FULL frac=1.000000
+p=79 L=5 p^L=3077056399 covered=3077056399 FULL frac=1.000000
+p=79 L=6 skipped (p^L=2.43e+11 > maxbits)
+p=83 start(a=1): OK
+p=83 L=1 p^L=83 covered=83 FULL frac=1.000000
+p=83 L=2 p^L=6889 covered=6889 FULL frac=1.000000
+p=83 L=3 p^L=571787 covered=571787 FULL frac=1.000000
+p=83 L=4 p^L=47458321 covered=47458321 FULL frac=1.000000
+p=83 L=5 p^L=3939040643 covered=3939040643 FULL frac=1.000000
+p=83 L=6 skipped (p^L=3.27e+11 > maxbits)
+p=89 start(a=1): OK
+p=89 L=1 p^L=89 covered=89 FULL frac=1.000000
+p=89 L=2 p^L=7921 covered=7921 FULL frac=1.000000
+p=89 L=3 p^L=704969 covered=704969 FULL frac=1.000000
+p=89 L=4 p^L=62742241 covered=62742241 FULL frac=1.000000
+p=89 L=5 p^L=5584059449 covered=5584059449 FULL frac=1.000000
+p=89 L=6 skipped (p^L=4.97e+11 > maxbits)
+p=97 start(a=1): OK
+p=97 L=1 p^L=97 covered=97 FULL frac=1.000000
+p=97 L=2 p^L=9409 covered=9409 FULL frac=1.000000
+p=97 L=3 p^L=912673 covered=912673 FULL frac=1.000000
+p=97 L=4 p^L=88529281 covered=88529281 FULL frac=1.000000
+p=97 L=5 p^L=8587340257 covered=8587340257 FULL frac=1.000000
+p=97 L=6 skipped (p^L=8.33e+11 > maxbits)
+DONE

@@ -1,0 +1,13 @@
+grouping identity + W_m unit, W_m=(-1)^m mod p: True
+gate lemma + approach lemma ( 35963 cases): True
+f(1,2): DP=0 known=0 OK
+f(3,2): DP=1 known=1 OK
+f(4,2): DP=6 known=6 OK
+f(5,2): DP=3 known=3 OK
+f(3,3): DP=3 known=3 OK
+f(4,7): DP=0 known=0 OK
+f(6,7): DP=0 known=0 OK
+
+real	0m0.076s
+user	0m0.056s
+sys	0m0.010s

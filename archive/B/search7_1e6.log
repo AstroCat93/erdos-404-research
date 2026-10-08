@@ -1,0 +1,13 @@
+[p=7] m0=240000/857147  v=279996/1000000  wit=456644  plans=20000 fails=0 nodes=2027165  249.7s
+[p=7] m0=480000/857147  v=559996/1000000  wit=913277  plans=40000 fails=0 nodes=4212688  421.6s
+[p=7] m0=720000/857147  v=839996/1000000  wit=1369593  plans=60000 fails=0 nodes=6147853  512.1s
+DONE p=7 a=1 K=1000000 terms=1630651 max=6000023 plans=71424 fails=0 backtracks=0 nodes=7292106 time=526.3s
+deep blocks committed (t = v_p(m+1) >= 1): t1:104957 t2:14994 t3:2142 t4:306 t5:43 t6:6 t7:1
+per depth t: committed blocks | #with exactly 1 valid R | 2-3 | >=4 | mean valid R | max DFS nodes of a plan whose deepest block has this t
+  t= 1    104957      4341    76897    23719     2.61  0
+  t= 2     14994      9735     5259        0     1.35  109
+  t= 3      2142      1483      659        0     1.31  401
+  t= 4       306       188      118        0     1.39  1224
+  t= 5        43        35        8        0     1.19  7695
+  t= 6         6         3        3        0     1.50  43537
+  t= 7         1         1        0        0     1.00  18517

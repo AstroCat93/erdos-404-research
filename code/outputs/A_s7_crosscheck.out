@@ -1,0 +1,9 @@
+p=2: checked k<= 8 OK
+p=3: checked k<= 5 OK
+p=5: checked k<= 3 OK
+p=7: checked k<= 2 OK
+ALL OK
+
+real	0m0.207s
+user	0m0.060s
+sys	0m0.022s

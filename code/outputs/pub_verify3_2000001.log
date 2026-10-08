@@ -1,0 +1,2 @@
+p=3 a=1 K=2000001 terms=1625856 max=4000017  sum mod p^K == 0  -> VERIFIED  (293.8s)
+./verify_bin 3 1 2000001 "$W"  293.91s user 0.83s system 99% cpu 4:56.41 total

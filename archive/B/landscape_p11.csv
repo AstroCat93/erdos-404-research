@@ -1,0 +1,1001 @@
+p,a,v_p(a!),status,value,detail
+11,1,0,GE,10000,DP EXPLODED at G=7; witness K=10000 verified
+11,2,0,GE,10000,DP EXPLODED at G=7; witness K=10000 verified
+11,3,0,GE,10000,DP EXPLODED at G=7; witness K=10000 verified
+11,4,0,GE,10000,DP EXPLODED at G=7; witness K=10000 verified
+11,5,0,GE,10000,DP EXPLODED at G=7; witness K=10000 verified
+11,6,0,GE,10000,DP EXPLODED at G=7; witness K=10000 verified
+11,7,0,EXACT,0,DP maxstates=4
+11,8,0,EXACT,0,DP maxstates=2
+11,9,0,GE,10000,DP EXPLODED at G=7; witness K=10000 verified
+11,10,0,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,11,1,GE,10000,DP EXPLODED at G=7; witness K=10001 verified
+11,12,1,GE,10000,DP EXPLODED at G=7; witness K=10001 verified
+11,13,1,GE,10000,DP EXPLODED at G=7; witness K=10001 verified
+11,14,1,GE,10000,DP EXPLODED at G=7; witness K=10001 verified
+11,15,1,GE,10000,DP EXPLODED at G=7; witness K=10001 verified
+11,16,1,GE,10000,DP EXPLODED at G=7; witness K=10001 verified
+11,17,1,GE,10000,DP EXPLODED at G=7; witness K=10001 verified
+11,18,1,EXACT,0,DP maxstates=4
+11,19,1,EXACT,0,DP maxstates=2
+11,20,1,GE,10000,DP EXPLODED at G=8; witness K=10001 verified
+11,21,1,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,22,2,GE,10000,DP EXPLODED at G=7; witness K=10002 verified
+11,23,2,GE,10000,DP EXPLODED at G=7; witness K=10002 verified
+11,24,2,GE,10000,DP EXPLODED at G=7; witness K=10002 verified
+11,25,2,GE,10000,DP EXPLODED at G=7; witness K=10002 verified
+11,26,2,GE,10000,DP EXPLODED at G=7; witness K=10002 verified
+11,27,2,GE,10000,DP EXPLODED at G=7; witness K=10002 verified
+11,28,2,GE,10000,DP EXPLODED at G=7; witness K=10002 verified
+11,29,2,EXACT,0,DP maxstates=4
+11,30,2,EXACT,0,DP maxstates=2
+11,31,2,GE,10000,DP EXPLODED at G=8; witness K=10002 verified
+11,32,2,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,33,3,GE,10000,DP EXPLODED at G=7; witness K=10003 verified
+11,34,3,GE,10000,DP EXPLODED at G=7; witness K=10003 verified
+11,35,3,GE,10000,DP EXPLODED at G=7; witness K=10003 verified
+11,36,3,GE,10000,DP EXPLODED at G=7; witness K=10003 verified
+11,37,3,GE,10000,DP EXPLODED at G=7; witness K=10003 verified
+11,38,3,GE,10000,DP EXPLODED at G=7; witness K=10003 verified
+11,39,3,GE,10000,DP EXPLODED at G=7; witness K=10003 verified
+11,40,3,EXACT,0,DP maxstates=4
+11,41,3,EXACT,0,DP maxstates=2
+11,42,3,GE,10000,DP EXPLODED at G=7; witness K=10003 verified
+11,43,3,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,44,4,GE,10000,DP EXPLODED at G=7; witness K=10004 verified
+11,45,4,GE,10000,DP EXPLODED at G=7; witness K=10004 verified
+11,46,4,GE,10000,DP EXPLODED at G=7; witness K=10004 verified
+11,47,4,GE,10000,DP EXPLODED at G=7; witness K=10004 verified
+11,48,4,GE,10000,DP EXPLODED at G=7; witness K=10004 verified
+11,49,4,GE,10000,DP EXPLODED at G=7; witness K=10004 verified
+11,50,4,GE,10000,DP EXPLODED at G=7; witness K=10004 verified
+11,51,4,EXACT,0,DP maxstates=4
+11,52,4,EXACT,0,DP maxstates=2
+11,53,4,GE,10000,DP EXPLODED at G=7; witness K=10004 verified
+11,54,4,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,55,5,GE,10000,DP EXPLODED at G=7; witness K=10005 verified
+11,56,5,GE,10000,DP EXPLODED at G=7; witness K=10005 verified
+11,57,5,GE,10000,DP EXPLODED at G=7; witness K=10005 verified
+11,58,5,GE,10000,DP EXPLODED at G=7; witness K=10005 verified
+11,59,5,GE,10000,DP EXPLODED at G=7; witness K=10005 verified
+11,60,5,GE,10000,DP EXPLODED at G=7; witness K=10005 verified
+11,61,5,GE,10000,DP EXPLODED at G=7; witness K=10005 verified
+11,62,5,EXACT,0,DP maxstates=4
+11,63,5,EXACT,0,DP maxstates=2
+11,64,5,GE,10000,DP EXPLODED at G=7; witness K=10005 verified
+11,65,5,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,66,6,GE,10000,DP EXPLODED at G=7; witness K=10006 verified
+11,67,6,GE,10000,DP EXPLODED at G=7; witness K=10006 verified
+11,68,6,GE,10000,DP EXPLODED at G=7; witness K=10006 verified
+11,69,6,GE,10000,DP EXPLODED at G=7; witness K=10006 verified
+11,70,6,GE,10000,DP EXPLODED at G=7; witness K=10006 verified
+11,71,6,GE,10000,DP EXPLODED at G=7; witness K=10006 verified
+11,72,6,GE,10000,DP EXPLODED at G=7; witness K=10006 verified
+11,73,6,EXACT,0,DP maxstates=4
+11,74,6,EXACT,0,DP maxstates=2
+11,75,6,GE,10000,DP EXPLODED at G=7; witness K=10006 verified
+11,76,6,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,77,7,GE,10000,DP EXPLODED at G=7; witness K=10007 verified
+11,78,7,GE,10000,DP EXPLODED at G=7; witness K=10007 verified
+11,79,7,GE,10000,DP EXPLODED at G=7; witness K=10007 verified
+11,80,7,GE,10000,DP EXPLODED at G=7; witness K=10007 verified
+11,81,7,GE,10000,DP EXPLODED at G=7; witness K=10007 verified
+11,82,7,GE,10000,DP EXPLODED at G=7; witness K=10007 verified
+11,83,7,GE,10000,DP EXPLODED at G=7; witness K=10007 verified
+11,84,7,EXACT,0,DP maxstates=4
+11,85,7,EXACT,0,DP maxstates=2
+11,86,7,GE,10000,DP EXPLODED at G=7; witness K=10007 verified
+11,87,7,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,88,8,GE,10000,DP EXPLODED at G=7; witness K=10008 verified
+11,89,8,GE,10000,DP EXPLODED at G=7; witness K=10008 verified
+11,90,8,GE,10000,DP EXPLODED at G=7; witness K=10008 verified
+11,91,8,GE,10000,DP EXPLODED at G=7; witness K=10008 verified
+11,92,8,GE,10000,DP EXPLODED at G=7; witness K=10008 verified
+11,93,8,GE,10000,DP EXPLODED at G=7; witness K=10008 verified
+11,94,8,GE,10000,DP EXPLODED at G=7; witness K=10008 verified
+11,95,8,EXACT,0,DP maxstates=4
+11,96,8,EXACT,0,DP maxstates=2
+11,97,8,GE,10000,DP EXPLODED at G=7; witness K=10008 verified
+11,98,8,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,99,9,GE,10000,DP EXPLODED at G=8; witness K=10009 verified
+11,100,9,GE,10000,DP EXPLODED at G=8; witness K=10009 verified
+11,101,9,GE,10000,DP EXPLODED at G=8; witness K=10009 verified
+11,102,9,GE,10000,DP EXPLODED at G=8; witness K=10009 verified
+11,103,9,GE,10000,DP EXPLODED at G=9; witness K=10009 verified
+11,104,9,GE,10000,DP EXPLODED at G=9; witness K=10009 verified
+11,105,9,GE,10000,DP EXPLODED at G=9; witness K=10009 verified
+11,106,9,EXACT,0,DP maxstates=4
+11,107,9,EXACT,0,DP maxstates=2
+11,108,9,GE,10000,DP EXPLODED at G=9; witness K=10009 verified
+11,109,9,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,110,10,GE,10000,DP EXPLODED at G=8; witness K=10010 verified
+11,111,10,GE,10000,DP EXPLODED at G=8; witness K=10010 verified
+11,112,10,GE,10000,DP EXPLODED at G=8; witness K=10010 verified
+11,113,10,EXACT,1,DP maxstates=36
+11,114,10,EXACT,1,DP maxstates=24
+11,115,10,GE,10000,DP EXPLODED at G=8; witness K=10010 verified
+11,116,10,EXACT,1,DP maxstates=8
+11,117,10,EXACT,0,DP maxstates=4
+11,118,10,EXACT,0,DP maxstates=2
+11,119,10,GE,10000,DP EXPLODED at G=8; witness K=10010 verified
+11,120,10,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,121,12,GE,10000,DP EXPLODED at G=7; witness K=10012 verified
+11,122,12,GE,10000,DP EXPLODED at G=7; witness K=10012 verified
+11,123,12,GE,10000,DP EXPLODED at G=7; witness K=10012 verified
+11,124,12,GE,10000,DP EXPLODED at G=7; witness K=10012 verified
+11,125,12,GE,10000,DP EXPLODED at G=7; witness K=10012 verified
+11,126,12,GE,10000,DP EXPLODED at G=7; witness K=10012 verified
+11,127,12,GE,10000,DP EXPLODED at G=7; witness K=10012 verified
+11,128,12,EXACT,0,DP maxstates=4
+11,129,12,EXACT,0,DP maxstates=2
+11,130,12,GE,10000,DP EXPLODED at G=7; witness K=10012 verified
+11,131,12,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,132,13,GE,10000,DP EXPLODED at G=7; witness K=10013 verified
+11,133,13,GE,10000,DP EXPLODED at G=7; witness K=10013 verified
+11,134,13,GE,10000,DP EXPLODED at G=7; witness K=10013 verified
+11,135,13,GE,10000,DP EXPLODED at G=7; witness K=10013 verified
+11,136,13,GE,10000,DP EXPLODED at G=7; witness K=10013 verified
+11,137,13,GE,10000,DP EXPLODED at G=7; witness K=10013 verified
+11,138,13,GE,10000,DP EXPLODED at G=7; witness K=10013 verified
+11,139,13,EXACT,0,DP maxstates=4
+11,140,13,EXACT,0,DP maxstates=2
+11,141,13,GE,10000,DP EXPLODED at G=7; witness K=10013 verified
+11,142,13,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,143,14,GE,10000,DP EXPLODED at G=7; witness K=10014 verified
+11,144,14,GE,10000,DP EXPLODED at G=7; witness K=10014 verified
+11,145,14,GE,10000,DP EXPLODED at G=7; witness K=10014 verified
+11,146,14,GE,10000,DP EXPLODED at G=7; witness K=10014 verified
+11,147,14,GE,10000,DP EXPLODED at G=7; witness K=10014 verified
+11,148,14,GE,10000,DP EXPLODED at G=7; witness K=10014 verified
+11,149,14,GE,10000,DP EXPLODED at G=7; witness K=10014 verified
+11,150,14,EXACT,0,DP maxstates=4
+11,151,14,EXACT,0,DP maxstates=2
+11,152,14,GE,10000,DP EXPLODED at G=7; witness K=10014 verified
+11,153,14,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,154,15,GE,10000,DP EXPLODED at G=7; witness K=10015 verified
+11,155,15,GE,10000,DP EXPLODED at G=7; witness K=10015 verified
+11,156,15,GE,10000,DP EXPLODED at G=7; witness K=10015 verified
+11,157,15,GE,10000,DP EXPLODED at G=7; witness K=10015 verified
+11,158,15,GE,10000,DP EXPLODED at G=7; witness K=10015 verified
+11,159,15,GE,10000,DP EXPLODED at G=7; witness K=10015 verified
+11,160,15,GE,10000,DP EXPLODED at G=7; witness K=10015 verified
+11,161,15,EXACT,0,DP maxstates=4
+11,162,15,EXACT,0,DP maxstates=2
+11,163,15,GE,10000,DP EXPLODED at G=7; witness K=10015 verified
+11,164,15,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,165,16,GE,10000,DP EXPLODED at G=7; witness K=10016 verified
+11,166,16,GE,10000,DP EXPLODED at G=7; witness K=10016 verified
+11,167,16,GE,10000,DP EXPLODED at G=7; witness K=10016 verified
+11,168,16,GE,10000,DP EXPLODED at G=7; witness K=10016 verified
+11,169,16,GE,10000,DP EXPLODED at G=7; witness K=10016 verified
+11,170,16,GE,10000,DP EXPLODED at G=7; witness K=10016 verified
+11,171,16,GE,10000,DP EXPLODED at G=7; witness K=10016 verified
+11,172,16,EXACT,0,DP maxstates=4
+11,173,16,EXACT,0,DP maxstates=2
+11,174,16,GE,10000,DP EXPLODED at G=7; witness K=10016 verified
+11,175,16,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,176,17,GE,10000,DP EXPLODED at G=7; witness K=10017 verified
+11,177,17,GE,10000,DP EXPLODED at G=7; witness K=10017 verified
+11,178,17,GE,10000,DP EXPLODED at G=7; witness K=10017 verified
+11,179,17,GE,10000,DP EXPLODED at G=7; witness K=10017 verified
+11,180,17,GE,10000,DP EXPLODED at G=7; witness K=10017 verified
+11,181,17,GE,10000,DP EXPLODED at G=7; witness K=10017 verified
+11,182,17,GE,10000,DP EXPLODED at G=7; witness K=10017 verified
+11,183,17,EXACT,0,DP maxstates=4
+11,184,17,EXACT,0,DP maxstates=2
+11,185,17,GE,10000,DP EXPLODED at G=7; witness K=10017 verified
+11,186,17,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,187,18,GE,10000,DP EXPLODED at G=7; witness K=10018 verified
+11,188,18,GE,10000,DP EXPLODED at G=7; witness K=10018 verified
+11,189,18,GE,10000,DP EXPLODED at G=7; witness K=10018 verified
+11,190,18,GE,10000,DP EXPLODED at G=7; witness K=10018 verified
+11,191,18,GE,10000,DP EXPLODED at G=7; witness K=10018 verified
+11,192,18,GE,10000,DP EXPLODED at G=7; witness K=10018 verified
+11,193,18,GE,10000,DP EXPLODED at G=7; witness K=10018 verified
+11,194,18,EXACT,0,DP maxstates=4
+11,195,18,EXACT,0,DP maxstates=2
+11,196,18,GE,10000,DP EXPLODED at G=7; witness K=10018 verified
+11,197,18,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,198,19,GE,10000,DP EXPLODED at G=7; witness K=10019 verified
+11,199,19,GE,10000,DP EXPLODED at G=7; witness K=10019 verified
+11,200,19,GE,10000,DP EXPLODED at G=7; witness K=10019 verified
+11,201,19,GE,10000,DP EXPLODED at G=7; witness K=10019 verified
+11,202,19,GE,10000,DP EXPLODED at G=7; witness K=10019 verified
+11,203,19,GE,10000,DP EXPLODED at G=7; witness K=10019 verified
+11,204,19,GE,10000,DP EXPLODED at G=7; witness K=10019 verified
+11,205,19,EXACT,0,DP maxstates=4
+11,206,19,EXACT,0,DP maxstates=2
+11,207,19,GE,10000,DP EXPLODED at G=7; witness K=10019 verified
+11,208,19,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,209,20,GE,10000,DP EXPLODED at G=7; witness K=10020 verified
+11,210,20,GE,10000,DP EXPLODED at G=7; witness K=10020 verified
+11,211,20,GE,10000,DP EXPLODED at G=7; witness K=10020 verified
+11,212,20,GE,10000,DP EXPLODED at G=7; witness K=10020 verified
+11,213,20,GE,10000,DP EXPLODED at G=7; witness K=10020 verified
+11,214,20,GE,10000,DP EXPLODED at G=7; witness K=10020 verified
+11,215,20,GE,10000,DP EXPLODED at G=7; witness K=10020 verified
+11,216,20,EXACT,0,DP maxstates=4
+11,217,20,EXACT,0,DP maxstates=2
+11,218,20,GE,10000,DP EXPLODED at G=7; witness K=10020 verified
+11,219,20,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,220,21,GE,10000,DP EXPLODED at G=8; witness K=10021 verified
+11,221,21,GE,10000,DP EXPLODED at G=8; witness K=10021 verified
+11,222,21,GE,10000,DP EXPLODED at G=8; witness K=10021 verified
+11,223,21,GE,10000,DP EXPLODED at G=8; witness K=10021 verified
+11,224,21,GE,10000,DP EXPLODED at G=9; witness K=10021 verified
+11,225,21,GE,10000,DP EXPLODED at G=9; witness K=10021 verified
+11,226,21,GE,10000,DP EXPLODED at G=9; witness K=10021 verified
+11,227,21,EXACT,0,DP maxstates=4
+11,228,21,EXACT,0,DP maxstates=2
+11,229,21,GE,10000,DP EXPLODED at G=9; witness K=10021 verified
+11,230,21,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,231,22,GE,10000,DP EXPLODED at G=8; witness K=10022 verified
+11,232,22,GE,10000,DP EXPLODED at G=8; witness K=10022 verified
+11,233,22,GE,10000,DP EXPLODED at G=8; witness K=10022 verified
+11,234,22,EXACT,1,DP maxstates=36
+11,235,22,EXACT,1,DP maxstates=24
+11,236,22,GE,10000,DP EXPLODED at G=8; witness K=10022 verified
+11,237,22,EXACT,1,DP maxstates=8
+11,238,22,EXACT,0,DP maxstates=4
+11,239,22,EXACT,0,DP maxstates=2
+11,240,22,GE,10000,DP EXPLODED at G=8; witness K=10022 verified
+11,241,22,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,242,24,GE,10000,DP EXPLODED at G=7; witness K=10024 verified
+11,243,24,GE,10000,DP EXPLODED at G=7; witness K=10024 verified
+11,244,24,GE,10000,DP EXPLODED at G=7; witness K=10024 verified
+11,245,24,GE,10000,DP EXPLODED at G=7; witness K=10024 verified
+11,246,24,GE,10000,DP EXPLODED at G=7; witness K=10024 verified
+11,247,24,GE,10000,DP EXPLODED at G=7; witness K=10024 verified
+11,248,24,GE,10000,DP EXPLODED at G=7; witness K=10024 verified
+11,249,24,EXACT,0,DP maxstates=4
+11,250,24,EXACT,0,DP maxstates=2
+11,251,24,GE,10000,DP EXPLODED at G=7; witness K=10024 verified
+11,252,24,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,253,25,GE,10000,DP EXPLODED at G=7; witness K=10025 verified
+11,254,25,GE,10000,DP EXPLODED at G=7; witness K=10025 verified
+11,255,25,GE,10000,DP EXPLODED at G=7; witness K=10025 verified
+11,256,25,GE,10000,DP EXPLODED at G=7; witness K=10025 verified
+11,257,25,GE,10000,DP EXPLODED at G=7; witness K=10025 verified
+11,258,25,GE,10000,DP EXPLODED at G=7; witness K=10025 verified
+11,259,25,GE,10000,DP EXPLODED at G=7; witness K=10025 verified
+11,260,25,EXACT,0,DP maxstates=4
+11,261,25,EXACT,0,DP maxstates=2
+11,262,25,GE,10000,DP EXPLODED at G=7; witness K=10025 verified
+11,263,25,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,264,26,GE,10000,DP EXPLODED at G=7; witness K=10026 verified
+11,265,26,GE,10000,DP EXPLODED at G=7; witness K=10026 verified
+11,266,26,GE,10000,DP EXPLODED at G=7; witness K=10026 verified
+11,267,26,GE,10000,DP EXPLODED at G=7; witness K=10026 verified
+11,268,26,GE,10000,DP EXPLODED at G=7; witness K=10026 verified
+11,269,26,GE,10000,DP EXPLODED at G=7; witness K=10026 verified
+11,270,26,GE,10000,DP EXPLODED at G=7; witness K=10026 verified
+11,271,26,EXACT,0,DP maxstates=4
+11,272,26,EXACT,0,DP maxstates=2
+11,273,26,GE,10000,DP EXPLODED at G=7; witness K=10026 verified
+11,274,26,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,275,27,GE,10000,DP EXPLODED at G=7; witness K=10027 verified
+11,276,27,GE,10000,DP EXPLODED at G=7; witness K=10027 verified
+11,277,27,GE,10000,DP EXPLODED at G=7; witness K=10027 verified
+11,278,27,GE,10000,DP EXPLODED at G=7; witness K=10027 verified
+11,279,27,GE,10000,DP EXPLODED at G=7; witness K=10027 verified
+11,280,27,GE,10000,DP EXPLODED at G=7; witness K=10027 verified
+11,281,27,GE,10000,DP EXPLODED at G=7; witness K=10027 verified
+11,282,27,EXACT,0,DP maxstates=4
+11,283,27,EXACT,0,DP maxstates=2
+11,284,27,GE,10000,DP EXPLODED at G=7; witness K=10027 verified
+11,285,27,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,286,28,GE,10000,DP EXPLODED at G=7; witness K=10028 verified
+11,287,28,GE,10000,DP EXPLODED at G=7; witness K=10028 verified
+11,288,28,GE,10000,DP EXPLODED at G=7; witness K=10028 verified
+11,289,28,GE,10000,DP EXPLODED at G=7; witness K=10028 verified
+11,290,28,GE,10000,DP EXPLODED at G=7; witness K=10028 verified
+11,291,28,GE,10000,DP EXPLODED at G=7; witness K=10028 verified
+11,292,28,GE,10000,DP EXPLODED at G=7; witness K=10028 verified
+11,293,28,EXACT,0,DP maxstates=4
+11,294,28,EXACT,0,DP maxstates=2
+11,295,28,GE,10000,DP EXPLODED at G=7; witness K=10028 verified
+11,296,28,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,297,29,GE,10000,DP EXPLODED at G=7; witness K=10029 verified
+11,298,29,GE,10000,DP EXPLODED at G=7; witness K=10029 verified
+11,299,29,GE,10000,DP EXPLODED at G=7; witness K=10029 verified
+11,300,29,GE,10000,DP EXPLODED at G=7; witness K=10029 verified
+11,301,29,GE,10000,DP EXPLODED at G=7; witness K=10029 verified
+11,302,29,GE,10000,DP EXPLODED at G=7; witness K=10029 verified
+11,303,29,GE,10000,DP EXPLODED at G=7; witness K=10029 verified
+11,304,29,EXACT,0,DP maxstates=4
+11,305,29,EXACT,0,DP maxstates=2
+11,306,29,GE,10000,DP EXPLODED at G=7; witness K=10029 verified
+11,307,29,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,308,30,GE,10000,DP EXPLODED at G=7; witness K=10030 verified
+11,309,30,GE,10000,DP EXPLODED at G=7; witness K=10030 verified
+11,310,30,GE,10000,DP EXPLODED at G=7; witness K=10030 verified
+11,311,30,GE,10000,DP EXPLODED at G=7; witness K=10030 verified
+11,312,30,GE,10000,DP EXPLODED at G=7; witness K=10030 verified
+11,313,30,GE,10000,DP EXPLODED at G=7; witness K=10030 verified
+11,314,30,GE,10000,DP EXPLODED at G=7; witness K=10030 verified
+11,315,30,EXACT,0,DP maxstates=4
+11,316,30,EXACT,0,DP maxstates=2
+11,317,30,GE,10000,DP EXPLODED at G=7; witness K=10030 verified
+11,318,30,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,319,31,GE,10000,DP EXPLODED at G=7; witness K=10031 verified
+11,320,31,GE,10000,DP EXPLODED at G=7; witness K=10031 verified
+11,321,31,GE,10000,DP EXPLODED at G=7; witness K=10031 verified
+11,322,31,GE,10000,DP EXPLODED at G=7; witness K=10031 verified
+11,323,31,GE,10000,DP EXPLODED at G=7; witness K=10031 verified
+11,324,31,GE,10000,DP EXPLODED at G=7; witness K=10031 verified
+11,325,31,GE,10000,DP EXPLODED at G=7; witness K=10031 verified
+11,326,31,EXACT,0,DP maxstates=4
+11,327,31,EXACT,0,DP maxstates=2
+11,328,31,GE,10000,DP EXPLODED at G=7; witness K=10031 verified
+11,329,31,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,330,32,GE,10000,DP EXPLODED at G=7; witness K=10032 verified
+11,331,32,GE,10000,DP EXPLODED at G=7; witness K=10032 verified
+11,332,32,GE,10000,DP EXPLODED at G=7; witness K=10032 verified
+11,333,32,GE,10000,DP EXPLODED at G=7; witness K=10032 verified
+11,334,32,GE,10000,DP EXPLODED at G=7; witness K=10032 verified
+11,335,32,GE,10000,DP EXPLODED at G=7; witness K=10032 verified
+11,336,32,GE,10000,DP EXPLODED at G=7; witness K=10032 verified
+11,337,32,EXACT,0,DP maxstates=4
+11,338,32,EXACT,0,DP maxstates=2
+11,339,32,GE,10000,DP EXPLODED at G=7; witness K=10032 verified
+11,340,32,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,341,33,GE,10000,DP EXPLODED at G=8; witness K=10033 verified
+11,342,33,GE,10000,DP EXPLODED at G=8; witness K=10033 verified
+11,343,33,GE,10000,DP EXPLODED at G=8; witness K=10033 verified
+11,344,33,GE,10000,DP EXPLODED at G=8; witness K=10033 verified
+11,345,33,GE,10000,DP EXPLODED at G=9; witness K=10033 verified
+11,346,33,GE,10000,DP EXPLODED at G=9; witness K=10033 verified
+11,347,33,GE,10000,DP EXPLODED at G=9; witness K=10033 verified
+11,348,33,EXACT,0,DP maxstates=4
+11,349,33,EXACT,0,DP maxstates=2
+11,350,33,GE,10000,DP EXPLODED at G=9; witness K=10033 verified
+11,351,33,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,352,34,GE,10000,DP EXPLODED at G=8; witness K=10034 verified
+11,353,34,GE,10000,DP EXPLODED at G=8; witness K=10034 verified
+11,354,34,GE,10000,DP EXPLODED at G=8; witness K=10034 verified
+11,355,34,EXACT,1,DP maxstates=36
+11,356,34,EXACT,1,DP maxstates=24
+11,357,34,GE,10000,DP EXPLODED at G=8; witness K=10034 verified
+11,358,34,EXACT,1,DP maxstates=8
+11,359,34,EXACT,0,DP maxstates=4
+11,360,34,EXACT,0,DP maxstates=2
+11,361,34,GE,10000,DP EXPLODED at G=8; witness K=10034 verified
+11,362,34,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,363,36,GE,10000,DP EXPLODED at G=7; witness K=10036 verified
+11,364,36,GE,10000,DP EXPLODED at G=7; witness K=10036 verified
+11,365,36,GE,10000,DP EXPLODED at G=7; witness K=10036 verified
+11,366,36,GE,10000,DP EXPLODED at G=7; witness K=10036 verified
+11,367,36,GE,10000,DP EXPLODED at G=7; witness K=10036 verified
+11,368,36,GE,10000,DP EXPLODED at G=7; witness K=10036 verified
+11,369,36,GE,10000,DP EXPLODED at G=7; witness K=10036 verified
+11,370,36,EXACT,0,DP maxstates=4
+11,371,36,EXACT,0,DP maxstates=2
+11,372,36,GE,10000,DP EXPLODED at G=7; witness K=10036 verified
+11,373,36,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,374,37,GE,10000,DP EXPLODED at G=7; witness K=10037 verified
+11,375,37,GE,10000,DP EXPLODED at G=7; witness K=10037 verified
+11,376,37,GE,10000,DP EXPLODED at G=7; witness K=10037 verified
+11,377,37,GE,10000,DP EXPLODED at G=7; witness K=10037 verified
+11,378,37,GE,10000,DP EXPLODED at G=7; witness K=10037 verified
+11,379,37,GE,10000,DP EXPLODED at G=7; witness K=10037 verified
+11,380,37,GE,10000,DP EXPLODED at G=7; witness K=10037 verified
+11,381,37,EXACT,0,DP maxstates=4
+11,382,37,EXACT,0,DP maxstates=2
+11,383,37,GE,10000,DP EXPLODED at G=7; witness K=10037 verified
+11,384,37,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,385,38,GE,10000,DP EXPLODED at G=7; witness K=10038 verified
+11,386,38,GE,10000,DP EXPLODED at G=7; witness K=10038 verified
+11,387,38,GE,10000,DP EXPLODED at G=7; witness K=10038 verified
+11,388,38,GE,10000,DP EXPLODED at G=7; witness K=10038 verified
+11,389,38,GE,10000,DP EXPLODED at G=7; witness K=10038 verified
+11,390,38,GE,10000,DP EXPLODED at G=7; witness K=10038 verified
+11,391,38,GE,10000,DP EXPLODED at G=7; witness K=10038 verified
+11,392,38,EXACT,0,DP maxstates=4
+11,393,38,EXACT,0,DP maxstates=2
+11,394,38,GE,10000,DP EXPLODED at G=7; witness K=10038 verified
+11,395,38,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,396,39,GE,10000,DP EXPLODED at G=7; witness K=10039 verified
+11,397,39,GE,10000,DP EXPLODED at G=7; witness K=10039 verified
+11,398,39,GE,10000,DP EXPLODED at G=7; witness K=10039 verified
+11,399,39,GE,10000,DP EXPLODED at G=7; witness K=10039 verified
+11,400,39,GE,10000,DP EXPLODED at G=7; witness K=10039 verified
+11,401,39,GE,10000,DP EXPLODED at G=7; witness K=10039 verified
+11,402,39,GE,10000,DP EXPLODED at G=7; witness K=10039 verified
+11,403,39,EXACT,0,DP maxstates=4
+11,404,39,EXACT,0,DP maxstates=2
+11,405,39,GE,10000,DP EXPLODED at G=7; witness K=10039 verified
+11,406,39,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,407,40,GE,10000,DP EXPLODED at G=7; witness K=10040 verified
+11,408,40,GE,10000,DP EXPLODED at G=7; witness K=10040 verified
+11,409,40,GE,10000,DP EXPLODED at G=7; witness K=10040 verified
+11,410,40,GE,10000,DP EXPLODED at G=7; witness K=10040 verified
+11,411,40,GE,10000,DP EXPLODED at G=7; witness K=10040 verified
+11,412,40,GE,10000,DP EXPLODED at G=7; witness K=10040 verified
+11,413,40,GE,10000,DP EXPLODED at G=7; witness K=10040 verified
+11,414,40,EXACT,0,DP maxstates=4
+11,415,40,EXACT,0,DP maxstates=2
+11,416,40,GE,10000,DP EXPLODED at G=7; witness K=10040 verified
+11,417,40,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,418,41,GE,10000,DP EXPLODED at G=7; witness K=10041 verified
+11,419,41,GE,10000,DP EXPLODED at G=7; witness K=10041 verified
+11,420,41,GE,10000,DP EXPLODED at G=7; witness K=10041 verified
+11,421,41,GE,10000,DP EXPLODED at G=7; witness K=10041 verified
+11,422,41,GE,10000,DP EXPLODED at G=7; witness K=10041 verified
+11,423,41,GE,10000,DP EXPLODED at G=7; witness K=10041 verified
+11,424,41,GE,10000,DP EXPLODED at G=7; witness K=10041 verified
+11,425,41,EXACT,0,DP maxstates=4
+11,426,41,EXACT,0,DP maxstates=2
+11,427,41,GE,10000,DP EXPLODED at G=7; witness K=10041 verified
+11,428,41,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,429,42,GE,10000,DP EXPLODED at G=7; witness K=10042 verified
+11,430,42,GE,10000,DP EXPLODED at G=7; witness K=10042 verified
+11,431,42,GE,10000,DP EXPLODED at G=7; witness K=10042 verified
+11,432,42,GE,10000,DP EXPLODED at G=7; witness K=10042 verified
+11,433,42,GE,10000,DP EXPLODED at G=7; witness K=10042 verified
+11,434,42,GE,10000,DP EXPLODED at G=7; witness K=10042 verified
+11,435,42,GE,10000,DP EXPLODED at G=7; witness K=10042 verified
+11,436,42,EXACT,0,DP maxstates=4
+11,437,42,EXACT,0,DP maxstates=2
+11,438,42,GE,10000,DP EXPLODED at G=7; witness K=10042 verified
+11,439,42,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,440,43,GE,10000,DP EXPLODED at G=7; witness K=10043 verified
+11,441,43,GE,10000,DP EXPLODED at G=7; witness K=10043 verified
+11,442,43,GE,10000,DP EXPLODED at G=7; witness K=10043 verified
+11,443,43,GE,10000,DP EXPLODED at G=7; witness K=10043 verified
+11,444,43,GE,10000,DP EXPLODED at G=7; witness K=10043 verified
+11,445,43,GE,10000,DP EXPLODED at G=7; witness K=10043 verified
+11,446,43,GE,10000,DP EXPLODED at G=7; witness K=10043 verified
+11,447,43,EXACT,0,DP maxstates=4
+11,448,43,EXACT,0,DP maxstates=2
+11,449,43,GE,10000,DP EXPLODED at G=7; witness K=10043 verified
+11,450,43,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,451,44,GE,10000,DP EXPLODED at G=7; witness K=10044 verified
+11,452,44,GE,10000,DP EXPLODED at G=7; witness K=10044 verified
+11,453,44,GE,10000,DP EXPLODED at G=7; witness K=10044 verified
+11,454,44,GE,10000,DP EXPLODED at G=7; witness K=10044 verified
+11,455,44,GE,10000,DP EXPLODED at G=7; witness K=10044 verified
+11,456,44,GE,10000,DP EXPLODED at G=7; witness K=10044 verified
+11,457,44,GE,10000,DP EXPLODED at G=7; witness K=10044 verified
+11,458,44,EXACT,0,DP maxstates=4
+11,459,44,EXACT,0,DP maxstates=2
+11,460,44,GE,10000,DP EXPLODED at G=7; witness K=10044 verified
+11,461,44,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,462,45,GE,10000,DP EXPLODED at G=8; witness K=10045 verified
+11,463,45,GE,10000,DP EXPLODED at G=8; witness K=10045 verified
+11,464,45,GE,10000,DP EXPLODED at G=8; witness K=10045 verified
+11,465,45,GE,10000,DP EXPLODED at G=8; witness K=10045 verified
+11,466,45,GE,10000,DP EXPLODED at G=9; witness K=10045 verified
+11,467,45,GE,10000,DP EXPLODED at G=9; witness K=10045 verified
+11,468,45,GE,10000,DP EXPLODED at G=9; witness K=10045 verified
+11,469,45,EXACT,0,DP maxstates=4
+11,470,45,EXACT,0,DP maxstates=2
+11,471,45,GE,10000,DP EXPLODED at G=9; witness K=10045 verified
+11,472,45,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,473,46,GE,10000,DP EXPLODED at G=8; witness K=10046 verified
+11,474,46,GE,10000,DP EXPLODED at G=8; witness K=10046 verified
+11,475,46,GE,10000,DP EXPLODED at G=8; witness K=10046 verified
+11,476,46,EXACT,1,DP maxstates=36
+11,477,46,EXACT,1,DP maxstates=24
+11,478,46,GE,10000,DP EXPLODED at G=8; witness K=10046 verified
+11,479,46,EXACT,1,DP maxstates=8
+11,480,46,EXACT,0,DP maxstates=4
+11,481,46,EXACT,0,DP maxstates=2
+11,482,46,GE,10000,DP EXPLODED at G=8; witness K=10046 verified
+11,483,46,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,484,48,GE,10000,DP EXPLODED at G=7; witness K=10048 verified
+11,485,48,GE,10000,DP EXPLODED at G=7; witness K=10048 verified
+11,486,48,GE,10000,DP EXPLODED at G=7; witness K=10048 verified
+11,487,48,GE,10000,DP EXPLODED at G=7; witness K=10048 verified
+11,488,48,GE,10000,DP EXPLODED at G=7; witness K=10048 verified
+11,489,48,GE,10000,DP EXPLODED at G=7; witness K=10048 verified
+11,490,48,GE,10000,DP EXPLODED at G=7; witness K=10048 verified
+11,491,48,EXACT,0,DP maxstates=4
+11,492,48,EXACT,0,DP maxstates=2
+11,493,48,GE,10000,DP EXPLODED at G=7; witness K=10048 verified
+11,494,48,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,495,49,GE,10000,DP EXPLODED at G=7; witness K=10049 verified
+11,496,49,GE,10000,DP EXPLODED at G=7; witness K=10049 verified
+11,497,49,GE,10000,DP EXPLODED at G=7; witness K=10049 verified
+11,498,49,GE,10000,DP EXPLODED at G=7; witness K=10049 verified
+11,499,49,GE,10000,DP EXPLODED at G=7; witness K=10049 verified
+11,500,49,GE,10000,DP EXPLODED at G=7; witness K=10049 verified
+11,501,49,GE,10000,DP EXPLODED at G=7; witness K=10049 verified
+11,502,49,EXACT,0,DP maxstates=4
+11,503,49,EXACT,0,DP maxstates=2
+11,504,49,GE,10000,DP EXPLODED at G=7; witness K=10049 verified
+11,505,49,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,506,50,GE,10000,DP EXPLODED at G=7; witness K=10050 verified
+11,507,50,GE,10000,DP EXPLODED at G=7; witness K=10050 verified
+11,508,50,GE,10000,DP EXPLODED at G=7; witness K=10050 verified
+11,509,50,GE,10000,DP EXPLODED at G=7; witness K=10050 verified
+11,510,50,GE,10000,DP EXPLODED at G=7; witness K=10050 verified
+11,511,50,GE,10000,DP EXPLODED at G=7; witness K=10050 verified
+11,512,50,GE,10000,DP EXPLODED at G=7; witness K=10050 verified
+11,513,50,EXACT,0,DP maxstates=4
+11,514,50,EXACT,0,DP maxstates=2
+11,515,50,GE,10000,DP EXPLODED at G=7; witness K=10050 verified
+11,516,50,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,517,51,GE,10000,DP EXPLODED at G=7; witness K=10051 verified
+11,518,51,GE,10000,DP EXPLODED at G=7; witness K=10051 verified
+11,519,51,GE,10000,DP EXPLODED at G=7; witness K=10051 verified
+11,520,51,GE,10000,DP EXPLODED at G=7; witness K=10051 verified
+11,521,51,GE,10000,DP EXPLODED at G=7; witness K=10051 verified
+11,522,51,GE,10000,DP EXPLODED at G=7; witness K=10051 verified
+11,523,51,GE,10000,DP EXPLODED at G=7; witness K=10051 verified
+11,524,51,EXACT,0,DP maxstates=4
+11,525,51,EXACT,0,DP maxstates=2
+11,526,51,GE,10000,DP EXPLODED at G=7; witness K=10051 verified
+11,527,51,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,528,52,GE,10000,DP EXPLODED at G=7; witness K=10052 verified
+11,529,52,GE,10000,DP EXPLODED at G=7; witness K=10052 verified
+11,530,52,GE,10000,DP EXPLODED at G=7; witness K=10052 verified
+11,531,52,GE,10000,DP EXPLODED at G=7; witness K=10052 verified
+11,532,52,GE,10000,DP EXPLODED at G=7; witness K=10052 verified
+11,533,52,GE,10000,DP EXPLODED at G=7; witness K=10052 verified
+11,534,52,GE,10000,DP EXPLODED at G=7; witness K=10052 verified
+11,535,52,EXACT,0,DP maxstates=4
+11,536,52,EXACT,0,DP maxstates=2
+11,537,52,GE,10000,DP EXPLODED at G=7; witness K=10052 verified
+11,538,52,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,539,53,GE,10000,DP EXPLODED at G=7; witness K=10053 verified
+11,540,53,GE,10000,DP EXPLODED at G=7; witness K=10053 verified
+11,541,53,GE,10000,DP EXPLODED at G=7; witness K=10053 verified
+11,542,53,GE,10000,DP EXPLODED at G=7; witness K=10053 verified
+11,543,53,GE,10000,DP EXPLODED at G=7; witness K=10053 verified
+11,544,53,GE,10000,DP EXPLODED at G=7; witness K=10053 verified
+11,545,53,GE,10000,DP EXPLODED at G=7; witness K=10053 verified
+11,546,53,EXACT,0,DP maxstates=4
+11,547,53,EXACT,0,DP maxstates=2
+11,548,53,GE,10000,DP EXPLODED at G=7; witness K=10053 verified
+11,549,53,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,550,54,GE,10000,DP EXPLODED at G=7; witness K=10054 verified
+11,551,54,GE,10000,DP EXPLODED at G=7; witness K=10054 verified
+11,552,54,GE,10000,DP EXPLODED at G=7; witness K=10054 verified
+11,553,54,GE,10000,DP EXPLODED at G=7; witness K=10054 verified
+11,554,54,GE,10000,DP EXPLODED at G=7; witness K=10054 verified
+11,555,54,GE,10000,DP EXPLODED at G=7; witness K=10054 verified
+11,556,54,GE,10000,DP EXPLODED at G=7; witness K=10054 verified
+11,557,54,EXACT,0,DP maxstates=4
+11,558,54,EXACT,0,DP maxstates=2
+11,559,54,GE,10000,DP EXPLODED at G=7; witness K=10054 verified
+11,560,54,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,561,55,GE,10000,DP EXPLODED at G=7; witness K=10055 verified
+11,562,55,GE,10000,DP EXPLODED at G=7; witness K=10055 verified
+11,563,55,GE,10000,DP EXPLODED at G=7; witness K=10055 verified
+11,564,55,GE,10000,DP EXPLODED at G=7; witness K=10055 verified
+11,565,55,GE,10000,DP EXPLODED at G=7; witness K=10055 verified
+11,566,55,GE,10000,DP EXPLODED at G=7; witness K=10055 verified
+11,567,55,GE,10000,DP EXPLODED at G=7; witness K=10055 verified
+11,568,55,EXACT,0,DP maxstates=4
+11,569,55,EXACT,0,DP maxstates=2
+11,570,55,GE,10000,DP EXPLODED at G=7; witness K=10055 verified
+11,571,55,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,572,56,GE,10000,DP EXPLODED at G=7; witness K=10056 verified
+11,573,56,GE,10000,DP EXPLODED at G=7; witness K=10056 verified
+11,574,56,GE,10000,DP EXPLODED at G=7; witness K=10056 verified
+11,575,56,GE,10000,DP EXPLODED at G=7; witness K=10056 verified
+11,576,56,GE,10000,DP EXPLODED at G=7; witness K=10056 verified
+11,577,56,GE,10000,DP EXPLODED at G=7; witness K=10056 verified
+11,578,56,GE,10000,DP EXPLODED at G=7; witness K=10056 verified
+11,579,56,EXACT,0,DP maxstates=4
+11,580,56,EXACT,0,DP maxstates=2
+11,581,56,GE,10000,DP EXPLODED at G=7; witness K=10056 verified
+11,582,56,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,583,57,GE,10000,DP EXPLODED at G=8; witness K=10057 verified
+11,584,57,GE,10000,DP EXPLODED at G=8; witness K=10057 verified
+11,585,57,GE,10000,DP EXPLODED at G=8; witness K=10057 verified
+11,586,57,GE,10000,DP EXPLODED at G=8; witness K=10057 verified
+11,587,57,GE,10000,DP EXPLODED at G=9; witness K=10057 verified
+11,588,57,GE,10000,DP EXPLODED at G=9; witness K=10057 verified
+11,589,57,GE,10000,DP EXPLODED at G=9; witness K=10057 verified
+11,590,57,EXACT,0,DP maxstates=4
+11,591,57,EXACT,0,DP maxstates=2
+11,592,57,GE,10000,DP EXPLODED at G=9; witness K=10057 verified
+11,593,57,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,594,58,GE,10000,DP EXPLODED at G=8; witness K=10058 verified
+11,595,58,GE,10000,DP EXPLODED at G=8; witness K=10058 verified
+11,596,58,GE,10000,DP EXPLODED at G=8; witness K=10058 verified
+11,597,58,EXACT,1,DP maxstates=36
+11,598,58,EXACT,1,DP maxstates=24
+11,599,58,GE,10000,DP EXPLODED at G=8; witness K=10058 verified
+11,600,58,EXACT,1,DP maxstates=8
+11,601,58,EXACT,0,DP maxstates=4
+11,602,58,EXACT,0,DP maxstates=2
+11,603,58,GE,10000,DP EXPLODED at G=8; witness K=10058 verified
+11,604,58,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,605,60,GE,10000,DP EXPLODED at G=7; witness K=10060 verified
+11,606,60,GE,10000,DP EXPLODED at G=7; witness K=10060 verified
+11,607,60,GE,10000,DP EXPLODED at G=7; witness K=10060 verified
+11,608,60,GE,10000,DP EXPLODED at G=7; witness K=10060 verified
+11,609,60,GE,10000,DP EXPLODED at G=7; witness K=10060 verified
+11,610,60,GE,10000,DP EXPLODED at G=7; witness K=10060 verified
+11,611,60,GE,10000,DP EXPLODED at G=7; witness K=10060 verified
+11,612,60,EXACT,0,DP maxstates=4
+11,613,60,EXACT,0,DP maxstates=2
+11,614,60,GE,10000,DP EXPLODED at G=7; witness K=10060 verified
+11,615,60,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,616,61,GE,10000,DP EXPLODED at G=7; witness K=10061 verified
+11,617,61,GE,10000,DP EXPLODED at G=7; witness K=10061 verified
+11,618,61,GE,10000,DP EXPLODED at G=7; witness K=10061 verified
+11,619,61,GE,10000,DP EXPLODED at G=7; witness K=10061 verified
+11,620,61,GE,10000,DP EXPLODED at G=7; witness K=10061 verified
+11,621,61,GE,10000,DP EXPLODED at G=7; witness K=10061 verified
+11,622,61,GE,10000,DP EXPLODED at G=7; witness K=10061 verified
+11,623,61,EXACT,0,DP maxstates=4
+11,624,61,EXACT,0,DP maxstates=2
+11,625,61,GE,10000,DP EXPLODED at G=7; witness K=10061 verified
+11,626,61,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,627,62,GE,10000,DP EXPLODED at G=7; witness K=10062 verified
+11,628,62,GE,10000,DP EXPLODED at G=7; witness K=10062 verified
+11,629,62,GE,10000,DP EXPLODED at G=7; witness K=10062 verified
+11,630,62,GE,10000,DP EXPLODED at G=7; witness K=10062 verified
+11,631,62,GE,10000,DP EXPLODED at G=7; witness K=10062 verified
+11,632,62,GE,10000,DP EXPLODED at G=7; witness K=10062 verified
+11,633,62,GE,10000,DP EXPLODED at G=7; witness K=10062 verified
+11,634,62,EXACT,0,DP maxstates=4
+11,635,62,EXACT,0,DP maxstates=2
+11,636,62,GE,10000,DP EXPLODED at G=7; witness K=10062 verified
+11,637,62,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,638,63,GE,10000,DP EXPLODED at G=7; witness K=10063 verified
+11,639,63,GE,10000,DP EXPLODED at G=7; witness K=10063 verified
+11,640,63,GE,10000,DP EXPLODED at G=7; witness K=10063 verified
+11,641,63,GE,10000,DP EXPLODED at G=7; witness K=10063 verified
+11,642,63,GE,10000,DP EXPLODED at G=7; witness K=10063 verified
+11,643,63,GE,10000,DP EXPLODED at G=7; witness K=10063 verified
+11,644,63,GE,10000,DP EXPLODED at G=7; witness K=10063 verified
+11,645,63,EXACT,0,DP maxstates=4
+11,646,63,EXACT,0,DP maxstates=2
+11,647,63,GE,10000,DP EXPLODED at G=7; witness K=10063 verified
+11,648,63,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,649,64,GE,10000,DP EXPLODED at G=7; witness K=10064 verified
+11,650,64,GE,10000,DP EXPLODED at G=7; witness K=10064 verified
+11,651,64,GE,10000,DP EXPLODED at G=7; witness K=10064 verified
+11,652,64,GE,10000,DP EXPLODED at G=7; witness K=10064 verified
+11,653,64,GE,10000,DP EXPLODED at G=7; witness K=10064 verified
+11,654,64,GE,10000,DP EXPLODED at G=7; witness K=10064 verified
+11,655,64,GE,10000,DP EXPLODED at G=7; witness K=10064 verified
+11,656,64,EXACT,0,DP maxstates=4
+11,657,64,EXACT,0,DP maxstates=2
+11,658,64,GE,10000,DP EXPLODED at G=7; witness K=10064 verified
+11,659,64,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,660,65,GE,10000,DP EXPLODED at G=7; witness K=10065 verified
+11,661,65,GE,10000,DP EXPLODED at G=7; witness K=10065 verified
+11,662,65,GE,10000,DP EXPLODED at G=7; witness K=10065 verified
+11,663,65,GE,10000,DP EXPLODED at G=7; witness K=10065 verified
+11,664,65,GE,10000,DP EXPLODED at G=7; witness K=10065 verified
+11,665,65,GE,10000,DP EXPLODED at G=7; witness K=10065 verified
+11,666,65,GE,10000,DP EXPLODED at G=7; witness K=10065 verified
+11,667,65,EXACT,0,DP maxstates=4
+11,668,65,EXACT,0,DP maxstates=2
+11,669,65,GE,10000,DP EXPLODED at G=7; witness K=10065 verified
+11,670,65,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,671,66,GE,10000,DP EXPLODED at G=7; witness K=10066 verified
+11,672,66,GE,10000,DP EXPLODED at G=7; witness K=10066 verified
+11,673,66,GE,10000,DP EXPLODED at G=7; witness K=10066 verified
+11,674,66,GE,10000,DP EXPLODED at G=7; witness K=10066 verified
+11,675,66,GE,10000,DP EXPLODED at G=7; witness K=10066 verified
+11,676,66,GE,10000,DP EXPLODED at G=7; witness K=10066 verified
+11,677,66,GE,10000,DP EXPLODED at G=7; witness K=10066 verified
+11,678,66,EXACT,0,DP maxstates=4
+11,679,66,EXACT,0,DP maxstates=2
+11,680,66,GE,10000,DP EXPLODED at G=7; witness K=10066 verified
+11,681,66,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,682,67,GE,10000,DP EXPLODED at G=7; witness K=10067 verified
+11,683,67,GE,10000,DP EXPLODED at G=7; witness K=10067 verified
+11,684,67,GE,10000,DP EXPLODED at G=7; witness K=10067 verified
+11,685,67,GE,10000,DP EXPLODED at G=7; witness K=10067 verified
+11,686,67,GE,10000,DP EXPLODED at G=7; witness K=10067 verified
+11,687,67,GE,10000,DP EXPLODED at G=7; witness K=10067 verified
+11,688,67,GE,10000,DP EXPLODED at G=7; witness K=10067 verified
+11,689,67,EXACT,0,DP maxstates=4
+11,690,67,EXACT,0,DP maxstates=2
+11,691,67,GE,10000,DP EXPLODED at G=7; witness K=10067 verified
+11,692,67,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,693,68,GE,10000,DP EXPLODED at G=7; witness K=10068 verified
+11,694,68,GE,10000,DP EXPLODED at G=7; witness K=10068 verified
+11,695,68,GE,10000,DP EXPLODED at G=7; witness K=10068 verified
+11,696,68,GE,10000,DP EXPLODED at G=7; witness K=10068 verified
+11,697,68,GE,10000,DP EXPLODED at G=7; witness K=10068 verified
+11,698,68,GE,10000,DP EXPLODED at G=7; witness K=10068 verified
+11,699,68,GE,10000,DP EXPLODED at G=7; witness K=10068 verified
+11,700,68,EXACT,0,DP maxstates=4
+11,701,68,EXACT,0,DP maxstates=2
+11,702,68,GE,10000,DP EXPLODED at G=7; witness K=10068 verified
+11,703,68,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,704,69,GE,10000,DP EXPLODED at G=8; witness K=10069 verified
+11,705,69,GE,10000,DP EXPLODED at G=8; witness K=10069 verified
+11,706,69,GE,10000,DP EXPLODED at G=8; witness K=10069 verified
+11,707,69,GE,10000,DP EXPLODED at G=8; witness K=10069 verified
+11,708,69,GE,10000,DP EXPLODED at G=9; witness K=10069 verified
+11,709,69,GE,10000,DP EXPLODED at G=9; witness K=10069 verified
+11,710,69,GE,10000,DP EXPLODED at G=9; witness K=10069 verified
+11,711,69,EXACT,0,DP maxstates=4
+11,712,69,EXACT,0,DP maxstates=2
+11,713,69,GE,10000,DP EXPLODED at G=9; witness K=10069 verified
+11,714,69,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,715,70,GE,10000,DP EXPLODED at G=8; witness K=10070 verified
+11,716,70,GE,10000,DP EXPLODED at G=8; witness K=10070 verified
+11,717,70,GE,10000,DP EXPLODED at G=8; witness K=10070 verified
+11,718,70,EXACT,1,DP maxstates=36
+11,719,70,EXACT,1,DP maxstates=24
+11,720,70,GE,10000,DP EXPLODED at G=8; witness K=10070 verified
+11,721,70,EXACT,1,DP maxstates=8
+11,722,70,EXACT,0,DP maxstates=4
+11,723,70,EXACT,0,DP maxstates=2
+11,724,70,GE,10000,DP EXPLODED at G=8; witness K=10070 verified
+11,725,70,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,726,72,GE,10000,DP EXPLODED at G=7; witness K=10072 verified
+11,727,72,GE,10000,DP EXPLODED at G=7; witness K=10072 verified
+11,728,72,GE,10000,DP EXPLODED at G=7; witness K=10072 verified
+11,729,72,GE,10000,DP EXPLODED at G=7; witness K=10072 verified
+11,730,72,GE,10000,DP EXPLODED at G=7; witness K=10072 verified
+11,731,72,GE,10000,DP EXPLODED at G=7; witness K=10072 verified
+11,732,72,GE,10000,DP EXPLODED at G=7; witness K=10072 verified
+11,733,72,EXACT,0,DP maxstates=4
+11,734,72,EXACT,0,DP maxstates=2
+11,735,72,GE,10000,DP EXPLODED at G=7; witness K=10072 verified
+11,736,72,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,737,73,GE,10000,DP EXPLODED at G=7; witness K=10073 verified
+11,738,73,GE,10000,DP EXPLODED at G=7; witness K=10073 verified
+11,739,73,GE,10000,DP EXPLODED at G=7; witness K=10073 verified
+11,740,73,GE,10000,DP EXPLODED at G=7; witness K=10073 verified
+11,741,73,GE,10000,DP EXPLODED at G=7; witness K=10073 verified
+11,742,73,GE,10000,DP EXPLODED at G=7; witness K=10073 verified
+11,743,73,GE,10000,DP EXPLODED at G=7; witness K=10073 verified
+11,744,73,EXACT,0,DP maxstates=4
+11,745,73,EXACT,0,DP maxstates=2
+11,746,73,GE,10000,DP EXPLODED at G=7; witness K=10073 verified
+11,747,73,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,748,74,GE,10000,DP EXPLODED at G=7; witness K=10074 verified
+11,749,74,GE,10000,DP EXPLODED at G=7; witness K=10074 verified
+11,750,74,GE,10000,DP EXPLODED at G=7; witness K=10074 verified
+11,751,74,GE,10000,DP EXPLODED at G=7; witness K=10074 verified
+11,752,74,GE,10000,DP EXPLODED at G=7; witness K=10074 verified
+11,753,74,GE,10000,DP EXPLODED at G=7; witness K=10074 verified
+11,754,74,GE,10000,DP EXPLODED at G=7; witness K=10074 verified
+11,755,74,EXACT,0,DP maxstates=4
+11,756,74,EXACT,0,DP maxstates=2
+11,757,74,GE,10000,DP EXPLODED at G=7; witness K=10074 verified
+11,758,74,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,759,75,GE,10000,DP EXPLODED at G=7; witness K=10075 verified
+11,760,75,GE,10000,DP EXPLODED at G=7; witness K=10075 verified
+11,761,75,GE,10000,DP EXPLODED at G=7; witness K=10075 verified
+11,762,75,GE,10000,DP EXPLODED at G=7; witness K=10075 verified
+11,763,75,GE,10000,DP EXPLODED at G=7; witness K=10075 verified
+11,764,75,GE,10000,DP EXPLODED at G=7; witness K=10075 verified
+11,765,75,GE,10000,DP EXPLODED at G=7; witness K=10075 verified
+11,766,75,EXACT,0,DP maxstates=4
+11,767,75,EXACT,0,DP maxstates=2
+11,768,75,GE,10000,DP EXPLODED at G=7; witness K=10075 verified
+11,769,75,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,770,76,GE,10000,DP EXPLODED at G=7; witness K=10076 verified
+11,771,76,GE,10000,DP EXPLODED at G=7; witness K=10076 verified
+11,772,76,GE,10000,DP EXPLODED at G=7; witness K=10076 verified
+11,773,76,GE,10000,DP EXPLODED at G=7; witness K=10076 verified
+11,774,76,GE,10000,DP EXPLODED at G=7; witness K=10076 verified
+11,775,76,GE,10000,DP EXPLODED at G=7; witness K=10076 verified
+11,776,76,GE,10000,DP EXPLODED at G=7; witness K=10076 verified
+11,777,76,EXACT,0,DP maxstates=4
+11,778,76,EXACT,0,DP maxstates=2
+11,779,76,GE,10000,DP EXPLODED at G=7; witness K=10076 verified
+11,780,76,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,781,77,GE,10000,DP EXPLODED at G=7; witness K=10077 verified
+11,782,77,GE,10000,DP EXPLODED at G=7; witness K=10077 verified
+11,783,77,GE,10000,DP EXPLODED at G=7; witness K=10077 verified
+11,784,77,GE,10000,DP EXPLODED at G=7; witness K=10077 verified
+11,785,77,GE,10000,DP EXPLODED at G=7; witness K=10077 verified
+11,786,77,GE,10000,DP EXPLODED at G=7; witness K=10077 verified
+11,787,77,GE,10000,DP EXPLODED at G=7; witness K=10077 verified
+11,788,77,EXACT,0,DP maxstates=4
+11,789,77,EXACT,0,DP maxstates=2
+11,790,77,GE,10000,DP EXPLODED at G=7; witness K=10077 verified
+11,791,77,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,792,78,GE,10000,DP EXPLODED at G=7; witness K=10078 verified
+11,793,78,GE,10000,DP EXPLODED at G=7; witness K=10078 verified
+11,794,78,GE,10000,DP EXPLODED at G=7; witness K=10078 verified
+11,795,78,GE,10000,DP EXPLODED at G=7; witness K=10078 verified
+11,796,78,GE,10000,DP EXPLODED at G=7; witness K=10078 verified
+11,797,78,GE,10000,DP EXPLODED at G=7; witness K=10078 verified
+11,798,78,GE,10000,DP EXPLODED at G=7; witness K=10078 verified
+11,799,78,EXACT,0,DP maxstates=4
+11,800,78,EXACT,0,DP maxstates=2
+11,801,78,GE,10000,DP EXPLODED at G=7; witness K=10078 verified
+11,802,78,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,803,79,GE,10000,DP EXPLODED at G=7; witness K=10079 verified
+11,804,79,GE,10000,DP EXPLODED at G=7; witness K=10079 verified
+11,805,79,GE,10000,DP EXPLODED at G=7; witness K=10079 verified
+11,806,79,GE,10000,DP EXPLODED at G=7; witness K=10079 verified
+11,807,79,GE,10000,DP EXPLODED at G=7; witness K=10079 verified
+11,808,79,GE,10000,DP EXPLODED at G=7; witness K=10079 verified
+11,809,79,GE,10000,DP EXPLODED at G=7; witness K=10079 verified
+11,810,79,EXACT,0,DP maxstates=4
+11,811,79,EXACT,0,DP maxstates=2
+11,812,79,GE,10000,DP EXPLODED at G=7; witness K=10079 verified
+11,813,79,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,814,80,GE,10000,DP EXPLODED at G=7; witness K=10080 verified
+11,815,80,GE,10000,DP EXPLODED at G=7; witness K=10080 verified
+11,816,80,GE,10000,DP EXPLODED at G=7; witness K=10080 verified
+11,817,80,GE,10000,DP EXPLODED at G=7; witness K=10080 verified
+11,818,80,GE,10000,DP EXPLODED at G=7; witness K=10080 verified
+11,819,80,GE,10000,DP EXPLODED at G=7; witness K=10080 verified
+11,820,80,GE,10000,DP EXPLODED at G=7; witness K=10080 verified
+11,821,80,EXACT,0,DP maxstates=4
+11,822,80,EXACT,0,DP maxstates=2
+11,823,80,GE,10000,DP EXPLODED at G=7; witness K=10080 verified
+11,824,80,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,825,81,GE,10000,DP EXPLODED at G=8; witness K=10081 verified
+11,826,81,GE,10000,DP EXPLODED at G=8; witness K=10081 verified
+11,827,81,GE,10000,DP EXPLODED at G=8; witness K=10081 verified
+11,828,81,GE,10000,DP EXPLODED at G=8; witness K=10081 verified
+11,829,81,GE,10000,DP EXPLODED at G=9; witness K=10081 verified
+11,830,81,GE,10000,DP EXPLODED at G=9; witness K=10081 verified
+11,831,81,GE,10000,DP EXPLODED at G=9; witness K=10081 verified
+11,832,81,EXACT,0,DP maxstates=4
+11,833,81,EXACT,0,DP maxstates=2
+11,834,81,GE,10000,DP EXPLODED at G=9; witness K=10081 verified
+11,835,81,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,836,82,GE,10000,DP EXPLODED at G=8; witness K=10082 verified
+11,837,82,GE,10000,DP EXPLODED at G=8; witness K=10082 verified
+11,838,82,GE,10000,DP EXPLODED at G=8; witness K=10082 verified
+11,839,82,EXACT,1,DP maxstates=36
+11,840,82,EXACT,1,DP maxstates=24
+11,841,82,GE,10000,DP EXPLODED at G=8; witness K=10082 verified
+11,842,82,EXACT,1,DP maxstates=8
+11,843,82,EXACT,0,DP maxstates=4
+11,844,82,EXACT,0,DP maxstates=2
+11,845,82,GE,10000,DP EXPLODED at G=8; witness K=10082 verified
+11,846,82,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,847,84,GE,10000,DP EXPLODED at G=7; witness K=10084 verified
+11,848,84,GE,10000,DP EXPLODED at G=7; witness K=10084 verified
+11,849,84,GE,10000,DP EXPLODED at G=7; witness K=10084 verified
+11,850,84,GE,10000,DP EXPLODED at G=7; witness K=10084 verified
+11,851,84,GE,10000,DP EXPLODED at G=7; witness K=10084 verified
+11,852,84,GE,10000,DP EXPLODED at G=7; witness K=10084 verified
+11,853,84,GE,10000,DP EXPLODED at G=7; witness K=10084 verified
+11,854,84,EXACT,0,DP maxstates=4
+11,855,84,EXACT,0,DP maxstates=2
+11,856,84,GE,10000,DP EXPLODED at G=7; witness K=10084 verified
+11,857,84,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,858,85,GE,10000,DP EXPLODED at G=7; witness K=10085 verified
+11,859,85,GE,10000,DP EXPLODED at G=7; witness K=10085 verified
+11,860,85,GE,10000,DP EXPLODED at G=7; witness K=10085 verified
+11,861,85,GE,10000,DP EXPLODED at G=7; witness K=10085 verified
+11,862,85,GE,10000,DP EXPLODED at G=7; witness K=10085 verified
+11,863,85,GE,10000,DP EXPLODED at G=7; witness K=10085 verified
+11,864,85,GE,10000,DP EXPLODED at G=7; witness K=10085 verified
+11,865,85,EXACT,0,DP maxstates=4
+11,866,85,EXACT,0,DP maxstates=2
+11,867,85,GE,10000,DP EXPLODED at G=7; witness K=10085 verified
+11,868,85,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,869,86,GE,10000,DP EXPLODED at G=7; witness K=10086 verified
+11,870,86,GE,10000,DP EXPLODED at G=7; witness K=10086 verified
+11,871,86,GE,10000,DP EXPLODED at G=7; witness K=10086 verified
+11,872,86,GE,10000,DP EXPLODED at G=7; witness K=10086 verified
+11,873,86,GE,10000,DP EXPLODED at G=7; witness K=10086 verified
+11,874,86,GE,10000,DP EXPLODED at G=7; witness K=10086 verified
+11,875,86,GE,10000,DP EXPLODED at G=7; witness K=10086 verified
+11,876,86,EXACT,0,DP maxstates=4
+11,877,86,EXACT,0,DP maxstates=2
+11,878,86,GE,10000,DP EXPLODED at G=7; witness K=10086 verified
+11,879,86,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,880,87,GE,10000,DP EXPLODED at G=7; witness K=10087 verified
+11,881,87,GE,10000,DP EXPLODED at G=7; witness K=10087 verified
+11,882,87,GE,10000,DP EXPLODED at G=7; witness K=10087 verified
+11,883,87,GE,10000,DP EXPLODED at G=7; witness K=10087 verified
+11,884,87,GE,10000,DP EXPLODED at G=7; witness K=10087 verified
+11,885,87,GE,10000,DP EXPLODED at G=7; witness K=10087 verified
+11,886,87,GE,10000,DP EXPLODED at G=7; witness K=10087 verified
+11,887,87,EXACT,0,DP maxstates=4
+11,888,87,EXACT,0,DP maxstates=2
+11,889,87,GE,10000,DP EXPLODED at G=7; witness K=10087 verified
+11,890,87,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,891,88,GE,10000,DP EXPLODED at G=7; witness K=10088 verified
+11,892,88,GE,10000,DP EXPLODED at G=7; witness K=10088 verified
+11,893,88,GE,10000,DP EXPLODED at G=7; witness K=10088 verified
+11,894,88,GE,10000,DP EXPLODED at G=7; witness K=10088 verified
+11,895,88,GE,10000,DP EXPLODED at G=7; witness K=10088 verified
+11,896,88,GE,10000,DP EXPLODED at G=7; witness K=10088 verified
+11,897,88,GE,10000,DP EXPLODED at G=7; witness K=10088 verified
+11,898,88,EXACT,0,DP maxstates=4
+11,899,88,EXACT,0,DP maxstates=2
+11,900,88,GE,10000,DP EXPLODED at G=7; witness K=10088 verified
+11,901,88,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,902,89,GE,10000,DP EXPLODED at G=7; witness K=10089 verified
+11,903,89,GE,10000,DP EXPLODED at G=7; witness K=10089 verified
+11,904,89,GE,10000,DP EXPLODED at G=7; witness K=10089 verified
+11,905,89,GE,10000,DP EXPLODED at G=7; witness K=10089 verified
+11,906,89,GE,10000,DP EXPLODED at G=7; witness K=10089 verified
+11,907,89,GE,10000,DP EXPLODED at G=7; witness K=10089 verified
+11,908,89,GE,10000,DP EXPLODED at G=7; witness K=10089 verified
+11,909,89,EXACT,0,DP maxstates=4
+11,910,89,EXACT,0,DP maxstates=2
+11,911,89,GE,10000,DP EXPLODED at G=7; witness K=10089 verified
+11,912,89,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,913,90,GE,10000,DP EXPLODED at G=7; witness K=10090 verified
+11,914,90,GE,10000,DP EXPLODED at G=7; witness K=10090 verified
+11,915,90,GE,10000,DP EXPLODED at G=7; witness K=10090 verified
+11,916,90,GE,10000,DP EXPLODED at G=7; witness K=10090 verified
+11,917,90,GE,10000,DP EXPLODED at G=7; witness K=10090 verified
+11,918,90,GE,10000,DP EXPLODED at G=7; witness K=10090 verified
+11,919,90,GE,10000,DP EXPLODED at G=7; witness K=10090 verified
+11,920,90,EXACT,0,DP maxstates=4
+11,921,90,EXACT,0,DP maxstates=2
+11,922,90,GE,10000,DP EXPLODED at G=7; witness K=10090 verified
+11,923,90,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,924,91,GE,10000,DP EXPLODED at G=7; witness K=10091 verified
+11,925,91,GE,10000,DP EXPLODED at G=7; witness K=10091 verified
+11,926,91,GE,10000,DP EXPLODED at G=7; witness K=10091 verified
+11,927,91,GE,10000,DP EXPLODED at G=7; witness K=10091 verified
+11,928,91,GE,10000,DP EXPLODED at G=7; witness K=10091 verified
+11,929,91,GE,10000,DP EXPLODED at G=7; witness K=10091 verified
+11,930,91,GE,10000,DP EXPLODED at G=7; witness K=10091 verified
+11,931,91,EXACT,0,DP maxstates=4
+11,932,91,EXACT,0,DP maxstates=2
+11,933,91,GE,10000,DP EXPLODED at G=7; witness K=10091 verified
+11,934,91,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,935,92,GE,10000,DP EXPLODED at G=7; witness K=10092 verified
+11,936,92,GE,10000,DP EXPLODED at G=7; witness K=10092 verified
+11,937,92,GE,10000,DP EXPLODED at G=7; witness K=10092 verified
+11,938,92,GE,10000,DP EXPLODED at G=7; witness K=10092 verified
+11,939,92,GE,10000,DP EXPLODED at G=7; witness K=10092 verified
+11,940,92,GE,10000,DP EXPLODED at G=7; witness K=10092 verified
+11,941,92,GE,10000,DP EXPLODED at G=7; witness K=10092 verified
+11,942,92,EXACT,0,DP maxstates=4
+11,943,92,EXACT,0,DP maxstates=2
+11,944,92,GE,10000,DP EXPLODED at G=7; witness K=10092 verified
+11,945,92,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,946,93,GE,10000,DP EXPLODED at G=8; witness K=10093 verified
+11,947,93,GE,10000,DP EXPLODED at G=8; witness K=10093 verified
+11,948,93,GE,10000,DP EXPLODED at G=8; witness K=10093 verified
+11,949,93,GE,10000,DP EXPLODED at G=8; witness K=10093 verified
+11,950,93,GE,10000,DP EXPLODED at G=9; witness K=10093 verified
+11,951,93,GE,10000,DP EXPLODED at G=9; witness K=10093 verified
+11,952,93,GE,10000,DP EXPLODED at G=9; witness K=10093 verified
+11,953,93,EXACT,0,DP maxstates=4
+11,954,93,EXACT,0,DP maxstates=2
+11,955,93,GE,10000,DP EXPLODED at G=9; witness K=10093 verified
+11,956,93,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,957,94,GE,10000,DP EXPLODED at G=8; witness K=10094 verified
+11,958,94,GE,10000,DP EXPLODED at G=8; witness K=10094 verified
+11,959,94,GE,10000,DP EXPLODED at G=8; witness K=10094 verified
+11,960,94,EXACT,1,DP maxstates=36
+11,961,94,EXACT,1,DP maxstates=24
+11,962,94,GE,10000,DP EXPLODED at G=8; witness K=10094 verified
+11,963,94,EXACT,1,DP maxstates=8
+11,964,94,EXACT,0,DP maxstates=4
+11,965,94,EXACT,0,DP maxstates=2
+11,966,94,GE,10000,DP EXPLODED at G=8; witness K=10094 verified
+11,967,94,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,968,96,GE,10000,DP EXPLODED at G=7; witness K=10096 verified
+11,969,96,GE,10000,DP EXPLODED at G=7; witness K=10096 verified
+11,970,96,GE,10000,DP EXPLODED at G=7; witness K=10096 verified
+11,971,96,GE,10000,DP EXPLODED at G=7; witness K=10096 verified
+11,972,96,GE,10000,DP EXPLODED at G=7; witness K=10096 verified
+11,973,96,GE,10000,DP EXPLODED at G=7; witness K=10096 verified
+11,974,96,GE,10000,DP EXPLODED at G=7; witness K=10096 verified
+11,975,96,EXACT,0,DP maxstates=4
+11,976,96,EXACT,0,DP maxstates=2
+11,977,96,GE,10000,DP EXPLODED at G=7; witness K=10096 verified
+11,978,96,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,979,97,GE,10000,DP EXPLODED at G=7; witness K=10097 verified
+11,980,97,GE,10000,DP EXPLODED at G=7; witness K=10097 verified
+11,981,97,GE,10000,DP EXPLODED at G=7; witness K=10097 verified
+11,982,97,GE,10000,DP EXPLODED at G=7; witness K=10097 verified
+11,983,97,GE,10000,DP EXPLODED at G=7; witness K=10097 verified
+11,984,97,GE,10000,DP EXPLODED at G=7; witness K=10097 verified
+11,985,97,GE,10000,DP EXPLODED at G=7; witness K=10097 verified
+11,986,97,EXACT,0,DP maxstates=4
+11,987,97,EXACT,0,DP maxstates=2
+11,988,97,GE,10000,DP EXPLODED at G=7; witness K=10097 verified
+11,989,97,BLOCKED,0,a==-1 mod p; f=v_p(a!)
+11,990,98,GE,10000,DP EXPLODED at G=7; witness K=10098 verified
+11,991,98,GE,10000,DP EXPLODED at G=7; witness K=10098 verified
+11,992,98,GE,10000,DP EXPLODED at G=7; witness K=10098 verified
+11,993,98,GE,10000,DP EXPLODED at G=7; witness K=10098 verified
+11,994,98,GE,10000,DP EXPLODED at G=7; witness K=10098 verified
+11,995,98,GE,10000,DP EXPLODED at G=7; witness K=10098 verified
+11,996,98,GE,10000,DP EXPLODED at G=7; witness K=10098 verified
+11,997,98,EXACT,0,DP maxstates=4
+11,998,98,EXACT,0,DP maxstates=2
+11,999,98,GE,10000,DP EXPLODED at G=7; witness K=10098 verified
+11,1000,98,BLOCKED,0,a==-1 mod p; f=v_p(a!)

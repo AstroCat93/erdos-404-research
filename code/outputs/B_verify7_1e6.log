@@ -1,0 +1,5 @@
+p=7 a=1 K=1000000 terms=1630651 max=6000023  sum mod p^K == 0  -> VERIFIED  (351.7s)
+
+real	5m53.023s
+user	5m51.840s
+sys	0m0.447s

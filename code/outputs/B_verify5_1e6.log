@@ -1,0 +1,5 @@
+p=5 a=1 K=1000000 terms=1414615 max=4000002  sum mod p^K == 0  -> VERIFIED  (205.4s)
+
+real	3m26.266s
+user	3m25.615s
+sys	0m0.225s

@@ -1,0 +1,5 @@
+p=5 a=1 K=1000001 terms=1414615 max=4000002  sum mod p^K != 0  -> FAILED  (204.9s)
+
+real	3m25.664s
+user	3m25.077s
+sys	0m0.235s

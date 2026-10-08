@@ -1,0 +1,37 @@
+H=2 c=0 M=2: 2^H < p^M, impossible
+H=3 c=0 M=2: 2^H < p^M, impossible
+H=4 c=1 M=3: 2^H < p^M, impossible
+p=3 t=2 H=5 c=1 M=3 Q=p^3 (2^4 bits) classes=2 FAIL=2 worst_missing=7  [0.0s]  failing K' mod p^c e.g. 1 2
+p=3 t=2 H=6 c=1 M=3 Q=p^3 (2^4 bits) classes=2 FAIL=2 worst_missing=2  [0.0s]  failing K' mod p^c e.g. 1 2
+p=3 t=2 H=7 c=2 M=4 Q=p^4 (2^6 bits) classes=6 FAIL=6 worst_missing=31  [0.0s]  failing K' mod p^c e.g. 1 2 4 5 7 8
+p=3 t=2 H=8 c=2 M=4 Q=p^4 (2^6 bits) classes=6 FAIL=6 worst_missing=4  [0.0s]  failing K' mod p^c e.g. 1 2 4 5 7 8
+p=3 t=2 H=9 c=2 M=4 Q=p^4 (2^6 bits) classes=6 FAIL=1 worst_missing=2  [0.0s]  failing K' mod p^c e.g. 1
+H=3 c=0 M=3: 2^H < p^M, impossible
+H=4 c=1 M=4: 2^H < p^M, impossible
+H=5 c=1 M=4: 2^H < p^M, impossible
+H=6 c=1 M=4: 2^H < p^M, impossible
+H=7 c=2 M=5: 2^H < p^M, impossible
+p=3 t=3 H=8 c=2 M=5 Q=p^5 (2^7 bits) classes=6 FAIL=6 worst_missing=126  [0.0s]  failing K' mod p^c e.g. 1 2 4 5 7 8
+p=3 t=3 H=9 c=2 M=5 Q=p^5 (2^7 bits) classes=6 FAIL=6 worst_missing=88  [0.0s]  failing K' mod p^c e.g. 1 2 4 5 7 8
+H=10 c=4 M=7: 2^H < p^M, impossible
+H=11 c=4 M=7: 2^H < p^M, impossible
+p=3 t=3 H=12 c=4 M=7 Q=p^7 (2^11 bits) classes=54 FAIL=54 worst_missing=1117  [0.0s]  failing K' mod p^c e.g. 1 2 4 5 7 8 10 11
+p=3 t=3 H=13 c=5 M=8 Q=p^8 (2^12 bits) classes=162 FAIL=162 worst_missing=4421  [0.0s]  failing K' mod p^c e.g. 1 2 4 5 7 8 10 11
+p=3 t=3 H=14 c=5 M=8 Q=p^8 (2^12 bits) classes=162 FAIL=162 worst_missing=2901  [0.0s]  failing K' mod p^c e.g. 1 2 4 5 7 8 10 11
+p=3 t=3 H=15 c=5 M=8 Q=p^8 (2^12 bits) classes=162 FAIL=162 worst_missing=1225  [0.0s]  failing K' mod p^c e.g. 1 2 4 5 7 8 10 11
+p=3 t=3 H=16 c=6 M=9 Q=p^9 (2^14 bits) classes=486 FAIL=486 worst_missing=9011  [0.0s]  failing K' mod p^c e.g. 1 2 4 5 7 8 10 11
+p=3 t=3 H=17 c=6 M=9 Q=p^9 (2^14 bits) classes=486 FAIL=486 worst_missing=2500  [0.0s]  failing K' mod p^c e.g. 1 2 4 5 7 8 10 11
+p=3 t=3 H=18 c=6 M=9 Q=p^9 (2^14 bits) classes=486 FAIL=486 worst_missing=570  [0.0s]  failing K' mod p^c e.g. 1 2 4 5 7 8 10 11
+p=3 t=3 H=19 c=8 M=11 Q=p^11 (2^17 bits) classes=4374 FAIL=4374 worst_missing=138921  [0.1s]  failing K' mod p^c e.g. 1 2 4 5 7 8 10 11
+p=3 t=3 H=20 c=8 M=11 Q=p^11 (2^17 bits) classes=4374 FAIL=4374 worst_missing=119238  [0.1s]  failing K' mod p^c e.g. 1 2 4 5 7 8 10 11
+p=3 t=3 H=21 c=8 M=11 Q=p^11 (2^17 bits) classes=4374 FAIL=4374 worst_missing=61329  [0.1s]  failing K' mod p^c e.g. 1 2 4 5 7 8 10 11
+p=3 t=3 H=22 c=9 M=12 Q=p^12 (2^19 bits) classes=13122 FAIL=13122 worst_missing=299805  [0.7s]  failing K' mod p^c e.g. 1 2 4 5 7 8 10 11
+p=3 t=3 H=23 c=9 M=12 Q=p^12 (2^19 bits) classes=13122 FAIL=13122 worst_missing=144621  [0.7s]  failing K' mod p^c e.g. 1 2 4 5 7 8 10 11
+p=3 t=3 H=24 c=9 M=12 Q=p^12 (2^19 bits) classes=13122 FAIL=13122 worst_missing=42998  [0.8s]  failing K' mod p^c e.g. 1 2 4 5 7 8 10 11
+p=3 t=3 H=25 c=10 M=13 Q=p^13 (2^20 bits) classes=39366 FAIL=39366 worst_missing=617437  [9.1s]  failing K' mod p^c e.g. 1 2 4 5 7 8 10 11
+p=3 t=3 H=26 c=10 M=13 Q=p^13 (2^20 bits) classes=39366 FAIL=39366 worst_missing=85996  [9.4s]  failing K' mod p^c e.g. 1 2 4 5 7 8 10 11
+p=3 t=3 H=27 c=10 M=13 Q=p^13 (2^20 bits) classes=39366 FAIL=26568 worst_missing=39888  [9.6s]  failing K' mod p^c e.g. 1 4 5 7 10 13 14 16
+H=1 c=0 M=2: 2^H < p^M, impossible
+p=2 t=2 H=2 c=0 M=2 Q=p^2 (2^2 bits) classes=1 FAIL=1 worst_missing=1  [0.0s]  failing K' mod p^c e.g. 1
+p=2 t=2 H=3 c=1 M=3 Q=p^3 (2^3 bits) classes=1 FAIL=1 worst_missing=2  [0.0s]  failing K' mod p^c e.g. 1
+p=2 t=2 H=4 c=1 M=3 Q=p^3 (2^3 bits) classes=1 FAIL=1 worst_missing=1  [0.0s]  failing K' mod p^c e.g. 1

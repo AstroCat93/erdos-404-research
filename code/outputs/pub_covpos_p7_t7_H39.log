@@ -1,0 +1,4 @@
+p=7 t=7 H=39 c=5 mod p^12  K''=1  missing=16884  NOT COVERED  [6.0s]
+p=7 t=7 H=39 c=5 mod p^12  K''=2  missing=16140  NOT COVERED  [5.0s]
+SOME POSITION NOT COVERED
+./cov_pos 7 7 39 1 2  8.57s user 2.48s system 76% cpu 14.385 total

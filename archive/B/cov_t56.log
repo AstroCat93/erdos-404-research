@@ -1,0 +1,32 @@
+p=7 t=5 H=26 c=3 M=8 Q=p^8 (2^22 bits) classes=294 FAIL=294 worst_missing=7736  [0.3s]  failing K' mod p^c e.g. 1 2 3 4 5 6 8 9
+p=7 t=5 H=27 c=3 M=8 Q=p^8 (2^22 bits) classes=294 FAIL=67 worst_missing=18  [0.3s]  failing K' mod p^c e.g. 4 8 12 15 23 31 43 53
+p=7 t=5 H=28 c=3 M=8 Q=p^8 (2^22 bits) classes=294 FAIL=0 worst_missing=0  [0.3s]  => Cov HOLDS
+p=11 t=5 H=22 c=1 M=6 Q=p^6 (2^20 bits) classes=10 FAIL=10 worst_missing=321475  [0.0s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=11 t=5 H=25 c=2 M=7 Q=p^7 (2^24 bits) classes=110 FAIL=110 worst_missing=10263535  [0.4s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=11 t=5 H=26 c=2 M=7 Q=p^7 (2^24 bits) classes=110 FAIL=110 worst_missing=3450909  [0.4s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=11 t=5 H=27 c=2 M=7 Q=p^7 (2^24 bits) classes=110 FAIL=110 worst_missing=811756  [0.4s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=11 t=5 H=28 c=2 M=7 Q=p^7 (2^24 bits) classes=110 FAIL=110 worst_missing=43834  [0.4s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=11 t=5 H=29 c=2 M=7 Q=p^7 (2^24 bits) classes=110 FAIL=6 worst_missing=4  [0.4s]  failing K' mod p^c e.g. 5 15 35 38 92 101
+p=11 t=5 H=30 c=2 M=7 Q=p^7 (2^24 bits) classes=110 FAIL=0 worst_missing=0  [0.5s]  => Cov HOLDS
+p=13 t=5 H=24 c=1 M=6 Q=p^6 (2^22 bits) classes=12 FAIL=12 worst_missing=360714  [0.0s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=13 t=5 H=25 c=1 M=6 Q=p^6 (2^22 bits) classes=12 FAIL=12 worst_missing=33746  [0.0s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=13 t=5 H=26 c=1 M=6 Q=p^6 (2^22 bits) classes=12 FAIL=12 worst_missing=184  [0.0s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=13 t=5 H=27 c=2 M=7 Q=p^7 (2^25 bits) classes=156 FAIL=156 worst_missing=53095267  [1.9s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=13 t=5 H=28 c=2 M=7 Q=p^7 (2^25 bits) classes=156 FAIL=156 worst_missing=48268458  [2.0s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=13 t=5 H=29 c=2 M=7 Q=p^7 (2^25 bits) classes=156 FAIL=156 worst_missing=33788399  [1.9s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=13 t=5 H=30 c=2 M=7 Q=p^7 (2^25 bits) classes=156 FAIL=156 worst_missing=14481163  [2.1s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=13 t=5 H=31 c=2 M=7 Q=p^7 (2^25 bits) classes=156 FAIL=156 worst_missing=9653986  [2.2s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=13 t=5 H=32 c=2 M=7 Q=p^7 (2^25 bits) classes=156 FAIL=0 worst_missing=0  [2.4s]  => Cov HOLDS
+p=11 t=6 H=28 c=2 M=8 Q=p^8 (2^27 bits) classes=110 FAIL=110 worst_missing=92499062  [4.7s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=11 t=6 H=29 c=2 M=8 Q=p^8 (2^27 bits) classes=110 FAIL=110 worst_missing=38271972  [4.6s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=11 t=6 H=30 c=2 M=8 Q=p^8 (2^27 bits) classes=110 FAIL=110 worst_missing=7129760  [4.7s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=11 t=6 H=31 c=2 M=8 Q=p^8 (2^27 bits) classes=110 FAIL=110 worst_missing=259724  [4.8s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=11 t=6 H=32 c=2 M=8 Q=p^8 (2^27 bits) classes=110 FAIL=110 worst_missing=222  [5.1s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=11 t=6 H=33 c=2 M=8 Q=p^8 (2^27 bits) classes=110 FAIL=0 worst_missing=0  [5.3s]  => Cov HOLDS
+p=13 t=6 H=26 c=1 M=7 Q=p^7 (2^25 bits) classes=12 FAIL=12 worst_missing=29545483  [0.1s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=13 t=6 H=30 c=2 M=8 Q=p^8 (2^29 bits) classes=156 FAIL=156 worst_missing=389930287  [26.8s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=13 t=6 H=31 c=2 M=8 Q=p^8 (2^29 bits) classes=156 FAIL=156 worst_missing=244073952  [26.4s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=13 t=6 H=32 c=2 M=8 Q=p^8 (2^29 bits) classes=156 FAIL=156 worst_missing=29302914  [27.1s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=13 t=6 H=33 c=2 M=8 Q=p^8 (2^29 bits) classes=156 FAIL=156 worst_missing=990690  [27.8s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=13 t=6 H=34 c=2 M=8 Q=p^8 (2^29 bits) classes=156 FAIL=156 worst_missing=482  [28.5s]  failing K' mod p^c e.g. 1 2 3 4 5 6 7 8
+p=13 t=6 H=35 c=2 M=8 Q=p^8 (2^29 bits) classes=156 FAIL=0 worst_missing=0  [29.8s]  => Cov HOLDS

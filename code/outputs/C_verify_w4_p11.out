@@ -1,0 +1,5 @@
+a=1 |A|=372930 max=1771555 : v_p(sum) = 177152  -> claim p^177152 | sum is True
+
+real	2m59.636s
+user	2m59.066s
+sys	0m0.238s

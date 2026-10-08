@@ -1,0 +1,21 @@
+# p=3 N0=27 e(N0)=13 Gmax=2300 step=27 tailmax=16 maxwin=160
+G=36 v_p(G)=2 e(G)=17: COVER(27,36) holds (window 9, jump 4)  [0s]
+G=45 v_p(G)=2 e(G)=21: COVER(36,45) holds (window 9, jump 4)  [0s]
+G=54 v_p(G)=3 e(G)=26: COVER(27,54) holds (window 27, jump 13)  [0s]
+G=63 v_p(G)=2 e(G)=30: COVER(54,63) holds (window 9, jump 4)  [0s]
+G=72 v_p(G)=2 e(G)=34: COVER(63,72) holds (window 9, jump 4)  [0s]
+# p=3 N0=27 e(N0)=13 Gmax=6600 step=27 tailmax=16 maxwin=170
+G=54 v_p(G)=3 e(G)=26: COVER(27,54) holds (window 27, jump 13, tries 1)  [0s]
+G=63 v_p(G)=2 e(G)=30: COVER(27,63) holds (window 36, jump 17, tries 4)  [2s]
+G=81 v_p(G)=4 e(G)=40: COVER(27,81) holds (window 54, jump 27, tries 7)  [9s]
+# p=3 N0=27 e(N0)=13 Gmax=6600 step=27 tailmax=16 maxwin=170
+G=54 v_p(G)=3 e(G)=26: COVER(27,54) holds (window 27, jump 13, tries 1)  [0s]
+G=81 v_p(G)=4 e(G)=40: COVER(27,81) holds (window 54, jump 27, tries 7)  [10s]
+# p=3 N0=27 e(N0)=13 Gmax=6600 step=27 tailmax=16 maxwin=170
+G=54 v_p(G)=3 e(G)=26: COVER(27,54) holds (window 27, jump 13, tries 1)  [0s]
+G=81 v_p(G)=4 e(G)=40: COVER(27,81) holds (window 54, jump 27, tries 7)  [11s]
+STOP at G=90 v_p(G)=2 e(G)=44: no covering window found among 19 candidates (maxwin=170)
+FRONTIER p=3 N0=27: E_N0 covers p^13Z/p^42Z  (R=87, e(R)=42)
+G=90 v_p(G)=2 e(G)=44: COVER(27,90) holds via split M=54 (window 63, jump 31, W2 exponent 18) [wincheck2 sparse mode, run manually; frontier R was 87]
+# p=3 N0=27 e(N0)=13 Gmax=2200 step=27 tailmax=16 maxwin=170
+# p=3 run from R0=90 stopped manually at G=108 (no covering window found within tool limits after ~40 min); frontier R=105, e(R)=50

@@ -1,0 +1,3 @@
+f1_5_K1000000.txt p=5 K=1000000: min=1 terms=1414615 max=4000002  p^K|S: True  p^(K+1)|S: False  (271s)
+f1_3_K2000000.txt p=3 K=2000000: min=1 terms=1625856 max=4000017  p^K|S: True  p^(K+1)|S: True  (357s)
+f1_7_K1000000.txt p=7 K=1000000: min=1 terms=1630651 max=6000023  p^K|S: True  p^(K+1)|S: False  (494s)

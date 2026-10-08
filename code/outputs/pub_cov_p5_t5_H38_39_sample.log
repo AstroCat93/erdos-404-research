@@ -1,0 +1,3 @@
+[split 1/1000] p=5 t=5 H=38 c=8 M=13 Q=p^13 (2^30 bits) classes=391 FAIL=21 worst_missing=16  [111.5s]  failing K' mod p^c e.g. 21001 31001 36001 42001 61001 97001 159001 162001
+[split 1/1000] p=5 t=5 H=39 c=8 M=13 Q=p^13 (2^30 bits) classes=391 FAIL=0 worst_missing=0  [110.4s]  => Cov HOLDS
+./cov 5 5 38 39 34 0 1000 1  221.45s user 0.41s system 99% cpu 3:43.03 total

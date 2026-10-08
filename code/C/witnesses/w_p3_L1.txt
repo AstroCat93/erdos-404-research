@@ -1,0 +1,2 @@
+# p=3 L=1 witness for f(1,p) >= 3 ; exact v_p(sum)=6
+1 2 3 6
