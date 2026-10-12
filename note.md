@@ -1,6 +1,6 @@
 # Erdős Problem #404 (sums of distinct factorials divisible by high prime powers): structure, finiteness families, certified lower bounds, and what remains
 
-**Author:** Nathan Durfee (composer and prompter; he has not personally verified the mathematics)
+**Author:** Nathan Durfee (composer and prompter; has not personally verified the mathematics)
 
 **AI assistance:** The mathematics, code, computations and text in this note were produced by Claude (Anthropic), model Claude Opus 5.5. It ran as a multi-agent workflow inside Claude Code, prompted and composed by the author. See §8 for the full disclosure.
 
@@ -33,9 +33,9 @@ A novelty referee (§9) found that several statements of an earlier draft were a
 - **Normal form.** Writing $f(a,p)=v_p(a!)+g$, with $g$ the valuation of $1+\sum_{b\in B}(a+1)\cdots(a+b)$, is Kitamura's normalisation $W_J(a)$, $g(a,2)=f(a,2)-v_2(a!)$ (July 2026, `determining_exact_values.md` §3).
 - **Compactness.** "$f(a,p)=\infty$ iff some infinite set $A\ni a$ has $\sum_{n\in A}n!=0$ in $\mathbb Z_p$, so Q3 holds iff some $f(a,p)=\infty$" appears in earlier public AI write-ups: neelsomani/gpt-erdos (2026-01-17, sketch), erichou1/erdos-open-problems (2026-06-10, with proof) and AItoBit/Erdosproblems-llm-hunter (2026-09-25, an explicit König-type proof).
 - **Locality.** "$g\ge G$ depends only on $a \bmod p^G$" is Kitamura's *determinacy* lemma for $p=2$. The proof for general $p$ is the same one-line argument.
-- **The $p=2$ value set.** Kitamura states that $g(a,2)=0$ for odd $a$ (a parity argument, with a Lean certificate for $a=5$), that $g\ge3$ for even $a$ (cube identity), that $g$ never takes the values $1,2,4,5$, and that $g=3$ exactly on $a\equiv4 \pmod 8$. These follow from his determinacy lemma and his certified classification of all even classes with $g\le24$ (174,640 residue classes). He also states the "sibling-pairing theorem" ($g$ is constant on $a \bmod 2^{g(a)}$), without a shipped proof, and the shadow family $a=2^t-2$ with $g\ge3t$.
-- **Tao's programme.** Tao (forum, 29 Sep 2025) stated the block lemma and the step $P(a,p,N)\Rightarrow P(a,p,N+1)$ for $p\nmid N+1$. He also observed that each depth-$j$ step should reduce to one fixed finite computation, giving lower bounds of the shape $v_p((p^{J+1}-1)!)$. Our gate congruence (Theorem 3.9) and the $\mathrm{Cov}$/$\mathrm{UC}$ framework (Theorem 3.12) carry out this programme.
-- **[Round 2] Criticality at $p=2$.** Kitamura had already described $p=2$ as a critical branching process. He also reported that the measured surviving fraction decays (his fit is about $11.5/G$), so that his census determines $f(a,2)$ for most integers (`witness_gallery.md` §6, `determining_exact_values.md` §5, `README.md`; July 2026). The heuristic H1 of §5 and the weak form of Conjecture 5.1 therefore have this public precursor. Round 1 did not credit it; the round-2 novelty referee found the omission (§10.8). Theorem 10.1 is the first *proof* of the density statement that we know of.
+- **The $p=2$ value set.** Kitamura states that $g(a,2)=0$ for odd $a$ (a parity argument, with a Lean certificate for $a=5$), that $g\ge3$ for even $a$ (cube identity), that $g$ never takes the values $1,2,4,5$, and that $g=3$ exactly on $a\equiv4 \pmod 8$. These follow from Kitamura's determinacy lemma and certified classification of all even classes with $g\le24$ (174,640 residue classes). Kitamura also states the "sibling-pairing theorem" ($g$ is constant on $a \bmod 2^{g(a)}$), without a shipped proof, and the shadow family $a=2^t-2$ with $g\ge3t$.
+- **Tao's programme.** Tao (forum, 29 Sep 2025) stated the block lemma and the step $P(a,p,N)\Rightarrow P(a,p,N+1)$ for $p\nmid N+1$. Tao also observed that each depth-$j$ step should reduce to one fixed finite computation, giving lower bounds of the shape $v_p((p^{J+1}-1)!)$. Our gate congruence (Theorem 3.9) and the $\mathrm{Cov}$/$\mathrm{UC}$ framework (Theorem 3.12) carry out this programme.
+- **[Round 2] Criticality at $p=2$.** Kitamura had already described $p=2$ as a critical branching process. Kitamura also reported that the measured surviving fraction decays (the reported fit is about $11.5/G$), so that the census determines $f(a,2)$ for most integers (`witness_gallery.md` §6, `determining_exact_values.md` §5, `README.md`; July 2026). The heuristic H1 of §5 and the weak form of Conjecture 5.1 therefore have this public precursor. Round 1 did not credit it; the round-2 novelty referee found the omission (§10.8). Theorem 10.1 is the first *proof* of the density statement that we know of.
 
 ### New in this note
 
@@ -218,12 +218,12 @@ where $W_m=(pm)!/(p^mm!)=\prod_{i\le pm,\,p\nmid i}i$ is a $p$-adic unit with $W
 
 - **Erdős–Graham [ErGr80, p. 79]** posed the problem, together with #403.
 - **S. Lin** (Bell Labs internal memorandum, 1960; cited on erdosproblems.com as [Li76]; unpublished and not online) showed that $2^{254}$ is the largest power of 2 dividing a sum of distinct factorials containing $2!$. That is, $f(2,2)=254$; the #404 page records $f(2,2)\le254$. Lin also found the five solutions of $3^m=\sum$ distinct factorials (#403). Frankl independently solved #403.
-- **V. Kovač** (forum, 13 Aug 2025) corrected the statement and recorded $f(1,2)=0$, $f(2,2)=254$, $f(3,2)=1$, $f(4,2)=6$ and $f(5,2)=3$. He noted that $\lim_a f(a,p)=\infty$ ("clearly").
+- **V. Kovač** (forum, 13 Aug 2025) corrected the statement and recorded $f(1,2)=0$, $f(2,2)=254$, $f(3,2)=1$, $f(4,2)=6$ and $f(5,2)=3$. Kovač noted that $\lim_a f(a,p)=\infty$ ("clearly").
 - **T. Tao** (forum, two comments of 29 Sep 2025):
-  - He suggested that $f(1,5)$ is "extremely large, and possibly even infinite", with examples such as $1!+4!+10!+11!$.
-  - He stated the block lemma (Lemma 1.3(iii)) and its special case $P(a,p,N)\Rightarrow P(a,p,N+1)$ for $p\nmid N+1$ (Lemma 1.3(iv)).
-  - He suggested checking computationally that the $2^p$ subset sums of $0!,\dots,(p-1)!$ cover $\mathbb Z/p$, which gives the step over a block of length $p$ ending at a multiple of $p$ exactly once (compare Theorem 3.9(a)).
-  - He observed that, more generally, the step across a multiple of exactly $p^j$ should reduce to one fixed finite computation for each $j$ (he called the case $N=0$ "key"), and that doing this for all $j\le J$ would give $f(a,p)\ge v_p((p^{J+1}-1)!)$. Theorems 3.9(b) and 3.12(a) below make this position-independence precise; the $\mathrm{Cov}$/$\mathrm{UC}$ framework of §3.7 carries out his programme.
+  - Tao suggested that $f(1,5)$ is "extremely large, and possibly even infinite", with examples such as $1!+4!+10!+11!$.
+  - Tao stated the block lemma (Lemma 1.3(iii)) and its special case $P(a,p,N)\Rightarrow P(a,p,N+1)$ for $p\nmid N+1$ (Lemma 1.3(iv)).
+  - Tao suggested checking computationally that the $2^p$ subset sums of $0!,\dots,(p-1)!$ cover $\mathbb Z/p$, which gives the step over a block of length $p$ ending at a multiple of $p$ exactly once (compare Theorem 3.9(a)).
+  - Tao observed that, more generally, the step across a multiple of exactly $p^j$ should reduce to one fixed finite computation for each $j$ (calling the case $N=0$ "key"), and that doing this for all $j\le J$ would give $f(a,p)\ge v_p((p^{J+1}-1)!)$. Theorems 3.9(b) and 3.12(a) below make this position-independence precise; the $\mathrm{Cov}$/$\mathrm{UC}$ framework of §3.7 carries out Tao's programme.
 - **K. Kitamura** (Jul 2026, AI-assisted; repositories `KitaKen1/erdos-404-p2-landscape` and `KitaKen1/erdos-404-odd-prime-landscape`):
   - Exact $f(a,2)$ for $1\le a\le256$, including $f(34,2)=18444$, and deeper exact rows $f(1102,2)=12633$, $f(3456,2)=8275$ and $f(8190,2)=16396$. Each is certified from both sides.
   - A two-sided Lean check of $f(2,2)=254$. The parity argument that odd $a$ give $f(a,2)=v_2(a!)$, with a Lean certificate for $f(5,2)=3$.
@@ -233,8 +233,8 @@ where $W_m=(pm)!/(p^mm!)=\prod_{i\le pm,\,p\nmid i}i$ is a $p$-adic unit with $W
     - the cube identity $a!+(a+1)!+(a+3)!=a!(a+2)^3$, so $g\ge3$ for every even $a$;
     - a certified classification of all even classes with $g\le24$ (174,640 residue classes). From it: $g$ never takes the values $1,2,4,5$, $g=3$ exactly on $a\equiv4 \pmod 8$, and the attained values up to 24 are exactly $\{3\}\cup[6,24]$. These are computer-certified statements, not merely empirical ones. The classification also gives $f(a,2)<\infty$ on a set of density $1-\delta_{25}(2)=0.8734$;
     - the *shadow family* $a=2^t-2$, with $g\ge3t$ from the cube identity and exact values for $t\le13$ (for example $g(8190,2)=8218$);
-    - the *sibling-pairing theorem*, $g(a+2^{g(a)},2)=g(a,2)$, so $g$ is constant on $a \bmod 2^{g(a)}$. It is stated without a shipped proof. He also reports certified "dead balls", for example $g\equiv648$ on $254+2^{638}\mathbb Z_2$.
-  - **[Round 2; credit added after the round-2 novelty referee]** A branching-process picture at $p=2$. In `witness_gallery.md` §6 he calls the deep spikes "the predictable thin tail of a critical branching process". He reports a measured survival probability to depth $G$ of about $11.5/G$ (also `determining_exact_values.md` §5 and `README.md`), so that his census determines $f(a,2)$ for most integers. This is the empirical precursor of the heuristic H1 (§5) and of the weak form of Conjecture 5.1, which Theorem 10.1 proves. His fit $\approx11.5/G$ and the fit $\delta_G(2)\approx0.7/\sqrt G$ of §5 differ. We have not reconciled them, and his normalisation may differ from ours.
+    - the *sibling-pairing theorem*, $g(a+2^{g(a)},2)=g(a,2)$, so $g$ is constant on $a \bmod 2^{g(a)}$. It is stated without a shipped proof. Kitamura also reports certified "dead balls", for example $g\equiv648$ on $254+2^{638}\mathbb Z_2$.
+  - **[Round 2; credit added after the round-2 novelty referee]** A branching-process picture at $p=2$. In `witness_gallery.md` §6 Kitamura calls the deep spikes "the predictable thin tail of a critical branching process", and reports a measured survival probability to depth $G$ of about $11.5/G$ (also `determining_exact_values.md` §5 and `README.md`), so that the census determines $f(a,2)$ for most integers. This is the empirical precursor of the heuristic H1 (§5) and of the weak form of Conjecture 5.1, which Theorem 10.1 proves. Kitamura's fit $\approx11.5/G$ and the fit $\delta_G(2)\approx0.7/\sqrt G$ of §5 differ. We have not reconciled them, and the normalisations may differ.
   - The lower bound $f(594,2)\ge66126$, for which no witness is shipped.
   - Exact odd-prime rows: $f(3,3)=3$, $f(39,3)=25$, $f(700,3)=363$, $f(110,5)=30$, $f(236,5)=61$, $f(42,7)=7$, $f(113,11)=11$ and $f(163,13)=13$. Lean checks of $f(3,3)=3$, $f(4,7)=0$ and $f(6,7)=0$.
   - Witnesses $f(1,3),f(1,5),f(1,7)\ge20000$ and $f(1,11),f(1,13)\ge5000$.
@@ -343,7 +343,7 @@ Numerically, $|\Phi_p|$ averages $\approx\log_2p-1$ for $p<30000$ **[heuristic]*
 - (c) $m=p^k+2\ge3$, so $\gamma_p(m)<\infty$ by Theorem 3.2. Also $-m+2=-p^k$, so (a) gives $\gamma_p(m)\ge3k$.
 - (d) The class $a\equiv-1$ gives $g=0$. For the limsup take $a=p^k-2$ in (a). ∎
 
-*Credit.* At $p=2$, the points $a=2^t-2$ are Kitamura's shadow family: he notes $g\ge3t$ and computes exact finite values for $t\le13$ (`witness_gallery.md` §7). So (d) at $p=2$, and finite values of $g_2$ up to $8218$, were known. The term "shadow" in §3.2 is also his. What we believe is new is (b), and (c) at every prime: finite values that are provably unbounded, located on explicit classes via the negative points $-(p^k+2)$.
+*Credit.* At $p=2$, the points $a=2^t-2$ are Kitamura's shadow family: Kitamura notes $g\ge3t$ and computes exact finite values for $t\le13$ (`witness_gallery.md` §7). So (d) at $p=2$, and finite values of $g_2$ up to $8218$, were known. The term "shadow" in §3.2 is also Kitamura's. What we believe is new is (b), and (c) at every prime: finite values that are provably unbounded, located on explicit classes via the negative points $-(p^k+2)$.
 
 Spot checks: $\gamma_2(2^k+2)=3,6,10,22,39$ for $k=1,\dots,5$, each $\ge3k$; $\gamma_3(5)=3$ and $\gamma_3(11)=7$.
 
@@ -393,12 +393,12 @@ Consequently no property of $a$ depending only on $a \bmod p^{k_0}$ can imply $f
 (Lean: `E404.halving`, `E404.halving2` in `E404Halving.lean`; `E404.sibling`, `E404.constancy`, `E404.constancy_f` in `E404Behaviour.lean`. The last of these is stated directly for factorial sums with $v_2$ given by `Nat.factorization`.)
 
 **Corollary 3.7.1 [proved+Lean / computer-assisted (iii)].**
-- (i) If $g_2(a)=G\ge1$, then $g_2\equiv G$ on $a+2^G\mathbb Z$. For instance $f(a,2)=v_2(a!)+253$ for all $a\equiv2 \pmod{2^{253}}$. This proves Kitamura's "sibling-pairing theorem" $g(a+2^{g(a)},2)=g(a,2)$ (`witness_gallery.md` §8), which he states without a shipped proof. The Lean name `E404.sibling` follows his terminology. (The hypothesis $G\ge1$ is needed: at $G=0$ the statement would say that $g_2$ vanishes identically.)
+- (i) If $g_2(a)=G\ge1$, then $g_2\equiv G$ on $a+2^G\mathbb Z$. For instance $f(a,2)=v_2(a!)+253$ for all $a\equiv2 \pmod{2^{253}}$. This proves Kitamura's "sibling-pairing theorem" $g(a+2^{g(a)},2)=g(a,2)$ (`witness_gallery.md` §8), which Kitamura states without a shipped proof. The Lean name `E404.sibling` follows Kitamura's terminology. (The hypothesis $G\ge1$ is needed: at $G=0$ the statement would say that $g_2$ vanishes identically.)
 - (ii) In the 2-adic tree of classes $\{g\ge G\}$, every surviving class has $0$ or $2$ surviving children.
 - (iii) $g_2(a)\in\{0,3\}\cup[6,\infty]$. Moreover $g_2(a)=0\iff a$ is odd, and $g_2(a)=3\iff a\equiv4 \pmod 8$.
   - The direction ⇐ of the last statement is Lean `E404.g_eq_three`.
   - The rest follows from the class counts $|\{g\ge k\} \bmod 2^k|=1,2,4,6,12,24$ for $k=1,\dots,6$, a 64-class computation re-run in `indep_checks.py`. Locality (Theorem 3.1(a)) alone suffices to turn these counts into the statement; the halving lemma gives a second route.
-  - *Credit.* All of (iii) was already stated by Kitamura, as a consequence of his determinacy lemma and his certified classification of the classes with $g\le24$ (§2). We include it only as an independent confirmation.
+  - *Credit.* All of (iii) was already stated by Kitamura, as a consequence of the determinacy lemma and the certified classification of the classes with $g\le24$ (§2). We include it only as an independent confirmation.
 - (iv) The analogue of (i) **fails** for odd $p$: $g_3(3)=2$ but $g_3(12)\ge30$. (The value "$g_3(12)=10$" in some summaries is only a lower bound.) For odd $p$ the correct statement is constancy mod $p^{g+1}$, from Theorem 3.1(b).
 
 **Theorem 3.8 (Tao's covering method is impossible at $p=2$) [proved+Lean].** For every $r \bmod 16$, the subset sums of $\{\pi_j(r):0\le j\le15\}$ miss some residue mod 16. Hence $A_x\ne\mathbb Z_2$ for every $x\in\mathbb Z_2$.
@@ -679,7 +679,7 @@ No $a$ is left open. The counts (blocked / exact / $\ge10^4$) are:
 - $p=11$: 91 / 206 / 703;
 - $p=13$: 77 / 164 / 759.
 
-The maximal exact $g$ values are 18, 5, 3, 1 and 1 respectively. All 3200 of Kitamura's odd-prime rows agree, and his "ignited candidates" are now proved to have $g\ge10^4$.
+The maximal exact $g$ values are 18, 5, 3, 1 and 1 respectively. All 3200 of Kitamura's odd-prime rows agree, and the "ignited candidates" there are now proved to have $g\ge10^4$.
 
 *Status.* We did not re-run the landscapes today; the data are in `archive/B/landscape_p*.csv`. The computational referee reproduced them with an independent exact dynamic programme: the same counts for $p=3$ ($a\le2000$, maximal exact $g=18$) and for $p=5,7,11,13$, where at $p=11$ and $p=13$ the $297$ and $241$ values of $a$ with a small exact $g$ are precisely the blocked and exact ones above.
 
@@ -710,7 +710,7 @@ They agree wherever they overlap. Today's re-runs reproduced $G\le24$ (tree) and
 **Rigorous corollaries.**
 - $f(a,2)\le v_2(a!)+28<\infty$ for a set of $a$ of natural density $1-\delta_{29}(2)=0.886587$. Level 29 was computed by `tree.c`, by `gdfs.c` and by the referee's `census.c` ($60\,888\,286$ surviving classes mod $2^{29}$ in each), and `gclass.c` agrees up to level 28.
 - $f(a,2)\le v_2(a!)+31<\infty$ on density $1-\delta_{32}(2)=0.898364$. Level 32 was computed by `gdfs.c` (archived) and reproduced exactly by the referee's `census.c` ($436\,523\,876$ surviving classes mod $2^{32}$).
-- *Comparison with prior work.* Kitamura's certified classification of the classes with $g\le24$ already gives $f(a,2)<\infty$ on density $1-\delta_{25}(2)=0.873385$. Our census agrees with his count: summing the dying classes through level 25 in `archive/E/tree_p2.txt` gives $2\times87\,320=174\,640$ classes, his number. What is new for $p=2$ is the extension from level 25 to level 32.
+- *Comparison with prior work.* Kitamura's certified classification of the classes with $g\le24$ already gives $f(a,2)<\infty$ on density $1-\delta_{25}(2)=0.873385$. Our census agrees with Kitamura's count: summing the dying classes through level 25 in `archive/E/tree_p2.txt` gives $2\times87\,320=174\,640$ classes, Kitamura's number. What is new for $p=2$ is the extension from level 25 to level 32.
 - $f(a,3)<\infty$ on density $\ge0.6367$.
 - For $p=5,7,11,13$ the densities are $\ge0.4784$, $0.3761$, $0.3002$ and $0.2455$. For odd $p$, these are the first rigorous densities beyond the class $a\equiv-1 \pmod p$ (density $1/p$).
 - Forbidden values: $g_2\notin\{1,2,4,5\}$ (Corollary 3.7.1), and $g_7(a)\ne2$ for all $a$, since $\delta_2(7)=\delta_3(7)=31/49$.
@@ -916,7 +916,7 @@ All are reproducible with the supplied code. The commands are in the headers of 
 
 ## 8. AI-assistance disclosure and acknowledgements
 
-This note was composed by **Nathan Durfee**, who set the problem, prompted and directed the work, and is the human point of contact. **He has not personally verified the mathematics.**
+This note was composed by **Nathan Durfee**, who set the problem, prompted and directed the work, and is the human point of contact. **Nathan Durfee has not personally verified the mathematics.**
 
 The mathematical content, proofs, programs, computations and text were generated by **Claude (Anthropic), model Claude Opus 5.5**, running as a multi-agent workflow in Claude Code. The workflow had four stages:
 - two literature and community "gate" agents;
@@ -965,13 +965,13 @@ Its census to $G=32$ reproduced the archived $\delta_{32}(2)$ exactly ($436\,523
 **Novelty referee.** It compared every "new" claim with the public record: Kitamura's two repositories, the earlier AI write-ups (neelsomani, erichou1, przchojecki, AItoBit llm-hunter), the erdosproblems.com page and forum thread, teorth/erdosproblems, formal-conjectures PR #6936, the Zenodo preprint, arXiv and GitHub. It agreed that the mathematics stands and that Q1–Q3 remain open, but found that the first version **overstated novelty and under-credited Kitamura**. These findings were rated serious, and all are now addressed:
 - The normal form and the compactness equivalence (Lemma 1.1, Proposition 1.2) were already public (Kitamura; neelsomani, erichou1, AItoBit). They are now credited and are no longer listed as new (§0, §1.2–1.3, §2).
 - Locality (Theorem 3.1(a)) is Kitamura's determinacy lemma at $p=2$ (credited, §3.1).
-- The $p=2$ value set, "$g=0$ iff $a$ odd" and "$g=3$ iff $a\equiv4 \pmod 8$" were stated by Kitamura as consequences of a certified classification, not as empirical observations. Constancy mod $2^g$ is his "sibling-pairing theorem" (stated without a shipped proof). Our halving lemma supplies a proof; the rest is credited (§2, Corollary 3.7.1).
-- The claim that rigorous densities were "previously known only on $a\equiv-1$" was false at $p=2$: Kitamura's census of $g\le24$ already gives density $0.8734$. The referee checked that our archived census reproduces his class count ($174\,640$). The summary is corrected (§0, §4.7).
+- The $p=2$ value set, "$g=0$ iff $a$ odd" and "$g=3$ iff $a\equiv4 \pmod 8$" were stated by Kitamura as consequences of a certified classification, not as empirical observations. Constancy mod $2^g$ is Kitamura's "sibling-pairing theorem" (stated without a shipped proof). Our halving lemma supplies a proof; the rest is credited (§2, Corollary 3.7.1).
+- The claim that rigorous densities were "previously known only on $a\equiv-1$" was false at $p=2$: Kitamura's census of $g\le24$ already gives density $0.8734$. The referee checked that our archived census reproduces Kitamura's class count ($174\,640$). The summary is corrected (§0, §4.7).
 
 Its minor findings, also addressed:
 - Kitamura's shadow family $a=2^t-2$ and the term "shadow" are now credited, and the phrase "refutes the natural conjecture" is dropped (Proposition 3.4).
 - Two examples of Theorem 3.2 settle residue patterns that Kitamura had listed for audit; this is now said (§0, §3.2).
-- Tao's comment already anticipated the position independence of Theorems 3.9(b) and 3.12(a); the $\mathrm{Cov}$/$\mathrm{UC}$ framework is now described as carrying out his programme (§2, §3.5, §3.7).
+- Tao's comment already anticipated the position independence of Theorems 3.9(b) and 3.12(a); the $\mathrm{Cov}$/$\mathrm{UC}$ framework is now described as carrying out Tao's programme (§2, §3.5, §3.7).
 
 **What the referees did not cover.** The Monte Carlo and Fourier heuristics of §5 were not re-done. No referee was human. **The round-1 referees did not see anything in §10.** A separate round of three AI referees checked §10; see §10.8.
 
@@ -1398,7 +1398,7 @@ The abstract core is machine-checked: `worst_case_iff` in `code/round2/R2b/lean/
 This does **not** refute the fullness-only form of the renormalisation lemma T3 of §6. T3 runs from a level-$(j-1)$ gate to the next level-$j$ gate, a stretch of about $p^j$ elements entered with fullness mod $p^j$. Its first block is a level-$(j-1)$ gate entered with $D=j>j-1$, so part (a) does not apply. Part (b) would need $e(H-1)!\le p^{t-1}$ with $H$ of order $p^j$, which is impossible. By Theorem 10.12, fullness-only T3 holds for a stretch iff the stretch's subset sums contain a complete coset of $p^j$ at the relevant modulus. Nothing in this note decides that. *(Round 2: the previous version said that fullness-only T3 "is false beyond level about $D_p$". Both the logic and the novelty referee pointed out that Corollary 10.13 does not prove this. The claim is withdrawn.)*
 
 **Proposition 10.14 (monotonicity of $\mathrm{Cov}$ in $H$) [proved; recursion in Lean].** Write $y^{(H)}_i(X)=\prod_{s=1}^i(X-(H-s))$. Then $y^{(H+1)}_0=1$ and $y^{(H+1)}_{i+1}=(X-H)\,y^{(H)}_i$. Hence $\Sigma_{H+1}=\{0,1\}+(X-H)\Sigma_H$.
-- (a) If $p\nmid H$, then $\mathrm{Cov}(p,t,H)\Rightarrow\mathrm{Cov}(p,t,H+1)$ (for $H+1\le p^t$). This is the $\mathrm{Cov}$-level form of Tao's step $P(a,p,N-1)\Rightarrow P(a,p,N)$ for $p\nmid N$ (Lemma 1.3(iv)), and we credit it to him.
+- (a) If $p\nmid H$, then $\mathrm{Cov}(p,t,H)\Rightarrow\mathrm{Cov}(p,t,H+1)$ (for $H+1\le p^t$). This is the $\mathrm{Cov}$-level form of Tao's step $P(a,p,N-1)\Rightarrow P(a,p,N)$ for $p\nmid N$ (Lemma 1.3(iv)), and we credit it to Tao.
 - (b) If $1\le v_p(H)\le L_p$ and $H+p<p^t$, then $\mathrm{Cov}(p,t,H)\Rightarrow\mathrm{Cov}(p,t,H+p)$.
 
 *Proof.*
@@ -1761,7 +1761,7 @@ All re-runs were done on 2026-10-12 with at most 3 cores; no single run exceeded
 - *Not covered by this referee:* the logic of Theorem 10.1, the Lean files, the archived round-1 landscapes (behind "every deep $a\le1000$"), and the heuristic Conjectures 10.22–10.26.
 
 **Novelty referee.** It re-checked the public record on 2026-10-12: the problem page and forum, Kitamura's repositories, teorth/erdosproblems, formal-conjectures PR #6936, arXiv, GitHub, and the earlier AI write-ups. It found **no prior proof or claim** of $\mu(K_2)=0$, of the round-2 bounds, of the failure of $\mathrm{Cov}(11,7,40)$, or of the structural results 10.11–10.21. Q1–Q3 remain open, and the status line does not overstate them. Its own checker confirms that $\mathrm{Cov}(7,6,33)$ fails at $K'=5$ and that $(7,6,34)$ covers that class.
-- *Serious finding 1: Kitamura under-credited.* His July 2026 repository already calls $p=2$ a critical branching process and reports a measured surviving fraction of about $11.5/G$, so that his census determines $f(a,2)$ for "MOST integers". We had credited the branching picture to our round 1. This repeats the main finding of the round-1 novelty referee. *Fixed:* he is now credited in §0, §2, §5 (H1 and Conjecture 5.1), §10.0, Remark 10.8.4 and below. The lead re-read the three files to confirm the statements.
+- *Serious finding 1: Kitamura under-credited.* Kitamura's July 2026 repository already calls $p=2$ a critical branching process and reports a measured surviving fraction of about $11.5/G$, so that the census determines $f(a,2)$ for "MOST integers". We had credited the branching picture to our round 1. This repeats the main finding of the round-1 novelty referee. *Fixed:* Kitamura is now credited in §0, §2, §5 (H1 and Conjecture 5.1), §10.0, Remark 10.8.4 and below. The lead re-read the three files to confirm the statements.
 - *Serious finding 2: verification attributed to a human.* "The lead author checked every proof" could be read as the named human author, who has verified nothing. *Fixed:* §0, §8, the start of §10 and this section now say "lead-author AI instance", and "the lead" is defined.
 - *Minor findings, all fixed:*
   1. The summaries overstated Corollary 10.13 (as above).
