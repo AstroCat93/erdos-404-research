@@ -1,0 +1,32 @@
+[wall 0s] exit=1 (<code_r2>) python3 -I lead_checks.py > lead_checks.out
+[wall 0s] exit=0 (<code_r2>/R2b/src) python3 -I lambda_p.py > S10_lambda_p.out
+[wall 0s] exit=1 (<code_r2>/R2b/src) python3 -I rmf_budget.py > S10_rmf_budget.out
+[wall 32s] exit=0 (<code_r2>/R1b) python3 mart_check2.py 1011 20 30 36 300 10 > S1_mart_check2_30_36.log
+[wall 32s] exit=0 (<code_r2>/R1b) python3 mart_check2.py 1012 12 50 58 300 10 > S1_mart_check2_50_58.log
+[wall 28s] exit=0 (<code_r2>/R1b) python3 mart_check2.py 1013 8 70 77 400 10 > S1_mart_check2_70_77.log
+[wall 10s] exit=0 (<code_r2>/R1b) python3 brute_window.py 1021 15 24 30 200 8 > S2_brute_24_30.log
+[wall 1268s] exit=143 (<code_r2>/R1b) python3 brute_window.py 1022 8 32 39 200 8 > S2_brute_32_39.log
+[wall 611s] exit=0 (<code_r2>/R1b) python3 negctrl.py 1031 30 36 300 15 > S3_negctrl.out
+[wall 4s] exit=0 (<code_r2>/R1b) python3 lemmaB_check.py 1041 30 36 300 30 > S4_lemmaB_check.out
+[wall 0s] exit=0 (<code_r2>/R1b) python3 rho_table.py > S5_rho_table.out
+[wall 4s] exit=0 (<code_r2>/R1a/code) python3 class_check.py > S6_class_check.log
+[wall 1s] exit=0 (<code_r2>/R1a/code) python3 I8.py > S7_I8.log
+[wall 8s] exit=0 (<code_r2>/R2a) ./bin/fl1 13 13 1 7 0 1 > S8_fl1_p13.out
+[wall 20s] exit=0 (<code_r2>/R2a) ./bin/fl1 11 11 1 8 0 1 > S8_fl1_p11.out
+[wall 0s] exit=1 (<code_r2>/R2a) python3 -I iv_shells.py 13 13 4 > S8_iv_p13.out
+[wall 0s] exit=1 (<code_r2>/R2a) python3 -I iv_shells.py 11 11 5 > S8_iv_p11.out
+[wall 55s] exit=0 (<code_r2>/R2a) ./bin/fl1_lead 13 13 7 > S8_fl1_lead_p13.out
+[wall 177s] exit=0 (<code_r2>/R2a) ./bin/fl1_lead 11 11 8 > S8_fl1_lead_p11.out
+[wall 0s] exit=0 (<code_r2>/R2a) python3 -I renorm_check.py 13 13 1 3 > S9_renorm_check_13_1_3.out
+[wall 1s] exit=0 (<code_r2>/R2a) python3 -I renorm_check.py 13 13 1 4 > S9_renorm_check_13_1_4.out
+[wall 14s] exit=0 (<code_r2>/R2a) python3 -I renorm_check.py 13 13 2 4 > S9_renorm_check_13_2_4.out
+[wall 0s] exit=0 (<code_r2>/R2a) python3 -I renorm_check.py 11 11 1 4 > S9_renorm_check_11_1_4.out
+[wall 9s] exit=0 (<code_r2>/R2a) python3 -I renorm_check.py 11 11 2 4 > S9_renorm_check_11_2_4.out
+[wall 10s] exit=0 (<code_r2>/R2a) python3 -I renorm_check.py 11 11 2 5 > S9_renorm_check_11_2_5.out
+[wall 111s] exit=0 (<FORMAL_DIR>) lake env lean Formal/E404R2b/Renorm.lean > S11_lean_Renorm.log
+LEAD_BATCH_DONE
+# NOTE (lead, 2026-10-12 03:05): the first batch pass used `python3 -I`, which hides the user-site mpmath;
+# lead_checks.py, rmf_budget.py and iv_shells.py (exit=1 above) were re-run without -I (the script now omits -I):
+#   lead_checks.out, S10_rmf_budget.out, S8_iv_p13.out, S8_iv_p11.out are from those re-runs.
+# brute_window (32,39) with DMAX=8 was stopped after 21 min (log kept as S2_brute_32_39_killed_DMAX8.log)
+#   and re-run with DMAX=6 -> S2_brute_32_39.log.  S12 (lead_window_check.py) and S13 (validate.py) were run separately.

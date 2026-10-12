@@ -1,0 +1,4 @@
+p=7 t=2 H=14 K=1 c=1 k=0 M=3 split=0/1  L1=0.669452 L2=0.0259686  R1=0.614254 R2=0.020874  maxF=0.0823662 at xi=49 (v=2)
+   d=1  #xi=6  contributing=7  L1_d=0.203125  random=0.25428  ratio=0.799
+   d=2  #xi=42  contributing=14  L1_d=0.0733448  random=0.0754347  ratio=0.972
+   d=3  #xi=294  contributing=14  L1_d=0.392982  random=0.528043  ratio=0.744

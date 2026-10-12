@@ -1,0 +1,10 @@
+p=7 t=9 H=7 K=1 c=0 k=0 M=9 split=0/1  L1=2.00167e+06 L2=472893  R1=1.71019e+06 R2=315263  maxF=1 at xi=1 (v=0)
+   d=1  #xi=6  contributing=7  L1_d=0.203125  random=0.25428  ratio=0.799
+   d=2  #xi=42  contributing=7  L1_d=1.11693  random=1.77996  ratio=0.628
+   d=3  #xi=294  contributing=7  L1_d=14.6179  random=12.4597  ratio=1.173
+   d=4  #xi=2058  contributing=7  L1_d=102.568  random=87.218  ratio=1.176
+   d=5  #xi=14406  contributing=7  L1_d=714.198  random=610.526  ratio=1.170
+   d=6  #xi=100842  contributing=7  L1_d=5002.08  random=4273.68  ratio=1.170
+   d=7  #xi=705894  contributing=7  L1_d=35014.7  random=29915.8  ratio=1.170
+   d=8  #xi=4941258  contributing=7  L1_d=245103  random=209410  ratio=1.170
+   d=9  #xi=34588806  contributing=7  L1_d=1.71572e+06  random=1.46587e+06  ratio=1.170

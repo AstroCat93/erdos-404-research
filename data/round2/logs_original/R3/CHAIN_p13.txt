@@ -1,0 +1,9 @@
+uniform Cov(13,1,6): A=True B=True H+1<p^t=True
+uniform Cov(13,2,10): A=True B=True H+1<p^t=True
+uniform Cov(13,3,19): A=True B=True H+1<p^t=True
+uniform Cov(13,4,24): A=True B=True H+1<p^t=True
+uniform Cov(13,5,32): A=True B=True H+1<p^t=True
+uniform Cov(13,6,35): A=True B=True H+1<p^t=True
+uniform Cov(13,7,39): A=True B=True H+1<p^t=True
+positions depth 8, H=47, K''=1..12 (12 positions): A=True B=True N*-H>1=True
+CHAIN OK: no first failure below 13^9; f(1,13) >= v_13((13^9-1)!) = 883708272

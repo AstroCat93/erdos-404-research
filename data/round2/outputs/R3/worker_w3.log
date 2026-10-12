@@ -1,0 +1,19 @@
+2026-10-12 01:55:24 START ./bin/fibcov 13 8 47 3 pos 5 6 7 8 > ../outputs/R3/P13_t8_H47_A_2.log 2>&1
+real 987.90
+user 972.14
+sys 5.04
+2026-10-12 03:04:08 START ./bin/fibcov2 19 7 45 2 6 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 > ../outputs/R3/P19_t7_H45_B.log 2>&1
+real 1117.01
+user 1077.99
+sys 12.78
+2026-10-12 03:22:45 END
+2026-10-12 03:22:45 START ./bin/fibcov 17 8 47 2 pos 1 2 3 4 > ../outputs/R3/P17_t8_H47_A_1.log 2>&1
+real 834.59
+user 793.62
+sys 23.00
+2026-10-12 03:36:39 END
+2026-10-12 03:36:39 START ./bin/fibcov 17 8 47 2 pos 5 6 7 8 > ../outputs/R3/P17_t8_H47_A_2.log 2>&1
+real 999.41
+user 824.70
+sys 118.65
+2026-10-12 03:53:19 END

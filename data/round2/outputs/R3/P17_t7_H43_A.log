@@ -1,0 +1,18 @@
+# fibcov(A) p=17 t=7 H=43 c=2 M=9 k=2  Q=118587876497 fibre=410338673 bits (48 MB x2)
+A p=17 t=7 H=43 c=2 M=9 K=1 missing=0 COVERED [11.24s]
+A p=17 t=7 H=43 c=2 M=9 K=2 missing=0 COVERED [11.22s]
+A p=17 t=7 H=43 c=2 M=9 K=3 missing=0 COVERED [11.94s]
+A p=17 t=7 H=43 c=2 M=9 K=4 missing=0 COVERED [12.07s]
+A p=17 t=7 H=43 c=2 M=9 K=5 missing=0 COVERED [11.47s]
+A p=17 t=7 H=43 c=2 M=9 K=6 missing=0 COVERED [11.48s]
+A p=17 t=7 H=43 c=2 M=9 K=7 missing=0 COVERED [11.73s]
+A p=17 t=7 H=43 c=2 M=9 K=8 missing=0 COVERED [12.10s]
+A p=17 t=7 H=43 c=2 M=9 K=9 missing=0 COVERED [11.78s]
+A p=17 t=7 H=43 c=2 M=9 K=10 missing=0 COVERED [11.88s]
+A p=17 t=7 H=43 c=2 M=9 K=11 missing=0 COVERED [12.02s]
+A p=17 t=7 H=43 c=2 M=9 K=12 missing=0 COVERED [11.98s]
+A p=17 t=7 H=43 c=2 M=9 K=13 missing=0 COVERED [11.34s]
+A p=17 t=7 H=43 c=2 M=9 K=14 missing=0 COVERED [11.95s]
+A p=17 t=7 H=43 c=2 M=9 K=15 missing=0 COVERED [12.25s]
+A p=17 t=7 H=43 c=2 M=9 K=16 missing=0 COVERED [11.56s]
+SUMMARY A p=17 t=7 H=43 c=2 M=9 k=2 mode=pos nK=16 fail=0 worst_missing=0 ALL_COVERED total=188.0s

@@ -1,0 +1,3 @@
+# covchk(C) p=17 t=3 H=16 c=0 M=3 k=0 F=4913 nK=1
+C p=17 t=3 H=16 M=3 K=3 Kmodpc=0 miss=0 COVERED 0.00s
+END C p=17 t=3 H=16 nK=1 bad=0 ALL_COVERED 0.0s

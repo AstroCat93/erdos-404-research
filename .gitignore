@@ -39,3 +39,14 @@ archive/witnesses/*.txt
 __pycache__/
 *.pyc
 .DS_Store
+
+# round 2: compiled binaries and fresh re-run outputs (archived outputs live in data/round2/)
+code/round2/R3/bin/
+code/round2/R2a/bin/
+code/round2/R2b/bin/
+code/round2/outputs/
+code/round2/R3/data/.rlock
+code/round2/review/logic/covmiss
+code/round2/review/computation/covchk
+code/round2/review/computation/shells
+code/round2/review/novelty/covchk

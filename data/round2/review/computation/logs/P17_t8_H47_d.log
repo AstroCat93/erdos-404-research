@@ -1,0 +1,4 @@
+# covchk(C) p=17 t=8 H=47 c=2 M=10 k=2 F=6975757441 nK=2
+C p=17 t=8 H=47 M=10 K=15 Kmodpc=15 miss=0 COVERED 342.90s
+C p=17 t=8 H=47 M=10 K=16 Kmodpc=16 miss=0 COVERED 407.25s
+END C p=17 t=8 H=47 nK=2 bad=0 ALL_COVERED 750.1s

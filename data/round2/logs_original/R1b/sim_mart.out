@@ -1,0 +1,13 @@
+k=  0 mean n_k=    24.0 mean W= -0.19 mean M_k=   0.6150 P(pop lam<=L alive)=0.1367 P(any alive)=0.2100 samples=300
+k=  1 mean n_k=    30.0 mean W= -0.10 mean M_k=   0.5758 P(pop lam<=L alive)=0.1100 P(any alive)=0.1867 samples=300
+k=  2 mean n_k=    37.0 mean W=  1.01 mean M_k=   0.5508 P(pop lam<=L alive)=0.0933 P(any alive)=0.1633 samples=300
+k=  3 mean n_k=    46.0 mean W= -0.15 mean M_k=   0.5537 P(pop lam<=L alive)=0.0667 P(any alive)=0.1333 samples=300
+k=  4 mean n_k=    56.8 mean W=  0.64 mean M_k=   0.5754 P(pop lam<=L alive)=0.0633 P(any alive)=0.1167 samples=300
+k=  5 mean n_k=    70.3 mean W=  0.62 mean M_k=   0.3467 P(pop lam<=L alive)=0.0567 P(any alive)=0.1000 samples=300
+k=  6 mean n_k=    86.6 mean W=  0.01 mean M_k=   0.3867 P(pop lam<=L alive)=0.0500 P(any alive)=0.0933 samples=300
+k=  7 mean n_k=   106.8 mean W= -0.19 mean M_k=   0.2846 P(pop lam<=L alive)=0.0333 P(any alive)=0.0700 samples=300
+k=  8 mean n_k=   131.4 mean W=  0.20 mean M_k=   0.2029 P(pop lam<=L alive)=0.0267 P(any alive)=0.0633 samples=300
+k=  9 mean n_k=   162.0 mean W=  0.22 mean M_k=   0.2010 P(pop lam<=L alive)=0.0233 P(any alive)=0.0600 samples=300
+k= 10 mean n_k=   199.8 mean W=  0.28 mean M_k=   0.1558 P(pop lam<=L alive)=0.0200 P(any alive)=0.0500 samples=300
+k= 11 mean n_k=   237.3 mean W=  0.44 mean M_k=   0.0876 P(pop lam<=L alive)=0.0143 P(any alive)=0.0524 samples=210
+k= 12 mean n_k=   251.0 mean W= -0.68 mean M_k=   0.3710 P(pop lam<=L alive)=0.0645 P(any alive)=0.1290 samples=31

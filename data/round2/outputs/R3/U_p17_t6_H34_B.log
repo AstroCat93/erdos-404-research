@@ -1,0 +1,18 @@
+# fibcov2(B) p=17 t=6 H=34 c=1 M=7 kb=1 sparse=6 fibre=24137569 bits
+B p=17 t=6 H=34 M=7 K=18 notcovered=0 OK [0.03s]
+B p=17 t=6 H=34 M=7 K=19 notcovered=0 OK [0.03s]
+B p=17 t=6 H=34 M=7 K=20 notcovered=0 OK [0.03s]
+B p=17 t=6 H=34 M=7 K=21 notcovered=0 OK [0.03s]
+B p=17 t=6 H=34 M=7 K=22 notcovered=0 OK [0.03s]
+B p=17 t=6 H=34 M=7 K=23 notcovered=0 OK [0.03s]
+B p=17 t=6 H=34 M=7 K=24 notcovered=0 OK [0.03s]
+B p=17 t=6 H=34 M=7 K=25 notcovered=0 OK [0.03s]
+B p=17 t=6 H=34 M=7 K=26 notcovered=0 OK [0.03s]
+B p=17 t=6 H=34 M=7 K=27 notcovered=0 OK [0.03s]
+B p=17 t=6 H=34 M=7 K=28 notcovered=0 OK [0.03s]
+B p=17 t=6 H=34 M=7 K=29 notcovered=0 OK [0.03s]
+B p=17 t=6 H=34 M=7 K=30 notcovered=0 OK [0.03s]
+B p=17 t=6 H=34 M=7 K=31 notcovered=0 OK [0.03s]
+B p=17 t=6 H=34 M=7 K=32 notcovered=0 OK [0.03s]
+B p=17 t=6 H=34 M=7 K=33 notcovered=0 OK [0.03s]
+SUMMARY B p=17 t=6 H=34 c=1 M=7 kb=1 n=16 fail=0 worst=0 ALL_OK total=0.5s

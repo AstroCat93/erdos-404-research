@@ -1,0 +1,10 @@
+# fibcov(A) p=17 t=8 H=47 c=2 M=10 k=2  Q=2015993900449 fibre=6975757441 bits (831 MB x2)
+A p=17 t=8 H=47 c=2 M=10 K=9 missing=0 COVERED [232.90s]
+A p=17 t=8 H=47 c=2 M=10 K=10 missing=0 COVERED [220.66s]
+A p=17 t=8 H=47 c=2 M=10 K=11 missing=0 COVERED [353.57s]
+A p=17 t=8 H=47 c=2 M=10 K=12 missing=0 COVERED [380.14s]
+A p=17 t=8 H=47 c=2 M=10 K=13 missing=0 COVERED [358.69s]
+A p=17 t=8 H=47 c=2 M=10 K=14 missing=0 COVERED [357.10s]
+A p=17 t=8 H=47 c=2 M=10 K=15 missing=0 COVERED [350.65s]
+A p=17 t=8 H=47 c=2 M=10 K=16 missing=0 COVERED [340.94s]
+SUMMARY A p=17 t=8 H=47 c=2 M=10 k=2 mode=pos nK=8 fail=0 worst_missing=0 ALL_COVERED total=2594.7s

@@ -1,0 +1,9 @@
+T_13(1) = 7.795214e-03  (elements 13)  running sum 7.7952141e-03
+T_13(2) = 1.499707e-03  (elements 26)  running sum 9.2949215e-03
+T_13(3) = 3.750653e-06  (elements 39)  running sum 9.2986721e-03
+T_13(4) = 1.036219e-07  (elements 52)  running sum 9.2987757e-03
+T_11(1) = 6.036917e-02  (elements 11)  running sum 6.0369175e-02
+T_11(2) = 6.182812e-03  (elements 22)  running sum 6.6551987e-02
+T_11(3) = 2.699637e-04  (elements 33)  running sum 6.6821951e-02
+T_11(4) = 2.243729e-05  (elements 44)  running sum 6.6844388e-02
+T_11(5) = 9.952084e-06  (elements 55)  running sum 6.6854340e-02

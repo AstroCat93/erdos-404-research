@@ -1,0 +1,7 @@
+p=17 t=6 H=17 K=1 c=0 k=0 M=6 split=0/1  L1=13125 L2=276.064  R1=11185.5 R2=184.155  maxF=0.524451 at xi=24038155 (v=0)
+   d=1  #xi=16  contributing=17  L1_d=0.00148851  random=0.0074145  ratio=0.201
+   d=2  #xi=272  contributing=17  L1_d=0.0847091  random=0.126047  ratio=0.672
+   d=3  #xi=4624  contributing=17  L1_d=2.28409  random=2.14279  ratio=1.066
+   d=4  #xi=78608  contributing=17  L1_d=43.4334  random=36.4275  ratio=1.192
+   d=5  #xi=1336336  contributing=17  L1_d=725.474  random=619.267  ratio=1.172
+   d=6  #xi=22717712  contributing=17  L1_d=12353.7  random=10527.5  ratio=1.173

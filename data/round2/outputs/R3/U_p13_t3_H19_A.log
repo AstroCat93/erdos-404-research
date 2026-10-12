@@ -1,0 +1,14 @@
+# fibcov(A) p=13 t=3 H=19 c=1 M=4 k=1  Q=28561 fibre=2197 bits (0 MB x2)
+A p=13 t=3 H=19 c=1 M=4 K=1 missing=0 COVERED [0.00s]
+A p=13 t=3 H=19 c=1 M=4 K=2 missing=0 COVERED [0.00s]
+A p=13 t=3 H=19 c=1 M=4 K=3 missing=0 COVERED [0.00s]
+A p=13 t=3 H=19 c=1 M=4 K=4 missing=0 COVERED [0.00s]
+A p=13 t=3 H=19 c=1 M=4 K=5 missing=0 COVERED [0.00s]
+A p=13 t=3 H=19 c=1 M=4 K=6 missing=0 COVERED [0.00s]
+A p=13 t=3 H=19 c=1 M=4 K=7 missing=0 COVERED [0.00s]
+A p=13 t=3 H=19 c=1 M=4 K=8 missing=0 COVERED [0.00s]
+A p=13 t=3 H=19 c=1 M=4 K=9 missing=0 COVERED [0.00s]
+A p=13 t=3 H=19 c=1 M=4 K=10 missing=0 COVERED [0.00s]
+A p=13 t=3 H=19 c=1 M=4 K=11 missing=0 COVERED [0.00s]
+A p=13 t=3 H=19 c=1 M=4 K=12 missing=0 COVERED [0.00s]
+SUMMARY A p=13 t=3 H=19 c=1 M=4 k=1 mode=all nK=12 fail=0 worst_missing=0 ALL_COVERED total=0.0s

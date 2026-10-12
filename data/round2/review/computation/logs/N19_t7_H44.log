@@ -1,0 +1,20 @@
+# covchk(C) p=19 t=7 H=44 c=2 M=9 k=2 F=893871739 nK=18
+C p=19 t=7 H=44 M=9 K=1 Kmodpc=1 miss=4 UNCOVERED 40.30s
+C p=19 t=7 H=44 M=9 K=2 Kmodpc=2 miss=0 COVERED 40.64s
+C p=19 t=7 H=44 M=9 K=3 Kmodpc=3 miss=0 COVERED 40.26s
+C p=19 t=7 H=44 M=9 K=4 Kmodpc=4 miss=0 COVERED 41.48s
+C p=19 t=7 H=44 M=9 K=5 Kmodpc=5 miss=8 UNCOVERED 36.93s
+C p=19 t=7 H=44 M=9 K=6 Kmodpc=6 miss=0 COVERED 34.16s
+C p=19 t=7 H=44 M=9 K=7 Kmodpc=7 miss=0 COVERED 34.73s
+C p=19 t=7 H=44 M=9 K=8 Kmodpc=8 miss=0 COVERED 34.54s
+C p=19 t=7 H=44 M=9 K=9 Kmodpc=9 miss=4 UNCOVERED 36.24s
+C p=19 t=7 H=44 M=9 K=10 Kmodpc=10 miss=0 COVERED 35.18s
+C p=19 t=7 H=44 M=9 K=11 Kmodpc=11 miss=4 UNCOVERED 35.85s
+C p=19 t=7 H=44 M=9 K=12 Kmodpc=12 miss=4 UNCOVERED 35.89s
+C p=19 t=7 H=44 M=9 K=13 Kmodpc=13 miss=0 COVERED 35.69s
+C p=19 t=7 H=44 M=9 K=14 Kmodpc=14 miss=4 UNCOVERED 35.90s
+C p=19 t=7 H=44 M=9 K=15 Kmodpc=15 miss=0 COVERED 34.22s
+C p=19 t=7 H=44 M=9 K=16 Kmodpc=16 miss=4 UNCOVERED 35.13s
+C p=19 t=7 H=44 M=9 K=17 Kmodpc=17 miss=0 COVERED 35.20s
+C p=19 t=7 H=44 M=9 K=18 Kmodpc=18 miss=0 COVERED 35.77s
+END C p=19 t=7 H=44 nK=18 bad=7 SOME_UNCOVERED 658.1s

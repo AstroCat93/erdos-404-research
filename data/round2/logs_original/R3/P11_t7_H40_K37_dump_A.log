@@ -1,0 +1,5 @@
+# fibcov(A) p=11 t=7 H=40 c=3 M=10 k=2  Q=25937424601 fibre=214358881 bits (25 MB x2)
+    MISS K=37 x=23022655245 (x mod p^k=7)
+    MISS K=37 x=18038488330 (x mod p^k=115)
+A p=11 t=7 H=40 c=3 M=10 K=37 missing=2 NOT_COVERED [2.90s]
+SUMMARY A p=11 t=7 H=40 c=3 M=10 k=2 mode=pos nK=1 fail=1 worst_missing=2 SOME_NOT_COVERED total=2.9s

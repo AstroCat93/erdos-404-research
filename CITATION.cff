@@ -4,7 +4,8 @@ title: "Erdős Problem #404: structure, finiteness families and certified lower 
 authors:
   - family-names: Durfee
     given-names: Nathan
-date-released: 2026-10-08
+version: "revision 2 (2026-10-12)"
+date-released: 2026-10-12
 license:
   - MIT
   - CC-BY-4.0

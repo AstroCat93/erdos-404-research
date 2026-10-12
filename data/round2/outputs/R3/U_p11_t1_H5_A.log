@@ -1,0 +1,3 @@
+# fibcov(A) p=11 t=1 H=5 c=0 M=1 k=0  Q=11 fibre=11 bits (0 MB x2)
+A p=11 t=1 H=5 c=0 M=1 K=1 missing=0 COVERED [0.00s]
+SUMMARY A p=11 t=1 H=5 c=0 M=1 k=0 mode=all nK=1 fail=0 worst_missing=0 ALL_COVERED total=0.0s

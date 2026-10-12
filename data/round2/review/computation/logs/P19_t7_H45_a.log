@@ -1,0 +1,11 @@
+# covchk(C) p=19 t=7 H=45 c=2 M=9 k=2 F=893871739 nK=9
+C p=19 t=7 H=45 M=9 K=1 Kmodpc=1 miss=0 COVERED 39.91s
+C p=19 t=7 H=45 M=9 K=2 Kmodpc=2 miss=0 COVERED 40.34s
+C p=19 t=7 H=45 M=9 K=3 Kmodpc=3 miss=0 COVERED 42.61s
+C p=19 t=7 H=45 M=9 K=4 Kmodpc=4 miss=0 COVERED 43.43s
+C p=19 t=7 H=45 M=9 K=5 Kmodpc=5 miss=0 COVERED 42.50s
+C p=19 t=7 H=45 M=9 K=6 Kmodpc=6 miss=0 COVERED 43.22s
+C p=19 t=7 H=45 M=9 K=7 Kmodpc=7 miss=0 COVERED 39.86s
+C p=19 t=7 H=45 M=9 K=8 Kmodpc=8 miss=0 COVERED 39.86s
+C p=19 t=7 H=45 M=9 K=9 Kmodpc=9 miss=0 COVERED 40.02s
+END C p=19 t=7 H=45 nK=9 bad=0 ALL_COVERED 371.8s

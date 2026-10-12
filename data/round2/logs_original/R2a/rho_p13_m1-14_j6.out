@@ -1,0 +1,17 @@
+m=1:  j=1 rho=0.0078 mean=7.80e-03  j=2 rho=0.2208 mean=6.42e-02  j=3 rho=0.2192 mean=3.10e-02  j=4 rho=0.5611 mean=3.48e-02  j=5 rho=0.4448 mean=3.67e-02  j=6 rho=0.5611 mean=3.67e-02
+m=2:  j=1 rho=0.0078 mean=7.80e-03  j=2 rho=0.0731 mean=3.30e-02  j=3 rho=0.1795 mean=3.65e-02  j=4 rho=0.3502 mean=3.62e-02  j=5 rho=0.3964 mean=3.66e-02  j=6 rho=0.6054 mean=3.67e-02
+m=3:  j=1 rho=0.0078 mean=7.80e-03  j=2 rho=0.0831 mean=3.77e-02  j=3 rho=0.2119 mean=3.96e-02  j=4 rho=0.3229 mean=3.67e-02  j=5 rho=0.4795 mean=3.65e-02  j=6 rho=0.7150 mean=3.66e-02
+m=4:  j=1 rho=0.0078 mean=7.80e-03  j=2 rho=0.0505 mean=2.68e-02  j=3 rho=0.2334 mean=3.61e-02  j=4 rho=0.6107 mean=3.79e-02  j=5 rho=0.4978 mean=3.66e-02  j=6 rho=0.7037 mean=3.67e-02
+m=5:  j=1 rho=0.0078 mean=7.80e-03  j=2 rho=0.0912 mean=4.56e-02  j=3 rho=0.1722 mean=3.70e-02  j=4 rho=0.3318 mean=3.62e-02  j=5 rho=0.4861 mean=3.67e-02  j=6 rho=0.5605 mean=3.67e-02
+m=6:  j=1 rho=0.0078 mean=7.80e-03  j=2 rho=0.0572 mean=2.92e-02  j=3 rho=0.1527 mean=3.35e-02  j=4 rho=0.3588 mean=3.65e-02  j=5 rho=0.4674 mean=3.67e-02  j=6 rho=0.6648 mean=3.67e-02
+m=7:  j=1 rho=0.0078 mean=7.80e-03  j=2 rho=0.0818 mean=4.10e-02  j=3 rho=0.1100 mean=3.36e-02  j=4 rho=0.2944 mean=3.69e-02  j=5 rho=0.4021 mean=3.66e-02  j=6 rho=0.6015 mean=3.67e-02
+m=8:  j=1 rho=0.0078 mean=7.80e-03  j=2 rho=0.1039 mean=5.21e-02  j=3 rho=0.1615 mean=3.70e-02  j=4 rho=0.2267 mean=3.53e-02  j=5 rho=0.4039 mean=3.67e-02  j=6 rho=0.5682 mean=3.67e-02
+m=9:  j=1 rho=0.0078 mean=7.80e-03  j=2 rho=0.0998 mean=4.12e-02  j=3 rho=0.1466 mean=3.54e-02  j=4 rho=0.3141 mean=3.51e-02  j=5 rho=0.5424 mean=3.72e-02  j=6 rho=0.5654 mean=3.66e-02
+m=10:  j=1 rho=0.0078 mean=7.80e-03  j=2 rho=0.0399 mean=2.29e-02  j=3 rho=0.2405 mean=3.83e-02  j=4 rho=0.2660 mean=3.61e-02  j=5 rho=0.3955 mean=3.67e-02  j=6 rho=0.5351 mean=3.67e-02
+m=11:  j=1 rho=0.0078 mean=7.80e-03  j=2 rho=0.1234 mean=5.97e-02  j=3 rho=0.2240 mean=4.01e-02  j=4 rho=0.3567 mean=3.56e-02  j=5 rho=0.5099 mean=3.64e-02  j=6 rho=0.5652 mean=3.67e-02
+m=12:  j=1 rho=0.0078 mean=7.80e-03  j=2 rho=0.0682 mean=4.13e-02  j=3 rho=0.1567 mean=3.48e-02  j=4 rho=0.3414 mean=3.97e-02  j=5 rho=0.5689 mean=3.63e-02  j=6 rho=0.5511 mean=3.67e-02
+m=13:  j=1 rho=0.0078 mean=7.80e-03  j=2 rho=0.1215 mean=5.45e-02  j=3 rho=0.1937 mean=3.66e-02  j=4 rho=0.2610 mean=3.65e-02  j=5 rho=0.4825 mean=3.67e-02  j=6 rho=0.6054 mean=3.67e-02
+m=14:  j=1 rho=0.0078 mean=7.80e-03  j=2 rho=0.2208 mean=6.42e-02  j=3 rho=0.1381 mean=3.31e-02  j=4 rho=0.3292 mean=3.57e-02  j=5 rho=0.5538 mean=3.65e-02  j=6 rho=0.5479 mean=3.67e-02
+./rho 13 1 14 6  29.12s user 1.34s system 2% cpu 19:52.29 total
+
+[exited with code 0]

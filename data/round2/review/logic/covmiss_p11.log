@@ -1,0 +1,11 @@
+p=11 t=7 H=40 K=37 c=3 M=10 L=2357947691 words=36842933
+units: 7
+missed residue 18038488330
+missed residue 23022655245
+p=11 t=7 H=40 K=37 c=3 missing=2
+p=11 t=7 H=39 K=1 c=3 M=10 L=2357947691 words=36842933
+units: 6
+p=11 t=7 H=39 K=1 c=3 missing=1389738
+p=11 t=7 H=41 K=37 c=3 M=10 L=2357947691 words=36842933
+units: 8
+p=11 t=7 H=41 K=37 c=3 missing=0

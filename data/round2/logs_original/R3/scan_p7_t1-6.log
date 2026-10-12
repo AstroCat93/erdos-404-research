@@ -1,0 +1,181 @@
+p=7 t=1 H=2 c=0 M=1 ratio=0.571  FAILS (counting: 2^H < p^M)
+p=7 t=1 H=3 c=0 M=1 k=0 ratio=1.14 classes_checked=1 FAILS first_fail: 1 missing=1 NOT_COVERED [0.0s]
+p=7 t=1 H=4 c=0 M=1 k=0 ratio=2.29 classes_checked=1 HOLDS [0.0s]
+p=7 t=1 H=5 c=0 M=1 k=0 ratio=4.57 classes_checked=1 HOLDS [0.0s]
+p=7 t=1 H=6 c=0 M=1 k=0 ratio=9.14 classes_checked=1 HOLDS [0.0s]
+p=7 t=1 H=7 c=0 M=1 k=0 ratio=18.3 classes_checked=1 HOLDS [0.0s]
+p=7 t=2 H=2 c=0 M=2 ratio=0.0816  FAILS (counting: 2^H < p^M)
+p=7 t=2 H=3 c=0 M=2 ratio=0.163  FAILS (counting: 2^H < p^M)
+p=7 t=2 H=4 c=0 M=2 ratio=0.327  FAILS (counting: 2^H < p^M)
+p=7 t=2 H=5 c=0 M=2 ratio=0.653  FAILS (counting: 2^H < p^M)
+p=7 t=2 H=6 c=0 M=2 k=0 ratio=1.31 classes_checked=1 FAILS first_fail: 1 missing=14 NOT_COVERED [0.0s]
+p=7 t=2 H=7 c=0 M=2 k=0 ratio=2.61 classes_checked=1 HOLDS [0.0s]
+p=7 t=2 H=8 c=1 M=3 ratio=0.746  FAILS (counting: 2^H < p^M)
+p=7 t=2 H=9 c=1 M=3 k=0 ratio=1.49 classes_checked=1 FAILS first_fail: 1 missing=196 NOT_COVERED [0.0s]
+p=7 t=2 H=10 c=1 M=3 k=0 ratio=2.99 classes_checked=1 FAILS first_fail: 1 missing=49 NOT_COVERED [0.0s]
+p=7 t=2 H=11 c=1 M=3 k=0 ratio=5.97 classes_checked=6 HOLDS [0.0s]
+p=7 t=2 H=12 c=1 M=3 k=0 ratio=11.9 classes_checked=6 HOLDS [0.0s]
+p=7 t=2 H=13 c=1 M=3 k=0 ratio=23.9 classes_checked=6 HOLDS [0.0s]
+p=7 t=2 H=14 c=1 M=3 k=0 ratio=47.8 classes_checked=6 HOLDS [0.0s]
+p=7 t=2 H=15 c=2 M=4 k=0 ratio=13.6 classes_checked=1 FAILS first_fail: 1 missing=1715 NOT_COVERED [0.0s]
+p=7 t=2 H=16 c=2 M=4 k=0 ratio=27.3 classes_checked=1 FAILS first_fail: 1 missing=1372 NOT_COVERED [0.0s]
+p=7 t=2 H=17 c=2 M=4 k=0 ratio=54.6 classes_checked=1 FAILS first_fail: 1 missing=343 NOT_COVERED [0.0s]
+p=7 t=2 H=18 c=2 M=4 k=0 ratio=109 classes_checked=42 HOLDS [0.0s]
+p=7 t=2 H=19 c=2 M=4 k=0 ratio=218 classes_checked=42 HOLDS [0.0s]
+p=7 t=2 H=20 c=2 M=4 k=0 ratio=437 classes_checked=42 HOLDS [0.0s]
+p=7 t=2 H=21 c=2 M=4 k=0 ratio=873 classes_checked=42 HOLDS [0.0s]
+p=7 t=2 H=22 c=3 M=5 k=0 ratio=250 classes_checked=1 FAILS first_fail: 1 missing=12005 NOT_COVERED [0.0s]
+p=7 t=2 H=23 c=3 M=5 k=0 ratio=499 classes_checked=1 FAILS first_fail: 1 missing=9604 NOT_COVERED [0.0s]
+p=7 t=2 H=24 c=3 M=5 k=0 ratio=998 classes_checked=1 FAILS first_fail: 1 missing=2401 NOT_COVERED [0.0s]
+p=7 t=2 H=25 c=3 M=5 k=0 ratio=2e+03 classes_checked=294 HOLDS [0.0s]
+p=7 t=2 H=26 c=3 M=5 k=0 ratio=3.99e+03 classes_checked=294 HOLDS [0.0s]
+p=7 t=2 H=27 c=3 M=5 k=0 ratio=7.99e+03 classes_checked=294 HOLDS [0.0s]
+p=7 t=2 H=28 c=3 M=5 k=0 ratio=1.6e+04 classes_checked=294 HOLDS [0.0s]
+p=7 t=2 H=29 c=4 M=6 k=0 ratio=4.56e+03 classes_checked=1 FAILS first_fail: 1 missing=84035 NOT_COVERED [0.0s]
+p=7 t=2 H=30 c=4 M=6 k=0 ratio=9.13e+03 classes_checked=1 FAILS first_fail: 1 missing=67228 NOT_COVERED [0.0s]
+p=7 t=2 H=31 c=4 M=6 k=0 ratio=1.83e+04 classes_checked=1 FAILS first_fail: 1 missing=16807 NOT_COVERED [0.0s]
+p=7 t=2 H=32 c=4 M=6 k=0 ratio=3.65e+04 classes_checked=2058 HOLDS [0.0s]
+p=7 t=2 H=33 c=4 M=6 k=0 ratio=7.3e+04 classes_checked=2058 HOLDS [0.0s]
+p=7 t=2 H=34 c=4 M=6 k=0 ratio=1.46e+05 classes_checked=2058 HOLDS [0.0s]
+p=7 t=2 H=35 c=4 M=6 k=0 ratio=2.92e+05 classes_checked=2058 HOLDS [0.0s]
+p=7 t=2 H=36 c=5 M=7 k=0 ratio=8.34e+04 classes_checked=1 FAILS first_fail: 1 missing=588245 NOT_COVERED [0.0s]
+p=7 t=3 H=2 c=0 M=3 ratio=0.0117  FAILS (counting: 2^H < p^M)
+p=7 t=3 H=3 c=0 M=3 ratio=0.0233  FAILS (counting: 2^H < p^M)
+p=7 t=3 H=4 c=0 M=3 ratio=0.0466  FAILS (counting: 2^H < p^M)
+p=7 t=3 H=5 c=0 M=3 ratio=0.0933  FAILS (counting: 2^H < p^M)
+p=7 t=3 H=6 c=0 M=3 ratio=0.187  FAILS (counting: 2^H < p^M)
+p=7 t=3 H=7 c=0 M=3 ratio=0.373  FAILS (counting: 2^H < p^M)
+p=7 t=3 H=8 c=1 M=4 ratio=0.107  FAILS (counting: 2^H < p^M)
+p=7 t=3 H=9 c=1 M=4 ratio=0.213  FAILS (counting: 2^H < p^M)
+p=7 t=3 H=10 c=1 M=4 ratio=0.426  FAILS (counting: 2^H < p^M)
+p=7 t=3 H=11 c=1 M=4 ratio=0.853  FAILS (counting: 2^H < p^M)
+p=7 t=3 H=12 c=1 M=4 k=0 ratio=1.71 classes_checked=1 FAILS first_fail: 1 missing=549 NOT_COVERED [0.0s]
+p=7 t=3 H=13 c=1 M=4 k=0 ratio=3.41 classes_checked=1 FAILS first_fail: 1 missing=101 NOT_COVERED [0.0s]
+p=7 t=3 H=14 c=1 M=4 k=0 ratio=6.82 classes_checked=1 FAILS first_fail: 1 missing=4 NOT_COVERED [0.0s]
+p=7 t=3 H=15 c=2 M=5 k=0 ratio=1.95 classes_checked=1 FAILS first_fail: 1 missing=12013 NOT_COVERED [0.0s]
+p=7 t=3 H=16 c=2 M=5 k=0 ratio=3.9 classes_checked=1 FAILS first_fail: 1 missing=9612 NOT_COVERED [0.0s]
+p=7 t=3 H=17 c=2 M=5 k=0 ratio=7.8 classes_checked=1 FAILS first_fail: 1 missing=2417 NOT_COVERED [0.0s]
+p=7 t=3 H=18 c=2 M=5 k=0 ratio=15.6 classes_checked=1 FAILS first_fail: 1 missing=8 NOT_COVERED [0.0s]
+p=7 t=3 H=19 c=2 M=5 k=0 ratio=31.2 classes_checked=42 HOLDS [0.0s]
+p=7 t=3 H=20 c=2 M=5 k=0 ratio=62.4 classes_checked=42 HOLDS [0.0s]
+p=7 t=3 H=21 c=2 M=5 k=0 ratio=125 classes_checked=42 HOLDS [0.0s]
+p=7 t=3 H=22 c=3 M=6 k=0 ratio=35.7 classes_checked=1 FAILS first_fail: 1 missing=84035 NOT_COVERED [0.0s]
+p=7 t=3 H=23 c=3 M=6 k=0 ratio=71.3 classes_checked=1 FAILS first_fail: 1 missing=67228 NOT_COVERED [0.0s]
+p=7 t=3 H=24 c=3 M=6 k=0 ratio=143 classes_checked=1 FAILS first_fail: 1 missing=16807 NOT_COVERED [0.0s]
+p=7 t=3 H=25 c=3 M=6 k=0 ratio=285 classes_checked=294 HOLDS [0.0s]
+p=7 t=3 H=26 c=3 M=6 k=0 ratio=570 classes_checked=294 HOLDS [0.0s]
+p=7 t=3 H=27 c=3 M=6 k=0 ratio=1.14e+03 classes_checked=294 HOLDS [0.0s]
+p=7 t=3 H=28 c=3 M=6 k=0 ratio=2.28e+03 classes_checked=294 HOLDS [0.0s]
+p=7 t=3 H=29 c=4 M=7 k=0 ratio=652 classes_checked=1 FAILS first_fail: 1 missing=588245 NOT_COVERED [0.0s]
+p=7 t=3 H=30 c=4 M=7 k=0 ratio=1.3e+03 classes_checked=1 FAILS first_fail: 1 missing=470596 NOT_COVERED [0.0s]
+p=7 t=3 H=31 c=4 M=7 k=0 ratio=2.61e+03 classes_checked=1 FAILS first_fail: 1 missing=117649 NOT_COVERED [0.0s]
+p=7 t=3 H=32 c=4 M=7 k=0 ratio=5.22e+03 classes_checked=2058 HOLDS [0.2s]
+p=7 t=3 H=33 c=4 M=7 k=0 ratio=1.04e+04 classes_checked=2058 HOLDS [0.2s]
+p=7 t=3 H=34 c=4 M=7 k=0 ratio=2.09e+04 classes_checked=2058 HOLDS [0.2s]
+p=7 t=3 H=35 c=4 M=7 k=0 ratio=4.17e+04 classes_checked=2058 HOLDS [0.2s]
+p=7 t=3 H=36 c=5 M=8 k=1 ratio=1.19e+04 classes_checked=1 FAILS first_fail: 1 missing=823543 NOT_COVERED [0.0s]
+p=7 t=4 H=2 c=0 M=4 ratio=0.00167  FAILS (counting: 2^H < p^M)
+p=7 t=4 H=3 c=0 M=4 ratio=0.00333  FAILS (counting: 2^H < p^M)
+p=7 t=4 H=4 c=0 M=4 ratio=0.00666  FAILS (counting: 2^H < p^M)
+p=7 t=4 H=5 c=0 M=4 ratio=0.0133  FAILS (counting: 2^H < p^M)
+p=7 t=4 H=6 c=0 M=4 ratio=0.0267  FAILS (counting: 2^H < p^M)
+p=7 t=4 H=7 c=0 M=4 ratio=0.0533  FAILS (counting: 2^H < p^M)
+p=7 t=4 H=8 c=1 M=5 ratio=0.0152  FAILS (counting: 2^H < p^M)
+p=7 t=4 H=9 c=1 M=5 ratio=0.0305  FAILS (counting: 2^H < p^M)
+p=7 t=4 H=10 c=1 M=5 ratio=0.0609  FAILS (counting: 2^H < p^M)
+p=7 t=4 H=11 c=1 M=5 ratio=0.122  FAILS (counting: 2^H < p^M)
+p=7 t=4 H=12 c=1 M=5 ratio=0.244  FAILS (counting: 2^H < p^M)
+p=7 t=4 H=13 c=1 M=5 ratio=0.487  FAILS (counting: 2^H < p^M)
+p=7 t=4 H=14 c=1 M=5 ratio=0.975  FAILS (counting: 2^H < p^M)
+p=7 t=4 H=15 c=2 M=6 ratio=0.279  FAILS (counting: 2^H < p^M)
+p=7 t=4 H=16 c=2 M=6 ratio=0.557  FAILS (counting: 2^H < p^M)
+p=7 t=4 H=17 c=2 M=6 k=0 ratio=1.11 classes_checked=1 FAILS first_fail: 1 missing=68377 NOT_COVERED [0.0s]
+p=7 t=4 H=18 c=2 M=6 k=0 ratio=2.23 classes_checked=1 FAILS first_fail: 1 missing=43053 NOT_COVERED [0.0s]
+p=7 t=4 H=19 c=2 M=6 k=0 ratio=4.46 classes_checked=1 FAILS first_fail: 1 missing=14354 NOT_COVERED [0.0s]
+p=7 t=4 H=20 c=2 M=6 k=0 ratio=8.91 classes_checked=1 FAILS first_fail: 1 missing=3016 NOT_COVERED [0.0s]
+p=7 t=4 H=21 c=2 M=6 k=0 ratio=17.8 classes_checked=1 FAILS first_fail: 1 missing=120 NOT_COVERED [0.0s]
+p=7 t=4 H=22 c=3 M=7 k=0 ratio=5.09 classes_checked=1 FAILS first_fail: 1 missing=588485 NOT_COVERED [0.0s]
+p=7 t=4 H=23 c=3 M=7 k=0 ratio=10.2 classes_checked=1 FAILS first_fail: 1 missing=470836 NOT_COVERED [0.0s]
+p=7 t=4 H=24 c=3 M=7 k=0 ratio=20.4 classes_checked=1 FAILS first_fail: 1 missing=118129 NOT_COVERED [0.0s]
+p=7 t=4 H=25 c=3 M=7 k=0 ratio=40.7 classes_checked=1 FAILS first_fail: 1 missing=240 NOT_COVERED [0.0s]
+p=7 t=4 H=26 c=3 M=7 k=0 ratio=81.5 classes_checked=294 HOLDS [0.0s]
+p=7 t=4 H=27 c=3 M=7 k=0 ratio=163 classes_checked=294 HOLDS [0.0s]
+p=7 t=4 H=28 c=3 M=7 k=0 ratio=326 classes_checked=294 HOLDS [0.0s]
+p=7 t=4 H=29 c=4 M=8 k=1 ratio=93.1 classes_checked=1 FAILS first_fail: 1 missing=823543 NOT_COVERED [0.0s]
+p=7 t=4 H=30 c=4 M=8 k=1 ratio=186 classes_checked=1 FAILS first_fail: 1 missing=823543 NOT_COVERED [0.0s]
+p=7 t=4 H=31 c=4 M=8 k=1 ratio=373 classes_checked=1 FAILS first_fail: 1 missing=823543 NOT_COVERED [0.0s]
+p=7 t=4 H=32 c=4 M=8 k=1 ratio=745 classes_checked=2058 HOLDS [1.1s]
+p=7 t=4 H=33 c=4 M=8 k=1 ratio=1.49e+03 classes_checked=2058 HOLDS [1.1s]
+p=7 t=4 H=34 c=4 M=8 k=1 ratio=2.98e+03 classes_checked=2058 HOLDS [1.1s]
+p=7 t=4 H=35 c=4 M=8 k=1 ratio=5.96e+03 classes_checked=2058 HOLDS [1.1s]
+p=7 t=4 H=36 c=5 M=9 k=2 ratio=1.7e+03 classes_checked=1 FAILS first_fail: 1 missing=823543 NOT_COVERED [0.0s]
+p=7 t=5 H=2 c=0 M=5 ratio=0.000238  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=3 c=0 M=5 ratio=0.000476  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=4 c=0 M=5 ratio=0.000952  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=5 c=0 M=5 ratio=0.0019  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=6 c=0 M=5 ratio=0.00381  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=7 c=0 M=5 ratio=0.00762  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=8 c=1 M=6 ratio=0.00218  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=9 c=1 M=6 ratio=0.00435  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=10 c=1 M=6 ratio=0.0087  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=11 c=1 M=6 ratio=0.0174  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=12 c=1 M=6 ratio=0.0348  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=13 c=1 M=6 ratio=0.0696  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=14 c=1 M=6 ratio=0.139  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=15 c=2 M=7 ratio=0.0398  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=16 c=2 M=7 ratio=0.0796  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=17 c=2 M=7 ratio=0.159  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=18 c=2 M=7 ratio=0.318  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=19 c=2 M=7 ratio=0.637  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=20 c=2 M=7 k=0 ratio=1.27 classes_checked=1 FAILS first_fail: 1 missing=333712 NOT_COVERED [0.0s]
+p=7 t=5 H=21 c=2 M=7 k=0 ratio=2.55 classes_checked=1 FAILS first_fail: 1 missing=134589 NOT_COVERED [0.0s]
+p=7 t=5 H=22 c=3 M=8 ratio=0.728  FAILS (counting: 2^H < p^M)
+p=7 t=5 H=23 c=3 M=8 k=1 ratio=1.46 classes_checked=1 FAILS first_fail: 1 missing=24605 NOT_COVERED [0.0s]
+p=7 t=5 H=24 c=3 M=8 k=1 ratio=2.91 classes_checked=1 FAILS first_fail: 1 missing=24605 NOT_COVERED [0.0s]
+p=7 t=5 H=25 c=3 M=8 k=1 ratio=5.82 classes_checked=1 FAILS first_fail: 1 missing=2719 NOT_COVERED [0.0s]
+p=7 t=5 H=26 c=3 M=8 k=1 ratio=11.6 classes_checked=1 FAILS first_fail: 1 missing=368 NOT_COVERED [0.0s]
+p=7 t=5 H=27 c=3 M=8 k=1 ratio=23.3 classes_checked=4 FAILS first_fail: 4 missing=1 NOT_COVERED [0.0s]
+p=7 t=5 H=28 c=3 M=8 k=1 ratio=46.6 classes_checked=294 HOLDS [0.1s]
+p=7 t=5 H=29 c=4 M=9 k=2 ratio=13.3 classes_checked=1 FAILS first_fail: 1 missing=823543 NOT_COVERED [0.0s]
+p=7 t=5 H=30 c=4 M=9 k=2 ratio=26.6 classes_checked=1 FAILS first_fail: 1 missing=823543 NOT_COVERED [0.0s]
+p=7 t=5 H=31 c=4 M=9 k=2 ratio=53.2 classes_checked=1 FAILS first_fail: 1 missing=823543 NOT_COVERED [0.0s]
+p=7 t=5 H=32 c=4 M=9 k=2 ratio=106 classes_checked=2058 HOLDS [6.0s]
+p=7 t=5 H=33 c=4 M=9 k=2 ratio=213 classes_checked=2058 HOLDS [5.9s]
+p=7 t=5 H=34 c=4 M=9 k=2 ratio=426 classes_checked=2058 HOLDS [5.9s]
+p=7 t=5 H=35 c=4 M=9 k=2 ratio=851 classes_checked=2058 HOLDS [6.0s]
+p=7 t=5 H=36 c=5 M=10 k=3 ratio=243 classes_checked=1 FAILS first_fail: 1 missing=823543 NOT_COVERED [0.0s]
+p=7 t=6 H=2 c=0 M=6 ratio=3.4e-05  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=3 c=0 M=6 ratio=6.8e-05  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=4 c=0 M=6 ratio=0.000136  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=5 c=0 M=6 ratio=0.000272  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=6 c=0 M=6 ratio=0.000544  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=7 c=0 M=6 ratio=0.00109  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=8 c=1 M=7 ratio=0.000311  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=9 c=1 M=7 ratio=0.000622  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=10 c=1 M=7 ratio=0.00124  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=11 c=1 M=7 ratio=0.00249  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=12 c=1 M=7 ratio=0.00497  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=13 c=1 M=7 ratio=0.00995  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=14 c=1 M=7 ratio=0.0199  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=15 c=2 M=8 ratio=0.00568  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=16 c=2 M=8 ratio=0.0114  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=17 c=2 M=8 ratio=0.0227  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=18 c=2 M=8 ratio=0.0455  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=19 c=2 M=8 ratio=0.0909  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=20 c=2 M=8 ratio=0.182  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=21 c=2 M=8 ratio=0.364  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=22 c=3 M=9 ratio=0.104  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=23 c=3 M=9 ratio=0.208  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=24 c=3 M=9 ratio=0.416  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=25 c=3 M=9 ratio=0.832  FAILS (counting: 2^H < p^M)
+p=7 t=6 H=26 c=3 M=9 k=2 ratio=1.66 classes_checked=1 FAILS first_fail: 1 missing=273776 NOT_COVERED [0.0s]
+p=7 t=6 H=27 c=3 M=9 k=2 ratio=3.33 classes_checked=1 FAILS first_fail: 1 missing=98720 NOT_COVERED [0.0s]
+p=7 t=6 H=28 c=3 M=9 k=2 ratio=6.65 classes_checked=1 FAILS first_fail: 1 missing=9131 NOT_COVERED [0.0s]
+p=7 t=6 H=29 c=4 M=10 k=3 ratio=1.9 classes_checked=1 FAILS first_fail: 1 missing=9131 NOT_COVERED [0.0s]
+p=7 t=6 H=30 c=4 M=10 k=3 ratio=3.8 classes_checked=1 FAILS first_fail: 1 missing=70 NOT_COVERED [0.0s]
+p=7 t=6 H=31 c=4 M=10 k=3 ratio=7.6 classes_checked=1 FAILS first_fail: 1 missing=70 NOT_COVERED [0.0s]
+p=7 t=6 H=32 c=4 M=10 k=3 ratio=15.2 classes_checked=1 FAILS first_fail: 1 missing=1 NOT_COVERED [0.0s]
+p=7 t=6 H=33 c=4 M=10 k=3 ratio=30.4 classes_checked=5 FAILS first_fail: 5 missing=1 NOT_COVERED [0.1s]
+p=7 t=6 H=34 c=4 M=10 k=2 ratio=60.8 classes_checked=2058 HOLDS [42.6s]
+p=7 t=6 H=35 c=4 M=10 k=2 ratio=122 classes_checked=2058 HOLDS [42.8s]
+p=7 t=6 H=36 c=5 M=11 k=4 ratio=34.8 classes_checked=1 FAILS first_fail: 1 missing=823543 NOT_COVERED [0.0s]

@@ -1,0 +1,6 @@
+p=7 t=3 H=21 K=1 c=2 k=0 M=5 split=0/1  L1=1.55176 L2=0.020911  R1=1.27923 R2=0.00801373  maxF=0.0823662 at xi=2401 (v=4)
+   d=1  #xi=6  contributing=7  L1_d=0.203125  random=0.25428  ratio=0.799
+   d=2  #xi=42  contributing=14  L1_d=0.10127  random=0.0754347  ratio=1.342
+   d=3  #xi=294  contributing=21  L1_d=0.0145082  random=0.0223784  ratio=0.648
+   d=4  #xi=2058  contributing=21  L1_d=0.0898497  random=0.156649  ratio=0.574
+   d=5  #xi=14406  contributing=21  L1_d=1.14301  random=1.09654  ratio=1.042

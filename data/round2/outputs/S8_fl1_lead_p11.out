@@ -1,0 +1,9 @@
+# fl1_lead p=11 N0=11 e0=1 elements=88 margin=1e-12 per factor, x(1+1e-10)
+k= 1 T_upper=6.0369175e-02 cum_upper=6.0369175e-02
+k= 2 T_upper=6.1828125e-03 cum_upper=6.6551987e-02
+k= 3 T_upper=2.6996374e-04 cum_upper=6.6821951e-02
+k= 4 T_upper=2.2437293e-05 cum_upper=6.6844388e-02
+k= 5 T_upper=9.9520837e-06 cum_upper=6.6854340e-02
+k= 6 T_upper=1.2003520e-07 cum_upper=6.6854460e-02
+k= 7 T_upper=3.3199032e-08 cum_upper=6.6854494e-02
+k= 8 T_upper=3.2386811e-09 cum_upper=6.6854497e-02

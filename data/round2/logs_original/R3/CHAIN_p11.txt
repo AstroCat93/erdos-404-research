@@ -1,0 +1,11 @@
+uniform Cov(11,1,5): A=True B=True H+1<p^t=True
+uniform Cov(11,2,10): A=True B=True H+1<p^t=True
+uniform Cov(11,3,18): A=True B=True H+1<p^t=True
+uniform Cov(11,4,22): A=True B=True H+1<p^t=True
+uniform Cov(11,5,30): A=True B=True H+1<p^t=True
+uniform Cov(11,6,33): A=True B=True H+1<p^t=True
+positions depth 7, H=40, K''=1..36 (33 positions): A=True B=True N*-H>1=True
+positions depth 7, H=41, K''=37..37 (1 positions): A=True B=True N*-H>1=True
+positions depth 7, H=40, K''=38..120 (76 positions): A=True B=True N*-H>1=True
+positions depth 8, H=44, K''=1..10 (10 positions): A=True B=True N*-H>1=True
+CHAIN OK: no first failure below 11^9; f(1,11) >= v_11((11^9-1)!) = 235794760

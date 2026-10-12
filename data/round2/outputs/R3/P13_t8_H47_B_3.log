@@ -1,0 +1,6 @@
+# fibcov2(B) p=13 t=8 H=47 c=3 M=11 kb=3 sparse=0 fibre=815730721 bits
+B p=13 t=8 H=47 M=11 K=9 notcovered=0 OK [242.19s]
+B p=13 t=8 H=47 M=11 K=10 notcovered=0 OK [218.50s]
+B p=13 t=8 H=47 M=11 K=11 notcovered=0 OK [248.32s]
+B p=13 t=8 H=47 M=11 K=12 notcovered=0 OK [242.14s]
+SUMMARY B p=13 t=8 H=47 c=3 M=11 kb=3 n=4 fail=0 worst=0 ALL_OK total=951.2s

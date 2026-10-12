@@ -1,0 +1,10 @@
+p=7 t=5 H=35 K=1 c=4 k=0 M=9 split=0/1  L1=6.76517 L2=0.0162893  R1=5.51679 R2=0.00117444  maxF=0.0823662 at xi=5764801 (v=8)
+   d=1  #xi=6  contributing=7  L1_d=0.203125  random=0.25428  ratio=0.799
+   d=2  #xi=42  contributing=14  L1_d=0.0712416  random=0.0754347  ratio=0.944
+   d=3  #xi=294  contributing=21  L1_d=0.0158324  random=0.0223784  ratio=0.707
+   d=4  #xi=2058  contributing=28  L1_d=0.00755214  random=0.00663879  ratio=1.138
+   d=5  #xi=14406  contributing=35  L1_d=0.00113496  random=0.00196946  ratio=0.576
+   d=6  #xi=100842  contributing=35  L1_d=0.00916372  random=0.0137862  ratio=0.665
+   d=7  #xi=705894  contributing=35  L1_d=0.113342  random=0.0965037  ratio=1.174
+   d=8  #xi=4941258  contributing=35  L1_d=0.771182  random=0.675526  ratio=1.142
+   d=9  #xi=34588806  contributing=35  L1_d=5.57259  random=4.72868  ratio=1.178

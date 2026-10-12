@@ -1,0 +1,294 @@
+\documentclass[11pt]{amsart}
+\usepackage{amssymb,amsmath,amsthm}
+\usepackage[margin=1in]{geometry}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\N}{\mathbb N}
+\newcommand{\E}{\mathbb E}
+\renewcommand{\P}{\mathbb P}
+
+\title[$\mu(K_2)=0$]{Erd\H{o}s Problem \#404 at $p=2$: the infinity set $K_2$ is Haar-null\\
+(a quenched martingale for the carry branching process)}
+\author{Track R1b (AI-generated, Claude Opus 5.5; unrefereed)}
+\date{2026-10-11}
+
+\begin{document}
+\maketitle
+
+\noindent\textbf{Status.} Complete written proof; the key one-window identity (Proposition~\ref{prop:window1})
+was additionally verified exactly (rational arithmetic, exhaustive over the relevant digits) on
+$1982$ parent paths by two independent programs. Not machine-checked in Lean; not refereed by a human.
+Notation follows the research note \texttt{publish-erdos404/note.md} (cited as [N]).
+
+\begin{theorem}\label{thm:main}
+Let $K_2=\{x\in\Z_2:\ g_2(x)=\infty\}$. Then $\mu(K_2)=0$, where $\mu$ is Haar probability on $\Z_2$.
+Consequently $\delta_G(2)\to0$ as $G\to\infty$, and the set $\{a\ge1:\ f(a,2)=\infty\}$ has natural density $0$:
+for every $\varepsilon>0$ there is $G$ with $f(a,2)\le v_2(a!)+G$ for all $a$ outside a set of density $<\varepsilon$.
+\end{theorem}
+
+The consequence follows from [N, Thm.~3.1(c)]: $\{a: f(a,2)=\infty\}\subseteq\{a:g_2(a)\ge G\}$, which has
+natural density $\delta_G(2)=\mu\{g_2\ge G\}\downarrow\mu(K_2)$. This is the weak form of [N, Conj.~5.1] and target (T4) of [N, \S6].
+It says nothing about whether $K_2\cap\N$ is empty, and nothing about Q3.
+
+\section{Set-up}
+Write $v=v_2$, $s(\cdot)$ for the binary digit sum, and for $x\in\Z_2$, $j\ge0$:
+\[
+\pi_j(x)=\prod_{i=1}^{j}(x+i),\quad V_n(x)=v(\pi_n(x)),\quad W_n(x)=n-V_n(x),\quad \mu_n(x)=\max_{1\le i\le n}v(x+i).
+\]
+For a polynomial or power series $f$ put $f^{[i]}=f^{(i)}/i!$. A \emph{path of length $n$} is a word
+$e=(e_0,\dots,e_{n-1})\in\{0,1\}^n$ with $e_0=1$; $S_e(X)=\sum_{j<n}e_j\pi_j(X)\in\Z[X]$. The path $e$ is
+\emph{alive at $n$} (for $x$) if $v(S_e(x))\ge V_n(x)$; then $\tau_n(e,x):=-S_e(x)/\pi_n(x)\in\Z_2$ (the
+``target'' of [N, \S1.4]; $\tau_{n+1}=(\tau_n-e_n)/(x+n+1)$). Its \emph{slope} is $\lambda_e(x):=v(S_e'(x))$.
+For an infinite word $e$ with $e_0=1$, $F_e(x)=\sum_{j\ge0}e_j\pi_j(x)$.
+
+By [N, Prop.~1.2], $x\in K_2$ iff $F_e(x)=0$ for some infinite $e$. If $x$ is odd every $S_e(x)$ is odd, so
+$K_2\subseteq2\Z_2$. If $e'=(e,f)$ is alive at $N>n$ then $e$ is alive at $n$, because
+$S_e=S_{e'}-\sum_{n\le j<N}f_j\pi_j$ and $2^{V_n}\mid\pi_j$ for $j\ge n$ (``backward integrality'').
+
+\begin{lemma}\label{lem:val}
+Let $x\in2\Z_2$, not a negative integer.
+\begin{enumerate}
+\item[(a)] $V_n\ge v(n!)=n-s(n)\ge n-\log_2n-1$; so $W_n\le\log_2 n+1$.
+\item[(b)] $V_n\le n+\mu_n$.
+\item[(c)] $V_j-V_n\ge\lfloor (j-n)/2\rfloor$ for $j\ge n$.
+\item[(d)] For $K\ge1$ let $N_K=\min\{N\ge1: 2^K\mid x+N\}$. Then $W_{N_K}\le 1-s(x\bmod 2^K)$.
+\item[(e)] $v(\pi_j^{[i]}(x))\ge V_j-i\mu_j$ for $i\ge0$, $j\ge1$.
+\item[(f)] For $S\in\Z_2[X]$ and $y,h\in\Z_2$: $S(y+h)=\sum_{i}S^{[i]}(y)h^i$ with all $S^{[i]}(y)\in\Z_2$.
+\end{enumerate}
+\end{lemma}
+\begin{proof}
+(a) Among $n$ consecutive elements of $\Z_2$ at least $\lfloor n/2^\ell\rfloor$ are divisible by $2^\ell$; sum over $\ell\ge1$.
+(b) At most $\lceil n/2^\ell\rceil\le n/2^\ell+1$ are divisible by $2^\ell$, and none by $2^{\mu_n+1}$.
+(c) $x+i$ is even for even $i$.
+(d) Let $r=x\bmod2^K\in[0,2^K)$, so $N_K=2^K-r$ (or $2^K$ if $r=0$). For $1\le i<N_K$, $r+i\in(r,2^K)$ and
+$v(x+i)=v(r+i)<K$; hence $\sum_{i<N_K}v(x+i)=v((2^K-1)!)-v(r!)=(2^K-1-K)-(r-s(r))$, and $v(x+N_K)\ge K$.
+So $V_{N_K}\ge N_K-1+s(r)$.
+(e) $\pi_j^{[i]}(x)=\pi_j(x)\,e_i\big(\tfrac1{x+1},\dots,\tfrac1{x+j}\big)$ with $e_i$ elementary symmetric.
+(f) Taylor's formula; $S^{[i]}$ has coefficients in $\Z_2$.
+\end{proof}
+
+\noindent\textbf{The good set.} Let $\Omega$ be the set of $x\in2\Z_2$ such that (G1) $x$ has infinitely many binary digits
+equal to $1$, and (G2) there is $t_0$ with $\mu_n(x)\le2\log_2 n$ for all $n\ge 2^{t_0}$. Then $\mu(2\Z_2\setminus\Omega)=0$:
+(G1) is clear, and for (G2) the events $A_t=\{\exists\, i\le2^{t+1}: v(x+i)\ge2t\}$ have $\mu(A_t)\le2^{1-t}$, so by
+Borel--Cantelli a.e.\ $x$ lies in finitely many $A_t$; if $x\notin A_t$ then $\mu_n<2t\le2\log_2n$ for $n\in[2^t,2^{t+1})$.
+(G2) excludes negative integers. It suffices to prove $\mu(K_2\cap\Omega)=0$.
+
+\begin{lemma}[Taylor expansion and multiplicity]\label{lem:mult}
+Let $x\in\Omega$ and let $e$ be infinite. For every $i$ the series $F_e^{[i]}(x):=\sum_j e_j\pi_j^{[i]}(x)$ converges, with
+\[ v\big(F_e^{[i]}(x)-S^{[i]}_{e|n}(x)\big)\ \ge\ \inf_{j\ge n}\,(V_j-i\mu_j)\ \xrightarrow[n\to\infty]{}\ \infty, \]
+and $F_e(x+h)=\sum_{i\ge0}F_e^{[i]}(x)h^i$ for all $h\in2\Z_2$. Not all $F_e^{[i]}(x)$ vanish. Hence if $F_e(x)=0$ there is a
+least $k\ge1$ (the multiplicity) with $F^{[k]}_e(x)\ne0$.
+\end{lemma}
+\begin{proof}
+By Lemma~\ref{lem:val}(a),(e) and (G2), $V_j-i\mu_j\ge j-(2i+1)\log_2j-1\to\infty$, giving convergence and the tail bound.
+For $h\in2\Z_2$ the family $\{e_j\pi_j^{[i]}(x)h^i\}_{0\le i\le j}$ is summable: its terms have valuation
+$\ge i+\max(0,V_j-i\mu_j)$, so for each $B$ only finitely many have valuation $<B$. Summing first over $i$ gives
+$\sum_je_j\pi_j(x+h)=F_e(x+h)$ (Lemma~\ref{lem:val}(f)); summing first over $j$ gives $\sum_iF^{[i]}_e(x)h^i$.
+Take $h=-4-x\in2\Z_2$: $F_e(-4)=1-3e_1+6e_2-6e_3\equiv1\pmod 3$ (as $\pi_j(-4)=0$ for $j\ge4$), so $F_e(-4)\ne0$ and
+not all coefficients vanish.
+\end{proof}
+
+\begin{definition}[populations]
+For $L\ge0$ and $n\ge1$: $P^{1,L}_n(x)=\{e\text{ alive at }n:\ \lambda_e(x)\le L\}$.
+For $k\ge2$, with $\theta_n=\theta^{(k)}_n:=n-(2k+1)\log_2 n$:
+$P^{k,L}_n(x)=\{e\text{ alive at }n:\ v(S_e^{[i]}(x))\ge\theta_n\ (1\le i\le k-1),\ v(kS_e^{[k]}(x))\le L\}$.
+\end{definition}
+
+\begin{lemma}\label{lem:inpop}
+Let $x\in K_2\cap\Omega$, $F_e(x)=0$, with multiplicity $k$, and $L\ge\kappa:=v(kF^{[k]}_e(x))$. Then
+$e|_n\in P^{k,L}_n(x)$ for all large $n$.
+\end{lemma}
+\begin{proof}
+$e|_n$ is alive at $n$ since $S_{e|n}(x)=-\sum_{j\ge n}e_j\pi_j(x)$. By Lemma~\ref{lem:mult},
+$v(kS^{[k]}_{e|n}(x))=\kappa$ for large $n$, and for $i<k$ (where $F^{[i]}_e(x)=0$),
+$v(S^{[i]}_{e|n}(x))\ge\inf_{j\ge n}(j-(2k-1)\log_2j-1)\ge\theta_n$ for large $n$.
+\end{proof}
+
+\section{One window}
+
+\begin{lemma}[linearisation]\label{lem:lin}
+Let $x\in2\Z_2$ not a negative integer, $n<N$, $m:=V_n(x)$, $D:=V_N(x)-m$, and assume $\mu_N(x)<m$. Let $C=x+2^m\Z_2$
+with normalised Haar measure; write $x'=x_0+2^mw\in C$ with $x_0\in[0,2^m)$, $w\in\Z_2$, and
+$Q_f(X):=\sum_{j=n}^{N-1}f_j\,\pi_j(X)/\pi_n(X)\in\Z[X]$ for $f\in\{0,1\}^{N-n}$.
+\begin{enumerate}
+\item[(a)] $V_n,V_N,\mu_N$ are constant on $C$; for every path $e$ of length $n$, aliveness at $n$ is constant on $C$, as is
+$S_e^{[i]}(x')\bmod 2^m$ and $Q_f(x')\bmod 2^m$.
+\item[(b)] If $e$ is alive at $n$: $\tau_n(e,x')\equiv\tau_n(e,x_0)-\omega^{-1}S'_e(x_0)\,w\pmod{2^{m-\mu_n}}$, where
+$\omega=\pi_n(x_0)/2^m\in\Z_2^\times$.
+\item[(c)] $(e,f)$ is alive at $N$ iff $e$ is alive at $n$ and $\tau_n(e,x')\equiv Q_f(x')\pmod{2^D}$; then
+$\tau_N((e,f),x')=(\tau_n(e,x')-Q_f(x'))\,\pi_n(x')/\pi_N(x')$.
+\end{enumerate}
+\end{lemma}
+\begin{proof}
+(a) $v(x'+i)=v(x+i)$ for $i\le N$ because $v(x+i)\le\mu_N<m$; the rest is reduction of integer polynomials mod $2^m$.
+(b) Put $h=2^mw$. By Lemma~\ref{lem:val}(f), $S_e(x')=S_e(x_0)+hS'_e(x_0)+h^2R$ with $R\in\Z_2$, and
+$\pi_n(x')=\pi_n(x_0)(1+E)$ with $1+E=\prod_{i\le n}(1+h/(x_0+i))$, $v(E)\ge m-\mu_n\ge1$. Hence
+$\tau_n(e,x')=[\tau_n(e,x_0)-\omega^{-1}wS'_e(x_0)-\omega^{-1}2^mw^2R](1+E)^{-1}$, and the bracket is in $\Z_2$.
+(c) Backward integrality, and $S_{(e,f)}=\pi_n\,(Q_f-\tau_n(e,\cdot))$ with $V_N=V_n+D$.
+\end{proof}
+
+For $\lambda\ge0$ and $n$ define the \emph{frozen-state weight}
+\[ a_n^{(\lambda)}(t):=\P_{f\in\{0,1\}^{2\lambda}}\Big(\sum_{i<2\lambda}f_i\,\pi_{n+i}(x)/\pi_n(x)\equiv t\ (\mathrm{mod}\ 2^\lambda)\Big),\qquad
+\rho_n(e):=2^{\lambda_e}\,a_n^{(\lambda_e)}\big(\tau_n(e,x)\big). \]
+It depends only on $n$, $\lambda$ and $x\bmod2^\lambda$; $\sum_{t\bmod 2^\lambda}a^{(\lambda)}_n(t)=1$; and
+$a^{(\lambda)}_n\in2^{-2\lambda}\Z$, so $\rho_n(e)>0$ implies $\rho_n(e)\ge2^{-\lambda_e}$. By Lemma~\ref{lem:val}(c) the terms
+with $j\ge n+2\lambda$ of any $Q_f$ vanish mod $2^\lambda$, so if $N-n\ge2\lambda$ then
+$a^{(\lambda)}_n(t)=\P_{f\in\{0,1\}^{N-n}}(Q_f(x)\equiv t\bmod 2^\lambda)$. (For $\lambda\le1$, $\rho\equiv1$; in general
+$\rho$ is not constant, e.g.\ for $\lambda=3$ and $x+n\equiv7\pmod 8$ it is $(4,4,0,0,0,0,0,0)$; table in \texttt{rho\_table.py}.)
+
+\begin{proposition}[window identity, slope $\le L$]\label{prop:window1}
+In the setting of Lemma~\ref{lem:lin} let $L\ge0$ and assume
+\[ \text{(W1) } N-n\ge2L+2,\qquad \text{(W2) } D+L\le m-\mu_n,\qquad \text{(W3) } L<m-\mu_N. \]
+Let $e\in P^{1,L}_n(x)$ (by (a) this is a property of $C$), $\lambda=\lambda_e$. Then:
+\begin{enumerate}
+\item[(i)] every child $(e,f)$ alive at $N$ at any $x'\in C$ has slope $\lambda$; and every $e''\in P^{1,L}_N(x')$ has
+$e''|_n\in P^{1,L}_n(x)$;
+\item[(ii)] $s_e:=\tau_n(e,x')\bmod2^\lambda$ is constant on $C$;
+\item[(iii)] for every $s\in\Z/2^\lambda$,
+\[\E_{x'\in C}\#\{f:\ (e,f)\text{ alive at }N,\ \tau_N((e,f),x')\equiv s\ (2^\lambda)\}=2^{W_N-W_n}\,a^{(\lambda)}_n(s_e).\]
+\end{enumerate}
+\end{proposition}
+\begin{proof}
+By Lemma~\ref{lem:val}(c) and (W1), $D\ge\lfloor (N-n)/2\rfloor\ge L+1>\lambda$.
+(i) $S'_{(e,f)}=S'_e+\sum_{n\le j<N}f_j\pi'_j$ and $v(\pi'_j(x'))\ge V_j-\mu_j\ge m-\mu_N>L$ by Lemma~\ref{lem:val}(e) and (W3).
+So a child of a slope-$\lambda$ parent has slope $\lambda$, and a parent of slope $>L$ has only children of slope $>L$;
+with backward integrality this gives (i).
+(ii) $v(S'_e(x_0))=\lambda$ (as $\lambda<m$), and $\lambda\le m-\mu_n$; apply Lemma~\ref{lem:lin}(b).
+(iii) By Lemma~\ref{lem:lin}(b) and (W2), $t(w):=\tau_n(e,x_0+2^mw)\bmod 2^{D+\lambda}$ equals
+$(\tau_0-2^\lambda\beta w)\bmod2^{D+\lambda}$, where $\tau_0=\tau_n(e,x_0)$ and $\beta=\omega^{-1}S'_e(x_0)/2^\lambda\in\Z_2^\times$.
+So $t$ depends on $w\bmod2^D$ only, and $w\bmod 2^D\mapsto t$ is a bijection onto the coset $\tau_0+2^\lambda\Z/2^{D+\lambda}$.
+Since $D+\lambda\le m$, $q_f:=Q_f(x')\bmod2^{D+\lambda}$ and the unit $u:=\pi_N(x')/(2^D\pi_n(x'))\bmod 2^\lambda$ are constant on $C$.
+Fix $f$. If $q_f\not\equiv\tau_0\pmod{2^\lambda}$, no $t$ in the coset is $\equiv q_f\pmod{2^D}$ (as $D\ge\lambda$), so $(e,f)$ is never alive.
+If $q_f\equiv\tau_0\pmod{2^\lambda}$, the $t$ in the coset with $t\equiv q_f\pmod{2^D}$ are exactly $t=q_f+2^Dz$, $z\in\Z/2^\lambda$, and
+by Lemma~\ref{lem:lin}(c) the child then has $\tau_N\equiv zu^{-1}\pmod{2^\lambda}$, a bijection $z\leftrightarrow s$. So for each $s$
+exactly one class $w\bmod2^D$ (probability $2^{-D}$) produces a child with state $s$. Summing over $f$, the expectation is
+$2^{-D}\#\{f: Q_f(x)\equiv s_e\ (2^\lambda)\}=2^{N-n-D}a^{(\lambda)}_n(s_e)$, and $N-n-D=W_N-W_n$.
+\end{proof}
+
+\begin{proposition}[window bound, multiplicity $k\ge2$]\label{prop:window2}
+In the setting of Lemma~\ref{lem:lin} let $k\ge2$, $L\ge0$, $\theta=\theta^{(k)}$, assume $\theta$ is nondecreasing on $[n,N]$ and
+\[\text{(V1) } D\le\min(\theta_n,\,m-\mu_n),\quad\text{(V2) }\theta_N\le 2m-k\mu_N,\quad
+\text{(V3) }\theta_n\le m-(k-1)\mu_N,\quad\text{(V4) }L<m-k\mu_N .\]
+Then every $e''\in P^{k,L}_N(x')$ ($x'\in C$) has $e''|_n\in P^{k,L}_n(x)$, and for $e\in P^{k,L}_n(x)$, with $r=\lfloor(N-n-1)/2\rfloor$,
+\[\E_{x'\in C}\#\{f:\ (e,f)\in P^{k,L}_N(x')\}\ \le\ 2^{\,N-n-r+L+m-\theta_N}.\]
+\end{proposition}
+\begin{proof}
+\emph{Closure.} If $e''=(e,f)\in P^{k,L}_N(x')$ then $e$ is alive at $n$; for $1\le i\le k$, $v(\pi^{[i]}_j(x'))\ge V_j-i\mu_j\ge m-i\mu_N$
+for $n\le j<N$, which is $\ge\theta_n$ for $i\le k-1$ by (V3) and $>L$ for $i=k$ by (V4). Hence $v(S^{[i]}_e)\ge\min(\theta_N,\theta_n)=\theta_n$
+($i<k$) and $v(kS^{[k]}_e)=v(kS^{[k]}_{e''})\le L$. These conditions are constant on $C$ (they live mod $2^m$; note $\theta_n\le v(n!)\le m$).
+
+\emph{Count.} Let $e\in P^{k,L}_n(x)$. Then $v(S'_e(x_0))\ge\min(\theta_n,m)\ge D$, so by Lemma~\ref{lem:lin}(b) and (V1),
+$\tau_n(e,x')\equiv\tau_0\pmod{2^D}$ on $C$, and the set $F_0=\{f:(e,f)\text{ alive at }N\}=\{f:Q_f(x_0)\equiv\tau_0\ (2^D)\}$ is constant on $C$.
+The valuations $\ell_j=V_j-V_n$ ($n\le j<N$) of the coefficients of $Q_f$ take at least $r$ distinct values $<D$
+(they start at $0$ and strictly increase at each $j$ with $x+j+1$ even). Choosing one index per such value, the corresponding
+subset sums are pairwise distinct mod $2^D$ (the lowest-valuation difference term dominates), so every residue mod $2^D$ is hit by at most
+$2^{N-n-r}$ words $f$: $|F_0|\le2^{N-n-r}$. For $f\in F_0$, membership of $(e,f)$ in $P^{k,L}_N(x')$ requires
+$v(S^{[k-1]}_{(e,f)}(x'))\ge\theta_N$. Expanding at $x_0$ with $h=2^mw$ (Lemma~\ref{lem:val}(f)):
+\[ S^{[k-1]}_{(e,f)}(x')=A_f+h\,kS^{[k]}_e(x_0)+h\textstyle\sum_jf_j\,k\pi^{[k]}_j(x_0)+O(h^2), \]
+with $A_f\in\Z_2$ independent of $w$; the last two terms have valuation $\ge\min(2m-k\mu_N,2m)\ge\theta_N$ by Lemma~\ref{lem:val}(e) and (V2).
+With $\gamma=kS^{[k]}_e(x_0)$, $v(\gamma)=v(kS^{[k]}_e(x))\le L$ (as $L<m$), the set of $w\in\Z_2$ with $A_f+2^m\gamma w\equiv0\pmod{2^{\theta_N}}$
+has measure $\le 2^{m+L-\theta_N}$ (empty or one coset of $2^{\theta_N-m-v(\gamma)}\Z_2$; trivial if $\theta_N\le m+v(\gamma)$).
+Sum over $f\in F_0$.
+\end{proof}
+
+\section{Proof of Theorem \ref{thm:main}}
+By Lemmas~\ref{lem:mult} and \ref{lem:inpop}, $K_2\cap\Omega\subseteq\bigcup_{k\ge1,\,L\ge0}K^{k,L}$, where $K^{k,L}$ is the set of
+$x\in\Omega$ having an infinite $e$ with $F_e(x)=0$ of multiplicity $k$ and $v(kF^{[k]}_e(x))\le L$; for such $x$,
+$e|_n\in P^{k,L}_n(x)$ for all large $n$. We show $\mu(K^{k,L})=0$.
+
+\medskip\noindent\textbf{Digit filtration.} The window sequences $(n_\ell)_{\ell\ge0}$ below start at a fixed $n_0\ge4$ and are defined
+recursively so that $n_0,\dots,n_\ell$ are functions of the numbers $\min(v(x+i),\mu_{n_{\ell-1}}+1)$, $i\le n_\ell$. Put $m_\ell=V_{n_\ell}(x)$
+and $A_\ell(x)=x+2^{m_\ell(x)}\Z_2$. Since $x$ is even and $n_\ell\ge4$, at least two of $x+1,\dots,x+n_\ell$ are even, so
+$m_\ell\ge\mu_{n_\ell}+1$; hence every $y\in A_\ell(x)$ has $v(y+i)=v(x+i)$ for $i\le n_\ell$, so $n_0,\dots,n_\ell$ and $m_\ell$ are the same
+for $y$ as for $x$, and $\{A_\ell(x)\}$ is a partition of $2\Z_2$ into cylinders. Let $\mathcal C_\ell$ denote the hypotheses of the
+relevant window proposition for the window $[n_\ell,n_{\ell+1})$ together with $\mu_{n_{\ell+1}}<m_\ell$; by Lemma~\ref{lem:lin}(a) its truth
+is constant on $A_\ell(x)$, and on $\mathcal C_\ell$ the partition $\{A_{\ell+1}\}$ refines $\{A_\ell\}$. For each $j$ let
+$(\mathcal G^{(j)}_\ell)_{\ell\ge j}$ be the $\sigma$-algebras with atoms $A_\ell(x)$, frozen ($A_{\ell+1}:=A_\ell$) from the first
+$\ell\ge j$ at which $\mathcal C_\ell$ fails; this is a filtration. Conditional expectation given $\mathcal G^{(j)}_\ell$ is the average over the atom,
+and the conditional law of the digits of $x$ above position $m_\ell$ is Haar --- this is the only randomness used.
+We write $\mathcal G_\ell$ for $\mathcal G^{(j)}_\ell$ when $j$ is fixed.
+
+\medskip\noindent\textbf{Case $k=1$ (critical; a quenched martingale).} Fix $L$ and $n_0\ge8L+16$. Let
+$\nu_\ell=\min\{N>n_\ell:\ v(x+N)>\mu_{n_\ell}\}$ (next record) and
+\[ n_{\ell+1}=\min\big(\max(\nu_\ell,\,n_\ell+2L+2),\ \lfloor5n_\ell/4\rfloor\big), \]
+so (W1) holds automatically. $\mathcal C_\ell$ = (W2), (W3) and $\mu_{n_{\ell+1}}<m_\ell$. For $j\ge0$ and $\ell\ge j$ let
+\[ M_\ell=2^{-W_{n_\ell}}\sum_{e\in P^{1,L}_{n_\ell}}\rho^{(\ell)}(e),\qquad\rho^{(\ell)}(e)=2^{\lambda_e}a^{(\lambda_e)}_{n_\ell}(\tau_{n_\ell}(e,x)), \]
+frozen after the first failure $\sigma_j=\min\{\ell\ge j:\mathcal C_\ell\text{ fails}\}$, i.e.\ $M_\ell:=M_{\sigma_j}$ for $\ell\ge\sigma_j$
+(and $M_\ell:=0$ for all $\ell\ge j$ on the $\mathcal G_j$-measurable event $\{\sigma_j=j\}$). $M_\ell$ is $\mathcal G_\ell$-measurable
+(Lemma~\ref{lem:lin}(a), and Lemma~\ref{lem:lin}(b) at time $n_\ell$, which applies because $\lambda_e\le L\le m_\ell-\mu_{n_\ell}$: for $\ell=j$ by (W2),
+for $\ell>j$ by (W3) of the previous window, $L<m_{\ell-1}-\mu_{n_\ell}\le m_\ell-\mu_{n_\ell}$).
+
+\emph{Martingale.} On $\{\sigma_j>\ell\}$, by Proposition~\ref{prop:window1}(i) $P^{1,L}_{n_{\ell+1}}$ is the disjoint union over
+$e\in P^{1,L}_{n_\ell}$ of the children of $e$, each with slope $\lambda_e$; the weight of a child in state $s$ is $2^{\lambda_e}a^{(\lambda_e)}_{n_{\ell+1}}(s)$,
+which is constant on the atom (it depends on $n_{\ell+1}$ and $x\bmod2^{\lambda_e}$, $\lambda_e<m_\ell$). By Proposition~\ref{prop:window1}(iii),
+\[ \E[M_{\ell+1}\mid\mathcal G_\ell]=2^{-W_{n_{\ell+1}}}\sum_{e}\sum_{s}2^{W_{n_{\ell+1}}-W_{n_\ell}}a^{(\lambda_e)}_{n_\ell}(s_e)\,
+2^{\lambda_e}a^{(\lambda_e)}_{n_{\ell+1}}(s)=M_\ell, \]
+using $\sum_sa_{n_{\ell+1}}(s)=1$. So $(M_\ell)_{\ell\ge j}$ is a nonnegative martingale. (In transfer-operator language: on frozen
+residue states $s\in\Z/2^\lambda$ the window operator is the rank-one matrix $2^{W_{n_{\ell+1}}-W_{n_\ell}}a_{n_\ell}\otimes\mathbf 1$, and
+$\rho=2^\lambda a$ is its harmonic weight.)
+
+\emph{Lower bound on survival.} On $\{\sigma_j>\ell\}$, if $P^{1,L}_{n_{\ell+1}}\neq\emptyset$ then some $e\in P^{1,L}_{n_\ell}$ has a child, so
+$\rho^{(\ell)}(e)>0$, hence $\rho^{(\ell)}(e)\ge2^{-L}$ and $M_\ell\ge2^{-W_{n_\ell}-L}$.
+
+\emph{The environment walk is unbounded below.} Let $x\in\Omega$, $K$ with $N_K>n_j$, and $\ell$ the last index with $n_\ell<N_K$. All $v(x+i)$,
+$i\le n_\ell$, are $<K\le v(x+N_K)$, so $\nu_\ell\le N_K$ and $N_K\le n_{\ell+1}\le N_K+2L+2$. Since $W_{N+\delta}\le W_N+\delta$,
+Lemma~\ref{lem:val}(d) gives $W_{n_{\ell+1}}\le3+2L-s(x\bmod2^K)\to-\infty$ as $K\to\infty$ by (G1).
+
+\emph{Conclusion.} On $E_j=\{\sigma_j=\infty\}\cap\{P^{1,L}_{n_\ell}\ne\emptyset\ \forall\ell\ge j\}\cap\Omega$ we get $\sup_\ell M_\ell=\infty$.
+On each atom $A$ of $\mathcal G_j$ (a cylinder, with normalised Haar measure $\mu_A$) $(M_\ell)_{\ell\ge j}$ is a nonnegative martingale
+with constant initial value $M_j(A)<\infty$, so Doob's maximal inequality gives $\mu_A(\sup_{\ell\ge j}M_\ell\ge t)\le M_j(A)/t$ for all $t>0$;
+hence $\mu_A(\sup_\ell M_\ell=\infty)=0$ for every atom, and $\mu(E_j)=0$. On $\Omega$ all hypotheses
+hold for large $\ell$: with $\mu_n\le2\log_2n$, Lemma~\ref{lem:val}(a),(b) give $m_\ell\ge n_\ell-\log_2n_\ell-1$ and
+$D_\ell\le n_\ell/4+3\log_2n_\ell+2$, so (W2), (W3), $\mu_{n_{\ell+1}}<m_\ell$ hold once $n_\ell$ is large. Hence every $x\in K^{1,L}$
+lies in $E_j$ for all large $j$, and $\mu(K^{1,L})\le\sum_j\mu(E_j)=0$.
+
+\medskip\noindent\textbf{Case $k\ge2$ (subcritical).} Fix $k,L$, a large $n_0$, and $n_{\ell+1}=\lfloor5n_\ell/4\rfloor$;
+$\mathcal C_\ell$ = (V1)--(V4), monotonicity of $\theta$ on $[n_\ell,n_{\ell+1}]$, $\mu_{n_{\ell+1}}<m_\ell$, and
+$\eta_\ell:=n_{\ell+1}-n_\ell-r_\ell+L+m_\ell-\theta_{n_{\ell+1}}\le-n_\ell/16$. Let $Z_\ell=|P^{k,L}_{n_\ell}|$. By
+Proposition~\ref{prop:window2}, on $\mathcal C_\ell$: $\E[Z_{\ell+1}\mid\mathcal G_\ell]\le2^{\eta_\ell}Z_\ell\le2^{-n_\ell/16}Z_\ell$. Hence
+$\mu(Z_\ell\ge1\ \forall\ell\ge j,\ \mathcal C_\ell\ \forall\ell\ge j\mid\mathcal G_j)\le Z_j\prod_{\ell\ge j}2^{-n_\ell/16}=0$.
+On $\Omega$: $m\le n+\mu_n$, $r\ge(N-n)/2-1$ and $\theta_N=N-(2k+1)\log_2N$ give
+$\eta_\ell\le-(N-n)/2+1+L+\mu_n+(2k+1)\log_2N\le-n/16$ for large $n=n_\ell$ ($N-n\ge n/4-1$), and (V1)--(V4) hold for large $n$
+(e.g.\ (V1): $D\le n/4+3\log_2n+2\le\theta_n$; (V2): $\theta_N\le N\le 5n/4\le2(n-\log_2n-1)-2k\log_2(2n)$; (V3): $m-(k-1)\mu_N\ge n-\log_2n-1-2(k-1)\log_2(2n)\ge\theta_n$).
+By Lemma~\ref{lem:inpop}, $\mu(K^{k,L})=0$.
+
+\medskip
+Thus $\mu(K_2\cap\Omega)=0$ and $\mu(K_2)=0$. \qed
+
+\section{Remarks}
+\begin{enumerate}
+\item \emph{Where the randomness comes from.} The ``environment'' of the window $[n,N)$ (the valuations $v(x+i)$) is a function of
+$O(\log n)$ low digits of $x$, while the targets $\tau_n$ are randomised, affinely and with slope $2^{\lambda}$, by the digits of $x$
+at positions $V_n,\dots,V_n+D-1$, i.e.\ around position $n$. Conditioning on $x\bmod2^{V_n}$ (not on $x\bmod 2^{O(\log n)}$) is what turns the
+heuristic branching process in random environment of [N, H1/T4] into an exact quenched martingale; no equidistribution of unit parts is needed.
+The critical walk is $W_n=n-V_n$ (for natural $x$, $W_n=s(n)-c(x,n)$ with $c$ the number of carries in $x+n$); it is bounded above by $\log_2 n+1$ and tends to $-\infty$ along record times.
+\item \emph{Halving lemmas.} The slope $\lambda_e$ is the number of frozen low bits of $\tau_n$; the proofs of [N, Thm.~3.7(a),(b)] show
+$\lambda_e\ge1$, resp.\ $\ge3$ for $x\equiv2\pmod4$, for alive paths (when $v(x+2)$ is small compared with $V_n$). In our data
+(about $22{,}000$ alive paths from $700$ random $x$ with a nonempty population at $n\in\{40,80\}$; \texttt{lam\_stats.py}) the slopes were $1,3,4,5,\dots$ and never $2$ [empirical]. The halving lemmas are not used in the proof.
+\item \emph{Odd $p$.} Proposition~\ref{prop:window1} and its proof go through verbatim for odd $p$ (truncation at $p\lambda$ terms, weights
+$p^\lambda a$), giving the martingale $2^{-n_\ell}p^{V_{n_\ell}}\sum\rho$. There the mean grows exponentially (supercritical), so no
+extinction follows; an $L^2$ bound for this martingale would give $\mu(K_p)>0$ ([N, Conj.~5.2]). Not attempted here.
+\item \emph{No rate.} The argument is qualitative: it gives $\delta_G(2)\to0$ but no explicit rate (numerically $\delta_G\approx0.7/\sqrt G$, the
+Kozlov rate for critical BPRE).
+\end{enumerate}
+
+\section{Computational verification (not needed for the proof)}
+\begin{itemize}
+\item \texttt{mart\_check2.py}: for random $x$ (200--400 random bits), windows $(n,N)=(30,36),(40,46),(50,58),(70,77)$, every parent with
+$\lambda_e\le D$, exhaustive average over $w\bmod2^D$ ($D\le12$) of $\sum_{\text{children}}\rho_N$; compared with $2^{W_N-W_n}\rho_n(e)$ in exact rationals.
+Also checks slope inheritance, constancy of the parent set and of $\tau_n\bmod 2^\lambda$ on the cylinder, and equidistribution of children's states.
+Result: $1472/1472$ exact identities, no inheritance or measurability failure (\texttt{logs/mc2\_*.log}).
+\item \texttt{brute\_window.py} (shares no code): children found by testing $2^{V_N}\mid S_{(e,f)}(x_w)$ for \emph{all} $f$ and all $w$;
+$\lambda,\tau,\rho$ from direct polynomial evaluation. Result: $510/510$ exact (\texttt{logs/brute\_*.log}).
+\item \texttt{negctrl.py}: replacing $\rho$ by $1$ breaks the identity for $215$ of $242$ parents with $\lambda\ge2$, so the check is not vacuous.
+\item \texttt{lemmaB\_check.py}: for parents with $\lambda_e\ge D$ the set of alive children is constant on the cylinder ($480$ samples), and the
+distinct-level bound holds.
+\item \texttt{sim\_mart.py}: Monte Carlo illustration of $M_\ell$ and of extinction along windows (heuristic only).
+\end{itemize}
+\end{document}

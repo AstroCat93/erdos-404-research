@@ -1,0 +1,26 @@
+inst 1: m=22 D=8 parents=14 lams=[3] ok so far 14/14
+inst 2: m=25 D=6 parents=14 lams=[6] ok so far 28/28
+inst 3: m=23 D=7 parents=10 lams=[3] ok so far 38/38
+inst 4: m=24 D=6 parents=8 lams=[4] ok so far 46/46
+inst 5: m=24 D=6 parents=20 lams=[5] ok so far 66/66
+inst 6: m=25 D=6 parents=8 lams=[4] ok so far 74/74
+inst 7: m=25 D=6 parents=10 lams=[6] ok so far 84/84
+inst 8: m=23 D=7 parents=8 lams=[3] ok so far 92/92
+inst 9: m=24 D=7 parents=22 lams=[3] ok so far 114/114
+inst 10: m=22 D=4 parents=3 lams=[1] ok so far 117/117
+inst 11: m=24 D=7 parents=18 lams=[3] ok so far 135/135
+inst 12: m=24 D=6 parents=4 lams=[5] ok so far 139/139
+inst 13: m=22 D=8 parents=14 lams=[3] ok so far 153/153
+inst 14: m=24 D=6 parents=6 lams=[5] ok so far 159/159
+inst 15: m=22 D=4 parents=2 lams=[1] ok so far 161/161
+inst 16: m=23 D=7 parents=2 lams=[3] ok so far 163/163
+inst 17: m=24 D=6 parents=12 lams=[4] ok so far 175/175
+inst 18: m=22 D=4 parents=1 lams=[1] ok so far 176/176
+inst 19: m=22 D=8 parents=12 lams=[3] ok so far 188/188
+inst 20: m=24 D=6 parents=30 lams=[4] ok so far 218/218
+inst 21: m=23 D=4 parents=9 lams=[1] ok so far 227/227
+inst 22: m=24 D=6 parents=8 lams=[5] ok so far 235/235
+inst 23: m=26 D=4 parents=2 lams=[1] ok so far 237/237
+inst 24: m=23 D=7 parents=6 lams=[3] ok so far 243/243
+inst 25: m=24 D=7 parents=10 lams=[3] ok so far 253/253
+BRUTE-FORCE TOTAL exact identities: 253/253

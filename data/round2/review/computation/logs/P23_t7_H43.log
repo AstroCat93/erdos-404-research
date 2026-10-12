@@ -1,0 +1,24 @@
+# covchk(C) p=23 t=7 H=43 c=1 M=8 k=1 F=3404825447 nK=22
+C p=23 t=7 H=43 M=8 K=1 Kmodpc=1 miss=0 COVERED 12.61s
+C p=23 t=7 H=43 M=8 K=2 Kmodpc=2 miss=0 COVERED 12.08s
+C p=23 t=7 H=43 M=8 K=3 Kmodpc=3 miss=0 COVERED 12.55s
+C p=23 t=7 H=43 M=8 K=4 Kmodpc=4 miss=0 COVERED 12.19s
+C p=23 t=7 H=43 M=8 K=5 Kmodpc=5 miss=0 COVERED 12.28s
+C p=23 t=7 H=43 M=8 K=6 Kmodpc=6 miss=0 COVERED 12.70s
+C p=23 t=7 H=43 M=8 K=7 Kmodpc=7 miss=0 COVERED 12.22s
+C p=23 t=7 H=43 M=8 K=8 Kmodpc=8 miss=0 COVERED 12.05s
+C p=23 t=7 H=43 M=8 K=9 Kmodpc=9 miss=0 COVERED 12.24s
+C p=23 t=7 H=43 M=8 K=10 Kmodpc=10 miss=0 COVERED 12.36s
+C p=23 t=7 H=43 M=8 K=11 Kmodpc=11 miss=0 COVERED 13.33s
+C p=23 t=7 H=43 M=8 K=12 Kmodpc=12 miss=0 COVERED 12.12s
+C p=23 t=7 H=43 M=8 K=13 Kmodpc=13 miss=0 COVERED 10.86s
+C p=23 t=7 H=43 M=8 K=14 Kmodpc=14 miss=0 COVERED 9.97s
+C p=23 t=7 H=43 M=8 K=15 Kmodpc=15 miss=0 COVERED 10.50s
+C p=23 t=7 H=43 M=8 K=16 Kmodpc=16 miss=0 COVERED 10.13s
+C p=23 t=7 H=43 M=8 K=17 Kmodpc=17 miss=0 COVERED 9.95s
+C p=23 t=7 H=43 M=8 K=18 Kmodpc=18 miss=0 COVERED 11.45s
+C p=23 t=7 H=43 M=8 K=19 Kmodpc=19 miss=0 COVERED 11.62s
+C p=23 t=7 H=43 M=8 K=20 Kmodpc=20 miss=0 COVERED 11.64s
+C p=23 t=7 H=43 M=8 K=21 Kmodpc=21 miss=0 COVERED 11.74s
+C p=23 t=7 H=43 M=8 K=22 Kmodpc=22 miss=0 COVERED 11.69s
+END C p=23 t=7 H=43 nK=22 bad=0 ALL_COVERED 258.3s

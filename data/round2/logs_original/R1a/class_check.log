@@ -1,0 +1,40 @@
+  C0 = 0 mod 8 s=3 samples=512 avg N_8=1.000000 P=7
+  C0 = 0 mod 8 s=4 samples=512 avg N_8=0.500000 P=8
+  C0 = 0 mod 8 s=5 samples=512 avg N_8=0.250000 P=9
+  C0 = 0 mod 8 s=6 samples=512 avg N_8=0.000000 P=10
+  C0 = 0 mod 8 s=7 samples=512 avg N_8=0.250000 P=11
+  C0 = 0 mod 8 s=8 samples=512 avg N_8=0.000000 P=12
+C0 = 0 mod 8: R=10 kappa values seen [1] (expected 1), unstable paths: 0, I_8 = 0.0625
+  C2 = 2 mod 8 s=3 samples=512 avg N_12=8.000000 P=10
+  C2 = 2 mod 8 s=4 samples=512 avg N_12=0.000000 P=11
+  C2 = 2 mod 8 s=5 samples=512 avg N_12=0.000000 P=12
+  C2 = 2 mod 8 s=6 samples=512 avg N_12=0.000000 P=13
+C2 = 2 mod 8: R=10 kappa values seen [3] (expected 3), unstable paths: 0, I_12 = 0.125
+  C6 = 6 mod 16 s=4 samples=512 avg N_10=1.000000 P=11
+  C6 = 6 mod 16 s=5 samples=512 avg N_10=0.625000 P=12
+  C6 = 6 mod 16 s=6 samples=512 avg N_10=0.375000 P=13
+  C6 = 6 mod 16 s=7 samples=512 avg N_10=0.000000 P=14
+  C6 = 6 mod 16 s=8 samples=512 avg N_10=0.000000 P=15
+  C6 = 6 mod 16 s=9 samples=512 avg N_10=0.000000 P=16
+  C6 = 6 mod 16 s=10 samples=512 avg N_10=0.000000 P=17
+C6 = 6 mod 16: R=10 kappa values seen [3] (expected 3), unstable paths: 0, I_10 = 0.125
+  C0 = 0 mod 8 s=3 samples=2048 avg N_8=1.000000 P=7
+  C0 = 0 mod 8 s=4 samples=2048 avg N_8=0.500000 P=8
+  C0 = 0 mod 8 s=5 samples=2048 avg N_8=0.250000 P=9
+  C0 = 0 mod 8 s=6 samples=2048 avg N_8=0.000000 P=10
+  C0 = 0 mod 8 s=7 samples=2048 avg N_8=0.250000 P=11
+  C0 = 0 mod 8 s=8 samples=2048 avg N_8=0.000000 P=12
+C0 = 0 mod 8: R=12 kappa values seen [1] (expected 1), unstable paths: 0, I_8 = 0.0625
+  C2 = 2 mod 8 s=3 samples=2048 avg N_12=8.000000 P=10
+  C2 = 2 mod 8 s=4 samples=2048 avg N_12=0.000000 P=11
+  C2 = 2 mod 8 s=5 samples=2048 avg N_12=0.000000 P=12
+  C2 = 2 mod 8 s=6 samples=2048 avg N_12=0.000000 P=13
+C2 = 2 mod 8: R=12 kappa values seen [3] (expected 3), unstable paths: 0, I_12 = 0.125
+  C6 = 6 mod 16 s=4 samples=2048 avg N_10=1.000000 P=11
+  C6 = 6 mod 16 s=5 samples=2048 avg N_10=0.625000 P=12
+  C6 = 6 mod 16 s=6 samples=2048 avg N_10=0.375000 P=13
+  C6 = 6 mod 16 s=7 samples=2048 avg N_10=0.000000 P=14
+  C6 = 6 mod 16 s=8 samples=2048 avg N_10=0.000000 P=15
+  C6 = 6 mod 16 s=9 samples=2048 avg N_10=0.000000 P=16
+  C6 = 6 mod 16 s=10 samples=2048 avg N_10=0.000000 P=17
+C6 = 6 mod 16: R=12 kappa values seen [3] (expected 3), unstable paths: 0, I_10 = 0.125

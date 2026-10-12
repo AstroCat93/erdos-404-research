@@ -1,0 +1,226 @@
+R*=     0.63  R0=      1.25  p=11 t=6 H=28  FAILS
+R*=     0.85  R0=      1.43  p=19 t=5 H=26  FAILS
+R*=     0.85  R0=      2.23  p= 7 t=4 H=18  FAILS
+R*=     1.01  R0=      1.27  p= 7 t=5 H=20  FAILS
+R*=     1.01  R0=      1.01  p=19 t=4 H=17  FAILS
+R*=     1.09  R0=      1.18  p=11 t=5 H=21  FAILS
+R*=     1.13  R0=       1.2  p=19 t=6 H=30  FAILS
+R*=     1.19  R0=      1.19  p=19 t=3 H=13  FAILS
+R*=     1.20  R0=      1.39  p=17 t=5 H=25  FAILS
+R*=     1.29  R0=      1.31  p=17 t=6 H=29  FAILS
+R*=     1.35  R0=      1.66  p= 7 t=6 H=26  FAILS
+R*=     1.40  R0=      1.63  p=11 t=4 H=18  FAILS
+R*=     1.49  R0=      1.71  p= 7 t=3 H=12  FAILS
+R*=     1.54  R0=      1.54  p=11 t=3 H=11  FAILS
+R*=     1.54  R0=      4.48  p=11 t=3 H=16  FAILS
+R*=     1.57  R0=      1.57  p=17 t=4 H=17  FAILS
+R*=     1.57  R0=      2.95  p=17 t=4 H=22  FAILS
+R*=     1.67  R0=      1.67  p=17 t=3 H=13  FAILS
+R*=     1.91  R0=      2.85  p=19 t=5 H=27  FAILS
+R*=     2.01  R0=      2.01  p=19 t=4 H=18  FAILS
+R*=     2.10  R0=      2.55  p= 7 t=5 H=21  FAILS
+R*=     2.10  R0=      5.82  p= 7 t=5 H=25  FAILS
+R*=     2.11  R0=       2.5  p=11 t=6 H=29  FAILS
+R*=     2.24  R0=      2.37  p=11 t=5 H=22  FAILS
+R*=     2.24  R0=      6.89  p=11 t=5 H=27  FAILS
+R*=     2.32  R0=       2.4  p=19 t=6 H=31  FAILS
+R*=     2.39  R0=      2.39  p=19 t=3 H=14  FAILS
+R*=     2.58  R0=      2.78  p=17 t=5 H=26  FAILS
+R*=     2.61  R0=      2.62  p=17 t=6 H=30  FAILS
+R*=     2.72  R0=      3.33  p= 7 t=6 H=27  FAILS
+R*=     2.80  R0=      3.26  p=11 t=4 H=19  FAILS
+R*=     2.99  R0=      3.41  p= 7 t=3 H=13  FAILS
+R*=     3.14  R0=      5.91  p=17 t=4 H=23  FAILS
+R*=     3.33  R0=      3.33  p=17 t=3 H=14  FAILS
+R*=     3.52  R0=      4.46  p= 7 t=4 H=19  FAILS
+R*=     4.02  R0=      4.02  p=19 t=4 H=19  FAILS
+R*=     4.02  R0=      6.78  p=19 t=4 H=24  FAILS
+R*=     4.22  R0=      5.01  p=11 t=6 H=30  FAILS
+R*=     4.23  R0=      5.71  p=19 t=5 H=28  FAILS
+R*=     4.62  R0=      8.95  p=11 t=3 H=17  FAILS
+R*=     4.77  R0=       4.8  p=19 t=6 H=32  FAILS
+R*=     4.78  R0=      4.78  p=19 t=3 H=15  FAILS
+R*=     5.22  R0=      5.23  p=17 t=6 H=31  FAILS
+R*=     5.35  R0=      5.56  p=17 t=5 H=27  FAILS
+R*=     5.64  R0=      6.65  p= 7 t=6 H=28  FAILS
+R*=     5.64  R0=      15.2  p= 7 t=6 H=32  FAILS
+R*=     5.88  R0=      6.51  p=11 t=4 H=20  FAILS
+R*=     5.97  R0=      6.82  p= 7 t=3 H=14  FAILS
+R*=     5.97  R0=      15.6  p= 7 t=3 H=18  FAILS
+R*=     6.67  R0=      6.67  p=17 t=3 H=15  FAILS
+R*=     6.89  R0=      13.8  p=11 t=5 H=28  FAILS
+R*=     7.04  R0=      8.91  p= 7 t=4 H=20  FAILS
+R*=     8.05  R0=      13.6  p=19 t=4 H=25  FAILS
+R*=     8.91  R0=        10  p=11 t=6 H=31  FAILS
+R*=     9.42  R0=      11.8  p=17 t=4 H=24  FAILS
+R*=     9.48  R0=      11.6  p= 7 t=5 H=26  FAILS
+R*=     9.55  R0=      9.61  p=19 t=6 H=33  FAILS
+R*=     9.55  R0=      9.55  p=19 t=3 H=16  FAILS
+R*=     9.74  R0=      11.4  p=19 t=5 H=29  FAILS
+R*=    10.29  R0=      21.2  p=11 t=7 H=39  FAILS@K1
+R*=    10.45  R0=      10.5  p=17 t=6 H=32  FAILS
+R*=    10.89  R0=      11.1  p=17 t=5 H=28  FAILS
+R*=    12.03  R0=        13  p=11 t=4 H=21  FAILS
+R*=    13.34  R0=      13.3  p=17 t=3 H=16  HOLDS
+R*=    14.71  R0=      17.8  p= 7 t=4 H=21  FAILS
+R*=    14.71  R0=      40.7  p= 7 t=4 H=25  FAILS
+R*=    15.39  R0=      17.9  p=11 t=3 H=18  HOLDS
+R*=    15.85  R0=      19.6  p=13 t=8 H=45  FAILS@K1
+R*=    16.09  R0=      27.1  p=19 t=4 H=26  FAILS
+R*=    18.33  R0=        20  p=11 t=6 H=32  FAILS
+R*=    19.06  R0=      23.3  p= 7 t=5 H=27  FAILS
+R*=    19.11  R0=      19.1  p=19 t=3 H=17  HOLDS
+R*=    19.12  R0=      19.2  p=19 t=6 H=34  FAILS
+R*=    20.40  R0=      23.6  p=17 t=4 H=25  HOLDS
+R*=    20.91  R0=      20.9  p=17 t=6 H=33  FAILS
+R*=    21.39  R0=      22.8  p=19 t=5 H=30  FAILS
+R*=    21.97  R0=      22.2  p=17 t=5 H=29  FAILS
+R*=    23.15  R0=      30.4  p= 7 t=6 H=33  FAILS
+R*=    23.16  R0=      27.5  p=11 t=5 H=29  FAILS
+R*=    23.91  R0=       141  p= 5 t=5 H=35  FAILS
+R*=    24.62  R0=        26  p=11 t=4 H=22  HOLDS
+R*=    24.62  R0=      75.8  p=11 t=4 H=27  HOLDS
+R*=    24.63  R0=      31.2  p= 7 t=3 H=19  HOLDS
+R*=    25.67  R0=      25.9  p=13 t=7 H=38  FAILS
+R*=    26.68  R0=      26.7  p=17 t=3 H=17  HOLDS
+R*=    26.68  R0=      50.2  p=17 t=3 H=22  HOLDS
+R*=    26.84  R0=       225  p= 5 t=5 H=38  FAILS
+R*=    30.77  R0=      35.8  p=11 t=3 H=19  HOLDS
+R*=    31.84  R0=      39.3  p=13 t=8 H=46  FAILS@K1
+R*=    35.25  R0=      42.4  p=11 t=7 H=40  FAILS@K37(1/110pos)
+R*=    36.21  R0=      54.2  p=19 t=4 H=27  HOLDS
+R*=    37.51  R0=      40.1  p=11 t=6 H=33  HOLDS
+R*=    38.22  R0=      38.2  p=19 t=3 H=18  HOLDS
+R*=    38.32  R0=      38.4  p=19 t=6 H=35  HOLDS
+R*=    39.47  R0=      46.6  p= 7 t=5 H=28  HOLDS
+R*=    39.47  R0=       106  p= 7 t=5 H=32  HOLDS
+R*=    41.82  R0=      41.9  p=17 t=6 H=34  HOLDS
+R*=    41.82  R0=      78.8  p=17 t=6 H=39  HOLDS
+R*=    43.94  R0=      47.3  p=17 t=4 H=26  HOLDS
+R*=    44.04  R0=      45.6  p=19 t=5 H=31  HOLDS
+R*=    44.31  R0=      44.5  p=17 t=5 H=30  HOLDS
+R*=    46.42  R0=      55.1  p=11 t=5 H=30  HOLDS
+R*=    48.84  R0=      60.8  p= 7 t=6 H=34  HOLDS
+R*=    49.26  R0=      62.4  p= 7 t=3 H=20  HOLDS
+R*=    51.50  R0=      51.8  p=13 t=7 H=39  HOLDS
+R*=    53.36  R0=       100  p=17 t=3 H=23  HOLDS
+R*=    64.63  R0=      71.6  p=11 t=3 H=20  HOLDS
+R*=    64.71  R0=       109  p=19 t=7 H=45  HOLDS@18pos
+R*=    66.37  R0=      81.5  p= 7 t=4 H=26  HOLDS
+R*=    68.95  R0=      74.2  p=17 t=7 H=43  HOLDS@16pos
+R*=    71.39  R0=      84.8  p=11 t=7 H=41  HOLDS@K37
+R*=    75.62  R0=      78.5  p=13 t=8 H=47  HOLDS@12pos
+R*=    75.82  R0=       152  p=11 t=4 H=28  HOLDS
+R*=    76.44  R0=      76.4  p=19 t=3 H=19  HOLDS
+R*=    76.44  R0=       129  p=19 t=3 H=24  HOLDS
+R*=    76.82  R0=      76.9  p=19 t=6 H=36  HOLDS
+R*=    80.46  R0=       108  p=19 t=4 H=28  HOLDS
+R*=    83.65  R0=       158  p=17 t=6 H=40  HOLDS
+R*=    88.81  R0=        89  p=17 t=5 H=31  HOLDS
+R*=    90.62  R0=      91.3  p=19 t=5 H=32  HOLDS
+R*=    91.02  R0=      94.5  p=17 t=4 H=27  HOLDS
+R*=    98.02  R0=       110  p=11 t=5 H=31  HOLDS
+R*=   101.49  R0=       122  p= 7 t=6 H=35  HOLDS
+R*=   103.00  R0=       125  p= 7 t=3 H=21  HOLDS
+R*=   103.00  R0=       285  p= 7 t=3 H=25  HOLDS
+R*=   112.74  R0=       450  p= 5 t=5 H=39  sample0/391
+R*=   132.33  R0=       143  p=11 t=3 H=21  HOLDS
+R*=   133.44  R0=       163  p= 7 t=4 H=27  HOLDS
+R*=   152.88  R0=       257  p=19 t=3 H=25  HOLDS
+R*=   153.66  R0=       154  p=19 t=6 H=37  HOLDS
+R*=   160.07  R0=       201  p=17 t=3 H=24  HOLDS
+R*=   162.04  R0=       213  p= 7 t=5 H=33  HOLDS
+R*=   177.70  R0=       178  p=17 t=5 H=32  HOLDS
+R*=   181.46  R0=       183  p=19 t=5 H=33  HOLDS
+R*=   185.06  R0=       217  p=19 t=4 H=29  HOLDS
+R*=   185.18  R0=       189  p=17 t=4 H=28  HOLDS
+R*=   201.63  R0=       220  p=11 t=5 H=32  HOLDS
+R*=   254.72  R0=       303  p=11 t=4 H=29  HOLDS
+R*=   270.81  R0=       286  p=11 t=3 H=22  HOLDS
+R*=   270.81  R0=       833  p=11 t=3 H=27  HOLDS
+R*=   276.31  R0=       326  p= 7 t=4 H=28  HOLDS
+R*=   276.31  R0=       745  p= 7 t=4 H=32  HOLDS
+R*=   305.75  R0=       515  p=19 t=3 H=26  HOLDS
+R*=   307.38  R0=       308  p=19 t=6 H=38  HOLDS
+R*=   341.88  R0=       426  p= 7 t=5 H=34  HOLDS
+R*=   346.82  R0=       402  p=17 t=3 H=25  HOLDS
+R*=   355.50  R0=       356  p=17 t=5 H=33  HOLDS
+R*=   363.35  R0=       365  p=19 t=5 H=34  HOLDS
+R*=   373.50  R0=       378  p=17 t=4 H=29  HOLDS
+R*=   406.33  R0=       434  p=19 t=4 H=30  HOLDS
+R*=   412.60  R0=       441  p=11 t=5 H=33  HOLDS
+R*=   464.61  R0=       570  p= 7 t=3 H=26  HOLDS
+R*=   510.57  R0=       606  p=11 t=4 H=30  HOLDS
+R*=   687.94  R0=  1.03e+03  p=19 t=3 H=27  HOLDS
+R*=   710.42  R0=       851  p= 7 t=5 H=35  HOLDS
+R*=   711.00  R0=       712  p=17 t=5 H=34  HOLDS
+R*=   711.00  R0=  1.34e+03  p=17 t=5 H=39  HOLDS
+R*=   728.17  R0=       730  p=19 t=5 H=35  HOLDS
+R*=   747.00  R0=       803  p=17 t=3 H=26  HOLDS
+R*=   753.28  R0=       756  p=17 t=4 H=30  HOLDS
+R*=   833.97  R0=  1.67e+03  p=11 t=3 H=28  HOLDS
+R*=   836.79  R0=       867  p=19 t=4 H=31  HOLDS
+R*=   934.06  R0=  1.14e+03  p= 7 t=3 H=27  HOLDS
+R*=  1078.20  R0=  1.21e+03  p=11 t=4 H=31  HOLDS
+R*=  1134.30  R0=  1.49e+03  p= 7 t=4 H=33  HOLDS
+R*=  1422.09  R0=  2.68e+03  p=17 t=5 H=40  HOLDS
+R*=  1459.52  R0=  1.46e+03  p=19 t=5 H=36  HOLDS
+R*=  1509.70  R0=  1.51e+03  p=17 t=4 H=31  HOLDS
+R*=  1528.76  R0=  2.06e+03  p=19 t=3 H=28  HOLDS
+R*=  1547.36  R0=  1.61e+03  p=17 t=3 H=27  HOLDS
+R*=  1721.87  R0=  1.73e+03  p=19 t=4 H=32  HOLDS
+R*=  1934.18  R0=  2.28e+03  p= 7 t=3 H=28  HOLDS
+R*=  1972.08  R0=  5.22e+03  p= 7 t=3 H=32  HOLDS
+R*=  2217.96  R0=  2.42e+03  p=11 t=4 H=32  HOLDS
+R*=  2393.19  R0=  2.98e+03  p= 7 t=4 H=34  HOLDS
+R*=  2801.96  R0=  3.33e+03  p=11 t=3 H=29  HOLDS
+R*=  2919.46  R0=  2.92e+03  p=19 t=5 H=37  HOLDS
+R*=  3020.96  R0=  3.02e+03  p=17 t=4 H=32  HOLDS
+R*=  3148.08  R0=  3.21e+03  p=17 t=3 H=28  HOLDS
+R*=  3447.75  R0=  3.47e+03  p=19 t=4 H=33  HOLDS
+R*=  3516.15  R0=  4.12e+03  p=19 t=3 H=29  HOLDS
+R*=  4538.58  R0=  4.85e+03  p=11 t=4 H=33  HOLDS
+R*=  4972.91  R0=  5.96e+03  p= 7 t=4 H=35  HOLDS
+R*=  5616.23  R0=  6.67e+03  p=11 t=3 H=30  HOLDS
+R*=  5840.20  R0=  5.84e+03  p=19 t=5 H=38  HOLDS
+R*=  5840.20  R0=  9.84e+03  p=19 t=5 H=43  HOLDS
+R*=  6043.49  R0=  6.05e+03  p=17 t=4 H=33  HOLDS
+R*=  6349.51  R0=  6.43e+03  p=17 t=3 H=29  HOLDS
+R*=  6903.56  R0=  6.94e+03  p=19 t=4 H=34  HOLDS
+R*=  7720.23  R0=  8.24e+03  p=19 t=3 H=30  HOLDS
+R*=  8038.46  R0=  1.04e+04  p= 7 t=3 H=33  HOLDS
+R*= 11680.40  R0=  1.97e+04  p=19 t=5 H=44  HOLDS
+R*= 11860.24  R0=  1.33e+04  p=11 t=3 H=31  HOLDS
+R*= 12086.98  R0=  1.21e+04  p=17 t=4 H=34  HOLDS
+R*= 12086.98  R0=  2.28e+04  p=17 t=4 H=39  HOLDS
+R*= 12805.73  R0=  1.29e+04  p=17 t=3 H=30  HOLDS
+R*= 13835.27  R0=  1.39e+04  p=19 t=4 H=35  HOLDS
+R*= 15899.10  R0=  1.65e+04  p=19 t=3 H=31  HOLDS
+R*= 16848.02  R0=  2.09e+04  p= 7 t=3 H=34  HOLDS
+R*= 23360.80  R0=  3.94e+04  p=19 t=5 H=45  HOLDS
+R*= 24175.53  R0=  4.56e+04  p=17 t=4 H=40  HOLDS
+R*= 24397.51  R0=  2.67e+04  p=11 t=3 H=32  HOLDS
+R*= 25664.82  R0=  2.57e+04  p=17 t=3 H=31  HOLDS
+R*= 27730.89  R0=  2.78e+04  p=19 t=4 H=36  HOLDS
+R*= 32715.45  R0=   3.3e+04  p=19 t=3 H=32  HOLDS
+R*= 34876.56  R0=  4.17e+04  p= 7 t=3 H=35  HOLDS
+R*= 49924.42  R0=  5.33e+04  p=11 t=3 H=33  HOLDS
+R*= 51356.32  R0=  5.14e+04  p=17 t=3 H=32  HOLDS
+R*= 55469.82  R0=  5.55e+04  p=19 t=4 H=37  HOLDS
+R*= 65507.34  R0=  6.59e+04  p=19 t=3 H=33  HOLDS
+R*=102739.32  R0=  1.03e+05  p=17 t=3 H=33  HOLDS
+R*=110963.79  R0=  1.11e+05  p=19 t=4 H=38  HOLDS
+R*=110963.79  R0=  1.87e+05  p=19 t=4 H=43  HOLDS
+R*=131167.55  R0=  1.32e+05  p=19 t=3 H=34  HOLDS
+R*=205478.64  R0=  2.06e+05  p=17 t=3 H=34  HOLDS
+R*=205478.64  R0=  3.87e+05  p=17 t=3 H=39  HOLDS
+R*=221927.57  R0=  3.74e+05  p=19 t=4 H=44  HOLDS
+R*=262870.16  R0=  2.64e+05  p=19 t=3 H=35  HOLDS
+R*=410983.95  R0=  7.74e+05  p=17 t=3 H=40  HOLDS
+R*=443855.15  R0=  7.48e+05  p=19 t=4 H=45  HOLDS
+R*=526886.89  R0=  5.27e+05  p=19 t=3 H=36  HOLDS
+R*=1053926.66  R0=  1.05e+06  p=19 t=3 H=37  HOLDS
+R*=2108311.94  R0=  2.11e+06  p=19 t=3 H=38  HOLDS
+R*=2108311.94  R0=  3.55e+06  p=19 t=3 H=43  HOLDS
+R*=4216623.89  R0=   7.1e+06  p=19 t=3 H=44  HOLDS
+R*=8433247.77  R0=  1.42e+07  p=19 t=3 H=45  HOLDS

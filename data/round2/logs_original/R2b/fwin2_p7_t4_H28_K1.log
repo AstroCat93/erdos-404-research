@@ -1,0 +1,8 @@
+p=7 t=4 H=28 K=1 c=3 k=0 M=7 split=0/1  L1=3.76731 L2=0.0249036  R1=2.65662 R2=0.00306793  maxF=0.0823662 at xi=117649 (v=6)
+   d=1  #xi=6  contributing=7  L1_d=0.203125  random=0.25428  ratio=0.799
+   d=2  #xi=42  contributing=14  L1_d=0.029115  random=0.0754347  ratio=0.386
+   d=3  #xi=294  contributing=21  L1_d=0.0363419  random=0.0223784  ratio=1.624
+   d=4  #xi=2058  contributing=28  L1_d=0.00393191  random=0.00663879  ratio=0.592
+   d=5  #xi=14406  contributing=28  L1_d=0.0311835  random=0.0464715  ratio=0.671
+   d=6  #xi=100842  contributing=28  L1_d=0.377174  random=0.325301  ratio=1.159
+   d=7  #xi=705894  contributing=28  L1_d=3.08643  random=2.2771  ratio=1.355

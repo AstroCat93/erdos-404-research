@@ -1,0 +1,20 @@
+# covchk(C) p=19 t=6 H=35 c=1 M=7 k=1 F=47045881 nK=18
+C p=19 t=6 H=35 M=7 K=39 Kmodpc=1 miss=0 COVERED 0.09s
+C p=19 t=6 H=35 M=7 K=40 Kmodpc=2 miss=0 COVERED 0.09s
+C p=19 t=6 H=35 M=7 K=41 Kmodpc=3 miss=0 COVERED 0.09s
+C p=19 t=6 H=35 M=7 K=42 Kmodpc=4 miss=0 COVERED 0.09s
+C p=19 t=6 H=35 M=7 K=43 Kmodpc=5 miss=0 COVERED 0.09s
+C p=19 t=6 H=35 M=7 K=44 Kmodpc=6 miss=0 COVERED 0.09s
+C p=19 t=6 H=35 M=7 K=45 Kmodpc=7 miss=0 COVERED 0.09s
+C p=19 t=6 H=35 M=7 K=46 Kmodpc=8 miss=0 COVERED 0.09s
+C p=19 t=6 H=35 M=7 K=47 Kmodpc=9 miss=0 COVERED 0.09s
+C p=19 t=6 H=35 M=7 K=48 Kmodpc=10 miss=0 COVERED 0.09s
+C p=19 t=6 H=35 M=7 K=49 Kmodpc=11 miss=0 COVERED 0.09s
+C p=19 t=6 H=35 M=7 K=50 Kmodpc=12 miss=0 COVERED 0.09s
+C p=19 t=6 H=35 M=7 K=51 Kmodpc=13 miss=0 COVERED 0.10s
+C p=19 t=6 H=35 M=7 K=52 Kmodpc=14 miss=0 COVERED 0.10s
+C p=19 t=6 H=35 M=7 K=53 Kmodpc=15 miss=0 COVERED 0.09s
+C p=19 t=6 H=35 M=7 K=54 Kmodpc=16 miss=0 COVERED 0.09s
+C p=19 t=6 H=35 M=7 K=55 Kmodpc=17 miss=0 COVERED 0.09s
+C p=19 t=6 H=35 M=7 K=56 Kmodpc=18 miss=0 COVERED 0.09s
+END C p=19 t=6 H=35 nK=18 bad=0 ALL_COVERED 1.7s

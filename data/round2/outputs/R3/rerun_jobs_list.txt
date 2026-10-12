@@ -1,0 +1,22 @@
+./bin/fibcov 13 8 47 3 pos 1 2 3 4 > ../outputs/R3/P13_t8_H47_A_1.log 2>&1
+./bin/fibcov 13 8 47 3 pos 5 6 7 8 > ../outputs/R3/P13_t8_H47_A_2.log 2>&1
+./bin/fibcov2 13 8 47 3 0 1 2 3 4 > ../outputs/R3/P13_t8_H47_B_1.log 2>&1
+./bin/fibcov 13 8 47 3 pos 9 10 11 12 > ../outputs/R3/P13_t8_H47_A_3.log 2>&1
+./bin/fibcov2 13 8 47 3 0 5 6 7 8 > ../outputs/R3/P13_t8_H47_B_2.log 2>&1
+./bin/fibcov2 13 8 47 3 0 9 10 11 12 > ../outputs/R3/P13_t8_H47_B_3.log 2>&1
+sh src/rerun_uniform.sh ../outputs/R3
+./bin/fibcov 11 7 40 2 pos 1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 17 18 19 20 21 23 24 25 26 27 28 29 30 31 32 34 35 36 38 39 40 41 42 43 45 46 47 48 49 50 51 52 53 54 56 57 58 59 60 61 62 63 64 65 67 68 69 70 71 72 73 74 75 76 78 79 80 81 82 83 84 85 86 87 89 90 91 92 93 94 95 96 97 98 100 101 102 103 104 105 106 107 108 109 111 112 113 114 115 116 117 118 119 120  > ../outputs/R3/P11_t7_H40_A.log 2>&1; ./bin/fibcov 11 7 41 2 pos 37 > ../outputs/R3/P11_t7_H41_K37_A.log 2>&1; FIBCOV_DUMP=5 ./bin/fibcov 11 7 40 2 pos 37 > ../outputs/R3/P11_t7_H40_K37_A_fail.log 2>&1; ./bin/fibcov 11 8 44 3 pos 1 2 3 4 5 6 7 8 9 10 > ../outputs/R3/P11_t8_H44_A.log 2>&1
+./bin/fibcov2 11 7 40 3 4 1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 17 18 19 20 21 23 24 25 26 27 28 29 30 31 32 34 35 36 38 39 40 41 42 43 45 46 47 48 49 50 51 52 53 54 56 57 58 59 60 61 62 63 64 65 67 68 69 70 71 72 73 74 75 76 78 79 80 81 82 83 84 85 86 87 89 90 91 92 93 94 95 96 97 98 100 101 102 103 104 105 106 107 108 109 111 112 113 114 115 116 117 118 119 120  > ../outputs/R3/P11_t7_H40_B.log 2>&1
+./bin/fibcov2 11 7 41 3 4 37 > ../outputs/R3/P11_t7_H41_K37_B.log 2>&1; ./bin/fibcov2 11 7 40 3 4 37 > ../outputs/R3/P11_t7_H40_K37_B_fail.log 2>&1; ./bin/fibcov2 11 8 44 2 8 1 2 3 4 5 6 7 8 9 10 > ../outputs/R3/P11_t8_H44_B.log 2>&1
+./bin/fibcov 7 7 40 3 pos 1 2 3 4 5 6 8 9 10 11 12 13 15 16 17 18 19 20 22 23 24 25 26 27 29 30 31 32 33 34 36 37 38 39 40 41 43 44 45 46 47 48 > ../outputs/R3/P7_t7_H40_A.log 2>&1; ./bin/fibcov2 7 7 40 2 6 1 2 3 4 5 6 8 9 10 11 12 13 15 16 17 18 19 20 22 23 24 25 26 27 29 30 31 32 33 34 36 37 38 39 40 41 43 44 45 46 47 48 > ../outputs/R3/P7_t7_H40_B.log 2>&1; ./bin/fibcov 7 8 47 4 pos 1 2 3 4 5 6 > ../outputs/R3/P7_t8_H47_A.log 2>&1
+./bin/fibcov2 7 8 47 3 6 1 2 3 4 5 6 > ../outputs/R3/P7_t8_H47_B.log 2>&1
+./bin/fibcov 19 7 45 2 pos 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 > ../outputs/R3/P19_t7_H45_A.log 2>&1
+./bin/fibcov2 19 7 45 2 6 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 > ../outputs/R3/P19_t7_H45_B.log 2>&1
+./bin/fibcov 23 7 43 1 pos 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 > ../outputs/R3/P23_t7_H43_A.log 2>&1; ./bin/fibcov2 23 7 43 1 8 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 > ../outputs/R3/P23_t7_H43_B.log 2>&1
+./bin/fibcov 17 7 43 2 pos 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 > ../outputs/R3/P17_t7_H43_A.log 2>&1; ./bin/fibcov2 17 7 43 1 8 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 > ../outputs/R3/P17_t7_H43_B.log 2>&1
+./bin/fibcov 17 7 43 2 list data/K_p17_t7_A_half1.txt > ../outputs/R3/U_p17_t7_H43_A_1.log 2>&1
+./bin/fibcov 17 7 43 2 list data/K_p17_t7_A_half2.txt > ../outputs/R3/U_p17_t7_H43_A_2.log 2>&1
+./bin/fibcov 17 8 47 2 pos 1 2 3 4 > ../outputs/R3/P17_t8_H47_A_1.log 2>&1
+./bin/fibcov 17 8 47 2 pos 5 6 7 8 > ../outputs/R3/P17_t8_H47_A_2.log 2>&1
+./bin/fibcov 17 8 47 2 pos 9 10 11 12 > ../outputs/R3/P17_t8_H47_A_3.log 2>&1
+./bin/fibcov 17 8 47 2 pos 13 14 15 16 > ../outputs/R3/P17_t8_H47_A_4.log 2>&1

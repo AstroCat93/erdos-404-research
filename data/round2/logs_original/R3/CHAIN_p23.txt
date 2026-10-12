@@ -1,0 +1,8 @@
+uniform Cov(23,1,7): A=True B=True H+1<p^t=True
+uniform Cov(23,2,12): A=True B=True H+1<p^t=True
+uniform Cov(23,3,18): A=True B=True H+1<p^t=True
+uniform Cov(23,4,23): A=True B=True H+1<p^t=True
+uniform Cov(23,5,33): A=True B=True H+1<p^t=True
+uniform Cov(23,6,37): A=True B=True H+1<p^t=True
+positions depth 7, H=43, K''=1..22 (22 positions): A=True B=True N*-H>1=True
+CHAIN OK: no first failure below 23^8; f(1,23) >= v_23((23^8-1)!) = 3559590232

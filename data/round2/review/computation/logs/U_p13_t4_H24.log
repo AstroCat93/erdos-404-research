@@ -1,0 +1,14 @@
+# covchk(C) p=13 t=4 H=24 c=1 M=5 k=1 F=28561 nK=12
+C p=13 t=4 H=24 M=5 K=27 Kmodpc=1 miss=0 COVERED 0.00s
+C p=13 t=4 H=24 M=5 K=28 Kmodpc=2 miss=0 COVERED 0.00s
+C p=13 t=4 H=24 M=5 K=29 Kmodpc=3 miss=0 COVERED 0.00s
+C p=13 t=4 H=24 M=5 K=30 Kmodpc=4 miss=0 COVERED 0.00s
+C p=13 t=4 H=24 M=5 K=31 Kmodpc=5 miss=0 COVERED 0.00s
+C p=13 t=4 H=24 M=5 K=32 Kmodpc=6 miss=0 COVERED 0.00s
+C p=13 t=4 H=24 M=5 K=33 Kmodpc=7 miss=0 COVERED 0.00s
+C p=13 t=4 H=24 M=5 K=34 Kmodpc=8 miss=0 COVERED 0.00s
+C p=13 t=4 H=24 M=5 K=35 Kmodpc=9 miss=0 COVERED 0.00s
+C p=13 t=4 H=24 M=5 K=36 Kmodpc=10 miss=0 COVERED 0.00s
+C p=13 t=4 H=24 M=5 K=37 Kmodpc=11 miss=0 COVERED 0.00s
+C p=13 t=4 H=24 M=5 K=38 Kmodpc=12 miss=0 COVERED 0.00s
+END C p=13 t=4 H=24 nK=12 bad=0 ALL_COVERED 0.0s

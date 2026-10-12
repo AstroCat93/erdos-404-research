@@ -1,0 +1,14 @@
+# fibcov2(B) p=13 t=3 H=19 c=1 M=4 kb=1 sparse=6 fibre=2197 bits
+B p=13 t=3 H=19 M=4 K=14 notcovered=0 OK [0.00s]
+B p=13 t=3 H=19 M=4 K=15 notcovered=0 OK [0.00s]
+B p=13 t=3 H=19 M=4 K=16 notcovered=0 OK [0.00s]
+B p=13 t=3 H=19 M=4 K=17 notcovered=0 OK [0.00s]
+B p=13 t=3 H=19 M=4 K=18 notcovered=0 OK [0.00s]
+B p=13 t=3 H=19 M=4 K=19 notcovered=0 OK [0.00s]
+B p=13 t=3 H=19 M=4 K=20 notcovered=0 OK [0.00s]
+B p=13 t=3 H=19 M=4 K=21 notcovered=0 OK [0.00s]
+B p=13 t=3 H=19 M=4 K=22 notcovered=0 OK [0.00s]
+B p=13 t=3 H=19 M=4 K=23 notcovered=0 OK [0.00s]
+B p=13 t=3 H=19 M=4 K=24 notcovered=0 OK [0.00s]
+B p=13 t=3 H=19 M=4 K=25 notcovered=0 OK [0.00s]
+SUMMARY B p=13 t=3 H=19 c=1 M=4 kb=1 n=12 fail=0 worst=0 ALL_OK total=0.0s

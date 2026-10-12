@@ -1,0 +1,3 @@
+# fibcov2(B) p=11 t=7 H=40 c=3 M=10 kb=3 sparse=4 fibre=19487171 bits
+B p=11 t=7 H=40 M=10 K=37 notcovered=2 FAIL [9.32s]
+SUMMARY B p=11 t=7 H=40 c=3 M=10 kb=3 n=1 fail=1 worst=2 SOME_FAIL total=9.3s

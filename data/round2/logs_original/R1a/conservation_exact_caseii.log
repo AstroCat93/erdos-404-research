@@ -1,0 +1,13 @@
+N0=13 T=4 kappa=3 sigma=7 M=3 case_ii_ahead=True ratio=1.000000000
+N0=13 T=2 kappa=3 sigma=7 M=3 case_ii_ahead=True ratio=1.000000000
+N0=13 T=1 kappa=3 sigma=7 M=3 case_ii_ahead=True ratio=1.000000000
+N0=13 T=3 kappa=3 sigma=7 M=3 case_ii_ahead=True ratio=1.000000000
+N0=13 T=1 kappa=3 sigma=7 M=3 case_ii_ahead=True ratio=1.000000000
+N0=13 T=4 kappa=3 sigma=7 M=3 case_ii_ahead=True ratio=1.000000000
+N0=12 T=2 kappa=3 sigma=7 M=3 case_ii_ahead=True ratio=1.000000000
+N0=13 T=3 kappa=3 sigma=7 M=3 case_ii_ahead=True ratio=1.000000000
+N0=12 T=2 kappa=3 sigma=7 M=3 case_ii_ahead=True ratio=1.000000000
+N0=17 T=1 kappa=4 sigma=11 M=4 case_ii_ahead=False ratio=1.000000000
+N0=13 T=1 kappa=3 sigma=7 M=3 case_ii_ahead=True ratio=1.000000000
+N0=12 T=2 kappa=3 sigma=7 M=3 case_ii_ahead=True ratio=1.000000000
+trials 12 with case (ii) ahead: 11 max |ratio-1| = 0.0

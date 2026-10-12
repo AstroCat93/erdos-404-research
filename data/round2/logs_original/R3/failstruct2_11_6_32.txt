@@ -1,0 +1,7 @@
+p=11 t=6 H=32 c=2 M=8 rho=9 R0=20 R*=18.3 classes=110 failing=110
+  failing K' (first 40): [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+  failing K' mod p: {1: 11, 2: 11, 3: 11, 4: 11, 5: 11, 6: 11, 7: 11, 8: 11, 9: 11, 10: 11}
+  total missing residues: 8231  per failing class (first 20): [66, 30, 54, 44, 54, 196, 46, 54, 82, 66, 46, 76, 68, 78, 34, 126, 120, 32, 110, 42]
+  dumped missing x: 8231  distribution of x mod p: {0: 1961, 1: 861, 2: 299, 3: 283, 4: 401, 5: 1291, 6: 1291, 7: 401, 8: 283, 9: 299, 10: 861}
+  argmin_r m_1(r) = [0];  fraction of dumped missing x with x mod p in argmin: 1961/8231
+  symmetry x -> S_tot - x holds for 110/110 completely dumped classes

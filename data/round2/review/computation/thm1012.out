@@ -1,0 +1,12 @@
+p=3 D=1 D'=0 delta=1: trials=300 (i)true=300 (ii)true=300 disagreements=0
+p=3 D=1 D'=1 delta=1: trials=300 (i)true=132 (ii)true=132 disagreements=0
+p=3 D=2 D'=1 delta=1: trials=300 (i)true=300 (ii)true=300 disagreements=0
+p=3 D=2 D'=0 delta=2: trials=300 (i)true=300 (ii)true=300 disagreements=0
+p=3 D=1 D'=1 delta=2: trials=300 (i)true=50 (ii)true=50 disagreements=0
+p=3 D=2 D'=1 delta=2: trials=300 (i)true=182 (ii)true=182 disagreements=0
+p=5 D=1 D'=1 delta=1: trials=300 (i)true=98 (ii)true=98 disagreements=0
+p=5 D=1 D'=0 delta=1: trials=300 (i)true=300 (ii)true=300 disagreements=0
+p=3 D=2 D'=2 delta=1: trials=300 (i)true=177 (ii)true=177 disagreements=0
+p=2 D=2 D'=1 delta=1: trials=300 (i)true=300 (ii)true=300 disagreements=0
+p=2 D=3 D'=1 delta=2: trials=300 (i)true=300 (ii)true=300 disagreements=0
+p=3 D=3 D'=1 delta=2: trials=300 (i)true=300 (ii)true=300 disagreements=0

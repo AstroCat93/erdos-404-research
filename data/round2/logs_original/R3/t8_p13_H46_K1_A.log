@@ -1,0 +1,21 @@
+# fibcov(A) p=13 t=8 H=46 c=3 M=11 k=3  Q=1792160394037 fibre=815730721 bits (97 MB x2)
+A p=13 t=8 H=46 c=3 M=11 K=1 missing=26 NOT_COVERED [142.84s]
+SUMMARY A p=13 t=8 H=46 c=3 M=11 k=3 mode=pos nK=1 fail=1 worst_missing=26 SOME_NOT_COVERED total=142.8s
+      142.84 real       136.31 user         1.77 sys
+           222674944  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               19631  page reclaims
+                   3  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+              412265  involuntary context switches
+       1563317619299  instructions retired
+        529313611076  cycles elapsed
+           222315048  peak memory footprint

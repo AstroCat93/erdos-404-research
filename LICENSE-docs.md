@@ -2,7 +2,7 @@
 
 Copyright (c) 2026 Nathan Durfee
 
-The documents in this repository (`README.md`, `note.md`, `archive/README.md`, `review/README.md`) and the logs and data files (`code/outputs/`, `archive/`, and the data files under `code/`) are licensed under the
+The documents in this repository (`README.md`, `note.md`, `archive/README.md`, `review/README.md`, `code/round2/README.md`, `data/round2/README.md`) and the logs and data files (`code/outputs/`, `archive/`, `data/`, and the data files under `code/`) are licensed under the
 **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
 - Summary: https://creativecommons.org/licenses/by/4.0/
@@ -11,7 +11,7 @@ The documents in this repository (`README.md`, `note.md`, `archive/README.md`, `
 You may share and adapt them for any purpose, provided you give appropriate credit, link to the license, and
 indicate whether changes were made.
 
-The source code (programs and scripts under `code/` and `review/`) is licensed separately under the MIT License; see
+The source code (programs and scripts under `code/`, including `code/round2/`, and under `review/`) is licensed separately under the MIT License; see
 [`LICENSE`](LICENSE).
 
 The statement of Erdős Problem #404 is quoted and paraphrased from P. Erdős and R. L. Graham (1980) and from

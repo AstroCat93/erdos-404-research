@@ -1,0 +1,18 @@
+# covchk(C) p=17 t=5 H=30 c=1 M=6 k=1 F=1419857 nK=16
+C p=17 t=5 H=30 M=6 K=35 Kmodpc=1 miss=0 COVERED 0.00s
+C p=17 t=5 H=30 M=6 K=36 Kmodpc=2 miss=0 COVERED 0.00s
+C p=17 t=5 H=30 M=6 K=37 Kmodpc=3 miss=0 COVERED 0.00s
+C p=17 t=5 H=30 M=6 K=38 Kmodpc=4 miss=0 COVERED 0.00s
+C p=17 t=5 H=30 M=6 K=39 Kmodpc=5 miss=0 COVERED 0.00s
+C p=17 t=5 H=30 M=6 K=40 Kmodpc=6 miss=0 COVERED 0.00s
+C p=17 t=5 H=30 M=6 K=41 Kmodpc=7 miss=0 COVERED 0.00s
+C p=17 t=5 H=30 M=6 K=42 Kmodpc=8 miss=0 COVERED 0.00s
+C p=17 t=5 H=30 M=6 K=43 Kmodpc=9 miss=0 COVERED 0.00s
+C p=17 t=5 H=30 M=6 K=44 Kmodpc=10 miss=0 COVERED 0.00s
+C p=17 t=5 H=30 M=6 K=45 Kmodpc=11 miss=0 COVERED 0.00s
+C p=17 t=5 H=30 M=6 K=46 Kmodpc=12 miss=0 COVERED 0.00s
+C p=17 t=5 H=30 M=6 K=47 Kmodpc=13 miss=0 COVERED 0.00s
+C p=17 t=5 H=30 M=6 K=48 Kmodpc=14 miss=0 COVERED 0.00s
+C p=17 t=5 H=30 M=6 K=49 Kmodpc=15 miss=0 COVERED 0.00s
+C p=17 t=5 H=30 M=6 K=50 Kmodpc=16 miss=0 COVERED 0.00s
+END C p=17 t=5 H=30 nK=16 bad=0 ALL_COVERED 0.0s

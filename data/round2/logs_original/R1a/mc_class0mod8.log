@@ -1,0 +1,5 @@
+D=4 samples=40000 E[N_tau]=0.54720 P(N_tau>0)=0.25895 E[N_tau 2^{P-tau}]=0.5079 (se 0.0055)
+D=6 samples=40000 E[N_tau]=0.30375 P(N_tau>0)=0.09265 E[N_tau 2^{P-tau}]=0.5003 (se 0.0181)
+D=8 samples=40000 E[N_tau]=0.16815 P(N_tau>0)=0.03760 E[N_tau 2^{P-tau}]=0.4909 (se 0.0247)
+D=10 samples=40000 E[N_tau]=0.09025 P(N_tau>0)=0.01360 E[N_tau 2^{P-tau}]=0.4987 (se 0.0398)
+# conditional on x = 0 mod 8 (measure 1/8); predicted exact value of E[N_tau 2^{P-tau} | class] = 8*I_8 = 1/2 for every D>=4

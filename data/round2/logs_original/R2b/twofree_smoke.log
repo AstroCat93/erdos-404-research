@@ -1,0 +1,24 @@
+p=5 t=2 H=8 c=1 M=3 : E2D row(B=0) missing=101 of 125 | Cov: 4/4 unit classes fail
+p=5 t=2 H=9 c=1 M=3 : E2D row(B=0) missing=79 of 125 | Cov: 3/4 unit classes fail
+p=5 t=2 H=10 c=1 M=3 : E2D row(B=0) missing=60 of 125 | Cov: 0/4 unit classes fail => Cov HOLDS
+p=5 t=2 H=11 c=2 M=4 : E2D row(B=0) missing=603 of 625 | Cov: 20/20 unit classes fail
+p=5 t=2 H=12 c=2 M=4 : E2D row(B=0) missing=582 of 625 | Cov: 20/20 unit classes fail
+./bin/twofree 5 2 8 12  0.00s user 0.00s system 4% cpu 0.156 total
+p=5 t=3 H=17 c=3 M=6 : E2D row(B=0) missing=14550 of 15625 | Cov: 100/100 unit classes fail
+p=5 t=3 H=18 c=3 M=6 : E2D row(B=0) missing=13885 of 15625 | Cov: 40/100 unit classes fail
+p=5 t=3 H=19 c=3 M=6 : E2D row(B=0) missing=13475 of 15625 | Cov: 2/100 unit classes fail
+p=5 t=3 H=20 c=3 M=6 : E2D row(B=0) missing=9897 of 15625 | Cov: 0/100 unit classes fail => Cov HOLDS
+p=5 t=3 H=21 c=4: t<c, X^2 terms may matter; skipped
+p=5 t=3 H=22 c=4: t<c, X^2 terms may matter; skipped
+p=5 t=3 H=23 c=4: t<c, X^2 terms may matter; skipped
+p=5 t=3 H=24 c=4: t<c, X^2 terms may matter; skipped
+p=7 t=3 H=17 c=2 M=5 : E2D row(B=0) missing=15413 of 16807 | Cov: 42/42 unit classes fail
+p=7 t=3 H=18 c=2 M=5 : E2D row(B=0) missing=14017 of 16807 | Cov: 21/42 unit classes fail
+p=7 t=3 H=19 c=2 M=5 : E2D row(B=0) missing=11789 of 16807 | Cov: 0/42 unit classes fail => Cov HOLDS
+p=7 t=3 H=20 c=2 M=5 : E2D row(B=0) missing=7479 of 16807 | Cov: 0/42 unit classes fail => Cov HOLDS
+p=7 t=3 H=21 c=2 M=5 : E2D row(B=0) missing=2091 of 16807 | Cov: 0/42 unit classes fail => Cov HOLDS
+p=7 t=3 H=22 c=3 M=6 : E2D row(B=0) missing=113625 of 117649 | Cov: 294/294 unit classes fail
+p=7 t=2 H=6 c=0 M=2 : E2D row(B=0) missing=14 of 49
+p=7 t=2 H=7 c=0 M=2 : E2D row(B=0) missing=0 of 49  => E2D HOLDS
+p=7 t=2 H=8 c=1 M=3: 2^H < p^M, Cov impossible
+p=7 t=2 H=9 c=1 M=3 : E2D row(B=0) missing=322 of 343 | Cov: 6/6 unit classes fail

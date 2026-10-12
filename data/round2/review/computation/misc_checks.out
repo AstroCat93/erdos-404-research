@@ -1,0 +1,44 @@
+== Legendre values of §10.2
+  v_7((7^9-1)!) = 6725592  claimed 6725592  OK
+  v_11((11^9-1)!) = 235794760  claimed 235794760  OK
+  v_13((13^9-1)!) = 883708272  claimed 883708272  OK
+  v_17((17^9-1)!) = 7411742272  claimed 7411742272  OK
+  v_19((19^8-1)!) = 943531272  claimed 943531272  OK
+  v_23((23^8-1)!) = 3559590232  claimed 3559590232  OK
+  v_17((17^8-1)!) = 435984832  claimed 435984832  OK
+  v_13((13^8-1)!) = 67977552  claimed 67977552  OK
+  v_11((11^8-1)!) = 21435880  claimed 21435880  OK
+== rho_0(p) (Lemma 10.11)
+   {3: 1, 5: 2, 7: 3, 11: 4, 13: 5, 17: 4, 19: 4, 23: 6, 29: 6, 31: 6}  claimed 1,2,3,4,5,4,4,6,6,6
+== L_p (cover depth of E_p) for p<=23, for Prop 10.14(b) and Cor 10.13
+   {5: 1, 7: 2, 11: 2, 13: 2, 17: 3, 19: 3, 23: 4}
+== D_p = min{D: p^D >= e (p-1)!}
+  D_7 = 4
+  D_11 = 7
+  D_13 = 9
+  D_17 = 12
+== Lambda_p and tau_p(3) (Theorem 10.16)
+  p=5: Lambda=1.24363 tau(3)=0.9768 1/(L+tau)=0.45037
+  p=7: Lambda=0.363186 tau(3)=0.009909 1/(L+tau)=2.6803
+  p=11: Lambda=0.0753839 tau(3)=6.421e-11 1/(L+tau)=13.265
+  p=13: Lambda=0.035144 tau(3)=3.672e-17 1/(L+tau)=28.454
+  p=17: Lambda=0.00747338 tau(3)=5.011e-34 1/(L+tau)=133.81
+  p=19: Lambda=0.00339271 tau(3)=1.134e-44 1/(L+tau)=294.75
+  p=23: Lambda=0.000679163 tau(3)=1.976e-70 1/(L+tau)=1472.4
+== Claim 10.9 arithmetic
+  prefactor=0.496011  exponent log2(3/4)/2=-0.20752  A*(4/3)=0.66135
+  bound at G=2^40: 0.064596 (claimed 0.0646)
+  max over G in [256,2^20) of (claimed-bound pieces)/(stated formula) = 1.00053 (must be <=1)
+== Theorem 10.18 ownership tiling (referee's own script)
+  start region: (0, 2183, 12, 26)
+  around 7*13^3: (0, 337, 1, None)
+  around 7*13^4: (0, 337, 1, None)
+  around 7*13^5: (0, 336, 2, None)
+  around 7*13^6: (0, 336, 2, None)
+  around 7*13^7: (0, 336, 2, None)
+  around 7*13^8: (0, 338, 0, None)
+  around 7*13^9: (0, 338, 0, None)
+  around 7*13^10: (0, 338, 0, None)
+  around 7*13^11: (0, 338, 0, None)
+  first uncertified window owns (67977551, 67977559) claimed [67977551, 67977559)
+  first window at 26 owns (0, 1)

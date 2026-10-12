@@ -1,0 +1,4 @@
+# fibcov(A) p=13 t=8 H=47 c=3 M=11 k=2  Q=1792160394037 fibre=10604499373 bits (1264 MB x2)
+A p=13 t=8 H=47 c=3 M=11 K=1 missing=0 COVERED [389.44s]
+SUMMARY A p=13 t=8 H=47 c=3 M=11 k=2 mode=pos nK=1 fail=0 worst_missing=0 ALL_COVERED total=389.4s
+      389.51 real       243.41 user        63.38 sys

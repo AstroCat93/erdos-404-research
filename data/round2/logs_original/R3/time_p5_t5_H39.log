@@ -1,0 +1,3 @@
+SUMMARY A p=5 t=5 H=39 c=8 M=13 k=3 mode=pos nK=4 fail=0 worst_missing=0 ALL_COVERED total=0.4s
+SUMMARY A p=5 t=5 H=39 c=8 M=13 k=4 mode=pos nK=4 fail=0 worst_missing=0 ALL_COVERED total=0.4s
+SUMMARY A p=5 t=5 H=39 c=8 M=13 k=5 mode=pos nK=4 fail=0 worst_missing=0 ALL_COVERED total=0.3s

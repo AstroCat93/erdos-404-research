@@ -1,0 +1,9 @@
+7 9
+uniform 1 4
+uniform 2 7
+uniform 3 19
+uniform 4 26
+uniform 5 28
+uniform 6 34
+pos 7 40 1 48
+pos 8 47 1 6

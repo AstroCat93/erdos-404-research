@@ -1,0 +1,9 @@
+uniform Cov(17,1,5): A=True B=True H+1<p^t=True
+uniform Cov(17,2,11): A=True B=True H+1<p^t=True
+uniform Cov(17,3,16): A=True B=True H+1<p^t=True
+uniform Cov(17,4,25): A=True B=True H+1<p^t=True
+uniform Cov(17,5,30): A=True B=True H+1<p^t=True
+uniform Cov(17,6,34): A=True B=True H+1<p^t=True
+uniform Cov(17,7,43): A=True B=True H+1<p^t=True
+positions depth 8, H=47, K''=1..16 (16 positions): A=True B=True N*-H>1=True
+CHAIN OK: no first failure below 17^9; f(1,17) >= v_17((17^9-1)!) = 7411742272

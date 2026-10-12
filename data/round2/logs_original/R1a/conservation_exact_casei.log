@@ -1,0 +1,21 @@
+N0=9 T=2 kappa=1 sigma=6 M=3 case_ii_ahead=False ratio=1.000000000
+N0=8 T=3 kappa=1 sigma=6 M=3 case_ii_ahead=False ratio=1.000000000
+N0=12 T=3 kappa=1 sigma=13 M=7 case_ii_ahead=False ratio=1.000000000
+N0=14 T=2 kappa=3 sigma=12 M=5 case_ii_ahead=False ratio=1.000000000
+N0=9 T=1 kappa=1 sigma=10 M=7 case_ii_ahead=False ratio=1.000000000
+N0=15 T=1 kappa=3 sigma=11 M=4 case_ii_ahead=False ratio=1.000000000
+N0=11 T=3 kappa=1 sigma=7 M=3 case_ii_ahead=False ratio=1.000000000
+N0=13 T=3 kappa=1 sigma=9 M=3 case_ii_ahead=False ratio=1.000000000
+N0=16 T=4 kappa=4 sigma=11 M=4 case_ii_ahead=False ratio=1.000000000
+N0=8 T=4 kappa=1 sigma=8 M=5 case_ii_ahead=False ratio=1.000000000
+N0=12 T=2 kappa=1 sigma=9 M=3 case_ii_ahead=False ratio=1.000000000
+N0=15 T=2 kappa=1 sigma=11 M=4 case_ii_ahead=False ratio=1.000000000
+N0=13 T=4 kappa=3 sigma=7 M=3 case_ii_ahead=True ratio=1.000000000
+N0=14 T=2 kappa=3 sigma=13 M=6 case_ii_ahead=False ratio=1.000000000
+N0=15 T=4 kappa=3 sigma=11 M=4 case_ii_ahead=False ratio=1.000000000
+N0=8 T=1 kappa=1 sigma=6 M=3 case_ii_ahead=False ratio=1.000000000
+N0=16 T=3 kappa=1 sigma=15 M=5 case_ii_ahead=False ratio=1.000000000
+N0=14 T=1 kappa=3 sigma=11 M=4 case_ii_ahead=False ratio=1.000000000
+N0=16 T=1 kappa=1 sigma=15 M=5 case_ii_ahead=False ratio=1.000000000
+N0=12 T=3 kappa=3 sigma=7 M=3 case_ii_ahead=False ratio=1.000000000
+trials 20 with case (ii) ahead: 1 max |ratio-1| = 0.0

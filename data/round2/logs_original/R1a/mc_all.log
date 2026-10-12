@@ -1,0 +1,8 @@
+D=3 samples=20000 E[N_tau]=0.65805 P(N_tau>0)=0.46035 E[N_tau 2^{P-tau}]=3.9876 (se 0.8714)
+D=4 samples=20000 E[N_tau]=0.52190 P(N_tau>0)=0.30775 E[N_tau 2^{P-tau}]=4.9938 (se 1.6669)
+D=5 samples=20000 E[N_tau]=0.51325 P(N_tau>0)=0.23040 E[N_tau 2^{P-tau}]=3.8175 (se 0.3121)
+D=6 samples=20000 E[N_tau]=0.45535 P(N_tau>0)=0.15880 E[N_tau 2^{P-tau}]=5.6014 (se 0.8722)
+D=7 samples=20000 E[N_tau]=0.37740 P(N_tau>0)=0.10845 E[N_tau 2^{P-tau}]=7.2507 (se 1.3123)
+D=8 samples=20000 E[N_tau]=0.28795 P(N_tau>0)=0.06730 E[N_tau 2^{P-tau}]=7.7421 (se 0.9507)
+D=9 samples=20000 E[N_tau]=0.25775 P(N_tau>0)=0.04340 E[N_tau 2^{P-tau}]=7.9418 (se 0.7295)
+D=10 samples=20000 E[N_tau]=0.16015 P(N_tau>0)=0.02530 E[N_tau 2^{P-tau}]=15.0272 (se 6.6000)

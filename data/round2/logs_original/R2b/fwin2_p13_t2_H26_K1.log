@@ -1,0 +1,4 @@
+p=13 t=2 H=26 K=1 c=1 k=0 M=3 split=0/1  L1=0.037517 L2=5.85223e-05  R1=0.017479 R2=3.27229e-05  maxF=0.00329992 at xi=1859 (v=2)
+   d=1  #xi=12  contributing=13  L1_d=0.00779521  random=0.033855  ratio=0.230
+   d=2  #xi=156  contributing=26  L1_d=0.00048865  random=0.00124167  ratio=0.394
+   d=3  #xi=2028  contributing=26  L1_d=0.0292331  random=0.0161418  ratio=1.811

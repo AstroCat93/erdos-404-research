@@ -1,0 +1,2 @@
+window n=30 N=36 L=2: x tested=4 skipped=128 parents=72 exact=72 parent-states=144 slopes={1: 72}
+window n=20 N=26 L=1: x tested=4 skipped=39 parents=15 exact=15 parent-states=30 slopes={1: 15}

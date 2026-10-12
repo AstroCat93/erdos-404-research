@@ -1,0 +1,33 @@
+== rho_0(p)
+p=3 rho0=1 H1=2
+p=5 rho0=2 H1=3
+p=7 rho0=3 H1=4
+p=11 rho0=4 H1=5
+p=13 rho0=5 H1=6
+p=17 rho0=4 H1=5
+p=19 rho0=4 H1=5
+p=23 rho0=6 H1=7
+p=29 rho0=6 H1=7
+p=31 rho0=6 H1=7
+== ownership tiling, p=13 (Theorem 10.18)
+first window (20, 26), owns levels [0, 1)
+tiling: 938 consecutive pairs checked around 64 centres, failures=0
+== Theorem 10.18 first uncertified window owns levels [67977551, 67977559]
+v_7((7^9-1)!) = 6725592
+v_11((11^9-1)!) = 235794760
+v_13((13^9-1)!) = 883708272
+v_17((17^8-1)!) = 435984832
+v_17((17^9-1)!) = 7411742272
+v_19((19^8-1)!) = 943531272
+v_23((23^8-1)!) = 3559590232
+v_13((13^8-1)!) = 67977552
+v_11((11^8-1)!) = 21435880
+== D_13 = 9
+== Lambda_p, tau_p(3)
+p=5 Lambda=1.24363 tau(3)=0.9768 1/(Lambda+tau3)=0.4504  p(2/pi)^(p-1)=0.8213
+p=7 Lambda=0.363186 tau(3)=0.009909 1/(Lambda+tau3)=2.68  p(2/pi)^(p-1)=0.4660
+p=11 Lambda=0.0753839 tau(3)=6.421e-11 1/(Lambda+tau3)=13.27  p(2/pi)^(p-1)=0.1203
+p=13 Lambda=0.035144 tau(3)=3.672e-17 1/(Lambda+tau3)=28.45  p(2/pi)^(p-1)=0.0576
+p=17 Lambda=0.00747338 tau(3)=5.011e-34 1/(Lambda+tau3)=133.8  p(2/pi)^(p-1)=0.0124
+p=19 Lambda=0.00339271 tau(3)=1.134e-44 1/(Lambda+tau3)=294.7  p(2/pi)^(p-1)=0.0056
+p=23 Lambda=0.000679163 tau(3)=1.976e-70 1/(Lambda+tau3)=1472  p(2/pi)^(p-1)=0.0011

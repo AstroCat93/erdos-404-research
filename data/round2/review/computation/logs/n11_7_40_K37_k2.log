@@ -1,0 +1,3 @@
+# covchk(C) p=11 t=7 H=40 c=3 M=10 k=2 F=214358881 nK=1
+C p=11 t=7 H=40 M=10 K=37 Kmodpc=37 miss=2 UNCOVERED 3.33s
+END C p=11 t=7 H=40 nK=1 bad=1 SOME_UNCOVERED 3.3s

@@ -1,0 +1,5 @@
+p=11 t=3 H=22 K=1 c=1 k=0 M=4 split=0/1  L1=0.80439 L2=0.00379306  R1=0.709421 R2=0.00349045  maxF=0.0266813 at xi=2662 (v=3)
+   d=1  #xi=10  contributing=11  L1_d=0.0603692  random=0.0696116  ratio=0.867
+   d=2  #xi=110  contributing=22  L1_d=0.00282139  random=0.00533035  ratio=0.529
+   d=3  #xi=1210  contributing=22  L1_d=0.122228  random=0.0586338  ratio=2.085
+   d=4  #xi=13310  contributing=22  L1_d=0.618972  random=0.644972  ratio=0.960

@@ -1,0 +1,1 @@
+./bin/fibcov 13 7 39 2 all > logs/R1_A_cov_13_7_39_all.log 2>&1  108.32s user 2.32s system 93% cpu 1:58.77 total

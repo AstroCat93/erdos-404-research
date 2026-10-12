@@ -1,0 +1,3 @@
+p=11 N0=11 W=2 k=5  direct T=9.9520836574e-06  renormalised=9.9520836574e-06  rel.diff=5.91e-14
+H_W: H(0)=1.066552  max(grid)=1.066552  mean(grid)=5.912306e-03  min(grid)=2.722e-04
+p^W * prod-mean heuristic (p(2/pi)^p)^W ~ 5.8634e-03

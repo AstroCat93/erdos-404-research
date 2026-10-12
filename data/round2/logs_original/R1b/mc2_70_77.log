@@ -1,0 +1,26 @@
+x#1: m=70 D=6 mu_n=7 mu_N=7 parents(lam<=D)=7 lams=[3] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#2: m=69 D=4 mu_n=6 mu_N=6 parents(lam<=D)=5 lams=[3] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#3: m=70 D=6 mu_n=9 mu_N=9 parents(lam<=D)=14 lams=[1] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#4: m=69 D=4 mu_n=6 mu_N=6 parents(lam<=D)=33 lams=[3] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#5: m=69 D=4 mu_n=6 mu_N=6 parents(lam<=D)=5 lams=[3] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#6: m=70 D=6 mu_n=9 mu_N=9 parents(lam<=D)=10 lams=[1] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#7: m=71 D=7 mu_n=8 mu_N=8 parents(lam<=D)=45 lams=[3] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#8: m=67 D=6 mu_n=6 mu_N=6 parents(lam<=D)=18 lams=[1] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#9: m=70 D=5 mu_n=6 mu_N=6 parents(lam<=D)=80 lams=[4] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#10: m=68 D=7 mu_n=7 mu_N=7 parents(lam<=D)=44 lams=[1] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#11: m=68 D=9 mu_n=7 mu_N=7 parents(lam<=D)=12 lams=[1] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#12: m=70 D=5 mu_n=6 mu_N=6 parents(lam<=D)=3 lams=[4] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#13: m=68 D=6 mu_n=7 mu_N=7 parents(lam<=D)=10 lams=[1] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#14: m=71 D=5 mu_n=6 mu_N=6 parents(lam<=D)=7 lams=[5] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#15: m=71 D=5 mu_n=6 mu_N=6 parents(lam<=D)=45 lams=[5] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#16: m=67 D=6 mu_n=6 mu_N=6 parents(lam<=D)=56 lams=[1] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#17: m=69 D=4 mu_n=6 mu_N=6 parents(lam<=D)=7 lams=[3] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#18: m=71 D=5 mu_n=7 mu_N=7 parents(lam<=D)=36 lams=[4] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#19: m=68 D=6 mu_n=7 mu_N=7 parents(lam<=D)=6 lams=[1] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#20: m=67 D=6 mu_n=6 mu_N=6 parents(lam<=D)=28 lams=[1] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#21: m=67 D=8 mu_n=6 mu_N=6 parents(lam<=D)=42 lams=[1] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#22: m=71 D=7 mu_n=8 mu_N=8 parents(lam<=D)=13 lams=[3] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#23: m=70 D=5 mu_n=6 mu_N=6 parents(lam<=D)=3 lams=[4] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#24: m=71 D=5 mu_n=6 mu_N=6 parents(lam<=D)=13 lams=[5] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+x#25: m=71 D=5 mu_n=6 mu_N=6 parents(lam<=D)=22 lams=[5] all_eq=True inherit=True G-meas=True conds={'lin': True, 'inherit': True, 'env': True}
+TOTAL parent identities exact: 564/564; lambda histogram {3: 115, 1: 240, 4: 122, 5: 87}

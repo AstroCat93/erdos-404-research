@@ -1,0 +1,7 @@
+p=11 t=4 H=33 K=1 c=2 k=0 M=6 split=0/1  L1=0.872312 L2=0.00197659  R1=0.597585 R2=0.000206237  maxF=0.0266813 at xi=322102 (v=5)
+   d=1  #xi=10  contributing=11  L1_d=0.0603692  random=0.0696116  ratio=0.867
+   d=2  #xi=110  contributing=22  L1_d=0.00959958  random=0.00533035  ratio=1.801
+   d=3  #xi=1210  contributing=33  L1_d=0.000175698  random=0.000408159  ratio=0.430
+   d=4  #xi=13310  contributing=33  L1_d=0.00876629  random=0.00448975  ratio=1.953
+   d=5  #xi=146410  contributing=33  L1_d=0.0505116  random=0.0493872  ratio=1.023
+   d=6  #xi=1610510  contributing=33  L1_d=0.742889  random=0.54326  ratio=1.367

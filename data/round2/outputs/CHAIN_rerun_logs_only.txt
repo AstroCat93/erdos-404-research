@@ -1,0 +1,59 @@
+== p7
+uniform Cov(7,1,4): A=True B=True H+1<p^t=True
+uniform Cov(7,2,7): A=True B=True H+1<p^t=True
+uniform Cov(7,3,19): A=True B=True H+1<p^t=True
+uniform Cov(7,4,26): A=True B=True H+1<p^t=True
+uniform Cov(7,5,28): A=True B=True H+1<p^t=True
+uniform Cov(7,6,34): A=True B=True H+1<p^t=True
+positions depth 7, H=40, K''=1..48 (42 positions): A=True B=True N*-H>1=True
+positions depth 8, H=47, K''=1..6 (6 positions): A=True B=True N*-H>1=True
+CHAIN OK: no first failure below 7^9; f(1,7) >= v_7((7^9-1)!) = 6725592
+== p11
+uniform Cov(11,1,5): A=True B=True H+1<p^t=True
+uniform Cov(11,2,10): A=True B=True H+1<p^t=True
+uniform Cov(11,3,18): A=True B=True H+1<p^t=True
+uniform Cov(11,4,22): A=True B=True H+1<p^t=True
+uniform Cov(11,5,30): A=True B=True H+1<p^t=True
+uniform Cov(11,6,33): A=True B=True H+1<p^t=True
+positions depth 7, H=40, K''=1..36 (33 positions): A=True B=True N*-H>1=True
+positions depth 7, H=41, K''=37..37 (1 positions): A=True B=True N*-H>1=True
+positions depth 7, H=40, K''=38..120 (76 positions): A=True B=True N*-H>1=True
+positions depth 8, H=44, K''=1..10 (10 positions): A=True B=True N*-H>1=True
+CHAIN OK: no first failure below 11^9; f(1,11) >= v_11((11^9-1)!) = 235794760
+== p13
+uniform Cov(13,1,6): A=True B=True H+1<p^t=True
+uniform Cov(13,2,10): A=True B=True H+1<p^t=True
+uniform Cov(13,3,19): A=True B=True H+1<p^t=True
+uniform Cov(13,4,24): A=True B=True H+1<p^t=True
+uniform Cov(13,5,32): A=True B=True H+1<p^t=True
+uniform Cov(13,6,35): A=True B=True H+1<p^t=True
+uniform Cov(13,7,39): A=True B=True H+1<p^t=True
+positions depth 8, H=47, K''=1..12 (12 positions): A=True B=True N*-H>1=True
+CHAIN OK: no first failure below 13^9; f(1,13) >= v_13((13^9-1)!) = 883708272
+== p19
+uniform Cov(19,1,5): A=True B=True H+1<p^t=True
+uniform Cov(19,2,12): A=True B=True H+1<p^t=True
+uniform Cov(19,3,17): A=True B=True H+1<p^t=True
+uniform Cov(19,4,27): A=True B=True H+1<p^t=True
+uniform Cov(19,5,31): A=True B=True H+1<p^t=True
+uniform Cov(19,6,35): A=True B=True H+1<p^t=True
+positions depth 7, H=45, K''=1..18 (18 positions): A=True B=True N*-H>1=True
+CHAIN OK: no first failure below 19^8; f(1,19) >= v_19((19^8-1)!) = 943531272
+== p23
+uniform Cov(23,1,7): A=True B=True H+1<p^t=True
+uniform Cov(23,2,12): A=True B=True H+1<p^t=True
+uniform Cov(23,3,18): A=True B=True H+1<p^t=True
+uniform Cov(23,4,23): A=True B=True H+1<p^t=True
+uniform Cov(23,5,33): A=True B=True H+1<p^t=True
+uniform Cov(23,6,37): A=True B=True H+1<p^t=True
+positions depth 7, H=43, K''=1..22 (22 positions): A=True B=True N*-H>1=True
+CHAIN OK: no first failure below 23^8; f(1,23) >= v_23((23^8-1)!) = 3559590232
+== p17_D8
+uniform Cov(17,1,5): A=True B=True H+1<p^t=True
+uniform Cov(17,2,11): A=True B=True H+1<p^t=True
+uniform Cov(17,3,16): A=True B=True H+1<p^t=True
+uniform Cov(17,4,25): A=True B=True H+1<p^t=True
+uniform Cov(17,5,30): A=True B=True H+1<p^t=True
+uniform Cov(17,6,34): A=True B=True H+1<p^t=True
+positions depth 7, H=43, K''=1..16 (16 positions): A=True B=True N*-H>1=True
+CHAIN OK: no first failure below 17^8; f(1,17) >= v_17((17^8-1)!) = 435984832

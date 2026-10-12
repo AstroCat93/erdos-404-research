@@ -1,0 +1,2 @@
+inst 1: m=31 D=4 parents=1 lams=[1] ok so far 1/1
+run_lead_batch.sh: line 13: 58870 Terminated: 15          "$@"

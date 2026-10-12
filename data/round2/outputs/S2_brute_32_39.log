@@ -1,0 +1,9 @@
+inst 1: m=31 D=4 parents=1 lams=[1] ok so far 1/1
+inst 2: m=31 D=6 parents=22 lams=[3] ok so far 23/23
+inst 3: m=31 D=6 parents=12 lams=[3] ok so far 35/35
+inst 4: m=33 D=6 parents=2 lams=[3] ok so far 37/37
+inst 5: m=31 D=4 parents=1 lams=[1] ok so far 38/38
+inst 6: m=31 D=6 parents=34 lams=[3] ok so far 72/72
+inst 7: m=31 D=6 parents=16 lams=[3] ok so far 88/88
+inst 8: m=31 D=6 parents=2 lams=[3] ok so far 90/90
+BRUTE-FORCE TOTAL exact identities: 90/90

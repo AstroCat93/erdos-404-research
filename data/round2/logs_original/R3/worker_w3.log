@@ -1,0 +1,14 @@
+23:43:27 START sh src/run_uniform.sh "23 1 7 0 0" "23 2 12 0 1" "23 3 18 0 1" "23 4 23 0 1" "23 5 33 1 0" "23 6 37 1 0" > logs/uniform_p23.txt 2>&1
+23:43:56 END
+23:43:56 START python3 src/failstruct.py 19 6 34 1 3000 > logs/failstruct2_19_6_34.txt 2>&1; python3 src/failstruct.py 11 6 32 1 3000 > logs/failstruct2_11_6_32.txt 2>&1; python3 src/failstruct.py 13 6 34 2 3000 > logs/failstruct2_13_6_34.txt 2>&1; python3 src/failstruct.py 17 6 33 1 3000 > logs/failstruct2_17_6_33.txt 2>&1
+23:44:56 END
+23:44:56 START ./bin/fibcov2b 17 7 43 2 6 494 495 496 497 498 499 500 501 502 503 504 505 506 507 508 509 511 512 513 514 515 516 517 518 519 520 521 522 523 524 525 526 528 529 530 531 532 533 534 535 536 537 538 539 540 541 542 543 545 546 547 548 549 550 551 552 553 554 555 556 557 558 559 560 562 563 564 565 566 567 568 569 570 571 572 573 574 575 576 577 > logs/U_p17_t7_H43_B_part3.log 2>&1
+00:25:58 END
+00:25:58 START ./bin/fibcov2b 17 8 47 2 4 1 2 3 4 > logs/P17_t8_H47_B_pos_1.log 2>&1
+00:40:23 END
+00:40:23 START ./bin/fibcov2b 17 8 47 2 4 2 3 > logs/P17_t8_H47_B_j1.log 2>&1
+01:03:48 END
+01:03:48 START ./bin/fibcov2b 17 8 47 2 4 10 11 > logs/P17_t8_H47_B_j5.log 2>&1
+01:27:43 END
+01:27:43 START ./bin/fibcov2b 17 8 47 2 4 16 > logs/P17_t8_H47_B_j8.log 2>&1
+01:40:59 END
