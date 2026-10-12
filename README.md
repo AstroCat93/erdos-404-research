@@ -4,6 +4,8 @@ This repository is a research note on [Erdős Problem #404](https://www.erdospro
 
 **All three questions of Problem #404 remain open.** Nothing here proves that $f(a,p)=\infty$ for any pair $(a,p)$, or that $f(a,p)<\infty$ for every $a$. The note proves some structural results, certifies much larger lower bounds than were previously published, and isolates a precise statement that would settle question (Q3).
 
+**Status check, 2026-10-11.** No new results on #404 by others since this note was written (8 Oct). The problem page (last edited 29 Sep 2025, 0 proof claims), Kitamura's repositories (last pushed Jul 2026), the teorth/erdosproblems database (status `open`) and arXiv show no change. A Lean formalization of the *statement* of #404 is under review in google-deepmind/formal-conjectures (PR #6936, approved 11 Oct, not yet merged).
+
 The full write-up is [`note.md`](note.md). **The mathematics, code and text were produced by AI** (see [AI disclosure](#ai-disclosure-and-authorship)). No human has verified the mathematics; three AI referees have checked it (note.md §9).
 
 ## The problem
