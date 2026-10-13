@@ -223,14 +223,14 @@ By Proposition 3.13(c), ν is of pure type. So "L2(∞) < ∞" decides the dicho
 | p | 3 | 5 | 7 | 11 | 13 | 17 | 19 | 23 |
 |---|---|---|---|---|---|---|---|---|
 | Λ_p = Σ N_d(2/π)^{U_d} (L¹, Thm 10.16) | ∞ | 1.2437 | 0.3632 | 0.07538 | 0.03514 | 0.007473 | 0.003393 | 0.000679 |
-| Λ'_p = Σ N_d 2^{−U_d/2} (Cauchy–Schwarz) | ∞ | ∞ | 2.0509 | 0.2920 | 0.1549 | 0.04638 | 0.02553 | 0.007657 |
+| Λ'_p = Σ N_d 2^{−U_d/2} (Cauchy–Schwarz) | ∞ | ∞ | 2.0496 | 0.2920 | 0.1549 | 0.04638 | 0.02553 | 0.007657 |
 | Λ2_p = Σ N_d 2^{−U_d} (L² mass) | 0.5881 | 0.1486 | 0.04959 | 0.004910 | 0.001468 | 1.22e-4 | 3.43e-5 | 2.62e-6 |
 
 Since v_p(i!) = (i − s_p(i))/(p−1) ≤ (i−1)/(p−1), we have U_d ≥ (p−1)d + 1. Hence:
 - the L² series converges for every p ≥ 3 (ratio p/2^{p−1} < 1);
 - Λ'_p ≤ 2^{−1/2} r/(1−r) with r = p·2^{−(p−1)/2}. Since r is decreasing for p ≥ 3 and r ≤ 11/32 for p ≥ 11, this gives Λ'_p ≤ 0.371 < 1 for every p ≥ 11;
 - for p = 3, 5 the series Λ'_p diverges. Indeed s_p(i) ≤ (p−1)(1 + log_p i) gives U_d ≤ (p−1)(d + 2 + log_p(pd)), so the terms are ≥ c·r^d·d^{−O(1)}, and r = p·2^{−(p−1)/2} > 1 for these p;
-- Λ'_7 = 2.0509 (computed, with a rigorous geometric tail bound).
+- Λ'_7 = 2.0496 (2.04957; 2.0509 is the upper end of the D = 60 enclosure; corrected after the check).
 
 **So Λ'_p < 1 exactly for p ≥ 11 [proved].** The L¹ series diverges at p = 3, and its sum exceeds 1 at p = 5. **So in the random model, positive Haar measure of the tails is expected at every odd p, but fullness only for p ≥ 7.** That is consistent with Theorem 3.11 at p = 3.
 

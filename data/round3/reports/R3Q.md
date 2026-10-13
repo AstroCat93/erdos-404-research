@@ -1,5 +1,7 @@
 # Track R3Q (round 3, 2026-10-13, restarted): an explicit rate for $\delta_G(2)\to0$
 
+*Edited by the lead after the check (`data/round3/checks/R3Q.md`, F1): the prose bounds $0.1005$, $0.0910$/$0.091$, $4.9\cdot10^{-6}$ and $0.0285$ below are rounded to nearest and lie slightly below the exact bounds $0.1005059$, $0.0910330$, $4.9359\cdot10^{-6}$ and $0.028533$. The rounded-up values $0.10051$, $0.09104$, $4.94\cdot10^{-6}$ and $0.02854$ are those of note.md Corollary 11.8 and Theorem 11.9. The tables round to nearest.*
+
 ## Headline
 
 **For every $G\ge2^{3072}$: $\delta_G(2)=\mu\{x\in\mathbb Z_2:g_2(x)\ge G\}\le2^{1/80}\,G^{-1/80}$.** [computer-assisted]

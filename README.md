@@ -6,7 +6,7 @@ This repository is a research note on [Erdős Problem #404](https://www.erdospro
 - **Q3 is open.** Nothing here proves that $f(a,p)=\infty$ for any pair $(a,p)$.
 - **Q1 is open in general.**
   - *Round 2:* at $p=2$, $f(a,2)<\infty$ for all $a$ outside a set of natural density $0$ (note.md Theorem 10.1). This is a complete proof, checked by AI referees and not by a human.
-  - *New in round 3:* $f(a,2)<\infty$ for **every** $a\le32768$, with exact values. This includes Kitamura's open test case, **$f(594,2)=90394$**, and $f(17662,2)=221465$ (note.md Theorem 11.4; computer-assisted). There is also an explicit, very weak rate: $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$ (Theorem 11.7).
+  - *New in round 3:* $f(a,2)<\infty$ for **every** $a\le32768$, with exact values. This includes Kitamura's open test case, **$f(594,2)=90394$**, and $f(17662,2)=221465$ (note.md Theorems 11.2 and 11.4; computer-assisted). There is also an explicit, very weak rate: $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$ (Theorem 11.7; computer-assisted).
   - Whether $f(a,2)<\infty$ for *every* $a$ is still open.
 - **Q2 has partial results.** These are structural theorems, exact values on residue classes, much larger certified lower bounds than were previously published, and precise sufficient conditions for a positive answer to Q3. Round 3 adds a conditional theorem for $\mu(K_p)>0$ at odd $p$, certified Fourier constants for gate blocks, and $L^2$ forms of the main obstructions.
 
@@ -30,18 +30,18 @@ Write $f(a,p)=v_p(a!)+g_p(a)$. The excess $g_p$ extends to a function on the $p$
 
 ## New in round 3 (2026-10-13; note.md §11)
 
-Round 3 was produced by a third AI-assisted session. Each of six tracks was checked by a separate AI instance that wrote its own code. A final round of three AI referees then checked note.md §11. An external spending limit interrupted the session once; note.md §11.0 records what was resumed and what was redone. **No human has checked any of it.**
+Round 3 was produced by a third AI-assisted session. Each of the five research tracks (R3N, R3Q, R3M, R3F, R3C) was checked by a separate AI instance that wrote its own code; the status gate S0 was not, except that its Lemma S0.1 was checked by the round-3 logic referee. A final round of three AI referees then checked note.md §11. An external spending limit interrupted the session once; note.md §11.0 records what was resumed and what was redone. **No human has checked any of it.**
 
 | | Statement | Status |
 |---|---|---|
-| Thm 11.2, 11.4 | **$f(a,2)<\infty$ for every $a\le32768$, with exact values.** $f(594,2)=90394$ (Kitamura's live test case; Kitamura had $\ge66126$). $f(17662,2)=221465$, the largest excess $g_2=203812$ known. Shadow values $f(2^t-2,2)$ for $t=14,\dots,17$. Kitamura's exact table reached $a\le256$ | computer-assisted: at least two independently written exhaustive programs (three for 594), plus an explicit witness verified exactly by three verifiers |
+| Thm 11.2, 11.4 | **$f(a,2)<\infty$ for every $a\le32768$, with exact values.** $f(594,2)=90394$ (Kitamura's live test case; Kitamura had $\ge66126$). $f(17662,2)=221465$, the largest exactly computed value of $g_2$ at a natural number in the public record ($g_2=203812$). Shadow values $f(2^t-2,2)$ for $t=14,\dots,17$. Kitamura's complete exact table covered $a\le256$, plus isolated rows up to 8190 | computer-assisted: at least two independently written exhaustive programs (three for 594), plus an explicit witness verified exactly (by three verifiers for 594 and 17662; for every other row, by the track's GMP verifier and by the checker's own verifier) |
 | Thm 11.7, Cor 11.8 | **Explicit rate at $p=2$:** $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$; $\delta_G(2)\le0.10051$ for $G\ge2^{37}$ (the first proved bound below round 1's census value $0.1016$ that applies at large $G$). Meaningful only at astronomically large $G$; the data suggest $\approx c/G$ | computer-assisted (a $2^{16}$-case certificate and a closed-form check); proof written out |
 | Lemma 11.6 | Every zero of an $F_e$ in the good set has multiplicity $\le2$ (exactly 1 on $8\mathbb Z_2$) | proved |
-| Prop 11.10–11.13, Thm 11.14 | Odd $p$: the exact first-moment machinery of §10.1 at every odd prime; an exact second-moment identity; per-window Cauchy–Schwarz provably cannot work. **Conditional:** a fine-scale equidistribution hypothesis FE implies $\mu(K_p)>0$ | proved (FE unproved; of barrier type; numerically plausible at $p\ge5$, doubtful at $p=3$) |
-| Thm 11.17–11.19 | Single gate blocks satisfy the random-model Fourier bound at every level: $\sup_d\rho_d\le1.3203,1.1760,1.8377,1.2064$ ($p=5,7,11,13$). This explains round 2's ratio $\approx1.17$ as an explicit constant $J_p$ | proved; certified constants computer-assisted |
-| Thm 11.22, Prop 11.23–11.24 | A collision-count ($L^2$) version of Theorem 10.16 (budget $<1$ exactly for $p\ge11$); $L^2$ forms of the barrier lemma and of Cor 10.20 | proved (the $L^2$ hypothesis is unproved) |
+| Prop 11.10–11.13, Thm 11.14 | Odd $p$: the exact first-moment machinery of §10.1 at every odd prime; an exact second-moment identity; per-window Cauchy–Schwarz provably cannot work. **Conditional:** a fine-scale equidistribution hypothesis FE implies $\mu(K_p)>0$ | proved (FE unproved; heuristically of barrier type; numerically plausible at $p\ge5$, doubtful at $p=3$) |
+| Thm 11.17–11.19 | Single gate blocks (windows of length $p$) satisfy an RMF-type per-level Fourier bound at every level, though not RMF itself: the ratio $\rho_d$ of the level-$d$ $L^1$ Fourier shell to its random-model value satisfies $\sup_d\rho_d\le1.3203,1.1760,1.8377,1.2064$ ($p=5,7,11,13$). This explains round 2's ratio $\approx1.17$ as an explicit constant $J_p$ | proved; certified constants computer-assisted |
+| Thm 11.22, Prop 11.23–11.24 | A collision-count ($L^2$) version of Theorem 10.16 (budget $<1$ if and only if $p\ge11$); $L^2$ forms of the barrier lemma and of Cor 10.20 | proved (the $L^2$ hypothesis is unproved) |
 | §11.4(e) | All certified Fourier shell sums of round 2 are now in interval arithmetic | computer-assisted (three implementations) |
-| Thm 11.25, Lemma 11.26 | **$f(1,29)\ge17\,865\,943\,312$**, about 29 times the previous bound (uniform depths $t\le6$ by three programs; all 28 depth-7 positions by two). An exact covering criterion for blocks of length $p<H\le2p$. Of 64 genuine registered predictions of the bottleneck law, 63 were confirmed | computer-assisted; lemma proved |
+| Thm 11.25, Lemma 11.26 | **$f(1,29)\ge17\,865\,943\,312$**, about 29 times the previous bound (uniform depths $t\le6$ by three programs; all 28 depth-7 positions by two). An exact covering criterion for blocks of length $p<H\le2p$. Of 64 genuine registered predictions of the bottleneck law, 63 were confirmed | computer-assisted; lemma proved; the bottleneck law itself is heuristic (Conj 10.24) |
 
 ## What is new (round 1, 2026-10-08)
 
@@ -70,14 +70,14 @@ The referees found **no fatal or serious mathematical error**. They found two se
 
 | | Statement | Status |
 |---|---|---|
-| Thm 10.1 | **$\mu(K_2)=0$.** The set of 2-adic $x$ with $g_2(x)=\infty$ has Haar measure $0$. Hence $\delta_G(2)\to0$, and $f(a,2)<\infty$ for all $a$ outside a set of natural density $0$. The proof is an exact quenched martingale for the carry branching process, plus an environment walk that is unbounded below. It says nothing about any particular $a$; $a=594$ is still a live test case. Kitamura had observed the decay of the surviving density empirically; we know of no earlier proof | proved; checked line by line by the AI logic referee; its core window identity was tested exactly by three separate programs |
+| Thm 10.1 | **$\mu(K_2)=0$.** The set of 2-adic $x$ with $g_2(x)=\infty$ has Haar measure $0$. Hence $\delta_G(2)\to0$, and $f(a,2)<\infty$ for all $a$ outside a set of natural density $0$. The proof is an exact quenched martingale for the carry branching process, plus an environment walk that is unbounded below. It says nothing about any particular $a$. *(Round 3: Kitamura's live test case $a=594$ is now resolved, $f(594,2)=90394$; note.md Thm 11.2.)* Kitamura had observed the decay of the surviving density empirically; we know of no earlier proof | proved; checked line by line by the AI logic referee; its core window identity was tested exactly by three separate programs |
 | §10.2 | **Larger certified lower bounds** (table below), and the same deep alternative for every "deep" $a\le1000$ at $p=7,11,13$ | computer-assisted (programs A, B, C) |
 | §10.2 | **$\mathrm{Cov}(11,7,40)$ is false.** The class $K'\equiv37$ misses exactly 2 residues mod $11^{10}$; $H=41$ is needed there | computer-assisted (four programs) |
 | Lemma 10.11, §10.2 | Layer obstruction: $\mathrm{Cov}(p,t,H)$ needs $(H-1)\bmod p\ge\rho_0(p)$. The minimal uniform $H_t$ are tabulated for $p=7,\dots,23$, $t\le6$ or $7$ (e.g. $H_6(7)=34$) | proved; table computer-assisted (minimality scanned by programs A and C) |
 | Thm 10.12, Cor 10.13 | An exact criterion for when "the incoming carries meet every class mod $p^D$" guarantees crossing a block. Fullness alone cannot carry a single level-$j$ gate block (for $D_p\le D\le j$), or a window of length $H$ with $e(H-1)!\le p^D\le p^{t-1}$. Whether it can carry a whole gate-to-gate stretch is open | proved; abstract core in Lean |
 | Prop 10.14 | Monotonicity of $\mathrm{Cov}$ in $H$. Part (a) is the $\mathrm{Cov}$-level form of Tao's step | proved; recursion in Lean |
 | Thm 10.16, Thm 10.18 | Two **sufficient conditions** for Q3, neither proved. (i) A random-model Fourier bound $\mathrm{RMF}(p,C)$ with $C(\Lambda_p+\tau_p(3))<1$, where $\Lambda_7=0.363$ and $\Lambda_{13}=0.0351$; since $\Lambda_5>1$, this route cannot work at $p=5$. (ii) At $p=13$, an $L^1$ bound on the deep-gate Fourier shells alone; all frequencies of order $\le13^{67\,977\,551}$ vanish exactly | proved (the conditions are unproved) |
-| §10.4 | Certified Fourier shell sums $\sum_{k\le7}T_{13}(k)\le0.0093$ and $\sum_{k\le8}T_{11}(k)\le0.0669$, giving quantitative equidistribution (Cor 10.17). An exact renormalisation identity (Prop 10.19, at exactly attained levels $W$) shows that supremum-type transfer bounds cannot give decay (Cor 10.20). A factorial-base digit formula (Prop 10.21) | proved; shell sums in floating point with outward margins by three implementations, dominant shells also in interval arithmetic |
+| §10.4 | Certified Fourier shell sums $\sum_{k\le7}T_{13}(k)\le0.0093$ and $\sum_{k\le8}T_{11}(k)\le0.0669$, giving quantitative equidistribution (Cor 10.17). An exact renormalisation identity (Prop 10.19, at exactly attained levels $W$) shows that supremum-type transfer bounds cannot give decay (Cor 10.20). A factorial-base digit formula (Prop 10.21) | proved; shell sums in floating point with outward margins by three implementations, dominant shells also in interval arithmetic *(round 3: all shells now certified in interval arithmetic, note.md §11.4(e))* |
 
 | $p$ | 7 | 11 | 13 | 17 | 19 | 23 |
 |---|---|---|---|---|---|---|
@@ -93,8 +93,8 @@ The "deep $a\le1000$" statements also rely on the archived round-1 landscapes.
 
 **Not counted as results** (note.md §10.1.4, §10.5):
 - the R1a track's second route to $\mu(K_2)=0$;
-- its explicit bound, Claim 10.9. This is unverified, and it has a $1/16$ floor, so it gives no rate for $\delta_G(2)$;
-- the heuristic Conjectures 10.22–10.26. Of the counting law's registered predictions (Conj 10.24), three were genuine out-of-sample tests, and all three were confirmed.
+- its explicit bound, Claim 10.9. This is unverified, and it has a $1/16$ floor, so it gives no rate for $\delta_G(2)$ (round 3 proves a rate by another route, Thm 11.7, and a computer-assisted analogue of the claim, Thm 11.9);
+- the heuristic Conjectures 10.22–10.26. Of the counting law's registered predictions (Conj 10.24), three were genuine out-of-sample tests, and all three were confirmed (round 3: of 64 further genuine predictions, 63 were confirmed and 1 was falsified; note.md §11.5).
 
 **Corrections made after the round-2 referees** (note.md §10.8):
 - **Credit.** K. Kitamura is now credited with describing $p=2$ as a critical branching process and with reporting a measured decay of the surviving fraction. Our round 1 had attributed that picture to itself.
@@ -118,7 +118,7 @@ The "deep $a\le1000$" statements also rely on the archived round-1 landscapes.
 | $f(1,11)\ge21\,435\,880$ *(superseded in round 2)* | $\mathrm{Cov}$ certificates for $t\le6$ plus the ten depth-7 positions $11^7K''$ (found during refereeing) | the referee's `rcover.c` and our `cov_pos.c` |
 | $f(a,7)\ge960\,792$ for $a=2,3,5$ *(superseded in round 2)* | as above, with the six depth-7 positions $7^7K''$ | `cov_pos.c` and `rcover.c` |
 | every $a\le1000$: either $f(a,13)-v_{13}(a!)\in\{0,1\}$ or $f(a,13)\ge67\,977\,552$; similarly $\{0,1\}$ / $21\,435\,880$ at $p=11$ and $\le3$ / $960\,792$ at $p=7$ *(deep alternatives superseded in round 2)* | certificates + exact small-$a$ landscapes | landscapes: archived run + the computational referee's independent DP |
-| $f(1,p)\ge25\,646\,163$ ($p=17$), $49\,659\,537$ (19), $154\,764\,790$ (23), $616\,067\,009$ (29), $917\,087\,135$ (31) *($p=17,19,23$ superseded in round 2)* | Theorem 3.9(c) + certified two-block windows | re-run; windows re-checked by both referees |
+| $f(1,p)\ge25\,646\,163$ ($p=17$), $49\,659\,537$ (19), $154\,764\,790$ (23), $616\,067\,009$ (29), $917\,087\,135$ (31) *($p=17,19,23$ superseded in round 2; $p=29$ superseded in round 3: $f(1,29)\ge17\,865\,943\,312$)* | Theorem 3.9(c) + certified two-block windows | re-run; windows re-checked by both referees |
 | $f(1,p)\ge p+\dots+p^6$ for $37\le p\le53$ (e.g. $2.26\cdot10^{10}$ at $p=53$); $\ge p+\dots+p^5$ for $59\le p\le97$ | Theorem 3.9(c) alone (covering depth of $\{(-1)^u/u!\}$) | archived run; re-checked by the computational referee (and by the logic referee for $p\le53$) |
 | $f(a,2)<\infty$ on density $\ge0.8866$ ($G=29$; three programs) and $\ge0.8984$ ($G=32$; two programs). Kitamura's census already gave $0.8734$ | exact class census | see note.md §4.7 |
 | $f(a,p)<\infty$ on density $\ge0.6367$ ($p=3$), $0.4784$ (5), $0.3761$ (7), $0.3002$ (11), $0.2455$ (13): the first such densities at odd primes beyond $a\equiv-1$ | exact class census | archived/re-run + the computational referee |
@@ -129,8 +129,8 @@ Two frontier results in note.md §4.5 ($f(3,5)\ge117\,499$ and $f(a,3)\ge50$ for
 ## What is conjectural
 
 These are **not** proved; see note.md §5–6.
-- $f(a,2)<\infty$ for every $a$ (Conjecture 5.1). *The weaker form $\mu(K_2)=0$ is now proved (Theorem 10.1).* Evidence for the strong form: exact densities to $G=32$ and Monte Carlo to $G=254$; but a measure-theoretic argument cannot see a countable set.
-- $\mu(K_p)>0$ for every odd $p$ (Conjecture 5.2); numerically $\mu(K_3)\approx0.36$, $\mu(K_5)\approx0.52$, $\mu(K_7)\approx0.62$.
+- $f(a,2)<\infty$ for every $a$ (Conjecture 5.1). *The weaker form $\mu(K_2)=0$ is now proved (Theorem 10.1).* Evidence for the strong form: exact densities to $G=32$, Monte Carlo to $G=254$, and (round 3) exact finite values for every $a\le32768$ (Theorem 11.4); but a measure-theoretic argument cannot see a countable set.
+- $\mu(K_p)>0$ for every odd $p$ (Conjecture 5.2); numerically $\mu(K_3)\approx0.36$, $\mu(K_5)\approx0.52$, $\mu(K_7)\approx0.62$. Round 3 reduces it to an unproved fine-scale equidistribution hypothesis FE (Theorem 11.14).
 - $\mathrm{UC}(p)$ for $p\ge7$ (Conjecture 5.3), which would give $f(1,p)=\infty$ and answer Q3 positively. Certified for depths $t\le7$ at $p=13$; the "missing lemma" for $t\ge8$ is stated precisely in §6.
 - The Fourier and branching-process heuristics of §5.
 - *Round 2* (note.md §10.5):
@@ -152,7 +152,7 @@ These are **not** proved; see note.md §5–6.
 
 ## Reproducing
 
-You need a C compiler (clang or gcc) and Python 3. A few sanity scripts use `numpy` and `sympy`. Lean 4 + Mathlib (v4.34.1) is needed only for the Lean files. Everything was run on macOS (Apple silicon) using at most 3 cores.
+You need a C compiler (clang or gcc) and Python 3. A few sanity scripts use `numpy` and `sympy`. Lean 4 + Mathlib (v4.34.1) is needed only for the Lean files. Rounds 1 and 2 were run on macOS (Apple silicon) using at most 3 cores. Round 3 ran on Linux x86_64 with 4 shared cores, and also needs GMP and the Python packages `mpmath`, `gmpy2` and `python-flint` (note.md §11.7).
 
 ```sh
 cd code
