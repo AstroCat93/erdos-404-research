@@ -2,14 +2,14 @@
 
 Checker: check_R3C. Code: `code/round3/check_R3C/`. Logs: `data/round3/check_R3C/`. Binaries: fresh `clang -O3 -march=native` builds of the committed sources, in the session scratch directory; the sha256 of the binary is written into every log.
 Track material read (read-only): `data/round3/reports/R3C.md` (all 485 lines, the version of 19:14 UTC), every file in `code/round3/R3C/` and `code/round3/R3C/specs/`, every log in `data/round3/R3C/` (with `p29_t7/`, `p29_t7_H44/`, `valD/`), the original instance's scratch files in `/tmp/r3_R3C/`, and note.md §1.4, §3.5, §3.7, §4.2, §4.4, §10.2, §10.5, §10.7 (rows C1–C6). The sources of programs A, B and C were read in full: `code/round2/R3/src/fibcov.c`, `fibcov2.c`, `code/round2/review/computation/covchk.c`; program D (`code/round3/R3C/covfast.c`) was read line by line.
-CPU used: about 1.5 core-hours (A 16 min, C 39 min, D 8 min of CPU on depth-7 positions; own brute force 24 min; everything else under 2 min), wall time about 1 h 15 min. All jobs ran at `nice -n 10`, never more than two of mine at a time, never more than 8.7 GB resident in total (each A and C job under a `ulimit -v` cap of 4.7 GB; D jobs alone). Another agent's job (`rsolve`, about 2.5 GB, one core) was running on the machine at the same time and was not touched.
+CPU used: about 1.5 core-hours (on depth-7 positions: A 16 min, C 38 min, D 8 min; own brute force 24 min; everything else under 3 min); the computations took about 55 min of wall time (19:17–20:11 UTC). All jobs ran at `nice -n 10`, never more than two of mine at a time, never more than 8.7 GB resident in total (each A and C job under a `ulimit -v` cap of 4.7 GB; D jobs alone). Another agent's job (`rsolve`, about 2.5 GB, one core) was running on the machine at the same time and was not touched.
 Every program of this check was written for this check; `indep.py` shares no code with programs A–D, `bigbrute.py` or anything else in `code/round2` and `code/round3/R3C`.
 
 ## 0. Verdicts
 
 | id | claim (short) | verdict |
 |---|---|---|
-| R1 | $f(1,29)\ge v_{29}((29^8-1)!)=17\,865\,943\,312$ | **confirmed** [computer-assisted]. Chain logic checked against Prop. 10.10; all 68 certificate logs audited line by line; bound value recomputed; binaries rebuilt byte-identically; A and D re-run at $K''=4,27$, and C (a third program) at $K''=15,21$: all COVERED; both chain checkers re-run (CHAIN OK) with new controls. The independence wording behind it needs a fix (see R6) |
+| R1 | $f(1,29)\ge v_{29}((29^8-1)!)=17\,865\,943\,312$ | **confirmed** [computer-assisted]. Chain logic checked against Prop. 10.10; all 68 certificate logs audited line by line; bound value recomputed; binaries rebuilt byte-identically; A and D re-run at $K''=4,27$, and C (a third program) at $K''=1,15,21,28$: all COVERED; both chain checkers re-run (CHAIN OK) with new controls. The independence wording behind it needs a fix (see R6) |
 | R2 | for $1\le a<29^8-45$: $f(a,29)<v_{29}((a+45)!)$ or $f(a,29)\ge17\,865\,943\,312$ | **confirmed** (general-$a$ form of Prop. 10.10 re-derived; same certificates) |
 | R3 | minimal uniform $H_t$: $7,13,19,24,29,40$ ($p=29$), $7,14,19,25,30,41$ ($p=31$) | **confirmed** [computer-assisted]. Scan logic and logs checked; for $t\le5$ every non-trivial $H\le H_t$ re-decided by an own brute force without fibres, with the same exact miss counts as A and C |
 | R4 | three two-residue failures | **confirmed** [negative, computer-assisted]. In addition, an own meet-in-the-middle test (no fibres, exact integers) confirms that all six listed residues are not subset sums |
@@ -67,7 +67,7 @@ The script re-derives $c$, $M$ and the expected class or position set for every 
 
 ## 3. Re-runs at depth 7 (logs `X_*_p29_t7_H45_K*.log`)
 
-These are fresh builds with the same hashes, at $H=45$, $k=1$, and with the same environment as the archived runs (D: `COVFAST_ZMAX=16777216`). I chose positions from all three provenance batches: the original instance ($K''=4$), the lead's first queue ($K''=15$, whose A log was committed half-finished in `2311c5f`) and the second queue ($K''=21$, and $K''=27$, also committed half-finished).
+These are fresh builds with the same hashes, at $H=45$, $k=1$, and with the same environment as the archived runs (D: `COVFAST_ZMAX=16777216`). I chose positions from all three provenance batches: the original instance ($K''=1,4$), the lead's first queue ($K''=15$, whose A log was committed half-finished in `2311c5f`) and the second queue ($K''=21,28$, and $K''=27$, also committed half-finished). The C runs on $K''=1$ and $28$ were added after the first four C/A runs (`batch_extraC.sh`).
 
 | program | $K''$ | result | wall | archived result |
 |---|---|---|---|---|
@@ -77,8 +77,10 @@ These are fresh builds with the same hashes, at $H=45$, $k=1$, and with the same
 | D | 27 | `missing=0 COVERED`; all 29 fibres end in the complement phase | 245 s | COVERED (324 s) |
 | **C** (third program) | 15 | `miss=0 COVERED` | 603 s | not run before |
 | **C** (third program) | 21 | `miss=0 COVERED` | 576 s | not run before |
+| **C** (third program) | 1 | `miss=0 COVERED` | 555 s | not run before |
+| **C** (third program) | 28 | `miss=0 COVERED` | 573 s | not run before |
 
-So two positions now carry three programs, A, D and C. C has a different element arithmetic (128-bit products), a different construction of the fibre start sets (two-list split, lowest-set-bit recursion) and a different cyclic kernel (two `or_off` passes with bit-by-bit heads). It is the program whose independence from A round 2 accepted.
+So four positions ($K''=1,15,21,28$) now carry three programs, A, D and C, and A and D were each reproduced on two positions. For the jobs that ran under a memory cap (A and C), bash's `time` line did not reach the log; their wall times are the programs' own timers, and the start and end stamps are in the logs. C has a different element arithmetic (128-bit products), a different construction of the fibre start sets (two-list split, lowest-set-bit recursion) and a different cyclic kernel (two `or_off` passes with bit-by-bit heads). It is the program whose independence from A round 2 accepted.
 
 ## 4. Chain checkers (log `chains_rerun.log`)
 
@@ -142,11 +144,11 @@ What is not shared:
 - A's meet-in-the-middle split. At depth 7 this is idle: $|L|=16$, so $n_1=0$.
 
 **Assessment.**
-- D is not "independent of A" in the sense of "written without A's code". It is a re-implementation of the same fibre method by an author who had A, B and C open. It keeps A's skeleton and enumeration code with renamed variables and adds new code at the points where the computation is delicate.
+- D is not "independent of A" in the sense of "written without A's code". It is a re-implementation of the same fibre method by an author who evidently had the sources of A, B and C at hand. It keeps A's skeleton and enumeration code with renamed variables and adds new code at the points where the computation is delicate.
 - The report's sentences "they share no code beyond four generic boilerplate lines" (headline) and "No algorithmic code is shared with A" (§4.2) are therefore not accurate. The doubling enumeration of $\Sigma(L)$ and the counting sort build the fibre start sets, which is algorithmic code, though elementary.
 - The overlap is of the same size as the A–C overlap that round 2 accepted. The shared fragments are short, correct by inspection and covered by the brute-force validation at every $k$. They cannot produce a spurious covered residue except through faulty modular arithmetic, which inspection rules out.
 - **So the two-program certificate A+D is meaningful, but the text must describe the relation honestly.** Suggested wording: "D was written in round 3 by a different instance, with the sources of A, B and C at hand. It re-implements the same fibre method. Its driver, its enumeration of $\Sigma(L)$ and its counting sort follow A and B closely, with renamed variables. Its element arithmetic (exact GMP products at the actual position), its cyclic kernel (padded, single pass) and its list and complement phases are new."
-- Cleanest remedy, optional: run C on the remaining 26 depth-7 positions, about 4.3 CPU-hours at about 590 s each. R1 would then also rest on A+C, the pair round 2 accepted, with D as a third program everywhere. This check ran C on $K''=15$ and $21$ (§3).
+- Cleanest remedy, optional: run C on the remaining 24 depth-7 positions, about 3.9 CPU-hours at about 580 s each. R1 would then also rest on A+C, the pair round 2 accepted, with D as a third program everywhere. This check ran C on $K''=1,15,21,28$ (§3).
 
 ### 5.3 Validation record of D
 
@@ -165,7 +167,7 @@ What is not shared:
 
 ### 6.1 R3: the scans for $t\le5$ (`indep_scans.log`)
 
-For $t\le5$ every $H\le H_t$ has $c=0$, so one class decides. I re-decided every $H$ that is not excluded by counting, at the position $K=5$; A used $K=1$, C used $K=1$ or $3$, D used $K=4$. Every miss count equals the count of A and C in the scan logs:
+For $t\le5$ every $H\le H_t$ has $c=0$, so one class decides. I re-decided every $H$ that is not excluded by counting or by Lemma 10.11, at the position $K=5$; A used $K=1$, C used $K=1$ or $3$, D used $K=4$. Every miss count equals the count of A and C in the scan logs:
 
 | $p$, $t$ | $H$ : exact number of residues missed (mine) |
 |---|---|
@@ -207,7 +209,7 @@ This reproduces the counts of `lemma_check.log` (126 and 46) with a separately w
 
 **$p=29$** (`indep_lemma29.log`).
 - $t=2,3,4$: for every $H=30..58$ and all 28 classes ($K'+5\cdot29$), the outcome agrees with the lemma, uniformly in the class, with no mismatch.
-- $t=5$: $\mathrm{Cov}(29,5,H)$ holds over all 28 classes for $H=36,37,38,39$ (a fibre-free bitset of $29^6$ bits; 260–275 s per $H$).
+- $t=5$: $\mathrm{Cov}(29,5,H)$ holds over all 28 classes for $H=36,37,38,39$ (a fibre-free bitset of $29^6$ bits; 264–287 s per $H$).
 
 So the falsified registered prediction, FAIL at $(29,5,36)$, is confirmed to be falsified by a fourth program, which has no fibre split. The run of holds at $(29,5,36..39)$ in §2 of the report is reproduced.
 
@@ -226,7 +228,7 @@ Setting: $p$ odd, $2\le t\le L_p$, $p<H\le2p$, $\rho=H-1-p\in[0,p-1]$.
 
 The label [proved] is correct, with "checked by the track and by this check only". The report is right that the lemma came after the $(29,5,36)$ outcome: `scanall_p29_t5.log` ended at 06:16:51 and `lemma_check.log` started at 06:56:58. It is an explanation after the fact.
 
-## 8. Registered predictions (R7; logs `predictions_check.log`, `pred_recount.log`, `predict_extra_rows.log`)
+## 8. Registered predictions (R7; logs `predictions_check.log`, `predict_extra_rows.log`)
 
 **Recount.** `pred_recount.py` has its own parser and its own classification rules, and gives exactly the report's numbers. Of 120 rows: 63 confirmed, 1 falsified ($(29,5,36)$), 11 known in advance, 20 refuted by proofs, 4 MIXED, 21 not run. `pred_eval.py`, re-run, reproduces the archived `PREDICTIONS_evaluation.txt` byte for byte (apart from its two header lines). I checked the list of near-threshold cases in §5.2 of the report against the registration file and the scan logs, and the $\nu$ values for $(29,5,36)$ ($R^*=2^{29}/29^5=26.17$; $\nu=1.296$ for $n=1$ and $1.112$ for $n=28$).
 
@@ -264,7 +266,7 @@ Required:
 4. **§5.1 "first run whose outcome it predicts"**: this was `validate_AC.log` at 06:13:29, not the depth-7 run at 06:14:49 (§8 item 3).
 
 Suggested:
-5. Run C on the remaining 26 depth-7 positions (about 4.3 CPU-hours). R1 would then also rest on the pair A+C, accepted in round 2, and on three programs everywhere. This check ran C on $K''=15,21$ (both covered).
+5. Run C on the remaining 24 depth-7 positions (about 3.9 CPU-hours). R1 would then also rest on the pair A+C, accepted in round 2, and on three programs everywhere. This check ran C on $K''=1,15,21,28$ (all covered).
 6. Update the docstring of `chain_c_r3.py`: it lists three changes but omits the two parsing changes and the exception syntax.
 7. In the headline, refer to the near-threshold breakdown of §5.2 when quoting "63 of 64" (§8 item 4).
 
@@ -272,7 +274,7 @@ None of these changes touches the bound $f(1,29)\ge17\,865\,943\,312$, its statu
 
 ## 11. Commands and logs
 
-All commands run from the repository root. Logs are in `data/round3/check_R3C/`. Each log starts with its command line, the sha256 of the binaries, the start time and the memory cap, and ends with wall/user/sys time, the exit status and the end time (`run_logged.sh`).
+All commands run from the repository root. Logs are in `data/round3/check_R3C/`. Each log starts with its command line, the sha256 of the binaries, the start time and the memory cap, and ends with wall/user/sys time (missing for the memory-capped A and C jobs, see §3), the exit status and the end time (`run_logged.sh`).
 
 ```sh
 B=<scratch>/chkR3C_bin                    # fresh builds, hashes in every log
@@ -285,16 +287,18 @@ python3 code/round3/check_R3C/contradictions.py > contradictions.log
 python3 code/round3/check_R3C/simcheck.py      > simcheck.log       # section 5.2
 BIN=$B sh code/round3/check_R3C/batch_depth7.sh   # section 3: A K''=4,27 | C K''=15,21 (parallel), then D K''=4,27
 sh code/round3/check_R3C/batch_light.sh           # sections 4, 6, 8: chains_rerun.log, predictions_check.log, indep_*.log
-python3 code/round3/check_R3C/pred_recount.py  > pred_recount.log   # section 8
+BIN=$B sh code/round3/check_R3C/batch_extraC.sh  # section 3: C K''=28, 1
+# section 8: the predictions block of batch_light.sh was re-run after a keying bug in pred_recount.py
+# (p = 31 position rows were matched against p = 29 logs) was fixed; predictions_check.log is the re-run
 ```
 
 | log | content | wall |
 |---|---|---|
 | `X_A_p29_t7_H45_K{4,27}.log` | A at depth 7 | 501 s, 484 s |
-| `X_C_p29_t7_H45_K{15,21}.log` | C at depth 7 | 603 s, 576 s |
+| `X_C_p29_t7_H45_K{1,15,21,28}.log` | C at depth 7 | 555 s, 603 s, 576 s, 573 s |
 | `X_D_p29_t7_H45_K{4,27}.log` | D at depth 7 | 242 s, 245 s |
 | `chains_rerun.log` | both chain checkers, all specs, new controls, round-2 re-validation | < 10 s |
-| `predictions_check.log`, `pred_recount.log`, `predict_extra_rows.log` | registration regenerated, pred_eval re-run, own recount | < 10 s |
+| `predictions_check.log`, `predict_extra_rows.log` | registration regenerated, pred_eval re-run, own recount | < 10 s |
 | `indep_{rho0,selftest,scans,negatives,lemma,lemma29}.log` | own brute force | 0.5 s, 10 s, 1.3 s, 73 s, 15 s, 1222 s |
 | `logaudit.log`, `contradictions.log`, `simcheck.log` | audits | < 2 s |
 

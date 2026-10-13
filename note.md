@@ -127,7 +127,7 @@ Each item was produced by one round-3 track and checked by a separate AI instanc
     - A collision-count version of Theorem 10.16 [proved; hypothesis unproved].
     - $L^2$ forms of the barrier lemma and of Corollary 10.20 [proved].
     - Every certified shell sum of §10.4.1 is now in interval arithmetic [computer-assisted].
-23. **Covering frontier (§11.5):** R3C_SUMMARY_PLACEHOLDER
+23. **Covering frontier (§11.5).** $f(1,29)\ge v_{29}((29^8-1)!)=17\,865\,943\,312$, about 29 times the previous $616\,067\,009$ [computer-assisted; uniform depths $t\le6$ by three programs, all 28 depth-7 positions by two]. The minimal uniform $H_t$ for $t\le6$ at $p=29,31$ [computer-assisted]. An exact covering criterion for blocks of length $p<H\le2p$ [proved]. Of 64 genuine registered predictions of the bottleneck law, 63 were confirmed and 1 was falsified [heuristic law].
 
 ---
 
@@ -1861,7 +1861,7 @@ Where a report was completed or corrected by the lead after the interruption or 
    - A collision-count ($L^2$) version of Theorem 10.16 holds; its budget is $<1$ exactly for $p\ge11$.
    - $L^2$ forms of the barrier lemma and of Corollary 10.20 are proved.
    - All certified shell sums of §10.4.1 are now in interval arithmetic.
-5. **Covering frontier (§11.5):** [filled in below].
+5. **Covering frontier [computer-assisted] (§11.5):** $f(1,29)\ge17\,865\,943\,312$, about 29 times the previous bound, from position certificates at all 28 depth-7 positions by two programs. There is also an exact covering criterion for blocks of length $p<H\le2p$ (Lemma 11.26).
 6. **Q3 remains OPEN.** Nothing in this note proves $f(a,p)=\infty$ for any pair $(a,p)$. **Q1 remains open in general**; at $p=2$, finiteness is now known for all $a\le32768$ and on a set of density 1 with an explicit (very weak) rate.
 
 ### 11.1 The prime 2, natural numbers: exact values up to 32768 (track R3N)
@@ -2088,7 +2088,25 @@ Every shell of §10.4.1 is now certified in interval arithmetic. This confirms r
 
 ### 11.5 The certified covering frontier (track R3C)
 
-[R3C_PLACEHOLDER]
+Notation of §3.7 and §10.2. Full record in `data/round3/reports/R3C.md`.
+
+**Theorem 11.25 [computer-assisted].** $f(1,29)\ge v_{29}((29^8-1)!)=17\,865\,943\,312$. More generally, for $1\le a<29^8-45$, either $f(a,29)<v_{29}((a+45)!)$ or $f(a,29)\ge17\,865\,943\,312$.
+
+The previous best bound was $f(1,29)\ge616\,067\,009$ (§4.4), from Theorem 3.9(c) and a two-block window; the new one is about 29 times larger. (For comparison, round 1's Theorem 3.9(c) bounds give larger values at some larger primes, e.g. $f(1,53)\ge2.26\cdot10^{10}$.) The proof is Proposition 10.10 with $D=8$ and these certificates:
+- uniform $\mathrm{Cov}(29,t,H_t)$ for $t\le6$ with $H_t=7,13,19,24,29,40$, over all unit classes, by three programs: A and C from round 2, and the new program D;
+- the 28 depth-7 positions $N^*=29^7K''$, $1\le K''\le28$, each with a block of length $H=45$, by programs A and D.
+
+Program D (`code/round3/R3C/covfast.c`) was written in round 3 by a different instance from program A's author. It shares no verbatim code with A beyond generic boilerplate. With identifiers renamed, however, it follows A's program skeleton, A's subset-sum doubling loop and A's shift-OR inner kernel, and B's counting-sort block (R3C check). This is the same level of overlap as between A and C, which round 2 accepted; D also differs from A in its exact GMP elements, its three-phase fibre completion and its exact miss counts. It agrees with an independent brute force in 7680 comparisons, and it reproduces, at full size, the exact miss counts of eight configurations established in round 2 by other programs. Both chain checkers report CHAIN OK: a new one, and the round-2 computational referee's `chain_c.py` with its exclusion logic unchanged. The R3C check audited all 68 certificate logs, rebuilt the binaries byte-identically, re-ran A and D at $K''=4,27$, and ran the third program C at $K''=15,21$; every one is covered.
+
+**Further results.**
+- *Minimal uniform $H_t$ [computer-assisted, programs A and C].* For $t\le6$ they are $7,13,19,24,29,40$ at $p=29$ and $7,14,19,25,30,41$ at $p=31$.
+- *Negative certificates [computer-assisted, A, C and D].* $\mathrm{Cov}(29,6,39)$ and $\mathrm{Cov}(31,6,40)$ are false: the class $K'=2$ misses exactly 2 residues, the same two in every program. The depth-7 block of length 44 ending at $29^7\cdot3$ misses exactly 2 residues mod $29^8$.
+- *Lemma 11.26 [proved].* Let $p$ be odd, $2\le t\le L_p$ and $p<H\le2p$. Then $\mathrm{Cov}(p,t,H)$ holds if and only if $H\ge p+1+\rho_0(p)$. In that case the block covers $\mathbb Z/p^{t+1}$ for every multiple $X$ of $p^t$ in place of $p^tK'$.
+
+  *Proof idea.* The $\rho+1$ unit elements reduce mod $p$ to a unit multiple of the truncated series $\{(-1)^w/w!\}_{w\le\rho}$, where $\rho=(H-1)\bmod p$. The $p$ elements of valuation 1, divided by $p$, are mod $p^t$ a unit multiple of $\{(-1)^u/u!\}_{u<p}$, which covers $\mathbb Z/p^t$ for $t\le L_p$. Combine the two layers. The converse is Lemma 10.11(c).
+- *The bottleneck law (Conjecture 10.24), registered predictions [heuristic law; outcomes computer-assisted].* The predictions were registered at 06:12:36 UTC, before any run whose outcome they predict. Of 64 genuine band predictions, 63 were confirmed and 1 was falsified: uniform $\mathrm{Cov}(29,5,36)$ was predicted to fail ($\nu=1.112$) but holds. Lemma 11.26 explains this after the fact, since the law ignores the exact structure in the window $p<H\le2p$. Eleven outcomes were known in advance, 20 predictions were settled by proofs rather than tests, 4 lay in the mixed band, and 21 were not run. Separately, the registration's headline rule "minimal $H_t$ = first HOLD-band $H$" is wrong at $(29,2)$: registered 14, observed 13.
+- *$p=31$ is partial.* The uniform depths $t\le6$ are certified by A and C. They give $f(1,31)\ge917\,087\,130$, which is 5 less than the round-1 bound $917\,087\,135$, so there is no new bound at $p=31$. Its 30 depth-7 positions were not run.
+- *Timing only.* One depth-7 position at $p=19$; 48 classes of $\mathrm{Cov}(5,5,39)$ with A and C (all covered), 4 of them also with D. Uniform $\mathrm{Cov}(5,5,39)$ over all 312,500 classes remains open.
 
 ### 11.6 Status of Q1–Q3 after round 3, and what remains
 
@@ -2140,7 +2158,16 @@ Machine: Linux x86_64, 4 shared cores (Intel Xeon, 2.1 GHz), 15 GB RAM; all heav
 - **R3Q.** A third slope certificate (dual numbers) and random exact tests of every lemma (0 failures). An independent exact evaluator reproduces every row of Corollary 11.8 and the closed forms.
 - **R3M.** Independent exact tests of every proved item at $p=3,5,7$ (some at 11). Proposition 11.13 holds with exact equality in every single-parent case, as its proof predicts.
 - **R3F.** An arb-certified third shell program (`shellchk`) recomputes every level used in Theorem 11.19, including $p=13$, $d=9$. Two independent methods recompute $J_p$, and a third implementation recomputes the interval totals of (e).
-- **R3C.** [R3C_CHECK_SUMMARY]
+- **R3C.** The checker:
+  - audited all 68 certificate logs line by line and recomputed the bound;
+  - rebuilt the binaries byte-identically from the committed sources;
+  - re-ran A and D at $K''=4,27$, and ran the third program C at $K''=15,21$, all covered;
+  - re-ran both chain checkers with new negative controls;
+  - re-decided, with its own brute force (no fibres), every non-trivial $H\le H_t$ for $t\le5$, with the same exact miss counts;
+  - confirmed the six missed residues of the negative certificates by a meet-in-the-middle test;
+  - checked Lemma 11.26 line by line and numerically.
+
+  Its fixes, applied: program D's independence from A is structural rather than verbatim (§11.5), and the registered minimal-$H$ rule misses at $(29,2)$.
 
 **Round-3 referees** (`data/round3/referees/`). Three AI referees checked §11 and the [Round 3] edits. All found **no fatal or serious error**.
 - *Logic referee.* It re-checked line by line Propositions 11.10–11.13, Theorem 11.14, Lemma C4 of R3M, Proposition 11.15, Lemma 11.6, R3Q's stopped-martingale bound and the reduction in Theorem 11.7, and Theorems 11.17 and 11.22. All are correct. It checked S0's Lemma S0.1, which nobody else had checked, and proved the exact value $P(E_{2^m})=(2m+3)/2^{m+2}$; an exact enumeration to $n\le2^{18}$ confirms both bounds. It made 17 minor findings, all applied:

@@ -1,5 +1,7 @@
 # Track R3C (round 3, 2026-10-13): the certified covering frontier at p = 29 (and p = 31)
 
+*Lead's note after the adversarial check (`data/round3/checks/R3C.md`): the check confirms R1–R5, R8 and R9. It qualifies R6: program D shares no verbatim code with A beyond boilerplate, but with identifiers renamed it follows A's skeleton, doubling loop and shift-OR kernel, and B's counting-sort block (the same level of overlap as A and C, accepted in round 2). For R7 it notes that the registration's rule "minimal H_t = first HOLD-band H" misses at (29,2) (registered 14, observed 13). note.md §11.5 states both.*
+
 ## Headline
 
 **$f(1,29)\ge v_{29}((29^8-1)!)=17\,865\,943\,312$.** [computer-assisted]

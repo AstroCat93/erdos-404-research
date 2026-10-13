@@ -41,7 +41,7 @@ Round 3 was produced by a third AI-assisted session. Each of six tracks was chec
 | Thm 11.17–11.19 | Single gate blocks satisfy the random-model Fourier bound at every level: $\sup_d\rho_d\le1.3203,1.1760,1.8377,1.2064$ ($p=5,7,11,13$). This explains round 2's ratio $\approx1.17$ as an explicit constant $J_p$ | proved; certified constants computer-assisted |
 | Thm 11.22, Prop 11.23–11.24 | A collision-count ($L^2$) version of Theorem 10.16 (budget $<1$ exactly for $p\ge11$); $L^2$ forms of the barrier lemma and of Cor 10.20 | proved (the $L^2$ hypothesis is unproved) |
 | §11.4(e) | All certified Fourier shell sums of round 2 are now in interval arithmetic | computer-assisted (three implementations) |
-| §11.5 | README_R3C_PLACEHOLDER | |
+| Thm 11.25, Lemma 11.26 | **$f(1,29)\ge17\,865\,943\,312$**, about 29 times the previous bound (uniform depths $t\le6$ by three programs; all 28 depth-7 positions by two). An exact covering criterion for blocks of length $p<H\le2p$. Of 64 genuine registered predictions of the bottleneck law, 63 were confirmed | computer-assisted; lemma proved |
 
 ## What is new (round 1, 2026-10-08)
 
