@@ -120,7 +120,7 @@ def main():
         for d in ds:
             Nd = p ** d - p ** (d - 1)
             q = shell_np(p, d, sg, sq=True)
-            print("  p=%d d=%d (p^(d-1)=%d %s R_p=%d): Q_d/(N_d 2^-p) = %.12f  (claim 3/2 iff p^(d-1) > R_p)"
+            print("  p=%d d=%d (p^(d-1)=%d %s R_p=%d): Q_d/(N_d 2^-p) = %.12f  (Theorem A2(iii): = 3/2 whenever p^(d-1) > R_p)"
                   % (p, d, p ** (d - 1), ">" if p ** (d - 1) > Rp else "<=", Rp, q / (Nd * 2.0 ** -p)), flush=True)
     print("time %.1fs" % (time.time() - t0))
 

@@ -10,7 +10,7 @@ It follows from Proposition 10.10 (chain criterion) with $D=8$ and these certifi
 - uniform $\mathrm{Cov}(29,t,H_t)$ for $t\le6$, with $H_t=7,13,19,24,29,40$, each over all unit classes, checked by programs A, C and D;
 - the $28$ depth-7 positions $N^*=29^7K''$, $1\le K''\le28$, each with a block of length $H=45$, checked by programs A and D.
 
-Programs A and D were written by different track instances (R3 in round 2, R3C in round 3), and they share no code beyond four generic boilerplate lines (§4.2). Both chain checkers report CHAIN OK on these logs: the new checker `chain_r3.py`, and `chain_c_r3.py`, which is the round-2 computational referee's `chain_c.py` with its logic unchanged.
+Programs A and D were written by different track instances (R3 in round 2, R3C in round 3), and they share no code beyond four generic boilerplate lines (§4.2). Both chain checkers report CHAIN OK on these logs: the new checker `chain_r3.py`, and `chain_c_r3.py`, which is the round-2 computational referee's `chain_c.py` with its exclusion logic unchanged (two parsing changes, §1.3).
 
 Other results:
 - **Minimal uniform $H_t$ at $p=29$ and $p=31$, $t\le6$** [computer-assisted, programs A and C]: $7,13,19,24,29,40$ and $7,14,19,25,30,41$.
@@ -21,7 +21,7 @@ Other results:
   - One of the confirmations was run at completion: the registered FAIL prediction for $H=44$ at depth 7. The block of length 44 ending at $29^7\cdot3$ misses exactly 2 residues mod $29^8$, the same two in programs A, C and D.
   - Section 5 lists what was known in advance and what was not run.
 - **$p=31$ is partial.** The uniform depths $t\le6$ are certified by A and C. They give $f(1,31)\ge v_{31}((31^7-1)!)=917\,087\,130$, which is **5 less than** the round-1 bound $917\,087\,135$. So there is no new bound at $p=31$. The 30 depth-7 positions were not run.
-- **Timing only:** one depth-7 position at $p=19$, and 52 classes of $\mathrm{Cov}(5,5,39)$.
+- **Timing only:** one depth-7 position at $p=19$; 48 classes of $\mathrm{Cov}(5,5,39)$ with A and C, and 4 of them with D.
 
 *Provenance.* An external spending limit cut off the original R3C instance at about 08:12–08:20 UTC. By then it had registered its predictions, run the scans, run program D's uniform certificates and validations, and certified the depth-7 positions $K''=1,\dots,5$. The lead then resumed its position queue at 15:08 UTC, as two parallel queues ($K''=6..17$ and $18..28$), which finished at 17:41 UTC. The report was then written by a completing instance, which:
 - re-read every log and source file;
@@ -35,6 +35,8 @@ All of this was done on 2026-10-13. Code: `code/round3/R3C/`. Logs: `data/round3
 *Status labels* follow the round-3 rules:
 - [proved]: written out in full here and checked by this track only; no referee or human has checked it.
 - [computer-assisted]: rests on exact computations, each by two programs that share no code.
+- [negative]: a certified failure of coverage, with the same rule.
+- [heuristic]: evidence or fitted laws, not proofs.
 
 ---
 
@@ -50,7 +52,7 @@ All of this was done on 2026-10-13. Code: `code/round3/R3C/`. Logs: `data/round3
 | R6 | program D is correct on every test and independent of A | computer-assisted validation (§4) |
 | R7 | registered predictions of Conj. 10.24: 63 confirmed, 1 falsified, 11 known in advance, 20 refuted by proofs (not tests), 4 MIXED, 21 not run (§5) | heuristic (the law itself) |
 | R8 | $p=31$: uniform $t\le6$ only; $f(1,31)\ge917\,087\,130$, which is not an improvement | computer-assisted (A+C); partial |
-| R9 | $p=19$ depth 7 at $K''=20$ and $\mathrm{Cov}(5,5,39)$ on 52 classes: timings only | timing only |
+| R9 | $p=19$ depth 7 at $K''=20$; $\mathrm{Cov}(5,5,39)$ on 48 classes (A, C) and 4 classes (D): timings only | timing only |
 
 ---
 
@@ -102,7 +104,7 @@ Both checkers read only the logs. Spec files are in `code/round3/R3C/specs/`. Ea
 | `p29_AC_AD.txt` | A, C for $t\le6$; A, D for depth 7 | **CHAIN OK**, $17\,865\,943\,312$ |
 | `p29_ACD_D7.txt` | A, C, D, uniform only, $D=7$ | CHAIN OK, $616\,067\,004$ |
 | `p31_AC_D7.txt` | A, C, $p=31$, $D=7$ | CHAIN OK, $917\,087\,130$ |
-| `neg_p29_H44.txt` (control) | positions at $H=44$ (never run) | PARTIAL, $616\,067\,004$ |
+| `neg_p29_H44.txt` (control) | positions at $H=44$ (no logs in these directories) | PARTIAL, $616\,067\,004$ |
 | `neg_p29_K27.txt` (control) | positions $K''\le27$ only | PARTIAL (first open position $29^7\cdot28$) |
 | `neg_p29_C_pos.txt` (control) | C required for depth 7 | PARTIAL |
 | `neg_p29_t6_H39.txt` (control) | uniform $(29,6,39)$, which is false | PARTIAL, depth 6 open |
@@ -243,7 +245,7 @@ No defect was found.
 | | $(7,6,33,K'=5)$ and $(7,6,34,K'=5)$ | $H=33$: **2 missed** ($241\,978\,387$ and $94\,559\,789$ mod $7^{10}$); $H=34$: covered. These agree with the round-2 logic and novelty referees' checkers, which recorded the count of 2 | `valD/VD_7_6_33_K5.log`, `valD/VD_7_6_34_K5.log` |
 | | $(13,8,46,K''=1)$; $k=2$, fibre $13^9$ bits, modulus $13^{11}\approx1.8\cdot10^{12}$ | **26 missed** (A and C also found 26); the 26 residues are listed in the log | `valD/VD_13_8_46_K1.log` |
 
-The large checks run D at fibre sizes up to $13^9\approx1.06\cdot10^{10}$ bits. That is the same order as the $29^7\approx1.7\cdot10^{10}$ bits of the depth-7 certificates. The verbose output of the $K''=1$ certificate shows that all 29 of its fibres finished in the complement phase. The brute-force suite forces that phase, and every switch between phases, through its `ZMAX` settings. All eight large configurations agree exactly with the earlier programs.
+The large checks run D at fibre sizes up to $13^9\approx1.06\cdot10^{10}$ bits. That is the same order as the $29^7\approx1.7\cdot10^{10}$ bits of the depth-7 certificates. The verbose output of the $K''=1$ certificate shows that all 29 of its fibres finished in the complement phase. The brute-force suite forces that phase, and every switch between phases, through its `ZMAX` settings. All eight configurations agree exactly with the earlier programs.
 
 **Verdict.** Program D is independent of program A. It is correct on every test, including exact agreement with miss counts that other programs established in round 2 at full size. This is enough for D to serve as the second program behind R1.
 
@@ -255,7 +257,7 @@ The large checks run D at fibre sizes up to $13^9\approx1.06\cdot10^{10}$ bits. 
 
 `data/round3/R3C/PREDICTIONS_registered.txt` carries the internal stamp "registered: 2026-10-13 06:12:36 UTC". Its file time is 06:12:37.
 - **Running order.** The first run whose outcome it predicts is `P29_t7_H45_A_K1.log`, which started at 06:14:49. The first scan started at 06:15:20.
-- **Earlier runs.** The only runs before registration were timing runs at $p=23$ and $p=5$ (`timing_early.log`, about 05:59–06:05 UTC), whose outcomes were already known from round 2. No $p=29$ or $p=31$ computation precedes the registration.
+- **Earlier runs.** The only runs before registration were a memory-bandwidth probe (`bw.c`) and timing runs at $p=23$ and $p=5$ (`timing_early.log`, about 05:58–06:05 UTC), whose outcomes were already known from round 2. No $p=29$ or $p=31$ computation precedes the registration.
 - **Reproducibility.** The file body is reproduced exactly by `predict.py 29 1 7 pos:28` and `predict.py 31 1 7 pos:30` (checked at completion).
 - **Caveat.** The file entered git only with commit `40fc251` at 15:10 UTC, after the runs. The 06:12 timestamps are therefore not anchored externally. They are the file's own stamp and its file-system time.
 - **The bands.** $\nu<1.17$: FAIL; $\nu>1.47$: HOLD; otherwise MIXED, which makes no prediction.
@@ -326,7 +328,7 @@ The $t=1$ rows at $p=31$ with $H=8,9,10$ were not run either; they are counted a
 The registration predicts that blocks of length $H=44$ fail at one or more of the 28 depth-7 positions ($\nu=1.149$, FAIL band, $n=28$). It marks this run "only if budget allows", and the original instance did not run it. At completion:
 - **Program D** ran $K''=1,\dots,8$ and stopped at the first position that is not covered (`queue_completion_h44.sh`; log `p29_t7_H44/P29_t7_H44_D_K1-8.log`, 18:37–18:50 UTC). Positions $K''=1,2$ are covered. **$K''=3$ is not covered.** Exactly 2 residues mod $29^8$ are missed: $197\,789\,838\,580$ and $169\,097\,737\,247$.
 - **Program A** recomputed $K''=3$ (`queue_completion_h44_A.sh`; log `p29_t7_H44/P29_t7_H44_A_K3.log`, 506 s). It lists **the same two residues**.
-- **Program C** recomputed $K''=3$ as a third program (log `p29_t7_H44/P29_t7_H44_C_K3.log`): H44_C_RESULT
+- **Program C** recomputed $K''=3$ as a third program (log `p29_t7_H44/P29_t7_H44_C_K3.log`, 555 s). It reports `miss=2 UNCOVERED`. Program C prints only the count, which agrees.
 
 **Negative certificate [negative, computer-assisted, A and D, plus C].** The block of length 44 ending at $N^*=29^7\cdot3$ does not cover $\mathbb Z/29^8$; it misses exactly the two residues above.
 
@@ -398,7 +400,7 @@ All runs were on the round-3 VM (Intel Xeon @ 2.10 GHz) at `nice -n 10`, wrapped
 | chain checks *(completion)* | `chain_r3.py`, `chain_c_r3.py` | §1.3 | `CHAIN_p29_p31_chain_r3.txt`, `CHAIN_p29_p31_chain_c_r3.txt`, `CHAIN_checker_validation_round2.txt` | < 5 s each |
 | prediction evaluation *(completion)* | `pred_eval.py` | `python3 code/round3/R3C/pred_eval.py` | `PREDICTIONS_evaluation.txt` | < 1 s |
 | large D checks *(completion)* | D | `code/round3/R3C/queue_completion_val.sh` | `valD/VD_*.log` | 1 103 s in total ($(13,8,46)$: 879 s) |
-| $H=44$ test *(completion)* | D; then A and C on $K''=3$ | `code/round3/R3C/queue_completion_h44.sh`, `queue_completion_h44_A.sh` | `p29_t7_H44/*.log` | D 766 s ($K''=1,2,3$); A 506 s; C H44_C_TIME |
+| $H=44$ test *(completion)* | D; then A and C on $K''=3$ | `code/round3/R3C/queue_completion_h44.sh`, `queue_completion_h44_A.sh` | `p29_t7_H44/*.log` | D 766 s ($K''=1,2,3$); A 506 s; C 555 s |
 
 CPU totals (user time):
 - A: 3.6 h on the depth-7 positions;
@@ -419,7 +421,7 @@ CPU totals (user time):
   - the report was a stub.
 
   The lead resumed the queue at 15:08 UTC with `queue_p29_t7.sh 6 17` and `queue_p29_t7.sh 18 28` in parallel (`/tmp/r3_R3C/queue_p29_{a,b}.out`).
-- **Two logs committed half-finished.** The lead's work-in-progress commit `2311c5f` (17:12 UTC) caught `P29_t7_H45_A_K15.log` and `…_A_K27.log` while those runs were still going. Commit `307a07a` (18:33 UTC) has the complete versions, and the chain checks use them.
+- **Two logs committed half-finished.** The lead's work-in-progress commit `2311c5f` (17:12 UTC) caught `P29_t7_H45_A_K15.log` and `…_A_K27.log` while those runs were still going. Commit `307a07a` (18:33 UTC) has the complete versions, and the chain checks use them. In the same way, commit `024b87e` (19:12 UTC) caught `p29_t7_H44/P29_t7_H44_C_K3.log` before it finished at 19:13; the working-tree version is complete.
 - [negative] **A falsified prediction.** The prediction that $(29,5,36)$ fails was falsified (§5.2). It is a failed prediction, not a failed computation.
 
 ---
@@ -428,7 +430,7 @@ CPU totals (user time):
 
 1. **$p=31$, depth 7.** 30 position certificates at $H=46$ are needed, each by two programs, for $f(1,31)\ge28\,429\,701\,240$ (about 11 CPU-hours; §6.1).
 2. **$p=29$ beyond $D=8$.** Depth 8 needs fibre bitsets of $29^8$ bits (62.5 GB) or a different method (§1.1).
-3. **Third-program check at depth 7.** Program C has not checked the 28 depth-7 positions at $p=29$. The two-program rule does not require it, but a referee might want it. At fibre level $k=1$, C needs about $2\times2$ GB per position.
+3. **Third-program check at depth 7.** Program C has not checked the 28 positions with $H=45$ at $p=29$. The two-program rule does not require it, but a referee might want it. C was run once at this size, on $(29,7,44,K''=3)$, where it took 555 s and about $2\times2$ GB, so all 28 would take about 4.5 CPU-hours.
 4. **Lemma R3C.1** has been checked by this report only.
 5. **Conjecture 10.24** has a registered counterexample on its FAIL side ($(29,5,36)$). A version that treats gate-type layers exactly has not been formulated or tested.
 6. **Registered predictions not run:** 21 rows (§5.3). At $H=44$ only $K''\le3$ was run (§5.4).
@@ -461,7 +463,8 @@ for t in 1 2 3 4 5 6; do env R3C_BIN=/tmp/r3_R3C/bin python3 code/round3/R3C/sca
 # program D on the uniform depths at p = 29 (about 6 min)
 for th in "1 7 0" "2 13 0" "3 19 0" "4 24 0" "5 29 0" "6 40 1"; do set -- $th; /tmp/r3_R3C/bin/covfast 29 $1 $2 $3 cls 3; done
 
-# depth-7 positions at p = 29: 28 x (A about 9 min + D about 5 min), about 4.3 GB per job, one log per (program, K'')
+# depth-7 positions at p = 29: 28 x (A about 9 min + D about 5 min), about 4.3 GB per job, one log per (program, K'').
+# NOTE: the script writes into data/round3/R3C/p29_t7/ and overwrites the archived logs; change OUT first.
 sh code/round3/R3C/queue_p29_t7.sh 1 28
 
 # chain checks on the archived logs
@@ -469,6 +472,10 @@ L=data/round3/R3C:data/round3/R3C/p29_t7
 R3C_LOGS=$L python3 code/round3/R3C/chain_r3.py code/round3/R3C/specs/p29_AD.txt
 R3C_LOGS=$L python3 code/round3/R3C/chain_c_r3.py A 29 8 "1:7,2:13,3:19,4:24,5:29,6:40" "7:45"
 R3C_LOGS=$L python3 code/round3/R3C/chain_c_r3.py D 29 8 "1:7,2:13,3:19,4:24,5:29,6:40" "7:45"
+
+# completion runs: large exact checks of D (about 18 min), and the H = 44 test (D about 13 min, then A and C about 9 min each)
+sh code/round3/R3C/queue_completion_val.sh
+sh code/round3/R3C/queue_completion_h44.sh && sh code/round3/R3C/queue_completion_h44_A.sh
 
 # predictions: regenerate the registered table and compare it with the outcomes
 python3 code/round3/R3C/predict.py 29 1 7 pos:28; python3 code/round3/R3C/predict.py 31 1 7 pos:30

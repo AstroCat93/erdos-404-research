@@ -53,35 +53,41 @@ def deriv_pi(x, j):
 
 
 def slope0_population(x0, n, m, pD):
+    """All slope-0 paths alive at n.  Enumerated by depth-first search with pruning: by backward
+    integrality (F2) a path alive at n is alive at every j <= n, i.e. v(S_{e|j}) >= V_j."""
     P = pi_list(x0, n)
+    Vs = [vp(q) for q in P]
     dpi = [deriv_pi(x0, j) for j in range(n)]
     omega = P[n] // p ** m
     oinv = pow(omega, -1, pD)
     pop = []
-    for bits in itertools.product((0, 1), repeat=n - 1):
-        e = (1,) + bits
-        S = sum(P[j] for j in range(n) if e[j])
-        if vp(S) < m:
+    stack = [(1, (1,), P[0], dpi[0])]
+    while stack:
+        j, e, S, Sd = stack.pop()
+        if j == n:
+            if vp(S) >= m and Sd % p != 0:
+                tau0 = (-(S // p ** m) * oinv) % pD
+                beta = (oinv * Sd) % pD
+                phi = (tau0 * pow(beta, -1, pD)) % pD
+                pop.append((e, S, tau0, beta, phi))
             continue
-        Sd = sum(dpi[j] for j in range(n) if e[j])
-        if Sd % p == 0:
-            continue                                     # slope > 0
-        tau0 = (-(S // p ** m) * oinv) % pD
-        beta = (oinv * Sd) % pD
-        phi = (tau0 * pow(beta, -1, pD)) % pD
-        pop.append((e, S, tau0, beta, phi))
+        for b in (0, 1):
+            S2 = S + b * P[j]
+            if vp(S2) >= Vs[j + 1] or j + 1 == n and vp(S2) >= m:
+                stack.append((j + 1, e + (b,), S2, Sd + b * dpi[j]))
+    pop.sort()
     return pop
 
 
-def find_configs(rng, want, per_D=2, maxpop=60):
+def find_configs(rng, want, per_D=2, maxpop=60):  # noqa: C901
     """Random search for windows satisfying (W2'), (W3') with D in want, a slope-0 population of
     size 2..maxpop, and at least two distinct beta_e mod p^D (so that Prop. B(ii) is not just (iii))."""
     out = []
     tries = 0
-    while any(sum(1 for c in out if c[3] == D) < per_D for D in want) and tries < 20000:
+    while any(sum(1 for c in out if c[3] == D) < per_D for D in want) and tries < 60000:
         tries += 1
-        n = rng.randrange(9, 14)
-        N = n + rng.randrange(5, 9)
+        n = rng.randrange(9, 22)
+        N = n + rng.randrange(5, 11)
         x0 = rng.randrange(0, 5 ** 7)
         P = pi_list(x0, N)
         m = vp(P[n])
@@ -95,6 +101,8 @@ def find_configs(rng, want, per_D=2, maxpop=60):
         x0 %= p ** m
         pop = slope0_population(x0, n, m, p ** D)
         if not (2 <= len(pop) <= maxpop) or len({b for (_, _, _, b, _) in pop}) < 2:
+            continue
+        if len(pop) * 2 ** (N - n) * p ** (D + 1) > 4_000_000:      # keep the brute force small
             continue
         out.append((x0, n, N, D))
     return out
@@ -178,12 +186,15 @@ def run(x0, n, N):
     return mism_i == 0 and dep_ok and ok_mean and err2 < mp.mpf(10) ** -30 and err_var < mp.mpf(10) ** -30 and cs_ok
 
 
+# Configurations: the first four were found by find_configs(random.Random(5), {2, 3}) in two
+# versions of the search (n ranges 9..16 and 9..21); the D = 3 one by a systematic scan over
+# x0 < 5^5, 10 <= n < 22, n+4 <= N < n+10 (first hit).  All are re-validated in run().
+CONFIGS = [(80, 15, 22), (565, 16, 25), (561, 17, 27), (335, 16, 25), (100, 20, 25)]
+
+
 def main():
-    rng = random.Random(5)
-    cfgs = find_configs(rng, {2, 3})
-    print("configurations found:", cfgs, flush=True)
     allok = True
-    for (x0, n, N, D) in cfgs:
+    for (x0, n, N) in CONFIGS:
         r = run(x0, n, N)
         if r is None:
             print("config x0=%d n=%d N=%d: empty slope-0 population, skipped" % (x0, n, N))

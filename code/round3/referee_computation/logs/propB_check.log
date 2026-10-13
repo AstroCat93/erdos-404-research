@@ -1,3 +1,37 @@
 # cmd: nice -n 10 python3 -I code/round3/referee_computation/propB_check.py
-configurations found: []
+config x0=80 n=15 N=22: m=3 D=2 M_n=1 M_N=2 |P^0_n|=45 distinct beta mod p^D=3 T=128
+  (i) child counts vs m_W(tau0 - beta w): 0 mismatches over 5625 (e,w) pairs; Y depends on w mod p^D only: True
+  (ii) E_C Y = 1152/5, |P| T p^-D = 1152/5 : True
+       E_C[Y^2] = 266432/5 (exact) ; p^-2D sum|A|^2 = 53286.4 ; |diff| = 0.0
+       Var_C(c_N Y) = 30859375/274877906944 (exact = 0.000112265752250096) ; spectral = 0.00011226575225009582937 ; |diff| = 1.3051e-54
+       chi_W^2 = 61/64 ; M^2 chi_W^2 = 0.0280863332591252 ; Var <= M^2 chi^2: True ; ratio Var/(M^2 chi^2) = 0.003997
+  time 1.0s
+config x0=565 n=16 N=25: m=4 D=2 M_n=2 M_N=2 |P^0_n|=34 distinct beta mod p^D=2 T=512
+  (i) child counts vs m_W(tau0 - beta w): 0 mismatches over 4250 (e,w) pairs; Y depends on w mod p^D only: True
+  (ii) E_C Y = 17408/25, |P| T p^-D = 17408/25 : True
+       E_C[Y^2] = 2438546/5 (exact) ; p^-2D sum|A|^2 = 487709.2 ; |diff| = 0.0
+       Var_C(c_N Y) = 347614453125/562949953421312 (exact = 0.000617487311282972) ; spectral = 0.00061748731128297151827 ; |diff| = 2.6101e-54
+       chi_W^2 = 7903/131072 ; M^2 chi_W^2 = 0.00633928187721011 ; Var <= M^2 chi^2: True ; ratio Var/(M^2 chi^2) = 0.097407
+  time 4.1s
+config x0=561 n=17 N=27: m=4 D=2 M_n=2 M_N=2 |P^0_n|=16 distinct beta mod p^D=2 T=1024
+  (i) child counts vs m_W(tau0 - beta w): 0 mismatches over 2000 (e,w) pairs; Y depends on w mod p^D only: True
+  (ii) E_C Y = 16384/25, |P| T p^-D = 16384/25 : True
+       E_C[Y^2] = 11232768/25 (exact) ; p^-2D sum|A|^2 = 449310.72 ; |diff| = 0.0
+       Var_C(c_N Y) = 9448046875/35184372088832 (exact = 0.000268529642966087) ; spectral = 0.00026852964296608661243 ; |diff| = 6.5253e-55
+       chi_W^2 = 7583/8192 ; M^2 chi_W^2 = 0.00538804556526884 ; Var <= M^2 chi^2: True ; ratio Var/(M^2 chi^2) = 0.049838
+  time 4.1s
+config x0=335 n=16 N=25: m=4 D=2 M_n=2 M_N=2 |P^0_n|=18 distinct beta mod p^D=2 T=512
+  (i) child counts vs m_W(tau0 - beta w): 0 mismatches over 2250 (e,w) pairs; Y depends on w mod p^D only: True
+  (ii) E_C Y = 9216/25, |P| T p^-D = 9216/25 : True
+       E_C[Y^2] = 3413798/25 (exact) ; p^-2D sum|A|^2 = 136551.92 ; |diff| = 0.0
+       Var_C(c_N Y) = 80135546875/562949953421312 (exact = 0.000142349326770486) ; spectral = 0.000142349326770485618 ; |diff| = 3.2627e-55
+       chi_W^2 = 10203/131072 ; M^2 chi_W^2 = 0.00229384011785072 ; Var <= M^2 chi^2: True ; ratio Var/(M^2 chi^2) = 0.062057
+  time 2.1s
+config x0=100 n=20 N=25: m=4 D=3 M_n=1 M_N=3 |P^0_n|=347 distinct beta mod p^D=16 T=32
+  (i) child counts vs m_W(tau0 - beta w): 0 mismatches over 216875 (e,w) pairs; Y depends on w mod p^D only: True
+  (ii) E_C Y = 11104/125, |P| T p^-D = 11104/125 : True
+       E_C[Y^2] = 200852/25 (exact) ; p^-2D sum|A|^2 = 8034.08 ; |diff| = 4.3791e-47
+       Var_C(c_N Y) = 218133203125/281474976710656 (exact = 0.000774964814542756) ; spectral = 0.00077496481454275567557 ; |diff| = 1.3051e-54
+       chi_W^2 = 311/64 ; M^2 chi_W^2 = 0.207873712687601 ; Var <= M^2 chi^2: True ; ratio Var/(M^2 chi^2) = 0.003728
+  time 13.5s
 RESULT PASS

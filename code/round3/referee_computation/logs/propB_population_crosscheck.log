@@ -1,0 +1,3 @@
+# cmd: (inline) cross-check of the pruned DFS slope0_population against plain enumeration of all 2^(n-1) paths, configs from propB_check.log
+80 15 22 45 45 True
+565 16 25 34 34 True
