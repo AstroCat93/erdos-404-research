@@ -1,3 +1,10 @@
+# predict.py regenerated 2026-10-13 20:02:31 UTC (re-run after a keying bug in pred_recount.py was fixed)
+DIFFERENCES:
+133,136d132
+< extra: p=29 t=7 H=58 n=28 R*=5.762e+05 nu=19033.949 -> HOLD
+< extra: p=31 t=7 H=62 n=30 R*=5.407e+06 nu=175138.129 -> HOLD
+< extra: p=29 t=7 H=44 n=1 R*=34.8 nu=1.292 -> MIXED
+< extra: p=29 t=7 H=45 n=1 R*=69.87 nu=2.594 -> HOLD
 falsified row: 29 5 36 uniform FAIL
 rows: 120  classes: {'FALSIFIED': 1, 'confirmed': 63, 'known': 11, 'mixed': 4, 'not run': 21, 'proved': 20}
 minimal-H_t predictions (registered first HOLD-band H vs scans):
@@ -11,3 +18,5 @@ minimal-H_t predictions (registered first HOLD-band H vs scans):
   p=31 t=4: registered 25, observed minimal 25 -> confirmed
   p=31 t=5: registered 30, observed minimal 30 -> confirmed
   p=31 t=6: registered 41, observed minimal 41 -> confirmed
+# pred_eval.py re-run, compared with the archived PREDICTIONS_evaluation.txt (body)
+pred_eval.py output == archived evaluation

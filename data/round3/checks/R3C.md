@@ -2,7 +2,7 @@
 
 Checker: check_R3C. Code: `code/round3/check_R3C/`. Logs: `data/round3/check_R3C/`. Binaries: fresh `clang -O3 -march=native` builds of the committed sources, in the session scratch directory; the sha256 of the binary is written into every log.
 Track material read (read-only): `data/round3/reports/R3C.md` (all 485 lines, the version of 19:14 UTC), every file in `code/round3/R3C/` and `code/round3/R3C/specs/`, every log in `data/round3/R3C/` (with `p29_t7/`, `p29_t7_H44/`, `valD/`), the original instance's scratch files in `/tmp/r3_R3C/`, and note.md §1.4, §3.5, §3.7, §4.2, §4.4, §10.2, §10.5, §10.7 (rows C1–C6). The sources of programs A, B and C were read in full: `code/round2/R3/src/fibcov.c`, `fibcov2.c`, `code/round2/review/computation/covchk.c`; program D (`code/round3/R3C/covfast.c`) was read line by line.
-CPU used: CPU_PLACEHOLDER. All jobs ran at `nice -n 10`, never more than two of mine at a time, never more than 8.7 GB resident in total (each A and C job under a `ulimit -v` cap of 4.7 GB; D jobs alone). Another agent's job (`rsolve`, about 2.5 GB, one core) was running on the machine at the same time and was not touched.
+CPU used: about 1.5 core-hours (A 16 min, C 39 min, D 8 min of CPU on depth-7 positions; own brute force 24 min; everything else under 2 min), wall time about 1 h 15 min. All jobs ran at `nice -n 10`, never more than two of mine at a time, never more than 8.7 GB resident in total (each A and C job under a `ulimit -v` cap of 4.7 GB; D jobs alone). Another agent's job (`rsolve`, about 2.5 GB, one core) was running on the machine at the same time and was not touched.
 Every program of this check was written for this check; `indep.py` shares no code with programs A–D, `bigbrute.py` or anything else in `code/round2` and `code/round3/R3C`.
 
 ## 0. Verdicts
@@ -161,7 +161,7 @@ What is not shared:
 - `bitcover`: the reachable set as one Python integer of $p^M$ bits, updated by $S\leftarrow S\mid\mathrm{rot}(S,y)$. It gives the exact miss count, for $p^M$ up to about $6\cdot10^8$.
 - `mitm`: for single residues $x$ at any size. All subset sums of the two halves of the block are enumerated exactly (numpy int64), and $x-a\pmod{p^M}$ is looked up in the sorted second half.
 
-**Self-test** (`indep_selftest.log`). SELFTEST_TEXT
+**Self-test** (`indep_selftest.log`). I ran 582 small cases $(p,t,H,K)$ with $p\le13$, $t\le3$ and $p^M\le30\,000$; 387 of them fail. For every residue, the two engines agree on whether it is reached, with 0 mismatches, and $M=t+c$ in every case.
 
 ### 6.1 R3: the scans for $t\le5$ (`indep_scans.log`)
 
@@ -207,7 +207,7 @@ This reproduces the counts of `lemma_check.log` (126 and 46) with a separately w
 
 **$p=29$** (`indep_lemma29.log`).
 - $t=2,3,4$: for every $H=30..58$ and all 28 classes ($K'+5\cdot29$), the outcome agrees with the lemma, uniformly in the class, with no mismatch.
-- $t=5$: $\mathrm{Cov}(29,5,H)$ holds over all 28 classes for LEMMA29_T5 (a fibre-free bitset of $29^6$ bits; 260–275 s per $H$).
+- $t=5$: $\mathrm{Cov}(29,5,H)$ holds over all 28 classes for $H=36,37,38,39$ (a fibre-free bitset of $29^6$ bits; 260–275 s per $H$).
 
 So the falsified registered prediction, FAIL at $(29,5,36)$, is confirmed to be falsified by a fourth program, which has no fibre split. The run of holds at $(29,5,36..39)$ in §2 of the report is reproduced.
 
@@ -292,9 +292,9 @@ python3 code/round3/check_R3C/pred_recount.py  > pred_recount.log   # section 8
 |---|---|---|
 | `X_A_p29_t7_H45_K{4,27}.log` | A at depth 7 | 501 s, 484 s |
 | `X_C_p29_t7_H45_K{15,21}.log` | C at depth 7 | 603 s, 576 s |
-| `X_D_p29_t7_H45_K{4,27}.log` | D at depth 7 | D_WALLS |
+| `X_D_p29_t7_H45_K{4,27}.log` | D at depth 7 | 242 s, 245 s |
 | `chains_rerun.log` | both chain checkers, all specs, new controls, round-2 re-validation | < 10 s |
 | `predictions_check.log`, `pred_recount.log`, `predict_extra_rows.log` | registration regenerated, pred_eval re-run, own recount | < 10 s |
-| `indep_{rho0,selftest,scans,negatives,lemma,lemma29}.log` | own brute force | INDEP_WALLS |
+| `indep_{rho0,selftest,scans,negatives,lemma,lemma29}.log` | own brute force | 0.5 s, 10 s, 1.3 s, 73 s, 15 s, 1222 s |
 | `logaudit.log`, `contradictions.log`, `simcheck.log` | audits | < 2 s |
 

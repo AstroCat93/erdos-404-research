@@ -7,3 +7,7 @@ p=29 t=4 H=30..58, 28 classes each: lemma mismatches []
 Cov(29,5,36) over the 28 classes K'+5*29: missed counts [0] -> HOLDS (273s)
 Cov(29,5,37) over the 28 classes K'+5*29: missed counts [0] -> HOLDS (264s)
 Cov(29,5,38) over the 28 classes K'+5*29: missed counts [0] -> HOLDS (283s)
+Cov(29,5,39) over the 28 classes K'+5*29: missed counts [0] -> HOLDS (287s)
+# wall=1222.062 s user=383.399 s sys=791.926 s
+# exit status: 0
+# end: 2026-10-13 20:02:04 UTC

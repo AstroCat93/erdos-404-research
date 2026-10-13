@@ -3,3 +3,7 @@
 # host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz  vmem cap (KB): 4700000
 # start: 2026-10-13 19:52:38 UTC
 # covchk(C) p=29 t=7 H=45 c=1 M=8 k=1 F=17249876309 nK=1
+C p=29 t=7 H=45 M=8 K=28 Kmodpc=28 miss=0 COVERED 572.76s
+END C p=29 t=7 H=45 nK=1 bad=0 ALL_COVERED 572.8s
+# exit status: 0
+# end: 2026-10-13 20:02:11 UTC

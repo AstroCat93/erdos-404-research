@@ -2,7 +2,7 @@
 # batch_light.sh -- the single-core checks of the R3C check (chain checkers, prediction files,
 # independent brute force).  Started while the D re-runs (one core) are going.
 ROOT=/home/user/erdos-404-research
-OUT=$ROOT/code/round3/check_R3C/logs
+OUT=$ROOT/data/round3/check_R3C
 R=$ROOT/code/round3/check_R3C/run_logged.sh
 cd $ROOT
 L=data/round3/R3C:data/round3/R3C/p29_t7
@@ -48,10 +48,12 @@ L=data/round3/R3C:data/round3/R3C/p29_t7
   rm -rf $T
   nice -n 10 python3 code/round3/check_R3C/pred_recount.py
   echo "# pred_eval.py re-run, compared with the archived PREDICTIONS_evaluation.txt (body)"
-  nice -n 10 python3 code/round3/R3C/pred_eval.py > /tmp/claude-0/-home-user-erdos-404-research/64513d2d-9023-5297-8d1a-eefeb2df66c3/scratchpad/pe.txt 2>&1
-  if diff <(grep -v '^# \(command\|run\)' data/round3/R3C/PREDICTIONS_evaluation.txt) /tmp/claude-0/-home-user-erdos-404-research/64513d2d-9023-5297-8d1a-eefeb2df66c3/scratchpad/pe.txt; then echo "pred_eval.py output == archived evaluation"; fi
+  PE=$(mktemp); nice -n 10 python3 code/round3/R3C/pred_eval.py > $PE 2>&1
+  if diff <(grep -v '^# \(command\|run\)' data/round3/R3C/PREDICTIONS_evaluation.txt) $PE; then echo "pred_eval.py output == archived evaluation"; fi; rm -f $PE
 } > $OUT/predictions_check.log 2>&1
 # 3. independent brute force
+# (selftest: the first, residue-by-residue version was too slow and was stopped; the vectorised version
+#  was run separately afterwards, log indep_selftest.log)
 for T in rho0 selftest scans negatives lemma lemma29; do
   $R $OUT/indep_$T.log 0 python3 code/round3/check_R3C/indep.py $T
 done
