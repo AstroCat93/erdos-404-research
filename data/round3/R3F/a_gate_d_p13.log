@@ -1,0 +1,12 @@
+# command: bash -c for d in 1 2 3 4 5 6 7 8 9; do ./gate_d 13 $d; done
+# host: vm  start: 2026-10-13T06:56:24Z
+p=13 d=1 M=13 units/2=6  S_d_upper=7.795214250847e-03  ratio S_d/(N_d (2/pi)^p) ~ 0.23025296
+p=13 d=2 M=169 units/2=78  S_d_upper=4.960948001424e-01  ratio S_d/(N_d (2/pi)^p) ~ 1.12719351
+p=13 d=3 M=2197 units/2=1014  S_d_upper=5.810869469824e+00  ratio S_d/(N_d (2/pi)^p) ~ 1.01562077
+p=13 d=4 M=28561 units/2=13182  S_d_upper=8.972876747480e+01  ratio S_d/(N_d (2/pi)^p) ~ 1.20636521
+p=13 d=5 M=371293 units/2=171366  S_d_upper=1.131573938351e+03  ratio S_d/(N_d (2/pi)^p) ~ 1.17027165
+p=13 d=6 M=4826809 units/2=2227758  S_d_upper=1.474290188668e+04  ratio S_d/(N_d (2/pi)^p) ~ 1.17285243
+p=13 d=7 M=62748517 units/2=28960854  S_d_upper=1.916748689889e+05  ratio S_d/(N_d (2/pi)^p) ~ 1.17295734
+p=13 d=8 M=815730721 units/2=376491102  S_d_upper=2.491756707015e+06  ratio S_d/(N_d (2/pi)^p) ~ 1.17294953
+p=13 d=9 M=10604499373 units/2=4894384326  S_d_upper=3.239283592184e+07  ratio S_d/(N_d (2/pi)^p) ~ 1.17294949
+# end: 2026-10-13T07:19:53Z  exit=0  wall_seconds=1409.044847213

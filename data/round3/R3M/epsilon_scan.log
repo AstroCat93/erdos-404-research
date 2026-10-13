@@ -1,0 +1,51 @@
+### command: python3 code/round3/R3M/epsilon_scan.py 3 71 200 20 1.25 13
+### start: 2026-10-13T07:36:12Z
+# epsilon_scan p=3 seed=71 NX=200 times=[20, 25, 32, 40, 50, 63, 79, 99, 124, 155, 194, 243]... KMAX=13
+# l  window          samples  frac_lin  median_eps  q90_eps  q99_eps  max_eps  (eps over samples with the linear condition)
+TABLE  1 [20,32)     200  0.730  1.3809e-01  9.3994e-01  3.3312e+00  5.0603e+00
+TABLE    by max gate depth d in the window: d=2: n=109 median=1.064e-01 max=3.636e-01; d=3: n=33 median=9.011e-01 max=1.827e+00; d=4: n=4 median=3.331e+00 max=5.060e+00
+TABLE  2 [25,40)     200  0.890  1.3691e-01  1.0564e+00  3.9665e+00  4.2594e+00
+TABLE    by max gate depth d in the window: d=2: n=95 median=8.273e-02 max=2.627e-01; d=3: n=71 median=2.827e-01 max=4.259e+00; d=4: n=12 median=1.554e+00 max=2.325e+00
+TABLE  3 [32,50)     200  0.920  1.9298e-01  1.5875e+00  5.7186e+00  1.0705e+01
+TABLE    by max gate depth d in the window: d=2: n=64 median=7.701e-02 max=2.983e-01; d=3: n=88 median=2.054e-01 max=4.298e+00; d=4: n=32 median=1.624e+00 max=1.071e+01
+TABLE  4 [40,63)     189  1.000  2.3992e-01  1.4866e+00  4.4042e+00  4.4201e+00
+TABLE    by max gate depth d in the window: d=2: n=29 median=2.956e-02 max=6.512e-02; d=3: n=99 median=2.264e-01 max=1.858e+00; d=4: n=53 median=8.288e-01 max=4.404e+00; d=5: n=6 median=2.301e+00 max=4.420e+00; d=6: n=2 median=2.374e+00 max=2.374e+00
+TABLE  5 [50,79)      35  1.000  4.4890e-02  1.3401e-01  4.0820e-01  4.0820e-01
+TABLE    by max gate depth d in the window: d=3: n=35 median=4.489e-02 max=4.082e-01
+### wall: 126.871705975 s
+### command: python3 code/round3/R3M/epsilon_scan.py 5 72 200 16 1.25 8
+### start: 2026-10-13T07:38:19Z
+# epsilon_scan p=5 seed=72 NX=200 times=[16, 20, 25, 32, 40, 50, 63, 79, 99, 124, 155, 194]... KMAX=8
+# l  window          samples  frac_lin  median_eps  q90_eps  q99_eps  max_eps  (eps over samples with the linear condition)
+TABLE  1 [16,25)     200  0.670  3.5156e-02  8.7891e-02  9.5312e-01  9.5312e-01
+TABLE    by max gate depth d in the window: d=1: n=124 median=3.516e-02 max=8.789e-02; d=2: n=10 median=9.531e-01 max=9.531e-01
+TABLE  2 [20,32)     200  0.605  2.7008e-02  1.9844e-01  7.3730e-01  7.3730e-01
+TABLE    by max gate depth d in the window: d=1: n=101 median=2.701e-02 max=1.025e-01; d=2: n=20 median=3.214e-01 max=7.373e-01
+TABLE  3 [25,40)     200  0.885  2.4736e-02  2.6536e-01  7.5086e-01  8.0361e-01
+TABLE    by max gate depth d in the window: d=1: n=83 median=9.680e-03 max=2.942e-02; d=2: n=94 median=1.365e-01 max=8.036e-01
+TABLE  4 [32,50)     200  0.885  4.5513e-02  2.7739e-01  8.0983e-01  1.8290e+00
+TABLE    by max gate depth d in the window: d=1: n=62 median=7.159e-03 max=2.503e-02; d=2: n=105 median=9.953e-02 max=8.098e-01; d=3: n=10 median=2.774e-01 max=1.829e+00
+TABLE  5 [40,63)     200  0.910  4.9772e-02  2.7394e-01  2.7945e+00  3.0859e+00
+TABLE    by max gate depth d in the window: d=1: n=17 median=8.827e-04 max=1.938e-03; d=2: n=137 median=5.387e-02 max=2.817e-01; d=3: n=28 median=2.421e-01 max=3.086e+00
+TABLE  6 [50,79)     171  1.000  1.2779e-02  7.8714e-02  2.8024e-01  3.7916e-01
+TABLE    by max gate depth d in the window: d=2: n=143 median=9.992e-03 max=9.435e-02; d=3: n=27 median=8.801e-02 max=3.792e-01; d=4: n=1 median=1.816e-01 max=1.816e-01
+TABLE  7 [63,99)      66  1.000  2.3842e-03  1.4821e-02  5.1389e-02  5.1389e-02
+TABLE    by max gate depth d in the window: d=2: n=66 median=2.384e-03 max=5.139e-02
+### wall: 82.192386799 s
+### command: python3 code/round3/R3M/epsilon_scan.py 7 73 200 21 1.25 6
+### start: 2026-10-13T07:39:41Z
+# epsilon_scan p=7 seed=73 NX=200 times=[21, 27, 34, 43, 54, 68, 85, 107, 134, 168, 210, 263]... KMAX=6
+# l  window          samples  frac_lin  median_eps  q90_eps  q99_eps  max_eps  (eps over samples with the linear condition)
+TABLE  1 [21,34)     200  0.705  1.4282e-02  4.9988e-02  4.9988e-02  4.9988e-02
+TABLE    by max gate depth d in the window: d=1: n=141 median=1.428e-02 max=4.999e-02
+TABLE  2 [27,43)     200  0.565  4.7836e-03  3.3159e-02  3.5505e-02  3.5505e-02
+TABLE    by max gate depth d in the window: d=1: n=113 median=4.784e-03 max=3.550e-02
+TABLE  3 [34,54)     200  0.720  2.0655e-03  1.6247e-02  2.3663e-02  2.7960e-02
+TABLE    by max gate depth d in the window: d=1: n=120 median=1.718e-03 max=1.775e-02; d=2: n=24 median=9.326e-03 max=2.796e-02
+TABLE  4 [43,68)     200  0.845  1.6973e-03  1.2431e-02  3.5090e-02  3.5090e-02
+TABLE    by max gate depth d in the window: d=1: n=103 median=5.215e-04 max=6.380e-03; d=2: n=66 median=6.079e-03 max=3.509e-02
+TABLE  5 [54,85)     185  1.000  5.3286e-04  9.5283e-03  3.4359e-02  3.7645e-02
+TABLE    by max gate depth d in the window: d=1: n=73 median=1.785e-04 max=2.358e-03; d=2: n=101 median=1.256e-03 max=2.787e-02; d=3: n=11 median=8.999e-03 max=3.764e-02
+TABLE  6 [68,107)      95  1.000  1.6800e-04  1.4110e-03  4.0389e-03  4.0389e-03
+TABLE    by max gate depth d in the window: d=1: n=41 median=6.007e-05 max=4.810e-04; d=2: n=54 median=3.495e-04 max=4.039e-03
+### wall: 61.135307932 s

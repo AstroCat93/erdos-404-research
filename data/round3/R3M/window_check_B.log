@@ -1,0 +1,24 @@
+### command: python3 code/round3/R3M/oddp_window_check_B.py 3 41 15 20 26 4
+### start: 2026-10-13T07:17:36Z
+RESULT(B) p=3 n=20 N=26: states tested=859; parents exact=421/421; lambda histogram {0: 292, 1: 99, 2: 30}
+### wall: 9.220949584 s
+### command: python3 code/round3/R3M/oddp_window_check_B.py 3 42 5 24 33 3 6
+### start: 2026-10-13T07:17:45Z
+RESULT(B) p=3 n=24 N=33: states tested=0; parents exact=0/0; lambda histogram {}
+### wall: 3.191809690 s
+### command: python3 code/round3/R3M/oddp_window_check_B.py 5 43 5 24 34 3 5
+### start: 2026-10-13T07:17:48Z
+RESULT(B) p=5 n=24 N=34: states tested=190; parents exact=30/30; lambda histogram {0: 15, 1: 10, 2: 5}
+### wall: 10.320082393 s
+### command: python3 code/round3/R3M/oddp_window_check_B.py 7 45 3 21 35 2 3
+### start: 2026-10-13T07:17:59Z
+RESULT(B) p=7 n=21 N=35: states tested=9; parents exact=9/9; lambda histogram {0: 9}
+### wall: 25.848159173 s
+### command: python3 code/round3/R3M/oddp_window_check_B.py 3 42 5 24 33 4 6
+### start: 2026-10-13T07:21:19Z
+RESULT(B) p=3 n=24 N=33: states tested=108; parents exact=28/28; lambda histogram {0: 6, 1: 16, 2: 6}
+### wall: 4.317185927 s
+### command: python3 code/round3/R3M/oddp_window_check_B.py 3 46 4 30 39 4 6
+### start: 2026-10-13T07:21:23Z
+RESULT(B) p=3 n=30 N=39: states tested=60; parents exact=24/24; lambda histogram {0: 6, 1: 18}
+### wall: 3.218369529 s

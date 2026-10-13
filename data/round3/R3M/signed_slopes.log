@@ -1,0 +1,16 @@
+### command: python3 code/round3/R3M/signed_slopes.py 3 8 3 80 11
+### start: 2026-10-13T07:30:48Z
+p=3 T=8 samples=80: E[Lam_T by slope] (slope 4 means >=4): {0: np.float64(0.2584), 1: np.float64(0.0819), 2: np.float64(1.0237), 3: np.float64(0.2342), 4: np.float64(0.3131)} total 1.9114
+### wall: .952122581 s
+### command: python3 code/round3/R3M/signed_slopes.py 3 12 3 80 11
+### start: 2026-10-13T07:30:49Z
+p=3 T=12 samples=80: E[Lam_T by slope] (slope 4 means >=4): {0: np.float64(0.2415), 1: np.float64(0.0822), 2: np.float64(0.1695), 3: np.float64(0.0934), 4: np.float64(1.3956)} total 1.9822
+### wall: 27.805366671 s
+### command: python3 code/round3/R3M/signed_slopes.py 3 16 3 80 11
+### start: 2026-10-13T07:31:17Z
+p=3 T=16 samples=76: E[Lam_T by slope] (slope 4 means >=4): {0: np.float64(0.2547), 1: np.float64(0.0875), 2: np.float64(0.1792), 3: np.float64(0.0926), 4: np.float64(1.4766)} total 2.0905
+### wall: 59.109423596 s
+### command: python3 code/round3/R3M/signed_slopes.py 5 16 2 80 12
+### start: 2026-10-13T07:32:16Z
+p=5 T=16 samples=80: E[Lam_T by slope] (slope 3 means >=3): {0: np.float64(0.3956), 1: np.float64(0.16), 2: np.float64(0.2345), 3: np.float64(0.0587)} total 0.8488
+### wall: 15.872303752 s

@@ -1,0 +1,28 @@
+# two-sided re-check of K. Kitamura's shadow-family rows a=2^t-2, t=9..12 (README.md lines 391-393): f(510,2)=1019, f(1022,2)=1195, f(2046,2)=2603, f(4094,2)=4443
+# binary: clang -O3 -march=native code/round3/S0/sumform_big_cap.c
+# start 2026-10-13T06:20:41Z
+# command: nice -n 10 /tmp/r3_S0/bin/sumform_big_cap 510 1019 18 20
+a=510 K=1019 reachable=1 (final stage N=1023, maxpop=1436)
+#   exit=0 wall .427991725 s
+# command: nice -n 10 /tmp/r3_S0/bin/sumform_big_cap 510 1020 18 20
+a=510 K=1020 reachable=0 (died at final gate N+1=1024, maxpop=1436)
+#   exit=0 wall .506325940 s
+# command: nice -n 10 /tmp/r3_S0/bin/sumform_big_cap 1022 1195 18 20
+a=1022 K=1195 reachable=1 (final stage N=1199, maxpop=256)
+#   exit=0 wall .151046965 s
+# command: nice -n 10 /tmp/r3_S0/bin/sumform_big_cap 1022 1196 18 20
+a=1022 K=1196 reachable=0 (died at final gate N+1=1200, maxpop=256)
+#   exit=0 wall .149767787 s
+# command: nice -n 10 /tmp/r3_S0/bin/sumform_big_cap 2046 2603 18 20
+a=2046 K=2603 reachable=1 (final stage N=2607, maxpop=2492)
+#   exit=0 wall .459115738 s
+# command: nice -n 10 /tmp/r3_S0/bin/sumform_big_cap 2046 2604 18 20
+a=2046 K=2604 reachable=0 (died at final gate N+1=2608, maxpop=2492)
+#   exit=0 wall .504693413 s
+# command: nice -n 10 /tmp/r3_S0/bin/sumform_big_cap 4094 4443 18 20
+a=4094 K=4443 reachable=1 (final stage N=4447, maxpop=1008)
+#   exit=0 wall .308248620 s
+# command: nice -n 10 /tmp/r3_S0/bin/sumform_big_cap 4094 4444 18 20
+a=4094 K=4444 reachable=0 (died at final gate N+1=4448, maxpop=1008)
+#   exit=0 wall .311037532 s
+# end 2026-10-13T06:20:44Z

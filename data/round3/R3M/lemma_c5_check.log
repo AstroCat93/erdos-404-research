@@ -1,0 +1,16 @@
+### command: python3 code/round3/R3M/lemma_c5_check.py 3 81 20 10 5 5 8
+### start: 2026-10-13T07:42:01Z
+RESULT p=3 n=10 H=5 H2=5: Lemma C5 identity exact in 20/20 samples
+### wall: .072219651 s
+### command: python3 code/round3/R3M/lemma_c5_check.py 3 82 10 16 6 6 9
+### start: 2026-10-13T07:42:01Z
+RESULT p=3 n=16 H=6 H2=6: Lemma C5 identity exact in 10/10 samples
+### wall: .076289481 s
+### command: python3 code/round3/R3M/lemma_c5_check.py 5 83 10 12 6 6 6
+### start: 2026-10-13T07:42:01Z
+RESULT p=5 n=12 H=6 H2=6: Lemma C5 identity exact in 10/10 samples
+### wall: .168159881 s
+### command: python3 code/round3/R3M/lemma_c5_check.py 7 84 8 14 8 8 5
+### start: 2026-10-13T07:42:01Z
+RESULT p=7 n=14 H=8 H2=8: Lemma C5 identity exact in 8/8 samples
+### wall: .231340109 s

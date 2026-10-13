@@ -1,0 +1,3 @@
+# command: python3 code/round3/R3F/check_cosenc.py <ivshell build> 3000 1  (gcc -O2 -frounding-math -fno-fast-math; clang -O2 -frounding-math -ffp-model=strict)
+binary=/tmp/r3_R3F/ivshell_gcc points=21071 failures=0 max_width=1.998e-15
+binary=/tmp/r3_R3F/ivshell_clang points=21071 failures=0 max_width=1.998e-15

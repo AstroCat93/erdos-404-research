@@ -1,0 +1,8 @@
+# command: /tmp/r3_R3C/bin/fibcov 19 7 45 2 pos 20
+# cwd: /home/user/erdos-404-research  host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz
+# start: 2026-10-13 08:00:59 UTC
+# fibcov(A) p=19 t=7 H=45 c=2 M=9 k=2  Q=322687697779 fibre=893871739 bits (106 MB x2)
+A p=19 t=7 H=45 c=2 M=9 K=20 missing=0 COVERED [292.13s]
+SUMMARY A p=19 t=7 H=45 c=2 M=9 k=2 mode=pos nK=1 fail=0 worst_missing=0 ALL_COVERED total=292.1s
+# wall=292.186 s user=193.583 s sys=0.236 s
+# end: 2026-10-13 08:05:52 UTC

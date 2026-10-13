@@ -1,0 +1,4 @@
+# cmd: python3 -I code/round3/R3N/validate_table.py <Kitamura p2_exact_table_1_256.csv> /tmp/r3_R3N
+dfsW: checked 128 even a, 2 runs each
+dfsB: checked 128 even a, 2 runs each
+ALL_OK

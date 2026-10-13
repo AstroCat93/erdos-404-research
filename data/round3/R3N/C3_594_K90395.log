@@ -1,0 +1,10 @@
+# cmd: nice -n 10 /tmp/r3_R3N/dfsW3 594 90395   (validation of the half-memory variant on the certified case)
+dfsW3 (WL=4) a=594 K=90395 witness=(none)
+[60s] level=75 M=19762 nlev=175 maxlevel=174 nodes=1029611073 surv=1359872 fulladds=11222559 best=45067
+[120s] level=205 M=52970 nlev=282 maxlevel=281 nodes=1838162140 surv=3833856 fulladds=31362559 best=72423
+[180s] level=189 M=48882 nlev=282 maxlevel=281 nodes=2647180403 surv=5685248 fulladds=46217948 best=72423
+[240s] level=294 M=75706 nlev=324 maxlevel=323 nodes=3518182339 surv=8515584 fulladds=68669970 best=83321
+[300s] level=172 M=44538 nlev=352 maxlevel=351 nodes=4432042776 surv=11137024 fulladds=90096155 best=90394
+[360s] level=59 M=15674 nlev=352 maxlevel=351 nodes=5134756181 surv=13066240 fulladds=105607299 best=90394
+RESULT a=594 K=90395 reachable=0 nodes=5537780784 surv=13566171 fulladds=109766925 levels=352 time=390.0s
+EXACT a=594 f=90394 g=89804 (max valuation over all paths; valid since K > f)

@@ -1,0 +1,35 @@
+# command: /tmp/r3_R3C/bin/covfast 29 6 40 1 cls 3
+# cwd: /home/user/erdos-404-research  host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz
+# start: 2026-10-13 07:53:37 UTC
+# covfast(D) p=29 t=6 H=40 c=1 M=7 k=1 Q=17249876309 F=594823321 bits (70 MB x2) LISTMAX=16777216 ZMAX=4194304
+D p=29 t=6 H=40 c=1 M=7 k=1 K=88 Kmodpc=1 missing=0 COVERED [14.80s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=89 Kmodpc=2 missing=0 COVERED [14.22s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=90 Kmodpc=3 missing=0 COVERED [11.10s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=91 Kmodpc=4 missing=0 COVERED [11.97s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=92 Kmodpc=5 missing=0 COVERED [12.57s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=93 Kmodpc=6 missing=0 COVERED [11.05s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=94 Kmodpc=7 missing=0 COVERED [9.96s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=95 Kmodpc=8 missing=0 COVERED [10.21s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=96 Kmodpc=9 missing=0 COVERED [11.86s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=97 Kmodpc=10 missing=0 COVERED [14.91s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=98 Kmodpc=11 missing=0 COVERED [16.16s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=99 Kmodpc=12 missing=0 COVERED [14.50s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=100 Kmodpc=13 missing=0 COVERED [10.56s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=101 Kmodpc=14 missing=0 COVERED [11.58s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=102 Kmodpc=15 missing=0 COVERED [13.19s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=103 Kmodpc=16 missing=0 COVERED [12.41s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=104 Kmodpc=17 missing=0 COVERED [12.24s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=105 Kmodpc=18 missing=0 COVERED [12.28s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=106 Kmodpc=19 missing=0 COVERED [12.84s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=107 Kmodpc=20 missing=0 COVERED [12.86s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=108 Kmodpc=21 missing=0 COVERED [12.49s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=109 Kmodpc=22 missing=0 COVERED [12.85s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=110 Kmodpc=23 missing=0 COVERED [11.23s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=111 Kmodpc=24 missing=0 COVERED [12.38s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=112 Kmodpc=25 missing=0 COVERED [13.11s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=113 Kmodpc=26 missing=0 COVERED [13.09s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=114 Kmodpc=27 missing=0 COVERED [11.46s]
+D p=29 t=6 H=40 c=1 M=7 k=1 K=115 Kmodpc=28 missing=0 COVERED [10.77s]
+SUMMARY D p=29 t=6 H=40 c=1 M=7 k=1 mode=cls nK=28 fail=0 worst_missing=0 ALL_COVERED total=348.7s
+# wall=348.684 s user=237.096 s sys=0.271 s
+# end: 2026-10-13 07:59:26 UTC

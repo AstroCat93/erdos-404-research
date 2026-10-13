@@ -1,0 +1,12 @@
+# command: python3 -I /home/user/erdos-404-research/code/round3/R3F/summarize_d3.py /home/user/erdos-404-research/data/round3/R3F/e_ivshell_gcc_p11_k8.log 11
+# host: vm  start: 2026-10-13T06:51:18Z
+k=1  sqrt(N_k Q(k)) <= 1.198430e-01   T1(k) <= 6.036917e-02   ratio 1.985
+k=2  sqrt(N_k Q(k)) <= 2.071318e-02   T1(k) <= 6.182812e-03   ratio 3.350
+k=3  sqrt(N_k Q(k)) <= 2.132203e-03   T1(k) <= 2.699637e-04   ratio 7.898
+k=4  sqrt(N_k Q(k)) <= 3.824149e-04   T1(k) <= 2.243729e-05   ratio 17.044
+k=5  sqrt(N_k Q(k)) <= 5.466451e-04   T1(k) <= 9.952084e-06   ratio 54.928
+k=6  sqrt(N_k Q(k)) <= 7.341409e-06   T1(k) <= 1.200352e-07   ratio 61.160
+k=7  sqrt(N_k Q(k)) <= 1.159063e-05   T1(k) <= 3.319903e-08   ratio 349.126
+k=8  sqrt(N_k Q(k)) <= 4.330585e-06   T1(k) <= 3.238681e-09   ratio 1337.145
+SUM: C-S bound <= 0.14364067   certified L1 sum <= 0.06685450   factor 2.149
+# end: 2026-10-13T06:51:19Z  exit=0  wall_seconds=.404117379

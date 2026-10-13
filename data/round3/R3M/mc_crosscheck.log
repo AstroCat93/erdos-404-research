@@ -1,0 +1,49 @@
+### command: code/round3/R3M/bin/oddp_mc 3 9 12 30 39 8 2000000 12 | python3 code/round3/R3M/mc_crosscheck.py 3
+x=2590328891432424096 n=30: C program Z=76 Z0=76; recount Z=76 Z0=76 OK
+x=694994605956318843 n=30: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=139117604421332094 n=30: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=2175957879705127159 n=30: C program Z=156 Z0=0; recount Z=156 Z0=0 OK
+x=3678828937503422200 n=30: C program Z=182 Z0=0; recount Z=182 Z0=0 OK
+x=1420082283711804784 n=30: C program Z=200 Z0=0; recount Z=200 Z0=0 OK
+x=2960609726075597213 n=30: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=2188061668553413090 n=30: C program Z=98 Z0=0; recount Z=98 Z0=0 OK
+x=1631974265896123380 n=30: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=1351951226759069889 n=30: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=3349517064884887946 n=30: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=2856190515725700196 n=30: C program Z=282 Z0=0; recount Z=282 Z0=0 OK
+RESULT crosscheck p=3: 12/12 samples agree
+### wall: .226907249 s
+### command: code/round3/R3M/bin/oddp_mc 5 9 10 24 27 6 2000000 10 | python3 code/round3/R3M/mc_crosscheck.py 5
+x=1961265365056195059 n=24: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=4940379206239505500 n=24: C program Z=8480 Z0=4896; recount Z=8480 Z0=4896 OK
+x=7011369929711341965 n=24: C program Z=1296 Z0=656; recount Z=1296 Z0=656 OK
+x=7033825964684536238 n=24: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=5323705003715934714 n=24: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=6083637102918306199 n=24: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=3281552344384611808 n=24: C program Z=1288 Z0=0; recount Z=1288 Z0=0 OK
+x=779356610929857574 n=24: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=143557825118276078 n=24: C program Z=1352 Z0=0; recount Z=1352 Z0=0 OK
+x=3227674111879135616 n=24: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+RESULT crosscheck p=5: 10/10 samples agree
+### wall: .137984518 s
+### command: code/round3/R3M/bin/oddp_mc 7 9 10 24 22 5 2000000 10 | python3 code/round3/R3M/mc_crosscheck.py 7
+x=594012597329436614 n=24: C program Z=20448 Z0=20448; recount Z=20448 Z0=20448 OK
+x=2481123877668502938 n=24: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=1123737062660678064 n=24: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=208594397802728423 n=24: C program Z=18496 Z0=18496; recount Z=18496 Z0=18496 OK
+x=2531502960280938345 n=24: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=1296918061344001933 n=24: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=880849160105004197 n=24: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=1717056174090082644 n=24: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=3112145391561465755 n=24: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=919489752011137137 n=24: C program Z=11690 Z0=0; recount Z=11690 Z0=0 OK
+RESULT crosscheck p=7: 10/10 samples agree
+### wall: .739802437 s
+### command: code/round3/R3M/bin/oddp_mc 11 9 10 30 18 4 2000000 10 | python3 code/round3/R3M/mc_crosscheck.py 11
+x=4385793317676502847 n=30: C program Z=556896 Z0=424980; recount Z=556896 Z0=424980 OK
+x=4743146873556814412 n=30: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=3377229311015053171 n=30: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=3593032570485854723 n=30: C program Z=0 Z0=0; recount Z=0 Z0=0 OK
+x=503049545986923281 n=30: C program Z=46976 Z0=37304; recount Z=46976 Z0=37304 OK
+RESULT crosscheck p=11: 5/5 samples agree
+### wall: 18.107989429 s

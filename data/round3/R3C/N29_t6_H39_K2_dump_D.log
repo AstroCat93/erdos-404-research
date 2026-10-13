@@ -1,0 +1,10 @@
+# command: env COVFAST_DUMP=10 /tmp/r3_R3C/bin/covfast 29 6 39 1 pos 2
+# cwd: /home/user/erdos-404-research  host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz
+# start: 2026-10-13 07:59:43 UTC
+# covfast(D) p=29 t=6 H=39 c=1 M=7 k=1 Q=17249876309 F=594823321 bits (70 MB x2) LISTMAX=16777216 ZMAX=4194304
+    MISS x=9681558076 (fibre r=6 z=333846830)
+    MISS x=7454824172 (fibre r=14 z=257062902)
+D p=29 t=6 H=39 c=1 M=7 k=1 K=2 Kmodpc=2 missing=2 NOT_COVERED [8.69s]
+SUMMARY D p=29 t=6 H=39 c=1 M=7 k=1 mode=pos nK=1 fail=1 worst_missing=2 SOME_NOT_COVERED total=8.7s
+# wall=8.723 s user=7.983 s sys=0.134 s
+# end: 2026-10-13 07:59:52 UTC

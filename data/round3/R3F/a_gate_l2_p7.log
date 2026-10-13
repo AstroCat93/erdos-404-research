@@ -1,0 +1,21 @@
+# command: python3 -I /home/user/erdos-404-research/code/round3/R3F/gate_l2.py 7 12
+# host: vm  start: 2026-10-13T06:53:52Z
+# gate_l2 p=7 sigma=[1, -6, 30, -120, 360, -720, 720]
+# R = sum|sigma_i| = 1957 (= floor(e (p-1)!) : True)
+# nonzero delta in {-1,0,1}^p with <delta,sigma>=0 exactly: [(0, 0, 0, 0, 0, -1, -1), (0, 0, 0, 0, 0, 1, 1)]
+# exact-integer collision weight sum_(<delta,sigma>=0) 2^z = 192 = 2^p * 3/2
+# d  N_d  Q_d/(N_d 2^-p) [exact]  CS ratio sqrt(N_d Q_d)/(N_d (2/pi)^p)   (A2 exact-integer regime: p^d > R)
+ 1 6 0.3046875000 (39/128) 1.151228 
+ 2 42 0.2994791667 (115/384) 1.141346 
+ 3 294 1.2838541667 (493/384) 2.363154 
+ 4 2058 1.4973958333 (575/384) 2.552128 (exact-int regime)
+ 5 14406 1.5000000000 (3/2) 2.554346 (exact-int regime)
+ 6 100842 1.5000000000 (3/2) 2.554346 (exact-int regime)
+ 7 705894 1.5000000000 (3/2) 2.554346 (exact-int regime)
+ 8 4941258 1.5000000000 (3/2) 2.554346 (exact-int regime)
+ 9 34588806 1.5000000000 (3/2) 2.554346 (exact-int regime)
+10 242121642 1.5000000000 (3/2) 2.554346 (exact-int regime)
+11 1694851494 1.5000000000 (3/2) 2.554346 (exact-int regime)
+12 11863960458 1.5000000000 (3/2) 2.554346 (exact-int regime)
+# limiting C-S ratio sqrt(3/2) (pi/(2 sqrt 2))^p = 2.554346
+# end: 2026-10-13T06:53:52Z  exit=0  wall_seconds=.109104857

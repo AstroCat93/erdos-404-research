@@ -1,0 +1,10 @@
+{
+  "a": 1102,
+  "p": 2,
+  "extra_target": 11536,
+  "selected_count": 5730,
+  "max_selected": 12638,
+  "normalized_verified": true,
+  "witness_file": "../lab2/a1102_g11536_witness_indices.txt",
+  "checkpoint_block_size": 10
+}

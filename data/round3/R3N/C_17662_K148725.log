@@ -1,0 +1,7 @@
+# cmd: nice -n 10 /tmp/r3_R3N/dfsW 17662 148725 /tmp/r3_R3N/w17662_148725.txt   (G = 131072)
+dfsW (WL=4) a=17662 K=148725 witness=/tmp/r3_R3N/w17662_148725.txt
+[60s] level=145 M=54710 nlev=188 maxlevel=187 nodes=414596017 surv=1146880 fulladds=12432271 best=65600
+[120s] level=214 M=72338 nlev=244 maxlevel=243 nodes=977060279 surv=2387968 fulladds=26103669 best=79901
+SUCCESS: 2^148725 divides a witness sum (final gate at N=148734)
+witness written: /tmp/r3_R3N/w17662_148725.txt (65459 terms)
+RESULT a=17662 K=148725 reachable=1 nodes=2615528648 surv=4024255 fulladds=46561488 levels=514 time=172.1s

@@ -1,0 +1,4 @@
+# cmd: /tmp/r3_R3N/verify_witness_gmp /tmp/r3_R3N/w594_66126.txt 594 66126  (gcc -O2 code/round3/R3N/verify_witness_gmp.c -lgmp)
+terms=32640 min=594 max=66130 v2(sum)=66126 bits=963545 v2(a!)=590 g>=65536
+check v2(sum) >= 66126: True
+VERIFIED

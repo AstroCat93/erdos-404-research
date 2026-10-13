@@ -1,0 +1,7 @@
+# cmd: nice -n 10 /tmp/r3_R3N/dfsW 594 90394 /tmp/r3_R3N/w594_90394.txt   (dfsW = gcc -O3 -march=native code/round3/R3N/dfsW.c, WL=4)
+dfsW (WL=4) a=594 K=90394 witness=/tmp/r3_R3N/w594_90394.txt
+[60s] level=236 M=60890 nlev=271 maxlevel=270 nodes=1486633206 surv=2449408 fulladds=27282983 best=69819
+[120s] level=239 M=61654 nlev=299 maxlevel=298 nodes=2996823861 surv=6791168 fulladds=74010271 best=76795
+SUCCESS: 2^90394 divides a witness sum (final gate at N=90398)
+witness written: /tmp/r3_R3N/w594_90394.txt (44801 terms)
+RESULT a=594 K=90394 reachable=1 nodes=3645409494 surv=8940409 fulladds=95471529 levels=352 time=140.3s

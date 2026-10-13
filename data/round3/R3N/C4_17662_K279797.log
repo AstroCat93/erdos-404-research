@@ -1,0 +1,107 @@
+# cmd: nice -n 10 /tmp/r3_R3N/dfsW4 17662 279797 /tmp/r3_R3N/w17662_279797.txt -c /tmp/r3_R3N/ck17662 -i 600 -b /tmp/r3_R3N/best17662   (dfsW4 = gcc -O3 -march=native code/round3/R3N/dfsW4.c; G = 262144); resumed with -r if interrupted
+dfsW4 (WL=4) a=17662 K=279797 witness=/tmp/r3_R3N/w17662_279797.txt
+best 17661: witness /tmp/r3_R3N/best17662_17661.txt
+best 20483: witness /tmp/r3_R3N/best17662_20483.txt
+best 24576: witness /tmp/r3_R3N/best17662_24576.txt
+best 28672: witness /tmp/r3_R3N/best17662_28672.txt
+best 32769: witness /tmp/r3_R3N/best17662_32769.txt
+best 36866: witness /tmp/r3_R3N/best17662_36866.txt
+best 40961: witness /tmp/r3_R3N/best17662_40961.txt
+[60s] level=70 M=35546 nlev=95 maxlevel=94 nodes=66364649 surv=282624 fulladds=2200341 best=41850
+[120s] level=81 M=38358 nlev=95 maxlevel=94 nodes=154281188 surv=581632 fulladds=4578905 best=41850
+best 45056: witness /tmp/r3_R3N/best17662_45056.txt
+best 49153: witness /tmp/r3_R3N/best17662_49153.txt
+best 53250: witness /tmp/r3_R3N/best17662_53250.txt
+best 57346: witness /tmp/r3_R3N/best17662_57346.txt
+best 61442: witness /tmp/r3_R3N/best17662_61442.txt
+best 65538: witness /tmp/r3_R3N/best17662_65538.txt
+[181s] level=174 M=62118 nlev=188 maxlevel=187 nodes=290412465 surv=851968 fulladds=6982674 best=65600
+[241s] level=133 M=51642 nlev=188 maxlevel=187 nodes=426463171 surv=1200128 fulladds=9669579 best=65600
+[302s] level=122 M=48834 nlev=188 maxlevel=187 nodes=579808516 surv=1581056 fulladds=12833886 best=65600
+[362s] level=138 M=52922 nlev=188 maxlevel=187 nodes=725033225 surv=1966080 fulladds=15885207 best=65600
+best 69635: witness /tmp/r3_R3N/best17662_69635.txt
+best 73728: witness /tmp/r3_R3N/best17662_73728.txt
+[422s] level=225 M=75150 nlev=227 maxlevel=226 nodes=911156789 surv=2293760 fulladds=18747235 best=75471
+best 77826: witness /tmp/r3_R3N/best17662_77826.txt
+best 81923: witness /tmp/r3_R3N/best17662_81923.txt
+best 86016: witness /tmp/r3_R3N/best17662_86016.txt
+best 90113: witness /tmp/r3_R3N/best17662_90113.txt
+best 94209: witness /tmp/r3_R3N/best17662_94209.txt
+best 98304: witness /tmp/r3_R3N/best17662_98304.txt
+best 102400: witness /tmp/r3_R3N/best17662_102400.txt
+best 106496: witness /tmp/r3_R3N/best17662_106496.txt
+best 110594: witness /tmp/r3_R3N/best17662_110594.txt
+best 114688: witness /tmp/r3_R3N/best17662_114688.txt
+best 118784: witness /tmp/r3_R3N/best17662_118784.txt
+best 122880: witness /tmp/r3_R3N/best17662_122880.txt
+[482s] level=396 M=118838 nlev=413 maxlevel=412 nodes=1156419801 surv=2662400 fulladds=21931696 best=123128
+best 126976: witness /tmp/r3_R3N/best17662_126976.txt
+best 131077: witness /tmp/r3_R3N/best17662_131077.txt
+[543s] level=421 M=125226 nlev=452 maxlevel=451 nodes=1617859495 surv=3014656 fulladds=25526035 best=133116
+[600s] checkpoint: level 400 depth 129 nodes=2347275757 best=133116
+[603s] level=433 M=128294 nlev=452 maxlevel=451 nodes=2386512144 surv=3706880 fulladds=32145508 best=133116
+best 135168: witness /tmp/r3_R3N/best17662_135168.txt
+best 139264: witness /tmp/r3_R3N/best17662_139264.txt
+best 143360: witness /tmp/r3_R3N/best17662_143360.txt
+best 147456: witness /tmp/r3_R3N/best17662_147456.txt
+best 151553: witness /tmp/r3_R3N/best17662_151553.txt
+best 155648: witness /tmp/r3_R3N/best17662_155648.txt
+best 159744: witness /tmp/r3_R3N/best17662_159744.txt
+[663s] level=547 M=157414 nlev=557 maxlevel=556 nodes=2899443610 surv=5443584 fulladds=45554152 best=159754
+best 163841: witness /tmp/r3_R3N/best17662_163841.txt
+best 167937: witness /tmp/r3_R3N/best17662_167937.txt
+best 172032: witness /tmp/r3_R3N/best17662_172032.txt
+best 176130: witness /tmp/r3_R3N/best17662_176130.txt
+best 180227: witness /tmp/r3_R3N/best17662_180227.txt
+best 184320: witness /tmp/r3_R3N/best17662_184320.txt
+best 188416: witness /tmp/r3_R3N/best17662_188416.txt
+best 192512: witness /tmp/r3_R3N/best17662_192512.txt
+best 196610: witness /tmp/r3_R3N/best17662_196610.txt
+[723s] level=634 M=179638 nlev=704 maxlevel=703 nodes=3466915036 surv=7462912 fulladds=59992863 best=197434
+[783s] level=634 M=179638 nlev=704 maxlevel=703 nodes=4124913928 surv=9367552 fulladds=74601453 best=197434
+[843s] level=630 M=178614 nlev=704 maxlevel=703 nodes=4743445171 surv=11497472 fulladds=90012201 best=197434
+best 200704: witness /tmp/r3_R3N/best17662_200704.txt
+best 204801: witness /tmp/r3_R3N/best17662_204801.txt
+best 208896: witness /tmp/r3_R3N/best17662_208896.txt
+[903s] level=745 M=207988 nlev=755 maxlevel=754 nodes=5488063026 surv=13565952 fulladds=105242060 best=210412
+best 212995: witness /tmp/r3_R3N/best17662_212995.txt
+[963s] level=647 M=182954 nlev=768 maxlevel=767 nodes=6218665909 surv=15110144 fulladds=117337597 best=213761
+[1023s] level=727 M=203390 nlev=770 maxlevel=769 nodes=6872850678 surv=16437248 fulladds=127766015 best=214329
+[1083s] level=642 M=181678 nlev=770 maxlevel=769 nodes=7472005954 surv=18018304 fulladds=139484333 best=214329
+[1144s] level=537 M=154856 nlev=770 maxlevel=769 nodes=7815544996 surv=19300352 fulladds=149219480 best=214329
+[1200s] checkpoint: level 552 depth 127 nodes=8160019417 best=214329
+[1204s] level=549 M=157922 nlev=770 maxlevel=769 nodes=8185148066 surv=20787200 fulladds=160395582 best=214329
+[1264s] level=417 M=124206 nlev=770 maxlevel=769 nodes=8537613819 surv=21823488 fulladds=168380843 best=214329
+[1324s] level=370 M=112198 nlev=770 maxlevel=769 nodes=9046907052 surv=22478848 fulladds=174149809 best=214329
+[1384s] level=505 M=146680 nlev=770 maxlevel=769 nodes=9686113167 surv=23179264 fulladds=180449993 best=214329
+[1444s] level=618 M=175550 nlev=770 maxlevel=769 nodes=10009242820 surv=24465408 fulladds=189843751 best=214329
+[1504s] level=663 M=187042 nlev=770 maxlevel=769 nodes=10580460456 surv=26349568 fulladds=204354896 best=214329
+[1564s] level=695 M=195218 nlev=771 maxlevel=770 nodes=11333762051 surv=27971584 fulladds=216789138 best=214614
+[1624s] level=597 M=170182 nlev=771 maxlevel=770 nodes=11968945767 surv=29188096 fulladds=226953092 best=214614
+[1685s] level=529 M=152812 nlev=771 maxlevel=770 nodes=12330899437 surv=30396416 fulladds=236236148 best=214614
+[1745s] level=631 M=178870 nlev=771 maxlevel=770 nodes=12661434310 surv=31739904 fulladds=245891503 best=214614
+[1800s] checkpoint: level 689 depth 129 nodes=13290595383 best=214614
+[1805s] level=684 M=192410 nlev=771 maxlevel=770 nodes=13345530410 surv=32927744 fulladds=255877956 best=214614
+best 217088: witness /tmp/r3_R3N/best17662_217088.txt
+best 221186: witness /tmp/r3_R3N/best17662_221186.txt
+[1865s] level=762 M=212334 nlev=798 maxlevel=797 nodes=13964994353 surv=34381824 fulladds=266755257 best=221465
+[1925s] level=587 M=167630 nlev=798 maxlevel=797 nodes=14503523442 surv=36040704 fulladds=278403555 best=221465
+[1985s] level=583 M=166606 nlev=798 maxlevel=797 nodes=14925466288 surv=37400576 fulladds=288091455 best=221465
+[2045s] level=620 M=176062 nlev=798 maxlevel=797 nodes=15415659516 surv=38858752 fulladds=298808685 best=221465
+[2105s] level=539 M=155370 nlev=798 maxlevel=797 nodes=15765824467 surv=40103936 fulladds=308230815 best=221465
+[2165s] level=500 M=145406 nlev=798 maxlevel=797 nodes=16036443862 surv=41328640 fulladds=317708860 best=221465
+[2225s] level=309 M=96610 nlev=798 maxlevel=797 nodes=16576868773 surv=42147840 fulladds=324765176 best=221465
+[2285s] level=297 M=93546 nlev=798 maxlevel=797 nodes=17043941201 surv=42999808 fulladds=331829973 best=221465
+[2345s] level=172 M=61606 nlev=798 maxlevel=797 nodes=17537462000 surv=43786240 fulladds=338643871 best=221465
+[2400s] checkpoint: level 92 depth 128 nodes=17854267419 best=221465
+[2406s] level=161 M=58798 nlev=798 maxlevel=797 nodes=17881045647 surv=44498944 fulladds=344772724 best=221465
+[2466s] level=176 M=62628 nlev=798 maxlevel=797 nodes=18225723262 surv=45187072 fulladds=350729132 best=221465
+[2526s] level=80 M=38100 nlev=798 maxlevel=797 nodes=18522789005 surv=45858816 fulladds=356523405 best=221465
+[2586s] level=189 M=65950 nlev=798 maxlevel=797 nodes=18857188032 surv=46538752 fulladds=362485035 best=221465
+[2646s] level=193 M=66974 nlev=798 maxlevel=797 nodes=19272964881 surv=47271936 fulladds=368822629 best=221465
+[2706s] level=128 M=50364 nlev=798 maxlevel=797 nodes=19594797849 surv=48009216 fulladds=374790016 best=221465
+# resumed by lead 2026-10-13 15:08:49 UTC with -r
+dfsW4 (WL=4) a=17662 K=279797 witness=/tmp/r3_R3N/w17662_279797.txt
+checkpoint read: e1=1 J=92 nodes=17854267419 best=221465 (previous elapsed 2400.0s)
+resumed at level 92 depth 128
+[60s] level=131 M=51134 nlev=197 maxlevel=797 nodes=18292267664 surv=45330432 fulladds=351914433 best=221465

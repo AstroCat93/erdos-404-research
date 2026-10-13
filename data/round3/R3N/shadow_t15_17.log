@@ -1,0 +1,10 @@
+# cmd: for a in 32766 65534 131070: nice -n 10 python3 -I code/round3/R3N/survey.py a a 131072 /tmp/r3_R3N data/round3/R3N/shadow_t15_17.csv(appended)
+a=32766 f=37403 g=4651 time=1.1s
+a,v2(a!),status,f,g,certB,witness_v2
+32766,32752,exact,37403,4651,1,37403
+a=65534 f=90619 g=25100 time=54.8s
+a,v2(a!),status,f,g,certB,witness_v2
+65534,65519,exact,90619,25100,1,90619
+a=131070 f=135292 g=4238 time=11.1s
+a,v2(a!),status,f,g,certB,witness_v2
+131070,131054,exact,135292,4238,1,135292

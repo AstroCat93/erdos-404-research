@@ -1,0 +1,20 @@
+=== command: python3 code/round3/check_R3M/ck_propB.py 3 201 40 20 26
+=== start (UTC): 2026-10-13T08:16:20Z
+RESULT propB p=3 n=20 N=26 samples=40: (B-i) pointwise counts fails=0/19368; (B-ii) mean+Fourier identity fails=0/40; Var<=M^2chi^2 fails=0/40 (max ratio 0.0839); PropN bound fails=0/40; equality |P|=1 fails=0/0
+=== exit: 0   wall: 1.59 s
+=== command: python3 code/round3/check_R3M/ck_propB.py 3 202 10 30 38
+=== start (UTC): 2026-10-13T08:16:22Z
+RESULT propB p=3 n=30 N=38 samples=10: (B-i) pointwise counts fails=0/72522; (B-ii) mean+Fourier identity fails=0/10; Var<=M^2chi^2 fails=0/10 (max ratio 0.0228); PropN bound fails=0/10; equality |P|=1 fails=0/0
+=== exit: 0   wall: 14.85 s
+=== command: python3 code/round3/check_R3M/ck_propB.py 5 203 10 20 28
+=== start (UTC): 2026-10-13T08:16:37Z
+RESULT propB p=5 n=20 N=28 samples=10: (B-i) pointwise counts fails=0/76640; (B-ii) mean+Fourier identity fails=0/10; Var<=M^2chi^2 fails=0/10 (max ratio 0.2466); PropN bound fails=0/10; equality |P|=1 fails=0/0
+=== exit: 0   wall: 6.54 s
+=== command: python3 code/round3/check_R3M/ck_propB.py 7 204 6 14 22 200
+=== start (UTC): 2026-10-13T08:16:43Z
+RESULT propB p=7 n=14 N=22 samples=6: (B-i) pointwise counts fails=0/5320; (B-ii) mean+Fourier identity fails=0/6; Var<=M^2chi^2 fails=0/6 (max ratio 0.0202); PropN bound fails=0/6; equality |P|=1 fails=0/0
+=== exit: 0   wall: 1.42 s
+=== command: python3 code/round3/check_R3M/ck_propB.py 11 205 4 22 33 100
+=== start (UTC): 2026-10-13T08:16:45Z
+RESULT propB p=11 n=22 N=33 samples=4: (B-i) pointwise counts fails=0/4400; (B-ii) mean+Fourier identity fails=0/4; Var<=M^2chi^2 fails=0/4 (max ratio 0.0321); PropN bound fails=0/4; equality |P|=1 fails=0/0
+=== exit: 0   wall: 8.85 s

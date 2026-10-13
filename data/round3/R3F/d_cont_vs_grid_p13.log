@@ -1,0 +1,10 @@
+# command: python3 -I /home/user/erdos-404-research/code/round3/R3F/cont_vs_grid.py 13 13 7 300
+# host: vm  start: 2026-10-13T06:37:26Z
+k=1 n_k=13 Psi(0)=0.99997803  (p^k-p^(k-1)) int F_k = 3.385426e-02   random model = 3.385500e-02
+k=2 n_k=26 Psi(0)=0.99991076  (p^k-p^(k-1)) int F_k = 1.241564e-03   random model = 1.241675e-03
+k=3 n_k=39 Psi(0)=1.00005819  (p^k-p^(k-1)) int F_k = 4.554262e-05   random model = 4.553997e-05
+k=4 n_k=52 Psi(0)=1.00004133  (p^k-p^(k-1)) int F_k = 1.670304e-06   random model = 1.670235e-06
+k=5 n_k=65 Psi(0)=1.00009897  (p^k-p^(k-1)) int F_k = 6.126404e-08   random model = 6.125798e-08
+k=6 n_k=78 Psi(0)=1.00009131  (p^k-p^(k-1)) int F_k = 2.246918e-09   random model = 2.246713e-09
+k=7 n_k=91 Psi(0)=1.00012193  (p^k-p^(k-1)) int F_k = 8.241106e-11   random model = 8.240101e-11
+# end: 2026-10-13T06:37:32Z  exit=0  wall_seconds=6.218296721

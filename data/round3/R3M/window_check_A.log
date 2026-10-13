@@ -1,0 +1,50 @@
+### command: python3 code/round3/R3M/oddp_window_check.py 3 11 40 20 26 4
+### start: 2026-10-13T06:24:09Z
+RESULT p=3 n=20 N=26: (parent,state) identities tested=2929; parents with all states exact=1125/1125; inheritance failures=0; constancy failures=0; lambda histogram {0: 652, 1: 330, 2: 143}
+### wall: 8.753455497 s
+### command: python3 code/round3/R3M/oddp_window_check.py 3 12 40 24 33 4
+### start: 2026-10-13T06:24:18Z
+RESULT p=3 n=24 N=33: (parent,state) identities tested=11984; parents with all states exact=1716/1716; inheritance failures=0; constancy failures=0; lambda histogram {0: 488, 1: 286, 2: 822, 3: 120}
+### wall: 265.842239245 s
+### command: python3 code/round3/R3M/oddp_window_check.py 3 13 30 30 39 5
+### start: 2026-10-13T06:28:44Z
+### (previous command killed by hand to keep run times short; re-run below with smaller NX)
+### command: python3 code/round3/R3M/oddp_window_check.py 3 13 8 30 39 4
+### start: 2026-10-13T06:31:17Z
+RESULT p=3 n=30 N=39: (parent,state) identities tested=8847; parents with all states exact=1063/1063; inheritance failures=0; constancy failures=0; lambda histogram {0: 297, 1: 252, 2: 338, 3: 176}
+### wall: 188.447953551 s
+### command: python3 code/round3/R3M/oddp_window_check.py 3 14 6 36 45 4
+### start: 2026-10-13T06:34:25Z
+RESULT p=3 n=36 N=45: (parent,state) identities tested=36709; parents with all states exact=3089/3089; inheritance failures=0; constancy failures=0; lambda histogram {0: 295, 2: 2168, 3: 626}
+### wall: 614.046124069 s
+### command: python3 code/round3/R3M/oddp_window_check.py 5 21 30 20 30 3
+### start: 2026-10-13T06:44:39Z
+### command: python3 code/round3/R3M/oddp_window_check.py 5 22 20 30 40 3
+### start: 2026-10-13T06:59:18Z
+### (run killed by hand: too slow on the shared machine; re-run below with smaller parameters)
+### command: python3 code/round3/R3M/oddp_window_check.py 5 21 6 16 26 3
+### start: 2026-10-13T06:59:36Z
+RESULT p=5 n=16 N=26: (parent,state) identities tested=250; parents with all states exact=250/250; inheritance failures=0; constancy failures=0; lambda histogram {0: 250}
+### wall: 13.473325369 s
+### command: python3 code/round3/R3M/oddp_window_check.py 5 22 4 24 34 3
+### start: 2026-10-13T06:59:49Z
+### command: python3 code/round3/R3M/oddp_window_check.py 7 31 4 21 35 2
+### start: 2026-10-13T07:15:01Z
+### (run killed by hand: too slow; re-run with at most MAXPAR parents per slope value per x)
+### (run killed by hand: too slow; re-run with at most MAXPAR parents per slope value per x)
+### command: python3 code/round3/R3M/oddp_window_check.py 5 23 10 24 34 3 6
+### start: 2026-10-13T07:15:33Z
+RESULT p=5 n=24 N=34: (parent,state) identities tested=978; parents with all states exact=90/90; inheritance failures=0; constancy failures=0; lambda histogram {0: 18, 1: 42, 2: 30}
+### wall: 19.758007850 s
+### command: python3 code/round3/R3M/oddp_window_check.py 5 24 8 30 40 3 5
+### start: 2026-10-13T07:15:53Z
+RESULT p=5 n=30 N=40: (parent,state) identities tested=385; parents with all states exact=65/65; inheritance failures=0; constancy failures=0; lambda histogram {0: 35, 1: 20, 2: 10}
+### wall: 26.036093925 s
+### command: python3 code/round3/R3M/oddp_window_check.py 7 31 5 21 35 2 4
+### start: 2026-10-13T07:16:19Z
+RESULT p=7 n=21 N=35: (parent,state) identities tested=20; parents with all states exact=20/20; inheritance failures=0; constancy failures=0; lambda histogram {0: 20}
+### wall: 37.873016679 s
+### command: python3 code/round3/R3M/oddp_window_check.py 7 32 4 28 42 2 3
+### start: 2026-10-13T07:16:57Z
+RESULT p=7 n=28 N=42: (parent,state) identities tested=30; parents with all states exact=12/12; inheritance failures=0; constancy failures=0; lambda histogram {0: 9, 1: 3}
+### wall: 38.736174571 s

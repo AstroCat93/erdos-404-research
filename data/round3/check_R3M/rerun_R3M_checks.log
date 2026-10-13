@@ -1,0 +1,52 @@
+=== command: python3 code/round3/R3M/lemma_c5_check.py 3 81 20 10 5 5 8
+=== start (UTC): 2026-10-13T08:05:22Z
+x#1: D=2 K=4 eps=0.095856 decomposition=0.095856 exact_equal=True
+x#2: D=1 K=7 eps=9.247009 decomposition=9.247009 exact_equal=True
+x#3: D=5 K=7 eps=0.661858 decomposition=0.661858 exact_equal=True
+x#4: D=1 K=4 eps=0.113251 decomposition=0.113251 exact_equal=True
+x#5: D=2 K=5 eps=0.323753 decomposition=0.323753 exact_equal=True
+x#6: D=1 K=6 eps=1.838654 decomposition=1.838654 exact_equal=True
+x#7: D=4 K=5 eps=0.059326 decomposition=0.059326 exact_equal=True
+x#8: D=1 K=5 eps=1.757080 decomposition=1.757080 exact_equal=True
+x#9: D=2 K=6 eps=1.345276 decomposition=1.345276 exact_equal=True
+x#10: D=4 K=6 eps=0.441238 decomposition=0.441238 exact_equal=True
+x#11: D=2 K=5 eps=0.637207 decomposition=0.637207 exact_equal=True
+x#12: D=3 K=4 eps=0.013184 decomposition=0.013184 exact_equal=True
+x#13: D=6 K=7 eps=1.223602 decomposition=1.223602 exact_equal=True
+x#14: D=3 K=5 eps=0.147079 decomposition=0.147079 exact_equal=True
+x#15: D=1 K=4 eps=0.215836 decomposition=0.215836 exact_equal=True
+x#16: D=4 K=5 eps=0.135956 decomposition=0.135956 exact_equal=True
+x#17: D=2 K=8 eps=24.482483 decomposition=24.482483 exact_equal=True
+x#18: D=3 K=5 eps=0.073540 decomposition=0.073540 exact_equal=True
+x#19: D=4 K=5 eps=0.059326 decomposition=0.059326 exact_equal=True
+x#20: D=4 K=6 eps=0.441238 decomposition=0.441238 exact_equal=True
+RESULT p=3 n=10 H=5 H2=5: Lemma C5 identity exact in 20/20 samples
+=== exit: 0   wall: 0.15 s
+=== command: python3 code/round3/R3M/lemma_c5_check.py 7 84 8 14 8 8 5
+=== start (UTC): 2026-10-13T08:05:22Z
+x#1: D=1 K=2 eps=0.001654 decomposition=0.001654 exact_equal=True
+x#2: D=1 K=3 eps=0.032494 decomposition=0.032494 exact_equal=True
+x#3: D=1 K=2 eps=0.000315 decomposition=0.000315 exact_equal=True
+x#4: D=2 K=4 eps=0.040902 decomposition=0.040902 exact_equal=True
+x#5: D=2 K=4 eps=0.040902 decomposition=0.040902 exact_equal=True
+x#6: D=1 K=2 eps=0.002013 decomposition=0.002013 exact_equal=True
+x#7: D=2 K=3 eps=0.005788 decomposition=0.005788 exact_equal=True
+x#8: D=1 K=2 eps=0.000315 decomposition=0.000315 exact_equal=True
+RESULT p=7 n=14 H=8 H2=8: Lemma C5 identity exact in 8/8 samples
+=== exit: 0   wall: 0.34 s
+=== command: python3 code/round3/R3M/twowin_check.py 3 61 12 20 4 4 5
+=== start (UTC): 2026-10-13T08:05:22Z
+x#1: m=9 D=3 D2=1 Z0=12 mart=True C2: lhs=1.301e-04 eps*M^2=2.007e-03 ratio=0.0648 eps=0.0396
+x#2: m=9 D=2 D2=2 Z0=4 mart=True C2: lhs=3.712e-04 eps*M^2=1.982e-03 ratio=0.1873 eps=0.3516
+x#3: m=9 D=3 D2=1 Z0=40 mart=True C2: lhs=4.889e-04 eps*M^2=2.230e-02 ratio=0.0219 eps=0.0396
+x#4: m=9 D=2 D2=2 Z0=60 mart=True C2: lhs=1.142e-03 eps*M^2=4.460e-01 ratio=0.0026 eps=0.3516
+x#5: m=9 D=3 D2=1 Z0=48 mart=True C2: lhs=6.689e-04 eps*M^2=3.211e-02 ratio=0.0208 eps=0.0396
+x#6: m=8 D=2 D2=3 Z0=68 mart=True C2: lhs=9.533e-03 eps*M^2=4.718e-01 ratio=0.0202 eps=2.6060
+x#7: m=8 D=2 D2=3 Z0=76 mart=True C2: lhs=6.733e-03 eps*M^2=5.893e-01 ratio=0.0114 eps=2.6060
+x#8: m=9 D=3 D2=1 Z0=32 mart=True C2: lhs=5.691e-04 eps*M^2=1.427e-02 ratio=0.0399 eps=0.0396
+x#9: m=8 D=2 D2=3 Z0=100 mart=True C2: lhs=1.793e-02 eps*M^2=1.020e+00 ratio=0.0176 eps=2.6060
+x#10: m=10 D=3 D2=1 Z0=72 mart=True C2: lhs=1.332e-02 eps*M^2=6.502e-01 ratio=0.0205 eps=0.0396
+x#11: m=10 D=2 D2=2 Z0=4 mart=True C2: lhs=5.003e-03 eps*M^2=1.784e-02 ratio=0.2805 eps=0.3516
+x#12: m=8 D=2 D2=3 Z0=100 mart=True C2: lhs=3.325e-03 eps*M^2=5.093e-01 ratio=0.0065 eps=1.3008
+RESULT p=3 n=20 H=4 H2=4: martingale exact 12/12; C1 bounds 150/150; C2 inequality 12/12; max ratio lhs/(eps M^2) = 0.2805
+=== exit: 0   wall: 15.31 s

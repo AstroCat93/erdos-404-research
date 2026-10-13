@@ -1,0 +1,7 @@
+# command: ./ivshell_gcc_v2 file 13 9 gate_p13_d9.txt 9 1 1
+# host: vm  start: 2026-10-13T07:49:45Z
+# ivshell file p=13 kmax=9 elements=13 source=gate_p13_d9.txt
+# k  T1_lo  T1_hi  T2_lo  T2_hi  leaves(half)  cumT1_hi  cumT2_hi
+# PARTIAL RUN: shells 9..9, lowest digit u_0 in [1,1] only (u and -u still merged; totals are 2 x partial sums)
+ 9 5.398805938967e+06 5.398806305200e+06 2.987295032983e+05 2.987295230024e+05 815730721 5.398806305200e+06 2.987295230024e+05
+# end: 2026-10-13T08:02:32Z  exit=0  wall_seconds=767.397071416

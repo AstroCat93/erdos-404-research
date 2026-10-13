@@ -1,0 +1,8 @@
+# cmd: nice -n 10 /tmp/r3_R3N/dfsW 594 131662 /tmp/r3_R3N/w594_131662.txt   (dfsW = gcc -O3 -march=native code/round3/R3N/dfsW.c, WL=4)
+dfsW (WL=4) a=594 K=131662 witness=/tmp/r3_R3N/w594_131662.txt
+[60s] level=237 M=61146 nlev=249 maxlevel=248 nodes=1410565629 surv=2260992 fulladds=25124756 best=64056
+[120s] level=233 M=60122 nlev=282 maxlevel=281 nodes=2546647067 surv=5349376 fulladds=58002813 best=72423
+[180s] level=284 M=73150 nlev=352 maxlevel=351 nodes=3715029676 surv=9162752 fulladds=97502076 best=90394
+[240s] level=169 M=43770 nlev=352 maxlevel=351 nodes=4769746127 surv=12308480 fulladds=132595843 best=90394
+RESULT a=594 K=131662 reachable=0 nodes=5537780784 surv=13566171 fulladds=146314113 levels=352 time=275.8s
+EXACT a=594 f=90394 g=89804 (max valuation over all paths; valid since K > f)
