@@ -1,0 +1,39 @@
+# cmd: python3 -I rule.py 3072 4096 512  (start 17:09:19)
+RULE K=3072 M=48 chain=[288, 432, 648, 972] Lam=956 ns=1068 kB=1092 Kt=3071: exact log2=-41.44 (-/K=0.0135; largest B2) majorant log2=-39.81 vs -K/80=-38.40 OK
+RULE K=3584 M=56 chain=[336, 504, 756, 1134] Lam=1117 ns=1246 kB=1275 Kt=3583: exact log2=-49.22 (-/K=0.0137; largest B2) majorant log2=-49.16 vs -K/80=-44.80 OK
+RULE K=4096 M=64 chain=[384, 576, 864, 1296] Lam=1282 ns=1424 kB=1458 Kt=4095: exact log2=-57.03 (-/K=0.0139; largest B2) majorant log2=-56.98 vs -K/80=-51.20 OK
+# wall 1 s
+# cmd: python3 -I rule.py 8192 8192 1  (start 17:09:20)
+RULE K=8192 M=128 chain=[768, 1152, 1728, 2592] Lam=2577 ns=2848 kB=2915 Kt=8191: exact log2=-120.03 (-/K=0.0147; largest B2) majorant log2=-119.99 vs -K/80=-102.40 OK
+# wall 1 s
+# cmd: python3 -I rule.py 16384 16384 1  (start 17:09:21)
+RULE K=16384 M=256 chain=[1536, 2304, 3456, 5184] Lam=5168 ns=5696 kB=5827 Kt=16383: exact log2=-247.03 (-/K=0.0151; largest B2) majorant log2=-247.00 vs -K/80=-204.80 OK
+# wall 7 s
+# cmd: python3 -I -c import sys; sys.path.insert(0,'.'); import rule; [print(rule.fmt_line(K)) for K in (3072, 4096, 8192)]  (start 17:09:28)
+K=3072 delta<=3.3440e-13 C0=0(ns=112,k=103,m1=0) C2=0(ns=112,k=107,m1=0) C6=0(ns=112,k=107,m1=0) C14=0(M*=48,Mf=48,chain=[288, 432, 648, 972],ns=1068,k=1092,m1=0)
+K=4096 delta<=6.8101e-18 C0=0(ns=144,k=135,m1=0) C2=0(ns=144,k=139,m1=0) C6=0(ns=144,k=139,m1=0) C14=0(M*=64,Mf=64,chain=[384, 576, 864, 1296],ns=1424,k=1458,m1=0)
+K=8192 delta<=7.3799e-37 C0=0(ns=272,k=263,m1=0) C2=0(ns=272,k=267,m1=0) C6=0(ns=272,k=267,m1=0) C14=0(M*=128,Mf=128,chain=[768, 1152, 1728, 2592],ns=2848,k=2915,m1=0)
+# wall 1 s
+# cmd: python3 -I rule_K0.py  (start 17:09:29)
+largest K in [2400, 4e6] violating (majorant <= -K/80, M>=22, q<=0.36): 3071
+# wall 10 s
+# cmd: python3 -I rule_A.py  (start 17:09:39)
+largest K in [1024, 4e6] violating the closed-form claim: None
+K=1024 C0: exact log2=-161.99  majorant=-150.80  -K/7=-146.29  OK
+K=1024 C2: exact log2=-159.00  majorant=-150.80  -K/7=-146.29  OK
+K=1024 C6: exact log2=-170.91  majorant=-150.80  -K/7=-146.29  OK
+K=1536 C0: exact log2=-250.98  majorant=-234.96  -K/7=-219.43  OK
+K=1536 C2: exact log2=-254.96  majorant=-234.96  -K/7=-219.43  OK
+K=1536 C6: exact log2=-251.99  majorant=-234.96  -K/7=-219.43  OK
+K=2048 C0: exact log2=-328.99  majorant=-319.47  -K/7=-292.57  OK
+K=2048 C2: exact log2=-333.00  majorant=-319.47  -K/7=-292.57  OK
+K=2048 C6: exact log2=-330.00  majorant=-319.47  -K/7=-292.57  OK
+K=4096 C0: exact log2=-670.99  majorant=-658.80  -K/7=-585.14  OK
+K=4096 C2: exact log2=-668.00  majorant=-658.80  -K/7=-585.14  OK
+K=4096 C6: exact log2=-679.99  majorant=-658.80  -K/7=-585.14  OK
+# wall 10 s
+# cmd: python3 -I verify_bounds.py /tmp/r3_R3Q/rule_lines.txt  (start 17:09:49)
+K=3072: recomputed delta bound = 2^-41.4435 = 3.343992e-13; logged 3.3440e-13; ratio 0.999998
+K=4096: recomputed delta bound = 2^-57.0270 = 6.810145e-18; logged 6.8101e-18; ratio 1.000007
+K=8192: recomputed delta bound = 2^-120.0277 = 7.379900e-37; logged 7.3799e-37; ratio 1.000000
+# wall 0 s

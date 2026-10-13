@@ -1,0 +1,3 @@
+# cmd: nice -n 10 python3 -I code/round3/check_R3N/validate_D.py kitamura data/round3/S0/kitamura_excerpts/p2_exact_table_1_256.csv /tmp/r3_check_R3N/dfsD code/round3/check_R3N/verify_w.py
+kitamura table: odd rows 128 (formula), even rows 128 (dfsD both directions), witnesses verified 128, failures 0, time 13.0s
+ALL_OK

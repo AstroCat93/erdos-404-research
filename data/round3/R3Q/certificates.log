@@ -1,0 +1,26 @@
+# cmd: python3 -I cert_classes.py  (start 17:04:21)
+(a) residues 0 mod 8, length 6, modulus 2^4: qualifying words=4 violations=0  OK
+(b) residues 2 mod 16, length 8, modulus 2^7: qualifying words=32 violations=0  OK
+(c) residues 6 mod 16, length 10, modulus 2^11: qualifying words=128 violations=0  OK
+(d) residues 10 mod 16, length 6, modulus 2^7: qualifying words=0 violations=0  OK
+(e) residues 4 mod 8, length 4, modulus 2^4: qualifying words=0 violations=0  OK
+# wall 0 s
+# cmd: python3 -I cert_classes_sympy.py  (start 17:04:21)
+a qualifying 4 violations 0 OK
+b qualifying 32 violations 0 OK
+c qualifying 128 violations 0 OK
+d qualifying 0 violations 0 OK
+e qualifying 0 violations 0 OK
+# wall 1 s
+# cmd: python3 -I ../slope_cert.py 0 3 4 1  (start 17:04:22)
+class 0 mod 2^3: V_j >= 4 for j >= J=6; v(pi_j') >= 2 for j >= J'=6; prefix length 6
+x-classes=2 prefixes per class=32 prefixes with S=0 mod 2^4: 4 violations=0  -> CERTIFIED
+# wall 0 s
+# cmd: python3 -I ../slope_cert.py 2 4 7 3  (start 17:04:22)
+class 2 mod 2^4: V_j >= 7 for j >= J=8; v(pi_j') >= 4 for j >= J'=8; prefix length 8
+x-classes=8 prefixes per class=128 prefixes with S=0 mod 2^7: 32 violations=0  -> CERTIFIED
+# wall 0 s
+# cmd: python3 -I ../slope_cert.py 6 4 11 3  (start 17:04:22)
+class 6 mod 2^4: V_j >= 11 for j >= J=10; v(pi_j') >= 4 for j >= J'=8; prefix length 10
+x-classes=128 prefixes per class=512 prefixes with S=0 mod 2^11: 128 violations=0  -> CERTIFIED
+# wall 0 s

@@ -1,0 +1,12 @@
+# cmd: python3 -I test_elementary.py 11 1500 60  (start 17:04:22)
+tests: {'L1': 88500, 'L1e': 7500, 'L4': 1500, 'L6': 14097, 'L6min': 2439, 'L7': 20441, 'L7hi': 7779} failures: 0
+# wall 43 s
+# cmd: python3 -I test_step.py 12 600 6 48 10  (start 17:05:05)
+parents tested=3344 (lam>=3: 3222) skipped=4882 failures=0 control(rho:=1) differs in 928
+# wall 215 s
+# cmd: python3 -I test_uwin.py 13 3000 8 34 6 8 gen  (start 17:08:40)
+windows tested=2074 with U_n nonempty=330 failures=0 max(avg/bound)=1.000 control: coarser atom changed U_n in 59/330
+# wall 35 s
+# cmd: python3 -I test_uwin.py 14 4000 12 40 6 8  (start 17:09:15)
+windows tested=2036 with U_n nonempty=4 failures=0 max(avg/bound)=0.062 control: coarser atom changed U_n in 0/4
+# wall 1 s

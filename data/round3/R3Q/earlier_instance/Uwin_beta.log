@@ -1,0 +1,3 @@
+class 62 mod 128: window tests with nonempty U_n = 147 failures = 0
+class 126 mod 256: window tests with nonempty U_n = 90 failures = 0
+class 254 mod 512: window tests with nonempty U_n = 0 failures = 0

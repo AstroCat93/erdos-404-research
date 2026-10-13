@@ -1,0 +1,73 @@
+# cmd: nice -n 10 python3 -I bounds.py D 448 448 1  (start 16:36:47)
+K=448 delta<=4.5555e-02 (log2 -4.46; -log2/K=0.0099) C0=9.8138e-25(ns=88,k=88,m1=85) C2=1.2223e-24(ns=80,k=91,m1=76) C6=4.4658e-24(ns=90,k=90,m1=85) C14=4.5555e-02(M*=8,Mf=13,chain=[46, 67, 110, 194],ns=202,k=209,m1=0,K=447,Lam=183; B1=2.6e-141,B2=2.7e-02,B3=5.2e-03,B4=1.5e-05,B5=1.4e-02)
+# wall 19 s
+# cmd: nice -n 10 python3 -I bounds.py D 512 512 1  (start 16:37:06)
+K=512 delta<=2.0553e-02 (log2 -5.60; -log2/K=0.0109) C0=3.6008e-28(ns=98,k=100,m1=95) C2=4.0028e-28(ns=96,k=103,m1=91) C6=2.7757e-28(ns=90,k=104,m1=86) C14=2.0553e-02(M*=12,Mf=17,chain=[56, 80, 128, 224],ns=232,k=241,m1=0,K=511,Lam=213; B1=1.4e-160,B2=1.8e-03,B3=5.2e-03,B4=7.6e-06,B5=1.4e-02)
+# wall 22 s
+# cmd: nice -n 10 python3 -I bounds.py D 576 576 1  (start 16:37:28)
+K=576 delta<=8.5965e-03 (log2 -6.86; -log2/K=0.0119) C0=1.6074e-31(ns=114,k=112,m1=110) C2=3.5034e-31(ns=112,k=114,m1=108) C6=1.7756e-31(ns=106,k=116,m1=101) C14=8.5965e-03(M*=12,Mf=17,chain=[60, 88, 144, 254],ns=256,k=268,m1=0,K=575,Lam=239; B1=7.7e-180,B2=2.1e-03,B3=1.6e-04,B4=2.0e-03,B5=4.4e-03)
+# wall 25 s
+# cmd: nice -n 10 python3 -I bounds.py D 640 640 1  (start 16:37:53)
+K=640 delta<=1.9015e-03 (log2 -9.04; -log2/K=0.0141) C0=7.9793e-35(ns=120,k=126,m1=115) C2=3.5935e-34(ns=126,k=127,m1=120) C6=1.5783e-34(ns=124,k=127,m1=118) C14=1.9015e-03(M*=14,Mf=19,chain=[66, 96, 152, 264],ns=280,k=290,m1=0,K=639,Lam=253; B1=4.2e-199,B2=5.5e-04,B3=3.3e-04,B4=1.5e-08,B5=1.0e-03)
+# wall 25 s
+# cmd: nice -n 10 python3 -I bounds.py D 768 768 1  (start 16:38:18)
+K=768 delta<=4.3215e-04 (log2 -11.18; -log2/K=0.0146) C0=4.8196e-35(ns=120,k=156,m1=113) C2=2.9394e-39(ns=126,k=156,m1=120) C6=2.3511e-38(ns=124,k=156,m1=118) C14=4.3215e-04(M*=18,Mf=18,chain=[80, 115, 184, 320],ns=328,k=345,m1=0,K=767,Lam=309; B1=1.2e-237,B2=1.1e-04,B3=4.1e-05,B4=7.6e-06,B5=2.7e-04)
+# wall 39 s
+# cmd: nice -n 10 python3 -I bounds.py D 896 896 1  (start 16:38:57)
+K=896 delta<=4.2913e-05 (log2 -14.51; -log2/K=0.0162) C0=4.8196e-35(ns=120,k=219,m1=0) C2=2.9388e-39(ns=126,k=185,m1=120) C6=2.3511e-38(ns=122,k=189,m1=108) C14=4.2913e-05(M*=21,Mf=26,chain=[90, 128, 206, 358],ns=374,k=393,m1=0,K=895,Lam=344; B1=3.6e-276,B2=5.8e-06,B3=2.0e-05,B4=4.7e-10,B5=1.7e-05)
+# wall 47 s
+# cmd: nice -n 10 python3 -I bounds.py D 1024 1024 1  (start 16:39:44)
+K=1024 delta<=4.9359e-06 (log2 -17.63; -log2/K=0.0172) C0=4.8196e-35(ns=120,k=219,m1=0) C2=2.9388e-39(ns=126,k=239,m1=0) C6=2.3511e-38(ns=122,k=234,m1=0) C14=4.9359e-06(M*=24,Mf=29,chain=[102, 146, 235, 410],ns=424,k=448,m1=0,K=1023,Lam=396; B1=1.1e-314,B2=8.2e-07,B3=3.2e-07,B4=3.0e-08,B5=3.8e-06)
+# wall 52 s
+# cmd: nice -n 10 python3 -I bounds.py D 1280 1280 1  (start 16:40:36)
+K=1280 delta<=7.4336e-08 (log2 -23.68; -log2/K=0.0185) C0=4.8196e-35(ns=120,k=219,m1=0) C2=2.9388e-39(ns=126,k=239,m1=0) C6=2.3511e-38(ns=122,k=234,m1=0) C14=7.4336e-08(M*=30,Mf=35,chain=[126, 180, 288, 506],ns=518,k=551,m1=0,K=1279,Lam=490; B1=0.0e+00,B2=1.6e-08,B3=1.6e-10,B4=3.7e-09,B5=5.5e-08)
+# wall 69 s
+# cmd: nice -n 10 python3 -I bounds.py D 1536 1536 1  (start 16:41:45)
+K=1536 delta<=2.1076e-09 (log2 -28.82; -log2/K=0.0188) C0=4.8196e-35(ns=120,k=219,m1=0) C2=2.9388e-39(ns=126,k=239,m1=0) C6=2.3511e-38(ns=122,k=234,m1=0) C14=2.1076e-09(M*=33,Mf=38,chain=[134, 192, 309, 540],ns=578,k=623,m1=0,K=1535,Lam=526; B1=0.0e+00,B2=2.1e-09,B3=4.9e-12,B4=2.8e-17,B5=1.4e-14)
+# wall 83 s
+# cmd: nice -n 10 python3 -I bounds.py D 2048 2048 1  (start 16:43:08)
+K=2048 delta<=6.4945e-13 (log2 -40.49; -log2/K=0.0198) C0=4.8196e-35(ns=120,k=219,m1=0) C2=2.9388e-39(ns=126,k=239,m1=0) C6=2.3511e-38(ns=122,k=234,m1=0) C14=6.4945e-13(M*=54,Mf=54,chain=[200, 282, 445, 768],ns=810,k=861,m1=0,K=2047,Lam=756; B1=0.0e+00,B2=4.1e-15,B3=6.1e-13,B4=3.6e-15,B5=3.6e-14)
+# wall 118 s
+# cmd: nice -n 10 python3 -I bounds.py D 3072 3072 1  (start 16:45:06)
+Traceback (most recent call last):
+  File "/home/user/erdos-404-research/code/round3/R3Q/v2/bounds.py", line 160, in <module>
+    res = best_B(G)
+  File "/home/user/erdos-404-research/code/round3/R3Q/v2/bounds.py", line 128, in best_B
+    ch = chain_for(nU, Ms)
+  File "/home/user/erdos-404-research/code/round3/R3Q/v2/bounds.py", line 110, in chain_for
+    return min(((b3_log(seq[i:], Ms), seq[i:]) for i in range(len(seq))), key=lambda t: t[0])
+  File "/home/user/erdos-404-research/code/round3/R3Q/v2/bounds.py", line 110, in <genexpr>
+    return min(((b3_log(seq[i:], Ms), seq[i:]) for i in range(len(seq))), key=lambda t: t[0])
+                 ~~~~~~^^^^^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round3/R3Q/v2/bounds.py", line 100, in b3_log
+    t = sum(2.0 ** (-J - 1 + z(seq[0]) + sum(phi(seq[i], seq[i + 1], J) for i in range(len(seq) - 1)))
+            for J in range(4, Ms + 1))
+  File "/home/user/erdos-404-research/code/round3/R3Q/v2/bounds.py", line 100, in <genexpr>
+    t = sum(2.0 ** (-J - 1 + z(seq[0]) + sum(phi(seq[i], seq[i + 1], J) for i in range(len(seq) - 1)))
+            ~~~~^^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+OverflowError: (34, 'Numerical result out of range')
+# wall 124 s
+# cmd: nice -n 10 python3 -I bounds.py D 4096 4096 1  (start 16:47:10)
+Traceback (most recent call last):
+  File "/home/user/erdos-404-research/code/round3/R3Q/v2/bounds.py", line 160, in <module>
+    bB = res[0] if res else Fr(1, 16)
+          ^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round3/R3Q/v2/bounds.py", line 128, in best_B
+    if ch[0] > -4: continue
+         ^^^^^^^^^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round3/R3Q/v2/bounds.py", line 110, in chain_for
+    def lratio_B(Lam, Mf):     # log2(rho_max/rho_min): rho_max <= 2^{min(Lam-1, (Lam+Mf)/2-1)} (integer ceiling)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round3/R3Q/v2/bounds.py", line 110, in <genexpr>
+    def lratio_B(Lam, Mf):     # log2(rho_max/rho_min): rho_max <= 2^{min(Lam-1, (Lam+Mf)/2-1)} (integer ceiling)
+                     ^^^^^^^^^^^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round3/R3Q/v2/bounds.py", line 100, in b3_log
+    ex = [-J - 1 + z(seq[0]) + sum(phi(seq[i], seq[i + 1], J) for i in range(len(seq) - 1)) for J in range(4, Ms + 1)]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    return lse(*ex) if ex else -1e9
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round3/R3Q/v2/bounds.py", line 100, in <genexpr>
+    ex = [-J - 1 + z(seq[0]) + sum(phi(seq[i], seq[i + 1], J) for i in range(len(seq) - 1)) for J in range(4, Ms + 1)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OverflowError: (34, 'Numerical result out of range')
+# wall 161 s

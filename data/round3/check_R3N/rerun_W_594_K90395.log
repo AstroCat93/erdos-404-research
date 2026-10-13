@@ -1,0 +1,7 @@
+# cmd: nice -n 10 /tmp/r3_check_R3N/dfsW 594 90395    (binary rebuilt by check_R3N: gcc 13.3.0 -O3 -march=native code/round3/R3N/dfsW.c; started 2026-10-13T15:14:15Z)
+dfsW (WL=4) a=594 K=90395 witness=(none)
+[60s] level=169 M=43770 nlev=282 maxlevel=281 nodes=1769195858 surv=3530752 fulladds=38579777 best=72423
+[120s] level=235 M=60632 nlev=352 maxlevel=351 nodes=3838189849 surv=9453568 fulladds=100902372 best=90394
+RESULT a=594 K=90395 reachable=0 nodes=5537780784 surv=13566171 fulladds=146314113 levels=352 time=176.1s
+EXACT a=594 f=90394 g=89804 (max valuation over all paths; valid since K > f)
+# wall time (driver): 176.163433942 s; finished 2026-10-13T15:17:11Z

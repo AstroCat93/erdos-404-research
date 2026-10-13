@@ -106,3 +106,16 @@ checkpoint read: e1=1 J=92 nodes=17854267419 best=221465 (previous elapsed 2400.
 resumed at level 92 depth 128
 [60s] level=131 M=51134 nlev=197 maxlevel=797 nodes=18292267664 surv=45330432 fulladds=351914433 best=221465
 [120s] level=166 M=60074 nlev=197 maxlevel=797 nodes=18654817802 surv=46256128 fulladds=359688265 best=221465
+[181s] level=166 M=60074 nlev=284 maxlevel=797 nodes=19200359514 surv=47116288 fulladds=367587212 best=221465
+[241s] level=143 M=54198 nlev=284 maxlevel=797 nodes=19617631603 surv=48070656 fulladds=375292029 best=221465
+[301s] level=309 M=96610 nlev=316 maxlevel=797 nodes=20195406118 surv=48943104 fulladds=383237694 best=221465
+[362s] level=237 M=78214 nlev=385 maxlevel=797 nodes=20840521741 surv=49954816 fulladds=392027833 best=221465
+[422s] level=247 M=80770 nlev=444 maxlevel=797 nodes=21638022634 surv=51036160 fulladds=401375494 best=221465
+[482s] level=122 M=48834 nlev=444 maxlevel=797 nodes=22152770491 surv=51920896 fulladds=409274115 best=221465
+[543s] level=98 M=42702 nlev=444 maxlevel=797 nodes=22649781596 surv=52736000 fulladds=416967334 best=221465
+[600s] checkpoint: level 122 depth 128 nodes=23009960164 best=221465
+[603s] level=121 M=48578 nlev=444 maxlevel=797 nodes=23030573094 surv=53702656 fulladds=424832261 best=221465
+[663s] level=53 M=31202 nlev=444 maxlevel=797 nodes=23309591661 surv=54599680 fulladds=432396437 best=221465
+[723s] level=59 M=32738 nlev=444 maxlevel=797 nodes=23524702976 surv=55496704 fulladds=439706462 best=221465
+RESULT a=17662 K=279797 reachable=0 nodes=23711623284 surv=56152623 fulladds=445378655 levels=444 time=3167.5s
+EXACT a=17662 f=221465 g=203812 (max valuation over all paths; valid since K > f)

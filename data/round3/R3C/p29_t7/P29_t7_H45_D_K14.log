@@ -1,0 +1,8 @@
+# command: env COVFAST_ZMAX=16777216 /tmp/r3_R3C/bin/covfast 29 7 45 1 pos 14
+# cwd: /home/user/erdos-404-research  host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz
+# start: 2026-10-13 16:50:38 UTC
+# covfast(D) p=29 t=7 H=45 c=1 M=8 k=1 Q=500246412961 F=17249876309 bits (2056 MB x2) LISTMAX=16777216 ZMAX=16777216
+D p=29 t=7 H=45 c=1 M=8 k=1 K=14 Kmodpc=14 missing=0 COVERED [257.44s]
+SUMMARY D p=29 t=7 H=45 c=1 M=8 k=1 mode=pos nK=1 fail=0 worst_missing=0 ALL_COVERED total=257.4s
+# wall=257.572 s user=243.421 s sys=3.518 s
+# end: 2026-10-13 16:54:55 UTC

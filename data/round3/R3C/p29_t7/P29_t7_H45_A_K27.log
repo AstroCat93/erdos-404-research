@@ -1,0 +1,4 @@
+# command: /tmp/r3_R3C/bin/fibcov 29 7 45 1 pos 27
+# cwd: /home/user/erdos-404-research  host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz
+# start: 2026-10-13 17:09:02 UTC
+# fibcov(A) p=29 t=7 H=45 c=1 M=8 k=1  Q=500246412961 fibre=17249876309 bits (2056 MB x2)

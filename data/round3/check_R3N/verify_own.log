@@ -1,0 +1,50 @@
+# cmd: bash code/round3/check_R3N/verify_all.sh  (2026-10-13T15:31:39Z); verifier: python3 -I /home/user/erdos-404-research/code/round3/check_R3N/verify_w.py FILE a K
+## /home/user/erdos-404-research/data/round3/R3N/witness_594_K90394.txt.gz a=594 K=90394
+file=/home/user/erdos-404-research/data/round3/R3N/witness_594_K90394.txt.gz sha256(text)=ea44330fa8074a8e02c3fc6c9cc86b0499a5efeb4fe47c01319e91e5e2da80f5 terms=44801 min=594 max=90397
+method H (Horner, exact): v2(S)=90394 bits(S)=1357890 time=0.8s
+method M (mod 2^(K+64), odd parts): v2(S)=90394 time=0.3s
+v2(a!)=590; claimed f(594,2) >= 90394, g >= 89804
+VERIFIED (both methods, v2(S) = K exactly)
+exit=0 wall=1.935630851s
+## /home/user/erdos-404-research/data/round3/R3N/witnessB_594_K90394.txt.gz a=594 K=90394
+file=/home/user/erdos-404-research/data/round3/R3N/witnessB_594_K90394.txt.gz sha256(text)=3300c18c02dba06f093432107e5348a246e05a64442908c7e8b28eb80cd28f75 terms=44804 min=594 max=90399
+method H (Horner, exact): v2(S)=90394 bits(S)=1357923 time=0.6s
+method M (mod 2^(K+64), odd parts): v2(S)=90394 time=0.3s
+v2(a!)=590; claimed f(594,2) >= 90394, g >= 89804
+VERIFIED (both methods, v2(S) = K exactly)
+exit=0 wall=1.095001126s
+## /home/user/erdos-404-research/data/round3/R3N/witness_594_K66126.txt.gz a=594 K=66126
+file=/home/user/erdos-404-research/data/round3/R3N/witness_594_K66126.txt.gz sha256(text)=d68f7dfbe876e944351d1b96f9ced8b02c2bbf0eaa97fdae5a0beb2fb0b9eddc terms=32640 min=594 max=66130
+method H (Horner, exact): v2(S)=66126 bits(S)=963545 time=0.5s
+method M (mod 2^(K+64), odd parts): v2(S)=66126 time=0.2s
+v2(a!)=590; claimed f(594,2) >= 66126, g >= 65536
+VERIFIED (both methods, v2(S) = K exactly)
+exit=0 wall=.780121059s
+## /home/user/erdos-404-research/data/round3/R3N/witness_17662_K148725.txt.gz a=17662 K=148725
+file=/home/user/erdos-404-research/data/round3/R3N/witness_17662_K148725.txt.gz sha256(text)=d2e704de373ea91593dbcf524e616bf232e7691b09dac39a7a65c0bc31581404 terms=65459 min=17662 max=148730
+method H (Horner, exact): v2(S)=148725 bits(S)=2340967 time=2.4s
+method M (mod 2^(K+64), odd parts): v2(S)=148725 time=0.7s
+v2(a!)=17653; claimed f(17662,2) >= 148725, g >= 131072
+VERIFIED (both methods, v2(S) = K exactly)
+exit=0 wall=3.159670305s
+## /home/user/erdos-404-research/data/round3/R3N/witness_17662_v212995.txt.gz a=17662 K=212995
+file=/home/user/erdos-404-research/data/round3/R3N/witness_17662_v212995.txt.gz sha256(text)=e0b1d81d375e4bddf34dce0e591658ecf058efb6dd6215e38459da2499cd60db terms=97664 min=17662 max=212992
+method H (Horner, exact): v2(S)=212995 bits(S)=3462780 time=4.4s
+method M (mod 2^(K+64), odd parts): v2(S)=212995 time=1.5s
+v2(a!)=17653; claimed f(17662,2) >= 212995, g >= 195342
+VERIFIED (both methods, v2(S) = K exactly)
+exit=0 wall=6.114985371s
+## /tmp/r3_R3N/best17662_217088.txt a=17662 K=217088
+file=/tmp/r3_R3N/best17662_217088.txt sha256(text)=5bbe141ffd76f5fff8d4071bdb611d57f8a1a0a27f9fbc2c6ad027419cfda9be terms=99252 min=17662 max=217091
+method H (Horner, exact): v2(S)=217088 bits(S)=3535391 time=4.0s
+method M (mod 2^(K+64), odd parts): v2(S)=217088 time=1.7s
+v2(a!)=17653; claimed f(17662,2) >= 217088, g >= 199435
+VERIFIED (both methods, v2(S) = K exactly)
+exit=0 wall=5.877729774s
+## /tmp/r3_R3N/best17662_221186.txt a=17662 K=221186
+file=/tmp/r3_R3N/best17662_221186.txt sha256(text)=8412149028df3bf9ad27f5c93ff27b676f5401e8818d5c325151e1e5b418ce66 terms=101329 min=17662 max=221188
+method H (Horner, exact): v2(S)=221186 bits(S)=3608078 time=3.9s
+method M (mod 2^(K+64), odd parts): v2(S)=221186 time=2.0s
+v2(a!)=17653; claimed f(17662,2) >= 221186, g >= 203533
+VERIFIED (both methods, v2(S) = K exactly)
+exit=0 wall=6.147859425s
