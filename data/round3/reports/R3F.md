@@ -1,5 +1,7 @@
 # Round 3, track R3F: rigorous Fourier and equidistribution steps (2026-10-13)
 
+*Two placeholders left when the track agent was cut off by an external spending limit were filled in by the lead after the adversarial check (`data/round3/checks/R3F.md`); the check's other wording fixes are listed there and applied in note.md §11.*
+
 Track R3F of round 3 (AI-assisted). Scope: the analytic route to Q3 (note.md §6, §10.3–10.6), targets (a)–(e) of the round-3 task. All code is in `code/round3/R3F/`. All logs are in `data/round3/R3F/`; every log starts with its command line and ends with the wall time. Scratch files are in `/tmp/r3_R3F/`.
 
 ## Headline
@@ -138,9 +140,9 @@ Entries are certified upper bounds of ρ_d, rounded up in the 4th decimal; the e
 - p = 5: d ≤ 10 by both programs, d = 11, 12 by `gate_d`, d ≥ 6 analytically.
 - p = 7: d ≤ 8 by both programs, d = 9, 10 by `gate_d`, d ≥ 7 analytically.
 - p = 11: d ≤ 8 by both programs, d = 9 by `gate_d` and analytically.
-- p = 13: d ≤ 8 by both programs, d ≥ 10 analytically. d = 9 by `gate_d` (S₉ ≤ 3.239283592·10⁷, ratio 1.172950) and by `ivshell` in six chunks: TBD_P13D9. Independently of both, Cauchy–Schwarz with the exact Q₉ (`a_gate_l2_p13.log`) gives ρ₉ ≤ 4.7963.
+- p = 13: d ≤ 8 by both programs, d ≥ 10 analytically. d = 9 by `gate_d` (S₉ ≤ 3.239283592·10⁷, ratio 1.172950) and by `ivshell` in six chunks, of which only chunks u0 = 1, 2 were run before the track agent was cut off by an external spending limit. *(Filled in by the lead after the check:)* the level is covered independently by the checker's program `shellchk` (arb-certified tables, sharing no code with R3F), which gives S₉ ∈ [32392835.6659466, 32392835.6659821] (`data/round3/checks/R3F.md`). Independently of both, Cauchy–Schwarz with the exact Q₉ (`a_gate_l2_p13.log`) gives ρ₉ ≤ 4.7963.
 
-So every level except possibly p = 13, d = 9 (see TBD_P13D9) is covered by two independent methods.
+So every level is covered by two independent methods (for p = 13, d = 9: `gate_d` and the checker's `shellchk`). For d ≥ 10 at p = 13 the analytic bound uses J_13 from one method (the truncated carry recursion, implemented twice: `jrel` and the checker's `jcheck`); the grid identity gives no independent check there.
 
 The sup is attained at a small level (d = 2 or 4), in the modular regime p^d < (p−1)!. The asymptotic value J_p is approached from d ≈ log_p((p−1)!) + 1 on. The analytic bound uses J_p from `jrel.c`. As an independent check, the directly computed ρ_d at the largest computed level lies inside the J_p enclosure (p = 5, 7, 11, 13: 1.166975, 1.170443, 1.172524, 1.172950).
 
@@ -560,7 +562,7 @@ gcc   -O2 -frounding-math -fno-fast-math -o gate_d code/round3/R3F/gate_d.c -lm
 gcc   -O2 -frounding-math -fno-fast-math -o jrel   code/round3/R3F/jrel.c -lm
 ```
 
-TBD_REPRO_TABLE
+*(Lead's note: the track agent was cut off before writing the reproduction table.)* Every log in `data/round3/R3F/` begins with its exact command line and ends with its wall time, so the logs themselves are the reproduction record; the adversarial check rebuilt `ivshell`, `jrel` and `gate_d` and reproduced their logs (`data/round3/checks/R3F.md`).
 
 Software: Python 3 with numpy 2.3.2, gmpy2 2.3.2 (GMP 6.3.0, MPFR 4), mpmath 1.3.0, sympy (primality checks of the CRT moduli).
 

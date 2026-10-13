@@ -1,5 +1,7 @@
 # Track R3N (round 3, 2026-10-13): Kitamura's test case a = 594 at p = 2
 
+*Edited by the lead after the adversarial check (`data/round3/checks/R3N.md`): the a = 17662 result (§4.3, Proposition R3N.4) was completed after the track agent was cut off by an external spending limit, and the check's wording and label fixes were applied. Edits are marked.*
+
 ## Headline
 
 **f(594,2) = 90394 exactly**, i.e. g_2(594) = 90394 − v_2(594!) = 90394 − 590 = **89804**. [computer-assisted]
@@ -7,12 +9,12 @@
 - **Upper bound.** No sum of distinct factorials with smallest term 594! is divisible by 2^90395. Two independently written exhaustive searches show this (program B, GMP, 1001 s; program C, hand-written limb arithmetic, 181 s). They share no code. Each enumerates every "alive" partial sum, and each reports 90394 as the largest 2-adic valuation over all such sums. The two programs agree exactly on the size of the search tree, through the identity steps_B = 3 + (3/2)·nodes_C (Lemma 5), with 8 306 671 179 = 3 + 1.5 · 5 537 780 784. Program C also gives the same result with target K = 131662, and the node count is identical, as it must be.
 - **Lower bound.** An explicit set A ⊂ [594, 90397] with min A = 594 and |A| = 44801 satisfies v_2(Σ_{n∈A} n!) = 90394. Two exact big-integer verifiers check this independently, one in plain Python and one in GMP. Neither reduces modulo anything: each builds the full 1 357 890-bit sum. The witness ships as `data/round3/R3N/witness_594_K90394.txt.gz`.
 - **Consequences.** f(594,2) is finite, so the live test case of the note (§2, §5, Remark 10.8.5, §10.6) is resolved. By the halving lemma (Cor. 3.7.1(i)), f(a,2) = v_2(a!) + 89804 for every a ≡ 594 (mod 2^89804). No exact value of f(594,2) had been published. Kitamura's repository (HEAD 3269719, 2026-07-08, unchanged on 2026-10-13) gives f(594,2) ≥ 66126 and no witness. Our ≥ 66126 witness (outcome 3, 32640 terms) is also shipped and verified.
-- **Speed.** The method is a windowed depth-first search (§3). It reproduces Kitamura's g_2(594) ≥ 65536 in 33 s; Kitamura reports 3.5 h for that ladder step in Python. The machines and languages differ, so this is not a like-for-like comparison. It is also much faster than our own breadth-first search with deduplication (program A, which follows track D's design). On a = 34, K = 18445 the times are 0.9 s against 8.6 s. On a = 594, K = 66126, program A needed 340 s to reach only stage N = 10596, while C finished the whole search in 33 s.
+- **Speed.** The method is a windowed depth-first search (§3). It reproduces Kitamura's g_2(594) ≥ 65536 in 33 s; Kitamura reports 3.5 h for that ladder step (implementation not stated; Kitamura's published scripts are Python). The machines and languages differ, so this is not a like-for-like comparison. It is also much faster than our own breadth-first search with deduplication (program A, which follows track D's design). On a = 34, K = 18445 the times are 0.9 s against 8.6 s. On a = 594, K = 66126, program A needed 340 s to reach only stage N = 10596, while C finished the whole search in 33 s.
 - **Secondary results** [computer-assisted]:
   - **Exact f(a,2) for all 16384 even a ≤ 32768 except a = 17662**, each certified by two programs plus an exactly verified witness (§4.1). Odd a are trivial.
     - Among a ≤ 16384 the largest excess is at 594.
     - The next largest excesses are at a = 17534 (g = 59527), 16846 (44786), 26274 (42347), 27142 (26746), 10578 (24271) and 34 (18412).
-  - **a = 17662 is a deeper survivor than 594:** f(17662,2) ≥ 148725, i.e. g_2(17662) ≥ 131072, with an explicit verified 65459-term witness (§4.3). STATUS-HEADLINE
+  - **a = 17662 is a deeper survivor than 594: f(17662,2) = 221465 exactly, i.e. g_2(17662) = 203812** (§4.3). *(Lead, after the check:)* the upper bound rests on two independently written exhaustive programs (this track's `dfsW4` and the checker's program D, with identical tree size), and the lower bound on a 101480-term witness verified exactly by three verifiers.
   - Shadow family 2^t − 2: f(16382,2) = 20215, f(32766,2) = 37403, f(65534,2) = 90619 and f(131070,2) = 135292. These extend Kitamura's table, which stops at t = 13.
   - A population profile of the a = 594 search tree (§5).
   - [heuristic] Over even a ≤ 32768, G·P(g_2 ≥ G) stays between 8 and 12 for 256 ≤ G ≤ 131072 (§6). This is consistent with Kitamura's ≈ 11.5/G, and it suggests how the note's 0.7/√G fit (small G) and the 1/G law (large G) fit together.
@@ -57,7 +59,7 @@ Say that A is **alive at N** if v(S_N(A)) ≥ v(N!). Note that S_N(A) depends on
 
 So deciding f(a,2) ≥ K means enumerating the alive prefixes at the even stages a+2 ≤ N ≤ N_K − 2. The enumeration can proceed stage by stage, extending only alive prefixes. By Lemma 1(iii), applied to the prefix itself as a finite set, a prefix alive at N restricts to an alive prefix at every earlier even stage, so stage-by-stage extension reaches every alive prefix. When the answer is no, the same enumeration gives f(a,2) exactly, provided we record the largest death valuation. This is the procedure of Kitamura (`determining_exact_values.md`) and of track D's `sumform_big.c`, written in the language of note §1.4. Our contribution is the way the enumeration is organised (§3).
 
-**Remark (deduplication is useless here).** Two different alive prefixes with equal residues mod 2^K have identical futures. A breadth-first search can merge them, as track D and Kitamura do. In every run of program A (§3.1), however, deduplication merged at most 2 states in total; for example, 1 out of 15 866 376 children for a = 34, K = 18444. So in practice the number of distinct residues equals the number of alive prefixes. This is what makes a search without deduplication, but with memory O(K), efficient. [observation, computer-assisted; logs in `data/round3/R3N/validate_deep_rows.log`]
+**Remark (deduplication is useless here).** Two different alive prefixes with equal residues mod 2^K have identical futures. A breadth-first search can merge them, as track D and Kitamura do. In every run of program A (§3.1), however, deduplication merged at most 2 states in total; for example, 1 out of 15 866 376 children for a = 34, K = 18444. So in practice the number of distinct residues equals the number of alive prefixes. This is what makes a search without deduplication, but with memory O(K), efficient. [computer-assisted; logs in `data/round3/R3N/validate_deep_rows.log`]
 
 ## 2. Main result
 
@@ -66,9 +68,9 @@ So deciding f(a,2) ≥ K means enumerating the alive prefixes at the even stages
 - the last stage at which some prefix is alive is N = 90398 (v(90398!) = 90390);
 - the maximum 90394 is attained, for example by the shipped 44801-term witness, whose largest element is 90397.
 
-**Corollary R3N.2 [proved from R3N.1 and note Cor. 3.7.1(i)].** f(a,2) = v_2(a!) + 89804 for every a ≡ 594 (mod 2^89804). In particular K_2 ∩ (594 + 2^89804 ℤ_2) = ∅.
+**Corollary R3N.2 [proved from R3N.1, note Cor. 3.7.1(i) and note Theorem 3.1(a)].** f(a,2) = v_2(a!) + 89804 for every a ≡ 594 (mod 2^89804). In particular K_2 ∩ (594 + 2^89804 ℤ_2) = ∅.
 
-*Proof of the corollary.* Cor. 3.7.1(i) (halving lemma, proved and in Lean) says that g_2(a) = G ≥ 1 implies g_2 ≡ G on a + 2^G ℤ_2. Combine this with Lemma 1.1 of the note. ∎
+*Proof of the corollary.* Cor. 3.7.1(i) (halving lemma, proved and in Lean) says that g_2(a) = G ≥ 1 implies g_2 ≡ G on the integers of a + 2^G ℤ. Combine this with Lemma 1.1 of the note for the integer statement. *(Fix after the check:)* for the ℤ_2 statement, also use Theorem 3.1(a) (locality): for y ∈ 594 + 2^89804 ℤ_2, the events g_2 ≥ G and g_2 ≥ G+1 are decided by y mod 2^{G+1}, so y has the same g_2 as an integer y' ≡ y (mod 2^{89805}) in the same class. ∎
 
 ### 2.1 Computational record for Theorem R3N.1
 
@@ -128,7 +130,7 @@ The recursion enters level j+1 with X_w for every survivor, so every alive prefi
 
 *Proof.* By induction on n. ℓ_{n_w} = T mod 2^128. If ℓ_n ≡ T_n mod 2^m with m = min(128−c_n, R_n), then x = ℓ_n + e·(U_n mod 2^128) ≡ T_n + e·U_n (mod 2^m). Since 2^t | x exactly when 2^t | T_n + eU_n (t = v(n+1) ≤ 18 ≤ m, see below), we get x ≫ t ≡ T_{n+1} (mod 2^{m−t}), and m − t = min(128 − c_{n+1}, R_{n+1}). ∎
 
-Each test needs t ≤ 18 valid bits. A non-final window ends as soon as c ≥ 64, so every test inside it has at least 128 − 63 − 18 > 18 valid bits. The final window has R_w ≤ 128, so the final test "x ≡ 0 mod 2^{K−v(n!)}" uses K − v(n!) = R_n ≤ 128 − c_n bits.
+Each test needs t = v(n+1) valid bits, and t ≤ 18 because every stage used is below 2^19 = 524 288 (the largest is about 280 000; *hypothesis made explicit after the check*). A non-final window ends as soon as c ≥ 64, so every step inside it has at least 65 valid bits. The final window has R_w ≤ 128, so the final test "x ≡ 0 mod 2^{K−v(n!)}" uses K − v(n!) = R_n ≤ 128 − c_n bits.
 
 At the window end, a survivor is rebuilt from the definition: T_end = ((T + Σ_{n∈window, e_n=1} n!/2^{v(n_w!)}) mod 2^{R_w}) / 2^{c_end}. The program asserts that the low c_end bits vanish and that the result agrees with ℓ on its valid bits. Neither assertion ever fired.
 
@@ -196,11 +198,11 @@ Cross-checks:
 - The 128 values for a ≤ 256 agree with Kitamura's table, and 1102, 3456 and 8190 agree with Kitamura's deeper rows.
 - Over all 16385 exact rows, g never takes the values 1, 2, 4 or 5, and g = 3 exactly when a ≡ 4 (mod 8). This matches Cor. 3.7.1(iii) and Kitamura's classification.
 
-Largest g among even a ≤ 32768 (f = v(a!) + g):
+Largest g among even a ≤ 32768, plus Kitamura's rows (f = v(a!) + g):
 
 | a | f(a,2) | g_2(a) | note |
 |---|---|---|---|
-| 17662 | ≥ 148725 | ≥ 131072 | §4.3 (lower bound only) |
+| 17662 | 221465 | 203812 | §4.3 |
 | 594 | 90394 | 89804 | R3N.1 |
 | 17534 | 77053 | 59527 | new |
 | 16846 | 61625 | 44786 | new |
@@ -218,6 +220,8 @@ Largest g among even a ≤ 32768 (f = v(a!) + g):
 | 12706 | 22969 | 10269 | new |
 | 8190 | 16396 | 8218 | Kitamura (shadow t = 13) |
 | 3456 | 8275 | 4823 | Kitamura |
+| 25774 | 34813 | 9047 | new (row added after the check) |
+| 26974 | 35481 | 8516 | new (row added after the check) |
 
 ("New" means: not listed in `KitaKen1/erdos-404-p2-landscape` at HEAD 3269719. Kitamura may have computed values that were not published.)
 
@@ -234,7 +238,7 @@ Every exact value pins a whole residue class (Cor. 3.7.1(i)): for example, f(a,2
 | 16 | 65534 | 90619 | 25100 |
 | 17 | 131070 | 135292 | 4238 |
 
-All four are consistent with the cube bound g ≥ 3t. f(131070,2) = 135292 and f(65534,2) = 90619 are the largest exact values of f(a,2) we know. They are large because v_2(a!) is large; the largest exact excess g is the one at a = 594.
+All four are consistent with the cube bound g ≥ 3t. *(Updated after §4.3 was completed:)* the largest exact value of f(a,2) and the largest exact excess known here are both at a = 17662 (f = 221465, g = 203812). Among the other exact values, f(131070,2) = 135292 and f(65534,2) = 90619 are large mainly because v_2(a!) is large.
 
 ### 4.2 Validation of the half-memory variant `dfsW3.c`
 
@@ -246,12 +250,16 @@ Its output (RESULT and EXACT lines, including the node and survivor counts) is i
 
 ### 4.3 a = 17662: a deeper survivor than 594 [computer-assisted lower bound]
 
-**Proposition R3N.3 [computer-assisted].** f(17662,2) ≥ 148725, i.e. g_2(17662) ≥ 131072 (v_2(17662!) = 17653).
+**Proposition R3N.3 [computer-assisted; superseded by R3N.4].** f(17662,2) ≥ 148725, i.e. g_2(17662) ≥ 131072 (v_2(17662!) = 17653).
 - *Witness:* 65459 terms in [17662, 148730], `witness_17662_K148725.txt.gz`.
 - *Exact check:* v_2 of the 2 340 967-bit sum is 148725, by both exact verifiers (`verify_17662_148725.log`; 20 s in Python).
 - *Search run:* `dfsW 17662 148725 w17662_148725.txt` (`C_17662_K148725.log`, 172 s).
 
-STATUS-17662
+**Proposition R3N.4 [computer-assisted] (completed by the lead after the agent was cut off).** f(17662,2) = 221465 exactly, i.e. g_2(17662) = 203812.
+- *Upper bound and exact maximum, program C variant `dfsW4`* (checkpointing; tested on a = 34 and 594 under interruption): `dfsW4 17662 279797 ... -c ck17662 -i 600 -b best17662`, interrupted once by the external stop and resumed with `-r` from the 2400 s checkpoint. RESULT reachable=0, nodes 23 711 623 284, survivors 56 152 623, EXACT f = 221465 (`C4_17662_K279797.log`, 2400 s + 3167.5 s).
+- *Independent upper bound, program D* (written by the checker, sharing no code with B, C or `dfsW4`): `dfsD 17662 221466`, split into subtrees at window level 120, unreachable, maximum death valuation 221465, total alive_even 5 927 905 821 = nodes_dfsW4 / 4 exactly (`data/round3/check_R3N/D_17662_K221466_chain.log`). The tree-size agreement also checks dfsW4's resume bookkeeping.
+- *Witness:* `dfsW4 17662 221465 w17662_221465.txt` (reachable, 592.7 s; `C4_17662_K221465_witness.log`), 101480 terms in [17662, 221465], shipped as `witness_17662_K221465.txt.gz` (SHA-256 in `witness_sha256.txt`). v_2 of the 3 612 996-bit sum is exactly 221465 by three verifiers: the track's GMP and Python verifiers and the checker's `verify_w.py` (Horner and odd-part methods) (`verify_17662_221465.log`).
+- Earlier intermediate witnesses (148725, 212995) remain shipped; they are superseded.
 
 ## 5. Population profile of a = 594 [computer-assisted data; interpretation heuristic]
 
@@ -292,8 +300,8 @@ Let c(G) = #{even a ≤ 32768 : g_2(a) ≥ G}, out of 16384 values. This uses g_
 
 (Source: the survey files of §4.1.)
 
-- **A c/G law.** Over three decades, 256 ≤ G ≤ 131072, the product G·P(g_2(a) ≥ G) for even a stays between 8 and 12. This agrees well with Kitamura's measured "≈ 11.5/G", provided that figure refers to even a (or, equivalently, ≈ 5.7/G over all a).
-- **Haar densities.** For G ≤ 256 the natural-number fractions also agree with the Haar Monte Carlo densities of note §5, once those are doubled for even a: 2077/16384 = 0.127 vs 2·0.0644; 1244/16384 = 0.076 vs 2·0.0379; 656/16384 = 0.040 vs 2·0.0208.
+- **A c/G law.** Over three decades, 256 ≤ G ≤ 131072, the product G·P(g_2(a) ≥ G) for even a stays between 8 and 12. This is numerically consistent with Kitamura's measured "≈ 11.5/G" (Kitamura does not state the normalisation; the figure comes from the class census), provided that figure refers to even a (or, equivalently, ≈ 5.7/G over all a).
+- **Haar densities.** For G ≤ 256 the natural-number fractions also agree with the Haar Monte Carlo densities of note §5, once those are doubled for even a: 2077/16384 = 0.127 vs 2·0.0644; 1244/16384 = 0.076 vs 2·0.0379; 656/16384 = 0.040 vs 2·0.0208 (note §5 gives 0.0208 for δ_254, not δ_256).
 - **Possible reconciliation.** This suggests a way to reconcile the "0.7/√G" and "11.5/G" fits that the note left open (Remark 10.8.4). The local decay exponent rises from about 0.5 at small G (note §5: from 0.58 to 0.88 at G = 254) to about 1 for G ≳ 256. The 0.7/√G fit describes the small-G regime only. This is a heuristic reading of finite data, not a theorem.
 - **Expected counts.** Under this law, the expected number of even a ≤ 32768 with g ≥ 89804 is about 16384·10/89804 ≈ 1.8, and with g ≥ 131072 about 1.25. The observed 2 and 1 (594 and 17662) are typical, not anomalous.
 - **A c/G law is no evidence for f = ∞.** If P(g ≥ G) ≍ 1/G, then each fixed a has g_2(a) < ∞ with "probability 1", but survivors to any depth G occur among about G even integers. Computation can therefore keep finding deeper survivors, as it did with 17662, without this saying anything about Conjecture 5.1. Conversely, the extinction of 594 is exactly what the law predicts.

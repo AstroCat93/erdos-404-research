@@ -1,0 +1,4 @@
+# command: python3 -I /home/user/erdos-404-research/code/round3/check_R3F/shells.py gate 13 9 --chunks 6
+# start: 2026-10-13T17:26:39Z
+gate p=13 N0=None k=9 n=13  S1 in [32392835.6659466, 32392835.6659821]  S2 in [1792377.07250876, 1792377.07251077]  S1/(N (2/pi)^n)<= 1.172949474  wall=362.2s
+# end: 2026-10-13T17:32:42Z  exit=0  wall_seconds=362.469261591

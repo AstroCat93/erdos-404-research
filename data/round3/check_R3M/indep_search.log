@@ -1,0 +1,7 @@
+=== command: python3 code/round3/check_R3M/ck_indep_search.py
+=== start (UTC): 2026-10-13T17:59:26Z
+example F= (0, 0, 0, 0, 0, 1, 0, 1, 1) b= 1 c= 1
+example F= (0, 0, 0, 0, 0, 1, 0, 1, 1) b= 1 c= 2
+example F= (0, 0, 0, 0, 0, 1, 0, 1, 1) b= 1 c= 3
+independent configurations found: 16524
+=== exit: 0   wall: 2.84 s

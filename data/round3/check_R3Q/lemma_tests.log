@@ -1,0 +1,9 @@
+# cmd: nice -n 10 python3 -I lemma_tests.py 1  (start 18:07:13)
+[L1] done in 0.4 s; counts so far: {'L1c': 66000, 'L1a': 12000, 'L1e': 6000, 'L1b_trunc': 6000}; failures so far: 0
+[L3L4] done in 0.6 s; counts so far: {'L1c': 66000, 'L1a': 12000, 'L1e': 6000, 'L1b_trunc': 6000, 'L4': 3000, 'L3_slope': 5238, 'L3d': 466, 'L3e': 507}; failures so far: 0
+[L6] done in 6.9 s; counts so far: {'L1c': 66000, 'L1a': 12000, 'L1e': 6000, 'L1b_trunc': 6000, 'L4': 3000, 'L3_slope': 5238, 'L3d': 466, 'L3e': 507, 'L6b': 3000, 'L6b_attained': 739, 'L6c': 1335}; failures so far: 0
+[L8] done in 0.4 s; counts so far: {'L1c': 66000, 'L1a': 12000, 'L1e': 6000, 'L1b_trunc': 6000, 'L4': 3000, 'L3_slope': 5238, 'L3d': 466, 'L3e': 507, 'L6b': 3000, 'L6b_attained': 739, 'L6c': 1335, 'L8': 17019, 'L8_hi_slope': 6897}; failures so far: 0
+[L5] done in 421.5 s; counts so far: {'L1c': 66000, 'L1a': 12000, 'L1e': 6000, 'L1b_trunc': 6000, 'L4': 3000, 'L3_slope': 5238, 'L3d': 466, 'L3e': 507, 'L6b': 3000, 'L6b_attained': 739, 'L6c': 1335, 'L8': 17019, 'L8_hi_slope': 6897, 'L5': 15051, 'L5_skip_hyp': 38435, 'L5_lam>=3': 12103, 'L5_control_rho1_differs': 3976, 'L5_skip_big': 1284}; failures so far: 0
+[L9] done in 422.9 s; counts so far: {'L1c': 66000, 'L1a': 12000, 'L1e': 6000, 'L1b_trunc': 6000, 'L4': 3000, 'L3_slope': 5238, 'L3d': 466, 'L3e': 507, 'L6b': 3000, 'L6b_attained': 739, 'L6c': 1335, 'L8': 17019, 'L8_hi_slope': 6897, 'L5': 15051, 'L5_skip_hyp': 38435, 'L5_lam>=3': 12103, 'L5_control_rho1_differs': 3976, 'L5_skip_big': 1284, 'L9_windows': 5425, 'L9_nonempty': 418, 'L9_kappa': 5018, 'L9_taylor': 5597248, 'L9_max_ratio_x1000': 1000, 'L9_nonempty_with_decay': 7}; failures so far: 0
+TOTAL failures: 0
+# wall 853 s

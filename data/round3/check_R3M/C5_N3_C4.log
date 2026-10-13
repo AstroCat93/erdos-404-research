@@ -63,3 +63,6 @@ RESULT C4 p=3 n0=60 r=1.25: implication tested 2491 times, failures 0; eps_l mea
 === exit: 0   wall: 0.13 s
 === command: python3 code/round3/check_R3M/ck_C5_N3_C4.py C4 5 602 400 60 1.25
 === start (UTC): 2026-10-13T17:12:06Z
+Terminated
+=== exit: 143   wall: 648.05 s
+=== (run above killed by hand by the second check_R3M instance after 648 s: the eps-measurability DP modulo 5^9 is too slow in Python; no result taken from it. The C4 p=7 run of ck_batch3.sh was not started. The measurability test is redone with small composite jumps in C3struct.log.)

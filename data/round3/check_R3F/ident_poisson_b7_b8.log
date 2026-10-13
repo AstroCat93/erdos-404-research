@@ -1,0 +1,20 @@
+# command: python3 -I /home/user/erdos-404-research/code/round3/check_R3F/identcheck.py
+# start: 2026-10-13T17:44:09Z
+# (1) Theorem A4(i): A(M) direct vs (2/pi)^p sum_j Psi_p(jM) (carry recursion, window S = 4000)
+  p=5 M=5: A(M)=0.255901699437  Poisson=0.255901093223  diff=6.06e-07
+  p=5 M=25: A(M)=0.161623054999  Poisson=0.161624505626  diff=-1.45e-06
+  p=5 M=125: A(M)=0.121826050761  Poisson=0.121825382351  diff=6.68e-07
+  p=7 M=7: A(M)=0.171875000000  Poisson=0.172601788403  diff=-7.27e-04
+  p=7 M=49: A(M)=0.047348033367  Poisson=0.047446741966  diff=-9.87e-05
+  p=7 M=343: A(M)=0.049381868925  Poisson=0.049398450637  diff=-1.66e-05
+# (2) Proposition B7 (L^2 renormalisation), tail from N0 = p, W = 1
+  p=5 k=2: Q_N0(k) direct=0.00387191772460937  identity RHS=0.00387191772460937  rel.diff=3.11e-28
+  p=5 k=3: Q_N0(k) direct=0.000515254214406013  identity RHS=0.000515254214406013  rel.diff=2.62e-28
+  p=5: max over 20000-point grid of H2 = 1.03515625;  H2(0) = 1.03515625;  1 + L2(bottom) = 1.03515625
+  p=7 k=2: Q_N0(k) direct=0.000506259500980377  identity RHS=0.000506259500980377  rel.diff=4.11e-26
+  p=7 k=3: Q_N0(k) direct=0.00016736092766223  identity RHS=0.00016736092766223  rel.diff=1.39e-25
+  p=7: max over 20000-point grid of H2 = 1.01428222656;  H2(0) = 1.01428222656;  1 + L2(bottom) = 1.01428222656
+# (3) B8 gate identity (first level-1 gate of the tail from p), exact enumeration
+  p=5: LHS=1.0413578763746  RHS=1.0413578763746 (imag -6.0e-32)
+  p=7: LHS=1.01495679503382  RHS=1.01495679503382 (imag 2.3e-32)
+# end: 2026-10-13T17:44:31Z  exit=0  wall_seconds=22.106138429

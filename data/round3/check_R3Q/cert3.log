@@ -1,0 +1,21 @@
+(a) x=0 mod 8, x mod 2^4, n0=6: qualifying (word, x-residue) pairs=4 violations=0 OK
+(b) x=2 mod 16, x mod 2^7, n0=8: qualifying (word, x-residue) pairs=32 violations=0 OK
+(c) x=6 mod 16, x mod 2^11, n0=10: qualifying (word, x-residue) pairs=128 violations=0 OK
+(d) x=10 mod 16, x mod 2^7, n0=6: qualifying (word, x-residue) pairs=0 violations=0 OK
+(e) x=4 mod 8, x mod 2^4, n0=4: qualifying (word, x-residue) pairs=0 violations=0 OK
+(a) x=0 mod 8, x mod 2^5, n0=6: qualifying (word, x-residue) pairs=8 violations=0 OK
+(b) x=2 mod 16, x mod 2^8, n0=8: qualifying (word, x-residue) pairs=64 violations=0 OK
+(c) x=6 mod 16, x mod 2^12, n0=10: qualifying (word, x-residue) pairs=256 violations=0 OK
+(d) x=10 mod 16, x mod 2^8, n0=6: qualifying (word, x-residue) pairs=0 violations=0 OK
+(e) x=4 mod 8, x mod 2^5, n0=4: qualifying (word, x-residue) pairs=0 violations=0 OK
+(a) x=0 mod 8, x mod 2^6, n0=6: qualifying (word, x-residue) pairs=16 violations=0 OK
+(b) x=2 mod 16, x mod 2^9, n0=8: qualifying (word, x-residue) pairs=128 violations=0 OK
+(c) x=6 mod 16, x mod 2^13, n0=10: qualifying (word, x-residue) pairs=512 violations=0 OK
+(d) x=10 mod 16, x mod 2^9, n0=6: qualifying (word, x-residue) pairs=0 violations=0 OK
+(e) x=4 mod 8, x mod 2^6, n0=4: qualifying (word, x-residue) pairs=0 violations=0 OK
+C0: n0=6 min V=4 max V=4 | min M=2 max M=2 | V-M in [2]
+C2: n0=8 min V=7 max V=7 | min M=3 max M=3 | V-M in [4]
+C6: n0=10 min V=11 max V=27 | min M=4 max M=20 | V-M in [7]
+C10: n0=6 min V=7 max V=23 | min M=4 max M=20 | V-M in [3]
+C4: n0=4 min V=4 max V=21 | min M=3 max M=20 | V-M in [1]
+ALL OK wall 0.6 s

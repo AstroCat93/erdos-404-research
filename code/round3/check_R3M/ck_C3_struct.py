@@ -13,6 +13,10 @@ mode F1    p seed nx amax n
   (F1) for natural numbers a <= amax and every path e alive at n for x = a (DFS of ck_lib):
       v_p(a! + sum_{j in B}(a+j)!) == v_p(a!) + v_p(S_e(a)) >= v_p(a!) + V_n(a) >= v_p(a!) + v_p(n!),
   with B = {j >= 1 : e_j = 1}, using exact integer factorials (math.factorial).
+mode meas  p seed nx n0 r kcap
+  eps_l(x) = p^K Coll_K - p^D Coll_D of the composite window [n_(l-1), n_(l+1)) is unchanged under
+  x -> x + p^{m_(l-1)} z whenever the first event of B_l holds (so B_l is G_(l-1)-measurable);
+  only composite jumps K <= kcap are tested (cost p^K).
 mode C4    p seed ntries n_j r lmax nmc
   Lemma C4, probability part.  Atom A = x_A + p^m Z_p of G_j (m = m_j = V_{n_j}(x_A), x_A random,
   required: M_{n_j} < m).  Times n_{l+1} = ceil(r n_l).  If the hypothesis of Lemma C4 holds for
@@ -182,6 +186,45 @@ def mode_C4(p, seed, natoms, nj, r, lmax, nmc, force=0):
           f"median bound {med:.3g}; bound < 0.01 for {small}/{used}")
 
 
+def mode_meas(p, seed, nx, n0, r, kcap):
+    """eps_l(x) (composite collision form) is constant on the atom x + p^{m_(l-1)} Z_p whenever the
+    first event of B_l holds; x random, half with forced gates; only composite jumps K <= kcap."""
+    from ck_lib import collision
+    P = PAdic(p, 200)
+    rnd = random.Random(seed)
+    times = [n0]
+    while len(times) < 8:
+        times.append(math.ceil(r * times[-1]))
+    nt = nf = 0
+    for it in range(nx):
+        x = rnd.randrange(P.mod)
+        if it % 2:
+            i = rnd.randrange(1, times[-1] + 1)
+            x = (-i + p ** rnd.randrange(1, 6) * rnd.randrange(1, p ** 150)) % P.mod
+        vals = [None] + [P.v(x + i) for i in range(1, times[-1] + 1)]
+        for l in range(1, len(times) - 1):
+            a, b, c = times[l - 1], times[l], times[l + 1]
+            ma, mb, mc = sum(vals[1:a + 1]), sum(vals[1:b + 1]), sum(vals[1:c + 1])
+            Mc = max(vals[1:c + 1])
+            K, D = mc - ma, mb - ma
+            if not ((mc - ma) <= ma - Mc and Mc < ma) or K > kcap:
+                continue
+
+            def eps(xx):
+                ys = []
+                q = 1
+                for j in range(a, c):
+                    if j > a:
+                        q *= xx + j
+                    ys.append(q)
+                return p ** K * collision(ys, p ** K) - p ** D * collision(ys, p ** D)
+            x2 = x + p ** ma * rnd.randrange(1, p ** 40)
+            nt += 1
+            nf += eps(x) != eps(x2)
+    print(f"RESULT meas p={p} n0={n0} r={r}: eps_l constant on G_(l-1) atoms (on the first event of B_l) "
+          f"fails {nf}/{nt}")
+
+
 def main():
     mode = sys.argv[1]
     a = sys.argv[2:]
@@ -189,6 +232,8 @@ def main():
         mode_part(*(int(t) for t in a[:4]))
     elif mode == "F1":
         mode_F1(*(int(t) for t in a[:5]))
+    elif mode == "meas":
+        mode_meas(int(a[0]), int(a[1]), int(a[2]), int(a[3]), float(a[4]), int(a[5]))
     elif mode == "C4":
         mode_C4(int(a[0]), int(a[1]), int(a[2]), int(a[3]), float(a[4]), int(a[5]), int(a[6]),
                 int(a[7]) if len(a) > 7 else 0)

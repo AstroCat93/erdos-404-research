@@ -1,0 +1,72 @@
+=== command: python3 code/round3/check_R3M/ck_edge.py C2eq 3 1201 10 20 4 4 in 4 6
+=== start (UTC): 2026-10-13T17:32:50Z
+RESULT C2eq p=3 n=20 H=4 H2=4 where=in samples=10: single-parent pairs=40, exact equality lhs==eps*c_n^2 in 40/40 (lhs/rhs range [1,1]); martingale fails=0; slope-0 inheritance fails=0; full-population C2 inequality fails=0/1; full population of size 1: equality 0/0; Prop B equality |P|=1 (Var == c_n^2 chi^2_W): 40/40
+=== exit: 0   wall: 0.45 s
+=== command: python3 code/round3/check_R3M/ck_edge.py C2eq 3 1202 6 26 5 5 in 3 6
+=== start (UTC): 2026-10-13T17:32:51Z
+RESULT C2eq p=3 n=26 H=5 H2=5 where=in samples=6: single-parent pairs=18, exact equality lhs==eps*c_n^2 in 18/18 (lhs/rhs range [1,1]); martingale fails=0; slope-0 inheritance fails=0; full-population C2 inequality fails=0/0; full population of size 1: equality 0/0; Prop B equality |P|=1 (Var == c_n^2 chi^2_W): 18/18
+=== exit: 0   wall: 1.02 s
+=== command: python3 code/round3/check_R3M/ck_edge.py C2eq 3 1203 6 18 4 4 edge 4 7
+=== start (UTC): 2026-10-13T17:32:52Z
+RESULT C2eq p=3 n=18 H=4 H2=4 where=edge samples=0: single-parent pairs=0, exact equality lhs==eps*c_n^2 in 0/0 (lhs/rhs range [nan,nan]); martingale fails=0; slope-0 inheritance fails=0; full-population C2 inequality fails=0/0; full population of size 1: equality 0/0; Prop B equality |P|=1 (Var == c_n^2 chi^2_W): 0/0
+=== exit: 0   wall: 20.71 s
+=== command: python3 code/round3/check_R3M/ck_edge.py C2eq 3 1204 6 12 4 4 out 4 6
+=== start (UTC): 2026-10-13T17:33:12Z
+RESULT C2eq p=3 n=12 H=4 H2=4 where=out samples=0: single-parent pairs=0, exact equality lhs==eps*c_n^2 in 0/0 (lhs/rhs range [nan,nan]); martingale fails=0; slope-0 inheritance fails=0; full-population C2 inequality fails=0/0; full population of size 1: equality 0/0; Prop B equality |P|=1 (Var == c_n^2 chi^2_W): 0/0
+=== exit: 0   wall: 8.26 s
+=== command: python3 code/round3/check_R3M/ck_edge.py C2eq 3 1205 6 12 4 4 s-3 4 6
+=== start (UTC): 2026-10-13T17:33:21Z
+RESULT C2eq p=3 n=12 H=4 H2=4 where=s-3 samples=0: single-parent pairs=0, exact equality lhs==eps*c_n^2 in 0/0 (lhs/rhs range [nan,nan]); martingale fails=0; slope-0 inheritance fails=0; full-population C2 inequality fails=0/0; full population of size 1: equality 0/0; Prop B equality |P|=1 (Var == c_n^2 chi^2_W): 0/0
+=== exit: 0   wall: 6.85 s
+=== command: python3 code/round3/check_R3M/ck_edge.py C2eq 5 1206 5 20 5 5 in 3 5
+=== start (UTC): 2026-10-13T17:33:27Z
+RESULT C2eq p=5 n=20 H=5 H2=5 where=in samples=5: single-parent pairs=15, exact equality lhs==eps*c_n^2 in 15/15 (lhs/rhs range [1,1]); martingale fails=0; slope-0 inheritance fails=0; full-population C2 inequality fails=0/0; full population of size 1: equality 0/0; Prop B equality |P|=1 (Var == c_n^2 chi^2_W): 15/15
+=== exit: 0   wall: 0.21 s
+=== command: python3 code/round3/check_R3M/ck_edge.py C2eq 7 1207 3 21 7 7 in 2 3
+=== start (UTC): 2026-10-13T17:33:28Z
+RESULT C2eq p=7 n=21 H=7 H2=7 where=in samples=3: single-parent pairs=6, exact equality lhs==eps*c_n^2 in 6/6 (lhs/rhs range [1,1]); martingale fails=0; slope-0 inheritance fails=0; full-population C2 inequality fails=0/0; full population of size 1: equality 0/0; Prop B equality |P|=1 (Var == c_n^2 chi^2_W): 6/6
+=== exit: 0   wall: 0.75 s
+=== command: python3 code/round3/check_R3M/ck_edge.py Aedge 3 1301 5 20 26 1 w2edge 6
+=== start (UTC): 2026-10-13T17:33:28Z
+RESULT Aedge p=3 n=20 N=26 L=1 where=w2edge samples=5: parents with (iii) exact 30/30; (parent,state) mismatches 0/90
+=== exit: 0   wall: 9.89 s
+=== command: python3 code/round3/check_R3M/ck_edge.py Aedge 3 1302 5 20 26 1 w3edge 6
+=== start (UTC): 2026-10-13T17:33:38Z
+RESULT Aedge p=3 n=20 N=26 L=1 where=w3edge samples=0: parents with (iii) exact 0/0; (parent,state) mismatches 0/0
+=== exit: 0   wall: 6.64 s
+=== command: python3 code/round3/check_R3M/ck_edge.py Aedge 3 1303 5 24 33 2 w2edge 6
+=== start (UTC): 2026-10-13T17:33:45Z
+RESULT Aedge p=3 n=24 N=33 L=2 where=w2edge samples=5: parents with (iii) exact 30/30; (parent,state) mismatches 0/66
+=== exit: 0   wall: 22.99 s
+=== command: python3 code/round3/check_R3M/ck_edge.py Aedge 3 1304 5 20 26 1 w2out 6
+=== start (UTC): 2026-10-13T17:34:08Z
+RESULT Aedge p=3 n=20 N=26 L=1 where=w2out samples=5: parents with (iii) exact 30/30; (parent,state) mismatches 0/90
+=== exit: 0   wall: 47.12 s
+=== command: python3 code/round3/check_R3M/ck_edge.py Aedge 3 1305 5 20 26 1 w3out 6
+=== start (UTC): 2026-10-13T17:34:55Z
+RESULT Aedge p=3 n=20 N=26 L=1 where=w3out samples=0: parents with (iii) exact 0/0; (parent,state) mismatches 0/0
+=== exit: 0   wall: 7.32 s
+=== command: python3 code/round3/check_R3M/ck_edge.py Aedge 5 1306 3 30 40 1 w2edge 4
+=== start (UTC): 2026-10-13T17:35:02Z
+RESULT Aedge p=5 n=30 N=40 L=1 where=w2edge samples=3: parents with (iii) exact 12/12; (parent,state) mismatches 0/36
+=== exit: 0   wall: 56.89 s
+=== command: python3 code/round3/check_R3M/ck_edge.py Aedge 7 1307 2 28 42 1 w2edge 3
+=== start (UTC): 2026-10-13T17:35:59Z
+RESULT Aedge p=7 n=28 N=42 L=1 where=w2edge samples=2: parents with (iii) exact 6/6; (parent,state) mismatches 0/6
+=== exit: 0   wall: 107.76 s
+=== command: python3 code/round3/check_R3M/ck_edge.py C2eq 3 9003 4 14 4 4 out 4 6
+=== start (UTC): 2026-10-13T17:44:02Z
+RESULT C2eq p=3 n=14 H=4 H2=4 where=out samples=4: single-parent pairs=16, exact equality lhs==eps*c_n^2 in 16/16 (lhs/rhs range [1,1]); martingale fails=0; slope-0 inheritance fails=0; full-population C2 inequality fails=0/0; full population of size 1: equality 0/0; Prop B equality |P|=1 (Var == c_n^2 chi^2_W): 0/0
+=== exit: 0   wall: 0.13 s
+=== command: python3 code/round3/check_R3M/ck_edge.py C2eq 3 9005 4 12 4 4 s-2 4 6
+=== start (UTC): 2026-10-13T17:44:02Z
+RESULT C2eq p=3 n=12 H=4 H2=4 where=s-2 samples=4: single-parent pairs=15, exact equality lhs==eps*c_n^2 in 15/15 (lhs/rhs range [1,1]); martingale fails=0; slope-0 inheritance fails=0; full-population C2 inequality fails=0/1; full population of size 1: equality 0/0; Prop B equality |P|=1 (Var == c_n^2 chi^2_W): 0/0
+=== exit: 0   wall: 0.12 s
+=== command: python3 code/round3/check_R3M/ck_edge.py C2eq 3 9005 4 12 4 4 s-4 4 6
+=== start (UTC): 2026-10-13T17:44:02Z
+RESULT C2eq p=3 n=12 H=4 H2=4 where=s-4 samples=4: single-parent pairs=16, exact equality lhs==eps*c_n^2 in 16/16 (lhs/rhs range [1,1]); martingale fails=0; slope-0 inheritance fails=0; full-population C2 inequality fails=0/0; full population of size 1: equality 0/0; Prop B equality |P|=1 (Var == c_n^2 chi^2_W): 0/0
+=== exit: 0   wall: 0.19 s
+=== command: python3 code/round3/check_R3M/ck_edge.py C2eq 3 1501 4 16 4 4 edge 4 8
+=== start (UTC): 2026-10-13T17:44:02Z
+RESULT C2eq p=3 n=16 H=4 H2=4 where=edge samples=4: single-parent pairs=16, exact equality lhs==eps*c_n^2 in 16/16 (lhs/rhs range [1,1]); martingale fails=0; slope-0 inheritance fails=0; full-population C2 inequality fails=0/0; full population of size 1: equality 0/0; Prop B equality |P|=1 (Var == c_n^2 chi^2_W): 16/16
+=== exit: 0   wall: 0.12 s

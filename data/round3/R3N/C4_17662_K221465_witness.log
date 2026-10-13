@@ -1,1 +1,5 @@
 # cmd: nice -n 10 /tmp/r3_R3N/dfsW4 17662 221465 /tmp/r3_R3N/w17662_221465.txt -c /tmp/r3_R3N/ck17662w -i 600   (lead, 2026-10-13 17:11:58 UTC: produce the witness at the exact value)
+dfsW4 (WL=4) a=17662 K=221465 witness=/tmp/r3_R3N/w17662_221465.txt
+SUCCESS: 2^221465 divides a witness sum (final gate at N=221470)
+witness written: /tmp/r3_R3N/w17662_221465.txt (101480 terms)
+RESULT a=17662 K=221465 reachable=1 nodes=13723352669 surv=33681333 fulladds=261829047 levels=798 time=592.7s

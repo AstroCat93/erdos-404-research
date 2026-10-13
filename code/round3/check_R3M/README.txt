@@ -19,3 +19,19 @@ ck_deepgate_M2.py   heuristic: importance sampling of E[(M^0_n)^2] on {v(x+i)=s}
 ck_run.sh           logging wrapper (command line, start time, output, exit code, wall time).
 ck_batch1.sh, ck_batch2.sh   the exact batch and the heuristic batch, as run.
 Re-runs of two R3M programs (unchanged): rerun_R3M_checks.log.
+
+Second check_R3M instance (round 3, after the first was cut off by the spending limit).  Report:
+data/round3/checks/R3M.md.  All new programs use ck_lib.py only; logs in data/round3/check_R3M/.
+ck_run2.sh          logging wrapper with a wall-time limit (exit 124 = timed out); sets PYTHONDONTWRITEBYTECODE.
+ck_lemma12.py       Lemma 1 (a)-(e) and Lemma 2 (a),(b) (+ sharpness of the modulus).            lemma12.log
+ck_edge.py          C2eq: single-parent EXACT equality case of Prop C2 (and Prop B/N equality |P|=1),
+                    inside, at the boundary of, and outside (5.2); Aedge: Prop A(iii) at the boundary of
+                    (W2)/(W3) and one digit outside.                                              edge.log
+ck_C3_struct.py     part: partition/atoms of G_l, first event of B_l constant on atoms; meas: eps_l
+                    constant on atoms; F1: survival => K_p with exact integer factorials; C4: Lemma C4
+                    union bound vs Monte Carlo and frequency of its hypothesis.                    C3struct.log
+ck_gate_kill.py     Observation G (deep gates and x = -1,-2 mod p kill the slope-0 population).   gatekill.log
+ck_indep_search.py  abstract counterexamples to "offspring numbers are never independent".       indep_search.log
+ck_batch3.sh        completes ck_batch1.sh (C1C2 p=7 timed out; C4 p=5 killed: see log notes).
+ck_batch4.sh, ck_batch5.sh, ck_batch6.sh   the exact batch, boundary/gate runs, heuristic probes, as run.
+Heuristic logs written by this instance with the first instance's programs: mc_M.log, deepgate_M2.log.

@@ -1,0 +1,23 @@
+# command: python3 -I /home/user/erdos-404-research/code/round3/check_R3F/kavgcheck.py 7 2 7 7 2 12 7 2 14 7 2 20 7 2 21 7 3 19 7 3 21 11 3 18 13 2 10 13 2 19 13 2 26 13 2 30 13 2 35 13 2 39 13 3 19 13 3 26 13 3 30 13 3 35 13 3 39 13 4 24
+# start: 2026-10-13T17:44:34Z
+(p,t,H)=(7,2,7) c=0 M=2 classes=1 failing=0 C3=2.324 CS-cert=0/1 maxL2=0.113 vs p^-M=0.0204 parseval-cert=0/1  C1=True C2=True  (0.0s)
+(p,t,H)=(7,2,12) c=1 M=3 classes=6 failing=0 C3=3.288 CS-cert=0/6 maxL2=0.062 vs p^-M=0.00292 parseval-cert=0/6  C1=True C2=True  (0.0s)
+(p,t,H)=(7,2,14) c=1 M=3 classes=6 failing=0 C3=1.64 CS-cert=0/6 maxL2=0.026 vs p^-M=0.00292 parseval-cert=0/6  C1=True C2=True  (0.0s)
+(p,t,H)=(7,2,20) c=2 M=4 classes=42 failing=0 C3=1.938 CS-cert=0/42 maxL2=0.0276 vs p^-M=0.000416 parseval-cert=0/42  C1=True C2=True  (0.1s)
+(p,t,H)=(7,2,21) c=2 M=4 classes=42 failing=0 C3=1.486 CS-cert=10/42 maxL2=0.0211 vs p^-M=0.000416 parseval-cert=0/42  C1=True C2=True  (0.1s)
+(p,t,H)=(7,3,19) c=2 M=5 classes=42 failing=0 C3=22.26 CS-cert=0/42 maxL2=0.0888 vs p^-M=5.95e-05 parseval-cert=0/42  C1=True C2=True  (0.2s)
+(p,t,H)=(7,3,21) c=2 M=5 classes=42 failing=0 C3=11.2 CS-cert=0/42 maxL2=0.0343 vs p^-M=5.95e-05 parseval-cert=0/42  C1=True C2=True  (0.2s)
+(p,t,H)=(11,3,18) c=1 M=4 classes=10 failing=0 C3=30.93 CS-cert=0/10 maxL2=0.0943 vs p^-M=6.83e-05 parseval-cert=0/10  C1=True C2=True  (0.0s)
+(p,t,H)=(13,2,10) c=0 M=2 classes=1 failing=0 C3=4.218 CS-cert=0/1 maxL2=0.112 vs p^-M=0.00592 parseval-cert=0/1  C1=True C2=True  (0.0s)
+(p,t,H)=(13,2,19) c=1 M=3 classes=12 failing=0 C3=2.871 CS-cert=0/12 maxL2=0.0564 vs p^-M=0.000455 parseval-cert=0/12  C1=True C2=True  (0.0s)
+(p,t,H)=(13,2,26) c=1 M=3 classes=12 failing=0 C3=0.1791 CS-cert=12/12 maxL2=5.85e-05 vs p^-M=0.000455 parseval-cert=12/12  C1=True C2=True  (0.0s)
+(p,t,H)=(13,2,30) c=2 M=4 classes=156 failing=156 C3=2.842 CS-cert=0/156 maxL2=0.422 vs p^-M=3.5e-05 parseval-cert=0/156  C1=True C2=True  (2.5s)
+(p,t,H)=(13,2,35) c=2 M=4 classes=156 failing=0 C3=0.1424 CS-cert=156/156 maxL2=0.000159 vs p^-M=3.5e-05 parseval-cert=0/156  C1=True C2=(skipped, H>30)  (0.2s)
+(p,t,H)=(13,2,39) c=2 M=4 classes=156 failing=0 C3=0.05082 CS-cert=156/156 maxL2=2.39e-05 vs p^-M=3.5e-05 parseval-cert=156/156  C1=True C2=(skipped, H>30)  (0.2s)
+(p,t,H)=(13,3,19) c=1 M=4 classes=12 failing=0 C3=35.23 CS-cert=0/12 maxL2=0.104 vs p^-M=3.5e-05 parseval-cert=0/12  C1=True C2=True  (0.1s)
+(p,t,H)=(13,3,26) c=1 M=4 classes=12 failing=0 C3=3.275 CS-cert=0/12 maxL2=0.00104 vs p^-M=3.5e-05 parseval-cert=0/12  C1=True C2=True  (0.1s)
+(p,t,H)=(13,3,30) c=2 M=5 classes=156 failing=156 C3=12.5 CS-cert=0/156 maxL2=0.423 vs p^-M=2.69e-06 parseval-cert=0/156  C1=True C2=True  (65.9s)
+(p,t,H)=(13,3,35) c=2 M=5 classes=156 failing=0 C3=1.889 CS-cert=0/156 maxL2=0.000224 vs p^-M=2.69e-06 parseval-cert=0/156  C1=True C2=(skipped, H>30)  (3.9s)
+(p,t,H)=(13,3,39) c=2 M=5 classes=156 failing=0 C3=0.4419 CS-cert=154/156 maxL2=2.79e-05 vs p^-M=2.69e-06 parseval-cert=0/156  C1=True C2=(skipped, H>30)  (4.3s)
+(p,t,H)=(13,4,24) c=1 M=5 classes=12 failing=0 C3=129.0 CS-cert=0/12 maxL2=0.0999 vs p^-M=2.69e-06 parseval-cert=0/12  C1=True C2=True  (2.5s)
+# end: 2026-10-13T17:45:55Z  exit=0  wall_seconds=80.394384798

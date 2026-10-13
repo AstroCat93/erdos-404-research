@@ -1,0 +1,72 @@
+=== command: python3 code/round3/check_R3M/ck_C3_struct.py part 3 1401 200 80
+=== start (UTC): 2026-10-13T17:37:47Z
+RESULT part p=3: (a) M_n<V_n for n>=2p fails 0/16400; (b) V_n constant on its cylinder fails 0/2400; (c) B_l first event constant on G_(l-1) atoms fails 0/2000
+=== exit: 0   wall: 0.13 s
+=== command: python3 code/round3/check_R3M/ck_C3_struct.py part 5 1402 200 80
+=== start (UTC): 2026-10-13T17:37:47Z
+RESULT part p=5: (a) M_n<V_n for n>=2p fails 0/15600; (b) V_n constant on its cylinder fails 0/2000; (c) B_l first event constant on G_(l-1) atoms fails 0/1600
+=== exit: 0   wall: 0.13 s
+=== command: python3 code/round3/check_R3M/ck_C3_struct.py part 7 1403 200 100
+=== start (UTC): 2026-10-13T17:37:47Z
+RESULT part p=7: (a) M_n<V_n for n>=2p fails 0/20800; (b) V_n constant on its cylinder fails 0/2000; (c) B_l first event constant on G_(l-1) atoms fails 0/1600
+=== exit: 0   wall: 0.16 s
+=== command: python3 code/round3/check_R3M/ck_C3_struct.py F1 3 1411 40 300 18
+=== start (UTC): 2026-10-13T17:37:48Z
+RESULT F1 p=3 n=18: natural-number paths checked 862, failures 0
+=== exit: 0   wall: 0.11 s
+=== command: python3 code/round3/check_R3M/ck_C3_struct.py F1 5 1412 40 300 22
+=== start (UTC): 2026-10-13T17:37:48Z
+RESULT F1 p=5 n=22: natural-number paths checked 17134, failures 0
+=== exit: 0   wall: 1.56 s
+=== command: python3 code/round3/check_R3M/ck_C3_struct.py F1 7 1413 40 300 28
+=== start (UTC): 2026-10-13T17:37:49Z
+RESULT F1 p=7 n=28: natural-number paths checked 676930, failures 0
+=== exit: 0   wall: 45.66 s
+=== command: python3 code/round3/check_R3M/ck_C3_struct.py meas 3 1421 60 8 1.25 8
+=== start (UTC): 2026-10-13T17:38:35Z
+RESULT meas p=3 n0=8 r=1.25: eps_l constant on G_(l-1) atoms (on the first event of B_l) fails 0/195
+=== exit: 0   wall: 0.34 s
+=== command: python3 code/round3/check_R3M/ck_C3_struct.py meas 5 1422 60 10 1.25 5
+=== start (UTC): 2026-10-13T17:38:35Z
+RESULT meas p=5 n0=10 r=1.25: eps_l constant on G_(l-1) atoms (on the first event of B_l) fails 0/217
+=== exit: 0   wall: 0.48 s
+=== command: python3 code/round3/check_R3M/ck_C3_struct.py meas 7 1423 60 14 1.25 4
+=== start (UTC): 2026-10-13T17:38:36Z
+RESULT meas p=7 n0=14 r=1.25: eps_l constant on G_(l-1) atoms (on the first event of B_l) fails 0/222
+=== exit: 0   wall: 0.58 s
+=== command: python3 code/round3/check_R3M/ck_C3_struct.py C4 3 1431 300 30 1.25 8 100
+=== start (UTC): 2026-10-13T17:38:36Z
+RESULT C4prob p=3 n_j=30 r=1.25 lmax=8: atoms (x_A random, M_nj < m) meeting the hypothesis 0 of 300 tried; MC frequency above union bound (+4 s.e.) in 0; median bound nan; bound < 0.01 for 0/0
+=== exit: 0   wall: 0.15 s
+=== command: python3 code/round3/check_R3M/ck_C3_struct.py C4 3 1432 200 80 1.25 10 400
+=== start (UTC): 2026-10-13T17:38:37Z
+  atom m=40 i1=none<=947 freq=0.0000 bound=0
+  atom m=40 i1=none<=947 freq=0.0000 bound=0
+  atom m=40 i1=none<=947 freq=0.0000 bound=0
+  atom m=39 i1=none<=947 freq=0.0000 bound=0
+  atom m=39 i1=none<=947 freq=0.0000 bound=0
+  atom m=39 i1=none<=947 freq=0.0000 bound=0
+  atom m=40 i1=none<=947 freq=0.0000 bound=0
+  atom m=40 i1=none<=947 freq=0.0000 bound=0
+  atom m=40 i1=none<=947 freq=0.0000 bound=0
+  atom m=39 i1=none<=947 freq=0.0000 bound=0
+  atom m=40 i1=none<=947 freq=0.0000 bound=0
+  atom m=40 i1=none<=947 freq=0.0000 bound=0
+RESULT C4prob p=3 n_j=80 r=1.25 lmax=10: atoms (x_A random, M_nj < m) meeting the hypothesis 91 of 200 tried; MC frequency above union bound (+4 s.e.) in 0; median bound 0; bound < 0.01 for 91/91
+=== exit: 0   wall: 68.61 s
+=== command: python3 code/round3/check_R3M/ck_C3_struct.py C4 3 1433 200 80 1.25 10 400 7
+=== start (UTC): 2026-10-13T17:39:45Z
+  atom m=40 i1=877 freq=0.0000 bound=1.062e-11
+  atom m=39 i1=723 freq=0.0000 bound=5.081e-05
+  atom m=40 i1=443 freq=1.0000 bound=2
+  atom m=40 i1=424 freq=1.0000 bound=2
+  atom m=40 i1=482 freq=1.0000 bound=2
+  atom m=40 i1=946 freq=0.0000 bound=1.062e-11
+  atom m=40 i1=421 freq=1.0000 bound=2
+  atom m=37 i1=459 freq=1.0000 bound=1.037
+  atom m=40 i1=857 freq=0.0000 bound=1.062e-11
+  atom m=39 i1=930 freq=0.0000 bound=3.541e-12
+  atom m=39 i1=624 freq=0.0000 bound=5.081e-05
+  atom m=40 i1=649 freq=0.0000 bound=0.0001524
+RESULT C4prob p=3 n_j=80 r=1.25 lmax=10: atoms (x_A random, M_nj < m) meeting the hypothesis 108 of 200 tried; MC frequency above union bound (+4 s.e.) in 0; median bound 0.000152; bound < 0.01 for 67/108
+=== exit: 0   wall: 64.29 s
