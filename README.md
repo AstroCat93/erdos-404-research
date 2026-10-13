@@ -2,10 +2,15 @@
 
 This repository is a research note on [Erdős Problem #404](https://www.erdosproblems.com/404) (sums of distinct factorials divisible by high prime powers), with the code, logs and data behind it.
 
-**Problem #404 is not solved.** Status after round 2 (2026-10-12):
+**Problem #404 is not solved.** Status after round 3 (2026-10-13):
 - **Q3 is open.** Nothing here proves that $f(a,p)=\infty$ for any pair $(a,p)$.
-- **Q1 is open in general.** *New in round 2:* at $p=2$, $f(a,2)<\infty$ for all $a$ outside a set of natural density $0$ (note.md Theorem 10.1). This is a complete proof, checked by AI referees and not by a human. Whether $f(a,2)<\infty$ for *every* $a$ is still open.
-- **Q2 has partial results.** These are structural theorems, exact values on residue classes, much larger certified lower bounds than were previously published, and precise sufficient conditions for a positive answer to Q3.
+- **Q1 is open in general.**
+  - *Round 2:* at $p=2$, $f(a,2)<\infty$ for all $a$ outside a set of natural density $0$ (note.md Theorem 10.1). This is a complete proof, checked by AI referees and not by a human.
+  - *New in round 3:* $f(a,2)<\infty$ for **every** $a\le32768$, with exact values. This includes Kitamura's open test case, **$f(594,2)=90394$**, and $f(17662,2)=221465$ (note.md Theorem 11.4; computer-assisted). There is also an explicit, very weak rate: $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$ (Theorem 11.7).
+  - Whether $f(a,2)<\infty$ for *every* $a$ is still open.
+- **Q2 has partial results.** These are structural theorems, exact values on residue classes, much larger certified lower bounds than were previously published, and precise sufficient conditions for a positive answer to Q3. Round 3 adds a conditional theorem for $\mu(K_p)>0$ at odd $p$, certified Fourier constants for gate blocks, and $L^2$ forms of the main obstructions.
+
+**Status check, 2026-10-13 (round 3, track S0).** Still nothing new on #404 by others: the problem page, forum, Kitamura's repositories, teorth/erdosproblems and arXiv are unchanged. formal-conjectures PR #6936 has one new commit and two approvals but is not merged and still formalises only the statement (note.md §11.0).
 
 **Status check, 2026-10-12.** There are no new results on #404 by others since this note was first written (8 Oct). The following show no change: the problem page (last edited 29 Sep 2025, 0 proof claims), Kitamura's repositories (last pushed 7–8 Jul 2026), the teorth/erdosproblems database (status `open`) and arXiv. A Lean formalization of the *statement* of #404 is under review in google-deepmind/formal-conjectures (PR #6936, still open). The workflow lead checked on 11 Oct, and the round-2 novelty referee re-checked on 12 Oct.
 
@@ -22,6 +27,21 @@ For a prime $p$ and an integer $a\ge1$, let $f(a,p)$ be the largest $k$ such tha
 Known before this note: $f(2,2)=254$ (S. Lin), the trivial family $a\equiv-1 \pmod p$ (where $f(a,p)=v_p(a!)$), Tao's block lemma, and K. Kitamura's extensive computations (exact values of $f(a,2)$ for $a\le256$ and deeper rows, a certified classification of all $p=2$ classes with excess $\le24$, and witnesses $f(1,p)\ge20000$ for $p=3,5,7$ and $\ge5000$ for $p=11,13$).
 
 Write $f(a,p)=v_p(a!)+g_p(a)$. The excess $g_p$ extends to a function on the $p$-adic integers (this normal form is Kitamura's; see below).
+
+## New in round 3 (2026-10-13; note.md §11)
+
+Round 3 was produced by a third AI-assisted session. Each of six tracks was checked by a separate AI instance that wrote its own code. A final round of three AI referees then checked note.md §11. An external spending limit interrupted the session once; note.md §11.0 records what was resumed and what was redone. **No human has checked any of it.**
+
+| | Statement | Status |
+|---|---|---|
+| Thm 11.2, 11.4 | **$f(a,2)<\infty$ for every $a\le32768$, with exact values.** $f(594,2)=90394$ (Kitamura's live test case; Kitamura had $\ge66126$). $f(17662,2)=221465$, the largest excess $g_2=203812$ known. Shadow values $f(2^t-2,2)$ for $t=14,\dots,17$. Kitamura's exact table reached $a\le256$ | computer-assisted: at least two independently written exhaustive programs (three for 594), plus an explicit witness verified exactly by three verifiers |
+| Thm 11.7, Cor 11.8 | **Explicit rate at $p=2$:** $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$; $\delta_G(2)\le0.10051$ for $G\ge2^{37}$ (first improvement on the census bound $0.1016$). Meaningful only at astronomically large $G$; the data suggest $\approx c/G$ | computer-assisted (a $2^{16}$-case certificate and a closed-form check); proof written out |
+| Lemma 11.6 | Every zero of an $F_e$ in the good set has multiplicity $\le2$ (exactly 1 on $8\mathbb Z_2$) | proved |
+| Prop 11.10–11.13, Thm 11.14 | Odd $p$: the exact first-moment machinery of §10.1 at every odd prime; an exact second-moment identity; per-window Cauchy–Schwarz provably cannot work. **Conditional:** a fine-scale equidistribution hypothesis FE implies $\mu(K_p)>0$ | proved (FE unproved; of barrier type; numerically plausible at $p\ge5$, doubtful at $p=3$) |
+| Thm 11.17–11.19 | Single gate blocks satisfy the random-model Fourier bound at every level: $\sup_d\rho_d\le1.3203,1.1760,1.8377,1.2064$ ($p=5,7,11,13$). This explains round 2's ratio $\approx1.17$ as an explicit constant $J_p$ | proved; certified constants computer-assisted |
+| Thm 11.22, Prop 11.23–11.24 | A collision-count ($L^2$) version of Theorem 10.16 (budget $<1$ exactly for $p\ge11$); $L^2$ forms of the barrier lemma and of Cor 10.20 | proved (the $L^2$ hypothesis is unproved) |
+| §11.4(e) | All certified Fourier shell sums of round 2 are now in interval arithmetic | computer-assisted (three implementations) |
+| §11.5 | README_R3C_PLACEHOLDER | |
 
 ## What is new (round 1, 2026-10-08)
 
@@ -160,6 +180,18 @@ cd R3 && R3_LOGS=../../../data/round2/outputs/R3 python3 src/chain.py specs/p13.
 
 The certificate re-runs (rows C1–C6) take a few CPU-hours in total and are driven by a job list; see `code/round2/README.md`. The round-2 referees' programs are in `code/round2/review/`, and their logs are in `data/round2/review/`.
 
+Round 3 (`note.md` §11.7; build commands in each track's README or report):
+
+```sh
+cd code/round3/R3N && gcc -O3 -march=native -o /tmp/dfsW dfsW.c && gcc -O3 -march=native -o /tmp/dfsB dfsB.c -lgmp
+/tmp/dfsW 594 90395            # EXACT f(594,2) = 90394, about 3 minutes on one core
+/tmp/dfsB 594 90395            # independent program, same value, 12-17 minutes
+python3 -I verify_witness.py <(zcat ../../../data/round3/R3N/witness_594_K90394.txt.gz) 594 90394
+# rate at p = 2: see code/round3/R3Q/v2/README.md (run_logs.sh: certificates, lemma tests, closed-form checks)
+```
+
+Every round-3 log in `data/round3/` begins with its command line. The track reports are in `data/round3/reports/`, the adversarial checks in `data/round3/checks/`, and the referee reports in `data/round3/referees/`.
+
 ## Repository layout
 
 ```
@@ -170,7 +202,9 @@ code/outputs/        logs of the 2026-10-08 re-runs (pub_* = publication re-chec
 archive/             archived logs that the "not re-run" items rest on; gzipped witnesses for p = 3, 5, 7
 review/              the round-1 referees' own programs and outputs
 code/round2/         round-2 programs (tracks R1a, R1b, R2a, R2b, R3; the lead's checks; the round-2 referees' programs in review/)
+code/round3/         round-3 programs (tracks S0, R3N, R3Q, R3M, R3F, R3C; check_<T>/ the checkers' own code; referee_<role>/)
 data/round2/         round-2 logs: original track logs, the 2026-10-12 re-runs, the round-2 referees' logs
+data/round3/         round-3 logs and witnesses; reports/ (track reports), checks/ (adversarial checks), referees/ (referee reports)
 LICENSE              MIT (code)
 LICENSE-docs.md      CC BY 4.0 (documents)
 CITATION.cff
@@ -194,6 +228,7 @@ CITATION.cff
 
   Wherever the note says "the lead" or "the lead author" in round 2, it means that AI instance, not the human author.
 - **Referee outcome (round 2):** no fatal or serious mathematical error. The logic referee checked the proof of Theorem 10.1 line by line and found no gap. The computational referee re-certified every new bound with its own program. The novelty referee found two serious problems of credit and attribution: Kitamura's critical-branching observation was uncredited, and the verification wording could be read as referring to the human author. It also found several minor overstatements. All are corrected. Details are in note.md §10.8.
+- **Round 3 (2026-10-13):** the same kind of workflow, with a status gate, five research tracks, an adversarial check of each track by a separate AI instance writing its own code, and three final referee agents (logic, computation, novelty). An external spending limit interrupted the session once; the interrupted runs were resumed from their own checkpoints, and one track (R3Q) was redone from scratch. Details are in note.md §11.0 and §11.8.
 - **No human referee** has checked any part of this. Treat it as an unrefereed preprint, and check whatever you intend to rely on. Corrections are welcome (open an issue).
 
 ## License
