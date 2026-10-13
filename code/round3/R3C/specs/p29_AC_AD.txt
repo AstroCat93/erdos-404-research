@@ -1,0 +1,12 @@
+# p = 29, D = 8: uniform depths t <= 6 required from programs A and C (the scans);
+# depth-7 positions required from programs A and D.
+29 8
+require A,C
+uniform 1 7
+uniform 2 13
+uniform 3 19
+uniform 4 24
+uniform 5 29
+uniform 6 40
+require A,D
+pos 7 45 1 28

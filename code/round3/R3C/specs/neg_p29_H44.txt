@@ -1,0 +1,10 @@
+# negative control: depth-7 positions at H = 44 (never run)
+29 8
+require A,D
+uniform 1 7
+uniform 2 13
+uniform 3 19
+uniform 4 24
+uniform 5 29
+uniform 6 40
+pos 7 44 1 28

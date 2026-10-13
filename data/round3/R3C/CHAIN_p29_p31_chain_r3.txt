@@ -1,0 +1,125 @@
+# command: R3C_LOGS=data/round3/R3C:data/round3/R3C/p29_t7 python3 code/round3/R3C/chain_r3.py code/round3/R3C/specs/<spec>   (one block per spec)
+# run: 2026-10-13 18:35:13 UTC  cwd: /home/user/erdos-404-research
+
+### spec p29_AD
+# chain_r3: p=29 D=8 logs=['data/round3/R3C', 'data/round3/R3C/p29_t7']
+# log lines parsed per program: {'A': 296, 'B': 0, 'C': 265, 'D': 68}
+# required programs: ['A', 'D']
+uniform Cov(29,1,7) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,2,13) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,3,19) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,4,24) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,5,29) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,6,40) c=1: A=True D=True  H+1<p^t=True
+positions depth 7 H=45 K''=1..28 (28): certified by all of ['A', 'D']: 28
+depth 7: all 28 positions below 29^8 excluded
+CHAIN OK: no first failure below 29^8; f(1,29) >= v_29((29^8-1)!) = 17865943312
+
+### spec p29_AC_AD
+# chain_r3: p=29 D=8 logs=['data/round3/R3C', 'data/round3/R3C/p29_t7']
+# log lines parsed per program: {'A': 296, 'B': 0, 'C': 265, 'D': 68}
+# required programs: ['A', 'C']
+uniform Cov(29,1,7) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(29,2,13) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(29,3,19) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(29,4,24) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(29,5,29) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(29,6,40) c=1: A=True C=True  H+1<p^t=True
+# required programs: ['A', 'D']
+positions depth 7 H=45 K''=1..28 (28): certified by all of ['A', 'D']: 28
+depth 7: all 28 positions below 29^8 excluded
+CHAIN OK: no first failure below 29^8; f(1,29) >= v_29((29^8-1)!) = 17865943312
+
+### spec p29_ACD_D7
+# chain_r3: p=29 D=7 logs=['data/round3/R3C', 'data/round3/R3C/p29_t7']
+# log lines parsed per program: {'A': 296, 'B': 0, 'C': 265, 'D': 68}
+# required programs: ['A', 'C', 'D']
+uniform Cov(29,1,7) c=0: A=True C=True D=True  H+1<p^t=True
+uniform Cov(29,2,13) c=0: A=True C=True D=True  H+1<p^t=True
+uniform Cov(29,3,19) c=0: A=True C=True D=True  H+1<p^t=True
+uniform Cov(29,4,24) c=0: A=True C=True D=True  H+1<p^t=True
+uniform Cov(29,5,29) c=0: A=True C=True D=True  H+1<p^t=True
+uniform Cov(29,6,40) c=1: A=True C=True D=True  H+1<p^t=True
+CHAIN OK: no first failure below 29^7; f(1,29) >= v_29((29^7-1)!) = 616067004
+
+### spec p31_AC_D7
+# chain_r3: p=31 D=7 logs=['data/round3/R3C', 'data/round3/R3C/p29_t7']
+# log lines parsed per program: {'A': 296, 'B': 0, 'C': 265, 'D': 68}
+# required programs: ['A', 'C']
+uniform Cov(31,1,7) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(31,2,14) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(31,3,19) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(31,4,25) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(31,5,30) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(31,6,41) c=1: A=True C=True  H+1<p^t=True
+CHAIN OK: no first failure below 31^7; f(1,31) >= v_31((31^7-1)!) = 917087130
+
+### spec neg_p29_H44
+# chain_r3: p=29 D=8 logs=['data/round3/R3C', 'data/round3/R3C/p29_t7']
+# log lines parsed per program: {'A': 296, 'B': 0, 'C': 265, 'D': 68}
+# required programs: ['A', 'D']
+uniform Cov(29,1,7) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,2,13) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,3,19) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,4,24) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,5,29) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,6,40) c=1: A=True D=True  H+1<p^t=True
+positions depth 7 H=44 K''=1..28 (28): certified by all of ['A', 'D']: 0  NOT certified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] ...
+depth 7: first non-excluded position K''=1 (N=29^7*1)
+CHAIN PARTIAL: no first failure below N=17249876309; f(1,29) >= v_29((N-1)!) = 616067004
+
+### spec neg_p29_K27
+# chain_r3: p=29 D=8 logs=['data/round3/R3C', 'data/round3/R3C/p29_t7']
+# log lines parsed per program: {'A': 296, 'B': 0, 'C': 265, 'D': 68}
+# required programs: ['A', 'D']
+uniform Cov(29,1,7) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,2,13) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,3,19) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,4,24) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,5,29) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,6,40) c=1: A=True D=True  H+1<p^t=True
+positions depth 7 H=45 K''=1..27 (27): certified by all of ['A', 'D']: 27
+depth 7: first non-excluded position K''=28 (N=29^7*28)
+CHAIN PARTIAL: no first failure below N=482996536652; f(1,29) >= v_29((N-1)!) = 17249876301
+
+### spec neg_p29_C_pos
+# chain_r3: p=29 D=8 logs=['data/round3/R3C', 'data/round3/R3C/p29_t7']
+# log lines parsed per program: {'A': 296, 'B': 0, 'C': 265, 'D': 68}
+# required programs: ['A', 'C']
+uniform Cov(29,1,7) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(29,2,13) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(29,3,19) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(29,4,24) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(29,5,29) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(29,6,40) c=1: A=True C=True  H+1<p^t=True
+positions depth 7 H=45 K''=1..28 (28): certified by all of ['A', 'C']: 0  NOT certified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] ...
+depth 7: first non-excluded position K''=1 (N=29^7*1)
+CHAIN PARTIAL: no first failure below N=17249876309; f(1,29) >= v_29((N-1)!) = 616067004
+
+### spec neg_p29_t6_H39
+# chain_r3: p=29 D=8 logs=['data/round3/R3C', 'data/round3/R3C/p29_t7']
+# log lines parsed per program: {'A': 296, 'B': 0, 'C': 265, 'D': 68}
+# required programs: ['A', 'D']
+uniform Cov(29,1,7) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,2,13) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,3,19) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,4,24) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,5,29) c=0: A=True D=True  H+1<p^t=True
+uniform Cov(29,6,39) c=1: A=False D=False  H+1<p^t=True
+positions depth 7 H=45 K''=1..28 (28): certified by all of ['A', 'D']: 28
+depth 6: first non-excluded position K''=1 (N=29^6*1)
+depth 7: all 28 positions below 29^8 excluded
+CHAIN PARTIAL: no first failure below N=594823321; f(1,29) >= v_29((N-1)!) = 21243684
+
+### spec neg_p31_D8
+# chain_r3: p=31 D=8 logs=['data/round3/R3C', 'data/round3/R3C/p29_t7']
+# log lines parsed per program: {'A': 296, 'B': 0, 'C': 265, 'D': 68}
+# required programs: ['A', 'C']
+uniform Cov(31,1,7) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(31,2,14) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(31,3,19) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(31,4,25) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(31,5,30) c=0: A=True C=True  H+1<p^t=True
+uniform Cov(31,6,41) c=1: A=True C=True  H+1<p^t=True
+depth 7: first non-excluded position K''=1 (N=31^7*1)
+CHAIN PARTIAL: no first failure below N=27512614111; f(1,31) >= v_31((N-1)!) = 917087130

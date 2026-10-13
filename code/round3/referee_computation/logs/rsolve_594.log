@@ -1,0 +1,15 @@
+# cmd: nice -n 10 /tmp/r3_ref_computation/rsolve 594 90395   (rsolve = gcc -O3 -march=native code/round3/referee_computation/rsolve.c)
+RESULT a=594 K=90395 NK=90400 reachable=0 nodes=4153335589 rebases=51825254 fulladds=210608144 levels=705 best=90394 time=367.1s
+UNREACHABLE: f(594,2) <= 90394; max valuation over all P in [a,N_K) = 90394
+# cmd: nice -n 10 /tmp/r3_ref_computation/rsolve 594 90394 /tmp/r3_ref_computation/w594_rsolve.txt
+RESULT a=594 K=90394 NK=90400 reachable=1 nodes=1585001148 rebases=20432230 fulladds=82573981 levels=705 best=90393 time=110.9s
+# cmd: nice -n 10 python3 -I code/round3/referee_computation/verify_witness_bsplit.py /tmp/r3_ref_computation/w594_rsolve.txt 594 90394
+file: /tmp/r3_ref_computation/w594_rsolve.txt
+header: # rsolve witness for f(594,2) >= 90394, |P| = 44804
+terms: 44804  min: 594  max: 90399
+strictly increasing: True
+v_2(sum n!) = 90394  (claimed K = 90394 )
+control (drop last): v_2 = 90390
+control (drop 2nd): v_2 = 590
+time 1.0s
+RESULT PASS

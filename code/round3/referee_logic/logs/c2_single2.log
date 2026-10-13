@@ -1,0 +1,42 @@
+### command: python3 -I code/round3/referee_logic/c2_test.py 3 51 20 18 5 5 20000 1
+# c2_test p=3 seed=51 samples=20 n=18 N=23 N'=28 PREC=84
+x mod p^14=2050011 m=10 D=1 D'=3 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.1133 C2 ratio=1.0000 const=True
+x mod p^13=1243683 m=9 D=1 D'=3 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.0805 C2 ratio=1.0000 const=True
+x mod p^14=2175399 m=10 D=1 D'=3 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.1133 C2 ratio=1.0000 const=True
+x mod p^13=158634 m=9 D=1 D'=3 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.0323 C2 ratio=1.0000 const=True
+x mod p^14=2808414 m=10 D=1 D'=3 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.1133 C2 ratio=1.0000 const=True
+x mod p^13=913203 m=9 D=1 D'=3 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.0805 C2 ratio=1.0000 const=True
+x mod p^13=1181151 m=9 D=1 D'=3 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.0805 C2 ratio=1.0000 const=True
+x mod p^13=851724 m=9 D=1 D'=3 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.0805 C2 ratio=1.0000 const=True
+x mod p^14=2162844 m=10 D=1 D'=3 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.1133 C2 ratio=1.0000 const=True
+x mod p^13=806283 m=9 D=1 D'=3 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.0805 C2 ratio=1.0000 const=True
+x mod p^13=109197 m=9 D=1 D'=3 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.0805 C2 ratio=1.0000 const=True
+x mod p^13=980433 m=9 D=1 D'=3 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.0805 C2 ratio=1.0000 const=True
+x mod p^13=539631 m=9 D=1 D'=3 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.0805 C2 ratio=1.0000 const=True
+x mod p^13=298170 m=9 D=1 D'=3 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.0805 C2 ratio=1.0000 const=True
+x mod p^13=1256967 m=9 D=1 D'=3 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.0805 C2 ratio=1.0000 const=True
+x mod p^13=929403 m=9 D=1 D'=3 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.0805 C2 ratio=1.0000 const=True
+x mod p^13=1236555 m=9 D=1 D'=3 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.0805 C2 ratio=1.0000 const=True
+x mod p^14=1429227 m=10 D=1 D'=3 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.1133 C2 ratio=1.0000 const=True
+x mod p^14=3738375 m=10 D=1 D'=3 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.1133 C2 ratio=1.0000 const=True
+x mod p^13=197244 m=9 D=1 D'=3 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.0805 C2 ratio=1.0000 const=True
+# summary: {'tested': 20, 'skip_hyp': 905, 'skip_empty': 3101, 'skip_big': 0, 'single': 20, 'M_ok': 20, 'B_ok': 20, 'B_eq': 20, 'C2_ok': 20, 'C2_eq': 20, 'N_ok': 20, 'const_ok': 20} max C2 ratio over |P|>1: 0.0000
+### exit 0 wall 7 s
+### command: python3 -I code/round3/referee_logic/c2_test.py 3 52 20 24 5 5 20000 1
+# c2_test p=3 seed=52 samples=20 n=24 N=29 N'=34 PREC=102
+# summary: {'tested': 0, 'skip_hyp': 359, 'skip_empty': 7641, 'skip_big': 0, 'single': 0, 'M_ok': 0, 'B_ok': 0, 'B_eq': 0, 'C2_ok': 0, 'C2_eq': 0, 'N_ok': 0, 'const_ok': 0} max C2 ratio over |P|>1: 0.0000
+### exit 0 wall 32 s
+### command: python3 -I code/round3/referee_logic/c2_test.py 3 53 10 24 6 6 60000 0
+# c2_test p=3 seed=53 samples=10 n=24 N=30 N'=36 PREC=108
+x mod p^17=67833948 m=12 D=2 D'=3 M_N'=3 Z0_n=31 chi2=0.0459 eps=0.05439 C2 ratio=0.0205 const=True
+x mod p^17=23422770 m=10 D=4 D'=3 M_N'=3 Z0_n=184 chi2=4.142 eps=0.264 C2 ratio=0.0048 const=True
+x mod p^17=4761675 m=11 D=3 D'=3 M_N'=3 Z0_n=25 chi2=0.7139 eps=0.06905 C2 ratio=0.0683 const=True
+x mod p^17=52151157 m=11 D=3 D'=3 M_N'=3 Z0_n=43 chi2=0.7139 eps=0.07895 C2 ratio=0.0154 const=True
+x mod p^17=85017546 m=10 D=4 D'=3 M_N'=3 Z0_n=138 chi2=4.142 eps=0.1216 C2 ratio=0.0081 const=True
+x mod p^17=2070207 m=11 D=3 D'=3 M_N'=3 Z0_n=12 chi2=0.7139 eps=0.06905 C2 ratio=0.1181 const=True
+x mod p^18=170887140 m=12 D=3 D'=3 M_N'=4 Z0_n=18 chi2=0.7139 eps=0.09564 C2 ratio=0.0717 const=True
+x mod p^17=73714575 m=12 D=2 D'=3 M_N'=3 Z0_n=10 chi2=0.0459 eps=0.04216 C2 ratio=0.1300 const=True
+x mod p^19=611341743 m=13 D=2 D'=4 M_N'=4 Z0_n=13 chi2=0.0459 eps=0.2052 C2 ratio=0.0814 const=True
+x mod p^17=36089397 m=11 D=3 D'=3 M_N'=3 Z0_n=16 chi2=0.7139 eps=0.06905 C2 ratio=0.0417 const=True
+# summary: {'tested': 10, 'skip_hyp': 11, 'skip_empty': 99, 'skip_big': 0, 'single': 0, 'M_ok': 10, 'B_ok': 10, 'B_eq': 0, 'C2_ok': 10, 'C2_eq': 0, 'N_ok': 10, 'const_ok': 10} max C2 ratio over |P|>1: 0.1300
+### exit 0 wall 137 s

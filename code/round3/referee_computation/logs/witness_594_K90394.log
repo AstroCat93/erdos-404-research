@@ -1,0 +1,10 @@
+# cmd: nice -n 10 python3 -I code/round3/referee_computation/verify_witness_bsplit.py data/round3/R3N/witness_594_K90394.txt.gz 594 90394
+file: data/round3/R3N/witness_594_K90394.txt.gz
+header: # witness for f(594,2) >= 90394 : the set A (one n per line), |A| = 44801
+terms: 44801  min: 594  max: 90397
+strictly increasing: True
+v_2(sum n!) = 90394  (claimed K = 90394 )
+control (drop last): v_2 = 90389
+control (drop 2nd): v_2 = 590
+time 1.2s
+RESULT PASS

@@ -1,0 +1,31 @@
+# cmd: nice -n 10 python3 -I code/round3/referee_computation/gate_shells.py
+Part 1: rho_d of a single gate block (claimed values: R3F Theorem A5 table, rounded up in the 4th decimal)
+ p=7 sigma=[1, -6, 30, -120, 360, -720, 720]
+  d=1  S_d(float64)=0.203125 rho=0.7988243  | S_d(mpmath)=0.203125 rho=0.798824299339  claimed<=0.7989 consistent
+  d=2  S_d(float64)=1.11692863497 rho=0.6275022  | S_d(mpmath)=1.11692863497354 rho=0.627502230677  claimed<=0.6276 consistent
+  d=3  S_d(float64)=14.6179274064 rho=1.1732150  | S_d(mpmath)=14.6179274063679 rho=1.17321500716  claimed<=1.1733 consistent
+  d=4  S_d(float64)=102.567569078 rho=1.1759905  | S_d(mpmath)=102.567569077682 rho=1.1759905486  claimed<=1.1760 consistent
+  d=5  S_d(float64)=714.197536389 rho=1.1698066  | S_d(mpmath)=714.197536388996 rho=1.16980662487  claimed<=1.1699 consistent
+  d=6  S_d(float64)=5002.08296311 rho=1.1704384  | S_d(mpmath)=5002.08296311101 rho=1.1704384472  claimed<=1.1705 consistent
+  d=7  S_d(float64)=35014.716847 rho=1.1704430  claimed<=1.1705 consistent
+  d=8  S_d(float64)=245103.017667 rho=1.1704430  claimed<=1.1705 consistent
+ p=13 sigma=[1, -12, 132, -1320, 11880, -95040, 665280, -3991680, 19958400, -79833600, 239500800, -479001600, 479001600]
+  d=1  S_d(float64)=0.00779521409915 rho=0.2302530  | S_d(mpmath)=0.00779521409915467 rho=0.230252950025  claimed<=0.2303 consistent
+  d=2  S_d(float64)=0.496094796892 rho=1.1271935  | S_d(mpmath)=0.496094796892467 rho=1.12719349851  claimed<=1.1272 consistent
+  d=3  S_d(float64)=5.81086941548 rho=1.0156208  | S_d(mpmath)=5.81086941548264 rho=1.01562075308  claimed<=1.0157 consistent
+  d=4  S_d(float64)=89.7287668156 rho=1.2063652  | S_d(mpmath)=89.7287668156242 rho=1.20636519135  claimed<=1.2064 consistent
+  d=5  S_d(float64)=1131.57392941 rho=1.1702716  claimed<=1.1703 consistent
+  d=6  S_d(float64)=14742.90177 rho=1.1728524  claimed<=1.1729 consistent
+Part 2: Lemma A1 spot check (actual gate blocks, shells at d <= t equal sigma's)
+  p=7 t=6 K' in (1, 3, 5, 12): y_i = sigma_i mod p^d for all d<=t; max relative shell difference 0.00e+00
+  p=13 t=4 K' in (1, 2, 7): y_i = sigma_i mod p^d for all d<=t; max relative shell difference 0.00e+00
+Part 3: Theorem A2
+  p=7 R_p=1957 (floor(e(p-1)!)=1957): nonzero relations [(0, 0, 0, 0, 0, -1, -1), (0, 0, 0, 0, 0, 1, 1)] ; sum 2^z / 2^p = 1.5
+  p=11 R_p=9864101 (floor(e(p-1)!)=9864101): nonzero relations [(0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1), (0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1)] ; sum 2^z / 2^p = 1.5
+  p=13 R_p=1302061345 (floor(e(p-1)!)=1302061345): nonzero relations [(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1), (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1)] ; sum 2^z / 2^p = 1.5
+  p=7 d=4 (p^(d-1)=343 <= R_p=1957): Q_d/(N_d 2^-p) = 1.497395833333  (claim 3/2 iff p^(d-1) > R_p)
+  p=7 d=5 (p^(d-1)=2401 > R_p=1957): Q_d/(N_d 2^-p) = 1.500000000000  (claim 3/2 iff p^(d-1) > R_p)
+  p=7 d=6 (p^(d-1)=16807 > R_p=1957): Q_d/(N_d 2^-p) = 1.500000000000  (claim 3/2 iff p^(d-1) > R_p)
+  p=7 d=7 (p^(d-1)=117649 > R_p=1957): Q_d/(N_d 2^-p) = 1.500000000000  (claim 3/2 iff p^(d-1) > R_p)
+  p=11 d=8 (p^(d-1)=19487171 > R_p=9864101): Q_d/(N_d 2^-p) = 1.500000000000  (claim 3/2 iff p^(d-1) > R_p)
+time 71.9s

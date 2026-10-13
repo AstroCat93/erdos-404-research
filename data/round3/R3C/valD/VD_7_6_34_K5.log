@@ -1,0 +1,8 @@
+# command: /tmp/r3_R3C/bin/covfast 7 6 34 2 pos 5
+# cwd: /home/user/erdos-404-research  host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz
+# start: 2026-10-13 18:40:44 UTC
+# covfast(D) p=7 t=6 H=34 c=4 M=10 k=2 Q=282475249 F=5764801 bits (0 MB x2) LISTMAX=16777216 ZMAX=4194304
+D p=7 t=6 H=34 c=4 M=10 k=2 K=5 Kmodpc=5 missing=0 COVERED [3.20s]
+SUMMARY D p=7 t=6 H=34 c=4 M=10 k=2 mode=pos nK=1 fail=0 worst_missing=0 ALL_COVERED total=3.2s
+# wall=3.209 s user=2.953 s sys=0.075 s
+# end: 2026-10-13 18:40:47 UTC

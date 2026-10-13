@@ -1,0 +1,3 @@
+# cmd: nice -n 10 python3 -I code/round3/referee_computation/propB_check.py
+configurations found: []
+RESULT PASS

@@ -1,0 +1,10 @@
+# negative control: positions K'' = 1..27 only (K'' = 28 omitted) -> partial, N = 29^7 * 28
+29 8
+require A,D
+uniform 1 7
+uniform 2 13
+uniform 3 19
+uniform 4 24
+uniform 5 29
+uniform 6 40
+pos 7 45 1 27
