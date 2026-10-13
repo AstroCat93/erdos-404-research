@@ -1,0 +1,9 @@
+# command: /tmp/claude-0/-home-user-erdos-404-research/64513d2d-9023-5297-8d1a-eefeb2df66c3/scratchpad/chkR3C_bin/fibcov 29 7 45 1 pos 4
+# binary sha256: 4b551a73f8e7a721  /tmp/claude-0/-home-user-erdos-404-research/64513d2d-9023-5297-8d1a-eefeb2df66c3/scratchpad/chkR3C_bin/fibcov
+# host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz  vmem cap (KB): 4700000
+# start: 2026-10-13 19:17:47 UTC
+# fibcov(A) p=29 t=7 H=45 c=1 M=8 k=1  Q=500246412961 fibre=17249876309 bits (2056 MB x2)
+A p=29 t=7 H=45 c=1 M=8 K=4 missing=0 COVERED [500.87s]
+SUMMARY A p=29 t=7 H=45 c=1 M=8 k=1 mode=pos nK=1 fail=0 worst_missing=0 ALL_COVERED total=500.9s
+# exit status: 0
+# end: 2026-10-13 19:26:08 UTC

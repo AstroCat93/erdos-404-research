@@ -1,0 +1,71 @@
+# chain checkers re-run by the R3C check, 2026-10-13 19:37:28 UTC, R3C_LOGS=data/round3/R3C:data/round3/R3C/p29_t7
+### chain_r3.py spec p29_AD
+CHAIN OK: no first failure below 29^8; f(1,29) >= v_29((29^8-1)!) = 17865943312
+### chain_r3.py spec p29_AC_AD
+CHAIN OK: no first failure below 29^8; f(1,29) >= v_29((29^8-1)!) = 17865943312
+### chain_r3.py spec p29_ACD_D7
+CHAIN OK: no first failure below 29^7; f(1,29) >= v_29((29^7-1)!) = 616067004
+### chain_r3.py spec p31_AC_D7
+CHAIN OK: no first failure below 31^7; f(1,31) >= v_31((31^7-1)!) = 917087130
+### chain_r3.py spec neg_p29_H44
+positions depth 7 H=44 K''=1..28 (28): certified by all of ['A', 'D']: 0  NOT certified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] ...
+depth 7: first non-excluded position K''=1 (N=29^7*1)
+CHAIN PARTIAL: no first failure below N=17249876309; f(1,29) >= v_29((N-1)!) = 616067004
+### chain_r3.py spec neg_p29_K27
+depth 7: first non-excluded position K''=28 (N=29^7*28)
+CHAIN PARTIAL: no first failure below N=482996536652; f(1,29) >= v_29((N-1)!) = 17249876301
+### chain_r3.py spec neg_p29_C_pos
+positions depth 7 H=45 K''=1..28 (28): certified by all of ['A', 'C']: 0  NOT certified: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20] ...
+depth 7: first non-excluded position K''=1 (N=29^7*1)
+CHAIN PARTIAL: no first failure below N=17249876309; f(1,29) >= v_29((N-1)!) = 616067004
+### chain_r3.py spec neg_p29_t6_H39
+uniform Cov(29,6,39) c=1: A=False D=False  H+1<p^t=True
+depth 6: first non-excluded position K''=1 (N=29^6*1)
+CHAIN PARTIAL: no first failure below N=594823321; f(1,29) >= v_29((N-1)!) = 21243684
+### chain_r3.py spec neg_p31_D8
+depth 7: first non-excluded position K''=1 (N=31^7*1)
+CHAIN PARTIAL: no first failure below N=27512614111; f(1,31) >= v_31((N-1)!) = 917087130
+### chain_c_r3.py A 29 8
+[A] p=29 D=8: CHAIN OK  f(1,p) >= 17865943312 []
+### chain_c_r3.py A 29 7
+[A] p=29 D=7: CHAIN OK  f(1,p) >= 616067004 []
+### chain_c_r3.py A 31 7
+[A] p=31 D=7: CHAIN OK  f(1,p) >= 917087130 []
+### chain_c_r3.py C 29 8
+[C] p=29 D=8: INCOMPLETE ['pos t=7 K=1', 'pos t=7 K=2', 'pos t=7 K=3', 'pos t=7 K=4', 'pos t=7 K=5', 'pos t=7 K=6', 'pos t=7 K=7', 'pos t=7 K=8'] ...
+### chain_c_r3.py C 29 7
+[C] p=29 D=7: CHAIN OK  f(1,p) >= 616067004 []
+### chain_c_r3.py C 31 7
+[C] p=31 D=7: CHAIN OK  f(1,p) >= 917087130 []
+### chain_c_r3.py D 29 8
+[D] p=29 D=8: CHAIN OK  f(1,p) >= 17865943312 []
+### chain_c_r3.py D 29 7
+[D] p=29 D=7: CHAIN OK  f(1,p) >= 616067004 []
+### chain_c_r3.py D 31 7
+[D] p=31 D=7: INCOMPLETE ['uniform t=1 H=7 missing', 'uniform t=2 H=14 missing', 'uniform t=3 H=19 missing', 'uniform t=4 H=25 missing', 'uniform t=5 H=30 missing', 'uniform t=6 H=41 missing']
+### extra control: chain_c_r3.py A 29 8 with depth-7 H=44 (the H44 directory added)
+[A] p=29 D=8: INCOMPLETE ['pos t=7 K=1', 'pos t=7 K=2', 'pos t=7 K=3', 'pos t=7 K=4', 'pos t=7 K=5', 'pos t=7 K=6', 'pos t=7 K=7', 'pos t=7 K=8'] ...
+### extra control: chain_r3.py on a copy of the logs with ONE depth-7 D log (K''=17) removed
+positions depth 7 H=45 K''=1..28 (28): certified by all of ['A', 'D']: 27  NOT certified: [17]
+depth 7: first non-excluded position K''=17 (N=29^7*17)
+CHAIN PARTIAL: no first failure below N=293247897253; f(1,29) >= v_29((N-1)!) = 10473139180
+[D] p=29 D=8: INCOMPLETE ['pos t=7 K=17']
+### extra control: the same with K''=17's D line edited to missing=1 NOT_COVERED
+positions depth 7 H=45 K''=1..28 (28): certified by all of ['A', 'D']: 27  NOT certified: [17]
+depth 7: first non-excluded position K''=17 (N=29^7*17)
+CHAIN PARTIAL: no first failure below N=293247897253; f(1,29) >= v_29((N-1)!) = 10473139180
+[D] p=29 D=8: INCOMPLETE ['pos t=7 K=17']
+### chain_c_r3.py on the round-2 program-C logs (must reproduce data/round2/review/computation/chain_c.out)
+[C] p=7 D=9: CHAIN OK  f(1,p) >= 6725592 []
+[C] p=11 D=9: CHAIN OK  f(1,p) >= 235794760 []
+[C] p=13 D=9: CHAIN OK  f(1,p) >= 883708272 []
+[C] p=17 D=9: CHAIN OK  f(1,p) >= 7411742272 []
+[C] p=19 D=8: CHAIN OK  f(1,p) >= 943531272 []
+[C] p=23 D=8: CHAIN OK  f(1,p) >= 3559590232 []
+### data/round2/review/computation/chain_c.out (for comparison)
+p=7 D=9: CHAIN OK  f(1,p) >= 6725592 []
+p=11 D=9: CHAIN OK  f(1,p) >= 235794760 []
+p=13 D=9: CHAIN OK  f(1,p) >= 883708272 []
+p=17 D=9: CHAIN OK  f(1,p) >= 7411742272 []
+p=19 D=8: CHAIN OK  f(1,p) >= 943531272 []
+p=23 D=8: CHAIN OK  f(1,p) >= 3559590232 []

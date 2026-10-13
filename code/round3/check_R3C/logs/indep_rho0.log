@@ -1,0 +1,7 @@
+# command: python3 code/round3/check_R3C/indep.py rho0
+# host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz  vmem cap (KB): 0
+# start: 2026-10-13 19:37:29 UTC
+{3: 1, 5: 2, 7: 3, 11: 4, 13: 5, 17: 4, 19: 4, 23: 6, 29: 6, 31: 6} {7: 2, 11: 2, 13: 2, 17: 3, 19: 3, 23: 4, 29: 5, 31: 5}
+# wall=0.493 s user=0.449 s sys=0.158 s
+# exit status: 0
+# end: 2026-10-13 19:37:29 UTC

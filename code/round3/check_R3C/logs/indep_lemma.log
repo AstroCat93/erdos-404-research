@@ -1,0 +1,13 @@
+# command: python3 code/round3/check_R3C/indep.py lemma
+# host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz  vmem cap (KB): 0
+# start: 2026-10-13 19:41:27 UTC
+p=7: rho0=3 L_p=2 done
+p=11: rho0=4 L_p=2 done
+p=13: rho0=5 L_p=2 done
+p=17: rho0=4 L_p=3 done
+p=19: rho0=4 L_p=3 done
+p=23: rho0=6 L_p=4 done
+lemma: 172 triples (p,t,H); prediction of Lemma R3C.1 matched, class-independently, in 172; in range and all classes covered: 126; below range and NO class covered: 46
+# wall=14.959 s user=9.990 s sys=4.497 s
+# exit status: 0
+# end: 2026-10-13 19:41:42 UTC

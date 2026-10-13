@@ -1,0 +1,221 @@
+# simcheck.py: code overlap between programs A, B, C, D (comments and preprocessor lines removed)
+#   A = code/round2/R3/src/fibcov.c: 160 non-empty code lines
+#   B = code/round2/R3/src/fibcov2.c: 217 non-empty code lines
+#   C = code/round2/review/computation/covchk.c: 152 non-empty code lines
+#   D = code/round3/R3C/covfast.c: 235 non-empty code lines
+
+pair | exact lines >=20 chars | renamed lines >=8 tokens | 10-gram containment X in Y, Y in X | shared runs >=25 tokens
+A-B | 2 | 15 | 0.187, 0.149 | 12 (longest 42 tokens)
+A-C | 2 | 19 | 0.298, 0.327 | 20 (longest 67 tokens)
+A-D | 5 | 20 | 0.299, 0.217 | 20 (longest 69 tokens)
+B-C | 0 | 15 | 0.163, 0.226 | 16 (longest 40 tokens)
+B-D | 3 | 6 | 0.141, 0.128 | 13 (longest 91 tokens)
+C-D | 2 | 19 | 0.261, 0.173 | 15 (longest 70 tokens)
+
+## A-D: renamed-line matches (20)
+  A: (unsigned long long)P, T, Hh, C, M, KL, mode, nK, nfail, (unsigned long long)worst,
+  D: (unsigned long long)P, T, H, C, M, KF, mode, nK, nbad, (unsigned long long)worst,
+  A: Q = ipow(P, M); PK = ipow(P, KL); F = Q / PK;
+  D: Q = powu(P, M); PK = powu(P, KF); F = Q / PK;
+  A: P = strtoull(argv[1], 0, 10); T = atoi(argv[2]); Hh = atoi(argv[3]); KL = atoi(argv[4]);
+  D: P = strtoull(argv[1], 0, 10); T = atoi(argv[2]); H = atoi(argv[3]); KF = atoi(argv[4]);
+  A: nfail ? "SOME_NOT_COVERED" : "ALL_COVERED", now() - t0);
+  D: nbad ? "SOME_NOT_COVERED" : "ALL_COVERED", wall() - t0);
+  A: const char *mode = argv[5];
+  D: const char *mode = argv[5];
+  A: for (int i = 1; i < Hh; i++) {
+  D: for (int i = 0; i < e; i++) {
+  A: for (size_t q = 0; q < s2n; q++) bst[S2raw[q] % PK + 1]++;
+  D: for (size_t a = 0; a < NS; a++) start[sums[a] % PK + 1]++;
+  A: for (size_t q1 = 0; q1 < s1n; q1++) {
+  D: for (size_t q = 0; q < nK; q++) {
+  A: if (miss) { nfail++; if (miss > worst) worst = miss; if (stop) break; }
+  D: if (miss) { nbad++; if (miss > worst) worst = miss; if (stop) break; }
+  A: if (KL < 0 || KL > M) { fprintf(stderr, "bad k\n"); return 1; }
+  D: if (KF < 0 || KF > M) { fprintf(stderr, "bad k\n"); return 1; }
+  A: if (w == 0) continue;
+  D: if (w == 0) continue;
+  A: int nL = 0, nU = 0;
+  D: int nl = 0, nu = 0;
+  A: int nsplit = argc > 6 ? atoi(argv[6]) : 1, split = argc > 7 ? atoi(argv[7]) : 0;
+  D: int nsplit = argc > 7 ? atoi(argv[7]) : 1, split = argc > 8 ? atoi(argv[8]) : 0;
+  A: int main(int argc, char **argv) {
+  D: int main(int argc, char **argv) {
+  A: size_t *bst = calloc(PK + 1, sizeof(size_t));
+  D: size_t *start = calloc(PK + 1, sizeof(size_t));
+  A: size_t *fill = malloc(sizeof(size_t) * PK); memcpy(fill, bst, sizeof(size_t) * PK);
+  D: size_t *fill = malloc(sizeof(size_t) * PK); memcpy(fill, start, sizeof(size_t) * PK);
+  A: static double now(void) { struct timespec ts; clock_gettime(CLOCK_MONOTONIC, &ts); return ts.tv_sec + 1e-9 * ts.tv_nsec; }
+  D: static double wall(void) { struct timespec ts; clock_gettime(CLOCK_MONOTONIC, &ts); return ts.tv_sec + 1e-9 * ts.tv_nsec; }
+  A: static int T, Hh, C, M, KL;
+  D: static int T, H, C, M, KF;
+  A: unsigned o = (unsigned)(pos0 & 63);
+  D: unsigned f = (unsigned)(F & 63);
+  A: } else { fprintf(stderr, "bad mode\n"); return 1; }
+  D: } else { fprintf(stderr, "bad mode\n"); return 1; }
+## A-D: shared token runs of >= 25 tokens (20), as normalised text of A
+  [25 tokens] ID , ID , ID , ID ; static int ID , ID , ID , ID , ID ; static size_t ID ; static
+  [37 tokens] ID ; static double ID ( void ) { struct timespec ID ; clock_gettime ( CLOCK_MONOTONIC , & ID ) ; return ID . tv_sec + NUM ID - NUM * ID . tv_nsec ; } static
+  [30 tokens] ID ) { int ID = NUM ; while ( ID ) { ID /= ID ; ID += ( int ) ID ; } return ID ; } static
+  [47 tokens] ID [ NUM ] = NUM ; for ( int ID = NUM ; ID < ID ; ID ++ ) { size_t ID = ( size_t ) NUM << ID ; for ( size_t ID = NUM ; ID < ID ; ID ++ ) {
+  [33 tokens] ID = ID [ ID ] + ID [ ID ] ; if ( ID >= ID ) ID -= ID ; ID [ ID + ID ] = ID ; } }
+  [47 tokens] ID [ NUM ] = NUM ; for ( int ID = NUM ; ID < ID ; ID ++ ) { size_t ID = ( size_t ) NUM << ID ; for ( size_t ID = NUM ; ID < ID ; ID ++ ) {
+  [69 tokens] ID ] ; if ( ID >= ID ) ID -= ID ; ID [ ID + ID ] = ID ; } } size_t * ID = calloc ( ID + NUM , sizeof ( size_t ) ) ; for ( size_t ID = NUM ; ID < ID ; ID ++ ) ID [ ID [ ID ] % ID + NUM ] ++ ; for (
+  [42 tokens] size_t * ID = malloc ( sizeof ( size_t ) * ID ) ; memcpy ( ID , ID , sizeof ( size_t ) * ID ) ; for ( size_t ID = NUM ; ID < ID ; ID ++ )
+  [31 tokens] } free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ;
+  [30 tokens] ID ) ; return ID ; } int main ( int argc , char * * argv ) { if ( argc < NUM ) { fprintf ( stderr ,
+  [60 tokens] ) ; return NUM ; } ID = strtoull ( argv [ NUM ] , NUM , NUM ) ; ID = atoi ( argv [ NUM ] ) ; ID = atoi ( argv [ NUM ] ) ; ID = atoi ( argv [ NUM ] ) ; const char * ID = argv [ NUM ] ;
+  [57 tokens] ) ; ID = ID + ID ; if ( ID < NUM || ID > ID ) { fprintf ( stderr , "bad k\n" ) ; return NUM ; } ID = ID ( ID , ID ) ; ID = ID ( ID , ID ) ; ID = ID / ID ; if ( (
+  [32 tokens] , ( unsigned long long ) ID , ID , ID , ID , ID , ID , ( unsigned long long ) ID , ( unsigned long long ) ID ,
+  [63 tokens] * ID = NULL ; size_t ID = NUM , ID = NUM ; if ( ! strcmp ( ID , "pos" ) ) { for ( int ID = NUM ; ID < argc ; ID ++ ) ID ( strtoull ( argv [ ID ] , NUM , NUM ) ) ; } else if ( ! strcmp ( ID ,
+  [33 tokens] int ID = argc > NUM ? atoi ( argv [ NUM ] ) : NUM , ID = argc > NUM ? atoi ( argv [ NUM ] ) : NUM ;
+  [30 tokens] ID = ID ( ID , ID ) ; size_t ID = NUM ; if ( ID == NUM ) { if ( ID == NUM ) ID ( NUM
+  [39 tokens] ID = NUM ; ID < ID ; ID ++ ) { if ( ID % ID == NUM ) continue ; if ( ( int ) ( ID ++ % ID ) == ID ) ID ( ID
+  [26 tokens] ID = NUM ; double ID = ID ( ) ; for ( size_t ID = NUM ; ID < ID ; ID ++ ) {
+  [54 tokens] , ( unsigned long long ) ID , ID ? "NOT_COVERED" : "COVERED" , ID ( ) - ID ) ; fflush ( stdout ) ; if ( ID ) { ID ++ ; if ( ID > ID ) ID = ID ; if ( ID ) break ; } } printf (
+  [45 tokens] , ( unsigned long long ) ID , ID , ID , ID , ID , ID , ID , ID , ID , ( unsigned long long ) ID , ID ? "SOME_NOT_COVERED" : "ALL_COVERED" , ID ( ) - ID ) ; return
+
+## C-D: renamed-line matches (19)
+  C: Q = pw(p,M); PK = pw(p,k); F = Q/PK;
+  D: Q = powu(P, M); PK = powu(P, KF); F = Q / PK;
+  C: p = strtoull(argv[1],0,10); t=atoi(argv[2]); H=atoi(argv[3]); k=atoi(argv[4]);
+  D: P = strtoull(argv[1], 0, 10); T = atoi(argv[2]); H = atoi(argv[3]); KF = atoi(argv[4]);
+  C: const char *mode = argv[5];
+  D: const char *mode = argv[5];
+  C: for(int i=1;i<H;i++){
+  D: for (int i = 0; i < e; i++) {
+  C: for(size_t m=0;m<N2;m++) start[raw[m]%PK + 1]++;
+  D: for (size_t a = 0; a < NS; a++) start[sums[a] % PK + 1]++;
+  C: for(size_t m=0;m<N2;m++){
+  D: for (size_t q = 0; q < nK; q++) {
+  C: for(u64 r=0;r<PK;r++) start[r+1]+=start[r];
+  D: for (u64 r = 0; r < PK; r++) start[r + 1] += start[r];
+  C: for(u64 r=0;r<PK;r++){
+  D: for (u64 j = 0; j < NW; j++) {
+  C: int main(int argc, char **argv){
+  D: int main(int argc, char **argv) {
+  C: size_t *start = calloc(PK+1, sizeof(size_t));
+  D: size_t *start = calloc(PK + 1, sizeof(size_t));
+  C: static int legendre(u64 n){ int s=0; while(n){ n/=p; s+=(int)n; } return s; }
+  D: static int legendre_u(u64 n) { int e = 0; while (n) { n /= P; e += (int)n; } return e; }
+  C: static int t, H, c, M, k;
+  D: static int T, H, C, M, KF;
+  C: static u64 *bufA, *bufB;
+  D: static u64 *bx, *by;
+  C: static u64 p, Q, PK, F;
+  D: static u64 P, Q, PK, F;
+  C: u64 *X = bufA, *Y = bufB;
+  D: u64 *cur = bx, *nxt = by;
+  C: u64 *T=X; X=Y; Y=T;
+  D: u64 *tmp = cur; cur = nxt; nxt = tmp;
+  C: u64 cnt = popc(X);
+  D: u64 miss = check(K);
+  C: u64 s1 = outer[q];
+  D: u64 K = Ks[q];
+  C: u64 lift = strtoull(argv[6],0,10);
+  D: u64 lift = strtoull(argv[6], 0, 10);
+## C-D: shared token runs of >= 25 tokens (15), as normalised text of C
+  [32 tokens] typedef uint64_t u64 ; static u64 ID , ID , ID , ID ; static int ID , ID , ID , ID , ID ; static size_t ID ; static u64
+  [26 tokens] ID ; static double ID ( void ) { struct timespec ID ; clock_gettime ( CLOCK_MONOTONIC , & ID ) ; return ID . tv_sec +
+  [37 tokens] ; } static int ID ( u64 ID ) { int ID = NUM ; while ( ID ) { ID /= ID ; ID += ( int ) ID ; } return ID ; } static
+  [35 tokens] u64 ID ( u64 ID , int ID ) { u64 ID = NUM ; for ( int ID = NUM ; ID < ID ; ID ++ ) { if ( ID > (
+  [28 tokens] * ID ) ; int ID = NUM , ID = NUM ; for ( int ID = NUM ; ID < ID ; ID ++ ) {
+  [70 tokens] } size_t * ID = calloc ( ID + NUM , sizeof ( size_t ) ) ; for ( size_t ID = NUM ; ID < ID ; ID ++ ) ID [ ID [ ID ] % ID + NUM ] ++ ; for ( u64 ID = NUM ; ID < ID ; ID ++ ) ID [ ID + NUM ] += ID [ ID ] ;
+  [25 tokens] ) ; for ( size_t ID = NUM ; ID < ID ; ID ++ ) { u64 ID = ID [ ID ] ;
+  [31 tokens] } free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ;
+  [30 tokens] ID ) ; return ID ; } int main ( int argc , char * * argv ) { if ( argc < NUM ) { fprintf ( stderr ,
+  [60 tokens] ) ; return NUM ; } ID = strtoull ( argv [ NUM ] , NUM , NUM ) ; ID = atoi ( argv [ NUM ] ) ; ID = atoi ( argv [ NUM ] ) ; ID = atoi ( argv [ NUM ] ) ; const char * ID = argv [ NUM ] ;
+  [30 tokens] ) ; return NUM ; } ID = ID ( ID , ID ) ; ID = ID ( ID , ID ) ; ID = ID / ID ;
+  [27 tokens] ; if ( ! strcmp ( ID , "pos" ) ) { for ( int ID = NUM ; ID < argc ; ID ++ ) ID
+  [25 tokens] , ( unsigned long long ) ID , ID , ID , ID , ID , ID , ( unsigned long long ) ID ,
+  [26 tokens] ID = NUM ; double ID = ID ( ) ; for ( size_t ID = NUM ; ID < ID ; ID ++ ) {
+  [26 tokens] : "COVERED" , ID ( ) - ID ) ; fflush ( stdout ) ; if ( ID ) { ID ++ ; if ( ID
+
+## B-D: renamed-line matches (6)
+  B: for (int j = 0; j < nsp; j++) {
+  D: for (int i = 0; i < e; i++) {
+  B: for (size_t q = 0; q < N1; q++) b1[s1[q] % pk1 + 1]++;
+  D: for (size_t a = 0; a < NS; a++) start[sums[a] % PK + 1]++;
+  B: for (size_t g = 1; g < N; g++) {
+  D: for (size_t q = 0; q < nK; q++) {
+  B: free(lst); free(cnt); free(e); free(lo); free(hi); free(vlo);
+  D: free(srt); free(start); free(lo); free(uw); free(y); free(v);
+  B: int main(int argc, char **argv) {
+  D: int main(int argc, char **argv) {
+  B: size_t nsum = (size_t)1 << nlo;
+  D: size_t NS = (size_t)1 << nl;
+## B-D: shared token runs of >= 25 tokens (13), as normalised text of B
+  [30 tokens] ID ) { int ID = NUM ; while ( ID ) { ID /= ID ; ID += ( int ) ID ; } return ID ; } static
+  [35 tokens] * ID ) { unsigned ID = ( unsigned ) ( ID & NUM ) ; if ( ID ) ID [ ID - NUM ] &= ( NUM << ID ) - NUM ;
+  [40 tokens] ID = ID [ ID ] + ID ; if ( ID >= ID ) ID -= ID ; ID [ ID + ID ] = ID ; } ID *= NUM ; } memset ( ID , NUM ,
+  [32 tokens] ) ; int ID = NUM , ID = NUM ; for ( int ID = NUM ; ID < ID ; ID ++ ) { if ( ID [ ID ]
+  [31 tokens] ) ; for ( size_t ID = NUM ; ID < ID ; ID ++ ) ID [ ID [ ID ] % ID + NUM ] ++ ; for (
+  [91 tokens] ID = NUM ; ID < ID ; ID ++ ) ID [ ID + NUM ] += ID [ ID ] ; { size_t * ID = malloc ( sizeof ( size_t ) * ID ) ; memcpy ( ID , ID , sizeof ( size_t ) * ID ) ; for ( size_t ID = NUM ; ID < ID ; ID ++ ) ID [ ID [ ID [ ID ] % ID ] ++ ] = ID [ ID ] ; free ( ID ) ; }
+  [70 tokens] ID = NUM ; ID < ID ; ID ++ ) ID [ ID + NUM ] += ID [ ID ] ; { size_t * ID = malloc ( sizeof ( size_t ) * ID ) ; memcpy ( ID , ID , sizeof ( size_t ) * ID ) ; for ( size_t ID = NUM ; ID < ID ; ID ++ ) ID [ ID [
+  [32 tokens] ; } free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ;
+  [40 tokens] ID = ID [ ID ] + ID ; if ( ID >= ID ) ID -= ID ; ID [ ID + ID ] = ID ; } ID *= NUM ; } memset ( ID , NUM ,
+  [31 tokens] } free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ;
+  [30 tokens] ID ) ; return ID ; } int main ( int argc , char * * argv ) { if ( argc < NUM ) { fprintf ( stderr ,
+  [26 tokens] ID = NUM ; double ID = ID ( ) ; for ( size_t ID = NUM ; ID < ID ; ID ++ ) {
+  [31 tokens] , ID ( ) - ID ) ; fflush ( stdout ) ; if ( ID ) { ID ++ ; if ( ID > ID ) ID = ID ;
+
+## A-C: renamed-line matches (19)
+  A: Q = ipow(P, M); PK = ipow(P, KL); F = Q / PK;
+  C: Q = pw(p,M); PK = pw(p,k); F = Q/PK;
+  A: P = strtoull(argv[1], 0, 10); T = atoi(argv[2]); Hh = atoi(argv[3]); KL = atoi(argv[4]);
+  C: p = strtoull(argv[1],0,10); t=atoi(argv[2]); H=atoi(argv[3]); k=atoi(argv[4]);
+  A: out[NW - 1] &= lastmask;
+  C: X[NW-1] &= tailmask;
+  A: A[z >> 6] |= 1ULL << (z & 63);
+  C: X[u>>6] |= 1ULL<<(u&63);
+  A: y[0] = 1 % Q;
+  C: z[0] = 1%Q;
+  A: const char *mode = argv[5];
+  C: const char *mode = argv[5];
+  A: for (int i = 1; i < Hh; i++) {
+  C: for(int i=1;i<H;i++){
+  A: for (size_t q2 = bst[b]; q2 < bst[b + 1]; q2++) {
+  C: for(size_t j=start[need]; j<start[need+1]; j++){
+  A: for (size_t q = 0; q < s2n; q++) bst[S2raw[q] % PK + 1]++;
+  C: for(size_t m=0;m<N2;m++) start[raw[m]%PK + 1]++;
+  A: for (size_t q1 = 0; q1 < s1n; q1++) {
+  C: for(size_t m=0;m<N2;m++){
+  A: free(fill); free(S2raw);
+  C: free(raw); free(pos);
+  A: free(S1); free(S2); free(bst); free(y); free(vv); free(Lv); free(Uw);
+  C: free(z); free(v); free(lo); free(hi); free(start); free(bk); free(outer);
+  A: if (!o) return X[w];
+  C: if(!o) return X[w];
+  A: int main(int argc, char **argv) {
+  C: int main(int argc, char **argv){
+  A: return (X[w] >> o) | (X[w + 1] << (64 - o));
+  C: return (X[w]>>o) | (X[w+1]<<(64-o));
+  A: size_t *bst = calloc(PK + 1, sizeof(size_t));
+  C: size_t *start = calloc(PK+1, sizeof(size_t));
+  A: size_t s1n = (size_t)1 << n1, s2n = (size_t)1 << n2;
+  C: size_t N2 = (size_t)1<<n2, N1 = (size_t)1<<n1;
+  A: static int T, Hh, C, M, KL;
+  C: static int t, H, c, M, k;
+  A: while (z % P == 0) { z /= P; v++; }
+  C: while(a%p==0){ a/=p; e++; }
+## A-C: shared token runs of >= 25 tokens (20), as normalised text of A
+  [25 tokens] ID , ID , ID , ID ; static int ID , ID , ID , ID , ID ; static size_t ID ; static
+  [26 tokens] ID ; static double ID ( void ) { struct timespec ID ; clock_gettime ( CLOCK_MONOTONIC , & ID ) ; return ID . tv_sec +
+  [30 tokens] ID ) { int ID = NUM ; while ( ID ) { ID /= ID ; ID += ( int ) ID ; } return ID ; } static
+  [27 tokens] / ID ) { fprintf ( stderr , "overflow\n" ) ; exit ( NUM ) ; } ID *= ID ; } return ID ; } static
+  [43 tokens] ID = ID & NUM ; if ( ! ID ) return ID [ ID ] ; return ( ID [ ID ] >> ID ) | ( ID [ ID + NUM ] << ( NUM - ID ) ) ; }
+  [42 tokens] * ID ) ; int * ID = malloc ( sizeof ( int ) * ID ) ; ID [ NUM ] = NUM % ID ; for ( int ID = NUM ; ID < ID ; ID ++ ) {
+  [35 tokens] , ID ) ; exit ( NUM ) ; } while ( ID % ID == NUM ) { ID /= ID ; ID ++ ; } int ID = ID ( ID - NUM
+  [45 tokens] , ID , ID , ID ) ; exit ( NUM ) ; } ID [ ID ] = ID ; if ( ID < ID ) ID [ ID ++ ] = ID [ ID ] ; else ID [ ID ++ ] =
+  [25 tokens] ID = ID - ID ; size_t ID = ( size_t ) NUM << ID , ID = ( size_t ) NUM << ID ;
+  [46 tokens] } size_t * ID = calloc ( ID + NUM , sizeof ( size_t ) ) ; for ( size_t ID = NUM ; ID < ID ; ID ++ ) ID [ ID [ ID ] % ID + NUM ] ++ ; for (
+  [34 tokens] ID = ID [ ID ] % ID ; ID [ ID [ ID ] ++ ] = ID [ ID ] ; } free ( ID ) ; free ( ID ) ;
+  [37 tokens] ID = ( ID + ID - ID % ID ) % ID ; for ( size_t ID = ID [ ID ] ; ID < ID [ ID + NUM ] ; ID ++ ) {
+  [64 tokens] } } free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ; free ( ID ) ; return ID ; } int main ( int argc , char * * argv ) { if ( argc < NUM ) { fprintf ( stderr ,
+  [67 tokens] ) ; return NUM ; } ID = strtoull ( argv [ NUM ] , NUM , NUM ) ; ID = atoi ( argv [ NUM ] ) ; ID = atoi ( argv [ NUM ] ) ; ID = atoi ( argv [ NUM ] ) ; const char * ID = argv [ NUM ] ; ID = ID ( ID - NUM
+  [30 tokens] ) ; return NUM ; } ID = ID ( ID , ID ) ; ID = ID ( ID , ID ) ; ID = ID / ID ;
+  [37 tokens] ID = ( ID + NUM ) / NUM ; ID = ( ID % NUM ) ? ( ( NUM << ( ID % NUM ) ) - NUM ) : ~ NUM ; ID =
+  [25 tokens] , ( unsigned long long ) ID , ID , ID , ID , ID , ID , ( unsigned long long ) ID ,
+  [27 tokens] ; if ( ! strcmp ( ID , "pos" ) ) { for ( int ID = NUM ; ID < argc ; ID ++ ) ID
+  [26 tokens] ID = NUM ; double ID = ID ( ) ; for ( size_t ID = NUM ; ID < ID ; ID ++ ) {
+  [26 tokens] : "COVERED" , ID ( ) - ID ) ; fflush ( stdout ) ; if ( ID ) { ID ++ ; if ( ID

@@ -20,3 +20,25 @@ control (drop last): v_2 = 90611
 control (drop 2nd): v_2 = 65519
 time 0.3s
 RESULT PASS
+# cmd: nice -n 10 /tmp/r3_ref_computation/rsolve 16382 20215 /tmp/r3_ref_computation/w_16382.txt ; rsolve 16382 20216 ; verify_witness_bsplit.py
+RESULT a=16382 K=20215 NK=20224 reachable=1 nodes=1851614 rebases=31820 fulladds=137973 levels=31 best=20212 time=0.1s
+RESULT a=16382 K=20216 NK=20224 reachable=0 nodes=2987731 rebases=57712 fulladds=237685 levels=31 best=20215 time=0.1s
+UNREACHABLE: f(16382,2) <= 20215; max valuation over all P in [a,N_K) = 20215
+terms: 1903  min: 16382  max: 20222
+strictly increasing: True
+v_2(sum n!) = 20215  (claimed K = 20215 )
+control (drop last): v_2 = 20211
+control (drop 2nd): v_2 = 16369
+time 0.0s
+RESULT PASS
+# cmd: nice -n 10 /tmp/r3_ref_computation/rsolve 32766 37403 /tmp/r3_ref_computation/w_32766.txt ; rsolve 32766 37404 ; verify_witness_bsplit.py
+RESULT a=32766 K=37403 NK=37408 reachable=1 nodes=1330997 rebases=23982 fulladds=99407 levels=37 best=37402 time=0.0s
+RESULT a=32766 K=37404 NK=37408 reachable=0 nodes=2749861 rebases=55640 fulladds=222970 levels=37 best=37403 time=0.1s
+UNREACHABLE: f(32766,2) <= 37403; max valuation over all P in [a,N_K) = 37403
+terms: 2292  min: 32766  max: 37406
+strictly increasing: True
+v_2(sum n!) = 37403  (claimed K = 37403 )
+control (drop last): v_2 = 37399
+control (drop 2nd): v_2 = 32752
+time 0.1s
+RESULT PASS

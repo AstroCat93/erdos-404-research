@@ -8,10 +8,10 @@
 - Revision 1 incorporates the corrections from three AI referee reports (logic, computation, novelty); see §9.
 - **Revision 2 adds the round-2 results of 2026-10-11/12 in §10.** It also updates the summary (§0), the tables of §4 and the conjectures of §5 accordingly, marking each change "[Round 2]".
 - §10 was then checked by a second set of three AI referee reports (logic, computation, novelty; 2026-10-12). They found no fatal or serious mathematical error. They did find two serious problems of credit and attribution, and several minor errors. All of these are corrected in this version; the reports are summarised in §10.8. **No human has refereed any part of §10.**
-- **Revision 3 adds the round-3 results of 2026-10-13 in §11** and updates the summary (§0), §2, §5 and §10 where they are superseded, marking each change "[Round 3]". Each round-3 track was checked by a separate AI instance with its own code, and §11 by a final round of AI referees (§11.8). **No human has refereed any part of §11.**
+- **Revision 3 adds the round-3 results of 2026-10-13 in §11** and updates the summary (§0), §2, §5 and §10 where they are superseded, marking each change "[Round 3]". Each round-3 research track (R3N, R3Q, R3M, R3F, R3C) was checked by a separate AI instance with its own code; the status gate S0 was not, except that its Lemma S0.1 was checked by the round-3 logic referee. §11 was then checked by a final round of three AI referees (§11.8). **No human has refereed any part of §11.**
 
 **Status:** Unrefereed research note. No human referee has checked any part of it. Below, "AI-refereed" means checked by AI referee instances (Claude), not by a person.
-- **Q1:** open in general. *New in revision 2:* at $p=2$, $f(a,2)<\infty$ for all $a$ outside a set of natural density $0$ (Theorem 10.1). This is a complete proof, checked line by line by an AI logic referee and not by a human. Whether $f(a,2)<\infty$ for *every* $a$ is still open. *New in revision 3:* $f(a,2)<\infty$ for every $a\le32768$, with exact values, including Kitamura's test case $f(594,2)=90394$ (Theorem 11.4, computer-assisted); and an explicit, very weak rate $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$ (Theorem 11.7).
+- **Q1:** open in general. *New in revision 2:* at $p=2$, $f(a,2)<\infty$ for all $a$ outside a set of natural density $0$ (Theorem 10.1). This is a complete proof, checked line by line by an AI logic referee and not by a human. Whether $f(a,2)<\infty$ for *every* $a$ is still open. *New in revision 3:* $f(a,2)<\infty$ for every $a\le32768$, with exact values, including Kitamura's test case $f(594,2)=90394$ (Theorem 11.4, computer-assisted); and an explicit, very weak rate $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$ (Theorem 11.7, computer-assisted).
 - **Q2:** partial results only.
 - **Q3:** **OPEN.** Nothing here proves that $f(a,p)=\infty$ for any pair $(a,p)$. Round 3 adds conditional and structural results only (§11.3–11.5).
 
@@ -119,9 +119,9 @@ What is **not** new in round 2, and is credited:
 
 Each item was produced by one round-3 track and checked by a separate AI instance with its own code (§11.0, §11.8). **No human has checked any of it.**
 
-19. **$f(a,2)<\infty$ for every $a\le32768$, with exact values [computer-assisted] (§11.1).** This includes Kitamura's live test case, $f(594,2)=90394$ ($g=89804$), and $f(17662,2)=221465$ ($g=203812$), the largest excess known. Every value is certified by at least two independently written exhaustive programs (three for 594) and an explicit witness verified exactly from the definition. Kitamura's exact table reached $a\le256$; the method is Kitamura's exact-value pipeline with a new windowed depth-first search. The survival data suggest $\delta_G(2)\approx c/G$, possibly with a $\log G$ factor [heuristic].
-20. **An explicit rate at $p=2$ [computer-assisted] (§11.2).** $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$, and $\delta_G(2)\le0.10051$ for $G\ge2^{37}$, the first improvement on the census bound $0.1016$. On the classes $8\mathbb Z_2$, $2+16\mathbb Z_2$ and $6+16\mathbb Z_2$ the rate is $G^{-1/7}$. Every zero of an $F_e$ in the good set $\Omega$ has multiplicity at most 2 [proved]. The bound is meaningful only at astronomically large $G$.
-21. **Odd primes, Haar measure (§11.3).** The exact first-moment machinery of §10.1 holds at every odd $p$ [proved]. There is an exact second-moment identity [proved], and a proof that per-window Cauchy–Schwarz cannot give $L^2$-boundedness [proved]. **Conditional theorem:** a fine-scale equidistribution hypothesis FE implies $\mu(K_p)>0$ [proved; FE unproved, of barrier type, numerically plausible at $p\ge5$ and doubtful at $p=3$].
+19. **$f(a,2)<\infty$ for every $a\le32768$, with exact values [computer-assisted] (§11.1).** This includes Kitamura's live test case, $f(594,2)=90394$ ($g=89804$), and $f(17662,2)=221465$ ($g=203812$), the largest exactly computed excess in the public record. Every value is certified by at least two independently written exhaustive programs (three for 594) and an explicit witness verified exactly from the definition. Kitamura's complete exact table reached $a\le256$; the method is Kitamura's exact-value pipeline with a new windowed depth-first search. Over the integers $a\le2^{15}$ the proportion with $g_2(a)\ge G$ behaves like $c/G$ for $256\le G\le2^{17}$, and a re-fit of the published Haar values favours $(\log G)/G$ over $0.7/\sqrt G$ [heuristic; §11.1].
+20. **An explicit rate at $p=2$ [computer-assisted] (§11.2).** $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$, and $\delta_G(2)\le0.10051$ for $G\ge2^{37}$, the first proved bound below round 1's census value $0.1016$ that applies at large $G$ (extending the census beyond $G=32$, not attempted, could lower that value at moderate $G$). On each of the classes $8\mathbb Z_2$, $2+16\mathbb Z_2$ and $6+16\mathbb Z_2$, $\mu(C\cap\{g_2\ge G\})\le2^{1/7}G^{-1/7}$ for $G\ge2^{1024}$ [computer-assisted]. Every zero of an $F_e$ in the good set $\Omega$ has multiplicity at most 2 [proved]. The bound is meaningful only at astronomically large $G$.
+21. **Odd primes, Haar measure (§11.3).** The exact first-moment machinery of §10.1 holds at every odd $p$ [proved]. There is an exact second-moment identity [proved], and a proof that per-window Cauchy–Schwarz cannot give $L^2$-boundedness [proved]. **Conditional theorem:** a fine-scale equidistribution hypothesis FE implies $\mu(K_p)>0$ [proved; FE unproved, heuristically of barrier type, numerically plausible at $p\ge5$ and doubtful at $p=3$].
 22. **Fourier and equidistribution (§11.4).**
     - Single gate blocks satisfy the random-model Fourier bound at every level, with certified constants $\sup_d\rho_d\le1.3203,1.1760,1.8377,1.2064$ ($p=5,7,11,13$) [computer-assisted]. This explains round 2's ratio $\approx1.17$ as an explicit constant $J_p$ [proved].
     - A collision-count version of Theorem 10.16 [proved; hypothesis unproved].
@@ -232,7 +232,7 @@ where $W_m=(pm)!/(p^mm!)=\prod_{i\le pm,\,p\nmid i}i$ is a $p$-adic unit with $W
 ## 2. State of the art before this note (with credit)
 
 - **Erdős–Graham [ErGr80, p. 79]** posed the problem, together with #403.
-- **S. Lin** (Bell Labs internal memorandum, 1960; cited on erdosproblems.com as [Li76]; unpublished and not online) showed that $2^{254}$ is the largest power of 2 dividing a sum of distinct factorials containing $2!$. That is, $f(2,2)=254$; the #404 page records $f(2,2)\le254$. Lin also found the five solutions of $3^m=\sum$ distinct factorials (#403). Frankl independently solved #403.
+- **S. Lin** (Bell Labs internal memorandum; erdosproblems.com prints the year 1960 under the key [Li76], and the plasma-ai/erdos wiki reports that [ErGr80] cites it as "Lin (76)"; we have not seen the monograph; unpublished and not online) showed that $2^{254}$ is the largest power of 2 dividing a sum of distinct factorials containing $2!$. That is, $f(2,2)=254$; the #404 page records $f(2,2)\le254$. Lin also found the five solutions of $3^m=\sum$ distinct factorials (#403). Frankl independently solved #403.
 - **V. Kovač** (forum, 13 Aug 2025) corrected the statement and recorded $f(1,2)=0$, $f(2,2)=254$, $f(3,2)=1$, $f(4,2)=6$ and $f(5,2)=3$. Kovač noted that $\lim_a f(a,p)=\infty$ ("clearly").
 - **T. Tao** (forum, two comments of 29 Sep 2025):
   - Tao suggested that $f(1,5)$ is "extremely large, and possibly even infinite", with examples such as $1!+4!+10!+11!$.
@@ -249,7 +249,7 @@ where $W_m=(pm)!/(p^mm!)=\prod_{i\le pm,\,p\nmid i}i$ is a $p$-adic unit with $W
     - a certified classification of all even classes with $g\le24$ (174,640 residue classes). From it: $g$ never takes the values $1,2,4,5$, $g=3$ exactly on $a\equiv4 \pmod 8$, and the attained values up to 24 are exactly $\{3\}\cup[6,24]$. These are computer-certified statements, not merely empirical ones. The classification also gives $f(a,2)<\infty$ on a set of density $1-\delta_{25}(2)=0.8734$;
     - the *shadow family* $a=2^t-2$, with $g\ge3t$ from the cube identity and exact values for $t\le13$ (for example $g(8190,2)=8218$);
     - the *sibling-pairing theorem*, $g(a+2^{g(a)},2)=g(a,2)$, so $g$ is constant on $a \bmod 2^{g(a)}$. It is stated without a shipped proof. Kitamura also reports certified "dead balls", for example $g\equiv648$ on $254+2^{638}\mathbb Z_2$.
-  - **[Round 2; credit added after the round-2 novelty referee]** A branching-process picture at $p=2$. In `witness_gallery.md` §6 Kitamura calls the deep spikes "the predictable thin tail of a critical branching process", and reports a measured survival probability to depth $G$ of about $11.5/G$ (also `determining_exact_values.md` §5 and `README.md`), so that the census determines $f(a,2)$ for most integers. This is the empirical precursor of the heuristic H1 (§5) and of the weak form of Conjecture 5.1, which Theorem 10.1 proves. Kitamura's fit $\approx11.5/G$ and the fit $\delta_G(2)\approx0.7/\sqrt G$ of §5 differ. We have not reconciled them, and the normalisations may differ.
+  - **[Round 2; credit added after the round-2 novelty referee]** A branching-process picture at $p=2$. In `witness_gallery.md` §6 Kitamura calls the deep spikes "the predictable thin tail of a critical branching process", and reports a measured survival probability to depth $G$ of about $11.5/G$ (also `determining_exact_values.md` §5 and `README.md`), so that the census determines $f(a,2)$ for most integers. This is the empirical precursor of the heuristic H1 (§5) and of the weak form of Conjecture 5.1, which Theorem 10.1 proves. Kitamura's fit $\approx11.5/G$ and the fit $\delta_G(2)\approx0.7/\sqrt G$ of §5 differ. We have not reconciled them, and the normalisations may differ. **[Round 3]** §11.1 suggests a heuristic reconciliation: $0.7/\sqrt G$ looks like a small-$G$ effect, and the data suggest $c/G$, possibly with a $\log G$ factor.
   - The lower bound $f(594,2)\ge66126$, for which no witness is shipped. **[Round 3]** Kitamura's documents describe this bound as a ladder of exact forward-DP decisions $g_2(594)\ge8192,\dots,65536$. Round 3 computed the exact value, $f(594,2)=90394$ (§11.1).
   - Exact odd-prime rows: $f(3,3)=3$, $f(39,3)=25$, $f(700,3)=363$, $f(110,5)=30$, $f(236,5)=61$, $f(42,7)=7$, $f(113,11)=11$ and $f(163,13)=13$. Lean checks of $f(3,3)=3$, $f(4,7)=0$ and $f(6,7)=0$.
   - Witnesses $f(1,3),f(1,5),f(1,7)\ge20000$ and $f(1,11),f(1,13)\ge5000$.
@@ -760,7 +760,7 @@ Kitamura's "ignited" fractions (36.7%, 53.7%, 63.3%, 71%, 76% for $p=3,5,7,11,13
 
 The case $a=594$ (Kitamura's $f(594,2)\ge66126$) remains a live test.
 
-> **[Round 3]** Resolved: $f(594,2)=90394$. Moreover $f(a,2)<\infty$ for every $a\le32768$, with exact values (Theorem 11.4). The survival data over the integers suggest $\delta_G(2)\approx c/G$ rather than $0.7/\sqrt G$ [heuristic; §11.1].
+> **[Round 3]** Resolved: $f(594,2)=90394$. Moreover $f(a,2)<\infty$ for every $a\le32768$, with exact values (Theorem 11.4). Over the integers $a\le2^{15}$ the proportion with $g_2(a)\ge G$ behaves like $c/G$ for $256\le G\le2^{17}$, and a re-fit of the published Haar values favours $(\log G)/G$ over $0.7/\sqrt G$ [heuristic; §11.1].
 
 **Conjecture 5.2 (positive measure for odd $p$).** $\mu(K_p)>0$ for every odd $p$. Numerically $\mu(K_3)\approx0.36$ (exact $\delta_{17}=0.36329$, still slowly decreasing; Monte Carlo plateau $0.3586\pm0.0034$ at $G\le38$). The other values are $\mu(K_5)\approx0.5216$, $\mu(K_7)\approx0.6239$, $\mu(K_{11})\approx0.6998$ and $\mu(K_{13})\approx0.7545$.
 
@@ -1247,9 +1247,9 @@ Thus $\mu(K_2\cap\Omega)=0$, hence $\mu(K_2)=0$. ∎
 
 **Remarks 10.8.**
 1. *Where the randomness comes from.* The "environment" of a window $[n,N)$ is the list of valuations $v(x+i)$, which depends on only $O(\log n)$ low digits of $x$. The targets $\tau_n$ are moved affinely, with slope $2^\lambda$, by the digits of $x$ at positions $V_n,\dots,V_n+D-1$, i.e. around position $n$. Conditioning on $x\bmod2^{V_n}$, rather than on $O(\log n)$ low digits, turns the heuristic branching process in a random environment of §5 (H1) and §6 (T4) into an exact quenched martingale. No equidistribution of unit parts is needed, contrary to what §6 (T4) anticipated.
-2. *The critical walk* is $W_n=n-V_n$. For natural $x$, $W_n=s(n)-c(x,n)$, where $c(x,n)$ is the number of carries in the binary addition $x+n$. It is bounded above by $\log_2n+1$, and it tends to $-\infty$ along record times. This mirrors the classical mechanism by which a critical branching process in a random environment dies out. The quenched first moment is controlled by the associated random walk, and extinction follows once that walk has $\liminf=-\infty$. Almost-sure extinction in this setting goes back to Smith–Wilkinson (1969) and Athreya–Karlin (1971). The criterion in terms of the associated walk is stated in modern form by Afanasyev–Geiger–Kersting–Vatutin (2005), while Kozlov (1976) gives the asymptotics of the survival probability, not the extinction itself. We credit the general strategy (martingale plus an environment walk unbounded below) to this theory, but the proof above is self-contained and uses none of these results. *(Round 2: attribution corrected after the novelty referee; the previous version called this a "Kozlov-type" mechanism.)*
+2. *The critical walk* is $W_n=n-V_n$. For natural $x$, $W_n=s(n)-c(x,n)$, where $c(x,n)$ is the number of carries in the binary addition $x+n$. It is bounded above by $\log_2n+1$. On the full-measure set $\Omega$ it tends to $-\infty$ along record times (G1). **[Round 3]** For natural $x$, Kummer's theorem gives $W_n=s(x+n)-s(x)\ge1-s(x)$, so the walk is bounded below; this is why Theorem 10.1 says nothing about integers (track S0). This mirrors the classical mechanism by which a critical branching process in a random environment dies out. The quenched first moment is controlled by the associated random walk, and extinction follows once that walk has $\liminf=-\infty$. Almost-sure extinction in this setting goes back to Smith–Wilkinson (1969) and Athreya–Karlin (1971). The criterion in terms of the associated walk is stated in modern form by Afanasyev–Geiger–Kersting–Vatutin (2005), while Kozlov (1976) gives the asymptotics of the survival probability, not the extinction itself. We credit the general strategy (martingale plus an environment walk unbounded below) to this theory, but the proof above is self-contained and uses none of these results. *(Round 2: attribution corrected after the novelty referee; the previous version called this a "Kozlov-type" mechanism.)*
 3. *Halving lemmas.* The slope $\lambda_e$ counts the frozen low bits of $\tau_n$. The proofs of Theorem 3.7(a),(b) show $\lambda_e\ge1$ (respectively $\ge3$ for $x\equiv2\pmod4$) for alive paths, when $v(x+2)$ is small compared with $V_n$. The halving lemmas are not used in the proof.
-4. *No rate.* The argument is qualitative: it gives $\delta_G(2)\to0$ but no explicit rate. Numerically $\delta_G(2)\approx0.7/\sqrt G$ (§5). Kitamura reports a measured decay of about $11.5/G$ (§2); we have not reconciled the two fits. **[Round 3]** An explicit rate is now Theorem 11.7 ($\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$). The integer survey and a re-fit of the published values suggest that $0.7/\sqrt G$ is a small-$G$ effect and that the decay is like $c/G$, possibly with a $\log G$ factor [heuristic; §11.1].
+4. *No rate.* The argument is qualitative: it gives $\delta_G(2)\to0$ but no explicit rate. Numerically $\delta_G(2)\approx0.7/\sqrt G$ (§5). Kitamura reports a measured decay of about $11.5/G$ (§2); we have not reconciled the two fits. **[Round 3]** An explicit rate is now Theorem 11.7 ($\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$). A re-fit of the published Haar values favours $(\log G)/G$ over $0.7/\sqrt G$, and the integer survey shows a $c/G$ law over the integers [heuristic; §11.1].
 5. *What it does not say.* $K_2$ is closed and Haar-null, so it is nowhere dense, which was already known (Theorem 3.6). Theorem 10.1 does not show $K_2\cap\mathbb N=\emptyset$, since a countable set is Haar-null anyway. **The strong form of Conjecture 5.1, "$f(a,2)<\infty$ for every $a$", remains open**, and so does Kitamura's test case $a=594$. **[Round 3]** That test case is resolved, $f(594,2)=90394$, and $f(a,2)<\infty$ for all $a\le32768$ (Theorem 11.4). The strong form of Conjecture 5.1 remains open.
 
 #### 10.1.1 Numerical corroboration of the window identity [computer-assisted; not needed for the proof]
@@ -1815,8 +1815,8 @@ All re-runs were done on 2026-10-12 with at most 3 cores; no single run exceeded
 
 ## 11. Round 3, 2026-10-13
 
-> **Everything in this section is new in revision 3. No human has refereed it.** It was produced by a third AI-assisted session (Claude, Anthropic, in the same kind of multi-agent workflow as rounds 1–2, prompted by the author). Every result below was checked in two stages:
-> - an adversarial **check** of each track by a separate AI instance that wrote its own code (reports in `data/round3/checks/`);
+> **Everything in this section is new in revision 3. No human has refereed it.** It was produced by a third AI-assisted session (Claude, Anthropic, in the same kind of multi-agent workflow as rounds 1–2, prompted by the author). Every result below from a research track was checked in two stages:
+> - an adversarial **check** of each research track (R3N, R3Q, R3M, R3F, R3C) by a separate AI instance that wrote its own code (reports in `data/round3/checks/`); the status gate S0 was not checked, except for its Lemma S0.1 (below);
 > - a final round of AI **referees** on this section (§11.8).
 >
 > In this section, "the lead" means the AI instance that ran the workflow and wrote this section, not the human author.
@@ -1835,7 +1835,7 @@ All re-runs were done on 2026-10-12 with at most 3 cores; no single run exceeded
 - The lead resumed R3C's queued runs and R3N's checkpointed search from their own scripts and checkpoints, unchanged.
 - A new R3Q instance re-derived everything from scratch, using the surviving code only as a map (`data/round3/reports/R3Q.md`, "Provenance").
 - A new R3C instance wrote R3C's report from its logs.
-- Every track was then checked by a separate instance. The checks were also restarted, since R3M's first check had been cut off.
+- Every research track was then checked by a separate instance (R3M's first check had been cut off and was restarted). The status gate S0 was not checked; its Lemma S0.1 was checked by the logic referee.
 
 Where a report was completed or corrected by the lead after the interruption or after its check, the edit is marked in the report.
 
@@ -1845,17 +1845,17 @@ Where a report was completed or corrected by the lead after the interruption or 
 - teorth/erdosproblems still lists #404 as open.
 - arXiv has nothing relevant.
 - formal-conjectures PR #6936 has one new commit and two approvals, but is not merged and still formalises only the statement.
-- Two new public trackers list #404 as open, with no mathematics: the plasma-ai/erdos wiki and the MATH-PROGRAMME issue #1674. The plasma-ai wiki dates Lin's memorandum to 1976; erdosproblems.com prints 1960 (see §2).
+- Two new public trackers list #404 as open, with no new mathematics: the plasma-ai/erdos wiki and the MATH-PROGRAMME issue #1674. The plasma-ai wiki dates Lin's memorandum to 1976; erdosproblems.com prints 1960 (see §2).
 
-*How Kitamura obtained $f(594,2)\ge66126$ (S0).* Kitamura's documents describe a ladder of exact forward-DP decisions, $g_2(594)\ge8192,16384,32768,65536$, reporting 3.5 h for the last rung. No witness, log or named script is published for $a=594$. S0 independently re-checked Kitamura's entire table $a\le256$ from both sides with round-1 code. It also re-checked the deep rows 1102, 3456 and 8190, the shadow rows to $t=13$, and the first four rungs for $a=594$. Everything agrees.
+*How Kitamura obtained $f(594,2)\ge66126$ (S0).* Kitamura's documents describe a ladder of exact forward-DP decisions, $g_2(594)\ge8192,16384,32768,65536$, reporting 3.5 h for the last rung. No witness, log or named script is published for $a=594$. S0 independently re-checked Kitamura's entire table $a\le256$ from both sides with round-1 code. It also re-checked the deep rows 1102, 3456 and 8190, the shadow rows to $t=13$, and the rungs $g_2(594)\ge1024,2048,4096,8192$ (only the last is one of Kitamura's published rungs; the higher rungs were not reproduced by S0, and are superseded by Theorem 11.2). Everything checked agrees. Kitamura's bound $f(594,2)\ge66126$ is now also confirmed independently by an explicit verified witness (R3N, `witness_594_K66126.txt.gz`).
 
 *Headline.*
 1. **$f(a,2)<\infty$ for every $a\le32768$, with exact values [computer-assisted] (§11.1).**
    - $f(594,2)=90394$, so Kitamura's live test case is finite.
-   - $f(17662,2)=221465$, the largest excess $g_2(a)=203812$ we know.
-   - Every value is certified by two or three independently written exhaustive programs, plus an explicit witness verified from the definition. Kitamura's exact table covered $a\le256$.
-2. **An explicit rate at $p=2$ [computer-assisted, via a $2^{16}$-case certificate and a closed-form check] (§11.2):** $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$, and $\delta_G(2)\le0.10051$ for $G\ge2^{37}$. This is the first improvement on the census bound $0.1016$. It is meaningful only at astronomically large $G$; the data suggest $\delta_G(2)\approx c/G$, possibly with a $\log G$ factor.
-3. **Odd primes, measure (§11.3).** Proved: the exact first-moment machinery of §10.1 at every odd $p$, and an exact second-moment identity. A per-window Cauchy–Schwarz route is proved impossible. **A conditional theorem:** $\mu(K_p)>0$ follows from a fine-scale equidistribution hypothesis FE about Haar-random windows. FE is unproved and is of barrier type. $\mu(K_p)>0$ remains open.
+   - $f(17662,2)=221465$; its excess $g_2(17662)=203812$ is the largest exactly computed value of $g_2$ at a natural number in the public record (finite values of $g_2$ are unbounded, Proposition 3.4).
+   - Every value is certified by two or three independently written exhaustive programs, plus an explicit witness verified from the definition. Kitamura's complete exact table covered $a\le256$, plus isolated rows up to 8190.
+2. **An explicit rate at $p=2$ [computer-assisted, via a $2^{16}$-case certificate and a closed-form check] (§11.2):** $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$, and $\delta_G(2)\le0.10051$ for $G\ge2^{37}$, the first proved bound below round 1's census value $\delta_{32}(2)=0.1016$ that applies at large $G$ (the census bound could itself be lowered at moderate $G$ by extending the census beyond $G=32$, which was not attempted). It is meaningful only at astronomically large $G$; the data suggest $\delta_G(2)\approx c/G$, possibly with a $\log G$ factor.
+3. **Odd primes, measure (§11.3).** Proved: the exact first-moment machinery of §10.1 at every odd $p$, and an exact second-moment identity. A per-window Cauchy–Schwarz route is proved impossible. **A conditional theorem:** $\mu(K_p)>0$ follows from a fine-scale equidistribution hypothesis FE about Haar-random windows. FE is unproved and, heuristically, of barrier type. $\mu(K_p)>0$ remains open.
 4. **Fourier and equidistribution (§11.4).**
    - Single gate blocks satisfy the random-model Fourier bound at every level, with certified constants. This explains round 2's ratio $\approx1.17$ as an explicit constant $J_p$.
    - A collision-count ($L^2$) version of Theorem 10.16 holds; its budget is $<1$ exactly for $p\ge11$.
@@ -1891,25 +1891,25 @@ A breadth-first search (round 1's design) is memory-bound for $a=594$. Program C
 | $f(594,2)=90394$ | three programs sharing no code: B (GMP, shifted normal form, single steps), C (hand-written limbs, pair steps, 256-bit windows), D (written by the checker; GMP `mpn`, single steps, 128-bit windows). Identical tree sizes: $\mathrm{steps}_B=3+\tfrac32\mathrm{nodes}_C$, $\mathrm{steps}_D=\mathrm{steps}_B-1$ | 44801-term witness in $[594,90397]$, verified by three verifiers (the track's Python and GMP running products; the checker's backward-Horner and odd-part methods) |
 | $f(17662,2)=221465$ | $dfsW4$ (program C with checkpoints; interrupted once and resumed) and D (split into 20000 subtrees). Identical tree size $5\,927\,905\,821=\mathrm{nodes}_{dfsW4}/4$ | 101480-term witness in $[17662,221465]$, verified by the same three verifiers |
 
-Logs: `data/round3/R3N/` (track) and `data/round3/check_R3N/` (checker). Witnesses: `witness_594_K90394.txt.gz` and `witness_17662_K221465.txt.gz`, with SHA-256 sums in `witness_sha256.txt`. Running times: C needs 3 minutes for $a=594$ at $K=90395$, B 12–17 minutes, D 3 minutes. For $a=17662$: $dfsW4$ needs about 1.5 h, D about 0.5 h.
+Logs: `data/round3/R3N/` (track) and `data/round3/check_R3N/` (checker). Witnesses: `witness_594_K90394.txt.gz` and `witness_17662_K221465.txt.gz`, with SHA-256 sums in `witness_sha256.txt`. The round-3 computational referee's own solver (`rsolve.c`, a fourth independent program) also gives $f(594,2)=90394$ with the same tree size, and a further witness. Running times: C needs 3 minutes for $a=594$ at $K=90395$, B 12–17 minutes, D 3 minutes. For $a=17662$: $dfsW4$ needs about 1.5 h, D about 0.5 h.
 
 **Corollary 11.3 [proved from Theorem 11.2, Corollary 3.7.1(i) and Theorem 3.1(a)].**
 - $f(a,2)=v_2(a!)+89804$ for every $a\equiv594\pmod{2^{89804}}$.
 - $f(a,2)=v_2(a!)+203812$ for every $a\equiv17662\pmod{2^{203812}}$.
 - $K_2$ misses the classes $594+2^{89804}\mathbb Z_2$ and $17662+2^{203812}\mathbb Z_2$.
 
-*Proof.* Corollary 3.7.1(i) gives constancy of $g_2$ on the integers of $a+2^{g_2(a)}\mathbb Z$. Theorem 3.1(a) passes from integers to $\mathbb Z_2$: whether $g_2\ge G$ and whether $g_2\ge G+1$ are decided modulo $2^{G+1}$. ∎
+*Proof.* Corollary 3.7.1(i) (Kitamura's sibling-pairing statement) gives constancy of $g_2$ on the integers of $a+2^{g_2(a)}\mathbb Z$. Theorem 3.1(a) passes from integers to $\mathbb Z_2$: whether $g_2\ge G$ and whether $g_2\ge G+1$ are decided modulo $2^{G+1}$. ∎
 
 **Theorem 11.4 (exact table) [computer-assisted].** For every even $a\le32768$, $f(a,2)$ was computed exactly.
 - Each of the 16382 rows other than 594 and 17662 was certified three ways:
   - by C with doubling targets, then by B at $K=f$ (reachable) and $K=f+1$ (unreachable);
   - with C's witness verified by GMP;
   - independently again by the checker's program D in both directions, with its own witness verifier.
-- There were 0 failures (`survey_*.csv`; `data/round3/check_R3N/full_recert_*.log`).
+- There were 0 failures (`survey_*.csv`; `data/round3/check_R3N/full_recert_*.log`). In the survey CSVs the rows 594 and 17662 are lower bounds from the doubling run; their exact values are those of Theorem 11.2.
 - The 128 values for $a\le256$ agree with Kitamura's table, and 1102, 3456 and 8190 with Kitamura's deeper rows.
-- Over all exact rows, $g$ never takes the values $1,2,4,5$, and $g=3$ exactly when $a\equiv4\pmod8$, as Corollary 3.7.1(iii) requires.
+- Over all exact rows, $g$ never takes the values $1,2,4,5$, and $g=3$ exactly when $a\equiv4\pmod8$, as Kitamura's classification and Corollary 3.7.1(iii) require.
 
-**Consequently $f(a,2)<\infty$ for every natural number $a\le32768=2^{15}$** [computer-assisted]. Q1 at $p=2$ (Conjecture 5.1) is thereby verified up to $2^{15}$. Kitamura's exact table reached 256.
+**Consequently $f(a,2)<\infty$ for every natural number $a\le32768=2^{15}$** [computer-assisted]. Q1 at $p=2$ (Conjecture 5.1) is thereby verified up to $2^{15}$. Kitamura's complete exact table reached 256, with isolated rows up to 8190.
 
 *Largest excesses* (exact): $g_2(17662)=203812$; $g_2(594)=89804$; $g_2(17534)=59527$; $g_2(16846)=44786$; $g_2(26274)=42347$; $g_2(27142)=26746$; $g_2(10578)=24271$; $g_2(34)=18412$ (Kitamura). Among $a\le16384$, 594 has the largest excess. Among $a\le4096$, the next largest are 34, 1102, 2210, 3456, 1438, 574, 1602, 640 and 2662.
 
@@ -1917,17 +1917,17 @@ Logs: `data/round3/R3N/` (track) and `data/round3/check_R3N/` (checker). Witness
 
 **The survival law over natural numbers [heuristic].**
 - Over even $a\le32768$ and $256\le G\le131072$, $G\cdot\#\{a:g_2(a)\ge G\}/16384$ stays between 8 and 12 (R3N §6).
-- This is numerically consistent with Kitamura's "$\approx11.5/G$". Kitamura does not state the normalisation; the figure comes from the class census.
+- This is numerically consistent with Kitamura's "$\approx11.5/G$". Kitamura states neither how the figure was measured nor its normalisation. It is not a fit to the $g\le24$ census ($G$ times the even-class fraction is about $6.3$ at $G=25$), but it is consistent with the even $a$ of Kitamura's own table $a\le256$ ($G$ times the fraction is 9–14 for $G=64$–$256$) and with twice the Haar Monte Carlo values of §5.
 - At small $G$ the integer fractions match the Haar Monte Carlo of §5, doubled for even $a$.
-- Independently, S0 notes that the note's own published values of $\delta_G(2)$ satisfy $\delta_G\,G/\log_2G\in[0.61,0.69]$ for $8\le G\le254$, while $\delta_G\sqrt G$ drifts from $0.69$ to $0.33$.
+- Independently, S0 notes that the note's own published values of $\delta_G(2)$ satisfy $\delta_G\,G/\log_2G\in[0.607,0.693]$ for $8\le G\le254$, while $\delta_G\sqrt G$ drifts from $0.69$ to $0.33$.
 
-Both observations suggest that the "$0.7/\sqrt G$" fit of §5 and Remark 10.8.4 is a small-$G$ effect, and that $\delta_G(2)$ decays like $c/G$, possibly with a $\log G$ factor. This reconciles, heuristically, the two fits that Remark 10.8.4 left open.
+For $G>16$ the integer data do not sample Haar measure (their high digits are 0 and their environment walk is bounded below), so they bear on $\delta_G(2)$ only heuristically; the Haar evidence is S0's re-fit, which favours $(\log G)/G$. Both observations suggest that the "$0.7/\sqrt G$" fit of §5 and Remark 10.8.4 is a small-$G$ effect, and that $\delta_G(2)$ decays like $c/G$, possibly with a $\log G$ factor. This suggests a reconciliation of the two fits that Remark 10.8.4 left open [heuristic].
 
-S0 proves a related lemma (*Lemma S0.1* [proved by S0; not separately checked]): for Haar-random $x$, the probability that the digit-sum environment walk of the 2-adic odometer stays $\ge0$ up to time $n$ is $\asymp(\log n)/n$. In i.i.d. environments the corresponding probability is $\asymp n^{-1/2}$ (Kozlov; Afanasyev–Geiger–Kersting–Vatutin). If a survival relation of AGKV type held here, it would give $(\log G)/G$. It is not proved here, because offspring are not independent and the environment is not i.i.d.
+S0 proves a related lemma (*Lemma S0.1* [proved by S0; checked by the round-3 logic referee, who also proved the exact value $P(E_{2^m})=(2m+3)/2^{m+2}$]): for Haar-random $x$, the probability $P(E_n)$ that the digit-sum environment walk of the 2-adic odometer stays $\ge0$ up to time $n$ satisfies $(\log_2n+1)/(4n)<P(E_n)\le(\log_2n+2)/n$. For an i.i.d. zero-mean walk the corresponding probability is of order $n^{-1/2}$ (classical fluctuation theory, e.g. Feller II §XII.7), and in i.i.d. environments the survival probability of a critical BPRE is of the same order (Kozlov 1976; Geiger–Kersting 2000; AGKV 2005, Thm 1.1). Walks of the form $s_2(x+t)-s_2(x)$ are also studied in the literature on Cusick's conjecture (Drmota–Kauers–Spiegelhofer 2016; Spiegelhofer–Wallner, arXiv:2005.07167); the nearest non-i.i.d. BPRE setting treated in the literature is that of finite-state Markov environments (Grama–Lauvergnat–Le Page 2019). If a survival relation of AGKV type held here, it would give $(\log G)/G$. It is not proved here, because offspring are not independent and the environment is not i.i.d.
 
 Under a $c/G$ law, survivors to depth $G$ occur among about $G$ even integers. So computation will keep finding deeper exact values, as it found 17662, and **none of this is evidence about Conjecture 5.1 either way.**
 
-*Credit.* Kitamura identified $a=594$ as the open champion with $f(594,2)\ge66126$. Kitamura also designed the exact-value pipeline (exhaustive DP plus witness) and computed the table for $a\le256$ and the rows 1102, 3456, 8190 and the shadows to $t=13$, which served as validation. The critical-branching picture with $\approx11.5/G$ is also Kitamura's (§2). Round-1 track D wrote the breadth-first program that the track's program A follows.
+*Credit.* Kitamura identified $a=594$ as the open champion with $f(594,2)\ge66126$. Kitamura also designed the exact-value pipeline (exhaustive DP plus witness) and computed the table for $a\le256$ and the rows 1102, 3456, 8190 and the shadows to $t=13$, which served as validation. The critical-branching picture with $\approx11.5/G$ is also Kitamura's (§2). Programs B and C reimplement Kitamura's scaled (shifted) DP recurrence and pair gates (`scripts/p2_scaled_gate_search.py`). Round-1 track D wrote the breadth-first program that the track's program A follows. No exact value of $f(594,2)$ is in the public record as of 2026-10-13; Kitamura reported deeper probes still running in July 2026, so an unpublished determination cannot be excluded.
 
 ### 11.2 The prime 2, Haar measure: an explicit rate (track R3Q)
 
@@ -1944,7 +1944,7 @@ The reduction to a finite check is proved. Three programs sharing no code report
 **Lemma 11.6 (near $-2$) [proved].** Let $x\equiv2\pmod4$, $j=v(x+2)$ and $v(S_e(x))\ge3j+1$. Then $v(S_e'(x))\le2j$ or $v(S_e^{[2]}(x))\le j$. Consequently, on the full-measure set $\Omega$ of §10.1, every zero of an $F_e$ has multiplicity $\le2$, and exactly 1 on $8\mathbb Z_2$. So the classes $K^{k,L}$ with $k\ge3$ in the proof of Theorem 10.1 are empty.
 
 **Further lemmas [proved].**
-- A one-step martingale identity for every slope $\lambda$, valid under $\lambda+v(x+n+1)\le V_n-M_n$.
+- A one-step martingale identity for every slope $\lambda$, valid under $\lambda+v(x+n+1)\le V_n-M_n$ and $\lambda<V_n-M_n$.
 - Bounds on the frozen-state weights: $2^{-\lfloor\log_22\lambda\rfloor}\le\rho\le2^{\min(\lambda-1,\lfloor(\lambda+\tilde M)/2\rfloor-1)}$, the lower bound on paths that survive $2\lambda$ steps.
 - A stopped-martingale bound at the time the walk drops, with a split by digit sum.
 - A window bound for the high-slope population on coarse atoms $x+2^{V_n-M_n}\mathbb Z_2$, which avoids a loss of $M_n$ per window. A split by $v(x+2)$ makes the high-slope population die on $C_{14}$.
@@ -1955,7 +1955,7 @@ and the set of $a$ with $f(a,2)\ge v_2(a!)+G$ has natural density at most that.
 
 The proof is complete and written out. It uses two finite computations:
 - the certificate of Lemma 11.5;
-- a check that a closed-form majorant built from nine explicit terms is $\le-K/80$ for every $K\in[2400,4\cdot10^6]$. The largest failing $K$ is 3071, and the minimum margin on $[3072,4\cdot10^6]$ is 0.62 bits.
+- a check that a closed-form majorant built from nine explicit terms is at most $2^{-K/80}$ for every integer $K\in[3072,4\cdot10^6]$ (the check was run on $[2400,4\cdot10^6]$; the largest failing $K$ is 3071, and the minimum margin on $[3072,4\cdot10^6]$ is 0.62 bits).
 
 A one-line argument covers $K>4\cdot10^6$. This is an explicit rate for Theorem 10.1, and a second, quantitative proof of $\mu(K_2)=0$ along the same martingale idea.
 
@@ -1966,11 +1966,11 @@ A one-line argument covers $K>4\cdot10^6$. This is an explicit rate for Theorem 
 | $\delta_G(2)\le$ | $0.10051$ | $0.09104$ | $0.06323$ | $0.04556$ | $0.02056$ | $4.94\cdot10^{-6}$ | $6.50\cdot10^{-13}$ |
 
 - The census bound $\delta_G(2)\le\delta_{32}(2)=0.1016$ (§4.7) is better at every evaluated $G\le2^{36}$.
-- $G=2^{448}$ is where the bound first beats the trivial $1/16$ of the class $C_{14}$.
+- $G=2^{448}$ is the first evaluated $G$ ($\log_2G$ was evaluated in steps of 64 there) at which the bound beats the trivial $1/16$ of the class $C_{14}$.
 
 **Theorem 11.9 (three classes) [computer-assisted, via Lemma 11.5].** For $C\in\{C_0,C_2,C_6\}$ and $K\ge1024$, $\mu(C\cap\{g_2\ge2^K\})\le2^{-K/7}$. The total over the three classes is $\le0.02854$ at $G=2^{40}$.
 
-With Lemma 11.5 this gives $\delta_G(2)\le1/16+\varepsilon(G)$ with an explicit $\varepsilon(G)\to0$. That is a proved analogue of R1a's unverified Claim 10.9 (§10.1.4), with a weaker rate than that claim asserts.
+With Lemma 11.5 this gives $\delta_G(2)\le1/16+\varepsilon(G)$ with an explicit $\varepsilon(G)\to0$. That is a computer-assisted analogue of R1a's unverified Claim 10.9 (§10.1.4), with a weaker rate than that claim asserts.
 
 *Limits of the method [heuristic analysis].*
 - One digit-sum drop of the critical walk caps the method at about $G^{-0.227}$, even with perfect constants.
@@ -1990,26 +1990,26 @@ Notation of §10.1 at an odd prime $p$ (with $p$ for 2): $c_n:=2^{-n}p^{V_n}$, s
 $$\mathbb E_{x'\in x+p^m\mathbb Z_p}\#\{f:(e,f)\text{ alive at }N,\ \tau_N\equiv s\ (p^\lambda)\}=2^{N-n}p^{-D}a_n^{(\lambda)}(\tau_n(e,x)).$$
 Hence $c_n\sum_{P^{1,L}_n}\rho$ is a martingale along windows. For almost every $x$, $c_n\to0$ exponentially, since $p^{1/(p-1)}<2$: the process is supercritical.
 
-This completes the transfer that §10.1.3 only sketched. The exact state-by-state tests by two programs found 0 failures in 62132 identities at $p=3,5,7$, and in further tests by the checker.
+This completes the transfer that §10.1.3 only sketched. The exact state-by-state tests by two programs (62132 identities for program A, 512 parents for program B) at $p=3,5,7$ found 0 failures, as did further tests by the checker.
 
 **Proposition 11.11 (exact second moment, slope 0) [proved].** Inside a cylinder, the children of a slope-0 parent $e$ are counted by $m_W(\beta_e(\varphi_e-w))$. Here:
 - $m_W$ counts the window's subset sums modulo $p^D$;
 - $w$ is the fresh digits of $x$;
 - $x_0+p^m\varphi_e$ is the Hensel root of $S_e$ in the cylinder.
 
-So $\operatorname{Var}(c_N Y)$ equals the Fourier overlap between the window law and the empirical law of the population's roots. In particular, the offspring numbers of all parents are functions of one uniform variable $w$. This is exactly the independence that the classical survival criteria for branching processes in random environments (Smith–Wilkinson, Athreya–Karlin) assume and that fails here; the identity measures the dependence exactly.
+So $\operatorname{Var}(c_N Y)$ equals the Fourier overlap between the window law and the empirical law of the population's roots. In particular, the offspring numbers of all parents are functions of one uniform variable $w$. Independence of offspring given the environment is what the classical survival criteria for branching processes in random environments (Smith–Wilkinson, Athreya–Karlin) assume, and it is not guaranteed here: the identity measures the dependence exactly.
 
 **Proposition 11.12 (the per-window Cauchy–Schwarz route is closed) [proved].** Every window with $D\ge1$ has $\chi_W^2\ge(p-1)4^{-p}$. This comes from the mod-$p$ shell alone, whatever the window length or the gates. The bound $\operatorname{Var}\le M^2\chi_W^2$ is attained, for example for a single parent. So $\prod_\ell(1+\chi^2_{W_\ell})=\infty$ for every window sequence, and no recursion of the form $\mathbb E[M_{\ell+1}^2]\le(1+\chi^2_\ell)\mathbb E[M_\ell^2]$ can prove $L^2$-boundedness.
 
-**Proposition 11.13 (two-window inequality) [proved].** Apply Cauchy–Schwarz only at the frequencies above $p^D$ of the earlier window. Classes are inherited ($\beta_{\rm child}=\beta_{\rm parent}/u$), and Minkowski's inequality then gives
-$$\mathbb E\big[(c_{N'}Z^0_{N'})^2\big]-\mathbb E\big[(c_NZ^0_N)^2\big]\le\varepsilon(W,W')\,(c_nZ^0_n)^2 .$$
+**Proposition 11.13 (two-window inequality) [proved].** Let $W=[n,N)$ and $W'=[N,N')$ have jumps $D,D'$, and let $C=x+p^{V_n(x)}\mathbb Z_p$. Assume $D+D'\le V_n-M_{N'}$ and $M_{N'}<V_n$. Apply Cauchy–Schwarz only at the frequencies above $p^D$ of the earlier window. Classes are inherited ($\beta_{\rm child}=\beta_{\rm parent}/u$), and Minkowski's inequality then gives
+$$\mathbb E_C\big[(c_{N'}Z^0_{N'})^2\big]-\mathbb E_C\big[(c_NZ^0_N)^2\big]\le\varepsilon(W,W')\,(c_nZ^0_n)^2 .$$
 Here $\varepsilon(W,W')=p^{D+D'}\mathrm{Coll}_{D+D'}-p^D\mathrm{Coll}_D$ is the $L^2$ mass of the *composite* window law in the band $(p^D,p^{D+D'}]$. With a single parent the inequality is an exact equality: the checker found 95/95 cases under the hypotheses and 47/47 outside them.
 
-**Theorem 11.14 (conditional positive measure) [proved; the hypothesis FE is unproved].** Fix deterministic window times, a summable sequence $(\bar\varepsilon_\ell)$, and an admissible atom $A$, i.e. a cylinder with a nonempty slope-0 population and valid window conditions. Let $\tau$ be the first window at which the linear-regime conditions fail or $\varepsilon_\ell(x)>\bar\varepsilon_\ell$, and put $\Pi_A=(1+\chi^2_j)\prod_\ell(1+\bar\varepsilon_\ell)$. If
+**Theorem 11.14 (conditional positive measure) [proved; the hypothesis FE is unproved].** Fix deterministic window times $2p\le n_0<n_1<\cdots$, a summable sequence $(\bar\varepsilon_\ell)$, and an admissible atom $A$, i.e. a cylinder with a nonempty slope-0 population and valid window conditions. Let $\tau$ be the first window at which the linear-regime conditions fail or $\varepsilon_\ell(x)>\bar\varepsilon_\ell$, and put $\Pi_A=(1+\chi^2_j)\prod_\ell(1+\bar\varepsilon_\ell)$. If
 $$\text{(FE)}\qquad\delta_A:=\mu_A(\tau<\infty)<1/\Pi_A,$$
 then $\mu(K_p\cap A)/\mu(A)\ge(1-\sqrt{\Pi_A\delta_A})^2/\Pi_A>0$. In particular $\mu(K_p)>0$.
 
-*Proof sketch.* The stopped martingale is $L^2$-bounded by Proposition 11.13. Survival of the slope-0 population implies $x\in K_p$, by Proposition 1.2 and König's lemma. Paley–Zygmund then gives the bound.
+*Proof sketch.* The stopped martingale is $L^2$-bounded by Proposition 11.13. Survival of the slope-0 population implies $x\in K_p$, by Proposition 1.2 and König's lemma. Paley–Zygmund then gives the bound. This is the second-moment method for survival on trees (Lyons 1990, 1992); for dependent percolation on trees the closest template is Mathieu–Temmel (2012).
 
 An explicit union bound handles the deep-gate part of $\tau$ (*Lemma C4* of the report). That bound is small only for $n_j$ large enough, depending on $p$ and the growth ratio of the window times. **So the only genuinely open part of FE is the fine-scale equidistribution $\varepsilon_\ell(x)\le\bar\varepsilon_\ell$.**
 
@@ -2017,9 +2017,9 @@ An explicit union bound handles the deep-gate part of $\tau$ (*Lemma C4* of the 
 - (a) $\varepsilon(W,W')$ is an explicit combination of the densities $\Lambda_t(y)=p^{V_t(y)}\mathbb P(1+\sum_{1\le c<t}\delta_c\pi_c(y)\equiv0\bmod p^{V_t(y)})$ of a *signed* carry process. Here the $\delta_c$ are i.i.d. with $\mathbb P(0)=\tfrac12$ and $\mathbb P(\pm1)=\tfrac14$. This was checked in exact rationals, 48/48.
 - (b) $\int_{\mathbb Z_p}\Lambda_t\,d\mu=+\infty$ for every odd $p$ and $t\ge3$, because of the double root of $S_{\{1,2\}}=(x+2)^2$ at $-2$ (Proposition 3.4).
 
-So FE cannot be obtained by Markov's inequality on $\mathbb E[\varepsilon_\ell]$. A truncation at deep gates is needed first [the necessity is heuristic].
+So FE very probably cannot be obtained by Markov's inequality on $\mathbb E_A[\varepsilon_\ell]$, and a truncation at deep gates is needed first [heuristic: the infinite integral of $\Lambda_t$ does not by itself give $\mathbb E_A[\varepsilon_\ell]=\infty$].
 
-*Relation to the obstructions.* FE is of barrier type, in the sense of Theorem 3.10. It concerns the $L^2$ mass of composite window laws modulo $p^{K_\ell}$ with $K_\ell\to\infty$, so a proof must use unboundedly many digits of the unit parts. The difference from the setting of Theorem 3.10 is that, for Haar-random $x$, those digits are polynomial images of the digits of $x$ itself, so averaging over $x$ is available. Even an unconditional $\mu(K_p)>0$ would not put a natural number in $K_p$ (Theorem 3.6).
+*Relation to the obstructions [heuristic].* FE appears to be of barrier type, in the sense of Theorem 3.10 (R3M's report gives the mechanism, not a proof). It concerns the $L^2$ mass of composite window laws modulo $p^{K_\ell}$ with $K_\ell\to\infty$, so a proof very probably must use unboundedly many digits of the unit parts. The difference from the setting of Theorem 3.10 is that, for Haar-random $x$, those digits are polynomial images of the digits of $x$ itself, so averaging over $x$ is available. Even an unconditional $\mu(K_p)>0$ would not put a natural number in $K_p$ (Theorem 3.6).
 
 *Numerics [heuristic; Monte Carlo, cross-checked by an independent recount].*
 - The slope-0 martingale has constant mean, and a second moment that appears to stabilise at $p=3,5,7,11$.
@@ -2043,7 +2043,7 @@ Notation of §10.4. $S_d$ and $Q_d$ are the $L^1$ and $L^2$ Fourier shells at le
 - *Theorem 11.18 (Poisson/carry formula) [proved].*
   $$\rho_d:=\frac{S_d}{N_d(2/\pi)^p}=J_p+O\big(((p-1)!/p^d)^2\big),$$
   with explicit constants. Here $J_p=(\pi/2)^p\int_0^1\prod_{i<p}|\cos\pi\theta\sigma_i|\,d\theta$, and $J_p$ converges as $p\to\infty$.
-- *Theorem 11.19 (certified supremum) [computer-assisted; two shell programs plus the checker's arb-certified third program at every computed level; the analytic tail uses a rigorous enclosure of $J_p$].* For every gate block of every level, $\sup_d\rho_d\le1.3203$ ($p=5$), $1.1760$ ($p=7$), $1.8377$ ($p=11$), $1.2064$ ($p=13$). The sup is attained at $d=2$ or $4$, and $\rho_d\to J_p\approx1.17$, with $J_{13}\in[1.17285,1.17305]$.
+- *Theorem 11.19 (certified supremum) [computer-assisted; at least two independent programs at every level used (three, except at $p=13$, $d=9$: `gate_d` and the checker's arb-certified `shellchk`); the analytic tail uses a rigorous enclosure of $J_p$].* For every gate block of every level $j$, $\sup_{1\le d\le j+1}\rho_d\le1.3203$ ($p=5$), $1.1760$ ($p=7$), $1.8377$ ($p=11$), $1.2064$ ($p=13$). The sup is attained at $d=2$ or $4$, and $\rho_d\to J_p\approx1.17$, with $J_{13}\in[1.17285,1.17305]$.
 
   **This explains round 2's observation** (Conjecture 10.23, evidence) that the per-level ratio of single gate blocks settles at about 1.17 for every $p$: that ratio is $J_p$.
 
@@ -2052,16 +2052,16 @@ Notation of §10.4. $S_d$ and $Q_d$ are the $L^1$ and $L^2$ Fourier shells at le
 *What (a) does not imply.* It is an RMF-type per-level bound for single gate blocks, i.e. windows of length $p$, at every depth. RMF itself concerns windows of length $p^{t-1}$, whose levels all lie in the modular regime: the archimedean regime that makes (a) provable is never reached there. Per-block bounds do not bound the product (Corollary 10.20). And (a) uses only the fixed residues $\sigma_i$, i.e. shallow information (Theorem 3.10).
 
 **(b) The $L^2$ analogue.**
-- *Proposition 11.20 [proved].* $L^2$ mass is a collision count. If the $L^2$ mass of the tail measure from $N_0$ is finite, the measure is absolutely continuous, and the tail set $E_{N_0}$ has Haar measure $\ge p^{-v_p(N_0!)}/(1+L^2)$.
+- *Proposition 11.20 [proved; standard: Plancherel and Cauchy–Schwarz].* $L^2$ mass is a collision count (the collision-count coverage criterion is classical: Erdős–Rényi 1965; for $L^2$ densities of Bernoulli convolutions, Garsia 1962 and Solomyak 1995). If the $L^2$ mass of the tail measure from $N_0$ is finite, the measure is absolutely continuous, and the tail set $E_{N_0}$ has Haar measure $\ge p^{-v_p(N_0!)}/(1+L^2)$.
 - *Random-model budgets [constants proved; relevance heuristic].*
   - The $L^2$ budget converges at every odd $p$, including $p=3,5$, where the $L^1$ budget fails.
   - The Cauchy–Schwarz budget $\Lambda'_p=\sum_dN_d2^{-U_d/2}$ is $<1$ exactly for $p\ge11$: $\Lambda'_7=2.0496$, $\Lambda'_{11}=0.2920$, $\Lambda'_{13}=0.1549$.
   - So in the random model, positive Haar measure of the tails is expected at every odd $p$, while the $L^1$ criterion can certify fullness only for $p\ge7$.
 - *Certified small-level $L^2$ shells [computer-assisted; exact collision counts by two methods].* At $p=3$ the $L^2$ mass of the tail from 3 is $0.331$ at level 15. It grows mainly at gate-owned levels, by jumps that do not decrease monotonically. This is numerical evidence [heuristic] that the tail set has positive Haar measure while never being full (Theorem 3.11). Passing from the tail from 3 to every $E_N$ needs a further step, $\lambda(E_3)>0\Rightarrow\lambda(E_N)>0$, which is not done here.
 - *Proposition 11.21 [proved].* The levels $d\le t-1$ of every RMF window equal the shells of the *factorial measure* $\mathrm{law}(\sum_{i\ge0}\varepsilon_ii!)$. Consequently, RMF$(p,C)$ with $C\Lambda_p<1$ already forces that measure to have full support.
-  - Certified $L^1$ shells of the factorial measure total $0.286$ ($p=7$, $d\le9$), $0.0668$ ($p=11$, $d\le7$) and $0.00830$ ($p=13$, $d\le7$), within a factor $3.75$ of the random model level by level.
-  - As a by-product, every residue class mod $7^9$, $11^7$ and $13^7$ has the form $\sum_{i\in B}i!$ for a finite $B\subseteq\mathbb Z_{\ge0}$.
-- *Theorem 11.22 (collision-count version of Theorem 10.16) [proved; the hypothesis is unproved].* Let $p\ge7$. Suppose $\mathrm{Cov}(p,1,H_1)$ and $\mathrm{Cov}(p,2,H_2)$ hold, and every window of length $p^{t-1}$ ($t\ge3$, every $K'$) has $Q_d\le C\,N_d2^{-n_d}$ at every level, with $\sqrt C(\Lambda'_p+\tau'_p(3))<1$. Then $\mathrm{UC}(p)$ holds, so $f(1,p)=\infty$ and Q3 has a positive answer. The budget condition can hold only for $p\ge11$, since $\Lambda'_7>1$. It allows $C<11.7$ at $p=11$ and $C<41.7$ at $p=13$.
+  - Certified $L^1$ shells of the factorial measure total at most $0.2865$ ($p=7$, $d\le9$), $0.0668$ ($p=11$, $d\le7$) and $0.00831$ ($p=13$, $d\le7$), within a factor $3.75$ of the random model level by level.
+  - As a by-product, every residue class mod $7^9$, $11^7$ and $13^7$ has the form $\sum_{i\in B}i!$ for a finite $B\subseteq\mathbb Z_{\ge0}$. This is already implied, with far larger exponents ($11^{14997}$, $13^{12498}$; $7^{283331}$ from archived logs), by the tail frontiers of §4.5 together with the covering of $\mathbb Z/p$ by subset sums of $0!,\dots,(p-1)!$; here it is an independent Fourier-analytic confirmation at low depth.
+- *Theorem 11.22 (collision-count version of Theorem 10.16) [proved; the hypothesis is unproved].* Let $p\ge7$. Suppose $\mathrm{Cov}(p,1,H_1)$ and $\mathrm{Cov}(p,2,H_2)$ hold with $H_t+1<p^t$ (certified for $p=7,11,13$, §10.2), and every window of length $p^{t-1}$ ($t\ge3$, every $K'$) has $Q_d\le C\,N_d2^{-n_d}$ at every level, with $\sqrt C(\Lambda'_p+\tau'_p(3))<1$. Then $\mathrm{UC}(p)$ holds, so $f(1,p)=\infty$ and Q3 has a positive answer. The budget condition can hold only for $p\ge11$: $\Lambda'_p=\infty$ for $p=3,5$, and at $p=7$, $\Lambda'_7=2.0496$ while the certified factorial-measure level $d=8$ (ratio $2.47$) forces $C\ge2.47$ by Proposition 11.21. It allows $C<11.7$ at $p=11$ and $C<41.7$ at $p=13$.
 - *Proposition 11.23 ($L^2$ barrier lemma) [proved].* For a run of full blocks ending at a gate of level $j$, any $L^2$ bound derived from the valuations and $c$ digits of the unit parts is $\ge\tfrac{p-1}2p^{j-c-1}-1$. A uniform $L^2$ bound therefore needs unboundedly many digits of Morita's $\Gamma_p$. This is the $L^2$ form of Theorem 3.10.
 - *Proposition 11.24 (exact $L^2$ renormalisation) [proved].* The $L^2$ analogue of Proposition 10.19 has profile $H^{(2)}_W$ with nonnegative Fourier coefficients. So $\sup H^{(2)}_W=H^{(2)}_W(0)\ge1$, and supremum-type $L^2$ transfer bounds cannot give decay. This is the $L^2$ form of Corollary 10.20, with the supremum attained exactly at $0$.
 
@@ -2071,8 +2071,8 @@ Notation of §10.4. $S_d$ and $Q_d$ are the $L^1$ and $L^2$ Fourier shells at le
 - The proportion of non-covering classes is bounded by an explicit sum.
 - At the minimal lengths $H_t$ where $\mathrm{Cov}$ actually holds, these bounds are vacuous. Pure collision-count certificates appear only at $H\approx2$–$2.6\,H_t$; for example they certify every class of $(13,2,26)$ and $154/156$ classes of $(13,3,39)$. An averaged statement can feed Proposition 10.10 or Theorem 10.16 only by certifying every class.
 
-**(d) The factorial-base transfer picture [proved].**
-- The continuous transfer operator computes exactly the $j=0$ term of a Poisson decomposition of each grid sum. On the computed tail shells, all of the deviation from the random model is aliasing ($j\ne0$).
+**(d) The factorial-base transfer picture [D1, D4 proved; D2 a floating-point illustration].**
+- The continuous transfer operator computes exactly the $j=0$ term of a Poisson decomposition of each grid sum. On the computed tail shells, all of the deviation from the random model is aliasing ($j\ne0$) [computer-assisted illustration; floating point, not interval-certified].
 - Any bound that replaces $|\cos|$ by a positive-definite trigonometric majorant loses a factor $\ge16/15$ per element against the $L^1$ random model.
 
 **(e) Interval-arithmetic re-run [computer-assisted; two implementations with directed rounding, a brute-force reference, and the checker's third implementation].**
@@ -2099,16 +2099,16 @@ Every shell of §10.4.1 is now certified in interval arithmetic. This confirms r
 - **Q2 (behaviour):** partial results only. They include the exact values and the survival-law heuristic of §11.1, the rate of §11.2, the certified gate-block constants of §11.4 and the bounds of §11.5.
 - **Q3:** **OPEN.** Each of the following would suffice. None is proved, and none is known to be necessary:
   - $\mathrm{UC}(p)$ (Theorem 3.12(c));
-  - RMF (Theorem 10.16);
+  - RMF (Theorem 10.16), together with $\mathrm{Cov}(p,1,\cdot)$ and $\mathrm{Cov}(p,2,\cdot)$ with $H_t+1<p^t$;
   - a deep-gate $L^1$ bound (Theorem 10.18);
-  - the collision-count hypothesis of Theorem 11.22.
+  - the collision-count hypothesis of Theorem 11.22, with the same two $\mathrm{Cov}$ inputs.
 
-  All of these hypotheses are of barrier type (Theorem 3.10, Proposition 11.23).
+  The $L^1$ and $L^2$ window hypotheses are of barrier type (Theorem 3.10, Proposition 11.23): no proof of them can use only boundedly many digits of the unit parts.
 
 **What remains, precisely.**
 1. *Q3:* the items of §10.6, plus the $L^2$ hypothesis of Theorem 11.22. By Proposition 11.21, its levels $d\le t-1$ form a single $K'$-free family of statements about the factorial measure, certified for small $d$.
 2. *$\mu(K_p)>0$ (Conjecture 5.2):* prove FE (Theorem 11.14) on one cylinder at one odd prime. The most promising case is $p\ge7$, where the fine-scale masses decay numerically. The suggested first step is a truncated first-moment bound for high-slope signed paths (Remark C6 of R3M's report).
-3. *Rate at $p=2$:* close the gap between the proved exponent $1/80$ and the apparent exponent $\approx1$. A proof that the odometer-environment survival probability behaves like $(\log n)/n$ (Lemma S0.1, heuristically) would be a natural route.
+3. *Rate at $p=2$:* close the gap between the proved exponent $1/80$ and the apparent exponent $\approx1$. Lemma S0.1 proves that the environment walk stays $\ge0$ up to time $n$ with probability comparable to $(\log n)/n$. An AGKV-type comparison between $\delta_G(2)$ and this probability (unproved: offspring are dependent and the environment is not i.i.d.) would give $\delta_G(2)$ comparable to $(\log G)/G$.
 4. *Q1 at $p=2$ for all $a$:* needs an idea that sees individual integers. For natural $a$ the environment walk $W_n=s(a+n)-s(a)$ is bounded below, so the first-moment mechanism of Theorem 10.1 can never force extinction (Remark 10.8.2; S0).
 5. *Computation:*
    - uniform $\mathrm{Cov}(13,8,47)$ (about 170 core-hours per program);
@@ -2135,7 +2135,47 @@ Machine: Linux x86_64, 4 shared cores (Intel Xeon, 2.1 GHz), 15 GB RAM; all heav
 
 ### 11.8 Verification and credit (round 3)
 
-[REFEREE_PLACEHOLDER]
+**Per-track checks** (`data/round3/checks/`). Each research track was checked by a separate AI instance that wrote its own code and shared none with the track. No check found a mathematical error. Their corrections were labels, wording, rounding and placeholders, and all are applied in §11 and in the marked edits of the track reports. The main independent re-computations:
+- **R3N.** A third exhaustive program D (`check_R3N/dfsD.c`) gives $f(594,2)=90394$ with the same tree size as B and C. It re-certifies all 16382 other exact rows of the table in both directions, and gives $f(17662,2)\le221465$ with the same tree size as `dfsW4`. An own verifier (backward Horner and odd-part methods) checks every witness.
+- **R3Q.** A third slope certificate (dual numbers) and random exact tests of every lemma (0 failures). An independent exact evaluator reproduces every row of Corollary 11.8 and the closed forms.
+- **R3M.** Independent exact tests of every proved item at $p=3,5,7$ (some at 11). Proposition 11.13 holds with exact equality in every single-parent case, as its proof predicts.
+- **R3F.** An arb-certified third shell program (`shellchk`) recomputes every level used in Theorem 11.19, including $p=13$, $d=9$. Two independent methods recompute $J_p$, and a third implementation recomputes the interval totals of (e).
+- **R3C.** [R3C_CHECK_SUMMARY]
+
+**Round-3 referees** (`data/round3/referees/`). Three AI referees checked §11 and the [Round 3] edits. All found **no fatal or serious error**.
+- *Logic referee.* It re-checked line by line Propositions 11.10–11.13, Theorem 11.14, Lemma C4 of R3M, Proposition 11.15, Lemma 11.6, R3Q's stopped-martingale bound and the reduction in Theorem 11.7, and Theorems 11.17 and 11.22. All are correct. It checked S0's Lemma S0.1, which nobody else had checked, and proved the exact value $P(E_{2^m})=(2m+3)/2^{m+2}$; an exact enumeration to $n\le2^{18}$ confirms both bounds. It made 17 minor findings, all applied:
+  - "FE is of barrier type" is now labelled heuristic;
+  - hypotheses dropped in transcription were restored in Theorem 11.22 ($H_t+1<p^t$), Proposition 11.13, Theorem 11.14 ($n_0\ge2p$) and R3Q's one-step identity;
+  - §11.0's account of what S0 re-checked on the $a=594$ ladder was corrected;
+  - (d) was relabelled;
+  - Theorem 11.7's closed-form range was stated correctly;
+  - Remark 10.8.2 was corrected for natural $x$, as S0 had asked;
+  - the extent of the checks (S0 unchecked) is now stated.
+- *Computational referee.* With its own code, it reproduced every decisive computation of §§11.1–11.4 and Proposition 11.11, exactly or to all printed digits:
+  - both shipped witnesses, by a third method (binary splitting);
+  - a fourth exhaustive solver (`rsolve.c`), which gives $f(594,2)=90394$ with the same tree size, plus 323 table rows and the shadow values in both directions;
+  - Lemma 11.5, the Corollary 11.8 rows and the closed-form margins;
+  - the gate-block $\rho_d$ and the exact $L^2$ ratio $3/2$;
+  - Proposition 11.11 at $p=5$ against brute-force child counts.
+
+  Its own run of the upper bound $f(17662,2)\le221465$ hit its 30-minute limit, so that bound rests on `dfsW4` and the checker's program D. It made 4 minor findings, all applied: the self-contradictory wording of Theorem 11.7's closed-form range, the witness hash file, the two superseded lower-bound rows in the survey CSVs, and a constant rounded down in R3Q's report.
+- *Novelty referee.* It re-checked the public record on 2026-10-13 (19:15–19:28 UTC): the problem page and forum, Kitamura's repositories, teorth, formal-conjectures PR #6936, arXiv, GitHub and OEIS. It found no exact $f(a,2)$ for any $a>256$ beyond Kitamura's isolated rows. It found nothing on $f(594,2)$, $f(17662,2)$, the table to $2^{15}$, an explicit rate for $\delta_G(2)$, branching-process survival in odometer environments, positive measure of $K_p$, or the gate-block constants. It made 12 minor findings, all applied:
+  - the description of Kitamura's $11.5/G$ figure was corrected (it is not a fit to the census);
+  - "first improvement on the census bound" was reworded, since that bound is round 1's own;
+  - integer survival data are no longer presented as Haar evidence;
+  - a by-product of Proposition 11.21 is now said to be already implied by §4.5;
+  - credit was added for round-2 tracks R1a and R1b, the round-2 computational referee and lead, and Kitamura's DP recurrences and sibling-pairing statement;
+  - fluctuation theory and Geiger–Kersting are now cited correctly;
+  - the dispute over the year of Lin's memorandum is recorded;
+  - a priority caveat for $f(594,2)$ was added;
+  - classical background was cited (Erdős–Rényi, Garsia, Solomyak, Lyons, Mathieu–Temmel, the Cusick-conjecture literature, Grama–Lauvergnat–Le Page).
+
+**What remains unverified.**
+- **No human** has checked any part of §11.
+- The status gate S0 was not checked, apart from Lemma S0.1.
+- The Monte Carlo and floating-point diagnostics are heuristics, labelled as such; they were spot-checked but not re-derived.
+- $f(17662,2)\le221465$ rests on two exhaustive programs (`dfsW4` and the checker's D) rather than three.
+- R3Q's earlier, interrupted instance left code whose claims were not used; the restarted track re-derived everything.
 
 *Credit.*
 - Kitamura: the exact-value pipeline, the table $a\le256$ and the deep rows used for validation, the identification of $a=594$ with $f(594,2)\ge66126$, and the critical-branching picture with the $\approx11.5/G$ survival law (§2).
@@ -2143,13 +2183,16 @@ Machine: Linux x86_64, 4 shared cores (Intel Xeon, 2.1 GHz), 15 GB RAM; all heav
 - Smith–Wilkinson, Athreya–Karlin, Kozlov and Afanasyev–Geiger–Kersting–Vatutin: the branching-process-in-random-environment theory, which is background to §§11.2–11.3; no result of theirs is used in a proof.
 - Morita: the $p$-adic Gamma function, whose digits the barrier lemmas concern.
 - Round-2 tracks R2a, R2b and R3: the Fourier framework, RMF and the covering programs that round 3 builds on.
+- Round-2 track R1b: the frozen-state martingale of Theorem 10.1, extended in §§11.2–11.3. Round-2 track R1a: Claim 10.9, compared with in Theorem 11.9. The round-2 computational referee and lead: the period mean and the factorial-digit transfer recursion behind §11.4(d).
+- Kitamura: also the scaled (shifted) DP recurrence and the pair gates that programs B and C of §11.1 reimplement, and the sibling-pairing and value-set statements used in Corollary 11.3 and Theorem 11.4.
+- Classical background cited in §11 (Erdős–Rényi, Garsia, Solomyak, Lyons, Mathieu–Temmel, Feller, Geiger–Kersting, Grama–Lauvergnat–Le Page, the Cusick-conjecture literature): no result of theirs is used in a proof.
 
 ---
 
 ## References
 
 - [ErGr80] P. Erdős, R. L. Graham, *Old and New Problems and Results in Combinatorial Number Theory*, Monographies de L'Enseignement Mathématique 28 (1980), p. 79.
-- [Li76] S. Lin, *On two problems of Erdős concerning sums of distinct factorials*, Bell Laboratories internal memorandum (1960; cited as [Li76] on erdosproblems.com). Unpublished.
+- [Li76] S. Lin, *On two problems of Erdős concerning sums of distinct factorials*, Bell Laboratories internal memorandum. Unpublished. erdosproblems.com prints the year 1960 under the key [Li76]; the plasma-ai/erdos wiki reports that [ErGr80] cites it as "Lin (76)"; we have not seen the monograph.
 - T. F. Bloom, *Erdős Problem #404*, https://www.erdosproblems.com/404, and the forum thread https://www.erdosproblems.com/forum/thread/404 (comments by V. Kovač, 13 Aug 2025; T. Tao, 29 Sep 2025; K. Kitamura, 7–8 Jul 2026). Accessed 2026-10-08.
 - K. Kitamura, `github.com/KitaKen1/erdos-404-p2-landscape` (`README.md`, `determining_exact_values.md`, `witness_gallery.md`) and `github.com/KitaKen1/erdos-404-odd-prime-landscape` (`README.md`), July 2026 (data status 2026-07-06).
 - T. Tao, comments of 29 Sep 2025 in the forum thread for Problem #404 (the block lemma and the depth-$j$ programme).
@@ -2168,3 +2211,15 @@ Machine: Linux x86_64, 4 shared cores (Intel Xeon, 2.1 GHz), 15 GB RAM; all heav
   - V. I. Afanasyev, J. Geiger, G. Kersting, V. A. Vatutin, *Criticality for branching processes in random environment*, Ann. Probab. 33 (2005). The criterion in terms of the associated random walk.
   - M. V. Kozlov, *On the asymptotic behavior of the probability of non-extinction for critical branching processes in a random environment*, Theory Probab. Appl. 21 (1976). Survival asymptotics.
 - [Round 2] K. Kitamura, `KitaKen1/erdos-404-p2-landscape`: `witness_gallery.md` §6 and `determining_exact_values.md` §5 (critical branching process; measured surviving fraction $\approx11.5/G$). Repository last pushed 2026-07-07; re-read 2026-10-12.
+- [Round 3, background and sources; not used in any proof except where stated]
+  - J. Geiger, G. Kersting, *The survival probability of a critical branching process in random environment*, Theory Probab. Appl. 45 (2000) 607–615.
+  - E. Dyakonova, V. Vatutin, S. Sagitov, *Survival of branching processes in random environments* (review), arXiv:1110.6139.
+  - I. Grama, R. Lauvergnat, É. Le Page, critical branching processes in Markovian environments, Stochastic Process. Appl. 129 (2019) 2485–2527, arXiv:1708.00233.
+  - W. Feller, *An Introduction to Probability Theory and Its Applications*, Vol. II, §XII.7 (fluctuation theory of random walks).
+  - R. Lyons, *Random walks and percolation on trees*, Ann. Probab. 18 (1990); *Random walks, capacity and percolation on trees*, Ann. Probab. 20 (1992).
+  - P. Mathieu, C. Temmel, *K-independent percolation on trees*, Stochastic Process. Appl. 122 (2012), arXiv:1103.1291.
+  - P. Erdős, A. Rényi, *Probabilistic methods in group theory*, J. Analyse Math. 14 (1965).
+  - A. M. Garsia, *Arithmetic properties of Bernoulli convolutions*, Trans. Amer. Math. Soc. 102 (1962); B. Solomyak, *On the random series $\sum\pm\lambda^n$ (an Erdős problem)*, Ann. of Math. 142 (1995).
+  - M. Drmota, M. Kauers, L. Spiegelhofer, *On a conjecture of Cusick concerning the sum of digits of n and n+t*, SIAM J. Discrete Math. 30 (2016); L. Spiegelhofer, M. Wallner, *The binary digits of n+t*, arXiv:2005.07167.
+  - K. Kitamura, `KitaKen1/erdos-404-p2-landscape`: `witness_gallery.md` §9 and `determining_exact_values.md` §5 (the $a=594$ ladder); `scripts/p2_scaled_gate_search.py`. HEAD `32697193`, re-read 2026-10-13.
+  - `plasma-ai/erdos` (claims wiki, commit `4e4895c8`) and grandchallenge/MATH-PROGRAMME issue #1674, accessed 2026-10-13.

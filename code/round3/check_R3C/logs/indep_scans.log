@@ -1,0 +1,16 @@
+# command: python3 code/round3/check_R3C/indep.py scans
+# host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz  vmem cap (KB): 0
+# start: 2026-10-13 19:40:12 UTC
+p=29 t=1 claimed H_t=7: H:missed = 5:L10.11 6:L10.11 7:0
+p=29 t=2 claimed H_t=13: H:missed = 10:451 11:236 12:67 13:0
+p=29 t=3 claimed H_t=19: H:missed = 15:7865 16:2184 17:244 18:2 19:0
+p=29 t=4 claimed H_t=24: H:missed = 20:217553 21:68067 22:5475 23:30 24:0
+p=29 t=5 claimed H_t=29: H:missed = 25:5738438 26:1596825 27:112912 28:730 29:0
+p=31 t=1 claimed H_t=7: H:missed = 5:L10.11 6:L10.11 7:0
+p=31 t=2 claimed H_t=14: H:missed = 10:489 11:151 12:14 13:4 14:0
+p=31 t=3 claimed H_t=19: H:missed = 15:12150 16:4204 17:646 18:42 19:0
+p=31 t=4 claimed H_t=25: H:missed = 20:377755 21:147391 22:31352 23:1066 24:2 25:0
+p=31 t=5 claimed H_t=30: H:missed = 25:11567544 26:4565402 27:684050 28:18070 29:10 30:0
+# wall=1.303 s user=0.899 s sys=0.487 s
+# exit status: 0
+# end: 2026-10-13 19:40:14 UTC

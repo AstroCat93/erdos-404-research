@@ -78,6 +78,27 @@ def main():
     print("max q_A over [2400, 4e6]: %.5f (report: <= 0.04)" % worst_qA)
     print("1 - H(0.36) = %.5f, 1 - H(0.04) = %.5f" % (1 - (-(0.36 * math.log2(0.36) + 0.64 * math.log2(0.64))),
                                                      1 - (-(0.04 * math.log2(0.04) + 0.96 * math.log2(0.96)))))
+    # Theorem A' (note Theorem 11.9): closed form 2^(-K-15) + c K^2 2^(-K/6) + mu(C)(2^(-0.1732(K-5)) + 2^(-K/6))
+    # <= 2^(-K/7) for K in [1024, 4e6], with q = (k-1)/(K-1-a) <= 0.26, k = ellC + z(ns) + ceil(K/6) + 1,
+    # ns = floor(K/6).  The report uses c = 0.911; the derivation 2.05 * 2^3 * (K/6)^2 * 2^(-(K/6-1))
+    # gives c = 32.8/36 = 0.91111..., so both constants are tested.
+    for c in (0.911, 32.8 / 36):
+        bad, worst_q2, minm = [], 0.0, 1e9
+        for K in range(1024, 4_000_001):
+            ns = K // 6
+            for (a, lam, muC) in ((3, 1, 1 / 8), (4, 3, 1 / 16)):
+                ellC = 0 if lam == 1 else (lam - 1) + ((2 * lam).bit_length() - 1)
+                k = ellC + z(ns) + (-(-K // 6)) + 1
+                worst_q2 = max(worst_q2, (k - 1) / (K - 1 - a))
+                lg = lse2([-K - 15, math.log2(c) + 2 * math.log2(K) - K / 6,
+                           math.log2(muC) - 0.1732 * (K - 5), math.log2(muC) - K / 6])
+                m = -K / 7 - lg
+                minm = min(minm, m)
+                if m < 0:
+                    bad.append(K)
+        print("Theorem A' closed form with c=%.6f: violations in [1024,4e6]: %d (first %s); min margin %.4f bits; max q %.5f (report <= 0.26)"
+              % (c, len(bad), bad[:3], minm, worst_q2))
+    print("1 - H(0.26) = %.5f" % (1 - (-(0.26 * math.log2(0.26) + 0.74 * math.log2(0.74)))))
     print("time %.1fs" % (time.time() - t0))
 
 

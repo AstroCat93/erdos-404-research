@@ -14,7 +14,7 @@ This repository is a research note on [Erdős Problem #404](https://www.erdospro
 
 **Status check, 2026-10-12.** There are no new results on #404 by others since this note was first written (8 Oct). The following show no change: the problem page (last edited 29 Sep 2025, 0 proof claims), Kitamura's repositories (last pushed 7–8 Jul 2026), the teorth/erdosproblems database (status `open`) and arXiv. A Lean formalization of the *statement* of #404 is under review in google-deepmind/formal-conjectures (PR #6936, still open). The workflow lead checked on 11 Oct, and the round-2 novelty referee re-checked on 12 Oct.
 
-The full write-up is [`note.md`](note.md). **The mathematics, code and text were produced by AI** (see [AI disclosure](#ai-disclosure-and-authorship)). No human has verified the mathematics. Two rounds of three AI referees (logic, computation, novelty) have checked it: note.md §9 for round 1 and §10.8 for round 2.
+The full write-up is [`note.md`](note.md). **The mathematics, code and text were produced by AI** (see [AI disclosure](#ai-disclosure-and-authorship)). No human has verified the mathematics. Three rounds of three AI referees (logic, computation, novelty) have checked it: note.md §9 for round 1, §10.8 for round 2 and §11.8 for round 3. In round 3, each research track was also checked by a separate AI instance with its own code.
 
 ## The problem
 
@@ -35,7 +35,7 @@ Round 3 was produced by a third AI-assisted session. Each of six tracks was chec
 | | Statement | Status |
 |---|---|---|
 | Thm 11.2, 11.4 | **$f(a,2)<\infty$ for every $a\le32768$, with exact values.** $f(594,2)=90394$ (Kitamura's live test case; Kitamura had $\ge66126$). $f(17662,2)=221465$, the largest excess $g_2=203812$ known. Shadow values $f(2^t-2,2)$ for $t=14,\dots,17$. Kitamura's exact table reached $a\le256$ | computer-assisted: at least two independently written exhaustive programs (three for 594), plus an explicit witness verified exactly by three verifiers |
-| Thm 11.7, Cor 11.8 | **Explicit rate at $p=2$:** $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$; $\delta_G(2)\le0.10051$ for $G\ge2^{37}$ (first improvement on the census bound $0.1016$). Meaningful only at astronomically large $G$; the data suggest $\approx c/G$ | computer-assisted (a $2^{16}$-case certificate and a closed-form check); proof written out |
+| Thm 11.7, Cor 11.8 | **Explicit rate at $p=2$:** $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$; $\delta_G(2)\le0.10051$ for $G\ge2^{37}$ (the first proved bound below round 1's census value $0.1016$ that applies at large $G$). Meaningful only at astronomically large $G$; the data suggest $\approx c/G$ | computer-assisted (a $2^{16}$-case certificate and a closed-form check); proof written out |
 | Lemma 11.6 | Every zero of an $F_e$ in the good set has multiplicity $\le2$ (exactly 1 on $8\mathbb Z_2$) | proved |
 | Prop 11.10–11.13, Thm 11.14 | Odd $p$: the exact first-moment machinery of §10.1 at every odd prime; an exact second-moment identity; per-window Cauchy–Schwarz provably cannot work. **Conditional:** a fine-scale equidistribution hypothesis FE implies $\mu(K_p)>0$ | proved (FE unproved; of barrier type; numerically plausible at $p\ge5$, doubtful at $p=3$) |
 | Thm 11.17–11.19 | Single gate blocks satisfy the random-model Fourier bound at every level: $\sup_d\rho_d\le1.3203,1.1760,1.8377,1.2064$ ($p=5,7,11,13$). This explains round 2's ratio $\approx1.17$ as an explicit constant $J_p$ | proved; certified constants computer-assisted |

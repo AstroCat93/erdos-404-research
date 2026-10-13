@@ -1,0 +1,13 @@
+falsified row: 29 5 36 uniform FAIL
+rows: 120  classes: {'FALSIFIED': 1, 'confirmed': 63, 'known': 11, 'mixed': 4, 'not run': 21, 'proved': 20}
+minimal-H_t predictions (registered first HOLD-band H vs scans):
+  p=29 t=2: registered 14, observed minimal 13 -> NOT confirmed
+  p=29 t=3: registered 19, observed minimal 19 -> confirmed
+  p=29 t=4: registered 24, observed minimal 24 -> confirmed
+  p=29 t=5: registered 29, observed minimal 29 -> confirmed
+  p=29 t=6: registered 40, observed minimal 40 -> confirmed
+  p=31 t=2: registered 14, observed minimal 14 -> confirmed
+  p=31 t=3: registered 19, observed minimal 19 -> confirmed
+  p=31 t=4: registered 25, observed minimal 25 -> confirmed
+  p=31 t=5: registered 30, observed minimal 30 -> confirmed
+  p=31 t=6: registered 41, observed minimal 41 -> confirmed
