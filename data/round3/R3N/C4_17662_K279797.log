@@ -105,3 +105,4 @@ dfsW4 (WL=4) a=17662 K=279797 witness=/tmp/r3_R3N/w17662_279797.txt
 checkpoint read: e1=1 J=92 nodes=17854267419 best=221465 (previous elapsed 2400.0s)
 resumed at level 92 depth 128
 [60s] level=131 M=51134 nlev=197 maxlevel=797 nodes=18292267664 surv=45330432 fulladds=351914433 best=221465
+[120s] level=166 M=60074 nlev=197 maxlevel=797 nodes=18654817802 surv=46256128 fulladds=359688265 best=221465
