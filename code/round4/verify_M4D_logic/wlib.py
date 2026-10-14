@@ -190,6 +190,26 @@ def F_fibre(sums, q, p, D, k, xi, u):
     return tot
 
 
+def F_table(sums, q, p, D, k, u):
+    """dict xi -> F^q(xi) for all xi mod p^k, via ONE numpy FFT of the law mod p^(D+k) (float).
+    numpy.fft.fft(a)[z] = sum_r a[r] exp(-2 pi i z r / P), i.e. hat mu(z) with the sign convention of
+    M4D section 3.  Cross-validated against the direct sum F_fibre in w1_abstract.py (see 'FFT' check)."""
+    import numpy as np
+    K = D + k
+    PK = p ** K
+    arr = np.zeros(PK)
+    for r, c in law(sums, q, PK).items():
+        arr[r] = float(c)
+    pw = np.abs(np.fft.fft(arr)) ** 2
+    pk = p ** k
+    uinv = pow(u, -1, pk) if k > 0 else 0
+    out = {}
+    for xi in range(pk):
+        c = xi * uinv % pk if k > 0 else 0
+        out[xi] = float(pw[c::pk].sum()) if k > 0 else float(pw.sum())
+    return out
+
+
 def lifts_of(sums, p, D, Dp):
     """dict r (mod p^D) -> dict s (mod p^(D+D')) -> list of f."""
     K = D + Dp

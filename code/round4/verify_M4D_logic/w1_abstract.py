@@ -36,7 +36,7 @@ import sys
 import cmath
 from fractions import Fraction
 
-from wlib import (subset_sums, law, coll, fine_tilde, chi2, composite_fine, fourier, F_fibre,
+from wlib import (subset_sums, law, coll, fine_tilde, chi2, composite_fine, fourier, F_fibre, F_table,
                   hm_and_qstar, rand_prob)
 
 
@@ -194,10 +194,15 @@ def main():
                         break
             # W3b
             if psi:
+                Ftab = F_table(sums, q, p, D, Dp, u)
+                for xi in range(1, pDp):  # FFT route vs direct Fourier sum
+                    st['FFT_n'] = st.get('FFT_n', 0) + 1
+                    if abs(Ftab[xi] - F_fibre(sums, q, p, D, Dp, xi, u)) > 1e-9 * max(1.0, Ftab[xi]):
+                        st['FFT'] = st.get('FFT', 0) + 1
                 for (cl, xi), lst in psi.items():
                     WP = float(sum(pars[i][2] for i in classes[cl]))
                     lhs = (pD ** 2) * sum(abs(z) ** 2 for z in lst) / pK
-                    rhs = WP ** 2 * F_fibre(sums, q, p, D, Dp, xi, u)
+                    rhs = WP ** 2 * Ftab[xi]
                     st['W3b_n'] += 1
                     if lhs > rhs * (1 + 1e-9) + 1e-9:
                         st['W3b'] += 1
@@ -252,7 +257,8 @@ def main():
           f"W3a fails {st['W3a']}; W3b fails {st['W3b']}/{st['W3b_n']}; W4~ fails {st['W4t']} (max ratio "
           f"{worst_t:.4f}); W4 sharp fails {st['W4s']} (max ratio {worst_s:.4f}); Fourier ids fail "
           f"{st['W4sid']}+{st['W4tid']}; single-parent equality fails {st['W4eq']}/{st['W4eq_n']}; "
-          f"W5a fails {st['W5a']}/{st['W5a_n']}; W5b fails {st['W5b']}; W5c fails {st['W5c']}/{st['W5c_n']} | "
+          f"W5a fails {st['W5a']}/{st['W5a_n']}; W5b fails {st['W5b']}; W5c fails {st['W5c']}/{st['W5c_n']}; "
+          f"FFT vs direct F mismatches {st.get('FFT', 0)}/{st.get('FFT_n', 0)} | "
           f"CONTROLS: NEG1 (q' uses fresh digit) W1 broken in {st['NEG1']}/{st['sys'] * 5}; "
           f"NEG2 (uniform q, m=0) non-constant in {st['NEG2']}/{st['NEG2_n']}; "
           f"NEG3 (unit 2u) equality broken in {st['NEG3']}/{st['NEG3_n']}")

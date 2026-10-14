@@ -1,0 +1,180 @@
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 3 6U 4 20 5 5 4 U 30 8
+## start 2026-10-14T02:20:25Z
+Traceback (most recent call last):
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 343, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in main
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in <genexpr>
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+                                   ~~~^^^
+ValueError: invalid literal for int() with base 10: '6U'
+## exit 1, wall 0 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 3 6R 4 20 5 5 4 R 30 8
+## start 2026-10-14T02:20:25Z
+Traceback (most recent call last):
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 343, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in main
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in <genexpr>
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+                                   ~~~^^^
+ValueError: invalid literal for int() with base 10: '6R'
+## exit 1, wall 0 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 3 6S 4 20 5 5 4 S 30 8
+## start 2026-10-14T02:20:25Z
+Traceback (most recent call last):
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 343, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in main
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in <genexpr>
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+                                   ~~~^^^
+ValueError: invalid literal for int() with base 10: '6S'
+## exit 1, wall 0 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 3 6P 4 20 5 5 4 P 30 8
+## start 2026-10-14T02:20:25Z
+Traceback (most recent call last):
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 343, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in main
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in <genexpr>
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+                                   ~~~^^^
+ValueError: invalid literal for int() with base 10: '6P'
+## exit 1, wall 0 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 5 6U 4 20 5 5 5 U 10 7
+## start 2026-10-14T02:20:25Z
+Traceback (most recent call last):
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 343, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in main
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in <genexpr>
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+                                   ~~~^^^
+ValueError: invalid literal for int() with base 10: '6U'
+## exit 1, wall 0 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 5 6R 4 20 5 5 5 R 10 7
+## start 2026-10-14T02:20:25Z
+Traceback (most recent call last):
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 343, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in main
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in <genexpr>
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+                                   ~~~^^^
+ValueError: invalid literal for int() with base 10: '6R'
+## exit 1, wall 0 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 5 6S 4 20 5 5 5 S 10 7
+## start 2026-10-14T02:20:25Z
+Traceback (most recent call last):
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 343, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in main
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in <genexpr>
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+                                   ~~~^^^
+ValueError: invalid literal for int() with base 10: '6S'
+## exit 1, wall 1 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 5 6P 4 20 5 5 5 P 10 7
+## start 2026-10-14T02:20:26Z
+Traceback (most recent call last):
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 343, in <module>
+    main()
+    ~~~~^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in main
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py", line 44, in <genexpr>
+    p, seed, nA, n0, H0, H1, H2 = (int(t) for t in a[:7])
+                                   ~~~^^^
+ValueError: invalid literal for int() with base 10: '6P'
+## exit 1, wall 0 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 7 701 4 28 7 7 5 S 4 4
+## start 2026-10-14T02:20:26Z
+RESULT w3_chain p=7 n=(28,35,42,47) sched=S atoms A=4 (tries 23; parent subsets used in 4), points=784: MEAS fails B2 0, eps2 0, q*1 0, M1 0, M2 0; MART fails 0+0+0+0; CS1 fails 0; INC1 fails 0 (max ratio 0.0000); INC2 fails 0/28 (max ratio 0.0000); W5c fails 0/4 (l=1), 0/28 (l=2); MONO fails 0; REC fails 0+0+0; PZ fails 0/4; SURV fails 0/784 | CONTROL NEGM (q1 uses a fresh digit): martingale broken on 0/4 atoms
+## exit 0, wall 131 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 7 702 3 28 7 7 5 P 4 4
+## start 2026-10-14T02:22:37Z
+RESULT w3_chain p=7 n=(28,35,42,47) sched=P atoms A=3 (tries 19; parent subsets used in 3), points=735: MEAS fails B2 0, eps2 0, q*1 0, M1 0, M2 0; MART fails 0+0+0+0; CS1 fails 0; INC1 fails 0 (max ratio 0.3190); INC2 fails 0/21 (max ratio 0.0652); W5c fails 0/0 (l=1), 0/0 (l=2); MONO fails 0; REC fails 0+0+0; PZ fails 0/3; SURV fails 0/735 | CONTROL NEGM (q1 uses a fresh digit): martingale broken on 3/3 atoms
+## exit 0, wall 89 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 7 703 2 28 7 7 5 R 4 4
+## start 2026-10-14T02:24:06Z
+RESULT w3_chain p=7 n=(28,35,42,47) sched=R atoms A=2 (tries 6; parent subsets used in 2), points=392: MEAS fails B2 0, eps2 0, q*1 0, M1 0, M2 0; MART fails 0+0+0+0; CS1 fails 0; INC1 fails 0 (max ratio 0.0035); INC2 fails 0/14 (max ratio 0.0014); W5c fails 0/0 (l=1), 0/0 (l=2); MONO fails 0; REC fails 0+0+0; PZ fails 0/1; SURV fails 0/392 | CONTROL NEGM (q1 uses a fresh digit): martingale broken on 2/2 atoms
+## exit 0, wall 70 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 7 704 2 28 7 7 5 U 4 4
+## start 2026-10-14T02:25:16Z
+RESULT w3_chain p=7 n=(28,35,42,47) sched=U atoms A=2 (tries 4; parent subsets used in 2), points=392: MEAS fails B2 0, eps2 0, q*1 0, M1 0, M2 0; MART fails 0+0+0+0; CS1 fails 0; INC1 fails 0 (max ratio 0.3826); INC2 fails 0/14 (max ratio 0.0131); W5c fails 0/0 (l=1), 0/0 (l=2); MONO fails 0; REC fails 0+0+0; PZ fails 0/2; SURV fails 0/392 | CONTROL NEGM (q1 uses a fresh digit): martingale broken on 2/2 atoms
+## exit 0, wall 52 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 3 601 4 20 5 5 4 U 30 8
+## start 2026-10-14T02:36:31Z
+RESULT w3_chain p=3 n=(20,25,30,34) sched=U atoms A=4 (tries 99; parent subsets used in 2), points=4374: MEAS fails B2 0, eps2 0, q*1 0, M1 0, M2 0; MART fails 0+0+0+0; CS1 fails 0; INC1 fails 0 (max ratio 0.0296); INC2 fails 0/54 (max ratio 0.1919); W5c fails 0/0 (l=1), 0/0 (l=2); MONO fails 0; REC fails 0+0+0; PZ fails 0/4; SURV fails 0/4374 | CONTROL NEGM (q1 uses a fresh digit): martingale broken on 4/4 atoms
+## exit 0, wall 31 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 3 602 4 20 5 5 4 R 30 8
+## start 2026-10-14T02:37:02Z
+RESULT w3_chain p=3 n=(20,25,30,34) sched=R atoms A=4 (tries 37; parent subsets used in 1), points=4374: MEAS fails B2 0, eps2 0, q*1 0, M1 0, M2 0; MART fails 0+0+0+0; CS1 fails 0; INC1 fails 0 (max ratio 0.0131); INC2 fails 0/54 (max ratio 0.0160); W5c fails 0/0 (l=1), 0/0 (l=2); MONO fails 0; REC fails 0+0+0; PZ fails 0/0; SURV fails 0/4359 | CONTROL NEGM (q1 uses a fresh digit): martingale broken on 4/4 atoms
+## exit 0, wall 28 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 3 603 4 20 5 5 4 S 30 8
+## start 2026-10-14T02:37:30Z
+RESULT w3_chain p=3 n=(20,25,30,34) sched=S atoms A=4 (tries 46; parent subsets used in 3), points=5832: MEAS fails B2 0, eps2 0, q*1 0, M1 0, M2 0; MART fails 0+0+0+0; CS1 fails 0; INC1 fails 0 (max ratio 0.0025); INC2 fails 0/72 (max ratio 0.0263); W5c fails 0/0 (l=1), 0/0 (l=2); MONO fails 0; REC fails 0+0+0; PZ fails 0/4; SURV fails 0/5832 | CONTROL NEGM (q1 uses a fresh digit): martingale broken on 4/4 atoms
+## exit 0, wall 40 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 3 604 4 20 5 5 4 P 30 8
+## start 2026-10-14T02:38:10Z
+RESULT w3_chain p=3 n=(20,25,30,34) sched=P atoms A=4 (tries 34; parent subsets used in 2), points=2916: MEAS fails B2 0, eps2 0, q*1 0, M1 0, M2 0; MART fails 0+0+0+0; CS1 fails 0; INC1 fails 0 (max ratio 0.1258); INC2 fails 0/36 (max ratio 0.1643); W5c fails 0/0 (l=1), 0/0 (l=2); MONO fails 0; REC fails 0+0+0; PZ fails 0/0; SURV fails 0/2916 | CONTROL NEGM (q1 uses a fresh digit): martingale broken on 4/4 atoms
+## exit 0, wall 24 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 5 651 4 20 5 5 5 U 10 7
+## start 2026-10-14T02:38:34Z
+RESULT w3_chain p=5 n=(20,25,30,35) sched=U atoms A=4 (tries 7; parent subsets used in 4), points=900: MEAS fails B2 0, eps2 0, q*1 0, M1 0, M2 0; MART fails 0+0+0+0; CS1 fails 0; INC1 fails 0 (max ratio 0.1309); INC2 fails 0/15 (max ratio 0.0247); W5c fails 0/0 (l=1), 0/0 (l=2); MONO fails 0; REC fails 0+0+0; PZ fails 0/3; SURV fails 0/875 | CONTROL NEGM (q1 uses a fresh digit): martingale broken on 4/4 atoms
+## exit 0, wall 20 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 5 652 4 20 5 5 5 R 10 7
+## start 2026-10-14T02:38:54Z
+RESULT w3_chain p=5 n=(20,25,30,35) sched=R atoms A=4 (tries 29; parent subsets used in 4), points=1500: MEAS fails B2 0, eps2 0, q*1 0, M1 0, M2 0; MART fails 0+0+0+0; CS1 fails 0; INC1 fails 0 (max ratio 0.0082); INC2 fails 0/20 (max ratio 0.0045); W5c fails 0/0 (l=1), 0/0 (l=2); MONO fails 0; REC fails 0+0+0; PZ fails 0/0; SURV fails 0/1500 | CONTROL NEGM (q1 uses a fresh digit): martingale broken on 4/4 atoms
+## exit 0, wall 38 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 5 653 4 20 5 5 5 S 10 7
+## start 2026-10-14T02:39:32Z
+RESULT w3_chain p=5 n=(20,25,30,35) sched=S atoms A=4 (tries 22; parent subsets used in 4), points=2000: MEAS fails B2 0, eps2 0, q*1 0, M1 0, M2 0; MART fails 0+0+0+0; CS1 fails 0; INC1 fails 0 (max ratio 0.1733); INC2 fails 0/20 (max ratio 0.0042); W5c fails 0/1 (l=1), 0/5 (l=2); MONO fails 0; REC fails 0+0+0; PZ fails 0/4; SURV fails 0/2000 | CONTROL NEGM (q1 uses a fresh digit): martingale broken on 3/4 atoms
+## exit 0, wall 41 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w3_chain.py 5 654 4 20 5 5 5 P 10 7
+## start 2026-10-14T02:40:13Z
+RESULT w3_chain p=5 n=(20,25,30,35) sched=P atoms A=4 (tries 10; parent subsets used in 3), points=1000: MEAS fails B2 0, eps2 0, q*1 0, M1 0, M2 0; MART fails 0+0+0+0; CS1 fails 0; INC1 fails 0 (max ratio 0.2036); INC2 fails 0/20 (max ratio 0.1037); W5c fails 0/0 (l=1), 0/0 (l=2); MONO fails 0; REC fails 0+0+0; PZ fails 0/4; SURV fails 0/1000 | CONTROL NEGM (q1 uses a fresh digit): martingale broken on 4/4 atoms
+## exit 0, wall 30 s
+

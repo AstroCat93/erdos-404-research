@@ -1,0 +1,56 @@
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 w1_validate.py 3 11 12 18 3 3
+# start 2026-10-14T02:33:36Z
+p=3 seed=11 ncyl=12 n=18 H=3 H2=3
+{'cyl': 12, 'pts': 144, 'mismatchN': 0, 'mismatchN2': 0, 'w1a_bad': 0, 'hislope_child_slope0': 0, 'children_checked': 0, 'void': 114, 'DD': [(1, 1), (1, 2), (1, 1), (1, 1), (1, 1), (1, 1), (1, 2), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)], 'nP0': 122, 'nPall': 122}
+RESULT OK failures=0
+# exit 0  wall 1 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 w1_validate.py 3 12 6 24 4 4
+# start 2026-10-14T02:33:37Z
+p=3 seed=12 ncyl=6 n=24 H=4 H2=4
+{'cyl': 6, 'pts': 144, 'mismatchN': 0, 'mismatchN2': 0, 'w1a_bad': 0, 'hislope_child_slope0': 0, 'children_checked': 0, 'void': 62, 'DD': [(2, 1), (2, 1), (2, 1), (2, 1), (1, 1), (2, 1)], 'nP0': 276, 'nPall': 276}
+RESULT OK failures=0
+# exit 0  wall 0 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 w1_validate.py 5 13 10 15 5 5
+# start 2026-10-14T02:33:37Z
+p=5 seed=13 ncyl=10 n=15 H=5 H2=5
+{'cyl': 10, 'pts': 250, 'mismatchN': 0, 'mismatchN2': 0, 'w1a_bad': 0, 'hislope_child_slope0': 0, 'children_checked': 1341, 'void': 61, 'DD': [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)], 'nP0': 141, 'nPall': 165}
+RESULT OK failures=0
+# exit 0  wall 1 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 w1_validate.py 5 14 5 20 5 5
+# start 2026-10-14T02:33:38Z
+p=5 seed=14 ncyl=5 n=20 H=5 H2=5
+{'cyl': 5, 'pts': 225, 'mismatchN': 0, 'mismatchN2': 0, 'w1a_bad': 0, 'hislope_child_slope0': 0, 'children_checked': 4887, 'void': 21, 'DD': [(1, 1), (1, 1), (1, 1), (1, 2), (1, 1)], 'nP0': 549, 'nPall': 636}
+RESULT OK failures=0
+# exit 0  wall 7 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 w1_validate.py 7 15 6 14 3 7
+# start 2026-10-14T02:33:45Z
+p=7 seed=15 ncyl=6 n=14 H=3 H2=7
+{'cyl': 6, 'pts': 42, 'mismatchN': 0, 'mismatchN2': 0, 'w1a_bad': 0, 'hislope_child_slope0': 0, 'children_checked': 0, 'void': 11, 'DD': [(0, 1), (0, 1), (0, 1), (0, 1), (0, 1), (0, 1)], 'nP0': 661, 'nPall': 661}
+RESULT OK failures=0
+# exit 0  wall 2 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 w1_validate.py 7 16 4 14 6 3
+# start 2026-10-14T02:33:47Z
+p=7 seed=16 ncyl=4 n=14 H=6 H2=3
+{'cyl': 4, 'pts': 28, 'mismatchN': 0, 'mismatchN2': 0, 'w1a_bad': 0, 'hislope_child_slope0': 0, 'children_checked': 0, 'void': 40, 'DD': [(0, 1), (0, 1), (0, 1), (0, 1)], 'nP0': 450, 'nPall': 450}
+RESULT OK failures=0
+# exit 0  wall 2 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 w1_validate.py 5 13 10 15 5 5 60000 1
+# start 2026-10-14T02:33:49Z
+p=5 seed=13 ncyl=10 n=15 H=5 H2=5
+{'cyl': 10, 'pts': 250, 'mismatchN': 0, 'mismatchN2': 249, 'w1a_bad': 0, 'hislope_child_slope0': 0, 'children_checked': 1341, 'void': 61, 'DD': [(1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)], 'nP0': 141, 'nPall': 165}
+RESULT FAIL failures=249
+# exit 0  wall 1 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 w1_validate.py 3 11 12 18 3 3 60000 1
+# start 2026-10-14T02:33:50Z
+p=3 seed=11 ncyl=12 n=18 H=3 H2=3
+{'cyl': 12, 'pts': 144, 'mismatchN': 0, 'mismatchN2': 121, 'w1a_bad': 0, 'hislope_child_slope0': 0, 'children_checked': 0, 'void': 114, 'DD': [(1, 1), (1, 2), (1, 1), (1, 1), (1, 1), (1, 1), (1, 2), (1, 1), (1, 1), (1, 1), (1, 1), (1, 1)], 'nP0': 122, 'nPall': 122}
+RESULT FAIL failures=121
+# exit 0  wall 0 s

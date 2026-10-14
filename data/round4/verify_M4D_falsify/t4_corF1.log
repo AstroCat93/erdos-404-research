@@ -405,3 +405,30 @@ TOTAL FAILURES 0
 ================================================================
 $ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 7 7 0 0 7 7 7 7
 # start 2026-10-14T02:09:27Z
+base cylinder B = 0 + 7^0 Z_p
+p=7 chain=[7, 14, 21, 28] kcap=7  determined cylinders=25725  unknown mass U=4/2401 (~0.00167)  time=93.8s
+pointwise: hypotheses held on (cylinders) {'const 2/3': 2499, 'const 6/7': 2107, 'const 1': 1617, 'min(p^-D)': 6468, 'const 1/7': 4116, 'const 1/3': 2254, 'const 1/2': 1666} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.623533  mu(A&|T_L|>=th p^D)=0.623533  mu(A&I0)=0.624204  sum mu(A\L_l)=0.491759  RHS=0.132445  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.623533  mu(A&|T_L|>=th p^D)=0.623533  mu(A&I0)=0.612423  sum mu(A\L_l)=0.503183  RHS=0.109240  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.623533  mu(A&|T_L|>=th p^D)=0.623473  mu(A&I0)=0.577319  sum mu(A\L_l)=0.482894  RHS=0.094425  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.623533  mu(A&|T_L|>=th p^D)=0.622928  mu(A&I0)=0.517344  sum mu(A\L_l)=0.488725  RHS=0.028619  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.623533  mu(A&|T_L|>=th p^D)=0.622514  mu(A&I0)=0.490688  sum mu(A\L_l)=0.386803  RHS=0.103885  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.623533  mu(A&|T_L|>=th p^D)=0.621203  mu(A&I0)=0.454870  sum mu(A\L_l)=0.267389  RHS=0.187481  OK
+  const 1      A=all   mu(A&alive n_L)=0.623533  mu(A&|T_L|>=th p^D)=0.616291  mu(A&I0)=0.343666  sum mu(A\L_l)=0.264652  RHS=0.079015  OK
+TOTAL FAILURES 0
+# exit 0  wall 95 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 7 10 4 2702400380480991780250187 14 12 12 12
+# start 2026-10-14T02:11:02Z
+base cylinder B = 492 + 7^4 Z_p
+p=7 chain=[14, 26, 38, 50] kcap=10  determined cylinders=2401  unknown mass U=0 (~0)  time=33.4s
+pointwise: hypotheses held on (cylinders) {'min(p^-D)': 2401, 'const 1/7': 2401, 'const 1/3': 2401, 'const 1/2': 2401, 'const 2/3': 2401, 'const 6/7': 2401} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=1.000000  mu(A&|T_L|>=th p^D)=1.000000  mu(A&I0)=1.000000  sum mu(A\L_l)=0.000000  RHS=1.000000  OK
+  const 1/7    A=all   mu(A&alive n_L)=1.000000  mu(A&|T_L|>=th p^D)=1.000000  mu(A&I0)=1.000000  sum mu(A\L_l)=0.000000  RHS=1.000000  OK
+  const 1/3    A=all   mu(A&alive n_L)=1.000000  mu(A&|T_L|>=th p^D)=1.000000  mu(A&I0)=1.000000  sum mu(A\L_l)=0.000000  RHS=1.000000  OK
+  const 1/2    A=all   mu(A&alive n_L)=1.000000  mu(A&|T_L|>=th p^D)=1.000000  mu(A&I0)=1.000000  sum mu(A\L_l)=0.000000  RHS=1.000000  OK
+  const 2/3    A=all   mu(A&alive n_L)=1.000000  mu(A&|T_L|>=th p^D)=1.000000  mu(A&I0)=1.000000  sum mu(A\L_l)=0.000000  RHS=1.000000  OK
+  const 6/7    A=all   mu(A&alive n_L)=1.000000  mu(A&|T_L|>=th p^D)=1.000000  mu(A&I0)=1.000000  sum mu(A\L_l)=0.000000  RHS=1.000000  OK
+  const 1      A=all   mu(A&alive n_L)=1.000000  mu(A&|T_L|>=th p^D)=1.000000  mu(A&I0)=1.000000  sum mu(A\L_l)=1.000000  RHS=0.000000  OK
+TOTAL FAILURES 0
+# exit 0  wall 33 s

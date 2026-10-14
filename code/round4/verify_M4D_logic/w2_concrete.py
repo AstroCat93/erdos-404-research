@@ -28,7 +28,7 @@ import cmath
 from fractions import Fraction
 
 from wlib import (vp, prods, Vof, Mof, grow, alive_slope0, win_elems, win_unit, subset_sums, law, chi2,
-                  fine_tilde, composite_fine, fourier, F_fibre, hm_and_qstar, rand_prob, S_and_dS)
+                  fine_tilde, composite_fine, fourier, F_fibre, F_table, hm_and_qstar, rand_prob, S_and_dS)
 
 
 def main():
@@ -188,10 +188,11 @@ def main():
                 if len(set(v)) != 1:
                     bump('W3a')
                     break
+            Ftab = F_table(sums, q, p, D, Dp, u) if psi else {}
             for (cl, xi), lst in psi.items():
                 WP = float(p ** m * sum(wts[e] for e in classes[cl]))
                 lhs = float(p ** (2 * (m + D))) * sum(abs(zz) ** 2 for zz in lst) / pK
-                rhs = WP ** 2 * F_fibre(sums, q, p, D, Dp, xi, u)
+                rhs = WP ** 2 * Ftab[xi]
                 bump('W3b_n')
                 if lhs > rhs * (1 + 1e-9) + 1e-6:
                     bump('W3b')
