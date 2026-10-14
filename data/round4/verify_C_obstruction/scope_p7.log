@@ -1,0 +1,9 @@
+### command: nice -n 10 python3 code/round4/verify_C_obstruction/reassemble.py 7 1.428223e-02 1.125488e-01 3.061401e+00 1   (scope: confirm p=7 is outside the method)
+### start: 2026-10-14T03:05:38Z
+    ~~~~^^
+  File "/home/user/erdos-404-research/code/round4/verify_C_obstruction/reassemble.py", line 179, in main
+    assert NW >= 2 * s + 2, f"T2 fails at l={l}"
+           ^^^^^^^^^^^^^^^
+AssertionError: T2 fails at l=11
+### wall: 1 s
+# (inline check, same session) p=7 phase-1 blocks [3, 4, 5, 6, 7, 9, 13, 16, 23, 30, 44, 48] k0=10; first phase-2 window N_W = 48-44 = 4 < 8 <= 2s+2: (T2) fails, as M4C section 12 item 6 states

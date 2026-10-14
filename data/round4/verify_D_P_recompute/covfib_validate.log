@@ -1,0 +1,32 @@
+=== command: python3 covfib_validate.py /tmp/r4_verify_D_P_recompute/covfib /tmp/r4_verify_D_P_recompute/covchk
+=== start (UTC): 2026-10-14T03:37:59Z
+Cov(7,3,18) k=1: classes 42, failing classes 21, total missing 224, mismatches 0
+Cov(7,3,18) k=2: classes 42, failing classes 21, total missing 224, mismatches 0
+Cov(7,3,19) k=1: classes 42, failing classes 0, total missing 0, mismatches 0
+Cov(7,3,19) k=2: classes 42, failing classes 0, total missing 0, mismatches 0
+Cov(7,4,25) k=1: classes 294, failing classes 49, total missing 2660, mismatches 0
+Cov(7,4,25) k=2: classes 294, failing classes 49, total missing 2660, mismatches 0
+Cov(7,4,25) k=3: classes 294, failing classes 49, total missing 2660, mismatches 0
+Cov(7,4,26) k=2: classes 294, failing classes 0, total missing 0, mismatches 0
+Cov(5,3,19) k=1: classes 100, failing classes 2, total missing 5, mismatches 0
+Cov(5,3,19) k=2: classes 100, failing classes 2, total missing 5, mismatches 0
+Cov(5,4,25) k=2: classes 500, failing classes 0, total missing 0, mismatches 0
+Cov(5,4,25) k=3: classes 500, failing classes 0, total missing 0, mismatches 0
+Cov(13,2,14) k=1: classes 12, failing classes 12, total missing 22308, mismatches 0
+Cov(13,5,32) k=1: classes 156, failing classes 0, total missing 0, mismatches 0
+Cov(13,5,32) k=2: classes 156, failing classes 0, total missing 0, mismatches 0
+Cov(11,5,30) k=1: classes 110, failing classes 0, total missing 0, mismatches 0
+Cov(11,5,30) k=2: classes 110, failing classes 0, total missing 0, mismatches 0
+Cov(13,6,35) k=2: classes 156, failing classes 0, total missing 0, mismatches 0
+Cov(3,3,26) k=1: classes 39366, failing classes 39366, total missing 3160755996, mismatches 0
+Cov(3,3,26) k=2: classes 39366, failing classes 39366, total missing 3160755996, mismatches 0
+Cov(7,6,33) K=5 k=1: covchk missing 2, covfib missing 2
+Cov(7,6,33) K=5 k=2: covchk missing 2, covfib missing 2
+Cov(7,6,34) K=5 k=1: covchk missing 0, covfib missing 0
+Cov(7,6,34) K=5 k=2: covchk missing 0, covfib missing 0
+Cov(7,6,33) K=1 k=1: covchk missing 0, covfib missing 0
+Cov(7,6,33) K=1 k=2: covchk missing 0, covfib missing 0
+Cov(11,6,32) K=1 k=1: covchk missing 66, covfib missing 66
+Cov(11,6,32) K=1 k=2: covchk missing 66, covfib missing 66
+VALIDATION OK
+=== exit: 0   wall: 203.779278015 s

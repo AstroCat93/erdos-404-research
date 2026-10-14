@@ -1,0 +1,26 @@
+=== command: python3 code/round4/verify_C_logic/vcl_propW.py 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
+=== start: 2026-10-14T02:53:26Z
+p=7 wilson=0 first=[0, 6]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 2 (slope 0: True); report's prediction -w_p mod p = 2 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=11 wilson=0 first=[0, 10]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 10 (slope 0: True); report's prediction -w_p mod p = 10 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=13 wilson=1 first=[0, 1, 2, 3, 4, 8, 9]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 12 (slope 0: True); block [0, 1, 2, 3, 4, 8, 9]: k_e=0, lambda_e=12; block [0,p-1]: k_e=0, lambda_e=0 (equal -> slope>=1); direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=17 wilson=0 first=[0, 16]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 12 (slope 0: True); report's prediction -w_p mod p = 12 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=19 wilson=0 first=[0, 18]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 17 (slope 0: True); report's prediction -w_p mod p = 17 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=23 wilson=0 first=[0, 22]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 15 (slope 0: True); report's prediction -w_p mod p = 15 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=29 wilson=0 first=[0, 28]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 11 (slope 0: True); report's prediction -w_p mod p = 11 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=31 wilson=0 first=[0, 30]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 12 (slope 0: True); report's prediction -w_p mod p = 12 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=37 wilson=0 first=[0, 36]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 30 (slope 0: True); report's prediction -w_p mod p = 30 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=41 wilson=0 first=[0, 40]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 25 (slope 0: True); report's prediction -w_p mod p = 25 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=43 wilson=0 first=[0, 42]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 30 (slope 0: True); report's prediction -w_p mod p = 30 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=47 wilson=0 first=[0, 46]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 41 (slope 0: True); report's prediction -w_p mod p = 41 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=53 wilson=0 first=[0, 52]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 19 (slope 0: True); report's prediction -w_p mod p = 19 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=59 wilson=0 first=[0, 58]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 32 (slope 0: True); report's prediction -w_p mod p = 32 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=61 wilson=0 first=[0, 60]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 5 (slope 0: True); report's prediction -w_p mod p = 5 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=67 wilson=0 first=[0, 66]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 55 (slope 0: True); report's prediction -w_p mod p = 55 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=71 wilson=0 first=[0, 70]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 2 (slope 0: True); report's prediction -w_p mod p = 2 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=73 wilson=0 first=[0, 72]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 62 (slope 0: True); report's prediction -w_p mod p = 62 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=79 wilson=0 first=[0, 78]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 6 (slope 0: True); report's prediction -w_p mod p = 6 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=83 wilson=0 first=[0, 82]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 63 (slope 0: True); report's prediction -w_p mod p = 63 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=89 wilson=0 first=[0, 88]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 19 (slope 0: True); report's prediction -w_p mod p = 19 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+p=97 wilson=0 first=[0, 96]: S_e(0)=0 mod p^3: True; S_e'(0) mod p = 27 (slope 0: True); report's prediction -w_p mod p = 27 -> agrees; direct eval at 20 random x in A: alive & slope 0 in 20/20
+ALL OK
+=== exit: 0   wall: 1 s

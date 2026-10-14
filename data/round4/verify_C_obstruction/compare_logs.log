@@ -1,0 +1,25 @@
+### command: python3 code/round4/verify_C_obstruction/compare_logs.py data/round4/M4C/assemble.log data/round4/verify_C_obstruction/reassemble.log
+### start: 2026-10-14T03:09:35Z
+p=11: phase-1 schedule identical: True; phase-2 windows compared: 12, mismatches: 0
+p=13: phase-1 schedule identical: True; phase-2 windows compared: 11, mismatches: 0
+p=17: phase-1 schedule identical: True; phase-2 windows compared: 8, mismatches: 0
+p=19: phase-1 schedule identical: True; phase-2 windows compared: 10, mismatches: 0
+p=23: phase-1 schedule identical: True; phase-2 windows compared: 7, mismatches: 0
+p=29: phase-1 schedule identical: True; phase-2 windows compared: 6, mismatches: 0
+p=31: phase-1 schedule identical: True; phase-2 windows compared: 9, mismatches: 0
+p=37: phase-1 schedule identical: True; phase-2 windows compared: 4, mismatches: 0
+p=41: phase-1 schedule identical: True; phase-2 windows compared: 4, mismatches: 0
+p=43: phase-1 schedule identical: True; phase-2 windows compared: 3, mismatches: 0
+p=47: phase-1 schedule identical: True; phase-2 windows compared: 3, mismatches: 0
+p=53: phase-1 schedule identical: True; phase-2 windows compared: 2, mismatches: 0
+p=59: phase-1 schedule identical: True; phase-2 windows compared: 1, mismatches: 0
+p=61: phase-1 schedule identical: True; phase-2 windows compared: 1, mismatches: 0
+p=67: phase-1 schedule identical: True; phase-2 windows compared: 0, mismatches: 0
+p=71: phase-1 schedule identical: True; phase-2 windows compared: 0, mismatches: 0
+p=73: phase-1 schedule identical: True; phase-2 windows compared: 0, mismatches: 0
+p=79: phase-1 schedule identical: True; phase-2 windows compared: 0, mismatches: 0
+p=83: phase-1 schedule identical: True; phase-2 windows compared: 0, mismatches: 0
+p=89: phase-1 schedule identical: True; phase-2 windows compared: 0, mismatches: 0
+p=97: phase-1 schedule identical: True; phase-2 windows compared: 0, mismatches: 0
+TOTAL phase-2 windows compared: 81, mismatches: 0
+### wall: 0 s

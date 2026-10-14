@@ -1,0 +1,25 @@
+### command: nice -n 10 python3 code/round4/verify_C_obstruction/propW_check.py 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
+### start: 2026-10-14T02:54:35Z
+p=7 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=2, -w_p mod p=2, lambda-k mod p=2, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=11 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=10, -w_p mod p=10, lambda-k mod p=10, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=13 wilson=True: {0,p-1}: V_3p=3 alive=True slope0=False (S'(0) mod p=0, -w_p mod p=0, lambda-k mod p=0, predicted slope0=False); random x in A ok 0/20 | {0,1,2,3,4,8,9}: V_3p=3 alive=True slope0=True (S'(0) mod p=12, -w_p mod p=0, lambda-k mod p=12, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=17 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=12, -w_p mod p=12, lambda-k mod p=12, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=19 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=17, -w_p mod p=17, lambda-k mod p=17, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=23 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=15, -w_p mod p=15, lambda-k mod p=15, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=29 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=11, -w_p mod p=11, lambda-k mod p=11, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=31 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=12, -w_p mod p=12, lambda-k mod p=12, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=37 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=30, -w_p mod p=30, lambda-k mod p=30, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=41 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=25, -w_p mod p=25, lambda-k mod p=25, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=43 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=30, -w_p mod p=30, lambda-k mod p=30, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=47 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=41, -w_p mod p=41, lambda-k mod p=41, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=53 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=19, -w_p mod p=19, lambda-k mod p=19, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=59 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=32, -w_p mod p=32, lambda-k mod p=32, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=61 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=5, -w_p mod p=5, lambda-k mod p=5, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=67 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=55, -w_p mod p=55, lambda-k mod p=55, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=71 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=2, -w_p mod p=2, lambda-k mod p=2, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=73 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=62, -w_p mod p=62, lambda-k mod p=62, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=79 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=6, -w_p mod p=6, lambda-k mod p=6, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=83 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=63, -w_p mod p=63, lambda-k mod p=63, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=89 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=19, -w_p mod p=19, lambda-k mod p=19, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+p=97 wilson=False: {0,p-1}: V_3p=3 alive=True slope0=True (S'(0) mod p=27, -w_p mod p=27, lambda-k mod p=27, predicted slope0=True); random x in A ok 20/20 | admissibility: m0=3 D0=1 M_4p=1 -> True
+### wall: 0 s

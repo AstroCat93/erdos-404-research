@@ -1,0 +1,271 @@
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_D_W6_falsify && nice -n 10 python3 t_cyl.py 3 20 5 4 101 40 rand,gate_hist,gate_win,near2,tight - 1
+# start 2026-10-14T03:13:03Z
+p=3 n=20 H=5 H2=4 seed=101 ncyl=40 kinds=['rand', 'gate_hist', 'gate_win', 'near2', 'tight'] psub=None kextra=1 maxcombos=1000000000
+cylinders: 32 attempts: 3472 kinds: {'gate_hist': 8, 'rand': 8, 'gate_win': 8, 'tight': 8}
+cylinder table (kind, m, D, D', M_N', #alive_all, #P0_all, #P lines, #grandchildren total, m(W;D'), complete):
+   ('gate_hist', 8, 2, 3, 3, 124, 124, 124, 190464, 6.0375, False)
+   ('rand', 9, 2, 2, 3, 56, 56, 56, 86016, 0.9375, False)
+   ('gate_win', 10, 2, 2, 4, 4, 4, 4, 6144, 1.0, False)
+   ('gate_hist', 8, 2, 3, 3, 72, 72, 72, 110592, 7.160377358490566, False)
+   ('rand', 9, 2, 2, 3, 36, 36, 36, 55296, 1.0, False)
+   ('gate_win', 9, 2, 2, 3, 12, 12, 12, 18432, 1.0, False)
+   ('gate_hist', 10, 2, 2, 4, 16, 16, 16, 24576, 1.0, False)
+   ('gate_hist', 9, 2, 2, 3, 56, 56, 56, 86016, 0.9375, False)
+   ('rand', 9, 3, 1, 3, 44, 44, 44, 67584, 0.0, True)
+   ('gate_hist', 10, 3, 1, 4, 64, 64, 64, 98304, 0.0, True)
+   ('rand', 8, 2, 3, 3, 72, 72, 72, 110592, 7.160377358490566, False)
+   ('gate_win', 8, 2, 3, 3, 60, 60, 60, 92160, 7.160377358490566, False)
+   ('rand', 9, 2, 2, 3, 48, 48, 48, 73728, 0.9375, False)
+   ('gate_win', 8, 2, 3, 3, 76, 76, 76, 116736, 7.160377358490566, False)
+   ('tight', 8, 2, 3, 3, 72, 72, 72, 110592, 7.160377358490566, False)
+   ('gate_win', 8, 2, 3, 3, 92, 92, 92, 141312, 6.0375, False)
+   ('gate_win', 9, 2, 2, 3, 56, 56, 56, 86016, 1.0, False)
+   ('gate_win', 9, 2, 2, 3, 36, 36, 36, 55296, 1.0, False)
+   ('tight', 8, 2, 3, 3, 60, 60, 60, 92160, 7.160377358490566, False)
+   ('gate_hist', 9, 2, 2, 3, 60, 60, 60, 92160, 0.9375, False)
+   ('gate_win', 8, 2, 3, 3, 100, 100, 100, 153600, 6.0375, False)
+   ('rand', 8, 2, 3, 3, 76, 76, 76, 116736, 7.160377358490566, False)
+   ('gate_hist', 10, 3, 1, 4, 68, 68, 68, 104448, 0.0, True)
+   ('tight', 8, 2, 3, 3, 64, 64, 64, 98304, 7.160377358490566, False)
+   ('rand', 9, 3, 1, 3, 32, 32, 32, 49152, 0.0, True)
+   ('gate_hist', 9, 2, 2, 3, 8, 8, 8, 12288, 1.0, False)
+   ('rand', 9, 2, 2, 3, 48, 48, 48, 73728, 0.9375, False)
+   ('tight', 8, 2, 3, 3, 84, 84, 84, 129024, 7.160377358490566, False)
+   ('tight', 8, 2, 3, 3, 92, 92, 92, 141312, 6.0375, False)
+   ('tight', 8, 2, 3, 3, 72, 72, 72, 110592, 7.160377358490566, False)
+   ('tight', 8, 2, 3, 3, 104, 104, 104, 159744, 6.0375, False)
+   ('tight', 8, 2, 3, 3, 88, 88, 88, 135168, 7.160377358490566, False)
+checks:
+  Lemma 2(a) alive set at n identical at sampled x' (BFS): checks 32 failures 0
+  Lemma 2(a) parents alive/slope constant on C: checks 32 failures 0
+  M_N constant on C': checks 7872 failures 0
+  [control] NC1 q varying with C' inside C: E_C[M_N]=M_n (control, failures expected): checks 32 failures 32
+  [control] NC2 sharp form with varying q' (control, failures expected): checks 3360 failures 122
+  [control] NC3 W3(b) per xi with u instead of u^{-1}: checks 15744 failures 654
+  [control] NC4 W4 with eps~ at level K-1 (control, failures expected): checks 32 failures 32
+  W1 step1 E_C'[M_N']=M_N(C'): checks 7872 failures 0
+  W1(a) children of slope-0 parents have slope 0: checks 32 failures 0
+  W1(a) children of slope>0 parents have slope>0: checks 32 failures 0
+  W1(a) grandchildren: slope 0 iff line slope 0: checks 32 failures 0
+  W1b E_C[M_N]=M_n: checks 7872 failures 0
+  W2 bound Var <= M_n^2 chi^2_q: checks 1120 failures 0
+  W2 equality for a single parent: checks 224 failures 0
+  W2 identity (exact Parseval form): checks 1120 failures 0
+  W2 literal Fourier form (float): checks 277 failures 0
+  W2 pointwise child mass (Prop B(i) weighted): checks 1120 failures 0
+  W3 identity sum_{xi!=0} F^q = eps~ (level k): checks 3024 failures 0
+  W3(a) E_C Psi(xi)=0 (child-target mass flat in s): checks 3024 failures 0
+  W3(b) per xi (float64 FFT, rel. tol 1e-9): checks 65184 failures 0
+  W3(b) summed over xi (exact): checks 3024 failures 0
+  W3(b) summed: equality for a single parent: checks 756 failures 0
+  W4 LHS >= 0 (E_C Var_{C'}): checks 7840 failures 0
+  W4 adapted: LHS <= eps~^q M_n^2: checks 7840 failures 0
+  W4 equality: single parent and point-mass q': checks 672 failures 0
+  W4 sharp: Fourier form = composite-collision form (float): checks 701 failures 0
+  W4 sharp: LHS <= eps^{q,q'} M_n^2: checks 4480 failures 0
+  W5 m=0 iff a complete class exists: checks 32 failures 0
+  W5(a) eps~^q >= m (all point masses): checks 1024 failures 0
+  W5(a) eps~^q >= m (gradient-descent minimiser): checks 96 failures 0
+  W5(a) eps~^q >= m (perturbed q*): checks 320 failures 0
+  W5(a) eps~^q >= m (random): checks 320 failures 0
+  W5(a) eps~^q >= m(W;D'): checks 224 failures 0
+  W5(b) eps~^{q*} = m(W;D'): checks 32 failures 0
+  W5(c) complete coset + q*: LHS = 0: checks 140 failures 0
+  W5(c) complete coset + q*: M_N' constant on every C': checks 140 failures 0
+  [control] control: complete coset, q in {unif, rand}: count of cases with M_N' constant on every C': checks 48 failures 0
+  eps^{q,q'} <= eps~^q: checks 4480 failures 0
+  locality: alive structure at N, N' depends on w mod p^Ken only: checks 32 failures 0
+max ratios:
+  W2 Var/bound: 1  (exact 1)
+  W3(b) per-xi LHS/RHS (float): 1
+  W3(b) summed LHS/RHS: 1  (exact 1)
+  W4 adapted LHS/RHS: 1  (exact 1)
+  W4 sharp LHS/RHS: 1  (exact 1)
+min ratios: {'W5 min over descent of eps~/m (>=1 expected)': 1.0}
+exact equalities: {'W4 single+point equality': 672, 'W5 descent reached eps~=0 when m=0': 2}
+control failure example NC3 W3(b) per xi with u instead of u^{-1} (('gate_hist', 810, 8, 2, 3, 'ones', 'unif', 'unif'), 4, 1, np.float64(0.0009298068925370695), 7.764457671980787e-05)
+control failure example NC3 W3(b) per xi with u instead of u^{-1} (('gate_hist', 810, 8, 2, 3, 'ones', 'unif', 'unif'), 4, 80, np.float64(0.0009298068925370695), 7.764457671980744e-05)
+control failure example NC3 W3(b) per xi with u instead of u^{-1} (('gate_hist', 810, 8, 2, 3, 'ones', 'resunif', 'unif'), 4, 1, np.float64(0.0009298068925370695), 7.764457671980787e-05)
+RESULT OK core_failures=0 time=683.0s
+# exit 0  wall 683 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_D_W6_falsify && nice -n 10 python3 t_cyl.py 3 26 6 5 102 15 rand,gate_hist,gate_win,near2,tight - 1 20
+# start 2026-10-14T03:24:26Z
+p=3 n=26 H=6 H2=5 seed=102 ncyl=15 kinds=['rand', 'gate_hist', 'gate_win', 'near2', 'tight'] psub=None kextra=1 maxcombos=20
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_D_W6_falsify && nice -n 10 python3 t_cyl.py 3 30 6 6 103 6 rand,gate_hist,tight - 2 12
+# start 2026-10-14T03:35:07Z
+p=3 n=30 H=6 H2=6 seed=103 ncyl=6 kinds=['rand', 'gate_hist', 'tight'] psub=None kextra=2 maxcombos=12
+Traceback (most recent call last):
+  File "/home/user/erdos-404-research/code/round4/verify_D_W6_falsify/t_cyl.py", line 481, in <module>
+    c = Cyl(p, x, n, H, H2, kextra=kextra, rng=nrng, psub=psub)
+  File "/home/user/erdos-404-research/code/round4/verify_D_W6_falsify/wf_core.py", line 377, in __init__
+    A2 = (Sc[:, None] + T2[None, :]) % mod
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 228. KiB for an array with shape (455, 64) and data type int64
+# exit 1  wall 202 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_D_W6_falsify && nice -n 10 python3 t_cyl.py 3 26 6 5 102 15 rand,gate_hist,gate_win,tight - 1 20
+# start 2026-10-14T03:47:16Z
+p=3 n=26 H=6 H2=5 seed=102 ncyl=15 kinds=['rand', 'gate_hist', 'gate_win', 'tight'] psub=None kextra=1 maxcombos=20 full_children=False
+Traceback (most recent call last):
+  File "/home/user/erdos-404-research/code/round4/verify_D_W6_falsify/t_cyl.py", line 482, in <module>
+    c = Cyl(p, x, n, H, H2, kextra=kextra, rng=nrng, psub=psub, full_children=full_children)
+  File "/home/user/erdos-404-research/code/round4/verify_D_W6_falsify/wf_core.py", line 299, in __init__
+    bits, S, Sd = alive_all(x0, p, n, R)
+                  ~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round4/verify_D_W6_falsify/wf_core.py", line 77, in alive_all
+    assert mod < 2 ** 56
+           ^^^^^^^^^^^^^
+AssertionError
+# exit 1  wall 214 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_D_W6_falsify && nice -n 10 python3 t_cyl.py 3 30 6 6 103 6 rand,gate_hist,tight 40 1 12
+# start 2026-10-14T03:50:50Z
+p=3 n=30 H=6 H2=6 seed=103 ncyl=6 kinds=['rand', 'gate_hist', 'tight'] psub=40 kextra=1 maxcombos=12 full_children=False
+Traceback (most recent call last):
+  File "/home/user/erdos-404-research/code/round4/verify_D_W6_falsify/t_cyl.py", line 521, in <module>
+    W3_checks(c, wpar, q, prod, tag)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/erdos-404-research/code/round4/verify_D_W6_falsify/t_cyl.py", line 324, in W3_checks
+    Fx = np.fft.fft(cwf, axis=1)
+  File "/usr/local/lib/python3.13/dist-packages/numpy/fft/_pocketfft.py", line 215, in fft
+    output = _raw_fft(a, n, axis, False, True, norm, out)
+  File "/usr/local/lib/python3.13/dist-packages/numpy/fft/_pocketfft.py", line 101, in _raw_fft
+    return ufunc(a, fct, axes=[(axis,), (), (axis,)], out=out)
+numpy._core._exceptions._ArrayMemoryError: Unable to allocate 657. MiB for an array with shape (59049, 729) and data type complex128
+# exit 1  wall 48 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_D_W6_falsify && nice -n 10 python3 t_cyl.py 3 26 6 5 102 15 rand,gate_hist,gate_win,tight - 1 20
+# start 2026-10-14T03:54:17Z
+p=3 n=26 H=6 H2=5 seed=102 ncyl=15 kinds=['rand', 'gate_hist', 'gate_win', 'tight'] psub=None kextra=1 maxcombos=20 full_children=False
+cylinders: 15 attempts: 279 kinds: {'rand': 4, 'gate_win': 4, 'gate_hist': 4, 'tight': 3} skipped: {'resource guard': 1}
+cylinder table (kind, m, D, D', M_N', #alive_all, #P0_all, #P lines, #grandchildren total, m(W;D'), complete):
+   ('rand', 11, 3, 3, 3, 72, 72, 72, 442368, 7.516483516483516, False)
+   ('rand', 11, 3, 3, 3, 56, 56, 56, 344064, 7.516483516483516, False)
+   ('gate_win', 10, 4, 3, 3, 656, 656, 656, 1343488, 25.351744186046513, False)
+   ('rand', 13, 2, 4, 4, 96, 96, 96, 589824, 9.837890625, False)
+   ('gate_win', 10, 4, 3, 3, 488, 488, 488, 999424, 22.54945054945055, False)
+   ('gate_win', 11, 3, 3, 3, 356, 356, 356, 2187264, 8.84393063583815, False)
+   ('gate_win', 11, 3, 3, 3, 60, 60, 60, 368640, 7.516483516483516, False)
+   ('gate_hist', 13, 2, 4, 4, 100, 100, 100, 614400, 9.837890625, False)
+   ('gate_hist', 10, 4, 3, 3, 700, 700, 700, 1433600, 22.54945054945055, False)
+   ('tight', 10, 4, 3, 3, 708, 708, 708, 1449984, 22.54945054945055, False)
+   ('tight', 10, 4, 3, 3, 564, 564, 564, 1155072, 25.351744186046513, False)
+   ('rand', 11, 3, 4, 3, 220, 220, 220, 1351680, 31.849030470914126, False)
+   ('gate_hist', 12, 3, 3, 4, 36, 36, 36, 221184, 6.6796875, False)
+   ('gate_hist', 11, 3, 3, 3, 160, 160, 160, 983040, 8.84393063583815, False)
+   ('tight', 10, 4, 3, 3, 464, 464, 464, 950272, 22.54945054945055, False)
+checks:
+  Lemma 2(a) alive set at n identical at sampled x' (BFS): checks 15 failures 0
+  Lemma 2(a) parents alive/slope constant on C: checks 15 failures 0
+  M_N constant on C': checks 2115 failures 0
+  [control] NC1 q varying with C' inside C: E_C[M_N]=M_n (control, failures expected): checks 15 failures 15
+  [control] NC2 sharp form with varying q' (control, failures expected): checks 900 failures 60
+  [control] NC3 W3(b) per xi with u instead of u^{-1}: checks 8742 failures 1864
+  [control] NC4 W4 with eps~ at level K-1 (control, failures expected): checks 15 failures 15
+  W1 step1 E_C'[M_N']=M_N(C'): checks 2115 failures 0
+  W1(a) children of slope-0 parents have slope 0: checks 15 failures 0
+  W1(a) children of slope>0 parents have slope>0: checks 15 failures 0
+  W1(a) grandchildren: slope 0 iff line slope 0: checks 15 failures 0
+  W1b E_C[M_N]=M_n: checks 2115 failures 0
+  W2 bound Var <= M_n^2 chi^2_q: checks 300 failures 0
+  W2 equality for a single parent: checks 105 failures 0
+  W2 identity (exact Parseval form): checks 300 failures 0
+  W2 literal Fourier form (float): checks 83 failures 0
+  W2 pointwise child mass (Prop B(i) weighted): checks 300 failures 0
+  W3 identity sum_{xi!=0} F^q = eps~ (level k): checks 937 failures 0
+  W3(a) E_C Psi(xi)=0 (child-target mass flat in s): checks 937 failures 0
+  W3(b) per xi (float64 FFT, rel. tol 1e-9): checks 33200 failures 0
+  W3(b) summed over xi (exact): checks 937 failures 0
+  W3(b) summed: equality for a single parent: checks 399 failures 0
+  W4 LHS >= 0 (E_C Var_{C'}): checks 2100 failures 0
+  W4 adapted: LHS <= eps~^q M_n^2: checks 2100 failures 0
+  W4 equality: single parent and point-mass q': checks 315 failures 0
+  W4 sharp: Fourier form = composite-collision form (float): checks 179 failures 0
+  W4 sharp: LHS <= eps^{q,q'} M_n^2: checks 1200 failures 0
+  W5 m=0 iff a complete class exists: checks 15 failures 0
+  W5(a) eps~^q >= m (all point masses): checks 960 failures 0
+  W5(a) eps~^q >= m (gradient-descent minimiser): checks 45 failures 0
+  W5(a) eps~^q >= m (perturbed q*): checks 150 failures 0
+  W5(a) eps~^q >= m (random): checks 150 failures 0
+  W5(a) eps~^q >= m(W;D'): checks 105 failures 0
+  W5(b) eps~^{q*} = m(W;D'): checks 15 failures 0
+  eps^{q,q'} <= eps~^q: checks 1200 failures 0
+  locality: alive structure at N, N' depends on w mod p^Ken only: checks 15 failures 0
+max ratios:
+  W2 Var/bound: 1  (exact 1)
+  W3(b) per-xi LHS/RHS (float): 1
+  W3(b) summed LHS/RHS: 1  (exact 1)
+  W4 adapted LHS/RHS: 1  (exact 1)
+  W4 sharp LHS/RHS: 1  (exact 1)
+min ratios: {'W5 min over descent of eps~/m (>=1 expected)': 1.0000000000000002}
+exact equalities: {'W4 single+point equality': 315}
+control failure example NC2 sharp form with varying q' (control, failures expected) (('rand', 372482964, 11, 3, 3, 'single', 'point', 'vrand'),)
+control failure example NC2 sharp form with varying q' (control, failures expected) (('rand', 372482964, 11, 3, 3, 'single', 'qstar', 'vrand'),)
+control failure example NC1 q varying with C' inside C: E_C[M_N]=M_n (control, failures expected) (('rand', 372482964, 11, 3, 3),)
+RESULT OK core_failures=0 time=234.3s
+# exit 0  wall 235 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_D_W6_falsify && nice -n 10 python3 t_cyl.py 3 30 6 6 103 6 rand,gate_hist,tight 40 1 12
+# start 2026-10-14T03:58:12Z
+p=3 n=30 H=6 H2=6 seed=103 ncyl=6 kinds=['rand', 'gate_hist', 'tight'] psub=40 kextra=1 maxcombos=12 full_children=False
+cylinders: 6 attempts: 149 kinds: {'rand': 2, 'gate_hist': 2, 'tight': 2} skipped: {'W3 level k skipped (table > 2e6 entries)': 52}
+cylinder table (kind, m, D, D', M_N', #alive_all, #P0_all, #P lines, #grandchildren total, m(W;D'), complete):
+   ('rand', 14, 3, 2, 3, 35, 35, 35, 430080, 2.506631299734748, False)
+   ('gate_hist', 14, 3, 2, 3, 18, 18, 18, 221184, 2.506631299734748, False)
+   ('rand', 14, 3, 2, 3, 73, 73, 40, 491520, 2.580204778156997, False)
+   ('gate_hist', 15, 3, 2, 4, 17, 17, 17, 208896, 2.5488873904248144, False)
+   ('tight', 14, 3, 6, 5, 102, 102, 40, 163840, 305.831882501902, False)
+   ('tight', 14, 3, 6, 5, 212, 212, 40, 163840, 305.831882501902, False)
+checks:
+  Lemma 2(a) alive set at n identical at sampled x' (BFS): checks 6 failures 0
+  Lemma 2(a) parents alive/slope constant on C: checks 6 failures 0
+  M_N constant on C': checks 510 failures 0
+  [control] NC1 q varying with C' inside C: E_C[M_N]=M_n (control, failures expected): checks 6 failures 6
+  [control] NC2 sharp form with varying q' (control, failures expected): checks 216 failures 22
+  [control] NC3 W3(b) per xi with u instead of u^{-1}: checks 896 failures 190
+  [control] NC4 W4 with eps~ at level K-1 (control, failures expected): checks 6 failures 6
+  W1 step1 E_C'[M_N']=M_N(C'): checks 510 failures 0
+  W1(a) children of slope-0 parents have slope 0: checks 6 failures 0
+  W1(a) children of slope>0 parents have slope>0: checks 6 failures 0
+  W1(a) grandchildren: slope 0 iff line slope 0: checks 6 failures 0
+  W1b E_C[M_N]=M_n: checks 510 failures 0
+  W2 bound Var <= M_n^2 chi^2_q: checks 72 failures 0
+  W2 equality for a single parent: checks 42 failures 0
+  W2 identity (exact Parseval form): checks 72 failures 0
+  W2 literal Fourier form (float): checks 22 failures 0
+  W2 pointwise child mass (Prop B(i) weighted): checks 72 failures 0
+  W3 identity sum_{xi!=0} F^q = eps~ (level k): checks 217 failures 0
+  W3(a) E_C Psi(xi)=0 (child-target mass flat in s): checks 217 failures 0
+  W3(b) per xi (float64 FFT, rel. tol 1e-9): checks 4100 failures 0
+  W3(b) summed over xi (exact): checks 217 failures 0
+  W3(b) summed: equality for a single parent: checks 140 failures 0
+  W4 LHS >= 0 (E_C Var_{C'}): checks 504 failures 0
+  W4 adapted: LHS <= eps~^q M_n^2: checks 504 failures 0
+  W4 equality: single parent and point-mass q': checks 126 failures 0
+  W4 sharp: Fourier form = composite-collision form (float): checks 32 failures 0
+  W4 sharp: LHS <= eps^{q,q'} M_n^2: checks 288 failures 0
+  W5 m=0 iff a complete class exists: checks 6 failures 0
+  W5(a) eps~^q >= m (all point masses): checks 384 failures 0
+  W5(a) eps~^q >= m (gradient-descent minimiser): checks 18 failures 0
+  W5(a) eps~^q >= m (perturbed q*): checks 60 failures 0
+  W5(a) eps~^q >= m (random): checks 60 failures 0
+  W5(a) eps~^q >= m(W;D'): checks 42 failures 0
+  W5(b) eps~^{q*} = m(W;D'): checks 6 failures 0
+  eps^{q,q'} <= eps~^q: checks 288 failures 0
+  locality: alive structure at N, N' depends on w mod p^Ken only: checks 6 failures 0
+max ratios:
+  W2 Var/bound: 1  (exact 1)
+  W3(b) per-xi LHS/RHS (float): 1
+  W3(b) summed LHS/RHS: 1  (exact 1)
+  W4 adapted LHS/RHS: 1  (exact 1)
+  W4 sharp LHS/RHS: 1  (exact 1)
+min ratios: {'W5 min over descent of eps~/m (>=1 expected)': 1.0000000000000002}
+exact equalities: {'W4 single+point equality': 126}
+control failure example NC2 sharp form with varying q' (control, failures expected) (('rand', 3084899778, 14, 3, 2, 'single', 'rand', 'vrand'),)
+control failure example NC2 sharp form with varying q' (control, failures expected) (('rand', 3084899778, 14, 3, 2, 'single', 'resunif', 'vrand'),)
+control failure example NC3 W3(b) per xi with u instead of u^{-1} (('rand', 3084899778, 14, 3, 2, 'single', 'class1', 'unif'), 2, 2, np.float64(19.234422383429322), 2.3199552092829663)
+RESULT OK core_failures=0 time=52.7s
+# exit 0  wall 53 s

@@ -1,0 +1,11 @@
+### command: nice -n 10 python3 code/round4/verify_C_falsify/test_Hball.py 5 3 bound 1
+### start: 2026-10-14T03:54:40Z
+### wall: 240 s
+### command: nice -n 10 python3 code/round4/verify_C_falsify/test_Hball.py 7 3 bound 2
+### start: 2026-10-14T03:58:40Z
+p=7 z0=5587 r=2 L=29 L'=10 D=4 K=5 M=1 |B mod p^K|=343: E_B eps = 3.737813e-08  RHS_T = 3.659998e-01  LHS<=RHS_T: True  (J-blocks used: 2058)  [10s]
+p=7 z0=10149 r=2 L=23 L'=6 D=4 K=5 M=1 |B mod p^K|=343: E_B eps = 1.297412e-06  RHS_T = 5.145642e+00  LHS<=RHS_T: True  (J-blocks used: 343)  [7s]
+p=7 z0=34594 r=2 L=30 L'=8 D=4 K=5 M=1 |B mod p^K|=343: E_B eps = 1.830180e-08  RHS_T = 2.674600e-01  LHS<=RHS_T: True  (J-blocks used: 2401)  [9s]
+### wall: 26 s
+
+### note (verifier): the first p=5 run above produced no output because the random-centre generator looped forever at p=5 (it demanded 6 consecutive non-gate residues, impossible mod 5). It was stopped by its timeout; the generator was then fixed (min(6,p-1)); p=5 was not rerun for lack of budget.

@@ -1,0 +1,12 @@
+### command: nice -n 10 python3 code/round4/verify_C_falsify/test_identity.py 7 25 200000
+### start: 2026-10-14T03:52:45Z
+p=7: identity tested at 25 points (D in window 1, K total, h=ceil(D/2) <= K-M), exact equality at 25  [10s]
+### wall: 10 s
+### command: nice -n 10 python3 code/round4/verify_C_falsify/test_identity.py 11 25 200000
+### start: 2026-10-14T03:52:55Z
+p=11: identity tested at 25 points (D in window 1, K total, h=ceil(D/2) <= K-M), exact equality at 25  [18s]
+### wall: 18 s
+### command: nice -n 10 python3 code/round4/verify_C_falsify/test_identity.py 13 20 400000
+### start: 2026-10-14T03:53:13Z
+p=13: identity tested at 20 points (D in window 1, K total, h=ceil(D/2) <= K-M), exact equality at 20  [81s]
+### wall: 81 s

@@ -1,0 +1,21 @@
+=== command: python3 code/round4/verify_C_logic/vcl_H2.py 3 3 101
+=== start: 2026-10-14T03:06:05Z
+  ball z0=6 r=3 n=16 L=12 D=6 K=7 M=2: E_B[eps]=4.5190e-03 (eps>0 at 81/81 pts) H=9.1874e-01 control=3.2771e-01
+  ball z0=8 r=3 n=15 L=12 D=6 K=7 M=2: E_B[eps]=1.8771e-02 (eps>0 at 81/81 pts) H=2.8052e+00 control=1.1961e+00
+  ball z0=6 r=3 n=17 L=13 D=6 K=7 M=2: E_B[eps]=4.5190e-03 (eps>0 at 81/81 pts) H=9.1874e-01 control=3.2771e-01
+p=3: 3 balls tested (from 319 draws); E_B[eps] <= H failures: 0; max E_B[eps]/H = 0.0067; control (v(T')>=D) violated on 0 balls; pointwise identity of Prop H' exact at 3/3 points
+=== exit: 0   wall: 45 s
+=== command: python3 code/round4/verify_C_logic/vcl_H2.py 3 3 202
+=== start: 2026-10-14T03:06:50Z
+  ball z0=8 r=3 n=14 L=11 D=6 K=7 M=2: E_B[eps]=1.8771e-02 (eps>0 at 81/81 pts) H=2.8052e+00 control=1.1961e+00
+  ball z0=7 r=3 n=14 L=11 D=6 K=7 M=2: E_B[eps]=9.0380e-03 (eps>0 at 81/81 pts) H=1.8375e+00 control=6.5543e-01
+  ball z0=6 r=3 n=15 L=13 D=6 K=7 M=2: E_B[eps]=4.5190e-03 (eps>0 at 81/81 pts) H=9.1874e-01 control=3.2771e-01
+p=3: 3 balls tested (from 338 draws); E_B[eps] <= H failures: 0; max E_B[eps]/H = 0.0067; control (v(T')>=D) violated on 0 balls; pointwise identity of Prop H' exact at 3/3 points
+=== exit: 0   wall: 41 s
+=== command: python3 code/round4/verify_C_logic/vcl_H2.py 3 3 303
+=== start: 2026-10-14T03:07:31Z
+  ball z0=8 r=3 n=14 L=12 D=6 K=7 M=2: E_B[eps]=1.8771e-02 (eps>0 at 81/81 pts) H=2.8052e+00 control=1.1961e+00
+  ball z0=6 r=3 n=17 L=12 D=6 K=7 M=2: E_B[eps]=4.5190e-03 (eps>0 at 81/81 pts) H=9.1874e-01 control=3.2771e-01
+  ball z0=7 r=3 n=16 L=12 D=6 K=7 M=2: E_B[eps]=9.0380e-03 (eps>0 at 81/81 pts) H=1.8375e+00 control=6.5543e-01
+p=3: 3 balls tested (from 412 draws); E_B[eps] <= H failures: 0; max E_B[eps]/H = 0.0067; control (v(T')>=D) violated on 0 balls; pointwise identity of Prop H' exact at 3/3 points
+=== exit: 0   wall: 44 s

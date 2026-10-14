@@ -1,0 +1,42 @@
+=== command: python3 audit_logs.py
+=== start (UTC): 2026-10-14T03:21:36Z
+Cov(7,1,4) c=0 M=1: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(7,2,7) c=0 M=2: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(7,3,19) c=2 M=5: A: files=1 classes_covered=42/42 misses=0 hdr=ok OK | B: files=1 classes_covered=42/42 misses=0 hdr=ok OK | C: files=1 classes_covered=42/42 misses=0 hdr=ok OK
+Cov(7,4,26) c=3 M=7: A: files=1 classes_covered=294/294 misses=0 hdr=ok OK | B: files=1 classes_covered=294/294 misses=0 hdr=ok OK | C: files=1 classes_covered=294/294 misses=0 hdr=ok OK
+Cov(7,5,28) c=3 M=8: A: files=1 classes_covered=294/294 misses=0 hdr=ok OK | B: files=1 classes_covered=294/294 misses=0 hdr=ok OK | C: files=1 classes_covered=294/294 misses=0 hdr=ok OK
+Cov(7,6,34) c=4 M=10: A: files=1 classes_covered=2058/2058 misses=0 hdr=ok OK | B: files=1 classes_covered=2058/2058 misses=0 hdr=ok OK | C: files=1 classes_covered=2058/2058 misses=0 hdr=ok OK
+Cov(11,1,5) c=0 M=1: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(11,2,10) c=0 M=2: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(11,3,18) c=1 M=4: A: files=1 classes_covered=10/10 misses=0 hdr=ok OK | B: files=1 classes_covered=10/10 misses=0 hdr=ok OK | C: files=1 classes_covered=10/10 misses=0 hdr=ok OK
+Cov(11,4,22) c=1 M=5: A: files=1 classes_covered=10/10 misses=0 hdr=ok OK | B: files=1 classes_covered=10/10 misses=0 hdr=ok OK | C: files=1 classes_covered=10/10 misses=0 hdr=ok OK
+Cov(11,5,30) c=2 M=7: A: files=1 classes_covered=110/110 misses=0 hdr=ok OK | B: files=1 classes_covered=110/110 misses=0 hdr=ok OK | C: files=1 classes_covered=110/110 misses=0 hdr=ok OK
+Cov(11,6,33) c=2 M=8: A: files=1 classes_covered=110/110 misses=0 hdr=ok OK | B: files=1 classes_covered=110/110 misses=0 hdr=ok OK | C: files=1 classes_covered=110/110 misses=0 hdr=ok OK
+Cov(13,1,6) c=0 M=1: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(13,2,10) c=0 M=2: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(13,3,19) c=1 M=4: A: files=1 classes_covered=12/12 misses=0 hdr=ok OK | B: files=1 classes_covered=12/12 misses=0 hdr=ok OK | C: files=1 classes_covered=12/12 misses=0 hdr=ok OK
+Cov(13,4,24) c=1 M=5: A: files=1 classes_covered=12/12 misses=0 hdr=ok OK | B: files=1 classes_covered=12/12 misses=0 hdr=ok OK | C: files=1 classes_covered=12/12 misses=0 hdr=ok OK
+Cov(13,5,32) c=2 M=7: A: files=1 classes_covered=156/156 misses=0 hdr=ok OK | B: files=1 classes_covered=156/156 misses=0 hdr=ok OK | C: files=1 classes_covered=156/156 misses=0 hdr=ok OK
+Cov(13,6,35) c=2 M=8: A: files=1 classes_covered=156/156 misses=0 hdr=ok OK | B: files=1 classes_covered=156/156 misses=0 hdr=ok OK | C: files=1 classes_covered=156/156 misses=0 hdr=ok OK
+Cov(13,7,39) c=2 M=9: A: files=1 classes_covered=156/156 misses=0 hdr=ok OK | B: files=1 classes_covered=156/156 misses=0 hdr=ok OK | C: files=1 classes_covered=156/156 misses=0 hdr=ok OK
+Cov(17,1,5) c=0 M=1: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(17,2,11) c=0 M=2: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(17,3,16) c=0 M=3: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(17,4,25) c=1 M=5: A: files=1 classes_covered=16/16 misses=0 hdr=ok OK | B: files=1 classes_covered=16/16 misses=0 hdr=ok OK | C: files=1 classes_covered=16/16 misses=0 hdr=ok OK
+Cov(17,5,30) c=1 M=6: A: files=1 classes_covered=16/16 misses=0 hdr=ok OK | B: files=1 classes_covered=16/16 misses=0 hdr=ok OK | C: files=1 classes_covered=16/16 misses=0 hdr=ok OK
+Cov(17,6,34) c=1 M=7: A: files=1 classes_covered=16/16 misses=0 hdr=ok OK | B: files=1 classes_covered=16/16 misses=0 hdr=ok OK | C: files=1 classes_covered=16/16 misses=0 hdr=ok OK
+Cov(17,7,43) c=2 M=9: A: files=1 classes_covered=272/272 misses=0 hdr=ok OK | B: files=4 classes_covered=272/272 misses=0 hdr=ok OK | C: files=5 classes_covered=272/272 misses=0 hdr=ok OK
+Cov(19,1,5) c=0 M=1: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(19,2,12) c=0 M=2: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(19,3,17) c=0 M=3: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(19,4,27) c=1 M=5: A: files=1 classes_covered=18/18 misses=0 hdr=ok OK | B: files=1 classes_covered=18/18 misses=0 hdr=ok OK | C: files=1 classes_covered=18/18 misses=0 hdr=ok OK
+Cov(19,5,31) c=1 M=6: A: files=1 classes_covered=18/18 misses=0 hdr=ok OK | B: files=1 classes_covered=18/18 misses=0 hdr=ok OK | C: files=1 classes_covered=18/18 misses=0 hdr=ok OK
+Cov(19,6,35) c=1 M=7: A: files=1 classes_covered=18/18 misses=0 hdr=ok OK | B: files=1 classes_covered=18/18 misses=0 hdr=ok OK | C: files=1 classes_covered=18/18 misses=0 hdr=ok OK
+Cov(23,1,7) c=0 M=1: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(23,2,12) c=0 M=2: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(23,3,18) c=0 M=3: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(23,4,23) c=0 M=4: A: files=1 classes_covered=1/1 misses=0 hdr=ok OK | B: files=1 classes_covered=1/1 misses=0 hdr=ok OK | C: files=1 classes_covered=1/1 misses=0 hdr=ok OK
+Cov(23,5,33) c=1 M=6: A: files=1 classes_covered=22/22 misses=0 hdr=ok OK | B: files=1 classes_covered=22/22 misses=0 hdr=ok OK | C: files=1 classes_covered=22/22 misses=0 hdr=ok OK
+Cov(23,6,37) c=1 M=7: A: files=1 classes_covered=22/22 misses=0 hdr=ok OK | B: files=1 classes_covered=22/22 misses=0 hdr=ok OK | C: files=1 classes_covered=22/22 misses=0 hdr=ok OK
+AUDIT OK: every cited certificate is present for all unit classes in A, B and C
+=== exit: 0   wall: .063454208 s

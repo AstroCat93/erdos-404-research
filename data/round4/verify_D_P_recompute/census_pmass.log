@@ -1,0 +1,60 @@
+=== command: /tmp/r4_verify_D_P_recompute/census 7 8 pmass 34
+=== start (UTC): 2026-10-14T03:36:11Z
+# census p=7 levels 0..8 ; columns: G survivors density children-histogram(0..p)
+0 1 1.0000000000
+1 5 0.7142857143 0 0 0 0 0 1 0 0   [dfs nodes 43]  #{g>=k, V_34=k}=0 (+0 partial)  partial mu{P(x,34)} >= 0.0000000000
+2 31 0.6326530612 0 0 0 0 0 0 4 1   [dfs nodes 669]  #{g>=k, V_34=k}=0 (+0 partial)  partial mu{P(x,34)} >= 0.0000000000
+3 217 0.6326530612 0 0 0 0 0 0 0 31   [dfs nodes 6845]  #{g>=k, V_34=k}=0 (+0 partial)  partial mu{P(x,34)} >= 0.0000000000
+4 1501 0.6251561849 1 0 1 1 0 1 0 213   [dfs nodes 73965]  #{g>=k, V_34=k}=147 (+0 partial)  partial mu{P(x,34)} >= 0.0612244898
+5 10502 0.6248586898 0 0 1 0 0 0 0 1500   [dfs nodes 709517]  #{g>=k, V_34=k}=3626 (+0 partial)  partial mu{P(x,34)} >= 0.2769679300
+6 73424 0.6240937025 6 0 3 3 5 1 4 10480   [dfs nodes 6872641]  #{g>=k, V_34=k}=35868 (+0 partial)  partial mu{P(x,34)} >= 0.5818408996
+7 513864 0.6239674188 0 7 7 3 3 3 0 73401   [dfs nodes 62543158]  #{g>=k, V_34=k}=30870 (+0 partial)  partial mu{P(x,34)} >= 0.6193252811
+8 3596877 0.6239377560 4 5 3 2 6 18 36 513790   [dfs nodes 567742371]  #{g>=k, V_34=k}=23373 (+0 partial)  partial mu{P(x,34)} >= 0.6233797142
+=== exit: 0   wall: 55.377092786 s
+=== command: /tmp/r4_verify_D_P_recompute/census 11 6 pmass 33
+=== start (UTC): 2026-10-14T03:37:06Z
+# census p=11 levels 0..6 ; columns: G survivors density children-histogram(0..p)
+0 1 1.0000000000
+1 8 0.7272727273 0 0 0 0 0 0 0 0 1 0 0 0   [dfs nodes 91]  #{g>=k, V_33=k}=0 (+0 partial)  partial mu{P(x,33)} >= 0.0000000000
+2 85 0.7024793388 0 0 0 0 0 0 0 0 0 0 3 5   [dfs nodes 2605]  #{g>=k, V_33=k}=0 (+0 partial)  partial mu{P(x,33)} >= 0.0000000000
+3 932 0.7002253944 0 0 0 0 0 0 0 0 0 0 3 82   [dfs nodes 52317]  #{g>=k, V_33=k}=704 (+0 partial)  partial mu{P(x,33)} >= 0.5289256198
+4 10249 0.7000204904 0 0 0 0 0 0 0 0 0 1 1 930   [dfs nodes 969621]  #{g>=k, V_33=k}=2310 (+0 partial)  partial mu{P(x,33)} >= 0.6867017280
+5 112700 0.6997783311 1 0 1 0 2 0 0 1 0 0 1 10243   [dfs nodes 16170495]  #{g>=k, V_33=k}=1958 (+0 partial)  partial mu{P(x,33)} >= 0.6988593675
+6 1239663 0.6997574456 0 1 2 0 1 0 0 0 0 1 0 112695   [dfs nodes 245760360]  #{g>=k, V_33=k}=1474 (+0 partial)  partial mu{P(x,33)} >= 0.6996914021
+=== exit: 0   wall: 21.692673761 s
+=== command: /tmp/r4_verify_D_P_recompute/census 13 5 pmass 39
+=== start (UTC): 2026-10-14T03:37:28Z
+# census p=13 levels 0..5 ; columns: G survivors density children-histogram(0..p)
+0 1 1.0000000000
+1 10 0.7692307692 0 0 0 0 0 0 0 0 0 0 1 0 0 0   [dfs nodes 179]  #{g>=k, V_39=k}=0 (+0 partial)  partial mu{P(x,39)} >= 0.0000000000
+2 128 0.7573964497 0 0 0 0 0 0 0 0 0 0 0 0 2 8   [dfs nodes 5599]  #{g>=k, V_39=k}=0 (+0 partial)  partial mu{P(x,39)} >= 0.0000000000
+3 1658 0.7546654529 0 0 0 0 0 0 0 0 0 0 0 0 6 122   [dfs nodes 129940]  #{g>=k, V_39=k}=1300 (+0 partial)  partial mu{P(x,39)} >= 0.5917159763
+4 21553 0.7546304401 0 0 0 0 0 0 0 0 0 0 0 0 1 1657   [dfs nodes 2590800]  #{g>=k, V_39=k}=4368 (+0 partial)  partial mu{P(x,39)} >= 0.7446517979
+5 280157 0.7545442548 1 0 0 0 0 1 0 1 0 1 0 0 1 21548   [dfs nodes 49894299]  #{g>=k, V_39=k}=3432 (+0 partial)  partial mu{P(x,39)} >= 0.7538951717
+=== exit: 0   wall: 4.601070556 s
+=== command: /tmp/r4_verify_D_P_recompute/census 17 4 pmass 43
+=== start (UTC): 2026-10-14T03:37:32Z
+# census p=17 levels 0..4 ; columns: G survivors density children-histogram(0..p)
+0 1 1.0000000000
+1 13 0.7647058824 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0   [dfs nodes 299]  #{g>=k, V_43=k}=0 (+0 partial)  partial mu{P(x,43)} >= 0.0000000000
+2 219 0.7577854671 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 11   [dfs nodes 12502]  #{g>=k, V_43=k}=120 (+0 partial)  partial mu{P(x,43)} >= 0.4152249135
+3 3719 0.7569713006 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 215   [dfs nodes 381592]  #{g>=k, V_43=k}=1446 (+0 partial)  partial mu{P(x,43)} >= 0.7095461022
+4 63219 0.7569234085 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 3715   [dfs nodes 10413077]  #{g>=k, V_43=k}=3760 (+0 partial)  partial mu{P(x,43)} >= 0.7545647202
+=== exit: 0   wall: .901365865 s
+=== command: /tmp/r4_verify_D_P_recompute/census 19 4 pmass 35
+=== start (UTC): 2026-10-14T03:37:33Z
+# census p=19 levels 0..4 ; columns: G survivors density children-histogram(0..p)
+0 1 1.0000000000
+1 15 0.7894736842 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0   [dfs nodes 356]  #{g>=k, V_35=k}=0 (+3 partial)  partial mu{P(x,35)} >= 0.1495844875
+2 281 0.7783933518 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 11   [dfs nodes 16905]  #{g>=k, V_35=k}=204 (+3 partial)  partial mu{P(x,35)} >= 0.7225543082
+3 5336 0.7779559703 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 278   [dfs nodes 613416]  #{g>=k, V_35=k}=360 (+3 partial)  partial mu{P(x,35)} >= 0.7754544548
+4 101379 0.7779176035 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 5331   [dfs nodes 19322690]  #{g>=k, V_35=k}=306 (+1 partial)  partial mu{P(x,35)} >= 0.7778097725
+=== exit: 0   wall: 1.868863972 s
+=== command: /tmp/r4_verify_D_P_recompute/census 23 3 pmass 37
+=== start (UTC): 2026-10-14T03:37:35Z
+# census p=23 levels 0..3 ; columns: G survivors density children-histogram(0..p)
+0 1 1.0000000000
+1 20 0.8695652174 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0   [dfs nodes 712]  #{g>=k, V_37=k}=0 (+9 partial)  partial mu{P(x,37)} >= 0.3742911153
+2 453 0.8563327032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 13   [dfs nodes 45014]  #{g>=k, V_37=k}=231 (+9 partial)  partial mu{P(x,37)} >= 0.8272376099
+3 10417 0.8561683242 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 451   [dfs nodes 1782180]  #{g>=k, V_37=k}=330 (+8 partial)  partial mu{P(x,37)} >= 0.8549890831
+=== exit: 0   wall: .193838412 s

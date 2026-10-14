@@ -1,0 +1,12 @@
+=== command: python3 code/round4/verify_C_logic/vcl_H2direct.py 3 1500 31
+=== start: 2026-10-14T03:05:47Z
+p=3: 1500 trials {'random': 390, 'double': 352, 'window': 394, 'near-double': 360}; failures 0; left side > 0 in 226; max left/right 0.9942; control (2v(F') >= D+2) violated 44 times
+=== exit: 0   wall: 7 s
+=== command: python3 code/round4/verify_C_logic/vcl_H2direct.py 5 800 32
+=== start: 2026-10-14T03:05:54Z
+p=5: 800 trials {'random': 187, 'double': 201, 'near-double': 201, 'window': 211}; failures 0; left side > 0 in 125; max left/right 0.9964; control (2v(F') >= D+2) violated 46 times
+=== exit: 0   wall: 3 s
+=== command: python3 code/round4/verify_C_logic/vcl_H2direct.py 7 500 33
+=== start: 2026-10-14T03:05:57Z
+p=7: 500 trials {'double': 123, 'window': 107, 'near-double': 150, 'random': 119}; failures 0; left side > 0 in 79; max left/right 0.9898; control (2v(F') >= D+2) violated 36 times
+=== exit: 0   wall: 2 s
