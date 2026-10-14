@@ -37,9 +37,9 @@ Round 4 had one target: positive Haar measure of $K_p$ (Conjecture 5.2) at an od
 
 | | Statement | Status |
 |---|---|---|
-| Thm 12.1, 12.2, 12.4 | **$\mu(K_p)>0$ for every prime $7\le p\le97$.** For $11\le p\le97$, $\mu(K_p\cap p^3\mathbb Z_p)\ge c_pp^{-3}$ with $c_p\ge0.69$ for $17\le p\le97$. For $p=7$, $\mu(K_7)\ge1.46\cdot10^{-69}$ on an explicit cylinder. Two tracks separately cover $11\le p\le23$ | computer-assisted; rests on Theorem 11.14 (round 3) |
+| Thm 12.1–12.4 | **$\mu(K_p)>0$ for every prime $7\le p\le97$.** For $11\le p\le97$, $\mu(K_p\cap p^3\mathbb Z_p)\ge c_pp^{-3}$ with $c_p\ge0.69$ for $17\le p\le97$. For $p=7$, $\mu(K_7)\ge1.46\cdot10^{-69}$ on an explicit cylinder. Two tracks separately cover $11\le p\le23$ | computer-assisted; rests on Theorem 11.14 (round 3) |
 | §12.1 | Two lemmas, new in this setting, reached separately by two tracks from a common brief: a Hensel reduction of the fine-scale mass to high-slope signed paths, and a quenched value–derivative anti-concentration bound with explicit constants $q_s(p)$ | proved |
-| Thm 12.5–12.12 | Theorem 11.14 with adaptive and with weighted window times; an exact deep-gate decomposition; a $\theta$-lifting criterion; plateau lower bounds such as $\delta_G(13)\ge0.7431$ for $G\le679775$; an obstruction to single-lineage thinning | proved / computer-assisted |
+| Thm 12.5–12.12 | Theorem 11.14 with adaptive window times and with weighted windows; an exact deep-gate decomposition; a $\theta$-lifting criterion; plateau lower bounds such as $\delta_G(13)\ge0.7431$ for $G\le679775$; an obstruction to single-lineage thinning | proved / computer-assisted |
 | §12.5 | Open: $p=3,5$ (the method fails there), $p>97$, and a uniform-in-$p$ statement (needs anti-concentration of signed factorial subset sums mod $p$, $p^2$ and $p^3$, which we did not find in the literature) | — |
 
 ## New in round 3 (2026-10-13; note.md §11)
@@ -51,7 +51,7 @@ Round 3 was produced by a third AI-assisted session. Each of the five research t
 | Thm 11.2, 11.4 | **$f(a,2)<\infty$ for every $a\le32768$, with exact values.** $f(594,2)=90394$ (Kitamura's live test case; Kitamura had $\ge66126$). $f(17662,2)=221465$, the largest exactly computed value of $g_2$ at a natural number in the public record ($g_2=203812$). Shadow values $f(2^t-2,2)$ for $t=14,\dots,17$. Kitamura's complete exact table covered $a\le256$, plus isolated rows up to 8190 | computer-assisted: at least two independently written exhaustive programs (three for 594), plus an explicit witness verified exactly (by three verifiers for 594 and 17662; for every other row, by the track's GMP verifier and by the checker's own verifier) |
 | Thm 11.7, Cor 11.8 | **Explicit rate at $p=2$:** $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$; $\delta_G(2)\le0.10051$ for $G\ge2^{37}$ (the first proved bound below round 1's census value $0.1016$ that applies at large $G$). Meaningful only at astronomically large $G$; the data suggest $\approx c/G$ | computer-assisted (a $2^{16}$-case certificate and a closed-form check); proof written out |
 | Lemma 11.6 | Every zero of an $F_e$ in the good set has multiplicity $\le2$ (exactly 1 on $8\mathbb Z_2$) | proved |
-| Prop 11.10–11.13, Thm 11.14 | Odd $p$: the exact first-moment machinery of §10.1 at every odd prime; an exact second-moment identity; per-window Cauchy–Schwarz provably cannot work. **Conditional:** a fine-scale equidistribution hypothesis FE implies $\mu(K_p)>0$ | proved (FE unproved; heuristically of barrier type; numerically plausible at $p\ge5$, doubtful at $p=3$) |
+| Prop 11.10–11.13, Thm 11.14 | Odd $p$: the exact first-moment machinery of §10.1 at every odd prime; an exact second-moment identity; per-window Cauchy–Schwarz provably cannot work. **Conditional:** a fine-scale equidistribution hypothesis FE implies $\mu(K_p)>0$ | proved (FE unproved in general; heuristically of barrier type; numerically plausible at $p\ge5$, doubtful at $p=3$). *Round 4: FE verified on explicit atoms for every prime $7\le p\le97$ (Thm 12.1)* |
 | Thm 11.17–11.19 | Single gate blocks (windows of length $p$) satisfy an RMF-type per-level Fourier bound at every level, though not RMF itself: the ratio $\rho_d$ of the level-$d$ $L^1$ Fourier shell to its random-model value satisfies $\sup_d\rho_d\le1.3203,1.1760,1.8377,1.2064$ ($p=5,7,11,13$). This explains round 2's ratio $\approx1.17$ as an explicit constant $J_p$ | proved; certified constants computer-assisted |
 | Thm 11.22, Prop 11.23–11.24 | A collision-count ($L^2$) version of Theorem 10.16 (budget $<1$ if and only if $p\ge11$); $L^2$ forms of the barrier lemma and of Cor 10.20 | proved (the $L^2$ hypothesis is unproved) |
 | §11.4(e) | All certified Fourier shell sums of round 2 are now in interval arithmetic | computer-assisted (three implementations) |
@@ -144,7 +144,7 @@ Two frontier results in note.md §4.5 ($f(3,5)\ge117\,499$ and $f(a,3)\ge50$ for
 
 These are **not** proved; see note.md §5–6.
 - $f(a,2)<\infty$ for every $a$ (Conjecture 5.1). *The weaker form $\mu(K_2)=0$ is now proved (Theorem 10.1).* Evidence for the strong form: exact densities to $G=32$, Monte Carlo to $G=254$, and (round 3) exact finite values for every $a\le32768$ (Theorem 11.4); but a measure-theoretic argument cannot see a countable set.
-- $\mu(K_p)>0$ for every odd $p$ (Conjecture 5.2); numerically $\mu(K_3)\approx0.36$, $\mu(K_5)\approx0.52$, $\mu(K_7)\approx0.62$. Round 3 reduces it to an unproved fine-scale equidistribution hypothesis FE (Theorem 11.14).
+- $\mu(K_p)>0$ for every odd $p$ (Conjecture 5.2); numerically $\mu(K_3)\approx0.36$, $\mu(K_5)\approx0.52$, $\mu(K_7)\approx0.62$. Round 3 reduces it to a fine-scale equidistribution hypothesis FE (Theorem 11.14). *Round 4 verifies FE on explicit atoms and proves the cases $7\le p\le97$ (note.md Theorem 12.1; computer-assisted). It remains open at $p=3,5$ and for $p>97$.*
 - $\mathrm{UC}(p)$ for $p\ge7$ (Conjecture 5.3), which would give $f(1,p)=\infty$ and answer Q3 positively. Certified for depths $t\le7$ at $p=13$; the "missing lemma" for $t\ge8$ is stated precisely in §6.
 - The Fourier and branching-process heuristics of §5.
 - *Round 2* (note.md §10.5):
@@ -205,6 +205,15 @@ python3 -I verify_witness.py <(zcat ../../../data/round3/R3N/witness_594_K90394.
 ```
 
 Every round-3 log in `data/round3/` begins with its command line. The track reports are in `data/round3/reports/`, the adversarial checks in `data/round3/checks/`, and the referee reports in `data/round3/referees/`.
+
+Round 4 (`note.md` §12.6):
+
+```sh
+python3 code/round4/M4A/fe_verify.py data/round4/M4A/atom_p7.txt 8 60000   # Theorem 12.2: FE at p = 7 (about 2 s)
+python3 code/round4/M4C/assemble.py 41 0.05 3000 1.6                       # Theorem 12.4 at one prime 11 <= p <= 97 (seconds)
+```
+
+The track reports are in `data/round4/reports/`, the verifier reports in `data/round4/checks/`, and the referee reports in `data/round4/referees/`.
 
 ## Repository layout
 
