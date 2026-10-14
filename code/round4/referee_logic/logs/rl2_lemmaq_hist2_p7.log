@@ -1,0 +1,9 @@
+=== command: python3 rl2_lemmaq.py hist2 7 23 80
+=== start: 2026-10-14T18:15:18Z
+Q-d p=7 seed=23: 80 points, 1680 histories in A_0 & A_1 (block 1 already 2D)
+  max_h P(A_2 | h) [M4A: E^T_2 & E^R_3]    = 0.0227051  (q2/p^2 = 0.0227051)
+  max_h P(C^T_2 & C^T'_2 | h) [M4C]       = 0.0227051
+  M4A event in one fibre of Z mod p^2 for every h: True; M4C event = one fibre of Phi: True; events agree (blocks 1 and 2): True
+RESULT: PASS
+=== exit: 0
+=== wall: 9 s

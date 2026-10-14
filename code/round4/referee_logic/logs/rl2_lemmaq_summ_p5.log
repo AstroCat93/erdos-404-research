@@ -1,0 +1,7 @@
+=== command: python3 rl2_lemmaq.py summ 5 17 300 31
+=== start: 2026-10-14T18:14:59Z
+Q-c p=5 seed=17: 269 (u,k,f) cases where the summary form gives more 2D blocks than M4A's Lemma Q
+  summary-form bound violated in 0; max P/summary-bound 0.5723
+RESULT: summary form NOT refuted
+=== exit: 0
+=== wall: 7 s
