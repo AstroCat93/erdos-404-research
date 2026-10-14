@@ -1,0 +1,10 @@
+=== command: python3 rl_lemmaq.py dp 7 21 400 4 3 29
+=== start: 2026-10-14T04:47:46Z
+Q2 p=7 seed=21: 400 cases (82 with a 2D block)
+  M4A Lemma Q bound violated: 0; max P/bound = 0.9941
+  M4C Lemma Q bound violated: 0
+  control (2D factor q_2/p^3) violated in 18 of the 82 cases with a 2D block
+  control (summary form, no k - M_(r+1) condition) violated in 0 of 125 cases where it differs
+RESULT: PASS
+=== exit: 0
+=== wall: 15 s

@@ -1,0 +1,12 @@
+=== command: python3 rl_hensel.py poly 11 2 6000
+=== start: 2026-10-14T04:36:42Z
+part A p=11 seed=2: trials=6000
+  M4A Lemma H identity (general theta): 6000/6000 exact
+  M4C Lemma H2 (D >= 2r): 2133/2133 hold; max LHS/RHS = 0.9917
+  consistency M4A-RHS <= M4C-RHS when theta = ceil(D/2): failures 0
+  control 1 (theta forced to ceil(D/2) with b > floor(D/2)+1): identity broken in 317/2518
+  control 2 (H2 on balls with D < 2r): inequality broken in 26/3867
+  control 3 (H2 with threshold ceil(D/2)+1): inequality broken in 157/2133
+RESULT: PASS
+=== exit: 0
+=== wall: 119 s

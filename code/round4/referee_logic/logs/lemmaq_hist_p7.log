@@ -1,0 +1,11 @@
+=== command: python3 rl_lemmaq.py hist 7 11 400
+=== start: 2026-10-14T04:47:16Z
+Q3 p=7 seed=11: 400 points u, 4958 admissible histories
+  max_h P(E^T_1 & E^R_2 | h)  [M4A] = 0.0227051  vs q_2/p^2 = 0.0227051
+  max_h P(C^T_1 & C^T'_1 | h) [M4C] = 0.0227051
+  histories where the M4A and M4C events coincide exactly: 4958/4958
+  M4A event inside one fibre of Z mod p^2 for every h: True
+  M4C event equal to one fibre of Phi (or empty) for every h: True
+RESULT: PASS
+=== exit: 0
+=== wall: 2 s
