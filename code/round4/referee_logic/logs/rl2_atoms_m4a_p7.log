@@ -1,0 +1,12 @@
+=== command: python3 rl2_atoms.py m4a ../../../data/round4/M4A/atom_p7.txt
+=== start: 2026-10-14T17:52:23Z
+M4A atom ../../../data/round4/M4A/atom_p7.txt: p=7 n0=300 m=51
+  V_300=51 (claimed 51)  M_300=4  D_0=17  M_405=4  admissible=True
+  path: v(S_e(x_A)) >= 51 (need >= 51); S_e'(x_A) mod p = 6 (slope 0 iff nonzero)
+  i_A = 4106476713379874320366176059319330216123657 (4.106e+42);  windows with n_(l+1) < i_A: l <= 306;  n_306 = 2.293e+42, n_307 = 3.096e+42, n_308 = 4.179e+42
+  phase 2 (l>=9, n_(l+1)<=60000): l = 9..16 (8 windows); phase 3: l = 17..306 (290 windows); phases 2-3 together: 298
+  (l, D, K, lin) for l <= 9: [(1, 17, 40, True), (2, 23, 56, True), (3, 33, 76, True), (4, 43, 101, True), (5, 58, 136, True), (6, 78, 184, True), (7, 106, 249, True), (8, 143, 337, True), (9, 194, 456, True)]
+  over l = 1..306: linear regime fails in 0; floor(D/2)+1 < m in 0 (l>=9); Lemma F's M_W <= K-theta fails in 0 (l>=9)
+RESULT: PASS
+=== exit: 0
+=== wall: 0 s

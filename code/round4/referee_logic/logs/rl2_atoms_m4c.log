@@ -1,0 +1,27 @@
+=== command: python3 rl2_atoms.py m4c 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
+=== start: 2026-10-14T17:52:34Z
+p=7: q_1=1.0142822265625 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=11: q_1=1.00143623352051 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=13: q_1=1.00002202391624 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=True; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=17: q_1=1.00000060931779 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=19: q_1=1.00000009827636 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=23: q_1=1.00000000542303 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=29: q_1=1.00000000007316 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=31: q_1=1.00000000007455 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=37: q_1=1.00000000000009 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=41: q_1=1 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=43: q_1=1.00000000000084 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=47: q_1=1 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=53: q_1=1 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=59: q_1=1 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=61: q_1=1 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=67: q_1=1 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=71: q_1=1 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=73: q_1=1 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=79: q_1=1 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=83: q_1=1 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=89: q_1=1 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+p=97: q_1=1 (max at 0: True); atoms admissible 6/6; 1+chi^2(W_0)=q_1 6/6; Prop W path alive & slope 0 6/6; Wilson=False; block {0,p-1}: S==0 mod p True, its own derivative mod p = 0
+RESULT: PASS
+=== exit: 0
+=== wall: 0 s

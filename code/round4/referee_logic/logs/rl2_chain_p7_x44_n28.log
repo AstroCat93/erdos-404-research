@@ -1,0 +1,14 @@
+=== command: python3 rl2_chain.py 7 44 28 7 2
+=== start: 2026-10-14T17:56:15Z
+p=7 x0=44 n_t=[28, 35, 42] m_t=[5, 6, 7] M_t=[2, 2, 2] D_t=[1, 1]
+(d) admissible: True; linear regime: {1: True}
+Z^0_(n0) on A: [0] (must be constant); Z^0_(n_T) range 0..0
+empty slope-0 population: atom not admissible for C3 (Z^0 = 0)
+(a) E[M_t|G_(t-1)] = M_(t-1) checked on 8 atoms
+(b) 1+chi0^2 = 525/512 = 1.025391; E M1^2 = 0.000000e+00 <= 0.000000e+00: True
+(c) C2 at l=1: checked on 1 G_(l-1) atoms; eps_l max = 0.000532389 (D=1, K=2); worst lhs/rhs = 0.0000
+(e) a_t = ['0.000000e+00', '0.000000e+00', '0.000000e+00']; recursion True; monotone True; a_T <= Pi M0^2: True
+(e) mu_A(M_T>0) = 0.000000 >= (E M_T)^2/E M_T^2 = 0.000000 >= 1/Pi_A = 0.974719: n/a
+RESULT: ALL CHECKS PASS
+=== exit: 0
+=== wall: 60 s
