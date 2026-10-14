@@ -1,0 +1,25 @@
+# Erdos 404 and sums of distinct factorials
+abs:factorials AND abs:adic AND abs:valuation
+# random p-adic series / zero sets / Haar measure
+abs:"random p-adic" AND abs:series
+abs:"p-adic" AND abs:"subset sums"
+abs:"Haar measure" AND abs:"p-adic" AND abs:"subset sum"
+abs:"random p-adic" AND abs:polynomial AND abs:roots
+abs:"p-adic" AND abs:"Kac-Rice"
+abs:"p-adic" AND abs:"Cantor set" AND abs:"positive measure"
+# anti-concentration / equidistribution of factorials mod p
+abs:factorials AND abs:"modulo p" AND abs:distribution
+abs:"n! mod p"
+abs:factorial AND abs:"modulo a prime" AND abs:residues
+abs:"Littlewood-Offord" AND abs:"finite field"
+abs:"anti-concentration" AND abs:"subset sums" AND abs:"modulo"
+abs:"Stirling numbers of the first kind" AND abs:"modulo p" AND abs:distribution
+abs:"Wilson quotient" AND abs:distribution
+# BPRE / dependent offspring / second moment
+abs:"branching process" AND abs:"random environment" AND abs:"dependent"
+abs:"branching" AND abs:"second moment" AND abs:"tree" AND abs:"dependent percolation"
+abs:"quasi-independent" AND abs:percolation AND abs:tree
+# Hensel / densities of polynomial images
+abs:"Hensel" AND abs:"Haar measure" AND abs:polynomial
+abs:"image of a polynomial" AND abs:"p-adic" AND abs:density
+abs:"Igusa" AND abs:"Poincare series" AND abs:"Hensel"

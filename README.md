@@ -8,14 +8,16 @@ This repository is a research note on [Erdős Problem #404](https://www.erdospro
   - *Round 2:* at $p=2$, $f(a,2)<\infty$ for all $a$ outside a set of natural density $0$ (note.md Theorem 10.1). This is a complete proof, checked by AI referees and not by a human.
   - *New in round 3:* $f(a,2)<\infty$ for **every** $a\le32768$, with exact values. This includes Kitamura's open test case, **$f(594,2)=90394$**, and $f(17662,2)=221465$ (note.md Theorems 11.2 and 11.4; computer-assisted). There is also an explicit, very weak rate: $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$ (Theorem 11.7; computer-assisted).
   - Whether $f(a,2)<\infty$ for *every* $a$ is still open.
-- **New in round 4:** the set $K_p$ of $p$-adic $x$ with $f=\infty$ has **positive Haar measure for every prime $7\le p\le97$** (note.md Theorem 12.1; computer-assisted; adversarially verified by AI instances, not by a human). This proves Conjecture 5.2 for these primes. It is a measure statement and says nothing about Q3.
+- **New in round 4:** the set $K_p$ of $p$-adic $x$ with $f=\infty$ has **positive Haar measure for every prime $7\le p\le97$** (note.md Theorem 12.1; computer-assisted; adversarially verified by AI instances, not by a human). This proves Conjecture 5.2 for these primes. Conjecture 5.2 is the Haar-measure form of the supercritical picture already described and measured at odd primes in K. Kitamura's odd-prime repository (July 2026). It is a measure statement and says nothing about Q3.
 - **Q2 has partial results.** These are structural theorems, exact values on residue classes, much larger certified lower bounds than were previously published, and precise sufficient conditions for a positive answer to Q3. Round 3 adds a conditional theorem for $\mu(K_p)>0$ at odd $p$, certified Fourier constants for gate blocks, and $L^2$ forms of the main obstructions.
+
+**Status check, 2026-10-14 (round 4, novelty referee).** Still nothing new on #404 by others (note.md §12.0).
 
 **Status check, 2026-10-13 (round 3, track S0).** Still nothing new on #404 by others: the problem page, forum, Kitamura's repositories, teorth/erdosproblems and arXiv are unchanged. formal-conjectures PR #6936 has one new commit and two approvals but is not merged and still formalises only the statement (note.md §11.0).
 
 **Status check, 2026-10-12.** There are no new results on #404 by others since this note was first written (8 Oct). The following show no change: the problem page (last edited 29 Sep 2025, 0 proof claims), Kitamura's repositories (last pushed 7–8 Jul 2026), the teorth/erdosproblems database (status `open`) and arXiv. A Lean formalization of the *statement* of #404 is under review in google-deepmind/formal-conjectures (PR #6936, still open). The workflow lead checked on 11 Oct, and the round-2 novelty referee re-checked on 12 Oct.
 
-The full write-up is [`note.md`](note.md). **The mathematics, code and text were produced by AI** (see [AI disclosure](#ai-disclosure-and-authorship)). No human has verified the mathematics. Three rounds of three AI referees (logic, computation, novelty) have checked it: note.md §9 for round 1, §10.8 for round 2 and §11.8 for round 3. In round 3, each research track was also checked by a separate AI instance with its own code.
+The full write-up is [`note.md`](note.md). **The mathematics, code and text were produced by AI** (see [AI disclosure](#ai-disclosure-and-authorship)). No human has verified the mathematics. Three rounds of three AI referees (logic, computation, novelty) have checked it: note.md §9 for round 1, §10.8 for round 2 and §11.8 for round 3. In rounds 3 and 4, each research track was also checked by separate AI instances with their own code; round 4's referees are recorded in note.md §12.7.
 
 ## The problem
 
@@ -31,14 +33,14 @@ Write $f(a,p)=v_p(a!)+g_p(a)$. The excess $g_p$ extends to a function on the $p$
 
 ## New in round 4 (2026-10-13/14; note.md §12)
 
-Round 4 had one target: positive Haar measure of $K_p$ (Conjecture 5.2) at an odd prime $p\ge7$. Four tracks attacked it with different strategies. Every main claim was verified by two or three separate AI instances, each writing its own code and including independent recomputation of every certificate; a final round of AI referees then checked note.md §12. **No human has checked any of it.**
+Round 4 had one target: positive Haar measure of $K_p$ (Conjecture 5.2) at an odd prime $p\ge7$. Four tracks attacked it with different strategies. Every main claim was verified by two or three separate AI instances, each writing its own code; the certificates of Theorem 12.1 were recomputed independently. AI referees then reviewed note.md §12 (note.md §12.7). **No human has checked any of it.**
 
 | | Statement | Status |
 |---|---|---|
-| Thm 12.1, 12.2, 12.4 | **$\mu(K_p)>0$ for every prime $7\le p\le97$.** For $11\le p\le97$, $\mu(K_p\cap p^3\mathbb Z_p)\ge c_pp^{-3}$ with $c_p\ge0.69$ for $17\le p\le97$. For $p=7$, $\mu(K_7)\ge1.46\cdot10^{-69}$ on an explicit cylinder. Two tracks independently cover $11\le p\le23$ | computer-assisted; rests on Theorem 11.14 (round 3) |
-| §12.1 | Two new lemmas, each found independently by two tracks: a Hensel reduction of the fine-scale mass to high-slope signed paths, and a quenched value–derivative anti-concentration bound with explicit constants $q_s(p)$ | proved |
+| Thm 12.1, 12.2, 12.4 | **$\mu(K_p)>0$ for every prime $7\le p\le97$.** For $11\le p\le97$, $\mu(K_p\cap p^3\mathbb Z_p)\ge c_pp^{-3}$ with $c_p\ge0.69$ for $17\le p\le97$. For $p=7$, $\mu(K_7)\ge1.46\cdot10^{-69}$ on an explicit cylinder. Two tracks separately cover $11\le p\le23$ | computer-assisted; rests on Theorem 11.14 (round 3) |
+| §12.1 | Two lemmas, new in this setting, reached separately by two tracks from a common brief: a Hensel reduction of the fine-scale mass to high-slope signed paths, and a quenched value–derivative anti-concentration bound with explicit constants $q_s(p)$ | proved |
 | Thm 12.5–12.12 | Theorem 11.14 with adaptive and with weighted window times; an exact deep-gate decomposition; a $\theta$-lifting criterion; plateau lower bounds such as $\delta_G(13)\ge0.7431$ for $G\le679775$; an obstruction to single-lineage thinning | proved / computer-assisted |
-| §12.5 | Open: $p=3,5$ (the method fails there), $p>97$, and a uniform-in-$p$ statement (needs anti-concentration of signed factorial subset sums mod $p$) | — |
+| §12.5 | Open: $p=3,5$ (the method fails there), $p>97$, and a uniform-in-$p$ statement (needs anti-concentration of signed factorial subset sums mod $p$, $p^2$ and $p^3$, which we did not find in the literature) | — |
 
 ## New in round 3 (2026-10-13; note.md §11)
 

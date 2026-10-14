@@ -409,7 +409,7 @@ These hold for every prime $13\le p\le97$, and fail at $p=11$ ($q_1(11)-1=1.4\cd
 **9.3 Why AC is genuinely arithmetic.**
 - $q_1(p)-1=\chi^2$ of the subset-sum law of $\{r!\bmod p\}_{r<p}$, i.e. $\sum_{b\ne0}\prod_{r<p}\cos^2(\pi br!/p)$.
 - A uniform bound $q_1(p)\le1+o(1)$ would require that, for every $b\ne0$, the products $\prod_r|\cos(\pi br!/p)|$ are small. This is an equidistribution statement for the dilates $b\cdot\{r!\bmod p\}$.
-- To our knowledge even the weaker statement that $r!\bmod p$ ($r<p$) takes a positive proportion of residues is open; the known lower bounds for the number of distinct values are of order $\sqrt p$. We did not search the literature systematically, so this is a reported belief, not a verified claim.
+- To our knowledge even the weaker statement that $r!\bmod p$ ($r<p$) takes a positive proportion of residues is open; the known lower bounds for the number of distinct values are of order $\sqrt p$. We did not search the literature systematically, so this is a reported belief, not a verified claim. *[Lead's note, after the round-4 novelty referee: the best published lower bound is $(\sqrt2-o(1))\sqrt p$ (Grebennikov–Sagdeev–Semchankau–Vasilevskii 2024); an unrefereed preprint, arXiv:2608.01781 (Aug 2026), claims $\gg p^{8/15}$. Whether $|\{r!\bmod p\}|\sim(1-1/e)p$ is Erdős Problem #478.]*
 - Similarly $q_2$ concerns the pairs $(r!,\,r!H_r)$ modulo $p$, with $r!H_r=|s(r+1,2)|$ (Stirling numbers of the first kind), together with the $p^2$-digit of $\sum\delta_rr!$.
 - $q_3$ concerns the falling factorials $(p-1)!/(p-1-r)!$ modulo $p^3$. Note R3F's Theorem 11.17: their only signed relation over $\mathbb Z$ is $\pm(e_{p-2}+e_{p-1})$.
 
