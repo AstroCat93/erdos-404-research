@@ -1,5 +1,8 @@
 # Round 4, track M4A: strategy A ("(S) + truncation") for $\mu(K_p)>0$
 
+*Lead's note after the adversarial verification (`data/round4/checks/M4A_*.md`): Theorem M and Corollary M′ are confirmed under three lenses, with an independent recomputation of every certificate. Required corrections, applied in note.md §12: the Corollary M′ lower bounds read ≥ 1.05e-4 (p=11), 4.89e-2 (p=13), 3.48e-3 (p=17), 1.09e-1 (p=19), 2.06e-1 (p=23) (three were rounded up here); the proof needs the phase-4 deep-gate truncation G′, because the untruncated expectation is infinite (Proposition O1 of the obstruction check), so the phrase "uses no truncation beyond working on one atom" is withdrawn; (S) is proved here only in a quenched, gate-pattern-dependent block-product form; the strong valuation bound V_j − V_n ≥ v((j−n)!) used in phase 4 has a one-line proof given in the logic check; "Conjecture 5.2 holds for these six primes" should read "the cases p = 7, 11, 13, 17, 19, 23 of Conjecture 5.2 hold [computer-assisted]".*
+
+
 Date: 2026-10-13. Code: `code/round4/M4A/`. Logs: `data/round4/M4A/` (every run starts with `=== command:` and ends with `=== exit:`). Notation: note.md §10.1 and data/round3/reports/R3M.md §1. Everything this report needs from there is restated in §1.
 
 ## Headline

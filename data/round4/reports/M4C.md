@@ -1,5 +1,8 @@
 # Round 4, track M4C: strategy C ("large $p$") for $\mu(K_p)>0$
 
+*Lead's note after the adversarial verification (`data/round4/checks/M4C_*.md`): Theorem M is confirmed under three lenses, with two independent recomputations of every certificate. Required corrections, applied in note.md §12: "verifies FE completely, with no truncation" is withdrawn — the proof truncates at deep gates and pays for it via Lemma L(a), and the truncation is necessary (Proposition O1′ of the obstruction check); Corollary M′ is [heuristic, not proved] throughout (including the §0 table); the far tail beyond 10^60 now has an explicit majorant (≤ 10^(−2.6·10^58), derived by the logic check) in place of the hard-coded remainder; two displayed inequalities of §4.2 are corrected (conclusions unchanged); the p = 11 row should print Π_A ≤ 10.61823 and δ_A ≤ 0.0874275.*
+
+
 Date: 2026-10-13/14. Code: `code/round4/M4C/`. Logs: `data/round4/M4C/` (every run starts with `### command:` and `### start:` and ends with `### wall:`). Scratch: `/tmp/r4_M4C/`.
 Notation: note.md §10.1 and `data/round3/reports/R3M.md` §1 (restated in §1 below).
 

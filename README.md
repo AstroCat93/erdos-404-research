@@ -2,12 +2,13 @@
 
 This repository is a research note on [Erdős Problem #404](https://www.erdosproblems.com/404) (sums of distinct factorials divisible by high prime powers), with the code, logs and data behind it.
 
-**Problem #404 is not solved.** Status after round 3 (2026-10-13):
+**Problem #404 is not solved.** Status after round 4 (2026-10-14):
 - **Q3 is open.** Nothing here proves that $f(a,p)=\infty$ for any pair $(a,p)$.
 - **Q1 is open in general.**
   - *Round 2:* at $p=2$, $f(a,2)<\infty$ for all $a$ outside a set of natural density $0$ (note.md Theorem 10.1). This is a complete proof, checked by AI referees and not by a human.
   - *New in round 3:* $f(a,2)<\infty$ for **every** $a\le32768$, with exact values. This includes Kitamura's open test case, **$f(594,2)=90394$**, and $f(17662,2)=221465$ (note.md Theorems 11.2 and 11.4; computer-assisted). There is also an explicit, very weak rate: $\delta_G(2)\le2^{1/80}G^{-1/80}$ for $G\ge2^{3072}$ (Theorem 11.7; computer-assisted).
   - Whether $f(a,2)<\infty$ for *every* $a$ is still open.
+- **New in round 4:** the set $K_p$ of $p$-adic $x$ with $f=\infty$ has **positive Haar measure for every prime $7\le p\le97$** (note.md Theorem 12.1; computer-assisted; adversarially verified by AI instances, not by a human). This proves Conjecture 5.2 for these primes. It is a measure statement and says nothing about Q3.
 - **Q2 has partial results.** These are structural theorems, exact values on residue classes, much larger certified lower bounds than were previously published, and precise sufficient conditions for a positive answer to Q3. Round 3 adds a conditional theorem for $\mu(K_p)>0$ at odd $p$, certified Fourier constants for gate blocks, and $L^2$ forms of the main obstructions.
 
 **Status check, 2026-10-13 (round 3, track S0).** Still nothing new on #404 by others: the problem page, forum, Kitamura's repositories, teorth/erdosproblems and arXiv are unchanged. formal-conjectures PR #6936 has one new commit and two approvals but is not merged and still formalises only the statement (note.md §11.0).
@@ -27,6 +28,17 @@ For a prime $p$ and an integer $a\ge1$, let $f(a,p)$ be the largest $k$ such tha
 Known before this note: $f(2,2)=254$ (S. Lin), the trivial family $a\equiv-1 \pmod p$ (where $f(a,p)=v_p(a!)$), Tao's block lemma, and K. Kitamura's extensive computations (exact values of $f(a,2)$ for $a\le256$ and deeper rows, a certified classification of all $p=2$ classes with excess $\le24$, and witnesses $f(1,p)\ge20000$ for $p=3,5,7$ and $\ge5000$ for $p=11,13$).
 
 Write $f(a,p)=v_p(a!)+g_p(a)$. The excess $g_p$ extends to a function on the $p$-adic integers (this normal form is Kitamura's; see below).
+
+## New in round 4 (2026-10-13/14; note.md §12)
+
+Round 4 had one target: positive Haar measure of $K_p$ (Conjecture 5.2) at an odd prime $p\ge7$. Four tracks attacked it with different strategies. Every main claim was verified by two or three separate AI instances, each writing its own code and including independent recomputation of every certificate; a final round of AI referees then checked note.md §12. **No human has checked any of it.**
+
+| | Statement | Status |
+|---|---|---|
+| Thm 12.1, 12.2, 12.4 | **$\mu(K_p)>0$ for every prime $7\le p\le97$.** For $11\le p\le97$, $\mu(K_p\cap p^3\mathbb Z_p)\ge c_pp^{-3}$ with $c_p\ge0.69$ for $17\le p\le97$. For $p=7$, $\mu(K_7)\ge1.46\cdot10^{-69}$ on an explicit cylinder. Two tracks independently cover $11\le p\le23$ | computer-assisted; rests on Theorem 11.14 (round 3) |
+| §12.1 | Two new lemmas, each found independently by two tracks: a Hensel reduction of the fine-scale mass to high-slope signed paths, and a quenched value–derivative anti-concentration bound with explicit constants $q_s(p)$ | proved |
+| Thm 12.5–12.12 | Theorem 11.14 with adaptive and with weighted window times; an exact deep-gate decomposition; a $\theta$-lifting criterion; plateau lower bounds such as $\delta_G(13)\ge0.7431$ for $G\le679775$; an obstruction to single-lineage thinning | proved / computer-assisted |
+| §12.5 | Open: $p=3,5$ (the method fails there), $p>97$, and a uniform-in-$p$ statement (needs anti-concentration of signed factorial subset sums mod $p$) | — |
 
 ## New in round 3 (2026-10-13; note.md §11)
 
@@ -203,8 +215,10 @@ archive/             archived logs that the "not re-run" items rest on; gzipped 
 review/              the round-1 referees' own programs and outputs
 code/round2/         round-2 programs (tracks R1a, R1b, R2a, R2b, R3; the lead's checks; the round-2 referees' programs in review/)
 code/round3/         round-3 programs (tracks S0, R3N, R3Q, R3M, R3F, R3C; check_<T>/ the checkers' own code; referee_<role>/)
+code/round4/         round-4 programs (tracks M4A-M4D; verify_<...>/ the verifiers' own code)
 data/round2/         round-2 logs: original track logs, the 2026-10-12 re-runs, the round-2 referees' logs
 data/round3/         round-3 logs and witnesses; reports/ (track reports), checks/ (adversarial checks), referees/ (referee reports)
+data/round4/         round-4 brief, logs and atoms; reports/ (track reports), checks/ (verifier reports), referees/
 LICENSE              MIT (code)
 LICENSE-docs.md      CC BY 4.0 (documents)
 CITATION.cff
@@ -229,6 +243,7 @@ CITATION.cff
   Wherever the note says "the lead" or "the lead author" in round 2, it means that AI instance, not the human author.
 - **Referee outcome (round 2):** no fatal or serious mathematical error. The logic referee checked the proof of Theorem 10.1 line by line and found no gap. The computational referee re-certified every new bound with its own program. The novelty referee found two serious problems of credit and attribution: Kitamura's critical-branching observation was uncredited, and the verification wording could be read as referring to the human author. It also found several minor overstatements. All are corrected. Details are in note.md §10.8.
 - **Round 3 (2026-10-13):** the same kind of workflow, with a status gate, five research tracks, an adversarial check of each track by a separate AI instance writing its own code, and three final referee agents (logic, computation, novelty). An external spending limit interrupted the session once; the interrupted runs were resumed from their own checkpoints, and one track (R3Q) was redone from scratch. Details are in note.md §11.0 and §11.8.
+- **Round 4 (2026-10-13/14):** the same kind of workflow, with four research tracks on one target, two or three adversarial verifiers per main claim (logic, numerical falsification with independent recomputation, obstructions), and a final round of AI referees. A container restart interrupted the session once; the verifiers it stopped were relaunched. Details are in note.md §12.0 and §12.7.
 - **No human referee** has checked any part of this. Treat it as an unrefereed preprint, and check whatever you intend to rely on. Corrections are welcome (open an issue).
 
 ## License

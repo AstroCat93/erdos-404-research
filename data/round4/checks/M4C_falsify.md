@@ -118,7 +118,8 @@ Script: `cert.py`. Log: `cert.log`. Comparison: `compare.py`, log `compare.log`.
 | 97 | 7.2434153·10⁻³² | 0.021615897385 | 0.727568980 | 0.727 | 7.97185·10⁻⁷ | 7.96·10⁻⁷ | 581 |
 
 **Comparison with the report (all 21 primes, `compare.log`).**
-- The phase-1 schedules and the explicit phase-2 windows (blocks, s, N_W, N, I, μ(G^c), √𝔅) coincide with `assemble.log` line by line.
+- The phase-1 schedules and k₀ coincide with `assemble.log` for all 21 primes.
+- All 81 explicit phase-2 windows have identical integer data (ℓ, blocks, s, N_W, N, I), and their μ(G^c) and ε̄ = √𝔅 agree to the printed precision.
 - Π_A agrees to all 15 printed digits, δ_A to all 10 printed digits, and c_p to all 10 digits printed by `check_assemble.log`.
 - Every §7.3 entry passes: log Π_A and δ_A are upper bounds, c_p and μ(K_p) are lower bounds, and ℓ*−k₀ is equal.
 - The headline's c₁₁ ≥ 1.25·10⁻⁴ and the table's 1.254·10⁻⁴ are both valid roundings down of 1.25498·10⁻⁴. The minimum c_p over 17 ≤ p ≤ 97 is 0.69200 (p = 41), so "c_p ≥ 0.69" holds.
