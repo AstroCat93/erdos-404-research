@@ -1,0 +1,4 @@
+=== command: python3 t4_eprime.py 7 301 400 20 3000 12
+=== start (UTC): 2026-10-14T01:29:02Z
+p=7: windows tested 394 (kinds {'neg2': 91, 'rand': 72, 'deep_N': 77, 'deep_n': 75, 'deep_mid': 79}), skipped 6; E'>=E: 788 ok, 0 violations; min ln(E'/E) = 9.88133; two-path checks 24, mismatches 0
+=== exit: 0   wall: 1.23 s

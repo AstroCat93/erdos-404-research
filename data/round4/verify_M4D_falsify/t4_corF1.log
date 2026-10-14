@@ -1,0 +1,407 @@
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 3 10 0 0 3 3 3 3 3
+# start 2026-10-14T01:55:33Z
+base cylinder B = 0 + 3^0 Z_p
+p=3 chain=[3, 6, 9, 12, 15] kcap=10  determined cylinders=7128  unknown mass U=13/729 (~0.0178)  time=5.5s
+pointwise: hypotheses held on (cylinders) {'min(p^-D)': 1134, 'const 1/7': 162} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.403292  mu(A&|T_L|>=th p^D)=0.403292  mu(A&I0)=0.442158  sum mu(A\L_l)=1.092821  RHS=-0.650663  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.403292  mu(A&|T_L|>=th p^D)=0.389575  mu(A&I0)=0.393690  sum mu(A\L_l)=1.235482  RHS=-0.841792  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.403292  mu(A&|T_L|>=th p^D)=0.364426  mu(A&I0)=0.368999  sum mu(A\L_l)=1.526292  RHS=-1.157293  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.403292  mu(A&|T_L|>=th p^D)=0.333181  mu(A&I0)=0.181070  sum mu(A\L_l)=1.307270  RHS=-1.126200  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.403292  mu(A&|T_L|>=th p^D)=0.319006  mu(A&I0)=0.181070  sum mu(A\L_l)=1.307270  RHS=-1.126200  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.403292  mu(A&|T_L|>=th p^D)=0.230758  mu(A&I0)=0.108368  sum mu(A\L_l)=1.379515  RHS=-1.271148  OK
+  const 1      A=all   mu(A&alive n_L)=0.403292  mu(A&|T_L|>=th p^D)=0.230758  mu(A&I0)=0.108368  sum mu(A\L_l)=1.088249  RHS=-0.979881  OK
+TOTAL FAILURES 0
+# exit 0  wall 5 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 3 10 0 0 4 4 4 4
+# start 2026-10-14T01:55:38Z
+base cylinder B = 0 + 3^0 Z_p
+p=3 chain=[4, 8, 12, 16] kcap=10  determined cylinders=11313  unknown mass U=80/2187 (~0.0366)  time=8.7s
+pointwise: hypotheses held on (cylinders) {'min(p^-D)': 702, 'const 1/7': 378, 'const 1/3': 216, 'const 1/2': 27, 'const 2/3': 27} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.403292  mu(A&|T_L|>=th p^D)=0.403292  mu(A&I0)=0.430727  sum mu(A\L_l)=0.538637  RHS=-0.107910  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.403292  mu(A&|T_L|>=th p^D)=0.389575  mu(A&I0)=0.358482  sum mu(A\L_l)=0.615455  RHS=-0.256973  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.403292  mu(A&|T_L|>=th p^D)=0.364426  mu(A&I0)=0.284408  sum mu(A\L_l)=0.780064  RHS=-0.495656  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.403292  mu(A&|T_L|>=th p^D)=0.333181  mu(A&I0)=0.072702  sum mu(A\L_l)=0.707362  RHS=-0.634659  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.403292  mu(A&|T_L|>=th p^D)=0.319006  mu(A&I0)=0.072702  sum mu(A\L_l)=0.707362  RHS=-0.634659  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.403292  mu(A&|T_L|>=th p^D)=0.230758  mu(A&I0)=0.000000  sum mu(A\L_l)=0.780064  RHS=-0.780064  OK
+  const 1      A=all   mu(A&alive n_L)=0.403292  mu(A&|T_L|>=th p^D)=0.230758  mu(A&I0)=0.000000  sum mu(A\L_l)=0.744399  RHS=-0.744399  OK
+TOTAL FAILURES 0
+# exit 0  wall 9 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 5 8 0 0 5 5 5 5 5
+# start 2026-10-14T01:55:47Z
+base cylinder B = 0 + 5^0 Z_p
+p=5 chain=[5, 10, 15, 20, 25] kcap=8  determined cylinders=37500  unknown mass U=1/125 (~0.008)  time=55.4s
+pointwise: hypotheses held on (cylinders) {'const 1/2': 2875, 'const 2/3': 2500, 'const 6/7': 2500, 'const 1': 2500, 'min(p^-D)': 5125, 'const 1/7': 3125, 'const 1/3': 1375} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.520333  mu(A&|T_L|>=th p^D)=0.520333  mu(A&I0)=0.532800  sum mu(A\L_l)=1.031680  RHS=-0.498880  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.520333  mu(A&|T_L|>=th p^D)=0.520333  mu(A&I0)=0.509760  sum mu(A\L_l)=1.077760  RHS=-0.568000  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.520333  mu(A&|T_L|>=th p^D)=0.520182  mu(A&I0)=0.416960  sum mu(A\L_l)=1.269760  RHS=-0.852800  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.520333  mu(A&|T_L|>=th p^D)=0.517261  mu(A&I0)=0.341760  sum mu(A\L_l)=1.111040  RHS=-0.769280  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.520333  mu(A&|T_L|>=th p^D)=0.511017  mu(A&I0)=0.316160  sum mu(A\L_l)=0.952320  RHS=-0.636160  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.520333  mu(A&|T_L|>=th p^D)=0.504005  mu(A&I0)=0.276480  sum mu(A\L_l)=1.111040  RHS=-0.834560  OK
+  const 1      A=all   mu(A&alive n_L)=0.520333  mu(A&|T_L|>=th p^D)=0.492511  mu(A&I0)=0.276480  sum mu(A\L_l)=0.952320  RHS=-0.675840  OK
+TOTAL FAILURES 0
+# exit 0  wall 56 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 7 6 2 34 7 7 7 7
+# start 2026-10-14T01:56:43Z
+base cylinder B = 34 + 7^2 Z_p
+p=7 chain=[7, 14, 21, 28] kcap=6  determined cylinders=588  unknown mass U=1/49 (~0.0204)  time=0.9s
+pointwise: hypotheses held on (cylinders) {} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.979592  RHS=-0.979592  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.979592  RHS=-0.979592  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.979592  RHS=-0.979592  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.979592  RHS=-0.979592  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.979592  RHS=-0.979592  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.979592  RHS=-0.979592  OK
+  const 1      A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls0  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls1  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls2  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls3  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls4  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls5  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls6  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+TOTAL FAILURES 0
+# exit 0  wall 1 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 7 7 3 328 7 7 7 7
+# start 2026-10-14T01:56:44Z
+base cylinder B = 328 + 7^3 Z_p
+p=7 chain=[7, 14, 21, 28] kcap=7  determined cylinders=588  unknown mass U=1/49 (~0.0204)  time=4.9s
+pointwise: hypotheses held on (cylinders) {} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.979592  RHS=-0.979592  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.979592  RHS=-0.979592  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.979592  RHS=-0.979592  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.979592  RHS=-0.979592  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.979592  RHS=-0.979592  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.979592  RHS=-0.979592  OK
+  const 1      A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls0  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls1  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls2  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls3  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls4  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls5  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls6  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+TOTAL FAILURES 0
+# exit 0  wall 5 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 7 7 2 47 7 7 7 7
+# start 2026-10-14T01:56:49Z
+base cylinder B = 47 + 7^2 Z_p
+p=7 chain=[7, 14, 21, 28] kcap=7  determined cylinders=882  unknown mass U=1/343 (~0.00292)  time=0.5s
+pointwise: hypotheses held on (cylinders) {'const 2/3': 882, 'const 6/7': 882, 'const 1': 882} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.000000  RHS=0.997085  INCONCLUSIVE(U)
+  const 2/3    A=cls0  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 2/3    A=cls1  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 2/3    A=cls2  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 2/3    A=cls3  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 2/3    A=cls4  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 2/3    A=cls5  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 2/3    A=cls6  mu(A&alive n_L)=0.139942  mu(A&|T_L|>=th p^D)=0.139942  mu(A&I0)=0.139942  sum mu(A\L_l)=0.000000  RHS=0.139942  INCONCLUSIVE(U)
+  const 6/7    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.000000  RHS=0.997085  INCONCLUSIVE(U)
+  const 6/7    A=cls0  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 6/7    A=cls1  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 6/7    A=cls2  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 6/7    A=cls3  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 6/7    A=cls4  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 6/7    A=cls5  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 6/7    A=cls6  mu(A&alive n_L)=0.139942  mu(A&|T_L|>=th p^D)=0.139942  mu(A&I0)=0.139942  sum mu(A\L_l)=0.000000  RHS=0.139942  INCONCLUSIVE(U)
+  const 1      A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.000000  RHS=0.997085  INCONCLUSIVE(U)
+  const 1      A=cls0  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 1      A=cls1  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 1      A=cls2  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 1      A=cls3  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 1      A=cls4  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 1      A=cls5  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 1      A=cls6  mu(A&alive n_L)=0.139942  mu(A&|T_L|>=th p^D)=0.139942  mu(A&I0)=0.139942  sum mu(A\L_l)=0.000000  RHS=0.139942  INCONCLUSIVE(U)
+TOTAL FAILURES 0
+# exit 0  wall 0 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 5 8 2 14 5 5 5 5 5
+# start 2026-10-14T01:56:49Z
+base cylinder B = 14 + 5^2 Z_p
+p=5 chain=[5, 10, 15, 20, 25] kcap=8  determined cylinders=1500  unknown mass U=1/125 (~0.008)  time=3.0s
+pointwise: hypotheses held on (cylinders) {} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=1.984000  RHS=-1.984000  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=1.984000  RHS=-1.984000  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=1.984000  RHS=-1.984000  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=1.984000  RHS=-1.984000  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.992000  RHS=-0.992000  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.992000  RHS=-0.992000  OK
+  const 1      A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls0  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls1  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls2  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls3  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls4  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+TOTAL FAILURES 0
+# exit 0  wall 3 s
+# NOTE: the three gate-cylinder runs above (B = 34+7^2, 328+7^3, 14+5^2) lie in x = -1 mod p, where nothing is alive (g_p = 0); they are valid but uninformative. Corrected gate cylinders follow.
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 7 7 2 32 9 7 7 7
+# start 2026-10-14T01:57:30Z
+base cylinder B = 32 + 7^2 Z_p
+p=7 chain=[9, 16, 23, 30] kcap=7  determined cylinders=882  unknown mass U=1/343 (~0.00292)  time=5.2s
+pointwise: hypotheses held on (cylinders) {} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 1      A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls0  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls1  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls2  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls3  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls4  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls5  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls6  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+TOTAL FAILURES 0
+# exit 0  wall 6 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 7 8 3 326 9 7 7 7
+# start 2026-10-14T01:57:36Z
+base cylinder B = 326 + 7^3 Z_p
+p=7 chain=[9, 16, 23, 30] kcap=8  determined cylinders=882  unknown mass U=1/343 (~0.00292)  time=35.8s
+pointwise: hypotheses held on (cylinders) {} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 1      A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls0  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls1  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls2  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls3  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls4  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls5  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls6  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+TOTAL FAILURES 0
+# exit 0  wall 36 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 7 7 2 23 9 7 7 7
+# start 2026-10-14T01:58:12Z
+base cylinder B = 23 + 7^2 Z_p
+p=7 chain=[9, 16, 23, 30] kcap=7  determined cylinders=882  unknown mass U=1/343 (~0.00292)  time=1.4s
+pointwise: hypotheses held on (cylinders) {} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.992087  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1      A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.979592  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+TOTAL FAILURES 0
+# exit 0  wall 1 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 5 8 2 13 6 5 5 5 5
+# start 2026-10-14T01:58:13Z
+base cylinder B = 13 + 5^2 Z_p
+p=5 chain=[6, 11, 16, 21, 26] kcap=8  determined cylinders=1500  unknown mass U=1/125 (~0.008)  time=3.3s
+pointwise: hypotheses held on (cylinders) {} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.840000  mu(A&|T_L|>=th p^D)=0.840000  mu(A&I0)=0.992000  sum mu(A\L_l)=1.984000  RHS=-0.992000  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.840000  mu(A&|T_L|>=th p^D)=0.840000  mu(A&I0)=0.800000  sum mu(A\L_l)=1.984000  RHS=-1.184000  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.840000  mu(A&|T_L|>=th p^D)=0.840000  mu(A&I0)=0.800000  sum mu(A\L_l)=1.984000  RHS=-1.184000  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.840000  mu(A&|T_L|>=th p^D)=0.840000  mu(A&I0)=0.000000  sum mu(A\L_l)=1.984000  RHS=-1.984000  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.840000  mu(A&|T_L|>=th p^D)=0.840000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.992000  RHS=-0.992000  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.840000  mu(A&|T_L|>=th p^D)=0.840000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.992000  RHS=-0.992000  OK
+  const 1      A=all   mu(A&alive n_L)=0.840000  mu(A&|T_L|>=th p^D)=0.840000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  OK
+TOTAL FAILURES 0
+# exit 0  wall 4 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 5 9 3 113 6 5 5 5 5
+# start 2026-10-14T01:58:17Z
+base cylinder B = 113 + 5^3 Z_p
+p=5 chain=[6, 11, 16, 21, 26] kcap=9  determined cylinders=1500  unknown mass U=1/125 (~0.008)  time=12.8s
+pointwise: hypotheses held on (cylinders) {} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.200000  mu(A&|T_L|>=th p^D)=0.200000  mu(A&I0)=0.992000  sum mu(A\L_l)=1.984000  RHS=-0.992000  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.200000  mu(A&|T_L|>=th p^D)=0.200000  mu(A&I0)=0.000000  sum mu(A\L_l)=1.984000  RHS=-1.984000  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.200000  mu(A&|T_L|>=th p^D)=0.200000  mu(A&I0)=0.000000  sum mu(A\L_l)=1.984000  RHS=-1.984000  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.200000  mu(A&|T_L|>=th p^D)=0.200000  mu(A&I0)=0.000000  sum mu(A\L_l)=1.984000  RHS=-1.984000  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.200000  mu(A&|T_L|>=th p^D)=0.200000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.992000  RHS=-0.992000  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.200000  mu(A&|T_L|>=th p^D)=0.200000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.992000  RHS=-0.992000  OK
+  const 1      A=all   mu(A&alive n_L)=0.200000  mu(A&|T_L|>=th p^D)=0.200000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  OK
+  const 1      A=cls0  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls2  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls3  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls4  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+TOTAL FAILURES 0
+# exit 0  wall 13 s
+# NOTE: B = 32+7^2 and 326+7^3 (x = 4 mod 7) are again in a class with g_7 = 0 (x = -3 mod 7); also uninformative. B = 23+7^2 (x = 2 mod 7), and the p=5 cylinders 13+5^2, 113+5^3 (x = 3 mod 5) are alive classes. Alive-class gate cylinders for p=7 follow.
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 7 7 2 30 11 7 7 7
+# start 2026-10-14T01:59:03Z
+base cylinder B = 30 + 7^2 Z_p
+p=7 chain=[11, 18, 25, 32] kcap=7  determined cylinders=882  unknown mass U=1/343 (~0.00292)  time=6.5s
+pointwise: hypotheses held on (cylinders) {} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.989171  mu(A&|T_L|>=th p^D)=0.989171  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.989171  mu(A&|T_L|>=th p^D)=0.989171  mu(A&I0)=0.979592  sum mu(A\L_l)=0.997085  RHS=-0.017493  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.989171  mu(A&|T_L|>=th p^D)=0.989171  mu(A&I0)=0.857143  sum mu(A\L_l)=0.997085  RHS=-0.139942  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.989171  mu(A&|T_L|>=th p^D)=0.989171  mu(A&I0)=0.857143  sum mu(A\L_l)=0.997085  RHS=-0.139942  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.989171  mu(A&|T_L|>=th p^D)=0.989171  mu(A&I0)=0.857143  sum mu(A\L_l)=0.997085  RHS=-0.139942  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.989171  mu(A&|T_L|>=th p^D)=0.989171  mu(A&I0)=0.857143  sum mu(A\L_l)=0.997085  RHS=-0.139942  OK
+  const 1      A=all   mu(A&alive n_L)=0.989171  mu(A&|T_L|>=th p^D)=0.989171  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  OK
+TOTAL FAILURES 0
+# exit 0  wall 7 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 7 8 3 324 11 7 7 7
+# start 2026-10-14T01:59:10Z
+base cylinder B = 324 + 7^3 Z_p
+p=7 chain=[11, 18, 25, 32] kcap=8  determined cylinders=882  unknown mass U=1/343 (~0.00292)  time=36.7s
+pointwise: hypotheses held on (cylinders) {} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.926697  mu(A&|T_L|>=th p^D)=0.926697  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.926697  mu(A&|T_L|>=th p^D)=0.926697  mu(A&I0)=0.857143  sum mu(A\L_l)=0.997085  RHS=-0.139942  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.926697  mu(A&|T_L|>=th p^D)=0.926697  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.926697  mu(A&|T_L|>=th p^D)=0.926697  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.926697  mu(A&|T_L|>=th p^D)=0.926697  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.926697  mu(A&|T_L|>=th p^D)=0.926697  mu(A&I0)=0.000000  sum mu(A\L_l)=0.997085  RHS=-0.997085  OK
+  const 1      A=all   mu(A&alive n_L)=0.926697  mu(A&|T_L|>=th p^D)=0.926697  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  OK
+TOTAL FAILURES 0
+# exit 0  wall 36 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 7 8 3 341 7 7 7 7
+# start 2026-10-14T01:59:46Z
+base cylinder B = 341 + 7^3 Z_p
+p=7 chain=[7, 14, 21, 28] kcap=8  determined cylinders=882  unknown mass U=1/343 (~0.00292)  time=0.4s
+pointwise: hypotheses held on (cylinders) {'const 2/3': 882, 'const 6/7': 882, 'const 1': 882} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.000000  RHS=0.997085  INCONCLUSIVE(U)
+  const 2/3    A=cls0  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 2/3    A=cls1  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 2/3    A=cls2  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 2/3    A=cls3  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 2/3    A=cls4  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 2/3    A=cls5  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 2/3    A=cls6  mu(A&alive n_L)=0.139942  mu(A&|T_L|>=th p^D)=0.139942  mu(A&I0)=0.139942  sum mu(A\L_l)=0.000000  RHS=0.139942  INCONCLUSIVE(U)
+  const 6/7    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.000000  RHS=0.997085  INCONCLUSIVE(U)
+  const 6/7    A=cls0  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 6/7    A=cls1  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 6/7    A=cls2  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 6/7    A=cls3  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 6/7    A=cls4  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 6/7    A=cls5  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 6/7    A=cls6  mu(A&alive n_L)=0.139942  mu(A&|T_L|>=th p^D)=0.139942  mu(A&I0)=0.139942  sum mu(A\L_l)=0.000000  RHS=0.139942  INCONCLUSIVE(U)
+  const 1      A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.000000  RHS=0.997085  INCONCLUSIVE(U)
+  const 1      A=cls0  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 1      A=cls1  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 1      A=cls2  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 1      A=cls3  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 1      A=cls4  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 1      A=cls5  mu(A&alive n_L)=0.142857  mu(A&|T_L|>=th p^D)=0.142857  mu(A&I0)=0.142857  sum mu(A\L_l)=0.000000  RHS=0.142857  INCONCLUSIVE(U)
+  const 1      A=cls6  mu(A&alive n_L)=0.139942  mu(A&|T_L|>=th p^D)=0.139942  mu(A&I0)=0.139942  sum mu(A\L_l)=0.000000  RHS=0.139942  INCONCLUSIVE(U)
+TOTAL FAILURES 0
+# exit 0  wall 1 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 7 7 2 41 11 7 7 7
+# start 2026-10-14T01:59:47Z
+base cylinder B = 41 + 7^2 Z_p
+p=7 chain=[11, 18, 25, 32] kcap=7  determined cylinders=4116  unknown mass U=1/49 (~0.0204)  time=1.5s
+pointwise: hypotheses held on (cylinders) {} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  min(p^-D)    A=cls0  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  min(p^-D)    A=cls1  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  min(p^-D)    A=cls2  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  min(p^-D)    A=cls3  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  min(p^-D)    A=cls4  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  min(p^-D)    A=cls5  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  min(p^-D)    A=cls6  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/7    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/7    A=cls0  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/7    A=cls1  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/7    A=cls2  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/7    A=cls3  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/7    A=cls4  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/7    A=cls5  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/7    A=cls6  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/3    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/3    A=cls0  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/3    A=cls1  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/3    A=cls2  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/3    A=cls3  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/3    A=cls4  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/3    A=cls5  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/3    A=cls6  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/2    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/2    A=cls0  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/2    A=cls1  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/2    A=cls2  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/2    A=cls3  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/2    A=cls4  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/2    A=cls5  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1/2    A=cls6  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 2/3    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 2/3    A=cls0  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 2/3    A=cls1  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 2/3    A=cls2  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 2/3    A=cls3  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 2/3    A=cls4  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 2/3    A=cls5  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 2/3    A=cls6  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 6/7    A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 6/7    A=cls0  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 6/7    A=cls1  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 6/7    A=cls2  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 6/7    A=cls3  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 6/7    A=cls4  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 6/7    A=cls5  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 6/7    A=cls6  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=all   mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls0  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls1  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls2  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls3  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls4  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls5  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+  const 1      A=cls6  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.000000  RHS=0.000000  INCONCLUSIVE(U)
+TOTAL FAILURES 0
+# exit 0  wall 2 s
+# NOTE: B = 41+7^2 (x = 6 = -1 mod 7) is a dead class; uninformative. Corrected mid-window gate cylinder: B = 22+7^2 (x = 1 mod 7; v(x+27) >= 2, i.e. d = 2 into W_2).
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 7 7 2 22 11 7 7 7
+# start 2026-10-14T02:00:10Z
+base cylinder B = 22 + 7^2 Z_p
+p=7 chain=[11, 18, 25, 32] kcap=7  determined cylinders=882  unknown mass U=1/343 (~0.00292)  time=2.8s
+pointwise: hypotheses held on (cylinders) {} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1/7    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1/3    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1/2    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.997085  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+  const 1      A=all   mu(A&alive n_L)=0.997085  mu(A&|T_L|>=th p^D)=0.996966  mu(A&I0)=0.997085  sum mu(A\L_l)=0.997085  RHS=0.000000  OK
+TOTAL FAILURES 0
+# exit 0  wall 3 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 7 7 0 0 7 8 8 8
+# start 2026-10-14T02:00:13Z
+base cylinder B = 0 + 7^0 Z_p
+p=7 chain=[7, 15, 23, 31] kcap=7  determined cylinders=78498  unknown mass U=121/16807 (~0.0072)  time=264.4s
+pointwise: hypotheses held on (cylinders) {'const 6/7': 6664, 'const 1': 1176, 'const 1/3': 3920, 'const 1/2': 3087, 'const 2/3': 2009, 'min(p^-D)': 4704, 'const 1/7': 2940} ; failures 0
+  min(p^-D)    A=all   mu(A&alive n_L)=0.622343  mu(A&|T_L|>=th p^D)=0.622343  mu(A&I0)=0.622717  sum mu(A\L_l)=0.487713  RHS=0.135003  OK
+  min(p^-D)    A=cls6  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.002499  RHS=-0.002499  INCONCLUSIVE(U)
+  const 1/7    A=all   mu(A&alive n_L)=0.622343  mu(A&|T_L|>=th p^D)=0.622343  mu(A&I0)=0.606295  sum mu(A\L_l)=0.498780  RHS=0.107515  OK
+  const 1/7    A=cls6  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.004998  RHS=-0.004998  INCONCLUSIVE(U)
+  const 1/3    A=all   mu(A&alive n_L)=0.622343  mu(A&|T_L|>=th p^D)=0.622343  mu(A&I0)=0.587553  sum mu(A\L_l)=0.364788  RHS=0.222764  OK
+  const 1/3    A=cls6  mu(A&alive n_L)=0.000000  mu(A&|T_L|>=th p^D)=0.000000  mu(A&I0)=0.000000  sum mu(A\L_l)=0.004998  RHS=-0.004998  INCONCLUSIVE(U)
+  const 1/2    A=all   mu(A&alive n_L)=0.622343  mu(A&|T_L|>=th p^D)=0.622334  mu(A&I0)=0.564943  sum mu(A\L_l)=0.408520  RHS=0.156423  OK
+  const 2/3    A=all   mu(A&alive n_L)=0.622343  mu(A&|T_L|>=th p^D)=0.622328  mu(A&I0)=0.490807  sum mu(A\L_l)=0.380199  RHS=0.110609  OK
+  const 6/7    A=all   mu(A&alive n_L)=0.622343  mu(A&|T_L|>=th p^D)=0.622167  mu(A&I0)=0.435414  sum mu(A\L_l)=0.324805  RHS=0.110609  OK
+  const 1      A=all   mu(A&alive n_L)=0.622343  mu(A&|T_L|>=th p^D)=0.620629  mu(A&I0)=0.341286  sum mu(A\L_l)=0.307848  RHS=0.033438  OK
+TOTAL FAILURES 0
+# exit 0  wall 265 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t4_corF1.py 7 7 0 0 7 7 7 7
+# start 2026-10-14T02:09:27Z

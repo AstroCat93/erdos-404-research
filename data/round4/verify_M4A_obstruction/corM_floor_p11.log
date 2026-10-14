@@ -1,0 +1,36 @@
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py floor 11 1 60 5
+=== start (UTC): 2026-10-14T01:53:56Z
+  x=87876131233047068208 [n,N,N')=[30,41,59) D=1 K=3 M_W=1: chi2_W=1.062 chi2_W'=1.065 eps=0.002384
+  x=561693968798111919940 [n,N,N')=[42,56,73) D=1 K=4 M_W=2: chi2_W=0.01715 chi2_W'=0.2146 eps=0.000163
+  x=573580470046475393325 [n,N,N')=[22,36,50) D=2 K=3 M_W=1: chi2_W=4.508 chi2_W'=0.003136 eps=1.456e-05
+  x=529344684917095269798 [n,N,N')=[30,46,58) D=1 K=2 M_W=1: chi2_W=0.002066 chi2_W'=0.1602 eps=5.932e-06
+  x=128117631040596858049 [n,N,N')=[32,43,54) D=1 K=3 M_W=2: chi2_W=0.01715 chi2_W'=0.7872 eps=0.003099
+  x=639171309882482859705 [n,N,N')=[22,36,52) D=1 K=3 M_W=1: chi2_W=0.01715 chi2_W'=0.1614 eps=2.971e-05
+T1 p=11: 60 composite windows (K<=5); floor (p-1)4^-p = 2.384e-06
+   chi^2 of single windows below the floor: 0 (Prop 11.12 predicts 0); min chi^2 = 0.001436
+   composite eps below the floor: 1/60; min eps = 2.237e-06
+=== exit: 0   wall: 0.24 s
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py floor 11 2 60 5
+=== start (UTC): 2026-10-14T01:53:56Z
+  x=93276909100225769416 [n,N,N')=[24,37,50) D=1 K=2 M_W=1: chi2_W=0.1064 chi2_W'=0.2031 eps=0.0009636
+  x=300832019624448287720 [n,N,N')=[41,53,64) D=1 K=2 M_W=1: chi2_W=0.1064 chi2_W'=0.1602 eps=0.001002
+  x=197034214833768745296 [n,N,N')=[35,51,65) D=2 K=3 M_W=1: chi2_W=1.065 chi2_W'=0.003136 eps=0.000242
+  x=322856156130355312338 [n,N,N')=[23,34,50) D=1 K=3 M_W=1: chi2_W=0.1602 chi2_W'=0.1605 eps=0.0006338
+  x=386124416368123267232 [n,N,N')=[34,48,63) D=1 K=2 M_W=1: chi2_W=0.01715 chi2_W'=0.1602 eps=3.27e-05
+  x=213253776070722447821 [n,N,N')=[29,41,52) D=1 K=2 M_W=1: chi2_W=3.125 chi2_W'=4.5 eps=0.00476
+T1 p=11: 60 composite windows (K<=5); floor (p-1)4^-p = 2.384e-06
+   chi^2 of single windows below the floor: 0 (Prop 11.12 predicts 0); min chi^2 = 0.001436
+   composite eps below the floor: 0/60; min eps = 3.9e-06
+=== exit: 0   wall: 0.18 s
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py floor 13 3 60 4
+=== start (UTC): 2026-10-14T01:53:57Z
+  x=17995714377376801642101 [n,N,N')=[38,52,66) D=1 K=3 M_W=2: chi2_W=0.0001526 chi2_W'=0.7174 eps=0.0003335
+  x=14730152760731439959476 [n,N,N')=[49,62,80) D=1 K=2 M_W=1: chi2_W=2.202e-05 chi2_W'=2.202e-05 eps=2.024e-08
+  x=6014819739637403671102 [n,N,N')=[50,63,78) D=1 K=2 M_W=1: chi2_W=0.05371 chi2_W'=0.05371 eps=6.867e-06
+  x=17861418400385667903840 [n,N,N')=[45,61,76) D=2 K=3 M_W=1: chi2_W=3.875 chi2_W'=2.861e-05 eps=1.675e-07
+  x=16139445591883259150448 [n,N,N')=[38,54,67) D=1 K=2 M_W=1: chi2_W=0.05371 chi2_W'=1.438 eps=6.522e-06
+  x=3677644718264935081949 [n,N,N')=[27,41,57) D=1 K=2 M_W=1: chi2_W=2.202e-05 chi2_W'=2.861e-05 eps=3.453e-09
+T1 p=13: 60 composite windows (K<=4); floor (p-1)4^-p = 1.788e-07
+   chi^2 of single windows below the floor: 0 (Prop 11.12 predicts 0); min chi^2 = 2.202e-05
+   composite eps below the floor: 18/60; min eps = 3.453e-09
+=== exit: 0   wall: 0.21 s

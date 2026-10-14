@@ -1,0 +1,12 @@
+### command: python3 b2_t7_large_d.py 77 300
+### start (UTC): 2026-10-14T00:44:52Z
+progress {'cases': 50, 'fail': 0, 'K_eq_g': 8}
+progress {'cases': 100, 'fail': 0, 'K_eq_g': 22}
+progress {'cases': 150, 'fail': 0, 'K_eq_g': 32}
+progress {'cases': 200, 'fail': 0, 'K_eq_g': 43}
+progress {'cases': 250, 'fail': 0, 'K_eq_g': 63}
+progress {'cases': 300, 'fail': 0, 'K_eq_g': 72}
+ratio range [0.750000, 1.375000]
+RESULT large_d: {'cases': 300, 'fail': 0, 'K_eq_g': 72}
+### exit: 0
+### wall: 21 s

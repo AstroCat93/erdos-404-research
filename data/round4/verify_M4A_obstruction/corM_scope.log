@@ -1,0 +1,126 @@
+=== command: python3 code/round4/verify_M4A_obstruction/corM_scope.py data/round4/M4A/atom_p7.txt 8 60000
+=== start (UTC): 2026-10-14T01:49:34Z
+p=7 n0=300 m=51 xA=8482778585152010705975786324668215228635086  (L1=8, NBLOCK=60000)
+(S1) V_300=51 (file m=51)  M_300=4 < m: True  D_0=17  M_405=4
+     W_0 admissible: D_0 <= m - M_405: True;  M_405 < m: True
+     path: v(S_e(xA)) = 51 >= m: True;  S_e'(xA) mod p = 6 != 0: True
+(S2) i_A = 4106476713379874320366176059319330216123657 (~4.1065e+42; p^m = 1.2589e+43);  first phase-4 window l* = 307
+     phase 1: l = 1..8 (8 windows), max gate depth = 4 (< m = 51)
+     phase 2: l = 9..16 (8 windows), max gate depth = 5 (< m = 51)
+     phase 3: l = 17..306 (290 windows), max gate depth = 50 (< m = 51)
+     linear regime of C3 fails in 0 of the 306 windows l < l* (exact, deterministic on A)
+     first Markov window l=9 [3317,4478,6046): D=194 K=456 M=5: floor(D/2)+1=98 >= m=51: True; theta=97; K-M=451 >= theta: True
+     over all Markov windows l in (8, 307): theta != ceil(D/2) or floor(D/2)+1 < m in 0; K - M < theta in 0
+(S3) l*=307: n=2293035348879770593215334397815098998068202 N=3095597720987690300840701437050383647392073 N'=4179056923333381906134946940018017923979299
+     N < i_A < N': True;  next point of I_A, i_A + p^m > N': True;  c = i_A-2-n >= 0 and c+2 <= H-1: True
+     H=1886021574453611312919612542202918925911097 a_c=302240227416683954525140276917371869675881 D=133760395351319951270894506539214108220642 K_0=K-v(x+i_A)=314336929075601885486602090367153154318459 s_0=max(m,K_0-a_c)=12096701658917930961461813449781284642578
+     => E_A[eps_l*] >= sum_(s>=s_0) [((p-1)/p) p^(m+K_0) 2^-(H+2) - ((p-1)/p) p^(D+m-s)] = +infinity (each term ~ 10^-3.0210e+41).  Proposition O1 holds at p=7: True
+(S4) Prop 11.12 floor (p-1)4^-p = 0.00036621;  M4A's chi^2_0 bound = 0.504642 >= floor: True
+     M4A's phase-1 eps_bar (Prop D - 1) = [1.637, 12.93, 98.64, 137.8, 336.3, 3835.0, 464300.0, 49560000.0];  all >= floor: True
+     (each composite window [n,N') mod p^K is a single window with jump K, so p^K Coll_K - 1 >= floor; a Prop D value below 1 + floor would contradict Prop 11.12)
+=== exit: 0   wall: 0.38 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_scope.py data/round4/M4A/atom_p11.txt 6 60000
+=== start (UTC): 2026-10-14T01:49:35Z
+p=11 n0=300 m=30 xA=11719631866586025569823096147704  (L1=6, NBLOCK=60000)
+(S1) V_300=30 (file m=30)  M_300=3 < m: True  D_0=11  M_405=3
+     W_0 admissible: D_0 <= m - M_405: True;  M_405 < m: True
+     path: v(S_e(xA)) = 30 >= m: True;  S_e'(xA) mod p = 1 != 0: True
+(S2) i_A = 5729770402300381748735707606097 (~5.7298e+30; p^m = 1.7449e+31);  first phase-4 window l* = 216
+     phase 1: l = 1..6 (6 windows), max gate depth = 3 (< m = 30)
+     phase 2: l = 7..16 (10 windows), max gate depth = 4 (< m = 30)
+     phase 3: l = 17..215 (199 windows), max gate depth = 29 (< m = 30)
+     linear regime of C3 fails in 0 of the 215 windows l < l* (exact, deterministic on A)
+     first Markov window l=7 [1820,2457,3317): D=62 K=149 M=3: floor(D/2)+1=32 >= m=30: True; theta=31; K-M=146 >= theta: True
+     over all Markov windows l in (6, 216): theta != ceil(D/2) or floor(D/2)+1 < m in 0; K - M < theta in 0
+(S3) l*=216: n=3162553031292340962143795953007 N=4269446592244660298894124536560 N'=5763752899530291403507068124356
+     N < i_A < N': True;  next point of I_A, i_A + p^m > N': True;  c = i_A-2-n >= 0 and c+2 <= H-1: True
+     H=2601199868237950441363272171349 a_c=256721737100804078659191165297 D=110689356095231933675032858355 K_0=K-v(x+i_A)=260119986823795044136327217108 s_0=max(m,K_0-a_c)=3398249722990965477136051811
+     => E_A[eps_l*] >= sum_(s>=s_0) [((p-1)/p) p^(m+K_0) 2^-(H+2) - ((p-1)/p) p^(D+m-s)] = +infinity (each term ~ 10^-5.1215e+29).  Proposition O1 holds at p=11: True
+(S4) Prop 11.12 floor (p-1)4^-p = 2.3842e-6;  M4A's chi^2_0 bound = 3.63828 >= floor: True
+     M4A's phase-1 eps_bar (Prop D - 1) = [4.245, 0.4531, 0.6354, 2.761, 2.805, 3.788];  all >= floor: True
+     (each composite window [n,N') mod p^K is a single window with jump K, so p^K Coll_K - 1 >= floor; a Prop D value below 1 + floor would contradict Prop 11.12)
+=== exit: 0   wall: 0.36 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_scope.py data/round4/M4A/atom_p13.txt 6 60000
+=== start (UTC): 2026-10-14T01:49:35Z
+p=13 n0=300 m=26 xA=10535248573128188798965153761  (L1=6, NBLOCK=60000)
+(S1) V_300=26 (file m=26)  M_300=3 < m: True  D_0=8  M_405=3
+     W_0 admissible: D_0 <= m - M_405: True;  M_405 < m: True
+     path: v(S_e(xA)) = 26 >= m: True;  S_e'(xA) mod p = 5 != 0: True
+(S2) i_A = 81198081620140427859434462248 (~8.1198e+28; p^m = 9.1733e+28);  first phase-4 window l* = 202
+     phase 1: l = 1..6 (6 windows), max gate depth = 3 (< m = 26)
+     phase 2: l = 7..16 (10 windows), max gate depth = 4 (< m = 26)
+     phase 3: l = 17..201 (185 windows), max gate depth = 25 (< m = 26)
+     linear regime of C3 fails in 0 of the 201 windows l < l* (exact, deterministic on A)
+     first Markov window l=7 [1820,2457,3317): D=52 K=124 M=3: floor(D/2)+1=27 >= m=26: True; theta=26; K-M=121 >= theta: True
+     over all Markov windows l in (6, 202): theta != ceil(D/2) or floor(D/2)+1 < m in 0; K - M < theta in 0
+(S3) l*=202: n=47354914604828005608375108730 N=63929134716517807571306396786 N'=86304331867299040221263635662
+     N < i_A < N': True;  next point of I_A, i_A + p^m > N': True;  c = i_A-2-n >= 0 and c+2 <= H-1: True
+     H=38949417262471034612888526932 a_c=2820263917942701854254946114 D=1381185009307483496910940672 K_0=K-v(x+i_A)=3245784771872586217740710552 s_0=max(m,K_0-a_c)=425520853929884363485764438
+     => E_A[eps_l*] >= sum_(s>=s_0) [((p-1)/p) p^(m+K_0) 2^-(H+2) - ((p-1)/p) p^(D+m-s)] = +infinity (each term ~ 10^-8.1093e+27).  Proposition O1 holds at p=13: True
+(S4) Prop 11.12 floor (p-1)4^-p = 1.7881e-7;  M4A's chi^2_0 bound = 0.422094 >= floor: True
+     M4A's phase-1 eps_bar (Prop D - 1) = [0.434, 1.479, 0.4578, 0.05985, 0.04317, 0.05171];  all >= floor: True
+     (each composite window [n,N') mod p^K is a single window with jump K, so p^K Coll_K - 1 >= floor; a Prop D value below 1 + floor would contradict Prop 11.12)
+=== exit: 0   wall: 0.3 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_scope.py data/round4/M4A/atom_p17.txt 6 60000
+=== start (UTC): 2026-10-14T01:49:35Z
+p=17 n0=300 m=18 xA=476142940561818649182  (L1=6, NBLOCK=60000)
+(S1) V_300=18 (file m=18)  M_300=2 < m: True  D_0=8  M_405=2
+     W_0 admissible: D_0 <= m - M_405: True;  M_405 < m: True
+     path: v(S_e(xA)) = 18 >= m: True;  S_e'(xA) mod p = 6 != 0: True
+(S2) i_A = 13586941511505906341827 (~1.3587e+22; p^m = 1.4063e+22);  first phase-4 window l* = 150
+     phase 1: l = 1..6 (6 windows), max gate depth = 2 (< m = 18)
+     phase 2: l = 7..16 (10 windows), max gate depth = 4 (< m = 18)
+     phase 3: l = 17..149 (133 windows), max gate depth = 17 (< m = 18)
+     linear regime of C3 fails in 0 of the 149 windows l < l* (exact, deterministic on A)
+     first Markov window l=7 [1820,2457,3317): D=39 K=93 M=2: floor(D/2)+1=20 >= m=18: True; theta=20; K-M=91 >= theta: True
+     over all Markov windows l in (6, 150): theta != ceil(D/2) or floor(D/2)+1 < m in 0; K - M < theta in 0
+(S3) l*=150: n=7906951884758156705676 N=10674385044423511552663 N'=14410419809971740596096
+     N < i_A < N': True;  next point of I_A, i_A + p^m > N': True;  c = i_A-2-n >= 0 and c+2 <= H-1: True
+     H=6503467925213583890420 a_c=354999351671734352252 D=172964572479084677940 K_0=K-v(x+i_A)=406466745325848993136 s_0=max(m,K_0-a_c)=51467393654114640884
+     => E_A[eps_l*] >= sum_(s>=s_0) [((p-1)/p) p^(m+K_0) 2^-(H+2) - ((p-1)/p) p^(D+m-s)] = +infinity (each term ~ 10^-1.4576e+21).  Proposition O1 holds at p=17: True
+(S4) Prop 11.12 floor (p-1)4^-p = 9.3132e-10;  M4A's chi^2_0 bound = 7.50249 >= floor: True
+     M4A's phase-1 eps_bar (Prop D - 1) = [7.503, 0.000301, 0.002396, 0.5947, 0.0008971, 0.04092];  all >= floor: True
+     (each composite window [n,N') mod p^K is a single window with jump K, so p^K Coll_K - 1 >= floor; a Prop D value below 1 + floor would contradict Prop 11.12)
+=== exit: 0   wall: 0.26 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_scope.py data/round4/M4A/atom_p19.txt 6 60000
+=== start (UTC): 2026-10-14T01:49:36Z
+p=19 n0=300 m=16 xA=248014983023202328424  (L1=6, NBLOCK=60000)
+(S1) V_300=16 (file m=16)  M_300=1 < m: True  D_0=6  M_405=2
+     W_0 admissible: D_0 <= m - M_405: True;  M_405 < m: True
+     path: v(S_e(xA)) = 16 >= m: True;  S_e'(xA) mod p = 2 != 0: True
+(S2) i_A = 40426430544418839257 (~4.0426e+19; p^m = 2.8844e+20);  first phase-4 window l* = 131
+     phase 1: l = 1..6 (6 windows), max gate depth = 2 (< m = 16)
+     phase 2: l = 7..16 (10 windows), max gate depth = 3 (< m = 16)
+     phase 3: l = 17..130 (114 windows), max gate depth = 15 (< m = 16)
+     linear regime of C3 fails in 0 of the 130 windows l < l* (exact, deterministic on A)
+     first Markov window l=7 [1820,2457,3317): D=34 K=83 M=3: floor(D/2)+1=18 >= m=16: True; theta=17; K-M=80 >= theta: True
+     over all Markov windows l in (6, 131): theta != ceil(D/2) or floor(D/2)+1 < m in 0; K - M < theta in 0
+(S3) l*=131: n=26403864456058772238 N=35645217015679342522 N'=48121042971167112405
+     N < i_A < N': True;  next point of I_A, i_A + p^m > N': True;  c = i_A-2-n >= 0 and c+2 <= H-1: True
+     H=21717178515108340167 a_c=779031449353337050 D=513408475534476130 K_0=K-v(x+i_A)=1206509917506018885 s_0=max(m,K_0-a_c)=427478468152681835
+     => E_A[eps_l*] >= sum_(s>=s_0) [((p-1)/p) p^(m+K_0) 2^-(H+2) - ((p-1)/p) p^(D+m-s)] = +infinity (each term ~ 10^-4.9947e+18).  Proposition O1 holds at p=19: True
+(S4) Prop 11.12 floor (p-1)4^-p = 6.5484e-11;  M4A's chi^2_0 bound = 0.0014437 >= floor: True
+     M4A's phase-1 eps_bar (Prop D - 1) = [0.001444, 0.07203, 0.0004657, 0.0004752, 2.567, 0.001412];  all >= floor: True
+     (each composite window [n,N') mod p^K is a single window with jump K, so p^K Coll_K - 1 >= floor; a Prop D value below 1 + floor would contradict Prop 11.12)
+=== exit: 0   wall: 0.27 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_scope.py data/round4/M4A/atom_p23.txt 6 60000
+=== start (UTC): 2026-10-14T01:49:36Z
+p=23 n0=300 m=14 xA=7800098896144524222  (L1=6, NBLOCK=60000)
+(S1) V_300=14 (file m=14)  M_300=2 < m: True  D_0=4  M_405=2
+     W_0 admissible: D_0 <= m - M_405: True;  M_405 < m: True
+     path: v(S_e(xA)) = 14 >= m: True;  S_e'(xA) mod p = 7 != 0: True
+(S2) i_A = 3792737428394225587 (~3.7927e+18; p^m = 1.1593e+19);  first phase-4 window l* = 123
+     phase 1: l = 1..6 (6 windows), max gate depth = 2 (< m = 14)
+     phase 2: l = 7..16 (10 windows), max gate depth = 4 (< m = 14)
+     phase 3: l = 17..122 (106 windows), max gate depth = 13 (< m = 14)
+     linear regime of C3 fails in 0 of the 122 windows l < l* (exact, deterministic on A)
+     first Markov window l=7 [1820,2457,3317): D=28 K=68 M=2: floor(D/2)+1=15 >= m=14: True; theta=14; K-M=66 >= theta: True
+     over all Markov windows l in (6, 123): theta != ceil(D/2) or floor(D/2)+1 < m in 0; K - M < theta in 0
+(S3) l*=123: n=2393301134495815350 N=3230956531569350723 N'=4361791317618623477
+     N < i_A < N': True;  next point of I_A, i_A + p^m > N': True;  c = i_A-2-n >= 0 and c+2 <= H-1: True
+     H=1968490183122808127 a_c=63610740631745912 D=38075245321524335 K_0=K-v(x+i_A)=89476826505582172 s_0=max(m,K_0-a_c)=25866085873836260
+     => E_A[eps_l*] >= sum_(s>=s_0) [((p-1)/p) p^(m+K_0) 2^-(H+2) - ((p-1)/p) p^(D+m-s)] = +infinity (each term ~ 10^-4.7073e+17).  Proposition O1 holds at p=23: True
+(S4) Prop 11.12 floor (p-1)4^-p = 3.1264e-13;  M4A's chi^2_0 bound = 2.22478e-08 >= floor: True
+     M4A's phase-1 eps_bar (Prop D - 1) = [5.479e-08, 0.06216, 0.7969, 2.407e-06, 0.0008834, 0.06216];  all >= floor: True
+     (each composite window [n,N') mod p^K is a single window with jump K, so p^K Coll_K - 1 >= floor; a Prop D value below 1 + floor would contradict Prop 11.12)
+=== exit: 0   wall: 0.18 s

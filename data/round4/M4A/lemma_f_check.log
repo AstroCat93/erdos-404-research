@@ -1,0 +1,60 @@
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_f_check.py 3 1 12 20 14 7 3 10
+=== start (UTC): 2026-10-13T23:32:04Z
+RESULT p=3 n=20 H1=14 H2=7 b=3: Lemma F+Q bound holds in 0/0; max HS/bound = 0.0000
+=== exit: 0   wall: 0.66 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_f_check.py 3 2 10 24 16 6 4 11
+=== start (UTC): 2026-10-13T23:32:05Z
+B#1: xB=7 D=7 K=9 th=4  HS=6.86843e-01 <= bound=2.70358e+00: True  ratio=0.2540
+B#2: xB=4 D=6 K=9 th=3  HS=5.67358e-01 <= bound=3.06956e+00: True  ratio=0.1848
+B#3: xB=34 D=7 K=9 th=4  HS=6.86101e-01 <= bound=2.70358e+00: True  ratio=0.2538
+B#4: xB=4 D=6 K=9 th=3  HS=5.67358e-01 <= bound=3.06956e+00: True  ratio=0.1848
+B#5: xB=3 D=6 K=9 th=3  HS=2.81333e-01 <= bound=2.35590e+00: True  ratio=0.1194
+B#6: xB=30 D=6 K=9 th=3  HS=2.82491e-01 <= bound=2.35590e+00: True  ratio=0.1199
+B#7: xB=3 D=6 K=9 th=3  HS=2.81333e-01 <= bound=2.35590e+00: True  ratio=0.1194
+B#8: xB=31 D=6 K=9 th=3  HS=5.69675e-01 <= bound=3.06956e+00: True  ratio=0.1856
+B#9: xB=34 D=7 K=9 th=4  HS=6.86101e-01 <= bound=2.70358e+00: True  ratio=0.2538
+B#10: xB=13 D=6 K=10 th=3  HS=7.24560e-01 <= bound=9.20869e+00: True  ratio=0.0787
+RESULT p=3 n=24 H1=16 H2=6 b=4: Lemma F+Q bound holds in 10/10; max HS/bound = 0.2540
+=== exit: 0   wall: 488.15 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_f_check.py 5 3 8 12 20 8 2 6
+=== start (UTC): 2026-10-13T23:40:13Z
+RESULT p=5 n=12 H1=20 H2=8 b=2: Lemma F+Q bound holds in 0/0; max HS/bound = 0.0000
+=== exit: 0   wall: 0.72 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_f_check.py 7 4 8 10 20 8 2 5
+=== start (UTC): 2026-10-13T23:40:14Z
+B#1: xB=6 D=3 K=4 th=2  HS=5.77346e-02 <= bound=3.60140e-01: True  ratio=0.1603
+B#2: xB=9 D=3 K=4 th=2  HS=4.02614e-01 <= bound=1.96912e+00: True  ratio=0.2045
+B#3: xB=5 D=3 K=4 th=2  HS=3.23051e-02 <= bound=2.62778e-01: True  ratio=0.1229
+B#4: xB=4 D=2 K=4 th=1  HS=1.59777e-01 <= bound=1.05836e+00: True  ratio=0.1510
+B#5: xB=1 D=3 K=4 th=2  HS=2.01239e-01 <= bound=9.84555e-01: True  ratio=0.2044
+B#6: xB=3 D=3 K=4 th=2  HS=5.59229e-01 <= bound=3.65211e+00: True  ratio=0.1531
+B#7: xB=6 D=3 K=4 th=2  HS=5.77346e-02 <= bound=3.60140e-01: True  ratio=0.1603
+B#8: xB=1 D=3 K=4 th=2  HS=2.01239e-01 <= bound=9.84555e-01: True  ratio=0.2044
+RESULT p=7 n=10 H1=20 H2=8 b=2: Lemma F+Q bound holds in 8/8; max HS/bound = 0.2045
+=== exit: 0   wall: 16.65 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_f_check.py 5 6 8 20 18 7 3 7
+=== start (UTC): 2026-10-13T23:41:45Z
+B#1: xB=73 D=5 K=6 th=3  HS=1.53417e+00 <= bound=4.06162e+00: True  ratio=0.3777
+B#2: xB=10 D=3 K=6 th=1  HS=4.07692e-01 <= bound=2.24214e+00: True  ratio=0.1818
+B#3: xB=62 D=5 K=6 th=3  HS=9.37471e-02 <= bound=7.82355e-01: True  ratio=0.1198
+B#4: xB=33 D=4 K=6 th=2  HS=6.30006e-01 <= bound=3.21855e+00: True  ratio=0.1957
+B#5: xB=4 D=5 K=6 th=3  HS=5.01240e+00 <= bound=1.43522e+01: True  ratio=0.3492
+B#6: xB=0 D=4 K=6 th=2  HS=1.22706e+00 <= bound=2.24214e+00: True  ratio=0.5473
+B#7: xB=18 D=5 K=6 th=3  HS=3.58013e-01 <= bound=3.21855e+00: True  ratio=0.1112
+B#8: xB=75 D=4 K=6 th=2  HS=1.22746e+00 <= bound=2.24214e+00: True  ratio=0.5474
+RESULT p=5 n=20 H1=18 H2=7 b=3: Lemma F+Q bound holds in 8/8; max HS/bound = 0.5474
+=== exit: 0   wall: 269.2 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_f_check.py 7 7 10 12 22 8 2 5
+=== start (UTC): 2026-10-13T23:46:14Z
+B#1: xB=3 D=3 K=4 th=2  HS=3.23118e-02 <= bound=2.62784e-01: True  ratio=0.1230
+B#2: xB=4 D=3 K=4 th=2  HS=5.77413e-02 <= bound=3.60147e-01: True  ratio=0.1603
+B#3: xB=6 D=3 K=4 th=2  HS=2.01309e-01 <= bound=9.84561e-01: True  ratio=0.2045
+B#4: xB=3 D=3 K=4 th=2  HS=3.23118e-02 <= bound=2.62784e-01: True  ratio=0.1230
+B#5: xB=2 D=3 K=4 th=2  HS=2.34706e-02 <= bound=2.13963e-01: True  ratio=0.1097
+B#6: xB=5 D=3 K=4 th=2  HS=1.00654e-01 <= bound=5.72756e-01: True  ratio=0.1757
+B#7: xB=4 D=3 K=4 th=2  HS=5.77413e-02 <= bound=3.60147e-01: True  ratio=0.1603
+B#8: xB=5 D=3 K=4 th=2  HS=1.00654e-01 <= bound=5.72756e-01: True  ratio=0.1757
+B#9: xB=3 D=3 K=4 th=2  HS=3.23118e-02 <= bound=2.62784e-01: True  ratio=0.1230
+B#10: xB=3 D=3 K=4 th=2  HS=3.23118e-02 <= bound=2.62784e-01: True  ratio=0.1230
+RESULT p=7 n=12 H1=22 H2=8 b=2: Lemma F+Q bound holds in 10/10; max HS/bound = 0.2045
+=== exit: 0   wall: 22.14 s

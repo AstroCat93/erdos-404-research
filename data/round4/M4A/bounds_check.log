@@ -1,0 +1,76 @@
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/bounds_check.py 7 1 12 10 16 6 2 5
+=== start (UTC): 2026-10-13T23:14:42Z
+B#1: xB=8 D=2 K=3 th=1  E_B eps=1.1838e-04 <= propE=1.3503e+00: True;  max_B p^K Coll_K=1.3287e+00 <= propD=1.3503e+00: True
+B#2: xB=4 D=2 K=3 th=1  E_B eps=7.9318e-06 <= propE=1.0435e+00: True;  max_B p^K Coll_K=1.0148e+00 <= propD=1.0435e+00: True
+B#3: xB=7 D=2 K=3 th=1  E_B eps=5.9188e-05 <= propE=1.1815e+00: True;  max_B p^K Coll_K=1.1623e+00 <= propD=1.1815e+00: True
+B#4: xB=13 D=2 K=3 th=1  E_B eps=3.6703e-04 <= propE=1.0549e+00: True;  max_B p^K Coll_K=1.0265e+00 <= propD=1.0549e+00: True
+B#5: xB=6 D=2 K=3 th=1  E_B eps=2.9978e-05 <= propE=1.0549e+00: True;  max_B p^K Coll_K=1.0318e+00 <= propD=1.0549e+00: True
+B#6: xB=1 D=2 K=3 th=1  E_B eps=5.0387e-04 <= propE=1.3503e+00: True;  max_B p^K Coll_K=1.3291e+00 <= propD=1.3503e+00: True
+B#7: xB=0 D=2 K=3 th=1  E_B eps=2.5193e-04 <= propE=1.1815e+00: True;  max_B p^K Coll_K=1.1616e+00 <= propD=1.1815e+00: True
+B#8: xB=14 D=2 K=3 th=1  E_B eps=8.1188e-04 <= propE=1.1815e+00: True;  max_B p^K Coll_K=1.1548e+00 <= propD=1.1815e+00: True
+B#9: xB=6 D=2 K=3 th=1  E_B eps=2.9978e-05 <= propE=1.0549e+00: True;  max_B p^K Coll_K=1.0318e+00 <= propD=1.0549e+00: True
+B#10: xB=1 D=2 K=3 th=1  E_B eps=5.0387e-04 <= propE=1.3503e+00: True;  max_B p^K Coll_K=1.3291e+00 <= propD=1.3503e+00: True
+B#11: xB=1 D=2 K=3 th=1  E_B eps=5.0387e-04 <= propE=1.3503e+00: True;  max_B p^K Coll_K=1.3291e+00 <= propD=1.3503e+00: True
+B#12: xB=1 D=2 K=3 th=1  E_B eps=5.0387e-04 <= propE=1.3503e+00: True;  max_B p^K Coll_K=1.3291e+00 <= propD=1.3503e+00: True
+RESULT p=7 n=10 H1=16 H2=6 b=2: Prop E holds in 12/12, Prop D in 12/12; max ratios E: 0.0007, D: 0.9844
+=== exit: 0   wall: 0.15 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/bounds_check.py 3 2 12 16 12 6 3 9
+=== start (UTC): 2026-10-13T23:14:42Z
+RESULT p=3 n=16 H1=12 H2=6 b=3: Prop E holds in 0/0, Prop D in 0/0; max ratios E: 0.0000, D: 0.0000
+=== exit: 0   wall: 0.43 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/bounds_check.py 3 3 10 20 14 7 4 11
+=== start (UTC): 2026-10-13T23:14:42Z
+B#1: xB=30 D=8 K=10 th=4  E_B eps=4.1034e-02 <= propE=1.4493e+01: True;  max_B p^K Coll_K=7.9592e+00 <= propD=1.4493e+01: True
+B#2: xB=16 D=5 K=10 th=2  E_B eps=9.2901e-02 <= propE=7.0818e+00: True;  max_B p^K Coll_K=1.3759e+00 <= propD=9.9639e+00: True
+B#3: xB=8 D=6 K=9 th=3  E_B eps=1.4934e-02 <= propE=3.0743e+00: True;  max_B p^K Coll_K=1.3028e+00 <= propD=3.6232e+00: True
+B#4: xB=1 D=6 K=10 th=3  E_B eps=8.2362e-02 <= propE=9.9639e+00: True;  max_B p^K Coll_K=2.0396e+00 <= propD=9.9639e+00: True
+B#5: xB=33 D=8 K=11 th=4  E_B eps=1.5761e-01 <= propE=4.3479e+01: True;  max_B p^K Coll_K=1.4654e+01 <= propD=4.3479e+01: True
+B#6: xB=29 D=8 K=10 th=4  E_B eps=2.0517e-02 <= propE=1.0870e+01: True;  max_B p^K Coll_K=3.9796e+00 <= propD=1.0870e+01: True
+B#7: xB=24 D=8 K=11 th=4  E_B eps=7.6967e-02 <= propE=3.0902e+01: True;  max_B p^K Coll_K=9.0805e+00 <= propD=4.3479e+01: True
+B#8: xB=19 D=5 K=10 th=2  E_B eps=2.4862e-01 <= propE=9.9639e+00: True;  max_B p^K Coll_K=1.7425e+00 <= propD=9.9639e+00: True
+B#9: xB=29 D=8 K=10 th=4  E_B eps=2.0517e-02 <= propE=1.0870e+01: True;  max_B p^K Coll_K=3.9796e+00 <= propD=1.0870e+01: True
+B#10: xB=19 D=5 K=10 th=2  E_B eps=2.4862e-01 <= propE=9.9639e+00: True;  max_B p^K Coll_K=1.7425e+00 <= propD=9.9639e+00: True
+RESULT p=3 n=20 H1=14 H2=7 b=4: Prop E holds in 10/10, Prop D in 10/10; max ratios E: 0.0250, D: 0.5492
+=== exit: 0   wall: 36.93 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/bounds_check.py 5 4 10 12 18 8 2 6
+=== start (UTC): 2026-10-13T23:15:19Z
+RESULT p=5 n=12 H1=18 H2=8 b=2: Prop E holds in 0/0, Prop D in 0/0; max ratios E: 0.0000, D: 0.0000
+=== exit: 0   wall: 0.47 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/bounds_check.py 7 8 20 12 20 8 2 5
+=== start (UTC): 2026-10-13T23:46:36Z
+B#1: xB=8 D=3 K=4 th=2  E_B eps=2.6942e-04 <= propE=3.6521e+00: True;  max_B p^K Coll_K=3.5510e+00 <= propD=3.6521e+00: True
+B#2: xB=2 D=2 K=4 th=1  E_B eps=1.1985e-05 <= propE=1.0584e+00: True;  max_B p^K Coll_K=1.0148e+00 <= propD=1.0584e+00: True
+B#3: xB=5 D=3 K=4 th=2  E_B eps=3.4848e-05 <= propE=5.7276e-01: True;  max_B p^K Coll_K=1.1624e+00 <= propD=1.1984e+00: True
+B#4: xB=8 D=3 K=4 th=2  E_B eps=2.6942e-04 <= propE=3.6521e+00: True;  max_B p^K Coll_K=3.5510e+00 <= propD=3.6521e+00: True
+B#5: xB=1 D=3 K=4 th=2  E_B eps=2.7761e-05 <= propE=3.6521e+00: True;  max_B p^K Coll_K=3.5518e+00 <= propD=3.6521e+00: True
+B#6: xB=5 D=3 K=4 th=2  E_B eps=3.4848e-05 <= propE=5.7276e-01: True;  max_B p^K Coll_K=1.1624e+00 <= propD=1.1984e+00: True
+B#7: xB=1 D=3 K=4 th=2  E_B eps=2.7761e-05 <= propE=3.6521e+00: True;  max_B p^K Coll_K=3.5518e+00 <= propD=3.6521e+00: True
+B#8: xB=7 D=3 K=4 th=2  E_B eps=1.3939e-04 <= propE=1.9691e+00: True;  max_B p^K Coll_K=2.6579e+00 <= propD=2.7391e+00: True
+B#9: xB=6 D=3 K=4 th=2  E_B eps=6.9696e-05 <= propE=9.8456e-01: True;  max_B p^K Coll_K=1.3289e+00 <= propD=1.3695e+00: True
+B#10: xB=4 D=3 K=4 th=2  E_B eps=1.7656e-05 <= propE=3.6015e-01: True;  max_B p^K Coll_K=1.0318e+00 <= propD=1.0700e+00: True
+B#11: xB=6 D=3 K=4 th=2  E_B eps=6.9696e-05 <= propE=9.8456e-01: True;  max_B p^K Coll_K=1.3289e+00 <= propD=1.3695e+00: True
+B#12: xB=3 D=3 K=4 th=2  E_B eps=8.6112e-06 <= propE=2.6279e-01: True;  max_B p^K Coll_K=1.0234e+00 <= propD=1.0628e+00: True
+B#13: xB=5 D=3 K=4 th=2  E_B eps=3.4848e-05 <= propE=5.7276e-01: True;  max_B p^K Coll_K=1.1624e+00 <= propD=1.1984e+00: True
+B#14: xB=4 D=3 K=4 th=2  E_B eps=1.7656e-05 <= propE=3.6015e-01: True;  max_B p^K Coll_K=1.0318e+00 <= propD=1.0700e+00: True
+B#15: xB=2 D=2 K=4 th=1  E_B eps=1.1985e-05 <= propE=1.0584e+00: True;  max_B p^K Coll_K=1.0148e+00 <= propD=1.0584e+00: True
+B#16: xB=8 D=3 K=4 th=2  E_B eps=2.6942e-04 <= propE=3.6521e+00: True;  max_B p^K Coll_K=3.5510e+00 <= propD=3.6521e+00: True
+B#17: xB=6 D=3 K=4 th=2  E_B eps=6.9696e-05 <= propE=9.8456e-01: True;  max_B p^K Coll_K=1.3289e+00 <= propD=1.3695e+00: True
+B#18: xB=4 D=3 K=4 th=2  E_B eps=1.7656e-05 <= propE=3.6015e-01: True;  max_B p^K Coll_K=1.0318e+00 <= propD=1.0700e+00: True
+B#19: xB=0 D=3 K=4 th=2  E_B eps=1.2650e-05 <= propE=1.9691e+00: True;  max_B p^K Coll_K=2.6583e+00 <= propD=2.7391e+00: True
+B#20: xB=2 D=2 K=4 th=1  E_B eps=1.1985e-05 <= propE=1.0584e+00: True;  max_B p^K Coll_K=1.0148e+00 <= propD=1.0584e+00: True
+RESULT p=7 n=12 H1=20 H2=8 b=2: Prop E holds in 20/20, Prop D in 20/20; max ratios E: 0.0001, D: 0.9725
+=== exit: 0   wall: 0.46 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/bounds_check.py 5 9 10 20 18 7 3 7
+=== start (UTC): 2026-10-13T23:46:36Z
+B#1: xB=59 D=4 K=6 th=2  E_B eps=6.4803e-03 <= propE=5.4161e+00: True;  max_B p^K Coll_K=2.6174e+00 <= propD=5.4161e+00: True
+B#2: xB=78 D=5 K=6 th=3  E_B eps=1.7263e-03 <= propE=8.5304e+00: True;  max_B p^K Coll_K=9.8269e+00 <= propD=1.0765e+01: True
+B#3: xB=47 D=5 K=6 th=3  E_B eps=1.5004e-04 <= propE=2.3695e+00: True;  max_B p^K Coll_K=1.8720e+00 <= propD=2.3695e+00: True
+B#4: xB=34 D=4 K=6 th=2  E_B eps=8.6010e-03 <= propE=5.4161e+00: True;  max_B p^K Coll_K=2.6182e+00 <= propD=5.4161e+00: True
+B#5: xB=17 D=5 K=6 th=3  E_B eps=2.0711e-03 <= propE=1.7372e+00: True;  max_B p^K Coll_K=1.2766e+00 <= propD=2.3695e+00: True
+B#6: xB=23 D=5 K=6 th=3  E_B eps=1.3380e-03 <= propE=4.0621e+00: True;  max_B p^K Coll_K=3.1116e+00 <= propD=4.0621e+00: True
+B#7: xB=0 D=4 K=6 th=2  E_B eps=1.7763e-04 <= propE=2.2426e+00: True;  max_B p^K Coll_K=2.0423e+00 <= propD=2.2426e+00: True
+B#8: xB=43 D=5 K=6 th=3  E_B eps=4.8174e-03 <= propE=3.2190e+00: True;  max_B p^K Coll_K=2.3227e+00 <= propD=4.0621e+00: True
+B#9: xB=64 D=5 K=6 th=3  E_B eps=1.5886e-03 <= propE=2.5528e+00: True;  max_B p^K Coll_K=2.6546e+00 <= propD=5.4161e+00: True
+B#10: xB=59 D=4 K=6 th=2  E_B eps=6.4803e-03 <= propE=5.4161e+00: True;  max_B p^K Coll_K=2.6174e+00 <= propD=5.4161e+00: True
+RESULT p=5 n=20 H1=18 H2=7 b=3: Prop E holds in 10/10, Prop D in 10/10; max ratios E: 0.0016, D: 0.9129
+=== exit: 0   wall: 0.78 s

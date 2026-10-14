@@ -1,0 +1,21 @@
+### command: python3 code/round4/M4C/test_E.py 3 1 30 20 24 28
+### start: 2026-10-13T23:29:30Z
+# test_E p=3 seed=1 NX=30 n=(20,24,28) prec=50
+RESULT {'tried': 30, 'lin': 27, 'atoms_with_P0': 1, 'mean_fail': 0, 'var_fail': 0, 'cheb_fail': 0, 'inherit_fail': 0, 'P0_const_fail': 0, 'max_var_ratio': 0.009415891873278237, 'cheb_checks': 4, 'nontriv_cheb': 1}
+### wall: 1 s
+### command: python3 code/round4/M4C/test_E.py 3 2 30 24 29 33
+### start: 2026-10-13T23:29:31Z
+# test_E p=3 seed=2 NX=30 n=(24,29,33) prec=50
+RESULT {'tried': 30, 'lin': 29, 'atoms_with_P0': 5, 'mean_fail': 0, 'var_fail': 0, 'cheb_fail': 0, 'inherit_fail': 0, 'P0_const_fail': 0, 'max_var_ratio': 0.05309389644088145, 'cheb_checks': 20, 'nontriv_cheb': 12}
+### wall: 6 s
+### command: python3 code/round4/M4C/test_E.py 5 1 30 25 30 35
+### start: 2026-10-13T23:29:37Z
+# test_E p=5 seed=1 NX=30 n=(25,30,35) prec=50
+RESULT {'tried': 30, 'lin': 25, 'atoms_with_P0': 8, 'mean_fail': 0, 'var_fail': 0, 'cheb_fail': 0, 'inherit_fail': 0, 'P0_const_fail': 0, 'max_var_ratio': 0.04068144499178982, 'cheb_checks': 32, 'nontriv_cheb': 4}
+### wall: 30 s
+### command: python3 code/round4/M4C/test_E.py 7 1 20 28 35 42
+### start: 2026-10-13T23:30:07Z
+### NOTE: the p=7 run above (NX=20) was killed by hand after ~23 min (too slow); re-run below with NX=8 and an inner timeout
+### command: timeout 1500 python3 code/round4/M4C/test_E.py 7 1 8 28 35 42
+### start: 2026-10-13T23:53:46Z
+### wall: 1500 s

@@ -1,0 +1,18 @@
+=== command: python3 cm8_propD_window.py 23 823 30 4 4
+=== start (UTC): 2026-10-14T02:05:48Z
+win 1 kind=neg1 n=132 N=175 N'=179 D=3 K=4 gates=[(133, 2), (156, 1), (179, 1)]: p^K Coll_K - 1 = 2.635000e+02, eps = 5.868933e-14, Prop D - 1 = 2.635000e+02;  chi^2 = 2.6350e+02 <= 2.6350e+02
+win 2 kind=neg2 n=58 N=63 N'=83 D=3 K=4 gates=[(60, 3), (83, 1)]: p^K Coll_K - 1 = 4.561625e+03, eps = 2.327633e-05, Prop D - 1 = 4.561625e+03;  chi^2 = 4.5616e+03 <= 4.5616e+03
+win 3 kind=neg3 n=103 N=127 N'=129 D=3 K=4 gates=[(106, 3), (129, 1)]: p^K Coll_K - 1 = 2.280313e+03, eps = 1.163816e-05, Prop D - 1 = 2.280313e+03;  chi^2 = 2.2803e+03 <= 2.2803e+03
+win 4 kind=int n=74 N=104 N'=112 D=1 K=2 gates=[(89, 1), (112, 1)]: p^K Coll_K - 1 = 8.073971e-04, eps = 3.247271e-13, Prop D - 1 = 8.074025e-04;  chi^2 = 8.0740e-04 <= 8.0740e-04
+win 5 kind=deepmid n=110 N=130 N'=135 D=1 K=4 gates=[(112, 1), (135, 3)]: p^K Coll_K - 1 = 7.631610e+00, eps = 6.610393e-03, Prop D - 1 = 7.634987e+00;  chi^2 = 7.6250e+00 <= 7.6250e+00
+win 6 kind=rand n=106 N=137 N'=138 D=1 K=2 gates=[(115, 1), (138, 1)]: p^K Coll_K - 1 = 6.215668e-02, eps = 1.442772e-10, Prop D - 1 = 6.215668e-02;  chi^2 = 6.2157e-02 <= 6.2157e-02
+win 7 kind=neg1 n=132 N=151 N'=156 D=2 K=3 gates=[(133, 2), (156, 1)]: p^K Coll_K - 1 = 2.635000e+02, eps = 1.434392e-06, Prop D - 1 = 2.635000e+02;  chi^2 = 2.6350e+02 <= 2.6350e+02
+win 8 kind=rand n=83 N=101 N'=122 D=1 K=2 gates=[(99, 1), (122, 1)]: p^K Coll_K - 1 = 3.722841e-04, eps = 7.699412e-12, Prop D - 1 = 3.722895e-04;  chi^2 = 3.7228e-04 <= 3.7228e-04
+win 9 kind=neg2 n=148 N=160 N'=173 D=2 K=3 gates=[(150, 2), (173, 1)]: p^K Coll_K - 1 = 1.973750e+02, eps = 1.012014e-06, Prop D - 1 = 1.973750e+02;  chi^2 = 1.9738e+02 <= 1.9738e+02
+win 10 kind=int n=120 N=175 N'=184 D=2 K=3 gates=[(138, 1), (161, 1), (184, 1)]: p^K Coll_K - 1 = 1.747656e-06, eps = 1.370556e-20, Prop D - 1 = 1.758502e-06;  chi^2 = 1.7477e-06 <= 1.7531e-06
+win 11 kind=rand n=75 N=103 N'=160 D=1 K=4 gates=[(91, 1), (114, 1), (137, 1), (160, 1)]: p^K Coll_K - 1 = 3.722841e-04, eps = 5.653214e-14, Prop D - 1 = 3.723004e-04;  chi^2 = 3.7228e-04 <= 3.7228e-04
+win 12 kind=neg2 n=171 N=182 N'=196 D=3 K=4 gates=[(173, 3), (196, 1)]: p^K Coll_K - 1 = 4.561625e+03, eps = 2.327633e-05, Prop D - 1 = 4.561625e+03;  chi^2 = 4.5616e+03 <= 4.5616e+03
+win 20 kind=rand n=69 N=98 N'=156 D=1 K=4 gates=[(87, 1), (110, 1), (133, 1), (156, 1)]: p^K Coll_K - 1 = 1.747656e-06, eps = 4.495125e-15, Prop D - 1 = 1.763925e-06;  chi^2 = 1.7477e-06 <= 1.7477e-06
+win 30 kind=int n=111 N=152 N'=153 D=1 K=2 gates=[(130, 1), (153, 1)]: p^K Coll_K - 1 = 1.608925e-06, eps = 1.482363e-14, Prop D - 1 = 1.614348e-06;  chi^2 = 1.6089e-06 <= 1.6089e-06
+RESULT p=23: 30 windows; p^K Coll_K <= Prop D: 30; eps <= Prop D - 1: 30; chi^2 form: 30; max (p^K Coll_K - 1)/(Prop D - 1) = 1.000000
+=== exit: 0   wall: 9.09 s

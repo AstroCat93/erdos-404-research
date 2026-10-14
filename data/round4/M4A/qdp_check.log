@@ -1,0 +1,8 @@
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/qdp_check.py
+=== start (UTC): 2026-10-13T23:38:59Z
+RESULT p=3: q_s (s<=4) equal: True;  P0 table equal: True
+RESULT p=5: q_s (s<=4) equal: True;  P0 table equal: True
+RESULT p=7: q_s (s<=4) equal: True;  P0 table equal: True
+RESULT p=11: q_s (s<=4) equal: True;  P0 table equal: True
+RESULT p=13: q_s (s<=4) equal: True;  P0 table equal: True
+=== exit: 0   wall: 6.24 s

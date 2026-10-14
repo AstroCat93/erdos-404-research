@@ -1,0 +1,12 @@
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/eprime_check.py 7 1 60 60 2000
+=== start (UTC): 2026-10-13T23:37:06Z
+RESULT p=7 windows=60: E' >= block-level in 60/60; max block/E' = 2.2734e-07
+=== exit: 0   wall: 1.23 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/eprime_check.py 11 2 40 100 3000
+=== start (UTC): 2026-10-13T23:37:07Z
+RESULT p=11 windows=40: E' >= block-level in 40/40; max block/E' = 8.5074e-07
+=== exit: 0   wall: 1.92 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/eprime_check.py 5 3 40 60 1500
+=== start (UTC): 2026-10-13T23:37:09Z
+RESULT p=5 windows=40: E' >= block-level in 40/40; max block/E' = 1.3482e-05
+=== exit: 0   wall: 0.98 s

@@ -1,0 +1,9 @@
+### command: python3 t0_validate.py 1 30
+### start (UTC): 2026-10-14T00:13:24Z
+RESULT dp-vs-brute p=3: tests so far 280, failures 0
+RESULT dp-vs-brute p=5: tests so far 560, failures 0
+RESULT dp-vs-brute p=7: tests so far 840, failures 0
+RESULT eps coll-vs-fourier: 87 tests, 0 failures
+SUMMARY t0 dp/brute 840 tests 0 fail; eps 87 tests 0 fail
+### exit: 0
+### wall: 32 s

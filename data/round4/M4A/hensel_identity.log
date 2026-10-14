@@ -1,0 +1,95 @@
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/hensel_identity_check.py 3 1 6 10 9 4 3 8
+=== start (UTC): 2026-10-13T23:11:24Z
+B#1: xB=2 b=3 D=4 K=5 th=2 nw=9  E_B eps=8.497238e-03  RHS=8.497238e-03 exact_equal=True  p^K*HS_K=6.215e-01 p^D*HS_D=6.328e-01 base=1.978e-02 bound_ok=True  cond=True
+B#2: xB=3 b=3 D=4 K=5 th=2 nw=9  E_B eps=1.699448e-02  RHS=1.699448e-02 exact_equal=True  p^K*HS_K=1.273e+00 p^D*HS_D=1.276e+00 base=1.978e-02 bound_ok=True  cond=True
+B#3: xB=3 b=3 D=4 K=5 th=2 nw=9  E_B eps=1.699448e-02  RHS=1.699448e-02 exact_equal=True  p^K*HS_K=1.273e+00 p^D*HS_D=1.276e+00 base=1.978e-02 bound_ok=True  cond=True
+B#4: xB=0 b=3 D=4 K=5 th=2 nw=9  E_B eps=8.342743e-03  RHS=8.342743e-03 exact_equal=True  p^K*HS_K=6.906e-01 p^D*HS_D=7.020e-01 base=1.978e-02 bound_ok=True  cond=True
+B#5: xB=0 b=3 D=4 K=5 th=2 nw=9  E_B eps=8.342743e-03  RHS=8.342743e-03 exact_equal=True  p^K*HS_K=6.906e-01 p^D*HS_D=7.020e-01 base=1.978e-02 bound_ok=True  cond=True
+B#6: xB=3 b=3 D=4 K=5 th=2 nw=9  E_B eps=1.699448e-02  RHS=1.699448e-02 exact_equal=True  p^K*HS_K=1.273e+00 p^D*HS_D=1.276e+00 base=1.978e-02 bound_ok=True  cond=True
+RESULT p=3 n=10 H1=9 H2=4 b=3 FORCE=False: identity exact in 6/6 balls; two-sided bound in 6/6
+=== exit: 0   wall: 0.25 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/hensel_identity_check.py 3 2 6 12 10 5 3 8 1
+=== start (UTC): 2026-10-13T23:11:25Z
+RESULT p=3 n=12 H1=10 H2=5 b=3 FORCE=True: identity exact in 0/0 balls; two-sided bound in 0/0
+=== exit: 0   wall: 0.48 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/hensel_identity_check.py 5 3 4 10 12 6 2 6
+=== start (UTC): 2026-10-13T23:11:25Z
+RESULT p=5 n=10 H1=12 H2=6 b=2 FORCE=False: identity exact in 0/0 balls; two-sided bound in 0/0
+=== exit: 0   wall: 0.48 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/hensel_identity_check.py 5 4 4 10 12 6 3 6 1
+=== start (UTC): 2026-10-13T23:11:26Z
+B#1: xB=30 b=3 D=3 K=4 th=1 nw=5  E_B eps=1.253560e-03  RHS=1.253560e-03 exact_equal=True  p^K*HS_K=5.577e-01 p^D*HS_D=5.584e-01 base=1.907e-03 bound_ok=True  cond=False
+B#2: xB=38 b=3 D=4 K=5 th=2 nw=25  E_B eps=8.563147e-03  RHS=8.563147e-03 exact_equal=True  p^K*HS_K=9.815e+00 p^D*HS_D=9.816e+00 base=9.537e-03 bound_ok=True  cond=True
+B#3: xB=13 b=3 D=4 K=5 th=2 nw=25  E_B eps=1.146764e-03  RHS=1.146764e-03 exact_equal=True  p^K*HS_K=9.808e+00 p^D*HS_D=9.816e+00 base=9.537e-03 bound_ok=True  cond=True
+B#4: xB=92 b=3 D=2 K=4 th=0 nw=5  E_B eps=2.634498e-03  RHS=2.634498e-03 exact_equal=True  p^K*HS_K=1.121e+00 p^D*HS_D=1.121e+00 base=2.289e-03 bound_ok=True  cond=False
+RESULT p=5 n=10 H1=12 H2=6 b=3 FORCE=True: identity exact in 4/4 balls; two-sided bound in 4/4
+=== exit: 0   wall: 0.87 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/hensel_identity_check.py 7 5 3 8 14 8 2 5
+=== start (UTC): 2026-10-13T23:11:26Z
+B#1: xB=16 b=2 D=2 K=3 th=1 nw=7  E_B eps=8.118774e-04  RHS=8.118774e-04 exact_equal=True  p^K*HS_K=6.650e-01 p^D*HS_D=6.643e-01 base=7.010e-05 bound_ok=True  cond=True
+B#2: xB=1 b=2 D=2 K=3 th=1 nw=7  E_B eps=1.263899e-04  RHS=1.263899e-04 exact_equal=True  p^K*HS_K=3.867e-01 p^D*HS_D=3.866e-01 base=7.010e-05 bound_ok=True  cond=True
+B#3: xB=15 b=2 D=2 K=3 th=1 nw=7  E_B eps=3.670308e-04  RHS=3.670308e-04 exact_equal=True  p^K*HS_K=3.869e-01 p^D*HS_D=3.866e-01 base=7.010e-05 bound_ok=True  cond=True
+RESULT p=7 n=8 H1=14 H2=8 b=2 FORCE=False: identity exact in 3/3 balls; two-sided bound in 3/3
+=== exit: 0   wall: 0.18 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/hensel_identity_check.py 7 6 3 8 14 8 3 5 1
+=== start (UTC): 2026-10-13T23:11:27Z
+B#1: xB=293 b=3 D=2 K=3 th=0 nw=1  E_B eps=1.519984e-05  RHS=1.519984e-05 exact_equal=True  p^K*HS_K=1.015e+00 p^D*HS_D=1.015e+00 base=7.010e-05 bound_ok=True  cond=False
+B#2: xB=41 b=3 D=2 K=3 th=0 nw=1  E_B eps=1.306947e-05  RHS=1.306947e-05 exact_equal=True  p^K*HS_K=1.015e+00 p^D*HS_D=1.015e+00 base=7.010e-05 bound_ok=True  cond=False
+B#3: xB=248 b=3 D=2 K=3 th=0 nw=1  E_B eps=5.038653e-04  RHS=5.038653e-04 exact_equal=True  p^K*HS_K=1.329e+00 p^D*HS_D=1.329e+00 base=7.010e-05 bound_ok=True  cond=False
+RESULT p=7 n=8 H1=14 H2=8 b=3 FORCE=True: identity exact in 3/3 balls; two-sided bound in 3/3
+=== exit: 0   wall: 0.17 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/hensel_identity_check.py 3 7 25 14 10 5 3 9
+=== start (UTC): 2026-10-13T23:11:32Z
+RESULT p=3 n=14 H1=10 H2=5 b=3 FORCE=False: identity exact in 0/0 balls; two-sided bound in 0/0
+=== exit: 0   wall: 0.46 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/hensel_identity_check.py 3 8 20 12 12 4 2 8 1
+=== start (UTC): 2026-10-13T23:11:33Z
+RESULT p=3 n=12 H1=12 H2=4 b=2 FORCE=True: identity exact in 0/0 balls; two-sided bound in 0/0
+=== exit: 0   wall: 0.39 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/hensel_identity_check.py 3 9 20 16 10 6 4 10 1
+=== start (UTC): 2026-10-13T23:11:33Z
+B#1: xB=47 b=4 D=4 K=6 th=1 nw=9  E_B eps=6.217226e-03  RHS=6.217226e-03 exact_equal=True  p^K*HS_K=6.143e-01 p^D*HS_D=6.180e-01 base=9.888e-03 bound_ok=True  cond=False
+B#2: xB=34 b=4 D=6 K=9 th=3 nw=243  E_B eps=9.983048e-02  RHS=9.983048e-02 exact_equal=True  p^K*HS_K=7.614e+00 p^D*HS_D=7.803e+00 base=2.892e-01 bound_ok=True  cond=True
+B#3: xB=17 b=4 D=4 K=7 th=1 nw=27  E_B eps=5.126466e-02  RHS=5.126466e-02 exact_equal=True  p^K*HS_K=1.754e+00 p^D*HS_D=1.735e+00 base=3.214e-02 bound_ok=True  cond=False
+B#4: xB=23 b=4 D=4 K=8 th=1 nw=81  E_B eps=2.459854e-01  RHS=2.459854e-01 exact_equal=True  p^K*HS_K=1.001e+00 p^D*HS_D=8.540e-01 base=9.888e-02 bound_ok=True  cond=False
+B#5: xB=0 b=4 D=4 K=8 th=1 nw=81  E_B eps=6.506953e-01  RHS=6.506953e-01 exact_equal=True  p^K*HS_K=4.024e+00 p^D*HS_D=3.472e+00 base=9.888e-02 bound_ok=True  cond=False
+B#6: xB=43 b=4 D=5 K=8 th=2 nw=81  E_B eps=8.897115e-02  RHS=8.897115e-02 exact_equal=True  p^K*HS_K=2.594e+00 p^D*HS_D=2.601e+00 base=9.641e-02 bound_ok=True  cond=False
+B#7: xB=10 b=4 D=7 K=9 th=4 nw=243  E_B eps=7.658377e-02  RHS=7.658377e-02 exact_equal=True  p^K*HS_K=8.303e+00 p^D*HS_D=8.493e+00 base=2.670e-01 bound_ok=True  cond=True
+B#8: xB=42 b=4 D=4 K=7 th=1 nw=27  E_B eps=6.199604e-02  RHS=6.199604e-02 exact_equal=True  p^K*HS_K=1.729e+00 p^D*HS_D=1.699e+00 base=3.214e-02 bound_ok=True  cond=False
+B#9: xB=5 b=4 D=5 K=8 th=2 nw=81  E_B eps=9.899041e-02  RHS=9.899041e-02 exact_equal=True  p^K*HS_K=1.927e+00 p^D*HS_D=1.924e+00 base=9.641e-02 bound_ok=True  cond=False
+B#10: xB=48 b=4 D=4 K=6 th=1 nw=9  E_B eps=1.243445e-02  RHS=1.243445e-02 exact_equal=True  p^K*HS_K=1.240e+00 p^D*HS_D=1.237e+00 base=9.888e-03 bound_ok=True  cond=False
+B#11: xB=21 b=4 D=4 K=6 th=1 nw=9  E_B eps=1.349902e-02  RHS=1.349902e-02 exact_equal=True  p^K*HS_K=1.241e+00 p^D*HS_D=1.237e+00 base=9.888e-03 bound_ok=True  cond=False
+B#12: xB=20 b=4 D=4 K=6 th=1 nw=9  E_B eps=6.749511e-03  RHS=6.749511e-03 exact_equal=True  p^K*HS_K=6.148e-01 p^D*HS_D=6.180e-01 base=9.888e-03 bound_ok=True  cond=False
+B#13: xB=21 b=4 D=4 K=6 th=1 nw=9  E_B eps=1.349902e-02  RHS=1.349902e-02 exact_equal=True  p^K*HS_K=1.241e+00 p^D*HS_D=1.237e+00 base=9.888e-03 bound_ok=True  cond=False
+B#14: xB=30 b=4 D=5 K=7 th=2 nw=27  E_B eps=4.229307e-02  RHS=4.229307e-02 exact_equal=True  p^K*HS_K=1.640e+00 p^D*HS_D=1.628e+00 base=2.966e-02 bound_ok=True  cond=False
+B#15: xB=6 b=4 D=5 K=8 th=2 nw=81  E_B eps=1.979808e-01  RHS=1.979808e-01 exact_equal=True  p^K*HS_K=3.954e+00 p^D*HS_D=3.852e+00 base=9.641e-02 bound_ok=True  cond=False
+B#16: xB=14 b=4 D=4 K=7 th=1 nw=27  E_B eps=2.728289e-02  RHS=2.728289e-02 exact_equal=True  p^K*HS_K=8.443e-01 p^D*HS_D=8.491e-01 base=3.214e-02 bound_ok=True  cond=False
+B#17: xB=16 b=4 D=5 K=8 th=2 nw=81  E_B eps=7.689699e-02  RHS=7.689699e-02 exact_equal=True  p^K*HS_K=2.582e+00 p^D*HS_D=2.601e+00 base=9.641e-02 bound_ok=True  cond=False
+B#18: xB=8 b=4 D=5 K=8 th=2 nw=81  E_B eps=2.047955e-01  RHS=2.047955e-01 exact_equal=True  p^K*HS_K=5.314e+00 p^D*HS_D=5.206e+00 base=9.641e-02 bound_ok=True  cond=False
+B#19: xB=13 b=4 D=5 K=8 th=2 nw=81  E_B eps=4.092434e-02  RHS=4.092434e-02 exact_equal=True  p^K*HS_K=1.216e+00 p^D*HS_D=1.272e+00 base=9.641e-02 bound_ok=True  cond=False
+B#20: xB=37 b=4 D=7 K=9 th=4 nw=243  E_B eps=8.807134e-02  RHS=8.807134e-02 exact_equal=True  p^K*HS_K=8.314e+00 p^D*HS_D=8.493e+00 base=2.670e-01 bound_ok=True  cond=True
+RESULT p=3 n=16 H1=10 H2=6 b=4 FORCE=True: identity exact in 20/20 balls; two-sided bound in 20/20
+=== exit: 0   wall: 108.65 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/hensel_identity_check.py 5 10 15 12 15 5 2 6 1
+=== start (UTC): 2026-10-13T23:13:22Z
+RESULT p=5 n=12 H1=15 H2=5 b=2 FORCE=True: identity exact in 0/0 balls; two-sided bound in 0/0
+=== exit: 0   wall: 0.43 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/hensel_identity_check.py 7 11 15 10 16 6 2 5 1
+=== start (UTC): 2026-10-13T23:13:22Z
+B#1: xB=12 b=2 D=2 K=3 th=1 nw=7  E_B eps=1.905992e-04  RHS=1.905992e-04 exact_equal=True  p^K*HS_K=2.174e-01 p^D*HS_D=2.173e-01 base=7.010e-05 bound_ok=True  cond=True
+B#2: xB=11 b=2 D=2 K=3 th=1 nw=7  E_B eps=7.697792e-05  RHS=7.697792e-05 exact_equal=True  p^K*HS_K=1.598e-01 p^D*HS_D=1.598e-01 base=7.010e-05 bound_ok=True  cond=True
+B#3: xB=11 b=2 D=2 K=3 th=1 nw=7  E_B eps=7.697792e-05  RHS=7.697792e-05 exact_equal=True  p^K*HS_K=1.598e-01 p^D*HS_D=1.598e-01 base=7.010e-05 bound_ok=True  cond=True
+B#4: xB=6 b=2 D=2 K=3 th=1 nw=7  E_B eps=2.997779e-05  RHS=2.997779e-05 exact_equal=True  p^K*HS_K=3.866e-01 p^D*HS_D=3.866e-01 base=7.010e-05 bound_ok=True  cond=True
+B#5: xB=5 b=2 D=2 K=3 th=1 nw=7  E_B eps=1.472614e-05  RHS=1.472614e-05 exact_equal=True  p^K*HS_K=2.173e-01 p^D*HS_D=2.173e-01 base=7.010e-05 bound_ok=True  cond=True
+B#6: xB=10 b=2 D=3 K=4 th=2 nw=49  E_B eps=2.694227e-04  RHS=2.694227e-04 exact_equal=True  p^K*HS_K=5.589e-01 p^D*HS_D=5.591e-01 base=4.907e-04 bound_ok=True  cond=True
+B#7: xB=0 b=2 D=2 K=3 th=1 nw=7  E_B eps=2.519327e-04  RHS=2.519327e-04 exact_equal=True  p^K*HS_K=6.645e-01 p^D*HS_D=6.643e-01 base=7.010e-05 bound_ok=True  cond=True
+B#8: xB=4 b=2 D=2 K=3 th=1 nw=7  E_B eps=7.931766e-06  RHS=7.931766e-06 exact_equal=True  p^K*HS_K=1.597e-01 p^D*HS_D=1.598e-01 base=7.010e-05 bound_ok=True  cond=True
+B#9: xB=3 b=2 D=3 K=4 th=2 nw=49  E_B eps=2.776118e-05  RHS=2.776118e-05 exact_equal=True  p^K*HS_K=5.587e-01 p^D*HS_D=5.591e-01 base=4.907e-04 bound_ok=True  cond=True
+B#10: xB=12 b=2 D=2 K=3 th=1 nw=7  E_B eps=1.905992e-04  RHS=1.905992e-04 exact_equal=True  p^K*HS_K=2.174e-01 p^D*HS_D=2.173e-01 base=7.010e-05 bound_ok=True  cond=True
+B#11: xB=15 b=2 D=2 K=3 th=1 nw=7  E_B eps=1.623755e-03  RHS=1.623755e-03 exact_equal=True  p^K*HS_K=1.330e+00 p^D*HS_D=1.329e+00 base=7.010e-05 bound_ok=True  cond=True
+B#12: xB=1 b=2 D=2 K=3 th=1 nw=7  E_B eps=5.038653e-04  RHS=5.038653e-04 exact_equal=True  p^K*HS_K=1.329e+00 p^D*HS_D=1.329e+00 base=7.010e-05 bound_ok=True  cond=True
+B#13: xB=12 b=2 D=2 K=3 th=1 nw=7  E_B eps=1.905992e-04  RHS=1.905992e-04 exact_equal=True  p^K*HS_K=2.174e-01 p^D*HS_D=2.173e-01 base=7.010e-05 bound_ok=True  cond=True
+B#14: xB=14 b=2 D=2 K=3 th=1 nw=7  E_B eps=8.118774e-04  RHS=8.118774e-04 exact_equal=True  p^K*HS_K=6.650e-01 p^D*HS_D=6.643e-01 base=7.010e-05 bound_ok=True  cond=True
+B#15: xB=0 b=2 D=2 K=3 th=1 nw=7  E_B eps=2.519327e-04  RHS=2.519327e-04 exact_equal=True  p^K*HS_K=6.645e-01 p^D*HS_D=6.643e-01 base=7.010e-05 bound_ok=True  cond=True
+RESULT p=7 n=10 H1=16 H2=6 b=2 FORCE=True: identity exact in 15/15 balls; two-sided bound in 15/15
+=== exit: 0   wall: 2.99 s

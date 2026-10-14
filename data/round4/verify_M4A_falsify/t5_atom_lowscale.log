@@ -1,0 +1,49 @@
+=== command: python3 t5_atom_lowscale.py /home/user/erdos-404-research/data/round4/M4A/atom_p7.txt 8 6 3 501
+=== start (UTC): 2026-10-14T01:30:16Z
+l=0 n=300 j=1 N'_j=305: p^j Coll_j(x_A) = 1.025391  Prop D = 1.025391
+l=0 n=300 j=2 N'_j=312: p^j Coll_j(x_A) = 1.030006  Prop D = 1.040035
+l=0 n=300 j=3 N'_j=319: p^j Coll_j(x_A) = 1.030242  Prop D = 1.054890
+l=0 n=300 j=4 N'_j=326: p^j Coll_j(x_A) = 1.030242  Prop D = 1.069956
+l=0 n=300 j=5 N'_j=333: p^j Coll_j(x_A) = 1.030242  Prop D = 1.085237
+l=1 n=405 j=1 N'_j=410: p^j Coll_j(x_A) = 1.025391  Prop D = 1.025391
+l=1 n=405 j=2 N'_j=417: p^j Coll_j(x_A) = 1.031712  Prop D = 1.040035
+l=1 n=405 j=3 N'_j=424: p^j Coll_j(x_A) = 1.031739  Prop D = 1.054890
+l=1 n=405 j=4 N'_j=431: p^j Coll_j(x_A) = 1.031743  Prop D = 1.069956
+l=1 n=405 j=6 N'_j=438: p^j Coll_j(x_A) = 1.031745  Prop D = 1.190378
+l=2 n=547 j=1 N'_j=550: p^j Coll_j(x_A) = 1.312500  Prop D = 1.312500
+l=2 n=547 j=2 N'_j=557: p^j Coll_j(x_A) = 1.328629  Prop D = 1.331245
+l=2 n=547 j=3 N'_j=564: p^j Coll_j(x_A) = 1.329132  Prop D = 1.350259
+l=2 n=547 j=4 N'_j=571: p^j Coll_j(x_A) = 1.329134  Prop D = 1.369543
+l=2 n=547 j=5 N'_j=578: p^j Coll_j(x_A) = 1.329141  Prop D = 1.389103
+l=3 n=739 j=1 N'_j=746: p^j Coll_j(x_A) = 1.014282  Prop D = 1.014282
+l=3 n=739 j=2 N'_j=753: p^j Coll_j(x_A) = 1.014788  Prop D = 1.028768
+l=3 n=739 j=3 N'_j=760: p^j Coll_j(x_A) = 1.014800  Prop D = 1.043462
+l=3 n=739 j=4 N'_j=767: p^j Coll_j(x_A) = 1.014800  Prop D = 1.058364
+l=3 n=739 j=5 N'_j=774: p^j Coll_j(x_A) = 1.014800  Prop D = 1.073480
+l=4 n=998 j=1 N'_j=1005: p^j Coll_j(x_A) = 1.014282  Prop D = 1.014282
+l=4 n=998 j=2 N'_j=1012: p^j Coll_j(x_A) = 1.014386  Prop D = 1.028768
+l=4 n=998 j=3 N'_j=1019: p^j Coll_j(x_A) = 1.014408  Prop D = 1.043462
+l=4 n=998 j=5 N'_j=1026: p^j Coll_j(x_A) = 1.014441  Prop D = 1.160902
+l=4 n=998 j=6 N'_j=1033: p^j Coll_j(x_A) = 1.014441  Prop D = 1.177482
+l=5 n=1348 j=1 N'_j=1355: p^j Coll_j(x_A) = 1.014282  Prop D = 1.014282
+l=5 n=1348 j=2 N'_j=1362: p^j Coll_j(x_A) = 1.015936  Prop D = 1.028768
+l=5 n=1348 j=4 N'_j=1369: p^j Coll_j(x_A) = 1.016267  Prop D = 1.144555
+l=5 n=1348 j=5 N'_j=1376: p^j Coll_j(x_A) = 1.016293  Prop D = 1.160902
+l=5 n=1348 j=6 N'_j=1383: p^j Coll_j(x_A) = 1.016293  Prop D = 1.177482
+l=6 n=1820 j=1 N'_j=1824: p^j Coll_j(x_A) = 1.148438  Prop D = 1.148438
+l=6 n=1820 j=2 N'_j=1831: p^j Coll_j(x_A) = 1.161242  Prop D = 1.164840
+l=6 n=1820 j=3 N'_j=1838: p^j Coll_j(x_A) = 1.161515  Prop D = 1.181476
+l=6 n=1820 j=4 N'_j=1845: p^j Coll_j(x_A) = 1.161516  Prop D = 1.198350
+l=6 n=1820 j=5 N'_j=1852: p^j Coll_j(x_A) = 1.161525  Prop D = 1.215465
+l=7 n=2457 j=1 N'_j=2461: p^j Coll_j(x_A) = 1.148438  Prop D = 1.148438
+l=7 n=2457 j=2 N'_j=2468: p^j Coll_j(x_A) = 1.161242  Prop D = 1.164840
+l=7 n=2457 j=3 N'_j=2475: p^j Coll_j(x_A) = 1.161524  Prop D = 1.181476
+l=7 n=2457 j=4 N'_j=2482: p^j Coll_j(x_A) = 1.161527  Prop D = 1.198350
+l=7 n=2457 j=5 N'_j=2489: p^j Coll_j(x_A) = 1.161528  Prop D = 1.215465
+l=8 n=3317 j=1 N'_j=3322: p^j Coll_j(x_A) = 1.025391  Prop D = 1.025391
+l=8 n=3317 j=3 N'_j=3329: p^j Coll_j(x_A) = 1.051210  Prop D = 1.140797
+l=8 n=3317 j=4 N'_j=3336: p^j Coll_j(x_A) = 1.052918  Prop D = 1.157090
+l=8 n=3317 j=5 N'_j=3343: p^j Coll_j(x_A) = 1.053002  Prop D = 1.173616
+l=8 n=3317 j=6 N'_j=3350: p^j Coll_j(x_A) = 1.053003  Prop D = 1.190378
+checks: 135 ok, 0 violations, 9 (l,j) skipped (level jumps past j); max ratio 1.0000
+=== exit: 0   wall: 4.29 s

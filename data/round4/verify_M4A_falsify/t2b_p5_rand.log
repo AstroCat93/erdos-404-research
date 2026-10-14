@@ -1,0 +1,5 @@
+=== command: python3 t2b_chain.py 5 204 30 rand 6 25 78125
+=== start (UTC): 2026-10-14T01:28:03Z
+p=5 KIND=rand: {'balls': 30, 'thm1_ok': 30, 'thm1_bad': 0, 'F_ok': 18, 'F_bad': 0, 'F_skip': 12, 'D_ok': 30, 'D_bad': 0, 'chi_ok': 30, 'chi_bad': 0, 'E_ok': 18, 'E_bad': 0, 'path_agree': 48, 'path_disagree': 0, 'Ep_ok': 18, 'Ep_bad': 0, 'theta_pos': 18}
+max ratios: Coll_K/PropD=0.9921  chi-version=1.0000  E_B eps/PropE=0.0190  LemmaF LHS/RHS=1.0000
+=== exit: 0   wall: 14.34 s

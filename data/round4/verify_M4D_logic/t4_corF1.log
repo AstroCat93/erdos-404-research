@@ -1,0 +1,30 @@
+## python3 t4_corF1_exhaustive.py 7 0 0 8 tao 7 13 20 28
+## start 2026-10-14T01:41:32Z
+RESULT t4 p=7 A=0+7^0Z_p kmax=8 schedule=tao times=[7, 13, 20, 28]: determined cylinders=33957, undetermined mass U/mu(A)=2.380e-04; mu(A&ALIVE)/mu(A)=0.623922, mu(A&I0)/mu(A)=0.625054, sum mu(A minus L_l)/mu(A)=[0.49257537250635364], mu(A&I0&all L)/mu(A)=0.319008; RHS (charged with U)/mu(A)=0.132717; inequality holds: True; pointwise (I)&(II)=>ALIVE violations=0; local-constancy re-evaluations=1697, mismatches=0
+## exit 0, wall 157 s
+
+## python3 t4_corF1_exhaustive.py 7 0 0 8 tao 7 13 20 28
+## start 2026-10-14T01:44:09Z
+RESULT t4 p=7 A=0+7^0Z_p kmax=8 schedule=tao times=[7, 13, 20, 28]: determined cylinders=33957, undetermined mass U/mu(A)=2.380e-04; mu(A&ALIVE)/mu(A)=0.623922, mu(A&I0)/mu(A)=0.625054, sum mu(A minus L_l)/mu(A)=[0.49257537250635364], mu(A&I0&all L)/mu(A)=0.319008; RHS (charged with U)/mu(A)=0.132717; inequality holds: True; pointwise (I)&(II)=>ALIVE violations=0; local-constancy re-evaluations=1697, mismatches=0
+## exit 0, wall 148 s
+
+## python3 t4_corF1_exhaustive.py 7 3 1 9 1/2 7 13 20 28
+## start 2026-10-14T01:46:37Z
+RESULT t4 p=7 A=3+7^1Z_p kmax=9 schedule=1/2 times=[7, 13, 20, 28]: determined cylinders=6027, undetermined mass U/mu(A)=3.400e-05; mu(A&ALIVE)/mu(A)=0.843757, mu(A&I0)/mu(A)=0.635560, sum mu(A minus L_l)/mu(A)=[0.2856972859947811], mu(A&I0&all L)/mu(A)=0.492711; RHS (charged with U)/mu(A)=0.349897; inequality holds: True; pointwise (I)&(II)=>ALIVE violations=0; local-constancy re-evaluations=295, mismatches=0
+## exit 0, wall 138 s
+
+## python3 t4_corF1_exhaustive.py 5 0 0 9 tao 5 10 16 23
+## start 2026-10-14T01:48:55Z
+RESULT t4 p=5 A=0+5^0Z_p kmax=9 schedule=tao times=[5, 10, 16, 23]: determined cylinders=34050, undetermined mass U/mu(A)=1.062e-03; mu(A&ALIVE)/mu(A)=0.523136, mu(A&I0)/mu(A)=0.535693, sum mu(A minus L_l)/mu(A)=[0.5192704], mu(A&I0&all L)/mu(A)=0.257574; RHS (charged with U)/mu(A)=0.017485; inequality holds: True; pointwise (I)&(II)=>ALIVE violations=0; local-constancy re-evaluations=1716, mismatches=0
+## exit 0, wall 71 s
+
+## python3 t4_corF1_exhaustive.py 5 0 0 9 1/2 5 10 16 23
+## start 2026-10-14T01:50:06Z
+RESULT t4 p=5 A=0+5^0Z_p kmax=9 schedule=1/2 times=[5, 10, 16, 23]: determined cylinders=34050, undetermined mass U/mu(A)=1.062e-03; mu(A&ALIVE)/mu(A)=0.523136, mu(A&I0)/mu(A)=0.343782, sum mu(A minus L_l)/mu(A)=[0.6791168], mu(A&I0&all L)/mu(A)=0.183936; RHS (charged with U)/mu(A)=-0.334272; inequality holds: True; pointwise (I)&(II)=>ALIVE violations=0; local-constancy re-evaluations=1716, mismatches=0
+## exit 0, wall 75 s
+
+## python3 t4_corF1_exhaustive.py 3 0 0 13 tao 3 7 12 18
+## start 2026-10-14T01:51:21Z
+RESULT t4 p=3 A=0+3^0Z_p kmax=13 schedule=tao times=[3, 7, 12, 18]: determined cylinders=45927, undetermined mass U/mu(A)=2.743e-03; mu(A&ALIVE)/mu(A)=0.406645, mu(A&I0)/mu(A)=0.447340, sum mu(A minus L_l)/mu(A)=[0.6648376771833562], mu(A&I0&all L)/mu(A)=0.041000; RHS (charged with U)/mu(A)=-0.214754; inequality holds: True; pointwise (I)&(II)=>ALIVE violations=0; local-constancy re-evaluations=2323, mismatches=0
+## exit 0, wall 68 s
+

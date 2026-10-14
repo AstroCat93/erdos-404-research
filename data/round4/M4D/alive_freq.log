@@ -1,0 +1,4 @@
+=== command: python3 alive_freq_check.py 7 5 3000 21
+=== start (UTC): 2026-10-14T00:03:42Z
+RESULT alive_freq p=7 n=21 NX=3000: P(x,n) recursion=0.6270, numpy DP=0.6270, disagreements=0
+=== exit: 0   wall: 1.23 s

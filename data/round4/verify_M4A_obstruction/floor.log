@@ -1,0 +1,72 @@
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py floor 3 1 60 12
+=== start (UTC): 2026-10-14T01:14:04Z
+  x=3280387012 [n,N,N')=[7,14,20) D=4 K=8 M_W=3: chi2_W=1.571 chi2_W'=0.8984 eps=0.6312
+  x=2798570523 [n,N,N')=[12,27,33) D=8 K=11 M_W=3: chi2_W=1.422 chi2_W'=0.2656 eps=0.01548
+  x=403123852 [n,N,N')=[13,16,31) D=1 K=12 M_W=6: chi2_W=0.5 chi2_W'=90.4 eps=34.3
+  x=439062303 [n,N,N')=[20,28,31) D=4 K=5 M_W=2: chi2_W=1.571 chi2_W'=0.125 eps=0.03399
+  x=95872739 [n,N,N')=[6,19,22) D=6 K=9 M_W=3: chi2_W=0.9027 chi2_W'=4.062 eps=0.1681
+  x=1637259727 [n,N,N')=[16,22,38) D=2 K=11 M_W=3: chi2_W=0.5469 chi2_W'=14.1 eps=1.509
+T1 p=3: 60 composite windows (K<=12); floor (p-1)4^-p = 0.03125
+   chi^2 of single windows below the floor: 0 (Prop 11.12 predicts 0); min chi^2 = 0.03125
+   composite eps below the floor: 15/60; min eps = 0.003786
+=== exit: 0   wall: 0.96 s
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py floor 5 2 60 8
+=== start (UTC): 2026-10-14T01:14:05Z
+  x=12889439741599 [n,N,N')=[12,22,32) D=2 K=6 M_W=3: chi2_W=0.06144 chi2_W'=11.04 eps=0.3182
+  x=35404738856952 [n,N,N')=[16,30,35) D=4 K=5 M_W=2: chi2_W=2.085 chi2_W'=0.09375 eps=0.02723
+  x=89856860511635 [n,N,N')=[22,38,51) D=3 K=7 M_W=2: chi2_W=0.1184 chi2_W'=8.819 eps=0.02096
+  x=52364023928058 [n,N,N')=[24,37,46) D=3 K=5 M_W=2: chi2_W=0.1171 chi2_W'=0.9531 eps=0.005727
+  x=5059047165415 [n,N,N')=[10,20,39) D=2 K=6 M_W=2: chi2_W=0.05639 chi2_W'=0.06948 eps=0.001218
+  x=44821985984233 [n,N,N')=[22,33,43) D=2 K=5 M_W=2: chi2_W=0.03903 chi2_W'=0.2026 eps=0.001202
+T1 p=5: 60 composite windows (K<=8); floor (p-1)4^-p = 0.003906
+   chi^2 of single windows below the floor: 0 (Prop 11.12 predicts 0); min chi^2 = 0.03516
+   composite eps below the floor: 15/60; min eps = 0.0001159
+=== exit: 0   wall: 0.51 s
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py floor 7 3 60 7
+=== start (UTC): 2026-10-14T01:14:06Z
+  x=18795904506174282 [n,N,N')=[25,41,55) D=2 K=4 M_W=1: chi2_W=0.02334 chi2_W'=0.1569 eps=2.676e-05
+  x=67623507758178217 [n,N,N')=[22,37,47) D=3 K=4 M_W=2: chi2_W=0.01914 chi2_W'=0.01855 eps=0.0001979
+  x=67772113109844870 [n,N,N')=[31,46,60) D=2 K=4 M_W=1: chi2_W=0.03001 chi2_W'=0.1536 eps=0.0001289
+  x=21706115577016801 [n,N,N')=[21,30,49) D=1 K=7 M_W=4: chi2_W=0.01428 chi2_W'=113 eps=2.821
+  x=2182877362171545 [n,N,N')=[16,25,33) D=3 K=4 M_W=2: chi2_W=23.85 chi2_W'=0.01855 eps=0.01493
+  x=38829196722778464 [n,N,N')=[29,45,58) D=3 K=5 M_W=2: chi2_W=3.65 chi2_W'=1.657 eps=0.002581
+T1 p=7: 60 composite windows (K<=7); floor (p-1)4^-p = 0.0003662
+   chi^2 of single windows below the floor: 0 (Prop 11.12 predicts 0); min chi^2 = 0.01428
+   composite eps below the floor: 19/60; min eps = 2.476e-05
+=== exit: 0   wall: 0.61 s
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py floor 3 101 300 12
+=== start (UTC): 2026-10-14T01:17:00Z
+  x=2162603472 [n,N,N')=[9,21,31) D=6 K=11 M_W=3: chi2_W=0.7829 chi2_W'=0.9837 eps=0.08421
+  x=912151271 [n,N,N')=[11,21,26) D=7 K=10 M_W=5: chi2_W=33.71 chi2_W'=1.531 eps=3.499
+  x=1096255766 [n,N,N')=[9,14,19) D=2 K=7 M_W=4: chi2_W=0.5469 chi2_W'=29.85 eps=10.83
+  x=1912169913 [n,N,N')=[18,29,43) D=4 K=12 M_W=3: chi2_W=0.7365 chi2_W'=14.04 eps=0.4487
+  x=1025725474 [n,N,N')=[16,31,40) D=8 K=12 M_W=3: chi2_W=13.39 chi2_W'=1.571 eps=0.1557
+  x=1813773526 [n,N,N')=[9,13,29) D=2 K=12 M_W=4: chi2_W=2.375 chi2_W'=12.56 eps=6.495
+T1 p=3: 300 composite windows (K<=12); floor (p-1)4^-p = 0.03125
+   chi^2 of single windows below the floor: 0 (Prop 11.12 predicts 0); min chi^2 = 0.03125
+   composite eps below the floor: 56/300; min eps = 0.001698
+=== exit: 0   wall: 3.84 s
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py floor 5 102 300 8
+=== start (UTC): 2026-10-14T01:17:04Z
+  x=95177111669836 [n,N,N')=[21,28,50) D=1 K=8 M_W=3: chi2_W=0.09375 chi2_W'=3.217 eps=0.06378
+  x=60394187281189 [n,N,N')=[11,27,40) D=3 K=6 M_W=2: chi2_W=0.05672 chi2_W'=0.2531 eps=0.0002196
+  x=87207348096451 [n,N,N')=[26,33,50) D=1 K=7 M_W=3: chi2_W=0.09375 chi2_W'=2.437 eps=0.07851
+  x=31926388227015 [n,N,N')=[26,33,40) D=1 K=4 M_W=2: chi2_W=0.05469 chi2_W'=8.628 eps=0.2693
+  x=7442363146685 [n,N,N')=[15,29,43) D=2 K=6 M_W=2: chi2_W=0.05639 chi2_W'=1.831 eps=0.001732
+  x=73978794796545 [n,N,N')=[14,26,40) D=3 K=7 M_W=2: chi2_W=1.602 chi2_W'=1.455 eps=0.02434
+T1 p=5: 300 composite windows (K<=8); floor (p-1)4^-p = 0.003906
+   chi^2 of single windows below the floor: 0 (Prop 11.12 predicts 0); min chi^2 = 0.03516
+   composite eps below the floor: 54/300; min eps = 0.0001006
+=== exit: 0   wall: 3.18 s
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py floor 7 103 300 7
+=== start (UTC): 2026-10-14T01:17:07Z
+  x=66461279062694593 [n,N,N')=[24,32,54) D=1 K=4 M_W=1: chi2_W=0.1484 chi2_W'=0.3287 eps=0.01309
+  x=19042188831574256 [n,N,N')=[21,37,44) D=4 K=5 M_W=2: chi2_W=1.669 chi2_W'=0.01428 eps=0.0009393
+  x=32452266271667674 [n,N,N')=[17,26,42) D=1 K=3 M_W=1: chi2_W=0.01855 chi2_W'=0.1569 eps=0.0004022
+  x=32652890082371371 [n,N,N')=[32,48,58) D=4 K=5 M_W=2: chi2_W=1.662 chi2_W'=0.01428 eps=0.0002543
+  x=53196314246693059 [n,N,N')=[20,36,46) D=2 K=3 M_W=1: chi2_W=0.01439 chi2_W'=0.02539 eps=4.945e-05
+  x=73484861570778765 [n,N,N')=[29,40,58) D=2 K=4 M_W=1: chi2_W=0.1622 chi2_W'=0.01594 eps=6.192e-05
+T1 p=7: 300 composite windows (K<=7); floor (p-1)4^-p = 0.0003662
+   chi^2 of single windows below the floor: 0 (Prop 11.12 predicts 0); min chi^2 = 0.01428
+   composite eps below the floor: 61/300; min eps = 1.751e-06
+=== exit: 0   wall: 1.33 s

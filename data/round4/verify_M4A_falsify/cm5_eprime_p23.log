@@ -1,0 +1,4 @@
+=== command: python3 cm5_eprime.py 23 523 120 300 3000 10 10
+=== start (UTC): 2026-10-14T02:04:04Z
+RESULT p=23 (S=4): E' >= E in 240/240 (window, sigma) pairs; min ln(E'/E) = 25.4181; 0 windows skipped (Lemma F hypothesis fails); block == literal (D and E) in 7/7
+=== exit: 0   wall: 4.34 s

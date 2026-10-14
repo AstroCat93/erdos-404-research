@@ -1,0 +1,23 @@
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py nonuniform 3 31 6 6
+=== start (UTC): 2026-10-14T01:18:29Z
+T5 p=3 t=6 s=1: k=V_t(u)=2 f=1  exact G=0.73828 >= path bound p^k 2^-(t+1)=0.070312: True   Lemma Q bound=0.77344 >= exact: True
+T5 p=3 t=6 s=2: k=V_t(u)=3 f=2  exact G=0.87012 >= path bound p^k 2^-(t+1)=0.21094: True   Lemma Q bound=2.3203 >= exact: True
+T5 p=3 t=6 s=3: k=V_t(u)=4 f=3  exact G=1.8984 >= path bound p^k 2^-(t+1)=0.63281: True   Lemma Q bound=6.9609 >= exact: True
+T5 p=3 t=6 s=4: k=V_t(u)=5 f=4  exact G=5.6953 >= path bound p^k 2^-(t+1)=1.8984: True   Lemma Q bound=20.883 >= exact: True
+T5 p=3 t=6 s=5: k=V_t(u)=6 f=5  exact G=17.086 >= path bound p^k 2^-(t+1)=5.6953: True   Lemma Q bound=62.648 >= exact: True
+T5 p=3 t=6 s=6: k=V_t(u)=7 f=6  exact G=51.258 >= path bound p^k 2^-(t+1)=17.086: True   Lemma Q bound=187.95 >= exact: True
+=== exit: 0   wall: 0.39 s
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py nonuniform 5 32 6 4
+=== start (UTC): 2026-10-14T01:18:29Z
+T5 p=5 t=6 s=1: k=V_t(u)=1 f=1  exact G=0.25391 >= path bound p^k 2^-(t+1)=0.039062: True   Lemma Q bound=1.25 >= exact: True
+T5 p=5 t=6 s=2: k=V_t(u)=2 f=2  exact G=0.58594 >= path bound p^k 2^-(t+1)=0.19531: True   Lemma Q bound=6.25 >= exact: True
+T5 p=5 t=6 s=3: k=V_t(u)=3 f=3  exact G=2.9297 >= path bound p^k 2^-(t+1)=0.97656: True   Lemma Q bound=31.25 >= exact: True
+T5 p=5 t=6 s=4: k=V_t(u)=4 f=4  exact G=14.648 >= path bound p^k 2^-(t+1)=4.8828: True   Lemma Q bound=156.25 >= exact: True
+=== exit: 0   wall: 0.2 s
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py nonuniform 7 33 8 4
+=== start (UTC): 2026-10-14T01:18:29Z
+T5 p=7 t=8 s=1: k=V_t(u)=1 f=1  exact G=0.2525 >= path bound p^k 2^-(t+1)=0.013672: True   Lemma Q bound=1.75 >= exact: True
+T5 p=7 t=8 s=2: k=V_t(u)=2 f=2  exact G=0.47552 >= path bound p^k 2^-(t+1)=0.095703: True   Lemma Q bound=12.25 >= exact: True
+T5 p=7 t=8 s=3: k=V_t(u)=3 f=3  exact G=2.0098 >= path bound p^k 2^-(t+1)=0.66992: True   Lemma Q bound=85.75 >= exact: True
+T5 p=7 t=8 s=4: k=V_t(u)=4 f=4  exact G=14.068 >= path bound p^k 2^-(t+1)=4.6895: True   Lemma Q bound=600.25 >= exact: True
+=== exit: 0   wall: 1.2 s

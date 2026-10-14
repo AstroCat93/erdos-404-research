@@ -1,0 +1,116 @@
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t2_lemmaL.py 3 303 2000
+# start 2026-10-14T01:48:33Z
+p=3 seed=303 samples=2000  time=1.3s
+  NEG-eligible parents               3035
+  NEG2-eligible parents              2619
+  childless parents                  3618
+  children (brute force)             23312
+  parents                            6848
+  parents with complete lift         446
+  windows                            2000
+  windows OUTSIDE linear regime      1875
+  windows in linear regime           125
+  windows with D = 0                 180
+  windows with D or D' >= 3          1736
+  windows with D' = 0                154
+  windows with no alive parent       960
+  kinds: {'rand': 200, 'near-1': 200, 'near-2': 200, 'negint': 200, 'gate-W-start': 200, 'gate-W-mid': 200, 'gate-at-N': 200, "gate-W'-start": 200, "gate-W'-mid": 200, "gate-at-N'": 200}
+  parent slopes v(S_e'(x)) (6 = >=6): {0: 1511, 1: 1801, 2: 1718, 3: 759, 4: 439, 5: 232, 6: 388}
+  NEG controls: {'2u detected': 2705, 'p^(D+1) detected': 2584}
+  failures: {}
+TOTAL FAILURES 0
+# exit 0  wall 1 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t2_lemmaL.py 5 303 2000
+# start 2026-10-14T01:48:35Z
+p=5 seed=303 samples=2000  time=8.1s
+  NEG-eligible parents               9941
+  NEG2-eligible parents              7487
+  childless parents                  11106
+  children (brute force)             271415
+  parents                            22499
+  parents with complete lift         2917
+  windows                            2000
+  windows OUTSIDE linear regime      1791
+  windows in linear regime           209
+  windows with D = 0                 309
+  windows with D or D' >= 3          1169
+  windows with D' = 0                347
+  windows with no alive parent       841
+  kinds: {'rand': 200, 'near-1': 200, 'near-2': 200, 'negint': 200, 'gate-W-start': 200, 'gate-W-mid': 200, 'gate-at-N': 200, "gate-W'-start": 200, "gate-W'-mid": 200, "gate-at-N'": 200}
+  parent slopes v(S_e'(x)) (6 = >=6): {0: 9236, 1: 6030, 2: 4469, 3: 1325, 4: 744, 5: 263, 6: 432}
+  NEG controls: {'2u detected': 8355, 'p^(D+1) detected': 7454}
+  failures: {}
+TOTAL FAILURES 0
+# exit 0  wall 8 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t2_lemmaL.py 7 303 2000
+# start 2026-10-14T01:48:43Z
+p=7 seed=303 samples=2000  time=15.4s
+  NEG-eligible parents               13151
+  NEG2-eligible parents              8080
+  childless parents                  14519
+  children (brute force)             735075
+  parents                            30028
+  parents with complete lift         5080
+  windows                            2000
+  windows OUTSIDE linear regime      1796
+  windows in linear regime           204
+  windows with D = 0                 489
+  windows with D or D' >= 3          957
+  windows with D' = 0                486
+  windows with no alive parent       678
+  kinds: {'rand': 200, 'near-1': 200, 'near-2': 200, 'negint': 200, 'gate-W-start': 200, 'gate-W-mid': 200, 'gate-at-N': 200, "gate-W'-start": 200, "gate-W'-mid": 200, "gate-at-N'": 200}
+  parent slopes v(S_e'(x)) (6 = >=6): {0: 19200, 1: 6748, 2: 2320, 3: 882, 4: 291, 5: 87, 6: 500}
+  NEG controls: {'2u detected': 10339, 'p^(D+1) detected': 8070}
+  failures: {}
+TOTAL FAILURES 0
+# exit 0  wall 15 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t2_lemmaL.py 11 303 800
+# start 2026-10-14T01:48:58Z
+p=11 seed=303 samples=800  time=15.2s
+  NEG-eligible parents               5416
+  NEG2-eligible parents              3303
+  childless parents                  6631
+  children (brute force)             639303
+  parents                            14232
+  parents with complete lift         3507
+  windows                            800
+  windows OUTSIDE linear regime      739
+  windows in linear regime           61
+  windows with D = 0                 330
+  windows with D or D' >= 3          347
+  windows with D' = 0                312
+  windows with no alive parent       240
+  kinds: {'rand': 80, 'near-1': 80, 'near-2': 80, 'negint': 80, 'gate-W-start': 80, 'gate-W-mid': 80, 'gate-at-N': 80, "gate-W'-start": 80, "gate-W'-mid": 80, "gate-at-N'": 80}
+  parent slopes v(S_e'(x)) (6 = >=6): {0: 9779, 1: 2641, 2: 1191, 3: 272, 4: 50, 5: 11, 6: 288}
+  NEG controls: {'2u detected': 4083, 'p^(D+1) detected': 3302}
+  failures: {}
+TOTAL FAILURES 0
+# exit 0  wall 16 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t2_lemmaL.py 7 404 600 15
+# start 2026-10-14T01:49:20Z
+p=7 seed=404 samples=600  time=38.4s
+  NEG-eligible parents               3623
+  NEG2-eligible parents              2247
+  childless parents                  4489
+  children (brute force)             726609
+  parents                            9088
+  parents with complete lift         1982
+  skipped (p^K too large)            2
+  windows                            598
+  windows OUTSIDE linear regime      547
+  windows in linear regime           51
+  windows with D = 0                 92
+  windows with D or D' >= 3          314
+  windows with D' = 0                158
+  windows with no alive parent       208
+  kinds: {'rand': 60, 'near-1': 60, 'near-2': 59, 'negint': 60, 'gate-W-start': 60, 'gate-W-mid': 60, 'gate-at-N': 60, "gate-W'-start": 60, "gate-W'-mid": 60, "gate-at-N'": 59}
+  parent slopes v(S_e'(x)) (6 = >=6): {0: 6047, 1: 1912, 2: 605, 3: 269, 4: 97, 5: 14, 6: 144}
+  NEG controls: {'2u detected': 2601, 'p^(D+1) detected': 2246}
+  failures: {}
+TOTAL FAILURES 0
+# exit 0  wall 39 s

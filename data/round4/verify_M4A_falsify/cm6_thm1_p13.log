@@ -1,0 +1,24 @@
+=== command: python3 cm6_thm1.py 13 131 20 3
+=== start (UTC): 2026-10-14T02:05:09Z
+ball 1: kind=rand n=19 N=41 N'=46 gates=[(20, 1), (33, 1), (46, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 3.26955e-07, Thm1 identity True, high-slope terms 6.5 / 6.5, LemmaF True
+ball 2: kind=neg2 n=16 N=42 N'=44 gates=[(18, 1), (31, 1), (44, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 2.40458e-06, Thm1 identity True, high-slope terms 4.875 / 4.875, LemmaF True
+ball 3: kind=neg2 n=2 N=22 N'=30 gates=[(4, 1), (17, 1), (30, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 2.26897e-09, Thm1 identity True, high-slope terms 4.875 / 4.875, LemmaF True
+ball 4: kind=rand n=36 N=60 N'=70 gates=[(44, 1), (57, 1), (70, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 2.4908e-09, Thm1 identity True, high-slope terms 0.1321 / 0.1321, LemmaF True
+ball 5: kind=neg1 n=48 N=64 N'=75 gates=[(49, 1), (62, 1), (75, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 2.46741e-07, Thm1 identity True, high-slope terms 6.5 / 6.5, LemmaF True
+ball 6: kind=rand n=25 N=45 N'=57 gates=[(31, 1), (44, 1), (57, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 2.11907e-09, Thm1 identity True, high-slope terms 0.3047 / 0.3047, LemmaF True
+ball 7: kind=neg2 n=22 N=37 N'=50 gates=[(24, 1), (37, 1), (50, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 1.46134e-07, Thm1 identity True, high-slope terms 4.875 / 4.875, LemmaF True
+ball 8: kind=neg2 n=42 N=57 N'=70 gates=[(44, 1), (57, 1), (70, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 3.39052e-08, Thm1 identity True, high-slope terms 4.875 / 4.875, LemmaF True
+ball 9: kind=neg1 n=19 N=44 N'=46 gates=[(20, 1), (33, 1), (46, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 3.33954e-06, Thm1 identity True, high-slope terms 6.5 / 6.5, LemmaF True
+ball 10: kind=rand n=15 N=42 N'=44 gates=[(18, 1), (31, 1), (44, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 7.89108e-09, Thm1 identity True, high-slope terms 2.438 / 2.438, LemmaF True
+ball 11: kind=neg2 n=33 N=53 N'=61 gates=[(35, 1), (48, 1), (61, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 1.57822e-08, Thm1 identity True, high-slope terms 4.875 / 4.875, LemmaF True
+ball 12: kind=rand n=34 N=63 N'=64 gates=[(38, 1), (51, 1), (64, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 3.94554e-09, Thm1 identity True, high-slope terms 1.219 / 1.219, LemmaF True
+ball 13: kind=neg1 n=29 N=43 N'=56 gates=[(30, 1), (43, 1), (56, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 7.26083e-08, Thm1 identity True, high-slope terms 6.5 / 6.5, LemmaF True
+ball 14: kind=neg2 n=33 N=55 N'=61 gates=[(35, 1), (48, 1), (61, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 2.40458e-06, Thm1 identity True, high-slope terms 4.875 / 4.875, LemmaF True
+ball 15: kind=rand n=1 N=21 N'=28 gates=[(2, 1), (15, 1), (28, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 4.28744e-09, Thm1 identity True, high-slope terms 6.5 / 6.5, LemmaF True
+ball 16: kind=neg1 n=36 N=60 N'=63 gates=[(37, 1), (50, 1), (63, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 2.24431e-08, Thm1 identity True, high-slope terms 6.5 / 6.5, LemmaF True
+ball 17: kind=neg1 n=22 N=43 N'=49 gates=[(23, 1), (36, 1), (49, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 2.24431e-08, Thm1 identity True, high-slope terms 6.5 / 6.5, LemmaF True
+ball 18: kind=rand n=43 N=64 N'=77 gates=[(51, 1), (64, 1), (77, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 6.93789e-11, Thm1 identity True, high-slope terms 0.1321 / 0.1321, LemmaF True
+ball 19: kind=rand n=4 N=26 N'=39 gates=[(13, 1), (26, 1), (39, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 2.22506e-10, Thm1 identity True, high-slope terms 0.1104 / 0.1104, LemmaF True
+ball 20: kind=neg2 n=45 N=70 N'=73 gates=[(47, 1), (60, 1), (73, 1)] D=2 K=3 b=2 theta=1 |B mod p^R|=13: E_B eps = 1.73194e-08, Thm1 identity True, high-slope terms 4.875 / 4.875, LemmaF True
+RESULT p=13: 20 balls; Theorem 1 exact 20/20; Lemma F holds 20/20 (equality 20); Prop D (every x) 20/20; Prop E 20 ok
+=== exit: 0   wall: 15.93 s

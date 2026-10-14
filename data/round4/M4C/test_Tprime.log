@@ -1,0 +1,8 @@
+### command: timeout 1500 python3 code/round4/M4C/test_Tprime.py 11 13 17 23 31
+### start: 2026-10-14T00:34:52Z
+p=11: closed form (Lemma T') >= term-by-term (Lemma T): {'windows': 775, 'fail': 0, 'min_log10_ratio': '5.8853'}
+p=13: closed form (Lemma T') >= term-by-term (Lemma T): {'windows': 775, 'fail': 0, 'min_log10_ratio': '5.903'}
+p=17: closed form (Lemma T') >= term-by-term (Lemma T): {'windows': 775, 'fail': 0, 'min_log10_ratio': '6.3833'}
+p=23: closed form (Lemma T') >= term-by-term (Lemma T): {'windows': 773, 'fail': 0, 'min_log10_ratio': '7.1671'}
+p=31: closed form (Lemma T') >= term-by-term (Lemma T): {'windows': 768, 'fail': 0, 'min_log10_ratio': '7.699'}
+### wall: 47 s

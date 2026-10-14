@@ -1,0 +1,26 @@
+=== command: python3 code/round4/verify_M4A_obstruction/atom_scope.py data/round4/M4A/atom_p7.txt
+=== start (UTC): 2026-10-14T01:12:15Z
+p=7 n0=300 m=51 xA=8482778585152010705975786324668215228635086
+(S1) V_300(xA)=51 (claim 51) M_300=4 n_1=405 V_405=68 D_0=17 M_405=4
+     admissible window W_0: D_0 <= m - M_405: True;  M_405 < m: True
+     path: v_7(S_e(xA)) = 51 (alive needs >= 51); S_e'(xA) mod 7 = 6 (slope 0 iff nonzero)
+     => on all of A = xA + 7^51 Z_7: S_e(x) == S_e(xA) mod 7^51 and V_300 constant, so e in P^0_300; Z^0_300 >= 1.
+(S2) i_A = first position with v(x+i) >= 51 on A = 4106476713379874320366176059319330216123657  (~4.1065e+42);  7^51 = 1.2589e+43
+     digit formula for V_N agrees with direct valuations at N = 300, 405, 547, 4478, 20000
+     phase 1 (l=1..8, windows end at n_9=4478): max gate depth = 4  (M4A s.7 says <= 5)
+     phase 2 (l=9..16, end at n_17=49424): max gate depth = 5
+     last l with n_(l+1) < i_A: 306 (M4A: phase 3 ends at l=306); max depth there = 50 (< 51)
+     linear regime (R3M (5.2)) fails in 0 of the windows l=1..306 (deterministic on A)
+(S3) i_A lies in the second half (N, N') of composite window l*=307: n=2293035348879770593215334397815098998068202 N=3095597720987690300840701437050383647392073 N'=4179056923333381906134946940018017923979299
+     next element of I_A: i_A + 7^51 = 1.6696e+43 > N' = 4.1791e+42: True
+     H=1886021574453611312919612542202918925911097 c=i_A-2-n=1813441364500103727150841661504231218055453 a_c=302240227416683954525140276917371869675881 D=133760395351319951270894506539214108220642 K_0 = K - v(x+i_A) = 314336929075601885486602090367153154318459
+     for s = v(x+i_A) >= s_0 = 12096701658917930961461813449781284642578: the signed path (0^c, sigma, sigma, sigma, 0...) has S = sigma*y_c*(x+i_A)^2,
+     v(S) = a_c + 2s >= K_0 + s = K, probability 2^-(H+2); hence eps(x) >= 7^(K_0+s) 2^-(H+2) - 7^D and
+     E_A[eps_l*] >= sum_(s>=s_0) [ (6/7) 7^(51+K_0) 2^-(H+2) - (6/7) 7^(D+51-s) ] = +infinity,
+     each term ~ 10^-3.0210e+41 (positive, constant in s).
+     So Markov on the untruncated E_A[eps_l*] is impossible (Prop 11.15(b) mechanism); M4A's phase 4 uses
+     the truncation G' (and the linear regime, which itself caps v(x+i_A)).
+(S4) Pi*delta <= 10^-19.26534;  (1-sqrt(Pi delta))^2/Pi >= 1.8433169e-26 (claim 1.843e-26: True)
+     mu(K_7) >= 1.843e-26 * 7^-51 = 1.46395e-69  (M4A headline: >= 1.4e-69; s.6: ~1.5e-69)
+     log10[(1+chi0^2) prod_(l<=8)(1+eps_bar_l) * 2.3843] = 25.73450 (log rounds the eps_bar to 4 digits); prod(1+2^-i) = 2.384231
+=== exit: 0   wall: 0.29 s

@@ -1,0 +1,19 @@
+### command: python3 t1b_n0_small.py 31 400
+### start (UTC): 2026-10-14T00:16:38Z
+RESULT p=3 n0=3 (< 2p): V_n0 non-constant on its cylinder in 691/2000 lifts
+RESULT p=3 n0=4 (< 2p): V_n0 non-constant on its cylinder in 465/2000 lifts
+RESULT p=3 n0=5 (< 2p): V_n0 non-constant on its cylinder in 198/2000 lifts
+RESULT p=3 n0=6 (>= 2p): V_n0 non-constant on its cylinder in 0/2000 lifts
+RESULT p=3 n0=7 (>= 2p): V_n0 non-constant on its cylinder in 0/2000 lifts
+RESULT p=5 n0=5 (< 2p): V_n0 non-constant on its cylinder in 416/2000 lifts
+RESULT p=5 n0=6 (< 2p): V_n0 non-constant on its cylinder in 292/2000 lifts
+RESULT p=5 n0=9 (< 2p): V_n0 non-constant on its cylinder in 79/2000 lifts
+RESULT p=5 n0=10 (>= 2p): V_n0 non-constant on its cylinder in 0/2000 lifts
+RESULT p=5 n0=11 (>= 2p): V_n0 non-constant on its cylinder in 0/2000 lifts
+RESULT p=7 n0=7 (< 2p): V_n0 non-constant on its cylinder in 272/2000 lifts
+RESULT p=7 n0=8 (< 2p): V_n0 non-constant on its cylinder in 248/2000 lifts
+RESULT p=7 n0=13 (< 2p): V_n0 non-constant on its cylinder in 44/2000 lifts
+RESULT p=7 n0=14 (>= 2p): V_n0 non-constant on its cylinder in 0/2000 lifts
+RESULT p=7 n0=15 (>= 2p): V_n0 non-constant on its cylinder in 0/2000 lifts
+### exit: 0
+### wall: 0 s

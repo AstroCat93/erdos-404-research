@@ -1,0 +1,58 @@
+=== command: python3 t3_atom_fe.py /home/user/erdos-404-research/data/round4/M4A/atom_p7.txt 8 16 20 2000
+=== start (UTC): 2026-10-14T01:30:20Z
+atom: p=7 n0=300 m=51 xA=8482778585152010705975786324668215228635086 len(path)=300
+(a) V_300(xA)=51 (claimed m=51): True;  M_300=4 < m: True
+    v_p(S_e(xA))=51 >= m: True;  S_e'(xA) mod p = 6 (slope 0: True)
+    xA < p^m: True
+(b) i_A = 4106476713379874320366176059319330216123657 (4.1065e+42);  n_l: [300, 405, 547, 739, 998, 1348, 1820, 2457, 3317, 4478, 6046, 8163]
+    digit formula vs direct valuations at sampled N<=70000: 0 mismatches
+    last l with n_(l+1) < i_A: 306;  n_(l+1) there = 3.0956e+42; next n = 4.1791e+42
+    W_0=[300,405): D_0=17, M_(n_1)=4: D_0<=m-M: True, M<m: True
+(c) linear regime (D_(l-1)+D_l <= m_(l-1)-M_(n_(l+1)), M<m_(l-1)) fails for 0 of l=1..306
+(d) phase 0: chi^2_0 <= 0.504642   (report: 0.504642)
+    l=1 [300,405,547) D=17 K=40 eps_bar=1.63688
+    l=2 [405,547,739) D=23 K=56 eps_bar=12.9262
+    l=3 [547,739,998) D=33 K=76 eps_bar=98.6367
+    l=4 [739,998,1348) D=43 K=101 eps_bar=137.821
+    l=5 [998,1348,1820) D=58 K=136 eps_bar=336.303
+    l=6 [1348,1820,2457) D=78 K=184 eps_bar=3834.74
+    l=7 [1820,2457,3317) D=106 K=249 eps_bar=464266
+    l=8 [2457,3317,4478) D=143 K=337 eps_bar=4.95628e+07
+(e) l=9 [3317,4478,6046) D=194 K=456 theta=97 M_W=5 log10 E_A eps <= -45.301  log10 fail <= -45.000
+(e) l=10 [4478,6046,8163) D=262 K=614 theta=131 M_W=5 log10 E_A eps <= -61.003  log10 fail <= -60.401
+(e) l=11 [6046,8163,11021) D=352 K=828 theta=176 M_W=4 log10 E_A eps <= -84.226  log10 fail <= -83.323
+(e) l=12 [8163,11021,14879) D=476 K=1120 theta=238 M_W=4 log10 E_A eps <= -113.998  log10 fail <= -112.794
+(e) l=13 [11021,14879,20087) D=644 K=1512 theta=322 M_W=4 log10 E_A eps <= -154.224  log10 fail <= -152.718
+(e) l=14 [14879,20087,27118) D=868 K=2040 theta=434 M_W=5 log10 E_A eps <= -209.810  log10 fail <= -208.004
+(e) l=15 [20087,27118,36610) D=1172 K=2753 theta=586 M_W=5 log10 E_A eps <= -284.978  log10 fail <= -282.871
+(e) l=16 [27118,36610,49424) D=1581 K=3717 theta=791 M_W=5 log10 E_A eps <= -383.356  log10 fail <= -380.948
+(f) constants rho1=0.060406 gamma=1.853438 kappa=0.911670
+    l=17: exact Prop E log10 = -517.140;  Prop E' log10 = -479.572;  E' >= E: True
+    l=18: exact Prop E log10 = -696.827;  Prop E' log10 = -654.656;  E' >= E: True
+    l=19: exact Prop E log10 = -944.131;  Prop E' log10 = -894.372;  E' >= E: True
+    l=20: exact Prop E log10 = -1275.802;  Prop E' log10 = -1212.537;  E' >= E: True
+    l=17 D=2136 K=5019 M_W=6 log10 fail <= -476.862
+    l=18 D=2883 K=6776 M_W=6 log10 fail <= -651.645
+    l=30 D=105652 K=248282 M_W=9 log10 fail <= -24690.2
+    l=100 D=140358095034794 K=329841523331767 M_W=18 log10 fail <= -3.28496e+13
+    l=200 D=1515703713917677362865229815 K=3561903727706541802733290070 M_W=33 log10 fail <= -3.54738e+26
+    l=306 D=99081774334311075015477412251269709793073 K=232842169685631026286371918790483818013715 M_W=50 log10 fail <= -2.31892e+40
+    phase 2 sum = 1.000520e-45; phase 3 sum = 1.37286e-477
+(g) phase 4 from l=307; mu_A(G'^c) <= 2.46676e-94
+    l=307 n=2.29304e+42 sigma=163 D>=1.3376e+41 K<=3.14337e+41 ln fail <= -7.2083528e+40  (-ln fail)/n = 0.0314359
+    l=308 n=3.0956e+42 sigma=164 D>=1.80577e+41 K<=4.24355e+41 ln fail <= -9.7312763e+40  (-ln fail)/n = 0.0314359
+    l=317 n=4.6105e+43 sigma=166 D>=2.68946e+42 K<=6.32023e+42 ln fail <= -1.4493515e+42  (-ln fail)/n = 0.0314359
+    l=407 n=2.47621e+55 sigma=194 D>=1.44446e+54 K<=3.39447e+54 ln fail <= -7.7841802e+53  (-ln fail)/n = 0.0314359
+    l=2000 n=1.03629e+263 sigma=686 D>=6.04502e+261 K<=1.42058e+262 ln fail <= -3.2576625e+261  (-ln fail)/n = 0.0314359
+    side conditions (D>=2 sigma, linear regime on G_l) fail for 0 of l=307..2000
+    max ln fail over phase 4 range = -7.2083528e+40;  min (-ln fail)/n_(l-1) = 0.0314359
+    phase 4 sum (l=307..2000) = 1.34876e-31305478368193035761027827767068464990138
+(g2) analytic majorant at n*=2.29304e+42: [T1 + l ln2 + 0.03 n] = -6.26828e+41, [T2 + l ln2 + 0.03 n] = -3.29247e+39, D>=2sigma: True
+     slopes (numerical, each is -a + b/n with b>0, so maximal at n*): -0.273362, -0.00143586
+     => for every l >= 307: ln fail_l <= ln2 + max(...) <= -0.03 n_(l-1) + ln 2: True
+     => sum over l >= 307 of fail_l <= sum_l 2 exp(-0.03 n_(l-1)) <= 4 exp(-0.03 n*) = 10^-2.98756e+40
+(h) log10 Pi_A <= 25.73437   (report: 25.7344)
+    delta_A <= 1.0005204e-45 (phase 4 counted up to l=2000)   (report: 1.0006e-45)
+    log10(Pi_A delta_A) <= -19.265404   (report: -19.265)
+    PZ lower bound mu(K_p cap A)/mu(A) >= 1.8434438e-26   (report: 1.843e-26)
+=== exit: 0   wall: 4.12 s

@@ -1,0 +1,8 @@
+=== command: python3 t1_lemmaQ.py 5 26 0 scan 4 3 40 3
+=== start (UTC): 2026-10-14T01:22:18Z
+p=5 KIND=scan kmax=4 fmax=3 tmax=40
+cases=64320 FAILURES=0 max P/bound=1.000000 (attained with equality in 4362 cases)
+cases with >=1 2D block: 6200, max #2D blocks in one case: 2
+negative controls (violations of stronger unproved variants): noM:0, half2D:120, depth2:0, noq:6639
+worst case (u mod p^12, t, k, f, P, bound): 225854375 5 1 None 13/64 13/64
+=== exit: 0   wall: 15.2 s

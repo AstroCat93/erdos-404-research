@@ -1,0 +1,6 @@
+### command: python3 t6_atom_j.py 24 5 10 15 lin 7 1 4 1/5 40
+### start (UTC): 2026-10-14T00:16:21Z
+RESULT p=5 n0=10 n1=15 rule=lin H=7 j=1 L=4 epsbar=1/5: {'atoms': 40, 'mart_fail': 0, 'a_fail': 0, 'rec_fail': 0, 'nonvac': 11, 'bound_fail': 0, 'minratio': 1.44, 'tries': 135}
+SUMMARY t6 failures 0
+### exit: 0
+### wall: 1 s

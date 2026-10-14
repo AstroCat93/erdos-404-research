@@ -1,0 +1,60 @@
+=== command: python3 test_small.py Q 11 111 1500 3 2
+=== start (UTC): 2026-10-14T01:33:08Z
+Q p=11 seed=111 ctrl=0: tests=1500 violations=0 max P/bound=1.000000
+=== exit: 0   wall: 2.325637707 s
+=== command: python3 test_small.py Q 11 112 600 3 2 1
+=== start (UTC): 2026-10-14T01:33:11Z
+  VIOLATION u=1184573 t=28 k=3 f=-1 dep=[0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1] P=3321047/4294967296 bound=472017/5905580032
+  VIOLATION u=210689011850 t=13 k=3 f=1 dep=[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5] P=36893/16777216 bound=9633/46137344
+  VIOLATION u=8383992940 t=21 k=3 f=0 dep=[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0] P=12058621/17179869184 bound=3342651/47244640256
+  VIOLATION u=4 t=30 k=3 f=2 dep=[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0] P=17222017101/1125899906842624 bound=159548074881/24769797950537728
+  VIOLATION u=152 t=24 k=3 f=2 dep=[0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1] P=14071138851/70368744177664 bound=459792723/24189255811072
+Q p=11 seed=112 ctrl=1: tests=600 violations=10 max P/bound=10.532103
+=== exit: 0   wall: 1.373102411 s
+=== command: python3 test_small.py Q 11 113 4000 3 2
+=== start (UTC): 2026-10-14T01:33:18Z
+Q p=11 seed=113 ctrl=0: tests=4000 violations=0 max P/bound=1.000000
+=== exit: 0   wall: 5.227063754 s
+=== command: python3 test_small.py Q 13 131 2000 3 2
+=== start (UTC): 2026-10-14T01:33:24Z
+Q p=13 seed=131 ctrl=0: tests=2000 violations=0 max P/bound=1.000000
+=== exit: 0   wall: 10.179956413 s
+=== command: python3 test_small.py Q 13 132 600 3 2 1
+=== start (UTC): 2026-10-14T01:33:34Z
+  VIOLATION u=484 t=24 k=3 f=-1 dep=[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0] P=2002055307/4398046511104 bound=126144585/3573412790272
+  VIOLATION u=7755317704 t=22 k=3 f=1 dep=[0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3] P=44367517/1099511627776 bound=1970325/55834574848
+  VIOLATION u=487882699 t=21 k=3 f=1 dep=[0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2] P=10820329/274877906944 bound=3846825/111669149696
+  VIOLATION u=315 t=28 k=3 f=-1 dep=[0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0] P=2001691339/4398046511104 bound=126144585/3573412790272
+  VIOLATION u=656 t=21 k=3 f=-1 dep=[0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0] P=124704619/274877906944 bound=982035/27917287424
+Q p=13 seed=132 ctrl=1: tests=600 violations=9 max P/bound=12.957473
+=== exit: 0   wall: 7.390416065 s
+=== command: python3 q2d_test.py 11 114 200 3 3 30
+=== start (UTC): 2026-10-14T01:33:41Z
+  #2D blocks=0: tests=158 violations=0 max P/bound=0.999154
+  #2D blocks=1: tests=42 violations=0 max P/bound=0.956351
+Q2D p=11 seed=114 ctrl=0 kmax=3 fmax=3 tmax=30: tests=200 violations=0
+=== exit: 0   wall: 7.575666360 s
+=== command: python3 q2d_test.py 11 115 200 3 3 30 1
+=== start (UTC): 2026-10-14T01:33:49Z
+  #2D blocks=0: tests=144 violations=2 max P/bound=3.022141
+  #2D blocks=1: tests=56 violations=7 max P/bound=10.519858
+Q2D p=11 seed=115 ctrl=1 kmax=3 fmax=3 tmax=30: tests=200 violations=9
+=== exit: 0   wall: 9.983671785 s
+=== command: python3 q2d_test.py 13 133 150 3 3 30
+=== start (UTC): 2026-10-14T01:33:59Z
+  #2D blocks=0: tests=137 violations=0 max P/bound=0.999990
+  #2D blocks=1: tests=13 violations=0 max P/bound=0.996729
+Q2D p=13 seed=133 ctrl=0 kmax=3 fmax=3 tmax=30: tests=150 violations=0
+=== exit: 0   wall: 22.298433364 s
+=== command: python3 cm_qtest.py 17 171 300 3 2
+=== start (UTC): 2026-10-14T01:37:16Z
+Q p=17 seed=171 ctrl=0: tests=300 violations=0 max P/bound=1.000000
+=== exit: 0   wall: 4.003360003 s
+=== command: python3 cm_qtest.py 23 231 300 2 2
+=== start (UTC): 2026-10-14T01:37:20Z
+Q p=23 seed=231 ctrl=0: tests=300 violations=0 max P/bound=1.000000
+=== exit: 0   wall: 23.179658177 s
+=== command: python3 cm_qtest.py 17 172 150 3 2 1
+=== start (UTC): 2026-10-14T01:37:43Z
+Q p=17 seed=172 ctrl=1: tests=150 violations=0 max P/bound=1.000000
+=== exit: 0   wall: 2.315001765 s

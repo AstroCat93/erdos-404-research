@@ -1,0 +1,338 @@
+### command: python3 b2_gate_split_check.py 3 11 25 16 6 6 9
+### start: 2026-10-13T22:31:33Z
+  x#1: D=3 K=5 eps=0.03574 splits=6 fails=0 | d=1,g=0,v=0: eps/main=0.972, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=0.972, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=0.972, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=0.9229, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#2: D=2 K=7 eps=3.3312 splits=6 fails=0 | d=1,g=0,v=0: eps/main=0.9345, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=0.9345, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=0.8506, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=0.8211, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#3: D=2 K=6 eps=0.33239 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1.011, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.9883, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=0.9883, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=0.6491, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=5.5
+  x#4: D=2 K=5 eps=0.10188 splits=6 fails=0 | d=1,g=0,v=0: eps/main=0.6294, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=0.6294, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=0.464, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=0.5074, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#5: D=2 K=5 eps=0.10431 splits=6 fails=0 | d=1,g=0,v=0: eps/main=0.63, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=0.63, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=0.475, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=0.5196, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#6: D=3 K=6 eps=0.30662 splits=6 fails=0 | d=1,g=2,v=2: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=2,v=0: eps/main=1.201, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=2,v=0: eps/main=0.7594, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=3,v=1: eps/main=0.7594, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75
+  x#7: D=3 K=5 eps=0.032959 splits=6 fails=0 | d=1,g=0,v=0: eps/main=0.8964, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=0.8964, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=0.8964, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=0.8511, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#8: D=2 K=5 eps=0.32375 splits=6 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=0.7372, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=0.8063, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=2,v=1: eps/main=0.8063, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75
+  x#9: D=3 K=6 eps=0.095639 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.248, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=2,v=2: eps/main=1.248, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=4,g=2,v=0: eps/main=1.499, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3
+  x#10: D=7 K=9 eps=5.9567 splits=6 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=0.9495, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=7,v=6: eps/main=0.9495, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5
+  x#11: D=2 K=5 eps=0.10163 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1.638, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.13, 2^d P(A=0 mod p^K)=1.5, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=1.13, 2^d P(A=0 mod p^K)=1.75, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=0.9416, 2^d P(A=0 mod p^K)=1.75, 2^d Coll_g=5.5
+  x#12: D=3 K=6 eps=0.30662 splits=6 fails=0 | d=1,g=2,v=2: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=2,v=0: eps/main=1.201, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=2,v=0: eps/main=0.7594, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=3,v=1: eps/main=0.7594, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75
+  x#13: D=3 K=5 eps=0.03574 splits=6 fails=0 | d=1,g=0,v=0: eps/main=0.972, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=0.972, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=0.972, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=0.9229, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#14: D=3 K=5 eps=0.07354 splits=6 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=0.9495, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=3,v=2: eps/main=0.9495, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5
+  x#15: D=5 K=8 eps=3.1106 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1.356, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=4,v=4: eps/main=1.356, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=4,v=0: eps/main=2.224, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3; d=4,g=4,v=0: eps/main=1.542, 2^d P(A=0 mod p^K)=2, 2^d Coll_g=6
+  x#16: D=2 K=5 eps=0.054388 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1.043, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.6569, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=0.6569, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=0.4954, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=5.5
+  x#17: D=4 K=6 eps=0.22062 splits=6 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=0.9495, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=4,v=3: eps/main=0.9495, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5
+  x#18: D=3 K=6 eps=0.23988 splits=6 fails=0 | d=1,g=2,v=2: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=2,v=0: eps/main=0.9399, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=2,v=0: eps/main=0.5941, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=3,v=1: eps/main=0.5941, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75
+  x#19: D=4 K=6 eps=0.055155 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=5.5
+  x#20: D=2 K=5 eps=0.12482 splits=6 fails=0 | d=1,g=0,v=0: eps/main=0.6919, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=0.6919, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=0.5782, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=0.6217, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#21: D=5 K=8 eps=1.5553 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.356, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=4,v=4: eps/main=1.356, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=4,g=4,v=0: eps/main=2.224, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3
+  x#22: D=2 K=5 eps=0.10188 splits=6 fails=0 | d=1,g=0,v=0: eps/main=0.6294, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=0.6294, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=0.464, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=0.5074, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#23: D=3 K=6 eps=0.15791 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1.317, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=2,v=2: eps/main=1.317, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=2,v=0: eps/main=1.237, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=2,v=0: eps/main=0.7822, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=6
+  x#24: D=3 K=8 eps=6.0464 splits=6 fails=0 | d=1,g=2,v=2: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=2,v=0: eps/main=0.8193, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=2,v=0: eps/main=0.7631, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=3,v=1: eps/main=0.7631, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75
+  x#25: D=5 K=7 eps=0.66186 splits=6 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=0.9495, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=5,v=4: eps/main=0.9495, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5
+RESULT p=3 n=16 H=6 H2=6 mode=rand : 25 samples, 150 (sample,split) pairs, (B2.1)-(B2.5) failures: 0
+### exit: 0
+### wall: .191276701 s
+### command: python3 b2_gate_split_check.py 3 12 12 24 8 8 10
+### start: 2026-10-13T22:31:34Z
+  x#1: D=4 K=8 eps=0.19627 splits=8 fails=0 | d=1,g=0,v=0: eps/main=0.9631, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=0.9631, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=0.9631, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=1.123, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#2: D=5 K=8 eps=0.09122 splits=8 fails=0 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=1.116, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#3: D=4 K=9 eps=0.25973 splits=8 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1.132, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=1.151, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=2,v=1: eps/main=1.151, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75
+  x#4: D=2 K=6 eps=0.022198 splits=8 fails=0 | d=1,g=0,v=0: eps/main=0.3361, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.2365, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=0.2365, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=0.1988, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=5.5
+  x#5: D=4 K=8 eps=0.28377 splits=8 fails=0 | d=1,g=2,v=2: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=2,v=0: eps/main=1.068, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=2,v=0: eps/main=0.7089, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=3,v=1: eps/main=0.7089, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75
+  x#6: D=4 K=8 eps=0.13452 splits=8 fails=0 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.13, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=3,v=3: eps/main=1.13, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=4,g=3,v=0: eps/main=0.5526, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3
+  x#7: D=2 K=7 eps=0.34366 splits=8 fails=0 | d=1,g=0,v=0: eps/main=1.013, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.9936, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=0.9936, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=0.6588, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=5.5
+  x#8: D=4 K=8 eps=0.062203 splits=8 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=0.9817, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=1.05, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=2,v=1: eps/main=1.05, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75
+  x#9: D=4 K=8 eps=0.72377 splits=8 fails=0 | d=1,g=0,v=0: eps/main=1.006, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=2,v=2: eps/main=1.006, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=2,v=0: eps/main=0.4464, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=2,v=0: eps/main=0.4882, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#10: D=4 K=8 eps=0.12865 splits=8 fails=0 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=5.5
+  x#11: D=3 K=8 eps=0.4368 splits=8 fails=0 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.9684, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=2,v=2: eps/main=0.9684, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=4,g=2,v=0: eps/main=1.148, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3
+  x#12: D=2 K=7 eps=0.33079 splits=8 fails=0 | d=1,g=0,v=0: eps/main=0.4525, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.4943, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=0.4943, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=0.6341, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=5.5
+RESULT p=3 n=24 H=8 H2=8 mode=rand : 12 samples, 96 (sample,split) pairs, (B2.1)-(B2.5) failures: 0
+### exit: 0
+### wall: .216895086 s
+### command: python3 b2_gate_split_check.py 5 13 15 20 6 6 6
+### start: 2026-10-13T22:31:34Z
+  x#1: D=1 K=3 eps=0.054924 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1.126, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1.126, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1.457, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=1.533, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=6
+  x#2: D=3 K=4 eps=0.26536 splits=6 fails=0 | d=1,g=2,v=2: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=2,v=0: eps/main=1.834, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=2,v=0: eps/main=3.144, 2^d P(A=0 mod p^K)=1.5, 2^d Coll_g=4; d=4,g=2,v=0: eps/main=3.352, 2^d P(A=0 mod p^K)=1.75, 2^d Coll_g=8
+  x#3: D=1 K=3 eps=0.054924 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1.126, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1.126, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1.457, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=1.533, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=6
+  x#4: D=1 K=3 eps=0.054924 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1.126, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1.126, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1.457, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=1.533, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=6
+  x#5: D=1 K=2 eps=0.020905 splits=6 fails=0 | d=1,g=0,v=0: eps/main=0.8253, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.9514, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=0.9514, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.75; d=4,g=1,v=0: eps/main=1.223, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3.5
+  x#6: D=1 K=3 eps=0.088272 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1.194, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.6415, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=0.6001, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=0,v=0: eps/main=0.5927, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=16
+  x#7: D=1 K=3 eps=0.056682 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1.106, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1.106, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1.476, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=1.502, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=6
+  x#8: D=1 K=2 eps=0.0056076 splits=6 fails=0 | d=1,g=0,v=0: eps/main=0.5365, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.4428, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=0.5104, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=8; d=4,g=1,v=1: eps/main=0.5104, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3.375
+  x#9: D=1 K=3 eps=0.054924 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1.126, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1.126, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1.457, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=1.533, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=6
+  x#10: D=3 K=4 eps=0.26536 splits=6 fails=0 | d=1,g=2,v=2: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=2,v=0: eps/main=1.834, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=2,v=0: eps/main=3.144, 2^d P(A=0 mod p^K)=1.5, 2^d Coll_g=4; d=4,g=2,v=0: eps/main=3.352, 2^d P(A=0 mod p^K)=1.75, 2^d Coll_g=8
+  x#11: D=2 K=3 eps=0.063324 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.153, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=2,v=2: eps/main=1.153, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5
+  x#12: D=1 K=3 eps=0.054924 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1.126, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1.126, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1.457, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=1.533, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=6
+  x#13: D=1 K=2 eps=0.027008 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1.066, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.229, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=1.229, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.75; d=4,g=1,v=0: eps/main=1.58, 2^d P(A=0 mod p^K)=1.375, 2^d Coll_g=3.5
+  x#14: D=1 K=4 eps=0.18717 splits=6 fails=0 | d=1,g=0,v=0: eps/main=1.213, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1.213, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1.478, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=0.9299, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#15: D=3 K=4 eps=0.023842 splits=6 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=0.3012, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=0.3012, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=1,v=0: eps/main=0.3012, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8
+RESULT p=5 n=20 H=6 H2=6 mode=rand : 15 samples, 90 (sample,split) pairs, (B2.1)-(B2.5) failures: 0
+### exit: 0
+### wall: .204445413 s
+### command: python3 b2_gate_split_check.py 7 14 10 21 7 7 5
+### start: 2026-10-13T22:31:34Z
+  x#1: D=1 K=2 eps=0.032257 splits=7 fails=0 | d=1,g=0,v=0: eps/main=1.291, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1.291, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1.987, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=2.904, 2^d P(A=0 mod p^K)=2, 2^d Coll_g=6
+  x#2: D=1 K=2 eps=0.00010394 splits=7 fails=0 | d=1,g=0,v=0: eps/main=0.6599, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.781, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=0.1618, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=0,v=0: eps/main=0.1031, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=16
+  x#3: D=1 K=2 eps=0.049988 splits=7 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1.539, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=2.25, 2^d P(A=0 mod p^K)=1.5, 2^d Coll_g=4; d=4,g=1,v=0: eps/main=0.7697, 2^d P(A=0 mod p^K)=1.75, 2^d Coll_g=8
+  x#4: D=1 K=2 eps=0.016129 splits=7 fails=0 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.291, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=1.291, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=4,g=1,v=0: eps/main=1.987, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3
+  x#5: D=1 K=2 eps=0.032257 splits=7 fails=0 | d=1,g=0,v=0: eps/main=1.291, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1.291, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1.987, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=2.904, 2^d P(A=0 mod p^K)=2, 2^d Coll_g=6
+  x#6: D=1 K=2 eps=0.0027567 splits=7 fails=0 | d=1,g=0,v=0: eps/main=1.277, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.307, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.367, 2^d P(A=0 mod p^K)=1.5, 2^d Coll_g=8; d=4,g=0,v=0: eps/main=1.367, 2^d P(A=0 mod p^K)=1.625, 2^d Coll_g=16
+  x#7: D=1 K=2 eps=0.049988 splits=7 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1.539, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=2.25, 2^d P(A=0 mod p^K)=1.5, 2^d Coll_g=4; d=4,g=1,v=0: eps/main=0.7697, 2^d P(A=0 mod p^K)=1.75, 2^d Coll_g=8
+  x#8: D=1 K=2 eps=0.0027567 splits=7 fails=0 | d=1,g=0,v=0: eps/main=1.277, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.307, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.367, 2^d P(A=0 mod p^K)=1.5, 2^d Coll_g=8; d=4,g=0,v=0: eps/main=1.367, 2^d P(A=0 mod p^K)=1.625, 2^d Coll_g=16
+  x#9: D=1 K=2 eps=0.032257 splits=7 fails=0 | d=1,g=0,v=0: eps/main=1.291, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1.291, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1.987, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=2.904, 2^d P(A=0 mod p^K)=2, 2^d Coll_g=6
+  x#10: D=1 K=2 eps=0.00049093 splits=7 fails=0 | d=1,g=0,v=0: eps/main=0.2053, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.3107, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=0.2849, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=0,v=0: eps/main=0.487, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=16
+RESULT p=7 n=21 H=7 H2=7 mode=rand : 10 samples, 70 (sample,split) pairs, (B2.1)-(B2.5) failures: 0
+### exit: 0
+### wall: .169188830 s
+### command: python3 b2_gate_split_check.py 3 21 20 40 12 12 11
+### start: 2026-10-13T22:31:48Z
+  x#1: D=5 K=11 eps=0.040084 splits=12 fails=0 | d=1,g=0,v=0: eps/main=0.9722, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.9435, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=0.9435, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=0.9067, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=5.5
+  x#2: D=5 K=10 eps=0.024012 splits=12 fails=0 | d=1,g=0,v=0: eps/main=0.9999, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=0.9999, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=0.982, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=1.124, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#3: D=6 K=11 eps=0.082291 splits=12 fails=0 | d=1,g=0,v=0: eps/main=1.005, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1.005, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1.005, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=1.005, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#4: D=5 K=11 eps=0.15046 splits=12 fails=0 | d=1,g=0,v=0: eps/main=1.059, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.8403, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=0.8403, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=0.9585, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=5.5
+  x#5: D=6 K=11 eps=0.047305 splits=12 fails=0 | d=1,g=0,v=0: eps/main=1.158, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.185, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=1.185, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=1.185, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=5.5
+  x#6: D=5 K=10 eps=0.026292 splits=12 fails=0 | d=1,g=0,v=0: eps/main=1.012, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1.012, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=0.9829, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=1.216, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#7: D=5 K=11 eps=0.056805 splits=12 fails=0 | d=1,g=0,v=0: eps/main=1.011, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.879, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=0.879, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=0.7519, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=5.5
+  x#8: D=6 K=11 eps=0.047041 splits=12 fails=0 | d=1,g=0,v=0: eps/main=1.246, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.201, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=1.201, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=1.201, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=5.5
+  x#9: D=5 K=10 eps=0.02008 splits=12 fails=0 | d=1,g=0,v=0: eps/main=0.929, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=0.929, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=0.8917, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=0.8447, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#10: D=5 K=11 eps=0.44703 splits=12 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=0.9811, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=1.077, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=2,v=1: eps/main=1.077, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75
+  x#11: D=6 K=11 eps=0.073871 splits=12 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=0.8743, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=0.8743, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=2,v=1: eps/main=0.8743, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75
+  x#12: D=6 K=11 eps=0.080229 splits=12 fails=0 | d=1,g=0,v=0: eps/main=1.005, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1.005, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1.005, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=1.005, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#13: D=5 K=11 eps=0.39514 splits=12 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=0.9723, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=0.7516, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=2,v=1: eps/main=0.7516, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75
+  x#14: D=5 K=11 eps=0.17403 splits=12 fails=0 | d=1,g=0,v=0: eps/main=0.9861, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=0.9861, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=0.9018, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=0.8537, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#15: D=5 K=10 eps=0.013655 splits=12 fails=0 | d=1,g=0,v=0: eps/main=1.174, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.002, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=1.002, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=1.023, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=5.5
+  x#16: D=5 K=11 eps=0.10827 splits=12 fails=0 | d=1,g=0,v=0: eps/main=1.021, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.9719, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=0.9719, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=0.9505, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=5.5
+  x#17: D=5 K=11 eps=0.095798 splits=12 fails=0 | d=1,g=0,v=0: eps/main=0.9903, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=0.9903, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1.018, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=0.9979, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#18: D=5 K=11 eps=0.19957 splits=12 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1.125, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=1.196, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=2,v=1: eps/main=1.196, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75
+  x#19: D=5 K=10 eps=0.0070369 splits=12 fails=0 | d=1,g=0,v=0: eps/main=0.8631, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.8151, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=0.8151, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75; d=4,g=1,v=0: eps/main=0.6572, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=5.5
+  x#20: D=5 K=11 eps=0.18745 splits=12 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=0.9717, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=0.8487, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=2,v=1: eps/main=0.8487, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.75
+RESULT p=3 n=40 H=12 H2=12 mode=rand : 20 samples, 240 (sample,split) pairs, (B2.1)-(B2.5) failures: 0
+### exit: 0
+### wall: 4.803745816 s
+### command: python3 b2_gate_split_check.py 5 22 12 30 10 10 7
+### start: 2026-10-13T22:31:53Z
+  x#1: D=2 K=5 eps=0.27595 splits=10 fails=0 | d=1,g=0,v=0: eps/main=1.128, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1.128, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1.639, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=1.549, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#2: D=2 K=5 eps=0.088474 splits=10 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=0.9789, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=0.7478, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=1,v=0: eps/main=0.6548, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8
+  x#3: D=5 K=7 eps=1.2104 splits=10 fails=0 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=4,v=4: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5
+  x#4: D=3 K=5 eps=0.26953 splits=10 fails=0 | d=1,g=2,v=2: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=2,v=0: eps/main=1.81, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=2,v=0: eps/main=2.927, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=2,v=0: eps/main=3.141, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8
+  x#5: D=2 K=5 eps=0.26043 splits=10 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1.001, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=0.7161, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=1,v=0: eps/main=0.6887, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8
+  x#6: D=3 K=5 eps=0.0080163 splits=10 fails=0 | d=1,g=0,v=0: eps/main=0.6621, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.5573, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=0.6008, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=0,v=0: eps/main=0.5769, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=16
+  x#7: D=3 K=5 eps=0.053481 splits=10 fails=0 | d=1,g=0,v=0: eps/main=0.8428, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=0.8428, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=0.7712, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=0.7712, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+  x#8: D=3 K=5 eps=0.033501 splits=10 fails=0 | d=1,g=0,v=0: eps/main=1.346, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.346, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.346, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=0,v=0: eps/main=1.935, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=16
+  x#9: D=3 K=5 eps=0.011532 splits=10 fails=0 | d=1,g=0,v=0: eps/main=0.7875, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.8069, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=0.8929, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=1,v=1: eps/main=0.8929, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3.375
+  x#10: D=3 K=5 eps=0.029516 splits=10 fails=0 | d=1,g=0,v=0: eps/main=1.221, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.221, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.221, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=0,v=0: eps/main=1.746, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=16
+  x#11: D=4 K=6 eps=0.24209 splits=10 fails=0 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=3,v=3: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5
+  x#12: D=3 K=5 eps=0.014358 splits=10 fails=0 | d=1,g=0,v=0: eps/main=1.049, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.005, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.112, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=1,v=1: eps/main=1.112, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3.375
+RESULT p=5 n=30 H=10 H2=10 mode=rand : 12 samples, 120 (sample,split) pairs, (B2.1)-(B2.5) failures: 0
+### exit: 0
+### wall: .389592479 s
+### command: python3 b2_gate_split_check.py 7 23 8 28 14 14 6
+### start: 2026-10-13T22:31:53Z
+  x#1: D=2 K=6 eps=0.0065697 splits=14 fails=0 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.239, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=1.239, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=4,g=1,v=0: eps/main=1.247, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3
+  x#2: D=2 K=4 eps=0.00048429 splits=14 fails=0 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.028, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=1.028, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=4,g=1,v=0: eps/main=0.5388, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3
+  x#3: D=3 K=5 eps=0.0027587 splits=14 fails=0 | d=1,g=0,v=0: eps/main=1.182, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.37, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.37, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=0,v=0: eps/main=1.706, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=16
+  x#4: D=3 K=5 eps=0.0010263 splits=14 fails=0 | d=1,g=0,v=0: eps/main=1.015, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.8588, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=0.8588, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=0,v=0: eps/main=0.6324, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=16
+  x#5: D=2 K=5 eps=0.0018086 splits=14 fails=0 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.099, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=1,v=1: eps/main=1.099, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=4,g=1,v=0: eps/main=1.313, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3
+  x#6: D=2 K=4 eps=0.00033967 splits=14 fails=0 | d=1,g=0,v=0: eps/main=1.479, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.479, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.499, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=1,v=1: eps/main=1.499, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.625
+  x#7: D=2 K=5 eps=0.00086591 splits=14 fails=0 | d=1,g=0,v=0: eps/main=1.041, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.041, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.163, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=1,v=1: eps/main=1.163, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2.625
+  x#8: D=4 K=6 eps=0.18004 splits=14 fails=0 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=0.9967, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=0.9967, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=1,v=0: eps/main=0.9967, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8
+RESULT p=7 n=28 H=14 H2=14 mode=rand : 8 samples, 112 (sample,split) pairs, (B2.1)-(B2.5) failures: 0
+### exit: 0
+### wall: 1.048303134 s
+### command: python3 b2_gate_split_check.py 3 31 10 30 10 10 12 gate 1 6
+### start: 2026-10-13T22:31:54Z
+RESULT p=3 n=30 H=10 H2=10 mode=gate 1 6: 0 samples, 0 (sample,split) pairs, (B2.1)-(B2.5) failures: 0
+### exit: 0
+### wall: .585591261 s
+### command: python3 b2_gate_split_check.py 3 32 10 30 10 10 12 gate 4 5
+### start: 2026-10-13T22:31:55Z
+  x#1: D=8 K=12 eps=6.3167 splits=5 fails=0 | d=4,g=6,v=5: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4
+  x#2: D=8 K=12 eps=6.3167 splits=5 fails=0 | d=4,g=6,v=5: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4
+  x#3: D=8 K=12 eps=6.3167 splits=5 fails=0 | d=4,g=6,v=5: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4
+  x#4: D=8 K=12 eps=6.3199 splits=5 fails=0 | d=4,g=6,v=5: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4
+  x#5: D=8 K=12 eps=6.3199 splits=5 fails=0 | d=4,g=6,v=5: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4
+  x#6: D=8 K=12 eps=6.3199 splits=5 fails=0 | d=4,g=6,v=5: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4
+  x#7: D=8 K=12 eps=6.3199 splits=5 fails=0 | d=4,g=6,v=5: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4
+  x#8: D=8 K=12 eps=6.3167 splits=5 fails=0 | d=4,g=6,v=5: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4
+  x#9: D=8 K=12 eps=6.3199 splits=5 fails=0 | d=4,g=6,v=5: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4
+  x#10: D=8 K=12 eps=6.3199 splits=5 fails=0 | d=4,g=6,v=5: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=1.352, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4
+RESULT p=3 n=30 H=10 H2=10 mode=gate 4 5: 10 samples, 50 (sample,split) pairs, (B2.1)-(B2.5) failures: 0
+### exit: 0
+### wall: 2.928904140 s
+### command: python3 b2_gate_split_check.py 5 33 8 25 10 10 9 gate 2 5
+### start: 2026-10-13T22:31:58Z
+  x#1: D=6 K=8 eps=24.209 splits=4 fails=0 | d=2,g=5,v=5: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=2.612, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3; d=10,g=6,v=0: eps/main=1.714, 2^d P(A=0 mod p^K)=5.201, 2^d Coll_g=78.88
+  x#2: D=6 K=8 eps=24.209 splits=4 fails=0 | d=2,g=5,v=5: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=2.612, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3; d=10,g=6,v=0: eps/main=1.714, 2^d P(A=0 mod p^K)=5.201, 2^d Coll_g=78.88
+  x#3: D=6 K=8 eps=24.209 splits=4 fails=0 | d=2,g=5,v=5: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=2.612, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3; d=10,g=6,v=0: eps/main=1.714, 2^d P(A=0 mod p^K)=5.201, 2^d Coll_g=78.88
+  x#4: D=6 K=8 eps=24.209 splits=4 fails=0 | d=2,g=5,v=5: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=2.612, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3; d=10,g=6,v=0: eps/main=1.714, 2^d P(A=0 mod p^K)=5.201, 2^d Coll_g=78.88
+  x#5: D=6 K=8 eps=24.209 splits=4 fails=0 | d=2,g=5,v=5: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=2.612, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3; d=10,g=6,v=0: eps/main=1.714, 2^d P(A=0 mod p^K)=5.201, 2^d Coll_g=78.88
+  x#6: D=6 K=8 eps=24.209 splits=4 fails=0 | d=2,g=5,v=5: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=2.612, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3; d=10,g=6,v=0: eps/main=1.714, 2^d P(A=0 mod p^K)=5.201, 2^d Coll_g=78.88
+  x#7: D=6 K=8 eps=24.209 splits=4 fails=0 | d=2,g=5,v=5: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=2.612, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3; d=10,g=6,v=0: eps/main=1.714, 2^d P(A=0 mod p^K)=5.201, 2^d Coll_g=78.88
+  x#8: D=6 K=8 eps=24.209 splits=4 fails=0 | d=2,g=5,v=5: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=2.612, 2^d P(A=0 mod p^K)=1.25, 2^d Coll_g=3; d=10,g=6,v=0: eps/main=1.714, 2^d P(A=0 mod p^K)=5.201, 2^d Coll_g=78.88
+RESULT p=5 n=25 H=10 H2=10 mode=gate 2 5: 8 samples, 32 (sample,split) pairs, (B2.1)-(B2.5) failures: 0
+### exit: 0
+### wall: 2.195956278 s
+### command: python3 b2_gate_split_check.py 7 34 8 28 10 10 8 gate 3 4
+### start: 2026-10-13T22:32:00Z
+  x#1: D=5 K=6 eps=0.24815 splits=4 fails=0 | d=3,g=4,v=4: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=10,g=5,v=1: eps/main=1.059, 2^d P(A=0 mod p^K)=4.703, 2^d Coll_g=27.77
+  x#2: D=5 K=6 eps=0.24815 splits=4 fails=0 | d=3,g=4,v=4: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=10,g=5,v=1: eps/main=1.059, 2^d P(A=0 mod p^K)=4.703, 2^d Coll_g=27.77
+  x#3: D=5 K=6 eps=0.24815 splits=4 fails=0 | d=3,g=4,v=4: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=10,g=5,v=1: eps/main=1.059, 2^d P(A=0 mod p^K)=4.703, 2^d Coll_g=27.77
+  x#4: D=5 K=6 eps=0.24815 splits=4 fails=0 | d=3,g=4,v=4: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=10,g=5,v=1: eps/main=1.059, 2^d P(A=0 mod p^K)=4.703, 2^d Coll_g=27.77
+  x#5: D=5 K=6 eps=0.24815 splits=4 fails=0 | d=3,g=4,v=4: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=10,g=5,v=1: eps/main=1.059, 2^d P(A=0 mod p^K)=4.703, 2^d Coll_g=27.77
+  x#6: D=5 K=6 eps=0.24815 splits=4 fails=0 | d=3,g=4,v=4: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=10,g=5,v=1: eps/main=1.059, 2^d P(A=0 mod p^K)=4.703, 2^d Coll_g=27.77
+  x#7: D=5 K=6 eps=0.24815 splits=4 fails=0 | d=3,g=4,v=4: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=10,g=5,v=1: eps/main=1.059, 2^d P(A=0 mod p^K)=4.703, 2^d Coll_g=27.77
+  x#8: D=5 K=6 eps=0.24815 splits=4 fails=0 | d=3,g=4,v=4: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.357, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=10,g=5,v=1: eps/main=1.059, 2^d P(A=0 mod p^K)=4.703, 2^d Coll_g=27.77
+RESULT p=7 n=28 H=10 H2=10 mode=gate 3 4: 8 samples, 32 (sample,split) pairs, (B2.1)-(B2.5) failures: 0
+### exit: 0
+### wall: 1.084418872 s
+### command: env NEG=1 python3 b2_gate_split_check.py 5 22 12 30 10 10 7
+### start: 2026-10-13T22:32:01Z
+MISMATCH x=103649508 d=1 g=0 ok=(False, True, True, True, True) eps=0.2759542810963467 rhs=0.36703688674606383
+MISMATCH x=103649508 d=2 g=1 ok=(False, True, True, True, True) eps=0.2759542810963467 rhs=0.25292109639849514
+MISMATCH x=103649508 d=3 g=1 ok=(False, True, True, True, True) eps=0.2759542810963467 rhs=0.3192411793861538
+MISMATCH x=103649508 d=4 g=1 ok=(False, True, True, True, True) eps=0.2759542810963467 rhs=0.22781472653150558
+MISMATCH x=103649508 d=5 g=1 ok=(False, True, True, True, True) eps=0.2759542810963467 rhs=0.2548365853726864
+MISMATCH x=103649508 d=6 g=1 ok=(False, True, True, True, True) eps=0.2759542810963467 rhs=0.15335785574279726
+MISMATCH x=103649508 d=7 g=2 ok=(False, True, True, True, True) eps=0.2759542810963467 rhs=0.1618687208974734
+MISMATCH x=103649508 d=8 g=2 ok=(False, True, True, True, True) eps=0.2759542810963467 rhs=0.02739338087849319
+MISMATCH x=103649508 d=9 g=2 ok=(False, True, True, True, True) eps=0.2759542810963467 rhs=0.0710949650965631
+MISMATCH x=103649508 d=10 g=2 ok=(False, True, True, True, True) eps=0.2759542810963467 rhs=0.11530841293279082
+  x#1: D=2 K=5 eps=0.27595 splits=10 fails=10 | d=1,g=0,v=0: eps/main=1.128, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=1.128, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=1.639, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=1.549, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+MISMATCH x=36764529 d=2 g=1 ok=(False, True, True, True, True) eps=0.088474340736866 rhs=0.06520240567624569
+MISMATCH x=36764529 d=3 g=1 ok=(False, True, True, True, True) eps=0.088474340736866 rhs=0.17344006337225437
+MISMATCH x=36764529 d=4 g=1 ok=(False, True, True, True, True) eps=0.088474340736866 rhs=0.05366855766624212
+MISMATCH x=36764529 d=5 g=1 ok=(False, True, True, True, True) eps=0.088474340736866 rhs=0.11048796586692333
+MISMATCH x=36764529 d=6 g=2 ok=(False, True, True, True, True) eps=0.088474340736866 rhs=0.1419060630723834
+MISMATCH x=36764529 d=7 g=2 ok=(False, True, True, True, True) eps=0.088474340736866 rhs=0.038698059506714344
+MISMATCH x=36764529 d=8 g=2 ok=(False, True, True, True, True) eps=0.088474340736866 rhs=0.07850918918848038
+MISMATCH x=36764529 d=9 g=2 ok=(False, True, True, True, True) eps=0.088474340736866 rhs=0.040418095886707306
+MISMATCH x=36764529 d=10 g=2 ok=(False, True, True, True, True) eps=0.088474340736866 rhs=0.06255155894905329
+  x#2: D=2 K=5 eps=0.088474 splits=10 fails=9 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=0.9789, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=0.7478, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=1,v=0: eps/main=0.6548, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8
+MISMATCH x=191976841 d=1 g=0 ok=(False, True, True, True, True) eps=1.2104414054192603 rhs=1.5426258414663607
+MISMATCH x=191976841 d=2 g=0 ok=(False, True, True, True, True) eps=1.2104414054192603 rhs=2.10431126106414
+MISMATCH x=191976841 d=3 g=0 ok=(False, True, True, True, True) eps=1.2104414054192603 rhs=1.2662861990975216
+MISMATCH x=191976841 d=4 g=4 ok=(False, True, True, True, True) eps=1.2104414054192603 rhs=0.9952602340490557
+MISMATCH x=191976841 d=5 g=4 ok=(False, True, True, True, True) eps=1.2104414054192603 rhs=0.8139735655277036
+MISMATCH x=191976841 d=6 g=4 ok=(False, True, True, True, True) eps=1.2104414054192603 rhs=0.713939152774401
+MISMATCH x=191976841 d=7 g=4 ok=(False, True, True, True, True) eps=1.2104414054192603 rhs=0.5801447514386382
+MISMATCH x=191976841 d=8 g=4 ok=(False, True, True, True, True) eps=1.2104414054192603 rhs=0.3313592060294468
+MISMATCH x=191976841 d=9 g=5 ok=(False, True, True, True, True) eps=1.2104414054192603 rhs=0.32979814932332374
+MISMATCH x=191976841 d=10 g=5 ok=(False, True, True, True, True) eps=1.2104414054192603 rhs=0.2172845597669948
+  x#3: D=5 K=7 eps=1.2104 splits=10 fails=10 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=4,v=4: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5
+MISMATCH x=98970044 d=2 g=2 ok=(False, True, True, True, True) eps=0.26953278575092554 rhs=0.1921460498124361
+MISMATCH x=98970044 d=3 g=2 ok=(False, True, True, True, True) eps=0.26953278575092554 rhs=0.1706408802419901
+MISMATCH x=98970044 d=4 g=2 ok=(False, True, True, True, True) eps=0.26953278575092554 rhs=0.1360367750748992
+MISMATCH x=98970044 d=5 g=2 ok=(False, True, True, True, True) eps=0.26953278575092554 rhs=0.07972668390721083
+MISMATCH x=98970044 d=6 g=3 ok=(False, True, True, True, True) eps=0.26953278575092554 rhs=0.06775592919439077
+MISMATCH x=98970044 d=7 g=3 ok=(False, True, True, True, True) eps=0.26953278575092554 rhs=0.01621886622160673
+MISMATCH x=98970044 d=8 g=3 ok=(False, True, True, True, True) eps=0.26953278575092554 rhs=0.26593555230647326
+MISMATCH x=98970044 d=9 g=3 ok=(False, True, True, True, True) eps=0.26953278575092554 rhs=0.031315023079514503
+MISMATCH x=98970044 d=10 g=3 ok=(False, True, True, True, True) eps=0.26953278575092554 rhs=0.06045668851584196
+  x#4: D=3 K=5 eps=0.26953 splits=10 fails=9 | d=1,g=2,v=2: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=2,v=0: eps/main=1.81, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=2,v=0: eps/main=2.927, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=2,v=0: eps/main=3.141, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8
+MISMATCH x=82854309 d=2 g=1 ok=(False, True, True, True, True) eps=0.26042850222438574 rhs=0.3296834649518132
+MISMATCH x=82854309 d=3 g=1 ok=(False, True, True, True, True) eps=0.26042850222438574 rhs=0.602512015029788
+MISMATCH x=82854309 d=4 g=1 ok=(False, True, True, True, True) eps=0.26042850222438574 rhs=0.16334925312548876
+MISMATCH x=82854309 d=5 g=1 ok=(False, True, True, True, True) eps=0.26042850222438574 rhs=0.19960098434239626
+MISMATCH x=82854309 d=6 g=2 ok=(False, True, True, True, True) eps=0.26042850222438574 rhs=0.16883292701095343
+MISMATCH x=82854309 d=7 g=2 ok=(False, True, True, True, True) eps=0.26042850222438574 rhs=0.13758705463260412
+MISMATCH x=82854309 d=8 g=2 ok=(False, True, True, True, True) eps=0.26042850222438574 rhs=0.478782900609076
+MISMATCH x=82854309 d=9 g=2 ok=(False, True, True, True, True) eps=0.26042850222438574 rhs=0.16727878246456385
+MISMATCH x=82854309 d=10 g=2 ok=(False, True, True, True, True) eps=0.26042850222438574 rhs=0.18427250906825066
+  x#5: D=2 K=5 eps=0.26043 splits=10 fails=9 | d=1,g=1,v=1: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=1,v=0: eps/main=1.001, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=1,v=0: eps/main=0.7161, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=4,g=1,v=0: eps/main=0.6887, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8
+MISMATCH x=20885610 d=1 g=0 ok=(False, True, True, True, True) eps=0.008016323363335687 rhs=0.018027713849733118
+MISMATCH x=20885610 d=2 g=0 ok=(False, True, True, True, True) eps=0.008016323363335687 rhs=0.020187735572108068
+MISMATCH x=20885610 d=3 g=0 ok=(False, True, True, True, True) eps=0.008016323363335687 rhs=0.022169106614455814
+MISMATCH x=20885610 d=4 g=0 ok=(False, True, True, True, True) eps=0.008016323363335687 rhs=0.01602659881427826
+MISMATCH x=20885610 d=5 g=1 ok=(False, True, True, True, True) eps=0.008016323363335687 rhs=0.015493229511776008
+MISMATCH x=20885610 d=6 g=1 ok=(False, True, True, True, True) eps=0.008016323363335687 rhs=0.006371099061652785
+MISMATCH x=20885610 d=7 g=1 ok=(False, True, True, True, True) eps=0.008016323363335687 rhs=0.007307046416826779
+MISMATCH x=20885610 d=8 g=1 ok=(False, True, True, True, True) eps=0.008016323363335687 rhs=0.008753080692258663
+MISMATCH x=20885610 d=9 g=1 ok=(False, True, True, True, True) eps=0.008016323363335687 rhs=0.009271906719732215
+MISMATCH x=20885610 d=10 g=3 ok=(False, True, True, True, True) eps=0.008016323363335687 rhs=0.010306971034879098
+  x#6: D=3 K=5 eps=0.0080163 splits=10 fails=10 | d=1,g=0,v=0: eps/main=0.6621, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.5573, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=0.6008, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=0,v=0: eps/main=0.5769, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=16
+MISMATCH x=107115413 d=1 g=0 ok=(False, True, True, True, True) eps=0.053481198847293854 rhs=0.09518349543213844
+MISMATCH x=107115413 d=2 g=1 ok=(False, True, True, True, True) eps=0.053481198847293854 rhs=0.05989809869788587
+MISMATCH x=107115413 d=3 g=1 ok=(False, True, True, True, True) eps=0.053481198847293854 rhs=0.06758543895557523
+MISMATCH x=107115413 d=4 g=1 ok=(False, True, True, True, True) eps=0.053481198847293854 rhs=0.08244920172728598
+MISMATCH x=107115413 d=5 g=1 ok=(False, True, True, True, True) eps=0.053481198847293854 rhs=0.04378092125989497
+MISMATCH x=107115413 d=6 g=1 ok=(False, True, True, True, True) eps=0.053481198847293854 rhs=0.04533684113994241
+MISMATCH x=107115413 d=7 g=3 ok=(False, True, True, True, True) eps=0.053481198847293854 rhs=0.024598557502031326
+MISMATCH x=107115413 d=8 g=3 ok=(False, True, True, True, True) eps=0.053481198847293854 rhs=0.005743640940636396
+MISMATCH x=107115413 d=10 g=3 ok=(False, True, True, True, True) eps=0.053481198847293854 rhs=0.012731470633298159
+  x#7: D=3 K=5 eps=0.053481 splits=10 fails=9 | d=1,g=0,v=0: eps/main=0.8428, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=1,v=1: eps/main=0.8428, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5; d=3,g=1,v=0: eps/main=0.7712, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3; d=4,g=1,v=0: eps/main=0.7712, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=6
+MISMATCH x=69867140 d=1 g=0 ok=(False, True, True, True, True) eps=0.03350136648805346 rhs=0.03732926143129589
+MISMATCH x=69867140 d=2 g=0 ok=(False, True, True, True, True) eps=0.03350136648805346 rhs=0.03163326573485392
+MISMATCH x=69867140 d=3 g=0 ok=(False, True, True, True, True) eps=0.03350136648805346 rhs=0.04111707312404178
+MISMATCH x=69867140 d=4 g=0 ok=(False, True, True, True, True) eps=0.03350136648805346 rhs=0.03239386569475755
+MISMATCH x=69867140 d=5 g=2 ok=(False, True, True, True, True) eps=0.03350136648805346 rhs=0.013237127859611064
+MISMATCH x=69867140 d=6 g=2 ok=(False, True, True, True, True) eps=0.03350136648805346 rhs=0.007836977601982653
+MISMATCH x=69867140 d=7 g=2 ok=(False, True, True, True, True) eps=0.03350136648805346 rhs=0.032855261451913975
+MISMATCH x=69867140 d=8 g=2 ok=(False, True, True, True, True) eps=0.03350136648805346 rhs=0.010966457921313122
+MISMATCH x=69867140 d=9 g=2 ok=(False, True, True, True, True) eps=0.03350136648805346 rhs=0.0029622242436744273
+MISMATCH x=69867140 d=10 g=3 ok=(False, True, True, True, True) eps=0.03350136648805346 rhs=0.00472677311336156
+  x#8: D=3 K=5 eps=0.033501 splits=10 fails=10 | d=1,g=0,v=0: eps/main=1.346, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.346, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.346, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=0,v=0: eps/main=1.935, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=16
+MISMATCH x=15475261 d=1 g=0 ok=(False, True, True, True, True) eps=0.011532132702996023 rhs=0.024269200366688892
+MISMATCH x=15475261 d=2 g=0 ok=(False, True, True, True, True) eps=0.011532132702996023 rhs=0.024284257960971445
+MISMATCH x=15475261 d=3 g=0 ok=(False, True, True, True, True) eps=0.011532132702996023 rhs=0.024184584617614746
+MISMATCH x=15475261 d=5 g=1 ok=(False, True, True, True, True) eps=0.011532132702996023 rhs=0.021852350982953794
+MISMATCH x=15475261 d=6 g=1 ok=(False, True, True, True, True) eps=0.011532132702996023 rhs=0.03507358178467257
+MISMATCH x=15475261 d=7 g=1 ok=(False, True, True, True, True) eps=0.011532132702996023 rhs=0.019552420781110413
+MISMATCH x=15475261 d=8 g=1 ok=(False, True, True, True, True) eps=0.011532132702996023 rhs=0.012889326171716675
+MISMATCH x=15475261 d=9 g=3 ok=(False, True, True, True, True) eps=0.011532132702996023 rhs=0.015198578694253229
+MISMATCH x=15475261 d=10 g=3 ok=(False, True, True, True, True) eps=0.011532132702996023 rhs=0.004870447810390033
+  x#9: D=3 K=5 eps=0.011532 splits=10 fails=9 | d=1,g=0,v=0: eps/main=0.7875, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=0.8069, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=0.8929, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=1,v=1: eps/main=0.8929, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3.375
+MISMATCH x=37688565 d=1 g=0 ok=(False, True, True, True, True) eps=0.029516173526644707 rhs=0.036254852602723986
+MISMATCH x=37688565 d=2 g=0 ok=(False, True, True, True, True) eps=0.029516173526644707 rhs=0.030295080705400323
+MISMATCH x=37688565 d=3 g=0 ok=(False, True, True, True, True) eps=0.029516173526644707 rhs=0.039887345337774605
+MISMATCH x=37688565 d=4 g=0 ok=(False, True, True, True, True) eps=0.029516173526644707 rhs=0.031345854949904606
+MISMATCH x=37688565 d=5 g=2 ok=(False, True, True, True, True) eps=0.029516173526644707 rhs=0.026544263164396398
+MISMATCH x=37688565 d=6 g=2 ok=(False, True, True, True, True) eps=0.029516173526644707 rhs=0.020000949007226154
+MISMATCH x=37688565 d=7 g=2 ok=(False, True, True, True, True) eps=0.029516173526644707 rhs=0.00715240093995817
+MISMATCH x=37688565 d=8 g=2 ok=(False, True, True, True, True) eps=0.029516173526644707 rhs=0.00766542689234484
+MISMATCH x=37688565 d=9 g=2 ok=(False, True, True, True, True) eps=0.029516173526644707 rhs=0.02200570270360913
+  x#10: D=3 K=5 eps=0.029516 splits=10 fails=9 | d=1,g=0,v=0: eps/main=1.221, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.221, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.221, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=0,v=0: eps/main=1.746, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=16
+MISMATCH x=86870841 d=1 g=0 ok=(False, True, True, True, True) eps=0.24208828108385205 rhs=0.30852516829327215
+MISMATCH x=86870841 d=2 g=0 ok=(False, True, True, True, True) eps=0.24208828108385205 rhs=0.420862252212828
+MISMATCH x=86870841 d=3 g=0 ok=(False, True, True, True, True) eps=0.24208828108385205 rhs=0.2532572398195043
+MISMATCH x=86870841 d=4 g=3 ok=(False, True, True, True, True) eps=0.24208828108385205 rhs=0.21883673980482854
+MISMATCH x=86870841 d=5 g=3 ok=(False, True, True, True, True) eps=0.24208828108385205 rhs=0.1931359111040365
+MISMATCH x=86870841 d=6 g=3 ok=(False, True, True, True, True) eps=0.24208828108385205 rhs=0.10986548659275286
+MISMATCH x=86870841 d=7 g=3 ok=(False, True, True, True, True) eps=0.24208828108385205 rhs=0.21703834136133082
+MISMATCH x=86870841 d=8 g=3 ok=(False, True, True, True, True) eps=0.24208828108385205 rhs=0.011075517249992117
+MISMATCH x=86870841 d=9 g=4 ok=(False, True, True, True, True) eps=0.24208828108385205 rhs=0.06566677257069387
+MISMATCH x=86870841 d=10 g=4 ok=(False, True, True, True, True) eps=0.24208828108385205 rhs=0.014077504602028057
+  x#11: D=4 K=6 eps=0.24209 splits=10 fails=10 | d=1,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=3,v=3: eps/main=1.434, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1.5
+MISMATCH x=19052136 d=1 g=0 ok=(False, True, True, True, True) eps=0.014357523468788713 rhs=0.0223446186282672
+MISMATCH x=19052136 d=2 g=0 ok=(False, True, True, True, True) eps=0.014357523468788713 rhs=0.025304892915301025
+MISMATCH x=19052136 d=3 g=0 ok=(False, True, True, True, True) eps=0.014357523468788713 rhs=0.021218222173047252
+MISMATCH x=19052136 d=4 g=1 ok=(False, True, True, True, True) eps=0.014357523468788713 rhs=0.01401964618708007
+MISMATCH x=19052136 d=5 g=1 ok=(False, True, True, True, True) eps=0.014357523468788713 rhs=0.021307381757651456
+MISMATCH x=19052136 d=6 g=1 ok=(False, True, True, True, True) eps=0.014357523468788713 rhs=0.03283924888819456
+MISMATCH x=19052136 d=7 g=1 ok=(False, True, True, True, True) eps=0.014357523468788713 rhs=0.0212595423363382
+MISMATCH x=19052136 d=8 g=1 ok=(False, True, True, True, True) eps=0.014357523468788713 rhs=0.012090653399354778
+MISMATCH x=19052136 d=9 g=3 ok=(False, True, True, True, True) eps=0.014357523468788713 rhs=0.014539968105964363
+MISMATCH x=19052136 d=10 g=3 ok=(False, True, True, True, True) eps=0.014357523468788713 rhs=0.004402012564241886
+  x#12: D=3 K=5 eps=0.014358 splits=10 fails=10 | d=1,g=0,v=0: eps/main=1.049, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=2,g=0,v=0: eps/main=1.005, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=3,g=0,v=0: eps/main=1.112, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=8; d=4,g=1,v=1: eps/main=1.112, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=3.375
+RESULT p=5 n=30 H=10 H2=10 mode=rand : 12 samples, 120 (sample,split) pairs, (B2.1)-(B2.5) failures: 114
+### exit: 0
+### wall: .397818822 s
+### command: python3 b2_gate_split_check.py 3 41 8 24 8 8 12 gate 1 5
+### start: 2026-10-13T22:32:07Z
+  x#1: D=7 K=11 eps=12.466 splits=4 fails=0 | d=1,g=5,v=5: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=5,v=0: eps/main=1.614, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=1.124, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=8,g=7,v=0: eps/main=0.59, 2^d P(A=0 mod p^K)=1.125, 2^d Coll_g=14.88
+  x#2: D=7 K=11 eps=12.466 splits=4 fails=0 | d=1,g=5,v=5: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=5,v=0: eps/main=1.614, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=1.124, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=8,g=7,v=0: eps/main=0.59, 2^d P(A=0 mod p^K)=1.125, 2^d Coll_g=14.88
+  x#3: D=7 K=11 eps=12.466 splits=4 fails=0 | d=1,g=5,v=5: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=5,v=0: eps/main=1.614, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=1.124, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=8,g=7,v=0: eps/main=0.59, 2^d P(A=0 mod p^K)=1.125, 2^d Coll_g=14.88
+  x#4: D=7 K=11 eps=12.456 splits=4 fails=0 | d=1,g=5,v=5: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=5,v=0: eps/main=1.612, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=1.123, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=8,g=7,v=0: eps/main=0.5896, 2^d P(A=0 mod p^K)=1.125, 2^d Coll_g=14.88
+  x#5: D=7 K=11 eps=12.456 splits=4 fails=0 | d=1,g=5,v=5: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=5,v=0: eps/main=1.612, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=1.123, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=8,g=7,v=0: eps/main=0.5896, 2^d P(A=0 mod p^K)=1.125, 2^d Coll_g=14.88
+  x#6: D=7 K=11 eps=12.456 splits=4 fails=0 | d=1,g=5,v=5: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=5,v=0: eps/main=1.612, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=1.123, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=8,g=7,v=0: eps/main=0.5896, 2^d P(A=0 mod p^K)=1.125, 2^d Coll_g=14.88
+  x#7: D=7 K=11 eps=12.466 splits=4 fails=0 | d=1,g=5,v=5: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=5,v=0: eps/main=1.614, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=1.124, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=8,g=7,v=0: eps/main=0.59, 2^d P(A=0 mod p^K)=1.125, 2^d Coll_g=14.88
+  x#8: D=7 K=11 eps=12.466 splits=4 fails=0 | d=1,g=5,v=5: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=5,v=0: eps/main=1.614, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=5,v=0: eps/main=1.124, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=4; d=8,g=7,v=0: eps/main=0.59, 2^d P(A=0 mod p^K)=1.125, 2^d Coll_g=14.88
+RESULT p=3 n=24 H=8 H2=8 mode=gate 1 5: 8 samples, 32 (sample,split) pairs, (B2.1)-(B2.5) failures: 0
+### exit: 0
+### wall: .468217098 s
+### command: python3 b2_gate_split_check.py 7 42 6 21 10 10 8 gate 1 4
+### start: 2026-10-13T22:32:08Z
+  x#1: D=5 K=6 eps=0.73136 splits=4 fails=0 | d=1,g=4,v=4: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=4,v=0: eps/main=1.618, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=4,v=0: eps/main=1.23, 2^d P(A=0 mod p^K)=1.5, 2^d Coll_g=4; d=10,g=5,v=0: eps/main=1.755, 2^d P(A=0 mod p^K)=11.36, 2^d Coll_g=74.19
+  x#2: D=5 K=6 eps=0.73136 splits=4 fails=0 | d=1,g=4,v=4: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=4,v=0: eps/main=1.618, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=4,v=0: eps/main=1.23, 2^d P(A=0 mod p^K)=1.5, 2^d Coll_g=4; d=10,g=5,v=0: eps/main=1.755, 2^d P(A=0 mod p^K)=11.36, 2^d Coll_g=74.19
+  x#3: D=5 K=6 eps=0.73136 splits=4 fails=0 | d=1,g=4,v=4: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=4,v=0: eps/main=1.618, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=4,v=0: eps/main=1.23, 2^d P(A=0 mod p^K)=1.5, 2^d Coll_g=4; d=10,g=5,v=0: eps/main=1.755, 2^d P(A=0 mod p^K)=11.36, 2^d Coll_g=74.19
+  x#4: D=5 K=6 eps=0.73136 splits=4 fails=0 | d=1,g=4,v=4: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=4,v=0: eps/main=1.618, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=4,v=0: eps/main=1.23, 2^d P(A=0 mod p^K)=1.5, 2^d Coll_g=4; d=10,g=5,v=0: eps/main=1.755, 2^d P(A=0 mod p^K)=11.36, 2^d Coll_g=74.19
+  x#5: D=5 K=6 eps=0.73136 splits=4 fails=0 | d=1,g=4,v=4: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=4,v=0: eps/main=1.618, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=4,v=0: eps/main=1.23, 2^d P(A=0 mod p^K)=1.5, 2^d Coll_g=4; d=10,g=5,v=0: eps/main=1.755, 2^d P(A=0 mod p^K)=11.36, 2^d Coll_g=74.19
+  x#6: D=5 K=6 eps=0.73136 splits=4 fails=0 | d=1,g=4,v=4: eps/main=1, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=1; d=2,g=4,v=0: eps/main=1.618, 2^d P(A=0 mod p^K)=1, 2^d Coll_g=2; d=3,g=4,v=0: eps/main=1.23, 2^d P(A=0 mod p^K)=1.5, 2^d Coll_g=4; d=10,g=5,v=0: eps/main=1.755, 2^d P(A=0 mod p^K)=11.36, 2^d Coll_g=74.19
+RESULT p=7 n=21 H=10 H2=10 mode=gate 1 4: 6 samples, 24 (sample,split) pairs, (B2.1)-(B2.5) failures: 0
+### exit: 0
+### wall: .316348706 s

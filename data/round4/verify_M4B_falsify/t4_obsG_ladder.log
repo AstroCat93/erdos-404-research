@@ -1,0 +1,11 @@
+### command: python3 t4_obsG_ladder.py 8 150
+### start (UTC): 2026-10-14T00:11:37Z
+RESULT p=3 cumulative {'paths': 64, 'gates': 244, 'G_fail': 0, 'kill_tests': 125, 'kill_fail': 0, 'Mb_tests': 5, 'Mb_fail': 0, 'lad_tests': 0, 'lad_fail': 0, 'lad_exact_tests': 0, 'lad_exact_fail': 0, 'lad_func_fail': 0}
+RESULT p=5 cumulative {'paths': 2058, 'gates': 5813, 'G_fail': 0, 'kill_tests': 207, 'kill_fail': 0, 'Mb_tests': 27, 'Mb_fail': 0, 'lad_tests': 0, 'lad_fail': 0, 'lad_exact_tests': 0, 'lad_exact_fail': 0, 'lad_func_fail': 0}
+RESULT p=7 cumulative {'paths': 49358, 'gates': 124084, 'G_fail': 0, 'kill_tests': 297, 'kill_fail': 0, 'Mb_tests': 59, 'Mb_fail': 0, 'lad_tests': 0, 'lad_fail': 0, 'lad_exact_tests': 0, 'lad_exact_fail': 0, 'lad_func_fail': 0}
+RESULT ladder rule p=3 cumulative {'paths': 49358, 'gates': 124084, 'G_fail': 0, 'kill_tests': 297, 'kill_fail': 0, 'Mb_tests': 59, 'Mb_fail': 0, 'lad_tests': 150, 'lad_fail': 0, 'lad_exact_tests': 111, 'lad_exact_fail': 0, 'lad_func_fail': 0}
+RESULT ladder rule p=5 cumulative {'paths': 49358, 'gates': 124084, 'G_fail': 0, 'kill_tests': 297, 'kill_fail': 0, 'Mb_tests': 59, 'Mb_fail': 0, 'lad_tests': 300, 'lad_fail': 0, 'lad_exact_tests': 215, 'lad_exact_fail': 0, 'lad_func_fail': 0}
+RESULT ladder rule p=7 cumulative {'paths': 49358, 'gates': 124084, 'G_fail': 0, 'kill_tests': 297, 'kill_fail': 0, 'Mb_tests': 59, 'Mb_fail': 0, 'lad_tests': 450, 'lad_fail': 0, 'lad_exact_tests': 321, 'lad_exact_fail': 0, 'lad_func_fail': 0}
+SUMMARY t4 {'paths': 49358, 'gates': 124084, 'G_fail': 0, 'kill_tests': 297, 'kill_fail': 0, 'Mb_tests': 59, 'Mb_fail': 0, 'lad_tests': 450, 'lad_fail': 0, 'lad_exact_tests': 321, 'lad_exact_fail': 0, 'lad_func_fail': 0}
+### exit: 0
+### wall: 5 s

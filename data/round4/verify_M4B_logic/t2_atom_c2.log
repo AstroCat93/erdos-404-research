@@ -1,0 +1,103 @@
+### command: python3 t2_atom_c2.py 3 21 80 6 9 5 hash 6
+### start (UTC): 2026-10-14T00:03:02Z
+RESULT t2 p=3 n0=6 n1=9 L=5 rule=hash(H=5) kmax=6 samples=80 (tries 4427)
+  (meas) window times at x' agree (G_(l-1)-measurable): failures 0/1292
+  (mart0) c_N E_C Z_N == c_n Z_n: failures 0/80
+  (mart1) c_N2 E_C' Z_N2 == c_N Z_N on every G_l atom: failures 0/264
+  (c2) C2 with random times, exact: failures 0/80
+  (eq) C2 equality for a single slope-0 parent: failures 0/0
+  (negfix) C2 for each fixed candidate window N+h (sanity): failures 0/244
+  (mon) Var_C'(N'_1) <= Var_C'(N'_2) for valid N'_1 < N'_2 (monotonicity): failures 0/564
+  (cap) one-step choice bounded with cap max_k eps_k (expected to hold): failures 0/80
+  max lhs/(eps M^2) under the rule = 0.8178
+  max ratio E_C[max_k Var_k]/(max_k eps_k M^2) = 0.8064
+  NEGATIVE CONTROL (naive one-step bound with averaged eps): violated in 0/80 atoms (choice non-constant in 0); max violation ratio = 0.0000
+### exit: 0   wall: 1.97 s
+
+### command: python3 t2_atom_c2.py 3 22 80 6 9 5 ladder 6
+### start (UTC): 2026-10-14T00:03:04Z
+RESULT t2 p=3 n0=6 n1=9 L=5 rule=ladder(r=1.25,R=12,T=24,C'=1) kmax=6 samples=80 (tries 13806)
+  (meas) window times at x' agree (G_(l-1)-measurable): failures 0/1360
+  (mart0) c_N E_C Z_N == c_n Z_n: failures 0/80
+  (mart1) c_N2 E_C' Z_N2 == c_N Z_N on every G_l atom: failures 0/240
+  (c2) C2 with random times, exact: failures 0/80
+  (eq) C2 equality for a single slope-0 parent: failures 0/10
+  (negfix) C2 for each fixed candidate window N+h (sanity): failures 0/400
+  (mon) Var_C'(N'_1) <= Var_C'(N'_2) for valid N'_1 < N'_2 (monotonicity): failures 0/960
+  (cap) one-step choice bounded with cap max_k eps_k (expected to hold): failures 0/80
+  max lhs/(eps M^2) under the rule = 1.0000
+  max ratio E_C[max_k Var_k]/(max_k eps_k M^2) = 1.0000
+  NEGATIVE CONTROL (naive one-step bound with averaged eps): violated in 10/80 atoms (choice non-constant in 15); max violation ratio = 1.2586
+### exit: 0   wall: 11.16 s
+
+### command: python3 t2_atom_c2.py 3 23 150 6 9 5 ladder 7 4000 8
+### start (UTC): 2026-10-14T00:03:15Z
+RESULT t2 p=3 n0=6 n1=9 L=5 rule=ladder(r=1.25,R=12,T=24,C'=1) kmax=7 samples=150 (tries 22130)
+  (meas) window times at x' agree (G_(l-1)-measurable): failures 0/2550
+  (mart0) c_N E_C Z_N == c_n Z_n: failures 0/150
+  (mart1) c_N2 E_C' Z_N2 == c_N Z_N on every G_l atom: failures 0/450
+  (c2) C2 with random times, exact: failures 0/150
+  (eq) C2 equality for a single slope-0 parent: failures 0/20
+  (negfix) C2 for each fixed candidate window N+h (sanity): failures 0/1050
+  (mon) Var_C'(N'_1) <= Var_C'(N'_2) for valid N'_1 < N'_2 (monotonicity): failures 0/2700
+  (cap) one-step choice bounded with cap max_k eps_k (expected to hold): failures 0/150
+  max lhs/(eps M^2) under the rule = 1.0000
+  max ratio E_C[max_k Var_k]/(max_k eps_k M^2) = 1.0000
+  NEGATIVE CONTROL (naive one-step bound with averaged eps): violated in 23/150 atoms (choice non-constant in 25); max violation ratio = 1.2586
+### exit: 0   wall: 81.43 s
+
+### command: python3 t2_atom_c2.py 5 24 12 15 20 4 hash 4 300
+### start (UTC): 2026-10-14T00:04:37Z
+RESULT t2 p=5 n0=15 n1=20 L=4 rule=hash(H=5) kmax=4 samples=12 (tries 314)
+  (meas) window times at x' agree (G_(l-1)-measurable): failures 0/286
+  (mart0) c_N E_C Z_N == c_n Z_n: failures 0/12
+  (mart1) c_N2 E_C' Z_N2 == c_N Z_N on every G_l atom: failures 0/60
+  (c2) C2 with random times, exact: failures 0/12
+  (eq) C2 equality for a single slope-0 parent: failures 0/0
+  (negfix) C2 for each fixed candidate window N+h (sanity): failures 0/41
+  (mon) Var_C'(N'_1) <= Var_C'(N'_2) for valid N'_1 < N'_2 (monotonicity): failures 0/145
+  (cap) one-step choice bounded with cap max_k eps_k (expected to hold): failures 0/12
+  max lhs/(eps M^2) under the rule = 0.3301
+  max ratio E_C[max_k Var_k]/(max_k eps_k M^2) = 0.3301
+  NEGATIVE CONTROL (naive one-step bound with averaged eps): violated in 0/12 atoms (choice non-constant in 0); max violation ratio = 0.0000
+### exit: 0   wall: 134.53 s
+
+### command: python3 t2_atom_c2.py 5 25 10 15 20 4 ladder 4 300
+### start (UTC): 2026-10-14T00:06:51Z
+RESULT t2 p=5 n0=15 n1=20 L=4 rule=ladder(r=1.25,R=12,T=24,C'=1) kmax=4 samples=10 (tries 58)
+  (meas) window times at x' agree (G_(l-1)-measurable): failures 0/201
+  (mart0) c_N E_C Z_N == c_n Z_n: failures 0/10
+  (mart1) c_N2 E_C' Z_N2 == c_N Z_N on every G_l atom: failures 0/50
+  (c2) C2 with random times, exact: failures 0/10
+  (eq) C2 equality for a single slope-0 parent: failures 0/0
+  (negfix) C2 for each fixed candidate window N+h (sanity): failures 0/27
+  (mon) Var_C'(N'_1) <= Var_C'(N'_2) for valid N'_1 < N'_2 (monotonicity): failures 0/85
+  (cap) one-step choice bounded with cap max_k eps_k (expected to hold): failures 0/10
+  max lhs/(eps M^2) under the rule = 0.2748
+  max ratio E_C[max_k Var_k]/(max_k eps_k M^2) = 0.2748
+  NEGATIVE CONTROL (naive one-step bound with averaged eps): violated in 0/10 atoms (choice non-constant in 0); max violation ratio = 0.0000
+### exit: 0   wall: 763.22 s
+
+### command: python3 t2_atom_c2.py 7 26 4 21 28 3 ladder 3 0 4
+### start (UTC): 2026-10-14T00:19:34Z
+Terminated
+### exit: 143   wall: 652.35 s
+
+### note: the p=7 run above (nx=4, maxpar=0) was killed by hand at 2026-10-14T00:30Z after about 10 CPU-minutes, to stay within the budget; no sample had completed (results are printed only at the end).
+
+### command: python3 t2_atom_c2.py 7 1 2 21 28 3 ladder 3   (default maxpar=4000, Hc=6, dmin=1)
+### (run 2026-10-13 ~23:42-23:47Z in a foreground shell before the batch, same code version as the batch; output copied verbatim from that shell)
+RESULT t2 p=7 n0=21 n1=28 L=3 rule=ladder(r=1.25,R=12,T=24,C'=1) kmax=3 samples=2 (tries 7)
+  (meas) window times at x' agree (G_(l-1)-measurable): failures 0/34
+  (mart0) c_N E_C Z_N == c_n Z_n: failures 0/2
+  (mart1) c_N2 E_C' Z_N2 == c_N Z_N on every G_l atom: failures 0/14
+  (c2) C2 with random times, exact: failures 0/2
+  (eq) C2 equality for a single slope-0 parent: failures 0/0
+  (negfix) C2 for each fixed candidate window N+h (sanity): failures 0/2
+  (mon) Var_C'(N'_1) <= Var_C'(N'_2) for valid N'_1 < N'_2 (monotonicity): failures 0/7
+  (cap) one-step choice bounded with cap max_k eps_k (expected to hold): failures 0/1
+  max lhs/(eps M^2) under the rule = 0.0055
+  max ratio E_C[max_k Var_k]/(max_k eps_k M^2) = 0.0055
+  NEGATIVE CONTROL (naive one-step bound with averaged eps): violated in 0/1 atoms (choice non-constant in 0); max violation ratio = 0.0000
+### exit: 0   wall: 333.8 s
+

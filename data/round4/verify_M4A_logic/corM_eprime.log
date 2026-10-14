@@ -1,0 +1,16 @@
+=== command: python3 cm_eprime.py 13 313 50 60 2500
+=== start (UTC): 2026-10-14T01:35:25Z
+EPRIME p=13 seed=313: windows drawn=50 evaluated=49 E'<E in 0; max log10(E/E') = -5.42037
+=== exit: 0   wall: 6.091729671 s
+=== command: python3 cm_eprime.py 17 317 50 60 2500
+=== start (UTC): 2026-10-14T01:35:31Z
+EPRIME p=17 seed=317: windows drawn=50 evaluated=48 E'<E in 0; max log10(E/E') = -7.14743
+=== exit: 0   wall: .356934268 s
+=== command: python3 cm_eprime.py 19 319 50 60 2500
+=== start (UTC): 2026-10-14T01:35:32Z
+EPRIME p=19 seed=319: windows drawn=50 evaluated=48 E'<E in 0; max log10(E/E') = -9.52199
+=== exit: 0   wall: .555927963 s
+=== command: python3 cm_eprime.py 23 323 50 60 2500
+=== start (UTC): 2026-10-14T01:35:32Z
+EPRIME p=23 seed=323: windows drawn=50 evaluated=49 E'<E in 0; max log10(E/E') = -8.64316
+=== exit: 0   wall: 1.049499230 s

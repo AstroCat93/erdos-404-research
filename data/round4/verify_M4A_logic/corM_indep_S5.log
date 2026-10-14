@@ -1,0 +1,183 @@
+=== command: python3 cm_indep.py /home/user/erdos-404-research/data/round4/M4A/atom_p17.txt 6 60000 5 5
+=== start (UTC): 2026-10-14T01:36:31Z
+# independent FE evaluation: p=17 n0=300 r=27/20 L1=6 NBLOCK=60000
+atom: V_300(x_A) = 18 (claimed 18); M_300 = 2 < m: True
+slope-0 path: v(S_e(x_A)) = 18 >= 18: True;  v(S_e'(x_A)) = 0 (S' mod p = 6)
+i_A = 13586941511505906341827 (1.3587e+22)
+times: [300, 405, 547, 739, 998, 1348, 1820, 2457, 3317, 4478, 6046] ...; first l with n_(l+1) >= i_A: l* = 150; n_(l*-1) = 7.906952e+21, n_(l*+1) = 1.441042e+22, n_(l*) = 1.067439e+22
+W_0 = [300,405): D_0 = 8, M_(n_1) = 2; admissible: True
+constants: S = 5, S0 = 5 (numpy residue DP)
+q_s: q_1=4294969913/4294967296, q_2=8592424019/8589934592, q_3=8783800397/8589934592, q_4=8380580661/4294967296 ; max atom P(Z=z) = None
+P0 (s=1,2): {1: ['0', '0'], 2: ['1/4', '1/4'], 3: ['0', '0'], 4: ['0', '0'], 5: ['3/64', '0'], 6: ['61/1024', '0'], 7: ['235/4096', '1/512'], 8: ['939/16384', '17/8192'], 9: ['1921/32768', '57/16384'], 10: ['15403/262144', '231/65536'], 11: ['61675/1048576', '3831/1048576'], 12: ['246711/4194304', '16703/4194304'], 13: ['123359/2097152', '6417/2097152'], 14: ['3947571/67108864', '14635/4194304'], 15: ['15790319/268435456', '115859/33554432'], 16: ['63161319/1073741824', '3713391/1073741824'], 17: ['15790329/268435456', '14822421/4294967296']}
+rho1 = 0.00025320331, gamma = 2.8329242, kappa = 5.7479533
+phase 0: chi^2_0 <= 7.5024893
+l=1 [300,405,547) D=8 K=16 phase1 eps_bar=PropD-1=7.50253
+l=2 [405,547,739) D=8 K=20 phase1 eps_bar=PropD-1=0.000301028
+l=3 [547,739,998) D=12 K=29 phase1 eps_bar=PropD-1=0.00239594
+l=4 [739,998,1348) D=17 K=38 phase1 eps_bar=PropD-1=0.594706
+l=5 [998,1348,1820) D=21 K=51 phase1 eps_bar=PropD-1=0.000897118
+l=6 [1348,1820,2457) D=30 K=69 phase1 eps_bar=PropD-1=0.0409166
+l=7 [1820,2457,3317) D=39 K=93 theta=20 M_W=2 phase2 log10 E_A eps <= -20.860544  (E' gives -6.0527155; E' >= E: True)
+l=8 [2457,3317,4478) D=54 K=127 theta=27 M_W=3 phase2 log10 E_A eps <= -27.946132  (E' gives -7.7619496; E' >= E: True)
+l=9 [3317,4478,6046) D=73 K=170 theta=37 M_W=3 phase2 log10 E_A eps <= -39.257013  (E' gives -18.655587; E' >= E: True)
+l=10 [4478,6046,8163) D=97 K=230 theta=49 M_W=2 phase2 log10 E_A eps <= -50.684606  (E' gives -31.727028; E' >= E: True)
+l=11 [6046,8163,11021) D=133 K=312 theta=67 M_W=3 phase2 log10 E_A eps <= -69.186207  (E' gives -51.33507; E' >= E: True)
+l=12 [8163,11021,14879) D=179 K=420 theta=90 M_W=3 phase2 log10 E_A eps <= -95.757252  (E' gives -76.389435; E' >= E: True)
+l=13 [11021,14879,20087) D=241 K=566 theta=121 M_W=3 phase2 log10 E_A eps <= -132.35087  (E' gives -110.15831; E' >= E: True)
+l=14 [14879,20087,27118) D=325 K=764 theta=163 M_W=3 phase2 log10 E_A eps <= -176.82568  (E' gives -155.90968; E' >= E: True)
+l=15 [20087,27118,36610) D=439 K=1033 theta=220 M_W=4 phase2 log10 E_A eps <= -237.72413  (E' gives -211.81385; E' >= E: True)
+l=16 [27118,36610,49424) D=594 K=1395 theta=297 M_W=4 phase2 log10 E_A eps <= -320.59008  (E' gives -295.69146; E' >= E: True)
+l=17 D=801 K=1882 theta=401 sigma=4 phase3 log10 E_A eps <= -408.9809094
+l=18 D=1081 K=2540 theta=541 sigma=4 phase3 log10 E_A eps <= -561.4856757
+l=19 D=1459 K=3430 theta=730 sigma=4 phase3 log10 E_A eps <= -767.3669233
+l=20 D=1971 K=4631 theta=986 sigma=4 phase3 log10 E_A eps <= -1046.233024
+l=21 D=2660 K=6252 theta=1330 sigma=4 phase3 log10 E_A eps <= -1420.958559
+l=22 D=3592 K=8440 theta=1796 sigma=4 phase3 log10 E_A eps <= -1928.581809
+l=23 D=4848 K=11392 theta=2424 sigma=4 phase3 log10 E_A eps <= -2612.674574
+l=24 D=6544 K=15380 theta=3272 sigma=4 phase3 log10 E_A eps <= -3536.417466
+l=25 D=8836 K=20764 theta=4418 sigma=4 phase3 log10 E_A eps <= -4784.778152
+l=26 D=11928 K=28030 theta=5964 sigma=4 phase3 log10 E_A eps <= -6468.866522
+l=27 D=16102 K=37842 theta=8051 sigma=5 phase3 log10 E_A eps <= -8735.437168
+l=28 D=21740 K=51087 theta=10870 sigma=5 phase3 log10 E_A eps <= -11806.23004
+l=29 D=29347 K=68965 theta=14674 sigma=5 phase3 log10 E_A eps <= -15950.0025
+l=30 D=39618 K=93105 theta=19809 sigma=5 phase3 log10 E_A eps <= -21543.65886
+l=31 D=53487 K=125693 theta=26744 sigma=5 phase3 log10 E_A eps <= -29098.0921
+l=32 D=72206 K=169683 theta=36103 sigma=5 phase3 log10 E_A eps <= -39293.03543
+l=33 D=97477 K=229072 theta=48739 sigma=5 phase3 log10 E_A eps <= -53057.67994
+l=34 D=131595 K=309248 theta=65798 sigma=5 phase3 log10 E_A eps <= -71640.38586
+l=35 D=177653 K=417485 theta=88827 sigma=5 phase3 log10 E_A eps <= -96726.33052
+l=50 D=16016970 K=37639875 theta=8008485 sigma=7 phase3 log10 E_A eps <= -8723752.005
+l=100 D=52634285638049 K=123690571249411 theta=26317142819025 sigma=12 phase3 log10 E_A eps <= -2.866778369e+13
+l=149 D=128121905540062724396 K=301086478019147402336 theta=64060952770031362198 sigma=17 phase3 log10 E_A eps <= -6.978286166e+19
+linear regime checked exactly for l = 1..149 (149 windows); phases 2-3 failure sum <= 2.75731231e-21
+phase4 t1: a=0.42446868 b=4.30969 c=86.3786; g(n*)=3.24779e+21 g'(n*)=0.410752
+phase4 t2: a=0.027434 b=14.353 c=488.185; g(n*)=1.0846e+20 g'(n*)=0.013717
+phase4 side conditions at n*: D-2sigma >= 1.72965e+20 (slope 0.02187), m-K-M >= 8.77177e+19 (slope 0.01109)
+phase4: c' = 0.013717; all l >= 150: ln fail_l <= -c' n_(l-1): True; ln(tail sum) <= -1.0845966e+20; mu_A(G'^c) <= 6.8127026e-57
+RESULT prod_(i>=1)(1+2^-i) = 2.38423102903
+RESULT log10 Pi_A = 2.4580987; delta_A = 2.7573123e-21; log10(Pi_A delta_A) = -18.101415; FE: True
+RESULT mu(K_p cap A)/mu(A) >= 0.0034825819;  mu(A) = p^-18 = 7.11082e-23; mu(K_p) >= 2.4764e-25
+RESULT claimed lower bound 3.48e-3: implied by this certificate: True  (computed/claimed = 1.00074); 3-digit value rounded DOWN: 3.48e-3
+=== exit: 0   wall: 1.943041483 s
+=== command: python3 cm_indep.py /home/user/erdos-404-research/data/round4/M4A/atom_p19.txt 6 60000 5 5
+=== start (UTC): 2026-10-14T01:36:33Z
+# independent FE evaluation: p=19 n0=300 r=27/20 L1=6 NBLOCK=60000
+atom: V_300(x_A) = 16 (claimed 16); M_300 = 1 < m: True
+slope-0 path: v(S_e(x_A)) = 16 >= 16: True;  v(S_e'(x_A)) = 0 (S' mod p = 2)
+i_A = 40426430544418839257 (4.0426e+19)
+times: [300, 405, 547, 739, 998, 1348, 1820, 2457, 3317, 4478, 6046] ...; first l with n_(l+1) >= i_A: l* = 131; n_(l*-1) = 2.640386e+19, n_(l*+1) = 4.812104e+19, n_(l*) = 3.564522e+19
+W_0 = [300,405): D_0 = 6, M_(n_1) = 2; admissible: True
+constants: S = 5, S0 = 5 (numpy residue DP)
+q_s: q_1=137438966979/137438953472, q_2=137502638335/137438953472, q_3=69458260233/68719476736, q_4=89981828623/68719476736 ; max atom P(Z=z) = None
+P0 (s=1,2): {1: ['0', '0'], 2: ['1/4', '1/4'], 3: ['0', '0'], 4: ['0', '0'], 5: ['9/256', '0'], 6: ['27/512', '0'], 7: ['111/2048', '21/1024'], 8: ['431/8192', '0'], 9: ['877/16384', '1/16384'], 10: ['13739/262144', '633/262144'], 11: ['13683/262144', '1389/524288'], 12: ['3447/65536', '10603/4194304'], 13: ['441369/8388608', '23121/8388608'], 14: ['3532055/67108864', '188359/67108864'], 15: ['7064105/134217728', '743127/268435456'], 16: ['28256353/536870912', '370021/134217728'], 17: ['226050079/4294967296', '2976533/1073741824'], 18: ['904203673/17179869184', '47592871/17179869184'], 19: ['3616814675/68719476736', '190391289/68719476736']}
+rho1 = 0.00010594066, gamma = 2.9439758, kappa = 6.8900775
+phase 0: chi^2_0 <= 0.0014437043
+l=1 [300,405,547) D=6 K=14 phase1 eps_bar=PropD-1=0.00144449
+l=2 [405,547,739) D=8 K=19 phase1 eps_bar=PropD-1=0.0720314
+l=3 [547,739,998) D=11 K=24 phase1 eps_bar=PropD-1=0.00046573
+l=4 [739,998,1348) D=13 K=33 phase1 eps_bar=PropD-1=0.000475248
+l=5 [998,1348,1820) D=20 K=47 phase1 eps_bar=PropD-1=2.56747
+l=6 [1348,1820,2457) D=27 K=61 phase1 eps_bar=PropD-1=0.00141195
+l=7 [1820,2457,3317) D=34 K=83 theta=17 M_W=3 phase2 log10 E_A eps <= -17.893352  (E' gives 4.2689396; E' >= E: True)
+l=8 [2457,3317,4478) D=49 K=114 theta=25 M_W=3 phase2 log10 E_A eps <= -24.256092  (E' gives -4.9097116; E' >= E: True)
+l=9 [3317,4478,6046) D=65 K=151 theta=33 M_W=2 phase2 log10 E_A eps <= -36.388351  (E' gives -14.088087; E' >= E: True)
+l=10 [4478,6046,8163) D=86 K=203 theta=43 M_W=2 phase2 log10 E_A eps <= -48.58269  (E' gives -25.560791; E' >= E: True)
+l=11 [6046,8163,11021) D=117 K=277 theta=59 M_W=3 phase2 log10 E_A eps <= -66.248557  (E' gives -43.917541; E' >= E: True)
+l=12 [8163,11021,14879) D=160 K=374 theta=80 M_W=3 phase2 log10 E_A eps <= -88.512385  (E' gives -68.010782; E' >= E: True)
+l=13 [11021,14879,20087) D=214 K=503 theta=107 M_W=3 phase2 log10 E_A eps <= -121.41801  (E' gives -98.987608; E' >= E: True)
+l=14 [14879,20087,27118) D=289 K=680 theta=145 M_W=3 phase2 log10 E_A eps <= -164.84992  (E' gives -142.58483; E' >= E: True)
+l=15 [20087,27118,36610) D=391 K=918 theta=196 M_W=3 phase2 log10 E_A eps <= -222.22093  (E' gives -201.09688; E' >= E: True)
+l=16 [27118,36610,49424) D=527 K=1239 theta=264 M_W=3 phase2 log10 E_A eps <= -301.33745  (E' gives -279.11276; E' >= E: True)
+l=17 D=712 K=1673 theta=356 sigma=3 phase3 log10 E_A eps <= -384.6636869
+l=18 D=961 K=2258 theta=481 sigma=3 phase3 log10 E_A eps <= -528.0754813
+l=19 D=1297 K=3049 theta=649 sigma=4 phase3 log10 E_A eps <= -714.1422336
+l=20 D=1752 K=4116 theta=876 sigma=4 phase3 log10 E_A eps <= -974.5778388
+l=21 D=2364 K=5556 theta=1182 sigma=4 phase3 log10 E_A eps <= -1325.649547
+l=22 D=3192 K=7502 theta=1596 sigma=4 phase3 log10 E_A eps <= -1800.62902
+l=23 D=4310 K=10127 theta=2155 sigma=4 phase3 log10 E_A eps <= -2441.966157
+l=24 D=5817 K=13672 theta=2909 sigma=4 phase3 log10 E_A eps <= -3307.025352
+l=25 D=7855 K=18457 theta=3928 sigma=4 phase3 log10 E_A eps <= -4476.11756
+l=26 D=10602 K=24915 theta=5301 sigma=4 phase3 log10 E_A eps <= -6051.351222
+l=27 D=14313 K=33637 theta=7157 sigma=4 phase3 log10 E_A eps <= -8180.727893
+l=28 D=19324 K=45411 theta=9662 sigma=4 phase3 log10 E_A eps <= -11054.69793
+l=29 D=26087 K=61305 theta=13044 sigma=5 phase3 log10 E_A eps <= -14927.47869
+l=30 D=35218 K=82759 theta=17609 sigma=5 phase3 log10 E_A eps <= -20164.87329
+l=31 D=47541 K=111724 theta=23771 sigma=5 phase3 log10 E_A eps <= -27234.49528
+l=32 D=64183 K=150831 theta=32092 sigma=5 phase3 log10 E_A eps <= -36781.12403
+l=33 D=86648 K=203621 theta=43324 sigma=5 phase3 log10 E_A eps <= -49667.52392
+l=34 D=116973 K=274888 theta=58487 sigma=5 phase3 log10 E_A eps <= -67063.93424
+l=35 D=157915 K=371099 theta=78958 sigma=5 phase3 log10 E_A eps <= -90550.17828
+l=50 D=14237306 K=33457666 theta=7118653 sigma=7 phase3 log10 E_A eps <= -8167130.35
+l=100 D=46786031678263 K=109947174443922 theta=23393015839132 sigma=12 phase3 log10 E_A eps <= -2.683865351e+13
+l=130 D=380302574469982315 K=893711050004458445 theta=190151287234991158 sigma=15 phase3 log10 E_A eps <= -2.181593236e+17
+linear regime checked exactly for l = 1..130 (130 windows); phases 2-3 failure sum <= 2.556694612e-18
+phase4 t1: a=0.43556905 b=4.30969 c=85.2127; g(n*)=1.11616e+19 g'(n*)=0.422727
+phase4 t2: a=0.025683591 b=15.0279 c=500.574; g(n*)=3.39073e+17 g'(n*)=0.0128418
+phase4 side conditions at n*: D-2sigma >= 5.13408e+17 (slope 0.01944), m-K-M >= 2.60371e+17 (slope 0.009861)
+phase4: c' = 0.012841795; all l >= 131: ln fail_l <= -c' n_(l-1): True; ln(tail sum) <= -3.3907302e+17; mu_A(G'^c) <= 1.0302537e-52
+RESULT prod_(i>=1)(1+2^-i) = 2.38423102903
+RESULT log10 Pi_A = 0.96219076; delta_A = 2.5566946e-18; log10(Pi_A delta_A) = -16.63013; FE: True
+RESULT mu(K_p cap A)/mu(A) >= 0.1090961;  mu(A) = p^-16 = 3.46691e-21; mu(K_p) >= 3.78226e-22
+RESULT claimed lower bound 1.09e-1: implied by this certificate: True  (computed/claimed = 1.00088); 3-digit value rounded DOWN: 1.09e-1
+=== exit: 0   wall: 3.343211128 s
+=== command: python3 cm_indep.py /home/user/erdos-404-research/data/round4/M4A/atom_p23.txt 6 60000 5 5
+=== start (UTC): 2026-10-14T01:36:36Z
+# independent FE evaluation: p=23 n0=300 r=27/20 L1=6 NBLOCK=60000
+atom: V_300(x_A) = 14 (claimed 14); M_300 = 2 < m: True
+slope-0 path: v(S_e(x_A)) = 14 >= 14: True;  v(S_e'(x_A)) = 0 (S' mod p = 7)
+i_A = 3792737428394225587 (3.7927e+18)
+times: [300, 405, 547, 739, 998, 1348, 1820, 2457, 3317, 4478, 6046] ...; first l with n_(l+1) >= i_A: l* = 123; n_(l*-1) = 2.393301e+18, n_(l*+1) = 4.361791e+18, n_(l*) = 3.230957e+18
+W_0 = [300,405): D_0 = 4, M_(n_1) = 2; admissible: True
+constants: S = 5, S0 = 5 (numpy residue DP)
+q_s: q_1=17592186139819/17592186044416, q_2=35184451705469/35184372088832, q_3=35225111426273/35184372088832, q_4=18382753890795/17592186044416 ; max atom P(Z=z) = None
+P0 (s=1,2): {1: ['0', '0'], 2: ['1/4', '1/4'], 3: ['0', '0'], 4: ['0', '0'], 5: ['1/16', '0'], 6: ['35/1024', '0'], 7: ['201/4096', '0'], 8: ['167/4096', '3/2048'], 9: ['2993/65536', '43/32768'], 10: ['10933/262144', '487/262144'], 11: ['45443/1048576', '881/524288'], 12: ['182739/4194304', '3923/2097152'], 13: ['182375/4194304', '32895/16777216'], 14: ['2918557/67108864', '64107/33554432'], 15: ['5839849/134217728', '247111/134217728'], 16: ['23340747/536870912', '2024453/1073741824'], 17: ['186683693/4294967296', '2030005/1073741824'], 18: ['746922437/17179869184', '8115647/4294967296'], 19: ['2987807729/68719476736', '129900755/68719476736'], 20: ['11951194441/274877906944', '519632211/274877906944'], 21: ['47804853367/1099511627776', '259811361/137438953472'], 22: ['191219414545/4398046511104', '8313582379/4398046511104'], 23: ['191219414457/4398046511104', '33255425647/17592186044416']}
+rho1 = 9.2122508e-6, gamma = 3.135492, kappa = 9.2449853
+phase 0: chi^2_0 <= 2.2247775e-8
+l=1 [300,405,547) D=4 K=10 phase1 eps_bar=PropD-1=5.4786e-8
+l=2 [405,547,739) D=6 K=16 phase1 eps_bar=PropD-1=0.0621592
+l=3 [547,739,998) D=10 K=21 phase1 eps_bar=PropD-1=0.796879
+l=4 [739,998,1348) D=11 K=27 phase1 eps_bar=PropD-1=2.40656e-6
+l=5 [998,1348,1820) D=16 K=38 phase1 eps_bar=PropD-1=0.000883393
+l=6 [1348,1820,2457) D=22 K=50 phase1 eps_bar=PropD-1=0.0621617
+l=7 [1820,2457,3317) D=28 K=68 theta=14 M_W=2 phase2 log10 E_A eps <= -17.702236  (E' gives 2.6219571; E' >= E: True)
+l=8 [2457,3317,4478) D=40 K=92 theta=20 M_W=2 phase2 log10 E_A eps <= -21.620652  (E' gives -4.8532868; E' >= E: True)
+l=9 [3317,4478,6046) D=52 K=123 theta=26 M_W=2 phase2 log10 E_A eps <= -31.318874  (E' gives -12.328503; E' >= E: True)
+l=10 [4478,6046,8163) D=71 K=167 theta=36 M_W=2 phase2 log10 E_A eps <= -44.224039  (E' gives -24.787226; E' >= E: True)
+l=11 [6046,8163,11021) D=96 K=227 theta=48 M_W=3 phase2 log10 E_A eps <= -56.724013  (E' gives -31.868615; E' >= E: True)
+l=12 [8163,11021,14879) D=131 K=305 theta=66 M_W=3 phase2 log10 E_A eps <= -80.934064  (E' gives -54.294322; E' >= E: True)
+l=13 [11021,14879,20087) D=174 K=411 theta=87 M_W=2 phase2 log10 E_A eps <= -106.21426  (E' gives -80.457588; E' >= E: True)
+l=14 [14879,20087,27118) D=237 K=559 theta=119 M_W=4 phase2 log10 E_A eps <= -144.91663  (E' gives -112.43834; E' >= E: True)
+l=15 [20087,27118,36610) D=322 K=752 theta=161 M_W=4 phase2 log10 E_A eps <= -196.06204  (E' gives -164.76494; E' >= E: True)
+l=16 [27118,36610,49424) D=430 K=1013 theta=215 M_W=3 phase2 log10 E_A eps <= -268.25909  (E' gives -232.04196; E' >= E: True)
+l=17 D=583 K=1369 theta=292 sigma=4 phase3 log10 E_A eps <= -327.974062
+l=18 D=786 K=1848 theta=393 sigma=4 phase3 log10 E_A eps <= -453.8070334
+l=19 D=1062 K=2495 theta=531 sigma=4 phase3 log10 E_A eps <= -625.7372617
+l=20 D=1433 K=3367 theta=717 sigma=4 phase3 log10 E_A eps <= -857.4693088
+l=21 D=1934 K=4545 theta=967 sigma=4 phase3 log10 E_A eps <= -1168.93709
+l=22 D=2611 K=6137 theta=1306 sigma=4 phase3 log10 E_A eps <= -1591.287423
+l=23 D=3526 K=8287 theta=1763 sigma=4 phase3 log10 E_A eps <= -2160.650541
+l=24 D=4761 K=11185 theta=2381 sigma=4 phase3 log10 E_A eps <= -2930.598953
+l=25 D=6424 K=15100 theta=3212 sigma=4 phase3 log10 E_A eps <= -3965.917861
+l=26 D=8676 K=20387 theta=4338 sigma=4 phase3 log10 E_A eps <= -5368.768823
+l=27 D=11711 K=27521 theta=5856 sigma=4 phase3 log10 E_A eps <= -7260.001267
+l=28 D=15810 K=37155 theta=7905 sigma=4 phase3 log10 E_A eps <= -9812.791287
+l=29 D=21345 K=50158 theta=10673 sigma=4 phase3 log10 E_A eps <= -13261.36272
+l=30 D=28813 K=67711 theta=14407 sigma=4 phase3 log10 E_A eps <= -17913.44567
+l=31 D=38898 K=91411 theta=19449 sigma=4 phase3 log10 E_A eps <= -24195.12812
+l=32 D=52513 K=123406 theta=26257 sigma=4 phase3 log10 E_A eps <= -32677.01908
+l=33 D=70893 K=166599 theta=35447 sigma=5 phase3 log10 E_A eps <= -44118.35437
+l=34 D=95706 K=224910 theta=47853 sigma=5 phase3 log10 E_A eps <= -59574.63214
+l=35 D=129204 K=303627 theta=64602 sigma=6 phase3 log10 E_A eps <= -80432.49816
+l=50 D=11648705 K=27374455 theta=5824353 sigma=7 phase3 log10 E_A eps <= -7256331.006
+l=100 D=38279480464037 K=89956779090486 theta=19139740232019 sigma=12 phase3 log10 E_A eps <= -2.384565063e+13
+l=122 D=28203885423351361 K=66279130744875696 theta=14101942711675681 sigma=13 phase3 log10 E_A eps <= -1.756920392e+16
+linear regime checked exactly for l = 1..122 (122 windows); phases 2-3 failure sum <= 3.970985503e-18
+phase4 t1: a=0.45288883 b=4.30969 c=87.0639; g(n*)=1.05659e+18 g'(n*)=0.441479
+phase4 t2: a=0.022819399 b=16.3239 c=546.776; g(n*)=2.73068e+16 g'(n*)=0.0114097
+phase4 side conditions at n*: D-2sigma >= 3.80752e+16 (slope 0.01591), m-K-M >= 1.93096e+16 (slope 0.008068)
+phase4: c' = 0.011409699; all l >= 123: ln fail_l <= -c' n_(l-1): True; ln(tail sum) <= -2.7306846e+16; mu_A(G'^c) <= 1.9735478e-51
+RESULT prod_(i>=1)(1+2^-i) = 2.38423102903
+RESULT log10 Pi_A = 0.68463204; delta_A = 3.9709855e-18; log10(Pi_A delta_A) = -16.71647; FE: True
+RESULT mu(K_p cap A)/mu(A) >= 0.20671308;  mu(A) = p^-14 = 8.62602e-20; mu(K_p) >= 1.78311e-20
+RESULT claimed lower bound 2.07e-1: implied by this certificate: False  (computed/claimed = 0.998614); 3-digit value rounded DOWN: 2.06e-1
+=== exit: 0   wall: 20.395340519 s

@@ -1,0 +1,16 @@
+### command: python3 t5_global.py 3 8 11 hash 4 3 1
+### start (UTC): 2026-10-14T00:10:28Z
+RESULT p=3 n0=8 n1=11 rule=hash H=4 L=3 epsbar=1: 9 atoms of G_0, cut mass 7.791e-01, total mass == 1: True; Observation G checks 8, failures 0
+RESULT admissible atoms 2; nodes 2; DPs 6; B held 0, B failed (linear regime) 2, (eps) 0
+RESULT m* = 0.03125, Q = 0.098877, a_k = [0.06591796875, 0.0679779052734375, 0.0679779052734375, 0.0679779052734375], delta_L = 0.0411523
+RESULT (G1) E[Mt_k] == m* exactly for k=0..3: True  values [0.03125, 0.03125, 0.03125, 0.03125]
+RESULT (G2) a_0 <= a_1 <= Q: True
+RESULT (G3) a_(k+1) <= a_k + epsbar_k a_(k-1): True  slacks [0.06591796875, 0.0679779052734375]
+RESULT (G4) a_L <= Pi Q: True
+RESULT (G5) E[Y_L] >= m* - sqrt(a_L delta_L): True; Paley-Zygmund mu(Y>0)E[Y^2] >= E[Y]^2: True; mu(Y_L>0) = 0
+RESULT (G5) B1' finite-horizon bound vacuous here (m* = 0.03125 <= sqrt(Pi Q delta) = 0.1276)
+RESULT (A) per-atom Theorem B1 at horizon 3: 2 admissible atoms, 0 with delta_A < 1/Pi_A, failures 0; min ratio mu_A(Y>0)/bound = None
+RESULT node-level C2 checks 0, failures 0
+SUMMARY t5 p=3 rule=hash L=3 epsbar=1: total failures 0
+### exit: 0
+### wall: 1 s

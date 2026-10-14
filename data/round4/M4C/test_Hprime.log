@@ -1,0 +1,20 @@
+### command: timeout 1500 python3 code/round4/M4C/test_Hprime.py 3 3 200 10 pointwise
+### start: 2026-10-14T00:24:50Z
+# test_Hprime pointwise identity p=3 seed=3 NZ=200 LTOT=10
+RESULT {'points': 169, 'fail': 0, 'nonzero': 169}
+### wall: 1 s
+### command: timeout 1500 python3 code/round4/M4C/test_Hprime.py 5 3 150 16 pointwise
+### start: 2026-10-14T00:24:51Z
+# test_Hprime pointwise identity p=5 seed=3 NZ=150 LTOT=16
+RESULT {'points': 116, 'fail': 0, 'nonzero': 116}
+### wall: 7 s
+### command: timeout 1500 python3 code/round4/M4C/test_Hprime.py 7 3 100 22 pointwise
+### start: 2026-10-14T00:24:58Z
+# test_Hprime pointwise identity p=7 seed=3 NZ=100 LTOT=22
+RESULT {'points': 79, 'fail': 0, 'nonzero': 79}
+### wall: 34 s
+### command: timeout 1500 python3 code/round4/M4C/test_Hprime.py 3 4 300 14
+### start: 2026-10-14T00:25:32Z
+# test_Hprime p=3 seed=4 NBALLS=300 LTOT=14
+RESULT {'balls': 6, 'fail': 0, 'max_ratio': 0.006691449814126394, 'nonzero': 6}
+### wall: 25 s

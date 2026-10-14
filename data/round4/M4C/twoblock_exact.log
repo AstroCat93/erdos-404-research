@@ -1,0 +1,9 @@
+### command: python3 code/round4/M4C/twoblock_exact.py 7 11 13 17 19 23
+### start: 2026-10-13T23:48:04Z
+p=7: q_p=1.448975e-01 (1+chi^2 = p q_p = 1.014282); E[eps_2block] formula = 6.728083e-04; direct = 6.728083e-04; exact agreement: True
+p=11: q_p=9.103966e-02 (1+chi^2 = p q_p = 1.001436); E[eps_2block] formula = 3.714864e-05; direct = 3.714864e-05; exact agreement: True
+p=13: q_p=7.692477e-02 (1+chi^2 = p q_p = 1.000022); E[eps_2block] formula = 6.502488e-08; direct = 6.502488e-08; exact agreement: True
+p=17: q_p=5.882357e-02 (1+chi^2 = p q_p = 1.000001); E[eps_2block] formula = 9.665120e-11; direct = 9.665120e-11; exact agreement: True
+p=19: q_p=5.263158e-02 (1+chi^2 = p q_p = 1.000000); E[eps_2block] formula = 4.539236e-12; direct = 4.539236e-12; exact agreement: True
+p=23: q_p=4.347826e-02 (1+chi^2 = p q_p = 1.000000); E[eps_2block] formula = 7.357329e-15; direct = 7.357329e-15; exact agreement: True
+### wall: 1 s

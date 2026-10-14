@@ -1,0 +1,52 @@
+=== command: python3 t3_atom_fe.py /home/user/erdos-404-research/data/round4/M4A/atom_p13.txt 6 12 14 600
+=== start (UTC): 2026-10-14T01:30:56Z
+atom: p=13 n0=300 m=26 xA=10535248573128188798965153761 len(path)=300
+(a) V_300(xA)=26 (claimed m=26): True;  M_300=3 < m: True
+    v_p(S_e(xA))=26 >= m: True;  S_e'(xA) mod p = 5 (slope 0: True)
+    xA < p^m: True
+(b) i_A = 81198081620140427859434462248 (8.1198e+28);  n_l: [300, 405, 547, 739, 998, 1348, 1820, 2457, 3317, 4478, 6046, 8163]
+    digit formula vs direct valuations at sampled N<=70000: 0 mismatches
+    last l with n_(l+1) < i_A: 201;  n_(l+1) there = 6.3929e+28; next n = 8.6304e+28
+    W_0=[300,405): D_0=8, M_(n_1)=3: D_0<=m-M: True, M<m: True
+(c) linear regime (D_(l-1)+D_l <= m_(l-1)-M_(n_(l+1)), M<m_(l-1)) fails for 0 of l=1..201
+(d) phase 0: chi^2_0 <= 0.422094   (report: 0.504642)
+    l=1 [300,405,547) D=8 K=20 eps_bar=0.433964
+    l=2 [405,547,739) D=12 K=28 eps_bar=1.47852
+    l=3 [547,739,998) D=16 K=38 eps_bar=0.457808
+    l=4 [739,998,1348) D=22 K=51 eps_bar=0.0598492
+    l=5 [998,1348,1820) D=29 K=68 eps_bar=0.0431679
+    l=6 [1348,1820,2457) D=39 K=91 eps_bar=0.0517123
+(e) l=7 [1820,2457,3317) D=52 K=124 theta=26 M_W=3 log10 E_A eps <= -23.528  log10 fail <= -23.227
+(e) l=8 [2457,3317,4478) D=72 K=169 theta=36 M_W=3 log10 E_A eps <= -30.581  log10 fail <= -29.979
+(e) l=9 [3317,4478,6046) D=97 K=229 theta=49 M_W=4 log10 E_A eps <= -42.176  log10 fail <= -41.273
+(e) l=10 [4478,6046,8163) D=132 K=308 theta=66 M_W=4 log10 E_A eps <= -57.866  log10 fail <= -56.662
+(e) l=11 [6046,8163,11021) D=176 K=414 theta=88 M_W=3 log10 E_A eps <= -80.869  log10 fail <= -79.364
+(e) l=12 [8163,11021,14879) D=238 K=560 theta=119 M_W=3 log10 E_A eps <= -109.023  log10 fail <= -107.217
+(f) constants rho1=0.002522 gamma=2.556880 kappa=3.576696
+    l=13: exact Prop E log10 = -150.250;  Prop E' log10 = -134.192;  E' >= E: True
+    l=14: exact Prop E log10 = -204.700;  Prop E' log10 = -186.890;  E' >= E: True
+    l=13 D=322 K=756 M_W=3 log10 fail <= -132.085
+    l=14 D=434 K=1019 M_W=3 log10 fail <= -184.481
+    l=30 D=52824 K=124140 M_W=6 log10 fail <= -24813.3
+    l=100 D=70179047517400 K=164920761665884 M_W=14 log10 fail <= -3.30201e+13
+    l=200 D=757851856958838681432614912 K=1780951863853270901366645035 M_W=25 log10 fail <= -3.56579e+26
+    l=201 D=1023100006894432219934030123 K=2404285016201915716844970795 M_W=25 log10 fail <= -4.81381e+26
+    phase 2 sum = 5.930408e-24; phase 3 sum = 8.22576e-133
+(g) phase 4 from l=202; mu_A(G'^c) <= 2.51816e-69
+    l=202 n=4.73549e+28 sigma=89 D>=1.38119e+27 K<=3.24578e+27 ln fail <= -1.4963683e+27  (-ln fail)/n = 0.031599
+    l=203 n=6.39291e+28 sigma=90 D>=1.8646e+27 K<=4.38181e+27 ln fail <= -2.0200972e+27  (-ln fail)/n = 0.031599
+    l=212 n=9.52144e+29 sigma=92 D>=2.77709e+28 K<=6.52616e+28 ln fail <= -3.0086813e+28  (-ln fail)/n = 0.031599
+    l=302 n=5.11378e+41 sigma=113 D>=1.49152e+40 K<=3.50507e+40 ln fail <= -1.6159032e+40  (-ln fail)/n = 0.031599
+    l=600 n=3.5335e+80 sigma=183 D>=1.0306e+79 K<=2.42192e+79 ln fail <= -1.1165505e+79  (-ln fail)/n = 0.031599
+    side conditions (D>=2 sigma, linear regime on G_l) fail for 0 of l=202..600
+    max ln fail over phase 4 range = -1.4963683e+27;  min (-ln fail)/n_(l-1) = 0.031599
+    phase 4 sum (l=202..600) = 2.18174e-649864491037022913724831560
+(g2) analytic majorant at n*=4.73549e+28: [T1 + l ln2 + 0.03 n] = -1.72518e+28, [T2 + l ln2 + 0.03 n] = -7.57209e+25, D>=2sigma: True
+     slopes (numerical, each is -a + b/n with b>0, so maximal at n*): -0.364308, -0.00159901
+     => for every l >= 202: ln fail_l <= ln2 + max(...) <= -0.03 n_(l-1) + ln 2: True
+     => sum over l >= 202 of fail_l <= sum_l 2 exp(-0.03 n_(l-1)) <= 4 exp(-0.03 n*) = 10^-6.16979e+26
+(h) log10 Pi_A <= 1.3102031   (report: 25.7344)
+    delta_A <= 5.9304078e-24 (phase 4 counted up to l=600)   (report: 1.0006e-45)
+    log10(Pi_A delta_A) <= -21.916712   (report: -19.265)
+    PZ lower bound mu(K_p cap A)/mu(A) >= 0.048954979   (report: 1.843e-26)
+=== exit: 0   wall: 4.92 s

@@ -1,0 +1,249 @@
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 11 3000
+### start: 2026-10-14T00:48:11Z
+# check_assemble p=11 BCUT=3000: q1-1=1.436234e-03 q2-1=1.115961e-01 q3=1.801194191
+phase 1 schedule [3, 4, 5, 7, 9, 11, 15, 21, 28, 39, 54, 76, 105, 120] (k0=12); log Pi_phase1 = 2.29718205068
+  l=13 (105,120,144] s=4 N_W=15 N=39 I=6 mu(G^c)=0.008264 log10 B=-2.4555064
+  l=14 (120,144,183] s=4 N_W=24 N=63 I=10 mu(G^c)=0.008264 log10 B=-4.2029504
+  l=15 (144,183,246] s=5 N_W=39 N=102 I=19 mu(G^c)=0.001503 log10 B=-14.089021
+  l=16 (183,246,347] s=5 N_W=63 N=164 I=31 mu(G^c)=0.001503 log10 B=-23.732884
+  l=17 (246,347,481] s=6 N_W=101 N=235 I=50 mu(G^c)=0.0002049 log10 B=-39.297878
+  l=18 (347,481,682] s=6 N_W=134 N=335 I=63 mu(G^c)=0.0003415 log10 B=-50.308431
+  l=19 (481,682,947] s=7 N_W=201 N=466 I=96 mu(G^c)=4.346e-05 log10 B=-75.590476
+  l=20 (682,947,1348] s=7 N_W=265 N=666 I=129 mu(G^c)=6.83e-05 log10 B=-107.83968
+  l=21 (947,1348,1876] s=7 N_W=401 N=929 I=196 mu(G^c)=9.314e-05 log10 B=-165.8955
+  l=22 (1348,1876,2673] s=8 N_W=528 N=1325 I=258 mu(G^c)=1.242e-05 log10 B=-218.04642
+  l=23 (1876,2673,3724] s=8 N_W=797 N=1848 I=394 mu(G^c)=1.693e-05 log10 B=-337.14563
+  l=24 (2673,3724,5311] s=9 N_W=1051 N=2638 I=519 mu(G^c)=2.207e-06 log10 B=-444.61697
+CHECK p=11: explicit part up to window l=24, b_(l-1)=3724: delta = 0.0874232887034; log Pi = 2.3625715873
+CHECK p=11: far tail up to l=606 (l_*-k0 = 595): mu(G^c) part 4.148073e-06, sqrt(B) part 1.959e-282, remainder 7.712e-181
+CHECK p=11: Pi_A = 10.6182220580182; delta_A = 0.08742743678; c_p = 0.0001254979323
+### wall: 4 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 13 3000
+### start: 2026-10-14T00:48:15Z
+# check_assemble p=13 BCUT=3000: q1-1=2.202392e-05 q2-1=8.124352e-03 q3=1.192443490
+phase 1 schedule [3, 4, 5, 7, 9, 12, 15, 21, 28, 39, 54, 77, 106, 151, 168] (k0=13); log Pi_phase1 = 0.192491977758
+  l=14 (151,168,196] s=4 N_W=17 N=45 I=7 mu(G^c)=0.005917 log10 B=-4.3383371
+  l=15 (168,196,241] s=4 N_W=28 N=73 I=12 mu(G^c)=0.005917 log10 B=-7.6518056
+  l=16 (196,241,313] s=5 N_W=45 N=117 I=22 mu(G^c)=0.0004552 log10 B=-22.163431
+  l=17 (241,313,429] s=5 N_W=72 N=188 I=35 mu(G^c)=0.0009103 log10 B=-32.055636
+  l=18 (313,429,615] s=5 N_W=116 N=302 I=55 mu(G^c)=0.001365 log10 B=-53.051742
+  l=19 (429,615,846] s=6 N_W=186 N=417 I=90 mu(G^c)=0.0001751 log10 B=-87.36597
+  l=20 (615,846,1216] s=6 N_W=231 N=601 I=112 mu(G^c)=0.0002451 log10 B=-109.45081
+  l=21 (846,1216,1677] s=7 N_W=370 N=831 I=180 mu(G^c)=2.424e-05 log10 B=-178.22863
+  l=22 (1216,1677,2413] s=7 N_W=461 N=1197 I=226 mu(G^c)=3.771e-05 log10 B=-224.54625
+  l=23 (1677,2413,3332] s=8 N_W=736 N=1655 I=363 mu(G^c)=3.936e-06 log10 B=-364.11101
+  l=24 (2413,3332,4798] s=8 N_W=919 N=2385 I=455 mu(G^c)=5.801e-06 log10 B=-456.88512
+CHECK p=13: explicit part up to window l=24, b_(l-1)=3332: delta = 0.0219802514611; log Pi = 0.1993922264
+CHECK p=13: far tail up to l=607 (l_*-k0 = 595): mu(G^c) part 1.022349e-05, sqrt(B) part 4.041e-300, remainder 7.712e-181
+CHECK p=13: Pi_A = 1.22066064734905; delta_A = 0.02199047496; c_p = 0.5727773761
+### wall: 4 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 17 3000
+### start: 2026-10-14T00:48:19Z
+# check_assemble p=17 BCUT=3000: q1-1=6.093178e-07 q2-1=2.898074e-04 q3=1.022568950
+phase 1 schedule [3, 4, 5, 7, 9, 13, 16, 23, 29, 44, 55, 85, 108, 169, 214, 288] (k0=14); log Pi_phase1 = 0.00839859350143
+  l=15 (214,288,407] s=4 N_W=74 N=193 I=36 mu(G^c)=0.00346 log10 B=-39.358129
+  l=16 (288,407,569] s=4 N_W=119 N=281 I=57 mu(G^c)=0.00346 log10 B=-60.272467
+  l=17 (407,569,804] s=5 N_W=162 N=397 I=80 mu(G^c)=0.0004071 log10 B=-88.569114
+  l=18 (569,804,1129] s=5 N_W=235 N=560 I=114 mu(G^c)=0.0006106 log10 B=-127.92884
+  l=19 (804,1129,1598] s=5 N_W=325 N=794 I=160 mu(G^c)=0.001018 log10 B=-182.05167
+  l=20 (1129,1598,2245] s=6 N_W=469 N=1116 I=231 mu(G^c)=8.381e-05 log10 B=-262.0105
+  l=21 (1598,2245,3181] s=6 N_W=647 N=1583 I=321 mu(G^c)=0.0001317 log10 B=-367.79564
+  l=22 (2245,3181,4473] s=6 N_W=936 N=2228 I=465 mu(G^c)=0.0001796 log10 B=-533.86518
+CHECK p=17: explicit part up to window l=22, b_(l-1)=3181: delta = 0.00935094167934; log Pi = 0.00839859350143
+CHECK p=17: far tail up to l=605 (l_*-k0 = 592): mu(G^c) part 3.592272e-05, sqrt(B) part 2.511e-319, remainder 6.169e-180
+CHECK p=17: Pi_A = 1.00843396062987; delta_A = 0.0093868644; c_p = 0.8080637756
+### wall: 4 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 19 3000
+### start: 2026-10-14T00:48:23Z
+# check_assemble p=19 BCUT=3000: q1-1=9.827636e-08 q2-1=4.633684e-04 q3=1.010750715
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 23, 31, 44, 59, 86, 116, 170, 230, 337, 360] (k0=15); log Pi_phase1 = 0.0162786057546
+  l=16 (337,360,397] s=4 N_W=23 N=60 I=10 mu(G^c)=0.00277 log10 B=-8.9441166
+  l=17 (360,397,457] s=4 N_W=37 N=97 I=16 mu(G^c)=0.00277 log10 B=-14.057118
+  l=18 (397,457,553] s=4 N_W=60 N=156 I=29 mu(G^c)=0.00277 log10 B=-33.240045
+  l=19 (457,553,707] s=5 N_W=96 N=250 I=48 mu(G^c)=0.0001458 log10 B=-57.531733
+  l=20 (553,707,954] s=5 N_W=154 N=401 I=76 mu(G^c)=0.0002916 log10 B=-88.21053
+  l=21 (707,954,1350] s=5 N_W=247 N=643 I=121 mu(G^c)=0.0004374 log10 B=-143.18122
+  l=22 (954,1350,1896] s=6 N_W=396 N=942 I=194 mu(G^c)=3.837e-05 log10 B=-230.1151
+  l=23 (1350,1896,2687] s=6 N_W=546 N=1337 I=269 mu(G^c)=5.371e-05 log10 B=-320.88364
+  l=24 (1896,2687,3777] s=6 N_W=791 N=1881 I=392 mu(G^c)=7.673e-05 log10 B=-469.18542
+  l=25 (2687,3777,5355] s=7 N_W=1090 N=2668 I=541 mu(G^c)=5.654e-06 log10 B=-649.44394
+CHECK p=19: explicit part up to window l=25, b_(l-1)=3777: delta = 0.00939329821489; log Pi = 0.0163124230247
+CHECK p=19: far tail up to l=607 (l_*-k0 = 593): mu(G^c) part 1.914231e-05, sqrt(B) part 3.084e-400, remainder 3.085e-180
+CHECK p=19: Pi_A = 1.01644619699982; delta_A = 0.009412440522; c_p = 0.8007730363
+### wall: 9 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 23 3000
+### start: 2026-10-14T00:48:32Z
+# check_assemble p=23 BCUT=3000: q1-1=5.423033e-09 q2-1=2.262841e-06 q3=1.001157882
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 23, 31, 45, 60, 87, 117, 171, 232, 340, 462, 528] (k0=16); log Pi_phase1 = 0.000100147708001
+  l=17 (462,528,634] s=4 N_W=66 N=172 I=32 mu(G^c)=0.00189 log10 B=-39.489541
+  l=18 (528,634,804] s=4 N_W=106 N=276 I=50 mu(G^c)=0.00189 log10 B=-58.553708
+  l=19 (634,804,1076] s=4 N_W=170 N=442 I=84 mu(G^c)=0.003781 log10 B=-106.21414
+  l=20 (804,1076,1512] s=5 N_W=272 N=708 I=136 mu(G^c)=0.0001644 log10 B=-172.93875
+  l=21 (1076,1512,2141] s=5 N_W=436 N=1065 I=217 mu(G^c)=0.0003288 log10 B=-277.7912
+  l=22 (1512,2141,3013] s=5 N_W=629 N=1501 I=312 mu(G^c)=0.0004109 log10 B=-401.70782
+  l=23 (2141,3013,4268] s=6 N_W=872 N=2127 I=436 mu(G^c)=2.859e-05 log10 B=-562.39106
+CHECK p=23: explicit part up to window l=23, b_(l-1)=3013: delta = 0.00849410915484; log Pi = 0.000100147708001
+CHECK p=23: far tail up to l=606 (l_*-k0 = 591): mu(G^c) part 9.337002e-05, sqrt(B) part 3.363e-343, remainder 1.234e-179
+CHECK p=23: Pi_A = 1.00010015272295; delta_A = 0.008587479178; c_p = 0.8231593116
+### wall: 7 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 29 3000
+### start: 2026-10-14T00:48:39Z
+# check_assemble p=29 BCUT=3000: q1-1=7.316304e-11 q2-1=7.861962e-08 q3=1.000007907
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 31, 47, 60, 91, 118, 180, 234, 358, 466, 714, 840] (k0=17); log Pi_phase1 = 4.19767206777e-6
+  l=18 (714,840,1042] s=4 N_W=126 N=328 I=62 mu(G^c)=0.001189 log10 B=-84.819077
+  l=19 (840,1042,1366] s=4 N_W=202 N=526 I=98 mu(G^c)=0.001189 log10 B=-131.61581
+  l=20 (1042,1366,1885] s=4 N_W=324 N=843 I=161 mu(G^c)=0.002378 log10 B=-223.74688
+  l=21 (1366,1885,2716] s=5 N_W=519 N=1350 I=259 mu(G^c)=0.000123 log10 B=-361.21229
+  l=22 (1885,2716,3760] s=5 N_W=831 N=1875 I=415 mu(G^c)=0.000164 log10 B=-582.03438
+  l=23 (2716,3760,5420] s=5 N_W=1044 N=2704 I=522 mu(G^c)=0.000246 log10 B=-732.66137
+CHECK p=29: explicit part up to window l=23, b_(l-1)=3760: delta = 0.00528926975276; log Pi = 4.19767206777e-6
+CHECK p=29: far tail up to l=605 (l_*-k0 = 589): mu(G^c) part 3.860831e-04, sqrt(B) part 2.38e-472, remainder 4.936e-179
+CHECK p=29: Pi_A = 1.00000419768088; delta_A = 0.005675352884; c_p = 0.8550015954
+### wall: 17 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 31 3000
+### start: 2026-10-14T00:48:56Z
+# check_assemble p=31 BCUT=3000: q1-1=7.455405e-11 q2-1=1.234945e-07 q3=1.000021458
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 31, 47, 61, 92, 119, 181, 235, 359, 467, 715, 932, 960] (k0=18); log Pi_phase1 = 7.54580276656e-6
+  l=19 (932,960,1005] s=4 N_W=28 N=73 I=13 mu(G^c)=0.001041 log10 B=-16.404968
+  l=20 (960,1005,1077] s=4 N_W=45 N=117 I=20 mu(G^c)=0.001041 log10 B=-22.370415
+  l=21 (1005,1077,1193] s=4 N_W=72 N=188 I=35 mu(G^c)=0.001041 log10 B=-49.214934
+  l=22 (1077,1193,1379] s=4 N_W=116 N=302 I=57 mu(G^c)=0.001041 log10 B=-80.533528
+  l=23 (1193,1379,1677] s=5 N_W=186 N=484 I=92 mu(G^c)=3.357e-05 log10 B=-131.23982
+  l=24 (1379,1677,2154] s=5 N_W=298 N=775 I=148 mu(G^c)=6.713e-05 log10 B=-208.79062
+  l=25 (1677,2154,2918] s=5 N_W=477 N=1241 I=239 mu(G^c)=0.0001007 log10 B=-341.52179
+  l=26 (2154,2918,4141] s=5 N_W=764 N=1987 I=382 mu(G^c)=0.0001343 log10 B=-547.3297
+  l=27 (2918,4141,5823] s=6 N_W=1223 N=2905 I=612 mu(G^c)=6.497e-06 log10 B=-878.41197
+CHECK p=31: explicit part up to window l=27, b_(l-1)=4141: delta = 0.00450450590708; log Pi = 7.55208288017e-6
+CHECK p=31: far tail up to l=609 (l_*-k0 = 592): mu(G^c) part 1.982700e-05, sqrt(B) part 5.877e-522, remainder 6.169e-180
+CHECK p=31: Pi_A = 1.0000075521114; delta_A = 0.004524332912; c_p = 0.8699909656
+### wall: 23 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 37 3000
+### start: 2026-10-14T00:49:19Z
+# check_assemble p=37 BCUT=3000: q1-1=8.928769e-14 q2-1=2.405417e-10 q3=1.000000504
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 33, 47, 63, 92, 123, 182, 244, 361, 485, 719, 968, 1368] (k0=18); log Pi_phase1 = 1.51160887268e-8
+  l=19 (968,1368,1930] s=4 N_W=400 N=962 I=199 mu(G^c)=0.0007305 log10 B=-301.09473
+  l=20 (1368,1930,2729] s=4 N_W=562 N=1361 I=279 mu(G^c)=0.0007305 log10 B=-418.70986
+  l=21 (1930,2729,3853] s=4 N_W=799 N=1923 I=399 mu(G^c)=0.001461 log10 B=-606.89407
+  l=22 (2729,3853,5450] s=4 N_W=1124 N=2721 I=560 mu(G^c)=0.002191 log10 B=-851.53354
+CHECK p=37: explicit part up to window l=22, b_(l-1)=3853: delta = 0.00511322132944; log Pi = 1.51160887268e-8
+CHECK p=37: far tail up to l=604 (l_*-k0 = 587): mu(G^c) part 3.665151e-04, sqrt(B) part 7.01e-516, remainder 1.974e-178
+CHECK p=37: Pi_A = 1.00000001511609; delta_A = 0.005479736452; c_p = 0.8574292385
+### wall: 30 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 41 3000
+### start: 2026-10-14T00:49:49Z
+# check_assemble p=41 BCUT=3000: q1-1=3.693196e-20 q2-1=6.986999e-12 q3=1.000000020
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 33, 47, 63, 92, 123, 182, 245, 362, 487, 721, 971, 1439, 1680] (k0=19); log Pi_phase1 = 5.24025027798e-10
+  l=20 (1439,1680,2066] s=3 N_W=241 N=627 I=119 mu(G^c)=0.02439 log10 B=-185.47014
+  l=21 (1680,2066,2684] s=4 N_W=386 N=1004 I=191 mu(G^c)=0.0005949 log10 B=-293.52666
+  l=22 (2066,2684,3673] s=4 N_W=618 N=1607 I=309 mu(G^c)=0.00119 log10 B=-483.83516
+  l=23 (2684,3673,5256] s=4 N_W=989 N=2572 I=494 mu(G^c)=0.001785 log10 B=-774.13625
+CHECK p=41: explicit part up to window l=23, b_(l-1)=3673: delta = 0.0279595478882; log Pi = 5.24025027798e-10
+CHECK p=41: far tail up to l=605 (l_*-k0 = 587): mu(G^c) part 3.098104e-04, sqrt(B) part 2.13e-514, remainder 1.974e-178
+CHECK p=41: Pi_A = 1.00000000052403; delta_A = 0.02826935829; c_p = 0.6919994764
+### wall: 30 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 43 3000
+### start: 2026-10-14T00:50:19Z
+# check_assemble p=43 BCUT=3000: q1-1=8.355892e-13 q2-1=8.755455e-13 q3=1.000000002
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 33, 47, 63, 92, 124, 182, 245, 362, 487, 722, 972, 1441, 1848] (k0=19); log Pi_phase1 = 2.74623609634e-9
+  l=20 (1441,1848,2500] s=3 N_W=407 N=1059 I=202 mu(G^c)=0.02326 log10 B=-320.15982
+  l=21 (1848,2500,3544] s=4 N_W=652 N=1696 I=324 mu(G^c)=0.0005408 log10 B=-509.64216
+  l=22 (2500,3544,4993] s=4 N_W=1044 N=2493 I=521 mu(G^c)=0.001082 log10 B=-828.16851
+CHECK p=43: explicit part up to window l=22, b_(l-1)=3544: delta = 0.0248783126014; log Pi = 2.74623609634e-9
+CHECK p=43: far tail up to l=604 (l_*-k0 = 586): mu(G^c) part 1.929785e-03, sqrt(B) part 4.926e-494, remainder 3.948e-178
+CHECK p=43: Pi_A = 1.00000000274624; delta_A = 0.02680809739; c_p = 0.6993445252
+### wall: 34 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 47 3000
+### start: 2026-10-14T00:50:53Z
+# check_assemble p=47 BCUT=3000: q1-1=3.538919e-21 q2-1=1.239917e-15 q3=1.000000000
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 33, 47, 63, 93, 124, 183, 245, 363, 488, 723, 974, 1444, 1945, 2208] (k0=20); log Pi_phase1 = 1.07887150671e-13
+  l=21 (1945,2208,2629] s=3 N_W=263 N=684 I=130 mu(G^c)=0.02128 log10 B=-210.68433
+  l=22 (2208,2629,3303] s=4 N_W=421 N=1095 I=208 mu(G^c)=0.0004527 log10 B=-332.74747
+  l=23 (2629,3303,4382] s=4 N_W=674 N=1753 I=336 mu(G^c)=0.0004527 log10 B=-546.776
+CHECK p=47: explicit part up to window l=23, b_(l-1)=3303: delta = 0.0221819827976; log Pi = 1.07887150671e-13
+CHECK p=47: far tail up to l=606 (l_*-k0 = 587): mu(G^c) part 2.467367e-03, sqrt(B) part 1.731e-440, remainder 1.974e-178
+CHECK p=47: Pi_A = 1.00000000000011; delta_A = 0.0246493497; c_p = 0.7106471223
+### wall: 24 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 53 3000
+### start: 2026-10-14T00:51:17Z
+# check_assemble p=53 BCUT=3000: q1-1=6.067573e-27 q2-1=1.174184e-16 q3=1.000000000
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 63, 95, 124, 187, 246, 371, 489, 741, 976, 1479, 1950, 2808] (k0=20); log Pi_phase1 = 1.03328216539e-14
+  l=21 (1950,2808,3895] s=3 N_W=858 N=1945 I=428 mu(G^c)=0.01887 log10 B=-722.47159
+  l=22 (2808,3895,5609] s=4 N_W=1087 N=2801 I=541 mu(G^c)=0.000356 log10 B=-906.96911
+CHECK p=53: explicit part up to window l=22, b_(l-1)=3895: delta = 0.0192239231043; log Pi = 1.03328216539e-14
+CHECK p=53: far tail up to l=604 (l_*-k0 = 585): mu(G^c) part 3.031418e-03, sqrt(B) part 1.052e-588, remainder 7.897e-178
+CHECK p=53: Pi_A = 1.00000000000001; delta_A = 0.02225534121; c_p = 0.723890858
+### wall: 70 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 59 3000
+### start: 2026-10-14T00:52:27Z
+# check_assemble p=59 BCUT=3000: q1-1=4.264303e-19 q2-1=1.978105e-18 q3=1.000000000
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 63, 95, 124, 187, 246, 372, 490, 742, 978, 1481, 1953, 2960, 3480] (k0=21); log Pi_phase1 = 2.91123367188e-15
+  l=22 (2960,3480,4312] s=3 N_W=520 N=1352 I=259 mu(G^c)=0.01695 log10 B=-449.79641
+CHECK p=59: explicit part up to window l=22, b_(l-1)=3480: delta = 0.0169491525424; log Pi = 2.91123367188e-15
+CHECK p=59: far tail up to l=605 (l_*-k0 = 585): mu(G^c) part 2.109773e-03, sqrt(B) part 8.794e-356, remainder 7.897e-178
+CHECK p=59: Pi_A = 1.0; delta_A = 0.01905892539; c_p = 0.7429507916
+### wall: 49 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 61 3000
+### start: 2026-10-14T00:53:16Z
+# check_assemble p=61 BCUT=3000: q1-1=2.811227e-24 q2-1=6.536066e-19 q3=1.000000000
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 63, 95, 124, 187, 246, 372, 490, 742, 978, 1482, 1954, 2962, 3720] (k0=21); log Pi_phase1 = 7.06079769357e-17
+  l=22 (2962,3720,4933] s=3 N_W=758 N=1971 I=378 mu(G^c)=0.01639 log10 B=-662.35737
+CHECK p=61: explicit part up to window l=22, b_(l-1)=3720: delta = 0.016393442623; log Pi = 7.06079769357e-17
+CHECK p=61: far tail up to l=605 (l_*-k0 = 585): mu(G^c) part 2.252806e-03, sqrt(B) part 2.127e-527, remainder 7.897e-178
+CHECK p=61: Pi_A = 1.0; delta_A = 0.01864624814; c_p = 0.7455437169
+### wall: 63 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 67 3000
+### start: 2026-10-14T00:54:19Z
+# check_assemble p=67 BCUT=3000: q1-1=2.303557e-28 q2-1=9.139612e-19 q3=1.000000000
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 95, 127, 188, 251, 373, 499, 743, 996, 1484, 1989, 2966, 3975, 4488] (k0=22); log Pi_phase1 = 1.14245146485e-16
+CHECK p=67: explicit part up to window l=22, b_(l-1)=3975: delta = 0.0; log Pi = 1.14245146485e-16
+CHECK p=67: far tail up to l=605 (l_*-k0 = 584): mu(G^c) part 1.658124e-02, sqrt(B) part 5.504e-229, remainder 1.579e-177
+CHECK p=67: Pi_A = 1.0; delta_A = 0.01658123956; c_p = 0.7590449154
+### wall: 76 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 71 3000
+### start: 2026-10-14T00:55:35Z
+# check_assemble p=71 BCUT=3000: q1-1=1.153476e-26 q2-1=1.112258e-22 q3=1.000000000
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 95, 127, 188, 251, 373, 499, 744, 996, 1486, 1990, 2969, 3978, 5040] (k0=22); log Pi_phase1 = 1.41169540253e-20
+CHECK p=71: explicit part up to window l=22, b_(l-1)=3978: delta = 0.0; log Pi = 1.41169540253e-20
+CHECK p=71: far tail up to l=604 (l_*-k0 = 583): mu(G^c) part 1.555513e-02, sqrt(B) part 6.631e-484, remainder 3.159e-177
+CHECK p=71: Pi_A = 1.0; delta_A = 0.01555513018; c_p = 0.766114715
+### wall: 96 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 73 3000
+### start: 2026-10-14T00:57:11Z
+# check_assemble p=73 BCUT=3000: q1-1=1.328414e-32 q2-1=2.865362e-24 q3=1.000000000
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 95, 127, 188, 251, 373, 500, 744, 997, 1486, 1991, 2970, 3980, 5328] (k0=22); log Pi_phase1 = 3.61035724087e-22
+CHECK p=73: explicit part up to window l=22, b_(l-1)=3980: delta = 0.0; log Pi = 3.61035724087e-22
+CHECK p=73: far tail up to l=604 (l_*-k0 = 583): mu(G^c) part 1.564280e-02, sqrt(B) part 2.248e-605, remainder 3.159e-177
+CHECK p=73: Pi_A = 1.0; delta_A = 0.01564279702; c_p = 0.7655004614
+### wall: 119 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 79 3000
+### start: 2026-10-14T00:59:10Z
+# check_assemble p=79 BCUT=3000: q1-1=3.227389e-31 q2-1=9.462912e-27 q3=1.000000000
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 95, 127, 188, 251, 374, 500, 745, 998, 1488, 1993, 2973, 3984, 5943, 6240] (k0=23); log Pi_phase1 = 1.45170614437e-24
+CHECK p=79: explicit part up to window l=23, b_(l-1)=5943: delta = 0.0; log Pi = 1.45170614437e-24
+CHECK p=79: far tail up to l=604 (l_*-k0 = 582): mu(G^c) part 1.431373e-02, sqrt(B) part 2.349e-137, remainder 6.317e-177
+CHECK p=79: Pi_A = 1.0; delta_A = 0.01431372644; c_p = 0.7750337528
+### wall: 204 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 83 3000
+### start: 2026-10-14T01:02:34Z
+# check_assemble p=83 BCUT=3000: q1-1=5.912174e-36 q2-1=1.214599e-25 q3=1.000000000
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 95, 127, 188, 251, 374, 500, 746, 998, 1489, 1994, 2975, 3986, 5947, 6888] (k0=23); log Pi_phase1 = 1.85833590142e-23
+CHECK p=83: explicit part up to window l=23, b_(l-1)=5947: delta = 0.0; log Pi = 1.85833590142e-23
+CHECK p=83: far tail up to l=604 (l_*-k0 = 582): mu(G^c) part 2.544857e-02, sqrt(B) part 4.931e-444, remainder 6.317e-177
+CHECK p=83: Pi_A = 1.0; delta_A = 0.02544857446; c_p = 0.7063963878
+### wall: 267 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 89 3000
+### start: 2026-10-14T01:07:01Z
+# check_assemble p=89 BCUT=3000: q1-1=1.961950e-40 q2-1=1.442850e-30 q3=1.000000000
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 95, 127, 188, 252, 374, 501, 746, 999, 1490, 1996, 2977, 3990, 5952, 7920] (k0=23); log Pi_phase1 = 2.22198961988e-28
+CHECK p=89: explicit part up to window l=23, b_(l-1)=5952: delta = 0.0; log Pi = 2.22198961988e-28
+CHECK p=89: far tail up to l=603 (l_*-k0 = 581): mu(G^c) part 2.366111e-02, sqrt(B) part 3.73e-947, remainder 1.263e-176
+CHECK p=89: Pi_A = 1.0; delta_A = 0.02366110847; c_p = 0.7160177535
+### wall: 312 s
+### command: timeout 1700 python3 code/round4/M4C/check_assemble.py 97 3000
+### start: 2026-10-14T01:12:13Z
+# check_assemble p=97 BCUT=3000: q1-1=2.093613e-43 q2-1=4.069334e-34 q3=1.000000000
+phase 1 schedule [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 96, 127, 189, 252, 375, 501, 747, 1000, 1491, 1998, 2980, 3993, 5957, 7984, 9408] (k0=24); log Pi_phase1 = 7.24341531975e-32
+CHECK p=97: explicit part up to window l=24, b_(l-1)=7984: delta = 0.0; log Pi = 7.24341531975e-32
+CHECK p=97: far tail up to l=604 (l_*-k0 = 581): mu(G^c) part 2.161590e-02, sqrt(B) part 4.464e-699, remainder 1.263e-176
+CHECK p=97: Pi_A = 1.0; delta_A = 0.02161589738; c_p = 0.7275689801
+### wall: 423 s

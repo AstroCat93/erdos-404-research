@@ -1,0 +1,77 @@
+### command: python3 b2_t1_lemmaB2a.py 24 16
+### start (UTC): 2026-10-14T00:36:38Z
+proof inequalities (k*=2..60): tail<=bound<1/k*!  checked; fails so far 0
+d= 1: 3^d=3  eps-form solutions=1 OK; A0-form solutions=1 OK
+d= 2: 3^d=9  eps-form solutions=3 OK; A0-form solutions=3 OK
+d= 3: 3^d=27  eps-form solutions=3 OK; A0-form solutions=3 OK
+d= 4: 3^d=81  eps-form solutions=3 OK; A0-form solutions=3 OK
+d= 5: 3^d=243  eps-form solutions=3 OK; A0-form solutions=3 OK
+d= 6: 3^d=729  eps-form solutions=3 OK; A0-form solutions=3 OK
+d= 7: 3^d=2187  eps-form solutions=3 OK; A0-form solutions=3 OK
+d= 8: 3^d=6561  eps-form solutions=3 OK; A0-form solutions=3 OK
+d= 9: 3^d=19683  eps-form solutions=3 OK; A0-form solutions=3 OK
+d=10: 3^d=59049  eps-form solutions=3 OK; A0-form solutions=3 OK
+d=11: 3^d=177147  eps-form solutions=3 OK; A0-form solutions=3 OK
+d=12: 3^d=531441  eps-form solutions=3 OK; A0-form solutions=3 OK
+d=13: 3^d=1594323  eps-form solutions=3 OK; A0-form solutions=3 OK
+d=14: 3^d=4782969  eps-form solutions=3 OK; A0-form solutions=3 OK
+d=15: 3^d=14348907  eps-form solutions=3 OK; A0-form solutions=3 OK
+d=16: 3^d=43046721  eps-form solutions=3 OK; A0-form solutions=3 OK
+d=17: 3^d=129140163  eps-form solutions=3 OK; A0-form solutions=3 OK
+d=18: 3^d=387420489  eps-form solutions=3 OK; A0-form solutions=3 OK
+d=19: 3^d=1162261467  eps-form solutions=3 OK; A0-form solutions=3 OK
+d=20: 3^d=3486784401  eps-form solutions=3 OK; A0-form solutions=3 OK
+d=21: 3^d=10460353203  eps-form solutions=3 OK; A0-form solutions=3 OK
+d=22: 3^d=31381059609  eps-form solutions=3 OK; A0-form solutions=3 OK
+d=23: 3^d=94143178827  eps-form solutions=3 OK; A0-form solutions=3 OK
+d=24: 3^d=282429536481  eps-form solutions=3 OK; A0-form solutions=3 OK
+
+# sharpness of p^s > e(d-1)!: least s with only the trivial solutions of A_0 == 0 mod p^s
+p=3 d= 2: s_hyp=1 least s with 3 solutions=1  [s=1:3]
+p=3 d= 3: s_hyp=2 least s with 3 solutions=2  [s=1:9 s=2:3]
+p=3 d= 4: s_hyp=3 least s with 3 solutions=3  [s=1:27 s=2:9 s=3:3]
+p=3 d= 5: s_hyp=4 least s with 3 solutions=4  [s=1:81 s=2:27 s=3:7 s=4:3]
+p=3 d= 6: s_hyp=6 least s with 3 solutions=5  [s=1:243 s=2:81 s=3:31 s=4:15 s=5:3 s=6:3]
+p=3 d= 7: s_hyp=7 least s with 3 solutions=6  [s=1:729 s=2:243 s=3:81 s=4:31 s=5:15 s=6:3 s=7:3]
+p=3 d= 8: s_hyp=9 least s with 3 solutions=8  [s=1:2187 s=2:729 s=3:243 s=4:79 s=5:35 s=6:11 s=7:7 s=8:3 s=9:3]
+p=3 d= 9: s_hyp=11 least s with 3 solutions=8  [s=1:6561 s=2:2187 s=3:729 s=4:245 s=5:105 s=6:25 s=7:9 s=8:3 s=9:3 s=10:3 s=11:3]
+p=3 d=10: s_hyp=13 least s with 3 solutions=10  [s=1:19683 s=2:19683 s=3:6561 s=4:2187 s=5:729 s=6:245 s=7:105 s=8:25 s=9:9 s=10:3 s=11:3 s=12:3 s=13:3]
+p=3 d=11: s_hyp=15 least s with 3 solutions=11  [s=1:59049 s=2:59049 s=3:19683 s=4:6561 s=5:2187 s=6:739 s=7:289 s=8:93 s=9:23 s=10:5 s=11:3 s=12:3 s=13:3 s=14:3 s=15:3]
+p=3 d=12: s_hyp=17 least s with 3 solutions=11  [s=1:177147 s=2:59049 s=3:19683 s=4:6561 s=5:2187 s=6:739 s=7:289 s=8:93 s=9:23 s=10:5 s=11:3 s=12:3 s=13:3 s=14:3 s=15:3 s=16:3 s=17:3]
+p=3 d=13: s_hyp=20 least s with 3 solutions=12  [s=1:531441 s=2:177147 s=3:59049 s=4:19683 s=5:6561 s=6:2187 s=7:739 s=8:289 s=9:93 s=10:23 s=11:5 s=12:3 s=13:3 s=14:3 s=15:3 s=16:3 s=17:3 s=18:3 s=19:3 s=20:3]
+p=3 d=14: s_hyp=22 least s with 3 solutions=12  [s=1:1594323 s=2:531441 s=3:137781 s=4:45927 s=5:15309 s=6:5103 s=7:1717 s=8:529 s=9:185 s=10:63 s=11:9 s=12:3 s=13:3 s=14:3 s=15:3 s=16:3 s=17:3 s=18:3 s=19:3 s=20:3 s=21:3 s=22:3]
+p=3 d=15: s_hyp=24 least s with 3 solutions=13  [s=1:4782969 s=2:1594323 s=3:373977 s=4:124659 s=5:41553 s=6:13851 s=7:4629 s=8:1407 s=9:511 s=10:193 s=11:31 s=12:23 s=13:3 s=14:3 s=15:3 s=16:3 s=17:3 s=18:3 s=19:3 s=20:3 s=21:3 s=22:3 s=23:3 s=24:3]
+p=3 d=16: s_hyp=27 least s with 3 solutions=14  [s=1:14348907 s=2:4782969 s=3:1594323 s=4:373977 s=5:124659 s=6:41553 s=7:13851 s=8:4629 s=9:1407 s=10:511 s=11:193 s=12:31 s=13:23 s=14:3 s=15:3 s=16:3 s=17:3 s=18:3 s=19:3 s=20:3 s=21:3 s=22:3 s=23:3 s=24:3 s=25:3 s=26:3 s=27:3]
+p=5 d= 2: s_hyp=1 least s with 3 solutions=1  [s=1:3]
+p=5 d= 3: s_hyp=2 least s with 3 solutions=2  [s=1:5 s=2:3]
+p=5 d= 4: s_hyp=2 least s with 3 solutions=2  [s=1:15 s=2:3]
+p=5 d= 5: s_hyp=3 least s with 3 solutions=3  [s=1:47 s=2:7 s=3:3]
+p=5 d= 6: s_hyp=4 least s with 3 solutions=4  [s=1:243 s=2:47 s=3:7 s=4:3]
+p=5 d= 7: s_hyp=5 least s with 3 solutions=5  [s=1:729 s=2:143 s=3:21 s=4:7 s=5:3]
+p=5 d= 8: s_hyp=6 least s with 3 solutions=5  [s=1:1215 s=2:237 s=3:35 s=4:7 s=5:3 s=6:3]
+p=5 d= 9: s_hyp=8 least s with 3 solutions=5  [s=1:3645 s=2:729 s=3:123 s=4:15 s=5:3 s=6:3 s=7:3 s=8:3]
+p=5 d=10: s_hyp=9 least s with 3 solutions=7  [s=1:11421 s=2:2287 s=3:429 s=4:65 s=5:15 s=6:9 s=7:3 s=8:3 s=9:3]
+p=5 d=11: s_hyp=11 least s with 3 solutions=8  [s=1:59049 s=2:11421 s=3:2287 s=4:429 s=5:65 s=6:15 s=7:9 s=8:3 s=9:3 s=10:3 s=11:3]
+p=5 d=12: s_hyp=12 least s with 3 solutions=8  [s=1:177147 s=2:34749 s=3:6945 s=4:1255 s=5:239 s=6:53 s=7:9 s=8:3 s=9:3 s=10:3 s=11:3 s=12:3]
+p=5 d=13: s_hyp=14 least s with 3 solutions=8  [s=1:295245 s=2:58077 s=3:11605 s=4:2261 s=5:447 s=6:91 s=7:9 s=8:3 s=9:3 s=10:3 s=11:3 s=12:3 s=13:3 s=14:3]
+p=5 d=14: s_hyp=15 least s with 3 solutions=10  [s=1:885735 s=2:177633 s=3:35515 s=4:7093 s=5:1415 s=6:303 s=7:39 s=8:5 s=9:5 s=10:3 s=11:3 s=12:3 s=13:3 s=14:3 s=15:3]
+p=5 d=15: s_hyp=17 least s with 3 solutions=10  [s=1:2775303 s=2:555741 s=3:111159 s=4:22213 s=5:4427 s=6:859 s=7:95 s=8:15 s=9:5 s=10:3 s=11:3 s=12:3 s=13:3 s=14:3 s=15:3 s=16:3 s=17:3]
+p=5 d=16: s_hyp=18 least s with 3 solutions=11  [s=1:14348907 s=2:2775303 s=3:555741 s=4:111159 s=5:22213 s=6:4427 s=7:859 s=8:95 s=9:15 s=10:5 s=11:3 s=12:3 s=13:3 s=14:3 s=15:3 s=16:3 s=17:3 s=18:3]
+p=7 d= 2: s_hyp=1 least s with 3 solutions=1  [s=1:3]
+p=7 d= 3: s_hyp=1 least s with 3 solutions=1  [s=1:3]
+p=7 d= 4: s_hyp=2 least s with 3 solutions=2  [s=1:9 s=2:3]
+p=7 d= 5: s_hyp=3 least s with 3 solutions=3  [s=1:33 s=2:5 s=3:3]
+p=7 d= 6: s_hyp=3 least s with 3 solutions=3  [s=1:101 s=2:13 s=3:3]
+p=7 d= 7: s_hyp=4 least s with 3 solutions=4  [s=1:305 s=2:45 s=3:5 s=4:3]
+p=7 d= 8: s_hyp=5 least s with 3 solutions=5  [s=1:2187 s=2:305 s=3:45 s=4:5 s=5:3]
+p=7 d= 9: s_hyp=6 least s with 3 solutions=5  [s=1:6561 s=2:921 s=3:125 s=4:7 s=5:3 s=6:3]
+p=7 d=10: s_hyp=8 least s with 3 solutions=5  [s=1:6561 s=2:921 s=3:125 s=4:7 s=5:3 s=6:3 s=7:3 s=8:3]
+p=7 d=11: s_hyp=9 least s with 3 solutions=6  [s=1:19683 s=2:2793 s=3:385 s=4:45 s=5:31 s=6:3 s=7:3 s=8:3 s=9:3]
+p=7 d=12: s_hyp=10 least s with 3 solutions=6  [s=1:72171 s=2:10253 s=3:1463 s=4:175 s=5:47 s=6:3 s=7:3 s=8:3 s=9:3 s=10:3]
+p=7 d=13: s_hyp=11 least s with 3 solutions=6  [s=1:220887 s=2:31589 s=3:4515 s=4:605 s=5:75 s=6:3 s=7:3 s=8:3 s=9:3 s=10:3 s=11:3]
+p=7 d=14: s_hyp=13 least s with 3 solutions=8  [s=1:667035 s=2:95363 s=3:13643 s=4:1969 s=5:277 s=6:41 s=7:11 s=8:3 s=9:3 s=10:3 s=11:3 s=12:3 s=13:3]
+p=7 d=15: s_hyp=14 least s with 3 solutions=9  [s=1:4782969 s=2:667035 s=3:95363 s=4:13643 s=5:1969 s=6:277 s=7:41 s=8:11 s=9:3 s=10:3 s=11:3 s=12:3 s=13:3 s=14:3]
+p=7 d=16: s_hyp=15 least s with 3 solutions=9  [s=1:14348907 s=2:2014227 s=3:287673 s=4:41135 s=5:5861 s=6:901 s=7:159 s=8:29 s=9:3 s=10:3 s=11:3 s=12:3 s=13:3 s=14:3 s=15:3]
+RESULT lemmaB2a: failures 0
+### exit: 0
+### wall: 11 s

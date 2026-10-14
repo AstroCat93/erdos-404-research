@@ -1,0 +1,395 @@
+### command: python3 b2p_identity.py 7 11 6 21 4 24 8 30 1,2,3,4 2 1
+### start (UTC): 2026-10-14T00:26:29Z
+p=7 n=21 N=25 N'=49 d=1 s=1: 6 samples (tries 7); last: g=1 D=1 K=4 eps=0.0505247 eps_post=0.0144356 Delta=0.00835231
+p=7 n=21 N=25 N'=49 d=1 s=2: 6 samples (tries 7); last: g=2 D=2 K=5 eps=0.36516 eps_post=0.0149045 Delta=0.00874089
+p=7 n=21 N=25 N'=49 d=1 s=3: 6 samples (tries 6); last: g=3 D=3 K=6 eps=2.55544 eps_post=0.0149005 Delta=0.00874329
+p=7 n=21 N=25 N'=49 d=2 s=1: 6 samples (tries 9); last: g=1 D=1 K=4 eps=0.0332685 eps_post=0.0147755 Delta=0.00847008
+p=7 n=21 N=25 N'=49 d=2 s=2: 6 samples (tries 7); last: g=2 D=2 K=5 eps=0.236971 eps_post=0.0149512 Delta=0.00878673
+p=7 n=21 N=25 N'=49 d=2 s=3: 6 samples (tries 6); last: g=3 D=3 K=6 eps=1.65259 eps_post=0.0149005 Delta=0.00874329
+p=7 n=21 N=25 N'=49 d=3 s=1: 6 samples (tries 7); last: g=1 D=1 K=5 eps=0.0206022 eps_post=0.018756 Delta=0.00957873
+p=7 n=21 N=25 N'=49 d=3 s=2: 6 samples (tries 7); last: g=2 D=2 K=5 eps=0.118158 eps_post=0.0149171 Delta=0.00874804
+p=7 n=21 N=25 N'=49 d=3 s=3: 6 samples (tries 8); last: g=3 D=3 K=6 eps=0.826295 eps_post=0.0149005 Delta=0.00874329
+p=7 n=21 N=25 N'=49 d=4 s=1 SUB: 6 samples (tries 6); last: g=1 D=1 K=4 eps=0.0130783 eps_post=0.0147761 Delta=0.00846808
+p=7 n=21 N=25 N'=49 d=4 s=2: 6 samples (tries 6); last: g=2 D=2 K=5 eps=0.0590791 eps_post=0.0149171 Delta=0.00874804
+p=7 n=21 N=25 N'=49 d=4 s=3: 6 samples (tries 6); last: g=3 D=3 K=6 eps=0.413148 eps_post=0.0149005 Delta=0.00874329
+p=7 n=21 N=25 N'=49 d=4 s=4: 6 samples (tries 6); last: g=4 D=4 K=7 eps=2.89203 eps_post=0.0149005 Delta=0.00874329
+--- summary (key: [checks, failures]) ---
+  NEGd1_differs: 18
+  NEGd1_tot: 18
+  SUB:B2.2: [6, 0]
+  SUB:Delta even: [6, 0]
+  SUB:a: [6, 0]
+  SUB:b_coll: [6, 6]
+  SUB:b_p0K: [6, 0]
+  SUB:b_set: [6, 6]
+  SUB:b_vpair: [6, 3]
+  SUB:c_bounds: [6, 3]
+  SUB:c_identity: [6, 6]
+  SUB:gloss: [6, 0]
+  SUB:|Delta|<=eps_post: [6, 0]
+  SUB_n: 6
+  hyp:B2.2: [72, 0]
+  hyp:Delta even: [72, 0]
+  hyp:a: [72, 0]
+  hyp:b_coll: [72, 0]
+  hyp:b_p0K: [72, 0]
+  hyp:b_set: [72, 0]
+  hyp:b_vpair: [72, 0]
+  hyp:c_bounds: [72, 0]
+  hyp:c_identity: [72, 0]
+  hyp:gloss: [54, 0]
+  hyp:|Delta|<=eps_post: [72, 0]
+  hyp_n: 72
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=1: n=18 min=1.0000 max=1.0000 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=2: n=18 min=1.2081 max=1.2938 distinct=12
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=3: n=18 min=1.2292 max=1.2946 distinct=11
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=4: n=18 min=1.2927 max=1.2946 distinct=5
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=4: n=6 min=0.5720 max=2.2039 distinct=6
+RESULT p=7 n=21 H=4 H2=24: 72 cases under the hypothesis, failures 0; SUB cases 6; NEGd1 (d>=2 formula used at d=1) differs from eps in 18/18
+### exit: 0   wall: 0.89 s
+
+### command: python3 b2p_identity.py 7 12 5 14 12 12 8 30 1,2,3,5,6,12 2 1
+### start (UTC): 2026-10-14T00:26:29Z
+p=7 n=14 N=26 N'=38 d=1 s=1: 5 samples (tries 5); last: g=1 D=3 K=5 eps=0.0274722 eps_post=0.00784919 Delta=-0.00172929
+p=7 n=14 N=26 N'=38 d=1 s=2: 5 samples (tries 7); last: g=2 D=3 K=5 eps=0.0176344 eps_post=0.000719771 Delta=0.000538176
+p=7 n=14 N=26 N'=38 d=1 s=3: 5 samples (tries 6); last: g=3 D=4 K=6 eps=0.106042 eps_post=0.000618323 Delta=0.000442504
+p=7 n=14 N=26 N'=38 d=2 s=1: 5 samples (tries 5); last: g=1 D=2 K=5 eps=0.0248907 eps_post=0.0123877 Delta=0.00367107
+p=7 n=14 N=26 N'=38 d=2 s=2: 5 samples (tries 5); last: g=2 D=3 K=5 eps=0.0103186 eps_post=0.000622281 Delta=0.000440109
+p=7 n=14 N=26 N'=38 d=2 s=3: 5 samples (tries 7); last: g=3 D=4 K=6 eps=0.0719936 eps_post=0.000618323 Delta=0.000442504
+p=7 n=14 N=26 N'=38 d=3 s=1: 5 samples (tries 7); last: g=1 D=2 K=5 eps=0.00177591 eps_post=0.00182845 Delta=0.000402327
+p=7 n=14 N=26 N'=38 d=3 s=2: 5 samples (tries 6); last: g=2 D=3 K=5 eps=0.00516188 eps_post=0.000628473 Delta=0.000428564
+p=7 n=14 N=26 N'=38 d=3 s=3: 5 samples (tries 5); last: g=3 D=4 K=6 eps=0.0359968 eps_post=0.000618323 Delta=0.000442504
+p=7 n=14 N=26 N'=38 d=5 s=1 SUB: 5 samples (tries 6); last: g=1 D=2 K=3 eps=0.000277512 eps_post=0.00050626 Delta=1.81496e-05
+p=7 n=14 N=26 N'=38 d=5 s=2 SUB: 5 samples (tries 5); last: g=2 D=3 K=4 eps=0.00132789 eps_post=0.000609212 Delta=0.000435252
+p=7 n=14 N=26 N'=38 d=5 s=3: 5 samples (tries 5); last: g=3 D=4 K=5 eps=0.00886266 eps_post=0.000609212 Delta=0.000435252
+p=7 n=14 N=26 N'=38 d=5 s=4: 5 samples (tries 5); last: g=4 D=5 K=6 eps=0.0620387 eps_post=0.000609212 Delta=0.000435252
+p=7 n=14 N=26 N'=38 d=5 s=5: 5 samples (tries 6); last: g=5 D=6 K=7 eps=0.434271 eps_post=0.000609212 Delta=0.000435252
+p=7 n=14 N=26 N'=38 d=6 s=1 SUB: 5 samples (tries 8); last: g=1 D=1 K=4 eps=0.00312239 eps_post=0.0191377 Delta=0.00580153
+p=7 n=14 N=26 N'=38 d=6 s=2 SUB: 5 samples (tries 5); last: g=2 D=2 K=4 eps=0.0125003 eps_post=0.0148914 Delta=0.00873603
+p=7 n=14 N=26 N'=38 d=6 s=3: 5 samples (tries 5); last: g=3 D=3 K=5 eps=0.103219 eps_post=0.0148914 Delta=0.00873603
+p=7 n=14 N=26 N'=38 d=6 s=4: 5 samples (tries 5); last: g=4 D=4 K=6 eps=0.72253 eps_post=0.0148914 Delta=0.00873603
+p=7 n=14 N=26 N'=38 d=6 s=5: 5 samples (tries 5); last: g=5 D=5 K=7 eps=5.05771 eps_post=0.0148914 Delta=0.00873603
+p=7 n=14 N=26 N'=38 d=12 s=8 SUB: 0 samples (tries 400)
+p=7 n=14 N=26 N'=38 d=12 s=9 SUB: 0 samples (tries 400)
+p=7 n=14 N=26 N'=38 d=12 s=10: 0 samples (tries 400)
+p=7 n=14 N=26 N'=38 d=12 s=11: 0 samples (tries 400)
+p=7 n=14 N=26 N'=38 d=12 s=12: 0 samples (tries 400)
+--- summary (key: [checks, failures]) ---
+  NEGd1_differs: 15
+  NEGd1_tot: 15
+  SUB:B2.2: [20, 0]
+  SUB:Delta even: [20, 0]
+  SUB:a: [20, 0]
+  SUB:b_coll: [20, 20]
+  SUB:b_p0K: [20, 2]
+  SUB:b_set: [20, 20]
+  SUB:b_vpair: [20, 13]
+  SUB:c_bounds: [20, 3]
+  SUB:c_identity: [20, 20]
+  SUB:gloss: [20, 0]
+  SUB:|Delta|<=eps_post: [20, 0]
+  SUB_n: 20
+  hyp:B2.2: [75, 0]
+  hyp:Delta even: [75, 0]
+  hyp:a: [75, 0]
+  hyp:b_coll: [75, 0]
+  hyp:b_p0K: [75, 0]
+  hyp:b_set: [75, 0]
+  hyp:b_vpair: [75, 0]
+  hyp:c_bounds: [75, 0]
+  hyp:c_identity: [75, 0]
+  hyp:gloss: [60, 0]
+  hyp:|Delta|<=eps_post: [75, 0]
+  hyp_n: 75
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=1: n=15 min=1.0000 max=1.0000 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=2: n=15 min=0.8860 max=1.3739 distinct=10
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=3: n=15 min=1.0032 max=1.3632 distinct=9
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=5: n=15 min=1.3572 max=1.3572 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=6: n=15 min=1.2933 max=1.2933 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=5: n=10 min=0.7194 max=2.5059 distinct=9
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=6: n=10 min=0.3151 max=1.4924 distinct=9
+RESULT p=7 n=14 H=12 H2=12: 75 cases under the hypothesis, failures 0; SUB cases 20; NEGd1 (d>=2 formula used at d=1) differs from eps in 15/15
+### exit: 0   wall: 0.87 s
+
+### command: python3 b2p_identity.py 7 13 4 14 9 7 8 30 7,8,9 1 1
+### start (UTC): 2026-10-14T00:26:30Z
+p=7 n=14 N=23 N'=30 d=7 s=2 SUB: 4 samples (tries 4); last: g=2 D=2 K=3 eps=0.00720592 eps_post=0.0142822 Delta=0.00830078
+p=7 n=14 N=23 N'=30 d=7 s=3 SUB: 4 samples (tries 6); last: g=3 D=3 K=4 eps=0.0489004 eps_post=0.0142822 Delta=0.00830078
+p=7 n=14 N=23 N'=30 d=7 s=4: 4 samples (tries 4); last: g=4 D=4 K=5 eps=0.345756 eps_post=0.0142822 Delta=0.00830078
+p=7 n=14 N=23 N'=30 d=7 s=5: 4 samples (tries 5); last: g=5 D=5 K=6 eps=2.42029 eps_post=0.0142822 Delta=0.00830078
+p=7 n=14 N=23 N'=30 d=8 s=3 SUB: 4 samples (tries 4); last: g=4 D=4 K=5 eps=0.174094 eps_post=0.0142822 Delta=0.00830078
+p=7 n=14 N=23 N'=30 d=8 s=4 SUB: 4 samples (tries 6); last: g=5 D=5 K=6 eps=1.21014 eps_post=0.0142822 Delta=0.00830078
+p=7 n=14 N=23 N'=30 d=8 s=5: 4 samples (tries 4); last: g=6 D=6 K=7 eps=8.47101 eps_post=0.0142822 Delta=0.00830078
+p=7 n=14 N=23 N'=30 d=8 s=6: 4 samples (tries 5); last: g=7 D=7 K=8 eps=59.2971 eps_post=0.0142822 Delta=0.00830078
+p=7 n=14 N=23 N'=30 d=9 s=4 SUB: 4 samples (tries 6); last: g=5 D=5 K=6 eps=0.605072 eps_post=0.0142822 Delta=0.00830078
+p=7 n=14 N=23 N'=30 d=9 s=5 SUB: 4 samples (tries 5); last: g=6 D=6 K=7 eps=4.23551 eps_post=0.0142822 Delta=0.00830078
+p=7 n=14 N=23 N'=30 d=9 s=6: 4 samples (tries 5); last: g=7 D=7 K=8 eps=29.6485 eps_post=0.0142822 Delta=0.00830078
+p=7 n=14 N=23 N'=30 d=9 s=7: 0 samples (tries 400)
+--- summary (key: [checks, failures]) ---
+  NEGd1_differs: 0
+  NEGd1_tot: 0
+  SUB:B2.2: [24, 0]
+  SUB:Delta even: [24, 0]
+  SUB:a: [24, 0]
+  SUB:b_coll: [24, 12]
+  SUB:b_p0K: [24, 6]
+  SUB:b_set: [24, 12]
+  SUB:b_vpair: [24, 6]
+  SUB:c_bounds: [24, 0]
+  SUB:c_identity: [24, 12]
+  SUB:gloss: [24, 0]
+  SUB:|Delta|<=eps_post: [24, 0]
+  SUB_n: 24
+  hyp:B2.2: [20, 0]
+  hyp:Delta even: [20, 0]
+  hyp:a: [20, 0]
+  hyp:b_coll: [20, 0]
+  hyp:b_p0K: [20, 0]
+  hyp:b_set: [20, 0]
+  hyp:b_vpair: [20, 0]
+  hyp:c_bounds: [20, 0]
+  hyp:c_identity: [20, 0]
+  hyp:gloss: [20, 0]
+  hyp:|Delta|<=eps_post: [20, 0]
+  hyp_n: 20
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=7: n=8 min=1.2906 max=1.2906 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=8: n=8 min=1.2906 max=1.2906 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=9: n=4 min=1.2906 max=1.2906 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=7: n=8 min=1.2777 max=1.3858 distinct=5
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=8: n=8 min=1.2866 max=1.3062 distinct=4
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=9: n=8 min=1.2906 max=1.2906 distinct=1
+RESULT p=7 n=14 H=9 H2=7: 20 cases under the hypothesis, failures 0; SUB cases 24; NEGd1 (d>=2 formula used at d=1) differs from eps in 0/0
+### exit: 0   wall: 4.52 s
+
+### command: python3 b2p_identity.py 7 14 4 21 3 3 8 30 1,2,3 1 0
+### start (UTC): 2026-10-14T00:26:35Z
+p=7 n=21 N=24 N'=27 d=1 s=1: 4 samples (tries 5); last: g=1 D=1 K=1 eps=0 eps_post=0 Delta=0
+p=7 n=21 N=24 N'=27 d=1 s=2: 4 samples (tries 4); last: g=2 D=2 K=2 eps=0 eps_post=0 Delta=0
+p=7 n=21 N=24 N'=27 d=2 s=1: 4 samples (tries 4); last: g=1 D=1 K=1 eps=0 eps_post=0 Delta=0
+p=7 n=21 N=24 N'=27 d=2 s=2: 4 samples (tries 4); last: g=2 D=2 K=2 eps=0 eps_post=0 Delta=0
+p=7 n=21 N=24 N'=27 d=3 s=1: 4 samples (tries 4); last: g=1 D=1 K=1 eps=0 eps_post=0 Delta=0
+p=7 n=21 N=24 N'=27 d=3 s=2: 4 samples (tries 5); last: g=2 D=2 K=2 eps=0 eps_post=0 Delta=0
+--- summary (key: [checks, failures]) ---
+  NEGd1_differs: 0
+  NEGd1_tot: 0
+  SUB_n: 0
+  hyp:a: [24, 0]
+  hyp:b_coll: [24, 0]
+  hyp:b_p0K: [24, 0]
+  hyp:b_set: [24, 0]
+  hyp:b_vpair: [24, 0]
+  hyp:c_bounds: [24, 0]
+  hyp:c_identity: [24, 0]
+  hyp:gloss: [16, 0]
+  hyp_n: 24
+RESULT p=7 n=21 H=3 H2=3: 24 cases under the hypothesis, failures 0; SUB cases 0; NEGd1 (d>=2 formula used at d=1) differs from eps in 0/0
+### exit: 0   wall: 0.18 s
+
+### command: python3 b2p_identity.py 5 21 5 15 8 14 9 30 1,2,3,4,5,6,7,8 2 1
+### start (UTC): 2026-10-14T00:26:35Z
+p=5 n=15 N=23 N'=37 d=1 s=1: 5 samples (tries 5); last: g=1 D=2 K=7 eps=0.40604 eps_post=0.162416 Delta=-0.00443517
+p=5 n=15 N=23 N'=37 d=1 s=2: 5 samples (tries 8); last: g=2 D=3 K=6 eps=0.277712 eps_post=0.022217 Delta=0.0191291
+p=5 n=15 N=23 N'=37 d=1 s=3: 5 samples (tries 9); last: g=3 D=4 K=7 eps=1.35481 eps_post=0.0216769 Delta=0.0187907
+p=5 n=15 N=23 N'=37 d=2 s=1: 5 samples (tries 7); last: g=1 D=2 K=6 eps=0.0214792 eps_post=0.016414 Delta=0.00153885
+p=5 n=15 N=23 N'=37 d=2 s=2: 5 samples (tries 6); last: g=2 D=3 K=6 eps=0.199265 eps_post=0.0221822 Delta=0.0194003
+p=5 n=15 N=23 N'=37 d=2 s=3: 5 samples (tries 6); last: g=3 D=4 K=7 eps=0.969646 eps_post=0.0216475 Delta=0.0187623
+p=5 n=15 N=23 N'=37 d=3 s=1 SUB: 5 samples (tries 6); last: g=1 D=3 K=5 eps=0.0285253 eps_post=0.0397656 Delta=0.00630645
+p=5 n=15 N=23 N'=37 d=3 s=2: 5 samples (tries 8); last: g=2 D=3 K=5 eps=0.0995447 eps_post=0.0221575 Delta=0.0193936
+p=5 n=15 N=23 N'=37 d=3 s=3: 5 samples (tries 7); last: g=3 D=4 K=6 eps=0.484177 eps_post=0.0216113 Delta=0.018752
+p=5 n=15 N=23 N'=37 d=3 s=4: 5 samples (tries 5); last: g=4 D=5 K=7 eps=2.42088 eps_post=0.0216113 Delta=0.018752
+p=5 n=15 N=23 N'=37 d=4 s=1 SUB: 5 samples (tries 5); last: g=1 D=1 K=4 eps=0.0241221 eps_post=0.0393327 Delta=0.00979046
+p=5 n=15 N=23 N'=37 d=4 s=2: 5 samples (tries 5); last: g=2 D=2 K=5 eps=0.113096 eps_post=0.0573138 Delta=0.0301358
+p=5 n=15 N=23 N'=37 d=4 s=3: 5 samples (tries 7); last: g=3 D=3 K=6 eps=0.558708 eps_post=0.0567675 Delta=0.0294942
+p=5 n=15 N=23 N'=37 d=4 s=4: 5 samples (tries 5); last: g=4 D=4 K=7 eps=2.79354 eps_post=0.0567675 Delta=0.0294942
+p=5 n=15 N=23 N'=37 d=5 s=1 SUB: 5 samples (tries 6); last: g=1 D=1 K=5 eps=0.00481367 eps_post=0.0495051 Delta=0.00606645
+p=5 n=15 N=23 N'=37 d=5 s=2 SUB: 5 samples (tries 5); last: g=2 D=2 K=5 eps=0.0783737 eps_post=0.0565843 Delta=0.0292215
+p=5 n=15 N=23 N'=37 d=5 s=3: 5 samples (tries 9); last: g=3 D=3 K=6 eps=0.279354 eps_post=0.0567675 Delta=0.0294942
+p=5 n=15 N=23 N'=37 d=5 s=4: 5 samples (tries 6); last: g=4 D=4 K=7 eps=1.39677 eps_post=0.0567675 Delta=0.0294942
+p=5 n=15 N=23 N'=37 d=5 s=5: 5 samples (tries 9); last: g=5 D=5 K=8 eps=6.98385 eps_post=0.0567675 Delta=0.0294942
+p=5 n=15 N=23 N'=37 d=6 s=2 SUB: 5 samples (tries 7); last: g=3 D=3 K=6 eps=0.152692 eps_post=0.0565843 Delta=0.0292215
+p=5 n=15 N=23 N'=37 d=6 s=3 SUB: 5 samples (tries 6); last: g=4 D=4 K=7 eps=0.698385 eps_post=0.0567675 Delta=0.0294942
+p=5 n=15 N=23 N'=37 d=6 s=4: 5 samples (tries 5); last: g=5 D=5 K=8 eps=3.49193 eps_post=0.0567675 Delta=0.0294942
+p=5 n=15 N=23 N'=37 d=6 s=5: 5 samples (tries 5); last: g=6 D=6 K=9 eps=17.4596 eps_post=0.0567675 Delta=0.0294942
+p=5 n=15 N=23 N'=37 d=6 s=6: 0 samples (tries 400)
+p=5 n=15 N=23 N'=37 d=7 s=3 SUB: 5 samples (tries 5); last: g=4 D=4 K=7 eps=0.329561 eps_post=0.0567675 Delta=0.0294942
+p=5 n=15 N=23 N'=37 d=7 s=4 SUB: 5 samples (tries 6); last: g=5 D=5 K=8 eps=1.74596 eps_post=0.0567675 Delta=0.0294942
+p=5 n=15 N=23 N'=37 d=7 s=5: 5 samples (tries 5); last: g=6 D=6 K=9 eps=8.72981 eps_post=0.0567675 Delta=0.0294942
+p=5 n=15 N=23 N'=37 d=7 s=6: 0 samples (tries 400)
+p=5 n=15 N=23 N'=37 d=7 s=7: 0 samples (tries 400)
+p=5 n=15 N=23 N'=37 d=8 s=4 SUB: 5 samples (tries 5); last: g=5 D=5 K=7 eps=0.86684 eps_post=0.056385 Delta=0.029253
+p=5 n=15 N=23 N'=37 d=8 s=5 SUB: 5 samples (tries 5); last: g=6 D=6 K=8 eps=4.3342 eps_post=0.056385 Delta=0.029253
+p=5 n=15 N=23 N'=37 d=8 s=6: 5 samples (tries 6); last: g=7 D=7 K=9 eps=21.671 eps_post=0.056385 Delta=0.029253
+p=5 n=15 N=23 N'=37 d=8 s=7: 0 samples (tries 400)
+p=5 n=15 N=23 N'=37 d=8 s=8: 0 samples (tries 400)
+--- summary (key: [checks, failures]) ---
+  NEGd1_differs: 15
+  NEGd1_tot: 15
+  SUB:B2.2: [50, 0]
+  SUB:Delta even: [50, 0]
+  SUB:a: [50, 0]
+  SUB:b_coll: [50, 30]
+  SUB:b_p0K: [50, 0]
+  SUB:b_set: [50, 30]
+  SUB:b_vpair: [50, 16]
+  SUB:c_bounds: [50, 6]
+  SUB:c_identity: [50, 30]
+  SUB:gloss: [50, 0]
+  SUB:|Delta|<=eps_post: [50, 0]
+  SUB_n: 50
+  hyp:B2.2: [95, 0]
+  hyp:Delta even: [95, 0]
+  hyp:a: [95, 0]
+  hyp:b_coll: [95, 0]
+  hyp:b_p0K: [95, 0]
+  hyp:b_set: [95, 0]
+  hyp:b_vpair: [95, 0]
+  hyp:c_bounds: [95, 0]
+  hyp:c_identity: [95, 0]
+  hyp:gloss: [80, 0]
+  hyp:|Delta|<=eps_post: [95, 0]
+  hyp_n: 95
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=1: n=15 min=1.0000 max=1.0000 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=2: n=15 min=0.9314 max=1.4373 distinct=13
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=3: n=15 min=1.4280 max=1.4376 distinct=4
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=4: n=15 min=1.2574 max=1.2629 distinct=4
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=5: n=15 min=1.2598 max=1.2598 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=6: n=10 min=1.2598 max=1.2598 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=7: n=5 min=1.2598 max=1.2598 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=8: n=5 min=1.2594 max=1.2594 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=3: n=5 min=0.7835 max=1.1536 distinct=5
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=4: n=5 min=0.5441 max=1.9659 distinct=5
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=5: n=10 min=0.6223 max=3.6153 distinct=10
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=6: n=10 min=0.8578 max=1.3816 distinct=6
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=7: n=10 min=1.1889 max=1.2757 distinct=6
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=8: n=10 min=1.2594 max=1.2594 distinct=1
+RESULT p=5 n=15 H=8 H2=14: 95 cases under the hypothesis, failures 0; SUB cases 50; NEGd1 (d>=2 formula used at d=1) differs from eps in 15/15
+### exit: 0   wall: 2.15 s
+
+### command: python3 b2p_identity.py 3 31 5 12 8 12 13 40 1,2,3,4,5,6,7,8 2 1
+### start (UTC): 2026-10-14T00:26:37Z
+p=3 n=12 N=20 N'=32 d=1 s=1: 5 samples (tries 6); last: g=1 D=6 K=11 eps=2.38694 eps_post=1.59129 Delta=0
+p=3 n=12 N=20 N'=32 d=1 s=2: 5 samples (tries 8); last: g=2 D=4 K=12 eps=10.4744 eps_post=2.32764 Delta=0.65818
+p=3 n=12 N=20 N'=32 d=1 s=3: 5 samples (tries 9); last: g=3 D=5 K=11 eps=0.443424 eps_post=0.0328463 Delta=-0.00356821
+p=3 n=12 N=20 N'=32 d=2 s=1: 5 samples (tries 12); last: g=1 D=5 K=10 eps=0.105873 eps_post=0.141163 Delta=0
+p=3 n=12 N=20 N'=32 d=2 s=2: 5 samples (tries 7); last: g=2 D=4 K=11 eps=0.909776 eps_post=0.421275 Delta=-0.0338598
+p=3 n=12 N=20 N'=32 d=2 s=3: 5 samples (tries 6); last: g=3 D=5 K=11 eps=0.253581 eps_post=0.0345085 Delta=0.00611822
+p=3 n=12 N=20 N'=32 d=3 s=1 SUB: 5 samples (tries 6); last: g=1 D=2 K=8 eps=0.111481 eps_post=0.278907 Delta=-0.156912
+p=3 n=12 N=20 N'=32 d=3 s=2: 5 samples (tries 6); last: g=2 D=3 K=8 eps=0.0884937 eps_post=0.0613343 Delta=0.0346536
+p=3 n=12 N=20 N'=32 d=3 s=3: 5 samples (tries 5); last: g=3 D=4 K=9 eps=0.150206 eps_post=0.0391685 Delta=0.0106743
+p=3 n=12 N=20 N'=32 d=3 s=4: 5 samples (tries 7); last: g=4 D=5 K=10 eps=1.58527 eps_post=0.116313 Delta=0.0805129
+p=3 n=12 N=20 N'=32 d=4 s=1 SUB: 5 samples (tries 8); last: g=2 D=4 K=10 eps=0.715102 eps_post=0.949532 Delta=0.224031
+p=3 n=12 N=20 N'=32 d=4 s=2 SUB: 5 samples (tries 13); last: g=3 D=4 K=13 eps=36.8106 eps_post=20.3837 Delta=2.8599
+p=3 n=12 N=20 N'=32 d=4 s=3: 5 samples (tries 10); last: g=4 D=5 K=10 eps=0.436633 eps_post=0.0872859 Delta=-0.00207473
+p=3 n=12 N=20 N'=32 d=4 s=4: 5 samples (tries 8); last: g=5 D=6 K=11 eps=2.38694 eps_post=0.116511 Delta=0.0813065
+p=3 n=12 N=20 N'=32 d=4 s=5: 5 samples (tries 6); last: g=6 D=7 K=12 eps=7.23763 eps_post=0.117249 Delta=0.0832042
+p=3 n=12 N=20 N'=32 d=5 s=2 SUB: 5 samples (tries 5); last: g=3 D=4 K=9 eps=0.0539521 eps_post=0.0729033 Delta=-0.00825032
+p=3 n=12 N=20 N'=32 d=5 s=3 SUB: 5 samples (tries 5); last: g=4 D=5 K=10 eps=0.20897 eps_post=0.0840935 Delta=-0.0030748
+p=3 n=12 N=20 N'=32 d=5 s=4: 5 samples (tries 5); last: g=5 D=6 K=11 eps=1.18859 eps_post=0.115809 Delta=0.0814267
+p=3 n=12 N=20 N'=32 d=5 s=5: 5 samples (tries 6); last: g=6 D=7 K=12 eps=3.61719 eps_post=0.117167 Delta=0.0832245
+p=3 n=12 N=20 N'=32 d=5 s=6: 5 samples (tries 7); last: g=7 D=8 K=13 eps=11.055 eps_post=0.118979 Delta=0.0855533
+p=3 n=12 N=20 N'=32 d=6 s=4 SUB: 5 samples (tries 7); last: g=5 D=5 K=10 eps=0.849427 eps_post=0.145302 Delta=0.0650612
+p=3 n=12 N=20 N'=32 d=6 s=5 SUB: 5 samples (tries 10); last: g=6 D=6 K=11 eps=2.06506 eps_post=0.147533 Delta=0.0675235
+p=3 n=12 N=20 N'=32 d=6 s=6: 5 samples (tries 6); last: g=7 D=7 K=12 eps=6.19517 eps_post=0.147533 Delta=0.0675235
+p=3 n=12 N=20 N'=32 d=6 s=7: 5 samples (tries 7); last: g=8 D=8 K=13 eps=18.5855 eps_post=0.147533 Delta=0.0675235
+p=3 n=12 N=20 N'=32 d=6 s=8: 0 samples (tries 400)
+p=3 n=12 N=20 N'=32 d=7 s=5 SUB: 5 samples (tries 9); last: g=7 D=7 K=12 eps=3.09759 eps_post=0.147533 Delta=0.0675235
+p=3 n=12 N=20 N'=32 d=7 s=6 SUB: 5 samples (tries 10); last: g=8 D=8 K=13 eps=9.29276 eps_post=0.147533 Delta=0.0675235
+p=3 n=12 N=20 N'=32 d=7 s=7: 0 samples (tries 400)
+p=3 n=12 N=20 N'=32 d=7 s=8: 0 samples (tries 400)
+p=3 n=12 N=20 N'=32 d=7 s=9: 0 samples (tries 400)
+p=3 n=12 N=20 N'=32 d=8 s=7 SUB: 0 samples (tries 400)
+p=3 n=12 N=20 N'=32 d=8 s=8 SUB: 0 samples (tries 400)
+p=3 n=12 N=20 N'=32 d=8 s=9: 0 samples (tries 400)
+p=3 n=12 N=20 N'=32 d=8 s=10: 0 samples (tries 400)
+p=3 n=12 N=20 N'=32 d=8 s=11: 0 samples (tries 400)
+--- summary (key: [checks, failures]) ---
+  NEGd1_differs: 13
+  NEGd1_tot: 15
+  SUB:B2.2: [45, 0]
+  SUB:Delta even: [45, 0]
+  SUB:a: [45, 4]
+  SUB:b_coll: [45, 17]
+  SUB:b_p0K: [45, 0]
+  SUB:b_set: [45, 17]
+  SUB:b_vpair: [45, 9]
+  SUB:c_bounds: [45, 3]
+  SUB:c_identity: [45, 17]
+  SUB:gloss: [45, 0]
+  SUB:|Delta|<=eps_post: [45, 0]
+  SUB_n: 45
+  hyp:B2.2: [85, 0]
+  hyp:Delta even: [85, 0]
+  hyp:a: [85, 0]
+  hyp:b_coll: [85, 0]
+  hyp:b_p0K: [85, 0]
+  hyp:b_set: [85, 0]
+  hyp:b_vpair: [85, 0]
+  hyp:c_bounds: [85, 0]
+  hyp:c_identity: [85, 0]
+  hyp:gloss: [70, 0]
+  hyp:|Delta|<=eps_post: [85, 0]
+  hyp_n: 85
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=1: n=15 min=1.0000 max=1.0000 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=2: n=15 min=0.8034 max=1.1316 distinct=13
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=3: n=15 min=0.9480 max=1.3517 distinct=13
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=4: n=15 min=0.9881 max=1.3552 distinct=11
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=5: n=15 min=1.3461 max=1.3595 distinct=5
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=6: n=10 min=1.2288 max=1.2288 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=3: n=5 min=0.7745 max=1.0659 distinct=5
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=4: n=10 min=0.2873 max=1.4567 distinct=10
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=5: n=10 min=0.8771 max=1.3600 distinct=10
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=6: n=10 min=1.1479 max=1.5397 distinct=4
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=7: n=10 min=1.2288 max=1.2288 distinct=1
+RESULT p=3 n=12 H=8 H2=12: 85 cases under the hypothesis, failures 0; SUB cases 45; NEGd1 (d>=2 formula used at d=1) differs from eps in 13/15
+### exit: 0   wall: 2.64 s
+
+### command: python3 b2p_identity.py 3 32 4 12 8 4 14 40 6,7,8 1 1
+### start (UTC): 2026-10-14T00:27:35Z
+p=3 n=12 N=20 N'=24 d=6 s=4 SUB: 4 samples (tries 5); last: g=5 D=5 K=7 eps=0.139828 eps_post=0.0458984 Delta=-0.00463867
+p=3 n=12 N=20 N'=24 d=6 s=5 SUB: 4 samples (tries 5); last: g=6 D=6 K=8 eps=0.496393 eps_post=0.0458984 Delta=-0.00463867
+p=3 n=12 N=20 N'=24 d=6 s=6: 4 samples (tries 9); last: g=7 D=7 K=9 eps=1.48918 eps_post=0.0458984 Delta=-0.00463867
+p=3 n=12 N=20 N'=24 d=6 s=7: 4 samples (tries 7); last: g=8 D=8 K=10 eps=4.46754 eps_post=0.0458984 Delta=-0.00463867
+p=3 n=12 N=20 N'=24 d=7 s=5 SUB: 4 samples (tries 5); last: g=7 D=7 K=8 eps=0.400452 eps_post=0.03125 Delta=-0.015625
+p=3 n=12 N=20 N'=24 d=7 s=6 SUB: 4 samples (tries 4); last: g=8 D=8 K=9 eps=1.20135 eps_post=0.03125 Delta=-0.015625
+p=3 n=12 N=20 N'=24 d=7 s=7: 4 samples (tries 5); last: g=9 D=9 K=10 eps=3.60406 eps_post=0.03125 Delta=-0.015625
+p=3 n=12 N=20 N'=24 d=7 s=8: 4 samples (tries 9); last: g=10 D=10 K=11 eps=10.8122 eps_post=0.03125 Delta=-0.015625
+p=3 n=12 N=20 N'=24 d=8 s=7 SUB: 4 samples (tries 6); last: g=9 D=9 K=10 eps=1.80203 eps_post=0.03125 Delta=-0.015625
+p=3 n=12 N=20 N'=24 d=8 s=8 SUB: 4 samples (tries 6); last: g=10 D=10 K=11 eps=5.4061 eps_post=0.03125 Delta=-0.015625
+p=3 n=12 N=20 N'=24 d=8 s=9: 4 samples (tries 6); last: g=11 D=11 K=12 eps=16.2183 eps_post=0.03125 Delta=-0.015625
+p=3 n=12 N=20 N'=24 d=8 s=10: 4 samples (tries 4); last: g=12 D=12 K=13 eps=48.6549 eps_post=0.03125 Delta=-0.015625
+--- summary (key: [checks, failures]) ---
+  NEGd1_differs: 0
+  NEGd1_tot: 0
+  SUB:B2.2: [24, 0]
+  SUB:Delta even: [24, 0]
+  SUB:a: [24, 0]
+  SUB:b_coll: [24, 2]
+  SUB:b_p0K: [24, 1]
+  SUB:b_set: [24, 2]
+  SUB:b_vpair: [24, 2]
+  SUB:c_bounds: [24, 0]
+  SUB:c_identity: [24, 2]
+  SUB:gloss: [24, 0]
+  SUB:|Delta|<=eps_post: [24, 0]
+  SUB_n: 24
+  hyp:B2.2: [24, 0]
+  hyp:Delta even: [24, 0]
+  hyp:a: [24, 0]
+  hyp:b_coll: [24, 0]
+  hyp:b_p0K: [24, 0]
+  hyp:b_set: [24, 0]
+  hyp:b_vpair: [24, 0]
+  hyp:c_bounds: [24, 0]
+  hyp:c_identity: [24, 0]
+  hyp:gloss: [24, 0]
+  hyp:|Delta|<=eps_post: [24, 0]
+  hyp_n: 24
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=6: n=8 min=0.9495 max=0.9495 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=7: n=8 min=0.7500 max=0.7500 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [hyp], d=8: n=8 min=0.7500 max=0.7500 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=6: n=8 min=0.8024 max=0.9495 distinct=3
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=7: n=8 min=0.7500 max=0.7500 distinct=1
+  ratio eps/((c_(n+d)/c_n) eps_post) [SUB], d=8: n=8 min=0.7500 max=0.7500 distinct=1
+RESULT p=3 n=12 H=8 H2=4: 24 cases under the hypothesis, failures 0; SUB cases 24; NEGd1 (d>=2 formula used at d=1) differs from eps in 0/0
+### exit: 0   wall: 0.78 s
+
