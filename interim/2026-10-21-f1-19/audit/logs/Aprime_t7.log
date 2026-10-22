@@ -1,0 +1,27 @@
+# fibcov_ip(A') p=19 t=7 H=45 c=2 M=9 k=2  Q=322687697779 fibre=893871739 bits (106 MB + 53 MB save)
+A p=19 t=7 H=45 c=2 M=9 K=29 missing=0 COVERED [79.90s]
+A p=19 t=7 H=45 c=2 M=9 K=34 missing=0 COVERED [84.14s]
+A p=19 t=7 H=45 c=2 M=9 K=111 missing=0 COVERED [97.87s]
+A p=19 t=7 H=45 c=2 M=9 K=145 missing=0 COVERED [109.58s]
+A p=19 t=7 H=45 c=2 M=9 K=155 missing=0 COVERED [114.21s]
+A p=19 t=7 H=45 c=2 M=9 K=328 missing=0 COVERED [114.42s]
+SUMMARY A' p=19 t=7 H=45 c=2 M=9 k=2 mode=pos nK=6 fail=0 worst_missing=0 ALL_COVERED total=600.1s
+      600.15 real       518.72 user         5.73 sys
+           183418880  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               59935  page reclaims
+                   3  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 251  voluntary context switches
+             1474110  involuntary context switches
+       9859712354976  instructions retired
+       1832955827251  cycles elapsed
+           183730728  peak memory footprint
+rc=0

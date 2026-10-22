@@ -1,0 +1,11 @@
+# p=19, D=9 (2026-10-20): uniform t<=6 (note §10.2, logs in publish-erdos404/data/round2/logs_lead/R3 + logs_original/R3 + review logs);
+# depth 7: ALL 342 unit classes K'' < 19^2 at H=45 (K''<=18: note §10.2; 19<K''<361: this track, program A' so far);
+# depth 8: 18 positions K''<=18 at H=49 (this track, A' and C').
+uniform 1 5
+uniform 2 12
+uniform 3 17
+uniform 4 27
+uniform 5 31
+uniform 6 35
+pos 7 45 1 360
+pos 8 49 1 18

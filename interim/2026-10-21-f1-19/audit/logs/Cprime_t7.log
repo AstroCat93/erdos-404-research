@@ -1,0 +1,27 @@
+# covchk_ip(C') p=19 t=7 H=45 c=2 M=9 k=2 F=893871739 nK=6 (bitset 106 MB + save 53 MB)
+C p=19 t=7 H=45 M=9 K=29 Kmodpc=29 miss=0 COVERED 53.41s
+C p=19 t=7 H=45 M=9 K=34 Kmodpc=34 miss=0 COVERED 54.55s
+C p=19 t=7 H=45 M=9 K=111 Kmodpc=111 miss=0 COVERED 62.60s
+C p=19 t=7 H=45 M=9 K=145 Kmodpc=145 miss=0 COVERED 68.60s
+C p=19 t=7 H=45 M=9 K=155 Kmodpc=155 miss=0 COVERED 66.53s
+C p=19 t=7 H=45 M=9 K=328 Kmodpc=328 miss=0 COVERED 71.55s
+END C' p=19 t=7 H=45 nK=6 bad=0 ALL_COVERED 377.2s
+      377.26 real       341.97 user         2.76 sys
+           233766912  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               82486  page reclaims
+                   3  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   6  voluntary context switches
+              642969  involuntary context switches
+       8600018376502  instructions retired
+       1182823187936  cycles elapsed
+           234127984  peak memory footprint
+rc=0

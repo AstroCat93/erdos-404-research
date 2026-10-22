@@ -1,0 +1,3 @@
+# covchk_ip(C') p=19 t=7 H=45 c=2 M=9 k=2 F=893871739 nK=1 (bitset 106 MB + save 53 MB)
+C p=19 t=7 H=45 M=9 K=390 Kmodpc=29 miss=0 COVERED 78.97s
+END C' p=19 t=7 H=45 nK=1 bad=0 ALL_COVERED 79.0s

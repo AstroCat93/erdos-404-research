@@ -1,0 +1,15 @@
+#!/bin/zsh
+# round-3 continuation worker (2026-10-20): pulls jobs from queue_r3c7.txt, one at a time, mkdir-locked;
+# skips a job whose log already has an '# END' line (finished earlier).  Start 3 copies (core cap 3).
+W="${T3B_WORKDIR:?set T3B_WORKDIR to the working directory that holds src/ (these scripts), bin/, logs/ and locks/}"
+cd "$W"
+ID=$1
+while read -r line; do
+  NAME=${line%% *}; CMD=${line#* }
+  grep -q '^# END' "logs/$NAME.log" 2>/dev/null && continue
+  mkdir "locks/$NAME" 2>/dev/null || continue
+  echo "$(date '+%F %T') worker$ID start $NAME" >> logs/workers_r3c7.out
+  src/run_job.sh "$NAME" ${=CMD}
+  echo "$(date '+%F %T') worker$ID done  $NAME" >> logs/workers_r3c7.out
+done < queue_r3c7.txt
+echo "$(date '+%F %T') worker$ID QUEUE_EXHAUSTED" >> logs/workers_r3c7.out

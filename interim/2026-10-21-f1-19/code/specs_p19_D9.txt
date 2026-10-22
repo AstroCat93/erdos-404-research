@@ -1,0 +1,9 @@
+# p=19, D=9: uniform t<=6 (note §10.2), positions depth 7 (H=45, K''=1..18, note §10.2) and depth 8 (H=49, K''=1..18, this track)
+uniform 1 5
+uniform 2 12
+uniform 3 17
+uniform 4 27
+uniform 5 31
+uniform 6 35
+pos 7 45 1 18
+pos 8 49 1 18

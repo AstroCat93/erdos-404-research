@@ -1,0 +1,47 @@
+# CMD: bin/covchk_ip 19 7 45 2 pos 336 337 338 339 340 341 343 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 359 360
+# START 2026-10-21 13:03:54 CDT unix=1792605834 host=<host>
+# covchk_ip(C') p=19 t=7 H=45 c=2 M=9 k=2 F=893871739 nK=24 (bitset 106 MB + save 53 MB)
+C p=19 t=7 H=45 M=9 K=336 Kmodpc=336 miss=0 COVERED 36.90s
+C p=19 t=7 H=45 M=9 K=337 Kmodpc=337 miss=0 COVERED 37.55s
+C p=19 t=7 H=45 M=9 K=338 Kmodpc=338 miss=0 COVERED 34.34s
+C p=19 t=7 H=45 M=9 K=339 Kmodpc=339 miss=0 COVERED 34.82s
+C p=19 t=7 H=45 M=9 K=340 Kmodpc=340 miss=0 COVERED 34.42s
+C p=19 t=7 H=45 M=9 K=341 Kmodpc=341 miss=0 COVERED 33.68s
+C p=19 t=7 H=45 M=9 K=343 Kmodpc=343 miss=0 COVERED 36.91s
+C p=19 t=7 H=45 M=9 K=344 Kmodpc=344 miss=0 COVERED 34.57s
+C p=19 t=7 H=45 M=9 K=345 Kmodpc=345 miss=0 COVERED 35.06s
+C p=19 t=7 H=45 M=9 K=346 Kmodpc=346 miss=0 COVERED 37.44s
+C p=19 t=7 H=45 M=9 K=347 Kmodpc=347 miss=0 COVERED 35.24s
+C p=19 t=7 H=45 M=9 K=348 Kmodpc=348 miss=0 COVERED 38.54s
+C p=19 t=7 H=45 M=9 K=349 Kmodpc=349 miss=0 COVERED 39.46s
+C p=19 t=7 H=45 M=9 K=350 Kmodpc=350 miss=0 COVERED 38.89s
+C p=19 t=7 H=45 M=9 K=351 Kmodpc=351 miss=0 COVERED 38.44s
+C p=19 t=7 H=45 M=9 K=352 Kmodpc=352 miss=0 COVERED 38.92s
+C p=19 t=7 H=45 M=9 K=353 Kmodpc=353 miss=0 COVERED 39.71s
+C p=19 t=7 H=45 M=9 K=354 Kmodpc=354 miss=0 COVERED 40.95s
+C p=19 t=7 H=45 M=9 K=355 Kmodpc=355 miss=0 COVERED 39.96s
+C p=19 t=7 H=45 M=9 K=356 Kmodpc=356 miss=0 COVERED 43.73s
+C p=19 t=7 H=45 M=9 K=357 Kmodpc=357 miss=0 COVERED 40.88s
+C p=19 t=7 H=45 M=9 K=358 Kmodpc=358 miss=0 COVERED 40.98s
+C p=19 t=7 H=45 M=9 K=359 Kmodpc=359 miss=0 COVERED 39.85s
+C p=19 t=7 H=45 M=9 K=360 Kmodpc=360 miss=0 COVERED 39.32s
+END C' p=19 t=7 H=45 nK=24 bad=0 ALL_COVERED 910.5s
+      910.53 real       880.27 user         9.45 sys
+           236273664  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               18489  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+             1284505  involuntary context switches
+      16930168411977  instructions retired
+       3555309061942  cycles elapsed
+           236175984  peak memory footprint
+# END 2026-10-21 13:19:04 CDT unix=1792606744 exit=0

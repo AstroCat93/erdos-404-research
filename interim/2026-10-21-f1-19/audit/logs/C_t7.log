@@ -1,0 +1,24 @@
+# covchk(C) p=19 t=7 H=45 c=2 M=9 k=2 F=893871739 nK=3
+C p=19 t=7 H=45 M=9 K=145 Kmodpc=145 miss=0 COVERED 52.43s
+C p=19 t=7 H=45 M=9 K=155 Kmodpc=155 miss=0 COVERED 53.80s
+C p=19 t=7 H=45 M=9 K=328 Kmodpc=328 miss=0 COVERED 60.37s
+END C p=19 t=7 H=45 nK=3 bad=0 ALL_COVERED 166.6s
+      166.72 real       134.84 user         2.82 sys
+           292421632  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              105705  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 452  voluntary context switches
+              567804  involuntary context switches
+       1523383376815  instructions retired
+        481446289361  cycles elapsed
+           292176520  peak memory footprint
+rc=0

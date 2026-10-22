@@ -1,0 +1,24 @@
+# CMD: bin/covchk_ip 19 8 49 2 pos 2
+# START 2026-10-12 15:37:31 CDT unix=1791837451 host=<host>
+# covchk_ip(C') p=19 t=8 H=49 c=2 M=10 k=2 F=16983563041 nK=1 (bitset 2024 MB + save 1012 MB)
+C p=19 t=8 H=49 M=10 K=2 Kmodpc=2 miss=0 COVERED 1385.76s
+END C' p=19 t=8 H=49 nK=1 bad=0 ALL_COVERED 1385.8s
+     1385.82 real       891.10 user       238.50 sys
+          3180331008  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+            53020735  page reclaims
+                   5  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                7160  voluntary context switches
+             3150619  involuntary context switches
+      14618512688928  instructions retired
+       3886085424626  cycles elapsed
+          3241396936  peak memory footprint
+# END 2026-10-12 16:00:37 CDT unix=1791838837 exit=0

@@ -11,6 +11,14 @@ This repository is a research note on [Erdős Problem #404](https://www.erdospro
 
 The full write-up is [`note.md`](note.md). **The mathematics, code and text were produced by AI** (see [AI disclosure](#ai-disclosure-and-authorship)). No human has verified the mathematics. Two rounds of three AI referees (logic, computation, novelty) have checked it: note.md §9 for round 1 and §10.8 for round 2.
 
+## Interim update (2026-10-21)
+
+**New bound: $f(1,19)\ge v_{19}((19^9-1)!)=17\,927\,094\,312$.** If it holds up, it supersedes the round-2 bound $943\,531\,272$ (note.md §10.2).
+- It follows from Proposition 10.10. The new certificates are at depth 7 (all 342 classes, $H=45$) and depth 8 (all 18 positions, $H=49$).
+- **Status:** computer-assisted. Every certificate was checked by two independently written programs.
+- It was produced by Claude (Anthropic) AI instances. **It is not yet refereed** by the round-3 referees, and **it has not been verified by a human.**
+- Details, caveats and reproduction: [`interim/2026-10-21-f1-19/README.md`](interim/2026-10-21-f1-19/README.md).
+
 ## The problem
 
 For a prime $p$ and an integer $a\ge1$, let $f(a,p)$ be the largest $k$ such that $p^k$ divides $a_1!+a_2!+\dots+a_n!$ for some $a=a_1<a_2<\dots<a_n$ (or $\infty$ if there is no largest). Erdős and Graham (1980) asked:

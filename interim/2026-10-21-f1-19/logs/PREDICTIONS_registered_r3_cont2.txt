@@ -1,0 +1,5 @@
+# Registered BEFORE launching, 2026-10-21 12:00:42 CDT (unix 1792602042). Track T3b-q3-covering, round 3, second continuation (2026-10-21).
+# Runs: program C' (bin/covchk_ip, built 2026-10-12) on the 324 unit classes 19<K''<361 of Cov(19,7,45) (queue_r3c7.txt, 11 chunks of <=30 classes,
+# 3 workers, src/worker_queue_c7.sh). Purpose: second, independently written program for the depth-7 half of the D=9 chain at p=19 (A' already reports
+# all 324 COVERED, logs/U19_t7_H45_A_chunk*.log). Prediction: C' reports miss=0 COVERED on all 324 classes (replication; nu=2.00 for n=342 at H=45,
+# Conj. 10.24 predicts HOLD). Expected ~60-80 s per class, ~240 MB per run, ~2.3 h wall on 3 cores.

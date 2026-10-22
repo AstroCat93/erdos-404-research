@@ -1,0 +1,24 @@
+# CMD: bin/fibcov_ip 19 8 49 2 pos 2
+# START 2026-10-12 16:10:35 CDT unix=1791839435 host=<host>
+# fibcov_ip(A') p=19 t=8 H=49 c=2 M=10 k=2  Q=6131066257801 fibre=16983563041 bits (2024 MB + 1012 MB save)
+A p=19 t=8 H=49 c=2 M=10 K=2 missing=0 COVERED [2452.46s]
+SUMMARY A' p=19 t=8 H=49 c=2 M=10 k=2 mode=pos nK=1 fail=0 worst_missing=0 ALL_COVERED total=2452.5s
+     2452.52 real      1337.81 user       782.71 sys
+          3189915648  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+           223784699  page reclaims
+                   5  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+              159903  voluntary context switches
+             6818635  involuntary context switches
+      31417226947954  instructions retired
+       7698410008590  cycles elapsed
+          3191016064  peak memory footprint
+# END 2026-10-12 16:51:27 CDT unix=1791841887 exit=0

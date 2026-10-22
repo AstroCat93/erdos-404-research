@@ -1,0 +1,53 @@
+# CMD: bin/covchk_ip 19 7 45 2 pos 51 52 53 54 55 56 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 77 78 79 80 81 82
+# START 2026-10-21 12:00:42 CDT unix=1792602042 host=<host>
+# covchk_ip(C') p=19 t=7 H=45 c=2 M=9 k=2 F=893871739 nK=30 (bitset 106 MB + save 53 MB)
+C p=19 t=7 H=45 M=9 K=51 Kmodpc=51 miss=0 COVERED 40.54s
+C p=19 t=7 H=45 M=9 K=52 Kmodpc=52 miss=0 COVERED 43.32s
+C p=19 t=7 H=45 M=9 K=53 Kmodpc=53 miss=0 COVERED 42.74s
+C p=19 t=7 H=45 M=9 K=54 Kmodpc=54 miss=0 COVERED 43.53s
+C p=19 t=7 H=45 M=9 K=55 Kmodpc=55 miss=0 COVERED 43.09s
+C p=19 t=7 H=45 M=9 K=56 Kmodpc=56 miss=0 COVERED 42.90s
+C p=19 t=7 H=45 M=9 K=58 Kmodpc=58 miss=0 COVERED 48.63s
+C p=19 t=7 H=45 M=9 K=59 Kmodpc=59 miss=0 COVERED 40.49s
+C p=19 t=7 H=45 M=9 K=60 Kmodpc=60 miss=0 COVERED 45.57s
+C p=19 t=7 H=45 M=9 K=61 Kmodpc=61 miss=0 COVERED 50.56s
+C p=19 t=7 H=45 M=9 K=62 Kmodpc=62 miss=0 COVERED 43.44s
+C p=19 t=7 H=45 M=9 K=63 Kmodpc=63 miss=0 COVERED 46.35s
+C p=19 t=7 H=45 M=9 K=64 Kmodpc=64 miss=0 COVERED 47.97s
+C p=19 t=7 H=45 M=9 K=65 Kmodpc=65 miss=0 COVERED 45.34s
+C p=19 t=7 H=45 M=9 K=66 Kmodpc=66 miss=0 COVERED 45.66s
+C p=19 t=7 H=45 M=9 K=67 Kmodpc=67 miss=0 COVERED 44.59s
+C p=19 t=7 H=45 M=9 K=68 Kmodpc=68 miss=0 COVERED 43.92s
+C p=19 t=7 H=45 M=9 K=69 Kmodpc=69 miss=0 COVERED 43.68s
+C p=19 t=7 H=45 M=9 K=70 Kmodpc=70 miss=0 COVERED 42.68s
+C p=19 t=7 H=45 M=9 K=71 Kmodpc=71 miss=0 COVERED 45.89s
+C p=19 t=7 H=45 M=9 K=72 Kmodpc=72 miss=0 COVERED 44.51s
+C p=19 t=7 H=45 M=9 K=73 Kmodpc=73 miss=0 COVERED 44.75s
+C p=19 t=7 H=45 M=9 K=74 Kmodpc=74 miss=0 COVERED 44.83s
+C p=19 t=7 H=45 M=9 K=75 Kmodpc=75 miss=0 COVERED 44.54s
+C p=19 t=7 H=45 M=9 K=77 Kmodpc=77 miss=0 COVERED 46.98s
+C p=19 t=7 H=45 M=9 K=78 Kmodpc=78 miss=0 COVERED 40.77s
+C p=19 t=7 H=45 M=9 K=79 Kmodpc=79 miss=0 COVERED 44.12s
+C p=19 t=7 H=45 M=9 K=80 Kmodpc=80 miss=0 COVERED 45.66s
+C p=19 t=7 H=45 M=9 K=81 Kmodpc=81 miss=0 COVERED 42.10s
+C p=19 t=7 H=45 M=9 K=82 Kmodpc=82 miss=0 COVERED 46.02s
+END C' p=19 t=7 H=45 nK=30 bad=0 ALL_COVERED 1335.2s
+     1335.16 real      1309.88 user         9.42 sys
+           236273664  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               15253  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+             1050110  involuntary context switches
+      20969063789170  instructions retired
+       5126922086125  cycles elapsed
+           236175984  peak memory footprint
+# END 2026-10-21 12:22:57 CDT unix=1792603377 exit=0
