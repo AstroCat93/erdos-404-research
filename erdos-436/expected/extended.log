@@ -1,0 +1,47 @@
+run_extended.sh   (2026-10-22T01:13:23Z)
+[E1] separately written branching program
+  PASS  E1_tree8_node_counts                   7.7s
+[E2] tamper tests
+  PASS  E2_tamper_structural                 345.9s
+  PASS  E2_tamper_semantic                    69.7s
+  PASS  E2_tamper_header_k4                    0.3s
+  PASS  E2_differential_small_certs           54.1s
+[E3] end-to-end test on real primes
+  PASS  E3_rscan_hard_primes                  75.5s
+  PASS  E3_e2e_k8                              7.5s
+  PASS  E3_e2e_k2                              4.7s
+  PASS  E3_e2e_k4                              4.7s
+[E4] negative controls at L = Lambda(k,2) - 1
+  PASS  E4_k8_L1508323_capped_T61              5.4s
+  PASS  E4_k8_L1508323_capped_T62              5.2s
+  PASS  E4_k8_L1508323_capped_T80            100.0s
+  PASS  E4_k2_witness_search                   0.0s
+  PASS  E4_k2_witness_least_pair               0.0s
+  PASS  E4_k3_witness_search                   0.0s
+  PASS  E4_k3_witness_least_pair               0.0s
+  PASS  E4_k4_witness_search                   0.0s
+  PASS  E4_k4_witness_least_pair               0.0s
+  PASS  E4_k5_witness_search                   0.0s
+  PASS  E4_k5_witness_least_pair               0.0s
+  PASS  E4_k6_witness_search                   0.1s
+  PASS  E4_k6_witness_least_pair               0.1s
+  PASS  E4_k7_witness_search                   1.0s
+  PASS  E4_k7_witness_least_pair               0.6s
+  PASS  E4_k8_witness_search                   1.7s
+  PASS  E4_k8_witness_least_pair               0.5s
+  PASS  E4_k8_witness_equals_bundled_file      0.0s
+[E5] (H3) with a third program
+  PASS  E5_H3_smallp_euler                     0.2s
+[E6] the vectors
+  PASS  E6_simplify_SAT_to_Rstar               0.1s
+  PASS  E6_vector_facts                        0.3s
+  PASS  E6_BLL64_TableV_vector_gives_1200744     0.0s
+[E7] empirical Chebotarev test (Remark 6.1)
+  PASS  E7_chebo_k8_m8_1e9                   111.9s
+  PASS  E7_chebo_analyse                      73.5s
+extended summary: 33 passed, 0 failed, total 874.3 s
+ALL EXTENDED CHECKS PASSED
+
+real	14m34.283s
+user	12m44.093s
+sys	1m26.359s

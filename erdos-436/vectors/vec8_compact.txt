@@ -1,0 +1,82 @@
+# Lambda(8,2) >= 1508324: compact character-exponent vector (k = 8).
+# Meaning: for a prime p = 1 mod 8 with primitive root g, R(q) = ind_g(q) mod 8; n (< p) is an 8th-power
+# residue iff f(n) = sum e*R(q) over q^e || n is 0 mod 8.  R(q) = 1 for EVERY prime q not listed below.
+# The 74 listed values: R=0 on 3, 97, 149, 163;  R=3 on 233, 271, 443, 641, 1297;  R=2 on the other 65
+# (including q = 2, so R(2) is even as required for p = 1 mod 8).
+# First n with f(n) = f(n+1) = 0 is n = 1508324 = 2^2*47*71*113, n+1 = 1508325 = 3*5^2*7*13^2*17.
+# Derived from the 114765-entry SAT vector vec8_L1508323.txt by greedy reset-to-1 (src/simplify.c);
+# each listed prime other than 2 is individually necessary (resetting it to 1 creates an earlier pair).
+2 2
+3 0
+13 2
+29 2
+31 2
+53 2
+97 0
+101 2
+113 2
+137 2
+149 0
+163 0
+223 2
+229 2
+233 3
+241 2
+257 2
+269 2
+271 3
+307 2
+311 2
+317 2
+349 2
+359 2
+443 3
+479 2
+487 2
+499 2
+521 2
+557 2
+641 3
+673 2
+709 2
+727 2
+821 2
+863 2
+883 2
+937 2
+1021 2
+1061 2
+1087 2
+1171 2
+1201 2
+1297 3
+1301 2
+1361 2
+1381 2
+1409 2
+1451 2
+1543 2
+1627 2
+1663 2
+2297 2
+2381 2
+2383 2
+2411 2
+3821 2
+4073 2
+4091 2
+4177 2
+4547 2
+5407 2
+5867 2
+6343 2
+6761 2
+8543 2
+10271 2
+15227 2
+16103 2
+24049 2
+24677 2
+26029 2
+32917 2
+33331 2

@@ -1,0 +1,21 @@
+# k = 9 character-exponent vector: R(q) = value below, R(q) = 1 for EVERY other prime q.
+# First n with f(n) = f(n+1) = 0 (mod 9): n = 146290624 = 2^6*41*197*283, n+1 = 146290625 = 5^5*13^2*277.
+# Origin: 12 further changes by src/casetest2.c from vec9_compact7 (L=3e8, stuck at this pair: no single change moves it). k = 9 has no realizability constraint (Kummer + Chebotarev).
+3 0
+11 0
+173 0
+277 2
+307 2
+313 2
+347 2
+509 2
+769 3
+977 2
+1151 2
+1181 0
+1747 2
+3631 2
+5903 0
+9257 0
+20773 0
+409729 0

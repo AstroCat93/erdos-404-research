@@ -1,0 +1,32 @@
+# Transcript of code/extended/arevalo_check.sh, run on 2026-10-22 with AREVALO_REPO set to a clone of
+# https://github.com/farev/matematica made on 2026-10-15 at commit 4404f5bd46cd9248807980ea73a8a6467afdb342.
+Arevalo repository at commit 4404f5bd46cd9248807980ea73a8a6467afdb342 (expected 4404f5bd46cd9248807980ea73a8a6467afdb342)
+input hashes (the values seen on 2026-10-15 are listed in code/README.md):
+8ef9fa5ce810bc93e971008be69038512f87a2810e6c107c5b80b97c63cfcce5  tree2.c
+91bbe9820395b29af3b23723bb342b29063d1456c291f2d7dfb49f5214168a14  check_tree2.py
+caf449a676cad94bde064d590c96ab3a24bae6bc213c286ad165ed80b27540e3  data/pairs_P300_L10000000.txt
+== Arevalo's tree2 at L = 1508324 (expect: unsettled=0, max_settling_n=1508324)
+k=8 L=1508324: nodes=3999920 leaves=3499913 unsettled=0 maxdepth=61 max_settling_n=1508324
+== Arevalo's check_tree2.py on that certificate (about 1 minute)
+k=8 L=1508324 even=[2] fixed={}: 3499913 leaves; tree exhaustive; unsettled=0; all settled leaves verified; U = max settling n = 1508324
+== Arevalo's tree2 --dry at L = 1508323 (expect 108 unsettled vectors)
+k=8 L=1508323: nodes=4023112 leaves=3520206 unsettled=108 maxdepth=62 max_settling_n=1505624
+== our tree capped at depth 62 (the 62 primes below 300) at L = 1508323 (expect 432 unresolved leaves)
+432
+== the 108 vectors of Arevalo's dry run vs our 432 unresolved leaves, up to units (expect equal: True)
+arevalo vectors: 108 distinct: 108 lengths: {62} primes: [2, 3, 5] ... [281, 283, 293]
+our unresolved: 432 distinct: 432 lengths: {62}
+orbits: arevalo 108 ours 108 equal: True
+our leaves per orbit: Counter({4: 108})
+all 4 unit multiples of each arevalo vector present in ours: True
+R(2) values ours: Counter({2: 216, 6: 216}) arevalo: Counter({2: 108})
+== R* restricted to the primes below 300 vs the published file data/gaps_k8_P300_L1500000.txt (expect [(11, 1)])
+unsettled vectors in the file: 108; primes per vector: [62]
+R* restricted to these primes equals vector number (1-based), unit: [(11, 1)]
+== audit of Arevalo's smooth-pairs file, which check_tree2.py trusts
+data/pairs_P300_L10000000.txt: 39168 pairs with n <= 1508324 audited, all factorisations correct; largest base prime 293; 62 distinct primes; 293-smooth pairs n <= 1508324 missing from the file: 0
+AREVALO CROSS-CHECK DONE
+
+real	1m18.040s
+user	1m17.126s
+sys	0m0.820s

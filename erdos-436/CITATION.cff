@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below. It is a preprint and has not been peer reviewed."
+title: "Consecutive eighth-power residues: Lambda(8,2) = 1508324"
+abstract: >-
+  A computer-assisted proof that Lambda(8,2) = 1508324 (OEIS A000445, term k = 8; Erdős problem #436):
+  an explicit 74-exception exponent vector whose first pair of consecutive zeros is (1508324, 1508325),
+  realised by infinitely many primes by a theorem of Mills (1963), together with a re-certification of
+  the known upper bound (Reble 2019; Arevalo 2026). Includes the certificates, vectors, checkers and a
+  verification script. The proofs, programs and text were produced with an AI system (Claude, by Anthropic) under the author's direction, and no person has verified the proofs or the code; see the README.
+authors:
+  - family-names: Durfee
+    given-names: Nathan
+    alias: AstroCat93
+version: "1.0"
+license:
+  - MIT
+  - CC-BY-4.0
+repository-code: "https://github.com/AstroCat93/erdos-404-research"
+keywords:
+  - power residues
+  - consecutive power residues
+  - Erdős problems
+  - OEIS A000445
+  - computer-assisted proof

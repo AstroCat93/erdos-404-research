@@ -1,0 +1,68 @@
+verify.sh: Lambda(8,2) = 1508324   (2026-10-22T01:11:33Z)
+tools: gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0; Python 3.13.16; xz (XZ Utils) 5.4.5; numpy 2.5.3
+[0] compile
+  PASS  compile 9 C programs                   1.3s
+[1] hashes
+  PASS  hash_certificates_xz                   0.0s
+  PASS  hash_certificates_decompressed         1.5s
+  PASS  hash_vectors                           0.0s
+  PASS  hash_table_of_note                     0.0s
+[2] upper bound: certificates (H1) and small primes (H3)
+  PASS  k8_check_cert.py                      38.1s
+  PASS  k8_pcheck.py                          17.6s
+  PASS  k8_ccheck                              2.5s
+  PASS  k8_rcheck                              1.9s
+  PASS  k2_check_cert.py                       0.0s
+  PASS  k2_pcheck.py                           0.1s
+  PASS  k2_ccheck                              0.0s
+  PASS  k2_rcheck                              0.0s
+  PASS  k4_check_cert.py                       0.0s
+  PASS  k4_pcheck.py                           0.0s
+  PASS  k4_ccheck                              0.0s
+  PASS  k4_rcheck                              0.0s
+  PASS  k3_ccheck                              0.0s
+  PASS  k3_rcheck                              0.0s
+  PASS  k5_ccheck                              0.0s
+  PASS  k5_rcheck                              0.0s
+  PASS  k6_ccheck                              0.0s
+  PASS  k6_rcheck                              0.0s
+  PASS  k7_ccheck                              1.5s
+  PASS  k7_rcheck                              1.2s
+  PASS  H3_smallp                              0.2s
+  PASS  H3_smallp_ref                          0.9s
+[3] lower bound (H2): R* and the k = 9 vector
+  PASS  Rstar_74_exceptions_R2_even            0.0s
+  PASS  Rstar_table_of_note_equals_file        0.3s
+  PASS  Rstar_pairs.c                          0.0s
+  PASS  Rstar_fp_seg.c                         0.1s
+  PASS  Rstar_check_vector.py                  0.5s
+  PASS  Rstar_lbcheck.c_reset_test             0.5s
+  PASS  Rstar_pairs_np.py                      0.3s
+  PASS  full_vec8_L1508323_pairs.c             0.0s
+  PASS  full_vec8_L1508323_fp_seg.c            0.1s
+  PASS  full_k8_L1508323_witness_pairs.c       0.0s
+  PASS  full_k8_L1508323_witness_fp_seg.c      0.1s
+  PASS  k9_pairs.c                             2.1s
+  PASS  k9_fp_seg.c                            7.5s
+  PASS  k9_lbcheck.c                           3.7s
+[4] regeneration of the canonical certificate streams
+  PASS  k8_regenerate_pairtree                 5.1s
+  PASS  k8_regenerate_regen.c                  9.2s
+  PASS  k2_regenerate_pairtree                 0.0s
+  PASS  k2_regenerate_regen.c                  0.0s
+  PASS  k3_regenerate_pairtree                 0.0s
+  PASS  k3_regenerate_regen.c                  0.0s
+  PASS  k4_regenerate_pairtree                 0.0s
+  PASS  k4_regenerate_regen.c                  0.0s
+  PASS  k5_regenerate_pairtree                 0.0s
+  PASS  k5_regenerate_regen.c                  0.0s
+  PASS  k6_regenerate_pairtree                 0.1s
+  PASS  k6_regenerate_regen.c                  0.1s
+  PASS  k7_regenerate_pairtree                 2.9s
+  PASS  k7_regenerate_regen.c                  4.4s
+summary: 54 passed, 0 failed, total 104.8 s
+ALL CHECKS PASSED
+
+real	1m44.788s
+user	1m41.772s
+sys	0m4.037s
