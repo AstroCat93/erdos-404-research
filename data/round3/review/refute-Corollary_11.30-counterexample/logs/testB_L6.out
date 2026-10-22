@@ -1,0 +1,8 @@
+trial 19: n=38 m=40 D=13 M_N=6 parents=0 total_pred=0 total_cnt=0 total_w=0
+trial 20: n=33 m=31 D=14 M_N=5 parents=52 total_pred=655360 total_cnt=655360 total_w=655360
+trial 21: n=38 m=37 D=15 M_N=6 parents=18 total_pred=286720 total_cnt=286720 total_w=286720
+trial 22: n=36 m=34 D=13 M_N=5 parents=1 total_pred=16384 total_cnt=16384 total_w=16384
+trial 23: n=40 m=38 D=14 M_N=5 parents=52 total_pred=917504 total_cnt=917504 total_w=917504
+trial 24: n=35 m=34 D=12 M_N=5 parents=22 total_pred=294912 total_cnt=294912 total_w=294912
+python3 -I "$D/code/testB_window.py" 3 30 6 17 2>&1  986.17s user 8.57s system 91% cpu 18:10.69 total
+tail -6  0.00s user 0.00s system 0% cpu 18:10.69 total

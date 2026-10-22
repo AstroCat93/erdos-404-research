@@ -1,0 +1,19 @@
+# verify-computation command log (round 3 computational referee), started Wed Oct 21 19:33:07 CDT 2026
+clang -O2 gblock.c; for p in 2 3 5 7 11 13 17 19: gblock p > out/gblock_p.txt
+python3 code/theta_ref.py out > out/theta_ref.txt
+python3 code/theta_direct.py > out/theta_direct.txt
+python3 code/p2_checks.py > out/p2_checks.txt
+python3 code/cor1130.py > out/cor1130.txt
+code/run_dim.sh > out/dim_table.txt (background, 2 threads)
+code/run_l2.sh > out/l2_runs.txt (background, 1 thread; l2refw = -DWIDE build)
+l2refd (-DDBL) on (13,13,6),(11,1,7),(13,1,7),(7,1,9),(5,1,11): out/l2_dbl.txt
+gdec census small cases -> out/census_small.txt
+python3 code/g2deep.py range 1024 4096 > out/g2_range_cap1024.txt (bg)
+python3 code/g2deep.py 4094 <20 survivors>; then 8000: 2210 3456; 12000: 1102; 19000: 34 -> out/g2_deep.txt (bg)
+gdec census 2 28 2 > out/census_p2_G28.txt (bg)
+python3 code/gateconst.py > out/gateconst.txt
+python3 code/cov_check.py 13 3 19 32 > out/cov13_3.txt
+annref (2,12),(3,6),(5,5),(7,4),(2,6),(3,3),(5,2),(7,2) -> out/annref.txt
+gdec mc 5 11 2000000 20261021 2; gdec mc 7 9 240000 20261022 2; gdec mc 2 126 4000000 20261023 2 -> out/mc_*.txt
+python3 code/mc256.py 256 1000000 11 code > out/mc_py_cap256.txt & python3 code/mc256.py 512 300000 12 code > out/mc_py_cap512.txt
+killed g2deep 19000 34 (would exceed 45 min); g2(1102)=11536 in 2258 s

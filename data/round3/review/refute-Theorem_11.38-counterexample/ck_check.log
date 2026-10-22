@@ -1,0 +1,25 @@
+p=2 N0=1 k=22 C_k=4.17366362 log_p C_k=2.061314 sum log_p(1+Gamma_group)=7.509775
+p=2 N0=2 k=22 C_k=4.17366362 log_p C_k=2.061314 sum log_p(1+Gamma_group)=7.509775
+p=2 N0=3 k=22 C_k=7.71342087 log_p C_k=2.947371 sum log_p(1+Gamma_group)=7.924813
+p=2 N0=5 k=22 C_k=8.09238434 log_p C_k=3.016565 sum log_p(1+Gamma_group)=7.509775
+p=2 N0=7 k=22 C_k=13.7203751 log_p C_k=3.778248 sum log_p(1+Gamma_group)=7.924813
+p=3 N0=1 k=13 C_k=1.30818934 log_p C_k=0.244530 sum log_p(1+Gamma_group)=2.676102
+p=3 N0=2 k=13 C_k=1.99399653 log_p C_k=0.628193 sum log_p(1+Gamma_group)=2.937961
+p=3 N0=3 k=13 C_k=1.33025742 log_p C_k=0.259757 sum log_p(1+Gamma_group)=2.596900
+p=3 N0=4 k=13 C_k=1.81983464 log_p C_k=0.545002 sum log_p(1+Gamma_group)=2.676102
+p=3 N0=8 k=13 C_k=5.24326089 log_p C_k=1.508215 sum log_p(1+Gamma_group)=3.489690
+p=3 N0=9 k=13 C_k=1.16833283 log_p C_k=0.141613 sum log_p(1+Gamma_group)=2.596900
+p=5 N0=1 k=8 C_k=1.07900224 log_p C_k=0.047244 sum log_p(1+Gamma_group)=0.556366
+p=5 N0=3 k=8 C_k=1.93339164 log_p C_k=0.409631 sum log_p(1+Gamma_group)=0.913860
+p=5 N0=5 k=8 C_k=1.0415539 log_p C_k=0.025297 sum log_p(1+Gamma_group)=0.544752
+p=5 N0=7 k=8 C_k=1.12395641 log_p C_k=0.072606 sum log_p(1+Gamma_group)=0.578963
+p=5 N0=25 k=8 C_k=1.05728198 log_p C_k=0.034609 sum log_p(1+Gamma_group)=0.544752
+p=7 N0=1 k=7 C_k=1.01932921 log_p C_k=0.009838 sum log_p(1+Gamma_group)=0.053174
+p=7 N0=4 k=7 C_k=1.32926415 log_p C_k=0.146269 sum log_p(1+Gamma_group)=0.183472
+p=7 N0=7 k=7 C_k=1.0149568 log_p C_k=0.007629 sum log_p(1+Gamma_group)=0.091248
+p=7 N0=49 k=7 C_k=1.01490631 log_p C_k=0.007604 sum log_p(1+Gamma_group)=0.051014
+p=11 N0=1 k=5 C_k=1.00206856 log_p C_k=0.000862 sum log_p(1+Gamma_group)=0.003255
+p=11 N0=6 k=5 C_k=1.1603656 log_p C_k=0.062027 sum log_p(1+Gamma_group)=0.064346
+p=13 N0=1 k=5 C_k=1.00002866 log_p C_k=0.000011 sum log_p(1+Gamma_group)=0.000045
+p=13 N0=13 k=5 C_k=1.00002254 log_p C_k=0.000009 sum log_p(1+Gamma_group)=0.000043
+python3 "$D/ck_check.py"  1.59s user 0.11s system 76% cpu 2.207 total

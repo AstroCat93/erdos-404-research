@@ -1,0 +1,63 @@
+time: command terminated abnormally
+real 0.11
+user 0.00
+sys 0.00
+time: command terminated abnormally
+real 0.00
+user 0.00
+sys 0.00
+time: command terminated abnormally
+real 0.00
+user 0.00
+sys 0.00
+time: command terminated abnormally
+real 0.00
+user 0.00
+sys 0.00
+time: command terminated abnormally
+real 0.00
+user 0.00
+sys 0.00
+time: command terminated abnormally
+real 0.00
+user 0.00
+sys 0.00
+time: command terminated abnormally
+real 0.00
+user 0.00
+sys 0.00
+  secs=0
+  secs=0
+  secs=0
+  secs=0
+  secs=0
+  secs=0
+  secs=0
+p=2 w=1 K=2 weightcheck=2/2 D=0.6462406252
+  secs=0
+p=2 w=3 K=16 weightcheck=32768/32768 D=0.7543088505
+  secs=0
+p=3 w=1 K=8 weightcheck=2187/2187 D=0.8068732786
+  secs=0
+p=3 w=2 K=10 weightcheck=19683/19683 D=0.8591864596
+  secs=0
+p=5 w=1 K=7 weightcheck=15625/15625 D=0.9236947455
+  secs=0
+p=7 w=1 K=5 weightcheck=2401/2401 D=0.9855568255
+  secs=0
+p=2 w=5 K=16 weightcheck=32768/32768 D=0.8054461177
+  secs=0
+p=2 w=7 K=22 weightcheck=2097152/2097152 D=0.8333929553
+  secs=181
+p=3 w=5 K=13 weightcheck=531441/531441 D=0.9247356695
+  secs=18
+p=5 w=3 K=8 weightcheck=78125/78125 D=0.9691131074
+  secs=1
+p=7 w=2 K=6 weightcheck=16807/16807 D=0.9921376170
+  secs=0
+rc=127 secs=0
+MC p=2 w=9 K=22 n=600 D~=0.849392 se=0.001672
+MC p=2 w=9 K=22 n=30000 D~=0.853383 se=0.000244
+MC p=2 w=7 K=22 n=30000 D~=0.832854 se=0.000303
+p=2 w=9 K=22 weightcheck=2097152/2097152 D=0.8530453403
+secs=249

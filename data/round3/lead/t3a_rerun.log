@@ -1,0 +1,79 @@
+### theta.py
+# p  theta_p(fair coins) upper   1-theta_p lower   theta_set_p upper   1-theta_set lower   1-p^-L_p   (J0 closed-form start)
+p= 2  theta=3.962406252e-01  1-theta>=0.603759374820   theta_set=3.537593748e-01  1-theta_set>=0.646240625180   1-p^-L=0.500000000 (L_p=1)   J0=2 J1=2
+p= 3  theta=2.294000283e-01  1-theta>=0.770599971714   theta_set=1.931267214e-01  1-theta_set>=0.806873278571   1-p^-L=0.666666667 (L_p=1)   J0=2 J1=2
+p= 5  theta=1.101338076e-01  1-theta>=0.889866192437   theta_set=7.630525447e-02  1-theta_set>=0.923694745532   1-p^-L=0.800000000 (L_p=1)   J0=3 J1=3
+p= 7  theta=2.660793049e-02  1-theta>=0.973392069507   theta_set=1.444317446e-02  1-theta_set>=0.985556825536   1-p^-L=0.979591837 (L_p=2)   J0=4 J1=4
+p=11  theta=6.235699040e-03  1-theta>=0.993764300960   theta_set=1.731683986e-03  1-theta_set>=0.998268316014   1-p^-L=0.991735537 (L_p=2)   J0=5 J1=5
+p=13  theta=9.076755152e-04  1-theta>=0.999092324485   theta_set=3.432488224e-04  1-theta_set>=0.999656751178   1-p^-L=0.994082840 (L_p=2)   J0=6 J1=6
+p=17  theta=8.410653547e-05  1-theta>=0.999915893465   theta_set=3.456728121e-05  1-theta_set>=0.999965432719   1-p^-L=0.999796458 (L_p=3)   J0=7 J1=7
+p=19  theta=3.406650642e-05  1-theta>=0.999965933494   theta_set=6.774490287e-06  1-theta_set>=0.999993225510   1-p^-L=0.999854206 (L_p=3)   J0=7 J1=7
+python3 code/theta.py  0.03s user 0.01s system 77% cpu 0.063 total
+### verify_l2_r3.py
+p=13 N0=13 k=1 M=13 C=1.000022023916 file(p13_E7_N13.txt) equal=True fourier=1.000022023916 |diff|=0.0e+00
+p=13 N0=13 k=2 M=26 C=1.000022537691 file(p13_E7_N13.txt) equal=True fourier=1.000022537691 |diff|=2.2e-16
+p=13 N0=13 k=3 M=39 C=1.000022537691 file(p13_E7_N13.txt) equal=True fourier=1.000022537691 |diff|=0.0e+00
+p=13 N0=13 k=4 M=52 C=1.000022537691 file(p13_E7_N13.txt) equal=True fourier=1.000022537691 |diff|=0.0e+00
+cases checked: 111, mismatches: 0
+python3 code/verify_l2_r3.py  1.74s user 0.06s system 98% cpu 1.833 total
+tail -5  0.00s user 0.00s system 0% cpu 1.832 total
+### gamma_enum 3
+p=3  e_u = 2 -2 1
+p=3  Sigma_p=5  total_weight=4^p=64  weight(W=0)=12
+p=3  distinct integer subset sums = 6  (3*2^(p-2) = 6)
+p=3 J=1  p^J=3  cnt=22  dist=3  pJ>Sigma=0
+p=3 J=2  p^J=9  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=3  p^J=27  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=4  p^J=81  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=5  p^J=243  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=6  p^J=729  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=7  p^J=2187  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=8  p^J=6561  cnt=12  dist=6  pJ>Sigma=1
+### gamma_enum 5
+p=5  e_u = 24 -24 12 -4 1
+p=5  Sigma_p=65  total_weight=4^p=1024  weight(W=0)=48
+p=5  distinct integer subset sums = 24  (3*2^(p-2) = 24)
+p=5 J=1  p^J=5  cnt=212  dist=5  pJ>Sigma=0
+p=5 J=2  p^J=25  cnt=80  dist=16  pJ>Sigma=0
+p=5 J=3  p^J=125  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=4  p^J=625  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=5  p^J=3125  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=6  p^J=15625  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=7  p^J=78125  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=8  p^J=390625  cnt=48  dist=24  pJ>Sigma=1
+### gamma_enum 7
+p=7  e_u = 720 -720 360 -120 30 -6 1
+p=7  Sigma_p=1957  total_weight=4^p=16384  weight(W=0)=192
+p=7  distinct integer subset sums = 96  (3*2^(p-2) = 96)
+p=7 J=1  p^J=7  cnt=2374  dist=7  pJ>Sigma=0
+p=7 J=2  p^J=49  cnt=372  dist=49  pJ>Sigma=0
+p=7 J=3  p^J=343  cnt=194  dist=95  pJ>Sigma=0
+p=7 J=4  p^J=2401  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=5  p^J=16807  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=6  p^J=117649  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=7  p^J=823543  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=8  p^J=5764801  cnt=192  dist=96  pJ>Sigma=1
+### gamma_enum 11
+p=11  e_u = 3628800 -3628800 1814400 -604800 151200 -30240 5040 -720 90 -10 1
+p=11  Sigma_p=9864101  total_weight=4^p=4194304  weight(W=0)=3072
+p=11  distinct integer subset sums = 1536  (3*2^(p-2) = 1536)
+p=11 J=1  p^J=11  cnt=381848  dist=11  pJ>Sigma=0
+p=11 J=2  p^J=121  cnt=38532  dist=121  pJ>Sigma=0
+p=11 J=3  p^J=1331  cnt=5676  dist=932  pJ>Sigma=0
+p=11 J=4  p^J=14641  cnt=3144  dist=1500  pJ>Sigma=0
+p=11 J=5  p^J=161051  cnt=3072  dist=1536  pJ>Sigma=0
+p=11 J=6  p^J=1771561  cnt=3072  dist=1536  pJ>Sigma=0
+p=11 J=7  p^J=19487171  cnt=3072  dist=1536  pJ>Sigma=1
+p=11 J=8  p^J=214358881  cnt=3072  dist=1536  pJ>Sigma=1
+### gamma_enum 13
+p=13  e_u = 479001600 -479001600 239500800 -79833600 19958400 -3991680 665280 -95040 11880 -1320 132 -12 1
+p=13  Sigma_p=1302061345  total_weight=4^p=67108864  weight(W=0)=12288
+p=13  distinct integer subset sums = 6144  (3*2^(p-2) = 6144)
+p=13 J=1  p^J=13  cnt=5162334  dist=13  pJ>Sigma=0
+p=13 J=2  p^J=169  cnt=400320  dist=169  pJ>Sigma=0
+p=13 J=3  p^J=2197  cnt=36424  dist=2163  pJ>Sigma=0
+p=13 J=4  p^J=28561  cnt=16180  dist=5178  pJ>Sigma=0
+p=13 J=5  p^J=371293  cnt=12304  dist=6136  pJ>Sigma=0
+p=13 J=6  p^J=4826809  cnt=12288  dist=6144  pJ>Sigma=0
+p=13 J=7  p^J=62748517  cnt=12288  dist=6144  pJ>Sigma=0
+p=13 J=8  p^J=815730721  cnt=12288  dist=6144  pJ>Sigma=0

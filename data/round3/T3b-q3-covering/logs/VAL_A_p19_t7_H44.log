@@ -1,0 +1,41 @@
+# CMD: bin/fibcov_ip 19 7 44 2 pos 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+# START 2026-10-12 14:43:07 CDT unix=1791834187 host=<host>
+# fibcov_ip(A') p=19 t=7 H=44 c=2 M=9 k=2  Q=322687697779 fibre=893871739 bits (106 MB + 53 MB save)
+A p=19 t=7 H=44 c=2 M=9 K=1 missing=4 NOT_COVERED [66.23s]
+A p=19 t=7 H=44 c=2 M=9 K=2 missing=0 COVERED [70.44s]
+A p=19 t=7 H=44 c=2 M=9 K=3 missing=0 COVERED [62.85s]
+A p=19 t=7 H=44 c=2 M=9 K=4 missing=0 COVERED [58.52s]
+A p=19 t=7 H=44 c=2 M=9 K=5 missing=8 NOT_COVERED [58.92s]
+A p=19 t=7 H=44 c=2 M=9 K=6 missing=0 COVERED [56.68s]
+A p=19 t=7 H=44 c=2 M=9 K=7 missing=0 COVERED [62.76s]
+A p=19 t=7 H=44 c=2 M=9 K=8 missing=0 COVERED [65.00s]
+A p=19 t=7 H=44 c=2 M=9 K=9 missing=4 NOT_COVERED [61.45s]
+A p=19 t=7 H=44 c=2 M=9 K=10 missing=0 COVERED [61.37s]
+A p=19 t=7 H=44 c=2 M=9 K=11 missing=4 NOT_COVERED [66.78s]
+A p=19 t=7 H=44 c=2 M=9 K=12 missing=4 NOT_COVERED [67.43s]
+A p=19 t=7 H=44 c=2 M=9 K=13 missing=0 COVERED [64.48s]
+A p=19 t=7 H=44 c=2 M=9 K=14 missing=4 NOT_COVERED [60.17s]
+A p=19 t=7 H=44 c=2 M=9 K=15 missing=0 COVERED [55.93s]
+A p=19 t=7 H=44 c=2 M=9 K=16 missing=4 NOT_COVERED [58.31s]
+A p=19 t=7 H=44 c=2 M=9 K=17 missing=0 COVERED [60.03s]
+A p=19 t=7 H=44 c=2 M=9 K=18 missing=0 COVERED [89.60s]
+SUMMARY A' p=19 t=7 H=44 c=2 M=9 k=2 mode=pos nK=18 fail=7 worst_missing=8 SOME_NOT_COVERED total=1147.0s
+     1147.02 real      1025.76 user        13.05 sys
+           185401344  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              208282  page reclaims
+                  13  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 769  voluntary context switches
+             2890867  involuntary context switches
+      27535284580363  instructions retired
+       3982587186454  cycles elapsed
+           185729576  peak memory footprint
+# END 2026-10-12 15:02:14 CDT unix=1791835334 exit=0

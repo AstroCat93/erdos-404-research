@@ -1,0 +1,1 @@
+python3 code/g2deep.py range 1024 4096 > out/g2_range_cap1024.txt  21.54s user 0.20s system 98% cpu 21.989 total

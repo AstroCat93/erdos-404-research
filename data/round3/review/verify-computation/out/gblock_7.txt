@@ -1,0 +1,26 @@
+p=7 W==0 weight=192 (4^p=2^14)
+j=0 cnt=16384
+j=1 cnt=2374
+j=2 cnt=372
+j=3 cnt=194
+j=4 cnt=192
+j=5 cnt=192
+j=6 cnt=192
+j=7 cnt=192
+j=8 cnt=192
+j=9 cnt=192
+j=10 cnt=192
+j=11 cnt=192
+j=12 cnt=192
+j=13 cnt=192
+j=14 cnt=192
+j=15 cnt=192
+j=16 cnt=192
+j=17 cnt=192
+j=18 cnt=192
+j=19 cnt=192
+j=20 cnt=192
+j=21 cnt=192
+j=22 cnt=192
+j=23 cnt=192
+j=24 cnt=192

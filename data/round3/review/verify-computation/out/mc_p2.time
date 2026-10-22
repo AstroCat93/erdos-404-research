@@ -1,0 +1,1 @@
+$S/gdec mc 2 126 4000000 20261023 2 > out/mc_p2_cap126.txt  370.13s user 2.50s system 198% cpu 3:07.54 total

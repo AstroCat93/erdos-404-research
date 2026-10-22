@@ -1,0 +1,23 @@
+p=13 E=7 N0=13 modulus=62748517 M=78 wide=1
+  element 8/78 (n!=51266878 mod, v=1) t=0.5s
+  element 16/78 (n!=60604921 mod, v=2) t=0.8s
+  element 24/78 (n!=18169021 mod, v=2) t=1.1s
+  element 32/78 (n!=7186387 mod, v=3) t=1.3s
+  element 40/78 (n!=29646318 mod, v=4) t=1.6s
+  element 48/78 (n!=51209873 mod, v=4) t=1.8s
+  element 56/78 (n!=2970344 mod, v=5) t=2.1s
+  element 64/78 (n!=56807829 mod, v=5) t=2.4s
+  element 72/78 (n!=57921708 mod, v=6) t=2.6s
+done in 3.3s
+real 3.30
+user 2.94
+sys 0.26
+p=3 E=17 N0=1 modulus=129140163 M=35 wide=0
+  element 8/35 (n!=40320 mod, v=2) t=0.3s
+  element 16/35 (n!=17239392 mod, v=6) t=0.6s
+  element 24/35 (n!=25568217 mod, v=10) t=1.0s
+  element 32/35 (n!=81310473 mod, v=14) t=1.3s
+done in 2.0s
+real 2.03
+user 1.87
+sys 0.13

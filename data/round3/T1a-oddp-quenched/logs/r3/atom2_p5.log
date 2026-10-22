@@ -1,0 +1,76 @@
+CMD: ./winvar 2 21 5 1 54 25 2 1.25 200 8000000
+# winvar mode=2 p=5 L=1 P=54 n0=25 nwin=2 ratio=1.250 nsamp=200 maxpop=8000000 K=256 seed=21
+# windows: 25 35 45
+# atom: x0 mod p^6 = 6828 (low 64 bits)
+# samples=200 aborts=0
+#  l    n   E|P|     E[M]      E[M^2]    Var[M]   E[(M_l-M_{l-1})^2]  P(M=0) hypfail hypfail(lam_max)
+  0   25    3008.0   0.86497    0.74817  -0.00000  0.00000e+00  0.0000  0.0000  0.0000
+  1   35  120051.0   0.86484    0.74799   0.00004  4.10508e-05  0.0000  0.0000  0.0000
+  2   45 4917263.3   0.86486    0.74802   0.00004  3.75282e-07  0.0000  0.0000  0.0000
+real 28.19
+user 27.99
+sys 0.15
+
+CMD: ./winvar 2 22 5 1 54 25 2 1.25 200 8000000
+# winvar mode=2 p=5 L=1 P=54 n0=25 nwin=2 ratio=1.250 nsamp=200 maxpop=8000000 K=256 seed=22
+# windows: 25 35 45
+# atom: x0 mod p^6 = 3818 (low 64 bits)
+# samples=200 aborts=0
+#  l    n   E|P|     E[M]      E[M^2]    Var[M]   E[(M_l-M_{l-1})^2]  P(M=0) hypfail hypfail(lam_max)
+  0   25    5712.0   1.77068    3.13530   0.00000  0.00000e+00  0.0000  0.0000  0.0000
+  1   35   46697.2   1.77318    3.14494   0.00077  7.79630e-04  0.0000  0.0000  0.0000
+  2   45 1913395.0   1.77293    3.14410   0.00082  2.14034e-05  0.0000  0.0000  0.0000
+real 11.43
+user 11.35
+sys 0.05
+
+CMD: ./winvar 2 23 5 1 54 25 2 1.25 200 8000000
+# winvar mode=2 p=5 L=1 P=54 n0=25 nwin=2 ratio=1.250 nsamp=200 maxpop=8000000 K=256 seed=23
+# windows: 25 35 45
+# atom: x0 mod p^6 = 11330 (low 64 bits)
+# samples=200 aborts=0
+#  l    n   E|P|     E[M]      E[M^2]    Var[M]   E[(M_l-M_{l-1})^2]  P(M=0) hypfail hypfail(lam_max)
+  0   25     588.0   0.23392    0.05472   0.00000  0.00000e+00  0.0000  0.0000  0.0000
+  1   35   24229.2   0.23393    0.05473   0.00000  2.44308e-06  0.0000  0.0000  0.0000
+  2   45   39650.2   0.23379    0.05466   0.00000  2.07682e-06  0.0000  0.0000  0.0000
+real 6.72
+user 6.69
+sys 0.01
+
+CMD: ./winvar 2 24 5 1 54 25 2 1.25 200 8000000
+# winvar mode=2 p=5 L=1 P=54 n0=25 nwin=2 ratio=1.250 nsamp=200 maxpop=8000000 K=256 seed=24
+# windows: 25 35 45
+# atom: x0 mod p^6 = 10650 (low 64 bits)
+# samples=200 aborts=0
+#  l    n   E|P|     E[M]      E[M^2]    Var[M]   E[(M_l-M_{l-1})^2]  P(M=0) hypfail hypfail(lam_max)
+  0   25     681.0   0.31662    0.10025  -0.00000  0.00000e+00  0.0000  0.0000  0.0000
+  1   35   27844.5   0.31655    0.10021   0.00000  2.94443e-06  0.0000  0.0000  0.0000
+  2   45 1140348.2   0.31651    0.10018   0.00000  1.00241e-07  0.0000  0.0000  0.0000
+real 16.49
+user 16.42
+sys 0.05
+
+CMD: ./winvar 2 25 5 2 54 30 1 1.25 200 8000000
+# winvar mode=2 p=5 L=2 P=54 n0=30 nwin=1 ratio=1.250 nsamp=200 maxpop=8000000 K=256 seed=25
+# windows: 30 45
+# atom: x0 mod p^8 = 33523 (low 64 bits)
+# samples=200 aborts=0
+#  l    n   E|P|     E[M]      E[M^2]    Var[M]   E[(M_l-M_{l-1})^2]  P(M=0) hypfail hypfail(lam_max)
+  0   30   17760.0   3.73390   13.94202  -0.00000  0.00000e+00  0.0000  0.0000  0.0000
+  1   45 4649842.2   3.73393   13.94223   0.00003  2.88305e-05  0.0000  0.0000  0.0000
+real 34.82
+user 34.68
+sys 0.13
+
+CMD: ./winvar 2 26 5 2 54 30 1 1.25 200 8000000
+# winvar mode=2 p=5 L=2 P=54 n0=30 nwin=1 ratio=1.250 nsamp=200 maxpop=8000000 K=256 seed=26
+# windows: 30 45
+# atom: x0 mod p^7 = 72563 (low 64 bits)
+# samples=200 aborts=0
+#  l    n   E|P|     E[M]      E[M^2]    Var[M]   E[(M_l-M_{l-1})^2]  P(M=0) hypfail hypfail(lam_max)
+  0   30    5568.0   0.40749    0.16605   0.00000  0.00000e+00  0.0000  0.0000  0.0000
+  1   45  293773.5   0.40768    0.16622   0.00002  1.85986e-05  0.0000  1.0000  1.0000
+real 2.83
+user 2.82
+sys 0.00
+

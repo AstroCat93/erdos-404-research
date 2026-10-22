@@ -1,0 +1,36 @@
+# bottleneck.py re-run 2026-10-20 17:31:35 CDT for the registered cases (kmax=min(c,t,5)); nu = R*/ln(n p^M)
+p=19 t=8 H=47 c=2 M=10 rho=8 R0=22.95 R*=17.03
+  k=1: |L_k|=9 |U_k|=38 min m_k=20 avg=26.95 R_k=17.04 #argmin=2 argmin=[3, 10]
+  k=2: |L_k|=28 |U_k|=19 min m_k=551788 avg=7.436e+05 R_k=17.03 #argmin=2 argmin=[29, 136]
+p=19 t=8 H=48 c=2 M=10 rho=9 R0=45.91 R*=39.18
+  k=1: |L_k|=10 |U_k|=38 min m_k=46 avg=53.89 R_k=39.18 #argmin=2 argmin=[2, 15]
+  k=2: |L_k|=29 |U_k|=19 min m_k=1269162 avg=1.487e+06 R_k=39.18 #argmin=2 argmin=[262, 287]
+p=19 t=8 H=49 c=2 M=10 rho=10 R0=91.82 R*=86.03
+  k=1: |L_k|=11 |U_k|=38 min m_k=101 avg=107.8 R_k=86.04 #argmin=2 argmin=[5, 16]
+  k=2: |L_k|=30 |U_k|=19 min m_k=2786675 avg=2.974e+06 R_k=86.03 #argmin=2 argmin=[62, 301]
+p=19 t=8 H=50 c=2 M=10 rho=11 R0=183.6 R*=177.2
+  k=1: |L_k|=12 |U_k|=38 min m_k=208 avg=215.6 R_k=177.2 #argmin=2 argmin=[0, 17]
+  k=2: |L_k|=31 |U_k|=19 min m_k=5739069 avg=5.949e+06 R_k=177.2 #argmin=2 argmin=[266, 359]
+p=13 t=9 H=49 c=3 M=12 rho=9 R0=24.16 R*=23.9
+  k=1: |L_k|=10 |U_k|=39 min m_k=78 avg=78.77 R_k=23.93 #argmin=7 argmin=[4, 5, 6, 7, 8, 9, 10]
+  k=2: |L_k|=23 |U_k|=26 min m_k=49106 avg=4.964e+04 R_k=23.9 #argmin=1 argmin=[59]
+  k=3: |L_k|=36 |U_k|=13 min m_k=30944079 avg=3.128e+07 R_k=23.9 #argmin=2 argmin=[228, 397]
+p=13 t=9 H=50 c=3 M=12 rho=10 R0=48.33 R*=47.82
+  k=1: |L_k|=11 |U_k|=39 min m_k=156 avg=157.5 R_k=47.85 #argmin=3 argmin=[2, 5, 12]
+  k=2: |L_k|=24 |U_k|=26 min m_k=98235 avg=9.927e+04 R_k=47.82 #argmin=2 argmin=[135, 168]
+  k=3: |L_k|=37 |U_k|=13 min m_k=61902881 avg=6.256e+07 R_k=47.82 #argmin=2 argmin=[980, 1351]
+p=13 t=9 H=51 c=3 M=12 rho=11 R0=96.65 R*=95.65
+  k=1: |L_k|=12 |U_k|=39 min m_k=312 avg=315.1 R_k=95.71 #argmin=1 argmin=[11]
+  k=2: |L_k|=25 |U_k|=26 min m_k=196484 avg=1.985e+05 R_k=95.65 #argmin=1 argmin=[115]
+  k=3: |L_k|=38 |U_k|=13 min m_k=123814720 avg=1.251e+08 R_k=95.65 #argmin=2 argmin=[791, 1298]
+p=19 t=7 H=44 c=2 M=9 rho=5 R0=54.52 R*=32.36
+  k=1: |L_k|=6 |U_k|=38 min m_k=2 avg=3.368 R_k=32.37 #argmin=6 argmin=[3, 4, 5, 8, 9, 10]
+  k=2: |L_k|=25 |U_k|=19 min m_k=55164 avg=9.295e+04 R_k=32.36 #argmin=10 argmin=[47, 48, 250, 251, 307, 308, 309, 350, 351, 352]
+p=19 t=7 H=45 c=2 M=9 rho=6 R0=109 R*=64.71
+  k=1: |L_k|=7 |U_k|=38 min m_k=4 avg=6.737 R_k=64.74 #argmin=1 argmin=[9]
+  k=2: |L_k|=26 |U_k|=19 min m_k=110328 avg=1.859e+05 R_k=64.71 #argmin=1 argmin=[123]
+19 7 44 n=18 nu=1.101
+19 7 45 n=18 nu=2.202
+19 7 45 n=342 nu=2.001
+19 8 47 n=18 nu=0.527
+19 8 49 n=18 nu=2.661

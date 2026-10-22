@@ -1,0 +1,90 @@
+[
+ {
+  "p": 2,
+  "G": 16,
+  "classes": 65536,
+  "surviving": 9942,
+  "sumN": "1212416",
+  "sumN2": "8504752512",
+  "maxN": 65536,
+  "agrees_with_src_annealed": true,
+  "seconds": 4
+ },
+ {
+  "p": 2,
+  "G": 18,
+  "classes": 262144,
+  "surviving": 38554,
+  "sumN": "5922816",
+  "sumN2": "136411967776",
+  "maxN": 262144,
+  "agrees_with_src_annealed": true,
+  "seconds": 54
+ },
+ {
+  "p": 3,
+  "G": 11,
+  "classes": 177147,
+  "surviving": 65795,
+  "sumN": "350378442",
+  "sumN2": "1655707868044144",
+  "maxN": 33554432,
+  "agrees_with_src_annealed": true,
+  "seconds": 22
+ },
+ {
+  "p": 5,
+  "G": 7,
+  "classes": 78125,
+  "surviving": 40810,
+  "sumN": "1790899904",
+  "sumN2": "88762301640928760",
+  "maxN": 268435456,
+  "agrees_with_src_annealed": true,
+  "seconds": 6
+ },
+ {
+  "p": 7,
+  "G": 6,
+  "classes": 117649,
+  "surviving": 73424,
+  "sumN": "6316047228704",
+  "sumN2": "1357291750527971456457138",
+  "maxN": 1099511627776,
+  "agrees_with_src_annealed": true,
+  "seconds": 20
+ },
+ {
+  "p": 3,
+  "G": 10,
+  "classes": 59049,
+  "surviving": 22095,
+  "sumN": "39234798",
+  "sumN2": "25866505409852",
+  "maxN": 4194304,
+  "agrees_with_src_annealed": true,
+  "seconds": 3
+ },
+ {
+  "p": 5,
+  "G": 6,
+  "classes": 15625,
+  "surviving": 8179,
+  "sumN": "49187622",
+  "sumN2": "86703392229046",
+  "maxN": 8388608,
+  "agrees_with_src_annealed": true,
+  "seconds": 0
+ },
+ {
+  "p": 7,
+  "G": 5,
+  "classes": 16807,
+  "surviving": 10502,
+  "sumN": "42641350848",
+  "sumN2": "82849311187130230678",
+  "maxN": 8589934592,
+  "agrees_with_src_annealed": true,
+  "seconds": 0
+ }
+]

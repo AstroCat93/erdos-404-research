@@ -1,0 +1,28 @@
+2026-10-22T00:00:56Z
+### wdim 3 5 13
+p=3 w=5 K=13 P=15 types=531441 mean_log_p_N=6.9355175214 mean_G_capped=7.499009 D=0.9247356695
+real 17.61
+### wdim 13 1 5
+p=13 w=1 K=5 P=13 types=28561 mean_log_p_N=1.0829614791 mean_G_capped=1.083330 D=0.9996567499
+real 0.01
+### wdim 5 3 8
+p=5 w=3 K=8 P=15 types=78125 mean_log_p_N=3.6341741527 mean_G_capped=3.749760 D=0.9691131074
+real 0.56
+### wdim 7 2 6
+p=7 w=2 K=6 P=14 types=16807 mean_log_p_N=2.3149877730 mean_G_capped=2.333195 D=0.9921376170
+real 0.03
+### wdim 11 1 5
+p=11 w=1 K=5 P=11 types=14641 mean_log_p_N=1.0980951476 mean_G_capped=1.099993 D=0.9982683160
+real 0.00
+### wdim 3 1 8
+p=3 w=1 K=8 P=3 types=2187 mean_log_p_N=1.2103099179 mean_G_capped=1.499771 D=0.8068732786
+real 0.00
+### wdim 2 7 22
+p=2 w=7 K=22 P=14 types=2097152 mean_log_p_N=11.6675013749 mean_G_capped=13.997437 D=0.8333929553
+real 46.77
+### wdim_check
+2 3 7 0.7317424946
+3 2 5 0.8550881683
+5 1 4 0.9236947455
+2 5 6 0.4840765375
+7 1 3 0.9855433782

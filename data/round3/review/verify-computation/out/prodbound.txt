@@ -1,0 +1,7 @@
+p=2 N0=1 k=28: product bound = 410.062500
+p=3 N0=1 k=17: product bound = 33.946627
+p=5 N0=1 k=12: product bound = 5.124190
+p=7 N0=1 k=10: product bound = 1.251455
+p=11 N0=1 k=7: product bound = 1.010732
+p=13 N0=1 k=7: product bound = 1.000161
+p=13 N0=13 k=6: product bound = 1.000132

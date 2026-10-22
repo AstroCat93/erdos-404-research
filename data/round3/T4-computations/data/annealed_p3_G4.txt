@@ -1,0 +1,8 @@
+# p=3 G=4 M_G=8 p^G=81  (Z = p^G N / 2^{M_G}; rows: maxv = max_{1<=i<=M_G} v_p(x+i))
+# maxv classes surviving sumN sumN2 maxN
+row 1 9 9 24 82 5
+row 2 48 21 182 2362 18
+row 3 16 4 104 4640 48
+row 4 8 3 140 16464 128
+total classes=81 surviving=37 sumN=450 sumN2=23548 maxN=128
+EZ=1.7578125 EZ2=29.10443115 ratio=9.4192 delta=0.4567901235

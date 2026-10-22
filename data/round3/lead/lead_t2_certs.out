@@ -1,0 +1,7 @@
+(a) S_e(-4) over 8 words: [1, -5, 7, 1, -2, -8, 4, -2] ; max v2 = 3
+Phi(-4), e2=1,e3=0 (cases b,c): 4 cases, values [Fraction(-26, 5), Fraction(4, 5), Fraction(34, 5)], max v2 = 2, histogram {1: 2, 2: 2}
+Phi(-4), e2=0,e3=1 (case b): 4 cases, values [Fraction(-46, 5), Fraction(-16, 5), Fraction(14, 5)], max v2 = 4, histogram {1: 2, 4: 2}
+Phi(-8), e2=0,e3=1 (case c): 64 cases, values (64 values), max v2 = 7, histogram {1: 32, 3: 16, 4: 8, 5: 3, 6: 4, 7: 1}
+identity S_e = y(y-1)Phi_e(y): 2000 random (word, x), failures = 0
+S_{1,3}(x) - (x+2)^3 at x=-50..50: all zero = True
+python3 -I code_r3/lead/lead_t2_certs.py  0.08s user 0.02s system 80% cpu 0.131 total

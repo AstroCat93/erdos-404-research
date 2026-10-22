@@ -1,0 +1,13 @@
+p=2 J0=2 Gamma(1)=0 dist=[2, 3] maxfull=1
+   theta_p=0.39624062518  theta_set=0.35375937482  1-theta_set=0.64624062518
+p=3 J0=2 Gamma(1)=1/32 dist=[3, 6] maxfull=1
+   theta_p=0.229400028286  theta_set=0.193126721429  1-theta_set=0.806873278571
+p=5 J0=3 Gamma(1)=9/256 dist=[5, 16, 24] maxfull=1
+   theta_p=0.110133807563  theta_set=0.0763052544678  1-theta_set=0.923694745532
+p=7 J0=4 Gamma(1)=117/8192 dist=[7, 49, 95, 96] maxfull=2
+   theta_p=0.0266079304932  theta_set=0.0144431744641  1-theta_set=0.985556825536
+p=11 J0=5 Gamma(1)=753/524288 dist=[11, 121, 932, 1500, 1536] maxfull=2
+   theta_p=0.00623569903984  theta_set=0.00173168398637  1-theta_set=0.998268316014
+p=13 J0=6 Gamma(1)=739/33554432 dist=[13, 169, 2163, 5178, 6136, 6144] maxfull=2
+   theta_p=0.000907675515211  theta_set=0.000343248822436  1-theta_set=0.999656751178
+python3 "$W/constants.py" 2 3 5 7 11 13  0.65s user 0.05s system 66% cpu 1.048 total

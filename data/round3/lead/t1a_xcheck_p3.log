@@ -1,0 +1,6 @@
+    slope histogram of all parents: [(1, 180), (4, 28), (5, 48)]
+x#1 x%p^4=28 m=9 D=4 M_n=2 M_N=3 conds={'W1': True, 'W2': True, 'W3': True, 'env': True} parents=256 (lam<=L: 180, slope0: 0) lams=[1] firstmoment=True inherit=True const=True affine=True
+    M_n=0.851742 E[M_N]=0.851742 (equal: True)  E Sigma=143.4074 Var Sigma=967.8155 sum_e Var X_e=703.9246 corr-ratio=1.3749 relvar=0.04706 1/nL=0.00556 fourier=967.815501 (exact 967.815501)
+    Var by order p^d: d=1:0.3073, d=2:38.8477, d=3:916.9383, d=4:11.7222   | normalised Weyl sums of slope-0 Newton roots: d=1:0.000, d=2:0.000, d=3:0.000, d=4:0.000
+TOTAL first-moment identities exact: 180/180
+python3 window_exact2.py 3 1 1 22 28 40 1 x=9931185549497379070  1.56s user 0.03s system 99% cpu 1.600 total

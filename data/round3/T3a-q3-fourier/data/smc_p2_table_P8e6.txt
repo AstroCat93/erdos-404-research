@@ -1,0 +1,7 @@
+# 2 files: c2_N1_K1000_P8000000_s31.txt c2_N1_K1000_P8000000_s32.txt
+k=   32 (group end used: 32)  mean C=   5.3461  sd=  0.0036  min=   5.3436  max=   5.3486   (p=2 refined random model 5.062)
+k=   64 (group end used: 64)  mean C=   8.9554  sd=  0.0102  min=   8.9482  max=   8.9627   (p=2 refined random model 7.594)
+k=  128 (group end used: 128)  mean C=  13.9088  sd=  0.0208  min=  13.8941  max=  13.9235   (p=2 refined random model 11.391)
+k=  256 (group end used: 256)  mean C=  21.8079  sd=  0.1920  min=  21.6721  max=  21.9437   (p=2 refined random model 17.086)
+k=  512 (group end used: 512)  mean C=  34.9003  sd=  0.2186  min=  34.7458  max=  35.0549   (p=2 refined random model 25.629)
+k= 1000 (group end used: 1000)  mean C=  51.1720  sd=  0.1279  min=  51.0815  max=  51.2624   (p=2 refined random model 37.398)

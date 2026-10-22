@@ -1,0 +1,55 @@
+# CMD: bin/fibcov_ip 19 7 45 2 pos 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 115 116 117 118 119 120 121 122 123 124 125 126 127 128
+# START 2026-10-20 17:27:27 CDT unix=1792535247 host=<host>
+# fibcov_ip(A') p=19 t=7 H=45 c=2 M=9 k=2  Q=322687697779 fibre=893871739 bits (106 MB + 53 MB save)
+A p=19 t=7 H=45 c=2 M=9 K=96 missing=0 COVERED [59.50s]
+A p=19 t=7 H=45 c=2 M=9 K=97 missing=0 COVERED [58.70s]
+A p=19 t=7 H=45 c=2 M=9 K=98 missing=0 COVERED [60.91s]
+A p=19 t=7 H=45 c=2 M=9 K=99 missing=0 COVERED [62.41s]
+A p=19 t=7 H=45 c=2 M=9 K=100 missing=0 COVERED [64.40s]
+A p=19 t=7 H=45 c=2 M=9 K=101 missing=0 COVERED [64.59s]
+A p=19 t=7 H=45 c=2 M=9 K=102 missing=0 COVERED [59.94s]
+A p=19 t=7 H=45 c=2 M=9 K=103 missing=0 COVERED [59.13s]
+A p=19 t=7 H=45 c=2 M=9 K=104 missing=0 COVERED [61.47s]
+A p=19 t=7 H=45 c=2 M=9 K=105 missing=0 COVERED [57.82s]
+A p=19 t=7 H=45 c=2 M=9 K=106 missing=0 COVERED [58.20s]
+A p=19 t=7 H=45 c=2 M=9 K=107 missing=0 COVERED [56.63s]
+A p=19 t=7 H=45 c=2 M=9 K=108 missing=0 COVERED [58.98s]
+A p=19 t=7 H=45 c=2 M=9 K=109 missing=0 COVERED [59.25s]
+A p=19 t=7 H=45 c=2 M=9 K=110 missing=0 COVERED [58.29s]
+A p=19 t=7 H=45 c=2 M=9 K=111 missing=0 COVERED [58.83s]
+A p=19 t=7 H=45 c=2 M=9 K=112 missing=0 COVERED [58.82s]
+A p=19 t=7 H=45 c=2 M=9 K=113 missing=0 COVERED [59.03s]
+A p=19 t=7 H=45 c=2 M=9 K=115 missing=0 COVERED [58.09s]
+A p=19 t=7 H=45 c=2 M=9 K=116 missing=0 COVERED [56.67s]
+A p=19 t=7 H=45 c=2 M=9 K=117 missing=0 COVERED [58.81s]
+A p=19 t=7 H=45 c=2 M=9 K=118 missing=0 COVERED [63.34s]
+A p=19 t=7 H=45 c=2 M=9 K=119 missing=0 COVERED [58.87s]
+A p=19 t=7 H=45 c=2 M=9 K=120 missing=0 COVERED [57.62s]
+A p=19 t=7 H=45 c=2 M=9 K=121 missing=0 COVERED [56.48s]
+A p=19 t=7 H=45 c=2 M=9 K=122 missing=0 COVERED [56.94s]
+A p=19 t=7 H=45 c=2 M=9 K=123 missing=0 COVERED [63.17s]
+A p=19 t=7 H=45 c=2 M=9 K=124 missing=0 COVERED [56.18s]
+A p=19 t=7 H=45 c=2 M=9 K=125 missing=0 COVERED [55.99s]
+A p=19 t=7 H=45 c=2 M=9 K=126 missing=0 COVERED [55.12s]
+A p=19 t=7 H=45 c=2 M=9 K=127 missing=0 COVERED [56.01s]
+A p=19 t=7 H=45 c=2 M=9 K=128 missing=0 COVERED [56.79s]
+SUMMARY A' p=19 t=7 H=45 c=2 M=9 k=2 mode=pos nK=32 fail=0 worst_missing=0 ALL_COVERED total=1887.0s
+     1886.98 real      1860.65 user         8.29 sys
+           185565184  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              590092  page reclaims
+                   6  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  68  voluntary context switches
+              679824  involuntary context switches
+      49171402037740  instructions retired
+       7180989226987  cycles elapsed
+           185827880  peak memory footprint
+# END 2026-10-20 17:58:54 CDT unix=1792537134 exit=0

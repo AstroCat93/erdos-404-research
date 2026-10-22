@@ -1,0 +1,6 @@
+p=5 n=16 N=21 L=0 m=3 D=2 Mn=1 MN=2 |P|=188 M_l=0.358582 E[M_l+1]=0.358582 equal=True Var=221.03 Parseval=221.03 M^2R=0.0004908 <= 0.0004908: True
+p=5 n=16 N=21 L=0 m=3 D=1 Mn=1 MN=1 |P|=112 M_l=0.213623 E[M_l+1]=0.213623 equal=True Var=143.36 Parseval=143.36 M^2R=1.273e-05 <= 1.273e-05: True
+p=5 n=16 N=21 L=0 m=3 D=1 Mn=1 MN=1 |P|=124 M_l=0.236511 E[M_l+1]=0.236511 equal=True Var=106.24 Parseval=106.24 M^2R=9.436e-06 <= 9.436e-06: True
+p=5 n=16 N=21 L=0 m=3 D=2 Mn=1 MN=2 |P|=180 M_l=0.343323 E[M_l+1]=0.343323 equal=True Var=847.36 Parseval=847.36 M^2R=0.001882 <= 0.001882: True
+windows tested: 4 of 15 draws
+python3 -I check_window.py 5 16 21 0 4 3  3.82s user 0.08s system 90% cpu 4.316 total

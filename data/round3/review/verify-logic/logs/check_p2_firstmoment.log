@@ -1,0 +1,8 @@
+data/round3/review/verify-logic/check_p2_firstmoment.py:38: RuntimeWarning: Mean of empty slice.
+  print(f"{name}: n={n} Q={Q} integral over C∩Gamma_* of Z_n = {integral:.5f} (bound {bound}); E[Z_n|C∩Gamma]~{Z[good].mean():.3f}; max slope of alive paths {maxslope} (cert <= {L}); excluded mass {1 - good.mean():.3e} of C")
+<python-site-packages>/numpy/_core/_methods.py:138: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+C0: n=10 Q=22 integral over C∩Gamma_* of Z_n = 0.06250 (bound 1.0); E[Z_n|C∩Gamma]~0.508; max slope of alive paths 1 (cert <= 1); excluded mass 1.562e-02 of C
+C2: n=12 Q=22 integral over C∩Gamma_* of Z_n = 0.12500 (bound 8.0); E[Z_n|C∩Gamma]~1.067; max slope of alive paths 3 (cert <= 3); excluded mass 6.250e-02 of C
+C6: n=14 Q=22 integral over C∩Gamma_* of Z_n = 0.00000 (bound 256.0); E[Z_n|C∩Gamma]~nan; max slope of alive paths 0 (cert <= 6); excluded mass 1.000e+00 of C
+python3 check_p2_firstmoment.py 22  58.63s user 0.26s system 99% cpu 59.260 total

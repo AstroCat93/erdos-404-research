@@ -1,0 +1,6 @@
+# a g_capped(or CAP if survived) maxpop steps cpu_s   (p2add CAP a; -1 = population overflow)
+3456 4823 23748 4823 0.5
+2210 6261 79504 6261 8.9
+1102 11536 152100 11537 12.6
+34 18412 128928 18413 25.4
+594 16382 2136196 16381 116.4

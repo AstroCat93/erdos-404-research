@@ -1,0 +1,64 @@
+Random-model L^1 budget: least H with L1rm(p,t,H)<1 (so the L^1 criterion of Thm 10.16 could certify Cov), vs minimal certified H_t (§10.2); and L^2 budget at that H and at p^{t-1}
+p=7
+    t=1: H_L1=4 (L1rm=0.99) vs H_min=4; L2rm(H_L1)=2.62
+    t=2: H_L1=14 (L1rm=0.86) vs H_min=7; L2rm(H_L1)=23.1
+    t=3: H_L1=28 (L1rm=0.73) vs H_min=19; L2rm(H_L1)=5.88e+03
+    t=4: H_L1=41 (L1rm=0.93) vs H_min=26; L2rm(H_L1)=4e+06
+    t=5: H_L1=49 (L1rm=0.85) vs H_min=28; L2rm(H_L1)=9.81e+07
+    t=6: H_L1=76 (L1rm=0.96) vs H_min=34; L2rm(H_L1)=2.31e+13
+    t=7: H_L1=84 (L1rm=0.76) vs H_min=None; L2rm(H_L1)=5.65e+14
+    t=8: H_L1=97 (L1rm=0.94) vs H_min=None; L2rm(H_L1)=3.88e+17
+p=11
+    t=1: H_L1=6 (L1rm=0.67) vs H_min=5; L2rm(H_L1)=1.72
+    t=2: H_L1=11 (L1rm=0.84) vs H_min=10; L2rm(H_L1)=7.09
+    t=3: H_L1=22 (L1rm=0.78) vs H_min=18; L2rm(H_L1)=123
+    t=4: H_L1=33 (L1rm=0.67) vs H_min=22; L2rm(H_L1)=9.06e+03
+    t=5: H_L1=43 (L1rm=0.91) vs H_min=30; L2rm(H_L1)=2.11e+06
+    t=6: H_L1=54 (L1rm=0.78) vs H_min=33; L2rm(H_L1)=2.55e+08
+    t=7: H_L1=65 (L1rm=0.68) vs H_min=None; L2rm(H_L1)=3.08e+10
+    t=8: H_L1=75 (L1rm=0.93) vs H_min=None; L2rm(H_L1)=7.46e+12
+p=13
+    t=1: H_L1=6 (L1rm=0.8) vs H_min=6; L2rm(H_L1)=2.44
+    t=2: H_L1=12 (L1rm=0.74) vs H_min=10; L2rm(H_L1)=6.93
+    t=3: H_L1=24 (L1rm=0.64) vs H_min=19; L2rm(H_L1)=216
+    t=4: H_L1=35 (L1rm=0.87) vs H_min=24; L2rm(H_L1)=1.14e+05
+    t=5: H_L1=47 (L1rm=0.83) vs H_min=32; L2rm(H_L1)=3.83e+07
+    t=6: H_L1=52 (L1rm=0.71) vs H_min=35; L2rm(H_L1)=1.56e+07
+    t=7: H_L1=63 (L1rm=0.88) vs H_min=39; L2rm(H_L1)=1.05e+10
+    t=8: H_L1=75 (L1rm=0.73) vs H_min=None; L2rm(H_L1)=3.55e+12
+p=17
+    t=1: H_L1=7 (L1rm=0.68) vs H_min=5; L2rm(H_L1)=2.12
+    t=2: H_L1=13 (L1rm=0.81) vs H_min=11; L2rm(H_L1)=10.2
+    t=3: H_L1=26 (L1rm=0.94) vs H_min=16; L2rm(H_L1)=2.71e+03
+    t=4: H_L1=32 (L1rm=0.77) vs H_min=25; L2rm(H_L1)=1.16e+03
+    t=5: H_L1=45 (L1rm=0.73) vs H_min=30; L2rm(H_L1)=3.21e+06
+    t=6: H_L1=51 (L1rm=0.7) vs H_min=34; L2rm(H_L1)=8.73e+05
+    t=7: H_L1=63 (L1rm=0.96) vs H_min=43; L2rm(H_L1)=7.88e+09
+    t=8: H_L1=77 (L1rm=0.74) vs H_min=None; L2rm(H_L1)=1.82e+13
+p=19
+    t=1: H_L1=7 (L1rm=0.76) vs H_min=5; L2rm(H_L1)=2.67
+    t=2: H_L1=14 (L1rm=0.65) vs H_min=12; L2rm(H_L1)=7.93
+    t=3: H_L1=28 (L1rm=0.73) vs H_min=17; L2rm(H_L1)=4.64e+03
+    t=4: H_L1=33 (L1rm=0.87) vs H_min=27; L2rm(H_L1)=3.43e+03
+    t=5: H_L1=47 (L1rm=0.85) vs H_min=31; L2rm(H_L1)=3.14e+07
+    t=6: H_L1=53 (L1rm=0.71) vs H_min=35; L2rm(H_L1)=9.36e+06
+    t=7: H_L1=67 (L1rm=0.64) vs H_min=None; L2rm(H_L1)=1.08e+11
+    t=8: H_L1=72 (L1rm=0.9) vs H_min=None; L2rm(H_L1)=6.4e+10
+p=23
+    t=1: H_L1=7 (L1rm=0.93) vs H_min=7; L2rm(H_L1)=3.95
+    t=2: H_L1=14 (L1rm=0.95) vs H_min=12; L2rm(H_L1)=17
+    t=3: H_L1=21 (L1rm=0.93) vs H_min=18; L2rm(H_L1)=70.6
+    t=4: H_L1=35 (L1rm=0.98) vs H_min=23; L2rm(H_L1)=3.58e+04
+    t=5: H_L1=42 (L1rm=0.86) vs H_min=33; L2rm(H_L1)=1.12e+04
+    t=6: H_L1=57 (L1rm=0.67) vs H_min=37; L2rm(H_L1)=8.41e+08
+    t=7: H_L1=63 (L1rm=0.8) vs H_min=None; L2rm(H_L1)=3.03e+08
+    t=8: H_L1=78 (L1rm=0.86) vs H_min=None; L2rm(H_L1)=4.09e+13
+
+L^2 random-model budget for the full-length family H=p^(t-1) (Theorem 10.16's family):
+  p=7 t=2 H=7: L1rm=2.03  L2rm=18.4  (d=1 term alone: 2.3)
+  p=7 t=3 H=49: L1rm=0.371  L2rm=2e+06  (d=1 term alone: 1.89e+06)
+  p=7 t=4 H=343: L1rm=0.363  L2rm=5.14e+47  (d=1 term alone: 4.86e+47)
+  p=11 t=2 H=11: L1rm=0.835  L2rm=7.09  (d=1 term alone: 0.591)
+  p=11 t=3 H=121: L1rm=0.0754  L2rm=1.69e+11  (d=1 term alone: 1.69e+11)
+  p=13 t=2 H=13: L1rm=0.474  L2rm=3.47  (d=1 term alone: 0.248)
+  p=13 t=3 H=169: L1rm=0.0351  L2rm=7.51e+13  (d=1 term alone: 7.5e+13)

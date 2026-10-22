@@ -1,0 +1,14 @@
+# Registered BEFORE any run.  Written 2026-10-12 14:36:09 CDT (unix 1791833769).
+# Track T3b-q3-covering, round 3.  Law: Conjecture 10.24 (note.md §10.5), nu = R*/ln(n p^M),
+# thresholds: nu < 1.17 -> FAIL, nu > 1.47 -> HOLD, 1.17..1.47 -> mixed band (no prediction).
+# R* computed with publish-erdos404/code/round2/R3/src/bottleneck.py (kmax=min(c,t,5)), n = number of positions tested.
+# None of the (p,t) pairs below has ever been run at depth t (p=19 depth 8; p=13 depth 9); these are out of sample.
+p=19 t=8 H=47 c=2 M=10 rho=8  R*=17.03 n=18 nu=0.527 -> predicted FAIL   (to be run at K''=1 at least; prediction: K''=1 NOT covered)
+p=19 t=8 H=48 c=2 M=10 rho=9  R*=39.18 n=18 nu=1.212 -> mixed band, NO prediction (probe only)
+p=19 t=8 H=49 c=2 M=10 rho=10 R*=86.03 n=18 nu=2.660 -> predicted HOLD   (all 18 positions K''=1..18 covered)
+p=19 t=8 H=50 c=2 M=10 rho=11 R*=177.2 n=18 nu=5.479 -> predicted HOLD
+p=13 t=9 H=50 c=3 M=12 rho=10 R*=47.82 n=12 nu=1.438 -> mixed band, NO prediction
+p=13 t=9 H=51 c=3 M=12 rho=11 R*=95.65 n=12 nu=2.875 -> predicted HOLD   (note §10.5 also predicts H_9(13)=51 uniformly)
+p=13 t=9 H=49 c=3 M=12 rho=9  R*=23.9  n=12 nu=0.719 -> predicted FAIL
+# Plan: validate memory-reduced programs A' (from fibcov.c) and C' (from covchk.c) on (19,7,44) [expect fails at K=1,5,9,11,12,14,16
+# with 4,8,4,4,4,4,4 misses], (19,7,45) [all covered], (11,7,40,K=37) [2 misses]; then run (19,8,47,K=1), then (19,8,49,K=1..18).

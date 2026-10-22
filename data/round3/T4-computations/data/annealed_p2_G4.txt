@@ -1,0 +1,7 @@
+# p=2 G=4 M_G=5 p^G=16  (Z = p^G N / 2^{M_G}; rows: maxv = max_{1<=i<=M_G} v_p(x+i))
+# maxv classes surviving sumN sumN2 maxN
+row 2 6 4 12 40 4
+row 3 5 1 8 64 8
+row 4 5 1 16 256 16
+total classes=16 surviving=6 sumN=36 sumN2=360 maxN=16
+EZ=1.125 EZ2=5.625 ratio=4.444444444 delta=0.375

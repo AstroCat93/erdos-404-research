@@ -1,0 +1,113 @@
+p=2 N0=1 k=1 M=1 C=1.000000000000 file(p2_E27_N1.txt) equal=True fourier=1.000000000000 |diff|=0.0e+00
+p=2 N0=1 k=2 M=3 C=1.000000000000 file(p2_E27_N1.txt) equal=True fourier=1.000000000000 |diff|=0.0e+00
+p=2 N0=1 k=3 M=3 C=1.500000000000 file(p2_E27_N1.txt) equal=True fourier=1.500000000000 |diff|=0.0e+00
+p=2 N0=1 k=4 M=5 C=1.500000000000 file(p2_E27_N1.txt) equal=True fourier=1.500000000000 |diff|=0.0e+00
+p=2 N0=1 k=5 M=7 C=1.500000000000 file(p2_E27_N1.txt) equal=True fourier=1.500000000000 |diff|=0.0e+00
+p=2 N0=1 k=6 M=7 C=1.625000000000 file(p2_E27_N1.txt) equal=True fourier=1.625000000000 |diff|=0.0e+00
+p=2 N0=1 k=7 M=7 C=2.062500000000 file(p2_E27_N1.txt) equal=True fourier=2.062500000000 |diff|=0.0e+00
+p=2 N0=1 k=8 M=9 C=2.062500000000 file(p2_E27_N1.txt) equal=True fourier=2.062500000000 |diff|=0.0e+00
+p=2 N0=1 k=9 M=11 C=2.062500000000 file(p2_E27_N1.txt) equal=True fourier=2.062500000000 |diff|=0.0e+00
+p=2 N0=1 k=10 M=11 C=2.445312500000 file(p2_E27_N1.txt) equal=True fourier=2.445312500000 |diff|=4.4e-16
+p=2 N0=1 k=11 M=13 C=2.445312500000 file(p2_E27_N1.txt) equal=True fourier=2.445312500000 |diff|=0.0e+00
+p=2 N0=1 k=12 M=15 C=2.445312500000 file(p2_E27_N1.txt) equal=True fourier=2.445312500000 |diff|=4.4e-16
+p=2 N0=1 k=13 M=15 C=2.534179687500 file(p2_E27_N1.txt) equal=True fourier=2.534179687500 |diff|=8.9e-16
+p=2 N0=1 k=14 M=15 C=2.644042968750 file(p2_E27_N1.txt) equal=True fourier=2.644042968750 |diff|=0.0e+00
+p=2 N0=1 k=15 M=15 C=3.062255859375 file(p2_E27_N1.txt) equal=True fourier=3.062255859375 |diff|=4.4e-16
+p=2 N0=1 k=16 M=17 C=3.062255859375 file(p2_E27_N1.txt) equal=True fourier=3.062255859375 |diff|=0.0e+00
+p=2 N0=1 k=17 M=19 C=3.062255859375 file(p2_E27_N1.txt) equal=True fourier=3.062255859375 |diff|=4.4e-16
+p=2 N0=1 k=18 M=19 C=3.570007324219 file(p2_E27_N1.txt) equal=True
+p=2 N0=1 k=19 M=21 C=3.570007324219 file(p2_E27_N1.txt) equal=True
+p=2 N0=1 k=20 M=23 C=3.570007324219 file(p2_E27_N1.txt) equal=True
+p=2 N0=1 k=21 M=23 C=3.622867584229 file(p2_E27_N1.txt) equal=True
+p=2 N0=2 k=1 M=2 C=1.000000000000 file(p2_E28_N2.txt) equal=True fourier=1.000000000000 |diff|=0.0e+00
+p=2 N0=2 k=2 M=2 C=1.500000000000 file(p2_E28_N2.txt) equal=True fourier=1.500000000000 |diff|=0.0e+00
+p=2 N0=2 k=3 M=4 C=1.500000000000 file(p2_E28_N2.txt) equal=True fourier=1.500000000000 |diff|=0.0e+00
+p=2 N0=2 k=4 M=6 C=1.500000000000 file(p2_E28_N2.txt) equal=True fourier=1.500000000000 |diff|=0.0e+00
+p=2 N0=2 k=5 M=6 C=1.625000000000 file(p2_E28_N2.txt) equal=True fourier=1.625000000000 |diff|=0.0e+00
+p=2 N0=2 k=6 M=6 C=2.062500000000 file(p2_E28_N2.txt) equal=True fourier=2.062500000000 |diff|=0.0e+00
+p=2 N0=2 k=7 M=8 C=2.062500000000 file(p2_E28_N2.txt) equal=True fourier=2.062500000000 |diff|=4.4e-16
+p=2 N0=2 k=8 M=10 C=2.062500000000 file(p2_E28_N2.txt) equal=True fourier=2.062500000000 |diff|=0.0e+00
+p=2 N0=2 k=9 M=10 C=2.445312500000 file(p2_E28_N2.txt) equal=True fourier=2.445312500000 |diff|=0.0e+00
+p=2 N0=2 k=10 M=12 C=2.445312500000 file(p2_E28_N2.txt) equal=True fourier=2.445312500000 |diff|=0.0e+00
+p=2 N0=2 k=11 M=14 C=2.445312500000 file(p2_E28_N2.txt) equal=True fourier=2.445312500000 |diff|=4.4e-16
+p=2 N0=2 k=12 M=14 C=2.534179687500 file(p2_E28_N2.txt) equal=True fourier=2.534179687500 |diff|=4.4e-16
+p=2 N0=2 k=13 M=14 C=2.644042968750 file(p2_E28_N2.txt) equal=True fourier=2.644042968750 |diff|=4.4e-16
+p=2 N0=2 k=14 M=14 C=3.062255859375 file(p2_E28_N2.txt) equal=True fourier=3.062255859375 |diff|=0.0e+00
+p=2 N0=2 k=15 M=16 C=3.062255859375 file(p2_E28_N2.txt) equal=True fourier=3.062255859375 |diff|=4.4e-16
+p=2 N0=2 k=16 M=18 C=3.062255859375 file(p2_E28_N2.txt) equal=True fourier=3.062255859375 |diff|=8.9e-16
+p=2 N0=2 k=17 M=18 C=3.570007324219 file(p2_E28_N2.txt) equal=True fourier=3.570007324219 |diff|=1.3e-15
+p=2 N0=2 k=18 M=20 C=3.570007324219 file(p2_E28_N2.txt) equal=True
+p=2 N0=2 k=19 M=22 C=3.570007324219 file(p2_E28_N2.txt) equal=True
+p=2 N0=2 k=20 M=22 C=3.622867584229 file(p2_E28_N2.txt) equal=True
+p=3 N0=1 k=1 M=2 C=1.125000000000 file(p3_E17_N1.txt) equal=True fourier=1.125000000000 |diff|=0.0e+00
+p=3 N0=1 k=2 M=5 C=1.142578125000 file(p3_E17_N1.txt) equal=True fourier=1.142578125000 |diff|=2.2e-16
+p=3 N0=1 k=3 M=8 C=1.143676757812 file(p3_E17_N1.txt) equal=True fourier=1.143676757813 |diff|=2.2e-16
+p=3 N0=1 k=4 M=8 C=1.263153076172 file(p3_E17_N1.txt) equal=True fourier=1.263153076172 |diff|=2.2e-16
+p=3 N0=1 k=5 M=11 C=1.266706466675 file(p3_E17_N1.txt) equal=True fourier=1.266706466675 |diff|=0.0e+00
+p=3 N0=1 k=6 M=14 C=1.269737228751 file(p3_E17_N1.txt) equal=True fourier=1.269737228751 |diff|=0.0e+00
+p=3 N0=1 k=7 M=17 C=1.269821331720 file(p3_E17_N1.txt) equal=True fourier=1.269821331720 |diff|=4.4e-16
+p=3 N0=1 k=8 M=17 C=1.289123344934 file(p3_E17_N1.txt) equal=True fourier=1.289123344934 |diff|=2.2e-16
+p=3 N0=1 k=9 M=20 C=1.290311604356 file(p3_E17_N1.txt) equal=True fourier=1.290311604356 |diff|=6.7e-16
+p=3 N0=1 k=10 M=23 C=1.291429033550 file(p3_E17_N1.txt) equal=True fourier=1.291429033550 |diff|=8.9e-16
+p=3 N0=1 k=11 M=26 C=1.291438888871 file(p3_E17_N1.txt) equal=True fourier=1.291438888871 |diff|=2.2e-16
+p=3 N0=1 k=12 M=26 C=1.299278189210 file(p3_E17_N1.txt) equal=True
+p=3 N0=1 k=13 M=26 C=1.308189343451 file(p3_E17_N1.txt) equal=True
+p=3 N0=3 k=1 M=3 C=1.031250000000 file(p3_E17_N3.txt) equal=True fourier=1.031250000000 |diff|=0.0e+00
+p=3 N0=3 k=2 M=6 C=1.032714843750 file(p3_E17_N3.txt) equal=True fourier=1.032714843750 |diff|=0.0e+00
+p=3 N0=3 k=3 M=6 C=1.265625000000 file(p3_E17_N3.txt) equal=True fourier=1.265625000000 |diff|=0.0e+00
+p=3 N0=3 k=4 M=9 C=1.271186828613 file(p3_E17_N3.txt) equal=True fourier=1.271186828613 |diff|=0.0e+00
+p=3 N0=3 k=5 M=12 C=1.274759531021 file(p3_E17_N3.txt) equal=True fourier=1.274759531021 |diff|=4.4e-16
+p=3 N0=3 k=6 M=15 C=1.274882191792 file(p3_E17_N3.txt) equal=True fourier=1.274882191792 |diff|=0.0e+00
+p=3 N0=3 k=7 M=15 C=1.303745040670 file(p3_E17_N3.txt) equal=True fourier=1.303745040670 |diff|=0.0e+00
+p=3 N0=3 k=8 M=18 C=1.305520241323 file(p3_E17_N3.txt) equal=True fourier=1.305520241323 |diff|=4.4e-16
+p=3 N0=3 k=9 M=21 C=1.307000759026 file(p3_E17_N3.txt) equal=True fourier=1.307000759026 |diff|=2.2e-16
+p=3 N0=3 k=10 M=24 C=1.307014087735 file(p3_E17_N3.txt) equal=True fourier=1.307014087735 |diff|=0.0e+00
+p=3 N0=3 k=11 M=24 C=1.317908328830 file(p3_E17_N3.txt) equal=True fourier=1.317908328830 |diff|=4.4e-16
+p=3 N0=3 k=12 M=24 C=1.329331022594 file(p3_E17_N3.txt) equal=True
+p=5 N0=1 k=1 M=4 C=1.054687500000 file(p5_E11_N1.txt) equal=True fourier=1.054687500000 |diff|=0.0e+00
+p=5 N0=1 k=2 M=9 C=1.077842712402 file(p5_E11_N1.txt) equal=True fourier=1.077842712402 |diff|=2.2e-16
+p=5 N0=1 k=3 M=14 C=1.078416593373 file(p5_E11_N1.txt) equal=True fourier=1.078416593373 |diff|=4.4e-16
+p=5 N0=1 k=4 M=19 C=1.078454370145 file(p5_E11_N1.txt) equal=True fourier=1.078454370145 |diff|=2.2e-16
+p=5 N0=1 k=5 M=24 C=1.078461210380 file(p5_E11_N1.txt) equal=True fourier=1.078461210380 |diff|=0.0e+00
+p=5 N0=1 k=6 M=24 C=1.078950706002 file(p5_E11_N1.txt) equal=True fourier=1.078950706002 |diff|=0.0e+00
+p=5 N0=1 k=7 M=29 C=1.078968766503 file(p5_E11_N1.txt) equal=True fourier=1.078968766503 |diff|=4.4e-16
+p=5 N0=1 k=8 M=34 C=1.079002236524 file(p5_E11_N1.txt) equal=True
+p=5 N0=5 k=1 M=5 C=1.035156250000 file(p5_E12_N5.txt) equal=True fourier=1.035156250000 |diff|=0.0e+00
+p=5 N0=5 k=2 M=10 C=1.039028167725 file(p5_E12_N5.txt) equal=True fourier=1.039028167725 |diff|=0.0e+00
+p=5 N0=5 k=3 M=15 C=1.039543421939 file(p5_E12_N5.txt) equal=True fourier=1.039543421939 |diff|=2.2e-16
+p=5 N0=5 k=4 M=20 C=1.039583340798 file(p5_E12_N5.txt) equal=True fourier=1.039583340798 |diff|=2.2e-16
+p=5 N0=5 k=5 M=20 C=1.041357876375 file(p5_E12_N5.txt) equal=True fourier=1.041357876375 |diff|=4.4e-16
+p=5 N0=5 k=6 M=25 C=1.041429936260 file(p5_E12_N5.txt) equal=True fourier=1.041429936260 |diff|=0.0e+00
+p=5 N0=5 k=7 M=30 C=1.041553073613 file(p5_E12_N5.txt) equal=True fourier=1.041553073613 |diff|=2.2e-16
+p=7 N0=1 k=1 M=6 C=1.018554687500 file(p7_E10_N1.txt) equal=True fourier=1.018554687500 |diff|=0.0e+00
+p=7 N0=1 k=2 M=13 C=1.019307792187 file(p7_E10_N1.txt) equal=True fourier=1.019307792187 |diff|=2.2e-16
+p=7 N0=1 k=3 M=20 C=1.019319517658 file(p7_E10_N1.txt) equal=True fourier=1.019319517658 |diff|=0.0e+00
+p=7 N0=1 k=4 M=27 C=1.019329178595 file(p7_E10_N1.txt) equal=True fourier=1.019329178595 |diff|=4.4e-16
+p=7 N0=1 k=5 M=34 C=1.019329184111 file(p7_E10_N1.txt) equal=True fourier=1.019329184111 |diff|=4.4e-16
+p=7 N0=1 k=6 M=41 C=1.019329204689 file(p7_E10_N1.txt) equal=True fourier=1.019329204689 |diff|=6.7e-16
+p=7 N0=1 k=7 M=48 C=1.019329205860 file(p7_E10_N1.txt) equal=True
+p=7 N0=7 k=1 M=7 C=1.014282226562 file(p7_E10_N7.txt) equal=True fourier=1.014282226562 |diff|=0.0e+00
+p=7 N0=7 k=2 M=14 C=1.014788486063 file(p7_E10_N7.txt) equal=True fourier=1.014788486063 |diff|=0.0e+00
+p=7 N0=7 k=3 M=21 C=1.014955846991 file(p7_E10_N7.txt) equal=True fourier=1.014955846991 |diff|=2.2e-16
+p=7 N0=7 k=4 M=28 C=1.014955918441 file(p7_E10_N7.txt) equal=True fourier=1.014955918441 |diff|=2.2e-16
+p=7 N0=7 k=5 M=35 C=1.014956008754 file(p7_E10_N7.txt) equal=True fourier=1.014956008754 |diff|=0.0e+00
+p=7 N0=7 k=6 M=42 C=1.014956018603 file(p7_E10_N7.txt) equal=True fourier=1.014956018603 |diff|=2.2e-16
+p=11 N0=1 k=1 M=10 C=1.002065658569 file(p11_E7_N1.txt) equal=True fourier=1.002065658569 |diff|=2.2e-16
+p=11 N0=1 k=2 M=21 C=1.002068554635 file(p11_E7_N1.txt) equal=True fourier=1.002068554635 |diff|=0.0e+00
+p=11 N0=1 k=3 M=32 C=1.002068558979 file(p11_E7_N1.txt) equal=True fourier=1.002068558979 |diff|=2.2e-16
+p=11 N0=1 k=4 M=43 C=1.002068558998 file(p11_E7_N1.txt) equal=True fourier=1.002068558998 |diff|=0.0e+00
+p=11 N0=1 k=5 M=54 C=1.002068558998 file(p11_E7_N1.txt) equal=True fourier=1.002068558998 |diff|=2.2e-16
+p=11 N0=11 k=1 M=11 C=1.001436233521 file(p11_E7_N11.txt) equal=True fourier=1.001436233521 |diff|=0.0e+00
+p=11 N0=11 k=2 M=22 C=1.001440133846 file(p11_E7_N11.txt) equal=True fourier=1.001440133846 |diff|=2.2e-16
+p=11 N0=11 k=3 M=33 C=1.001440137603 file(p11_E7_N11.txt) equal=True fourier=1.001440137603 |diff|=0.0e+00
+p=11 N0=11 k=4 M=44 C=1.001440137614 file(p11_E7_N11.txt) equal=True fourier=1.001440137614 |diff|=0.0e+00
+p=13 N0=1 k=1 M=12 C=1.000028610229 file(p13_E7_N1.txt) equal=True fourier=1.000028610229 |diff|=2.2e-16
+p=13 N0=1 k=2 M=25 C=1.000028657816 file(p13_E7_N1.txt) equal=True fourier=1.000028657816 |diff|=2.2e-16
+p=13 N0=1 k=3 M=38 C=1.000028658612 file(p13_E7_N1.txt) equal=True fourier=1.000028658612 |diff|=2.2e-16
+p=13 N0=1 k=4 M=51 C=1.000028658612 file(p13_E7_N1.txt) equal=True fourier=1.000028658612 |diff|=2.2e-16
+p=13 N0=13 k=1 M=13 C=1.000022023916 file(p13_E7_N13.txt) equal=True fourier=1.000022023916 |diff|=0.0e+00
+p=13 N0=13 k=2 M=26 C=1.000022537691 file(p13_E7_N13.txt) equal=True fourier=1.000022537691 |diff|=2.2e-16
+p=13 N0=13 k=3 M=39 C=1.000022537691 file(p13_E7_N13.txt) equal=True fourier=1.000022537691 |diff|=0.0e+00
+p=13 N0=13 k=4 M=52 C=1.000022537691 file(p13_E7_N13.txt) equal=True fourier=1.000022537691 |diff|=0.0e+00
+cases checked: 111, mismatches: 0
+python3 code/verify_l2_r3.py  1.71s user 0.09s system 97% cpu 1.839 total

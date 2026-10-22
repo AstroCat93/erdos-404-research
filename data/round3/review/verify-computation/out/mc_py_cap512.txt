@@ -1,0 +1,7 @@
+# cap=512 n=300000 seed=12 time=600s
+G=64 survivors=19216
+G=128 survivors=11185
+G=192 survivors=8066
+G=256 survivors=6175
+G=384 survivors=4310
+G=512 survivors=3257

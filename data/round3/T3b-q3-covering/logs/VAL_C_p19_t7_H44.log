@@ -1,0 +1,41 @@
+# CMD: bin/covchk_ip 19 7 44 2 pos 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+# START 2026-10-12 15:02:14 CDT unix=1791835334 host=<host>
+# covchk_ip(C') p=19 t=7 H=44 c=2 M=9 k=2 F=893871739 nK=18 (bitset 106 MB + save 53 MB)
+C p=19 t=7 H=44 M=9 K=1 Kmodpc=1 miss=4 UNCOVERED 78.71s
+C p=19 t=7 H=44 M=9 K=2 Kmodpc=2 miss=0 COVERED 75.95s
+C p=19 t=7 H=44 M=9 K=3 Kmodpc=3 miss=0 COVERED 79.99s
+C p=19 t=7 H=44 M=9 K=4 Kmodpc=4 miss=0 COVERED 82.43s
+C p=19 t=7 H=44 M=9 K=5 Kmodpc=5 miss=8 UNCOVERED 64.78s
+C p=19 t=7 H=44 M=9 K=6 Kmodpc=6 miss=0 COVERED 58.86s
+C p=19 t=7 H=44 M=9 K=7 Kmodpc=7 miss=0 COVERED 59.71s
+C p=19 t=7 H=44 M=9 K=8 Kmodpc=8 miss=0 COVERED 67.69s
+C p=19 t=7 H=44 M=9 K=9 Kmodpc=9 miss=4 UNCOVERED 64.09s
+C p=19 t=7 H=44 M=9 K=10 Kmodpc=10 miss=0 COVERED 69.49s
+C p=19 t=7 H=44 M=9 K=11 Kmodpc=11 miss=4 UNCOVERED 55.67s
+C p=19 t=7 H=44 M=9 K=12 Kmodpc=12 miss=4 UNCOVERED 60.88s
+C p=19 t=7 H=44 M=9 K=13 Kmodpc=13 miss=0 COVERED 59.76s
+C p=19 t=7 H=44 M=9 K=14 Kmodpc=14 miss=4 UNCOVERED 55.39s
+C p=19 t=7 H=44 M=9 K=15 Kmodpc=15 miss=0 COVERED 62.03s
+C p=19 t=7 H=44 M=9 K=16 Kmodpc=16 miss=4 UNCOVERED 51.23s
+C p=19 t=7 H=44 M=9 K=17 Kmodpc=17 miss=0 COVERED 47.86s
+C p=19 t=7 H=44 M=9 K=18 Kmodpc=18 miss=0 COVERED 55.31s
+END C' p=19 t=7 H=44 nK=18 bad=7 SOME_UNCOVERED 1149.8s
+     1149.86 real       753.45 user        17.29 sys
+           235749376  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              680050  page reclaims
+                  17  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                2801  voluntary context switches
+             3219316  involuntary context switches
+      12555781406271  instructions retired
+       2997615860414  cycles elapsed
+           236110448  peak memory footprint
+# END 2026-10-12 15:21:24 CDT unix=1791836484 exit=0

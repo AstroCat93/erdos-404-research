@@ -1,0 +1,4 @@
+(a) S_e(-4) values [1, -5, 7, 1, -2, -8, 4, -2] max v2 = 3
+(c)/(d) e2=1 at y=-4 : cases 4  max v2(Phi(-m)) = 2  histogram {1: 2, 2: 2}
+(c) e2=0 at y=-4 : cases 4  max v2(Phi(-m)) = 4  histogram {1: 2, 4: 2}
+(d) e2=0 at y=-8 : cases 64  max v2(Phi(-m)) = 7  histogram {1: 32, 3: 16, 4: 8, 5: 3, 6: 4, 7: 1}

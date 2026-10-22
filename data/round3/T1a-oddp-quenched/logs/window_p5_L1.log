@@ -1,0 +1,21 @@
+CMD: window_exact.py 5 11 6 24 32 20 1
+x#1 x%p^4=88 m=6 D=2 M_n=2 M_N=2 conds={'W1': True, 'W2': True, 'W3': True, 'env': True} parents=772 (lam<=L: 608, slope0: 0) lams=[1] firstmoment=True inherit=True const=True affine=True
+    M_n=0.561704 E[M_N]=0.561704 (equal: True)  E Sigma=6176.0000 Var Sigma=3304.2109 sum_e Var X_e=1911.9022 corr-ratio=1.7282 relvar=0.00009 1/nL=0.00164 fourier=3304.210938 (exact 3304.210938)
+    Var by order p^d: d=1:3238.4000, d=2:65.8109   | normalised Weyl sums of slope-0 Newton roots: d=1:0.000, d=2:0.000
+x#2 x%p^4=260 m=5 D=2 M_n=2 M_N=2 conds={'W1': True, 'W2': True, 'W3': True, 'env': True} parents=1232 (lam<=L: 1232, slope0: 464) lams=[0, 1] firstmoment=True inherit=True const=True affine=True
+    M_n=0.234973 E[M_N]=0.234973 (equal: True)  E Sigma=12917.7600 Var Sigma=91420.3674 sum_e Var X_e=85825.0549 corr-ratio=1.0652 relvar=0.00055 1/nL=0.00081 fourier=91420.367400 (exact 91420.367400)
+    Var by order p^d: d=1:89540.1984, d=2:1880.1690   | normalised Weyl sums of slope-0 Newton roots: d=1:0.053, d=2:0.066
+x#3 x%p^4=156 m=6 D=1 M_n=2 M_N=2 conds={'W1': True, 'W2': True, 'W3': True, 'env': True} parents=228 (lam<=L: 228, slope0: 228) lams=[0] firstmoment=True inherit=True const=True affine=True
+    M_n=0.212342 E[M_N]=0.212342 (equal: True)  E Sigma=11673.6000 Var Sigma=81879.0400 sum_e Var X_e=21012.4800 corr-ratio=3.8967 relvar=0.00060 1/nL=0.00439 fourier=81879.040000 (exact 81879.040000)
+    Var by order p^d: d=1:81879.0400   | normalised Weyl sums of slope-0 Newton roots: d=1:0.178
+x#4 x%p^4=453 m=6 D=2 M_n=2 M_N=2 conds={'W1': True, 'W2': True, 'W3': True, 'env': True} parents=1636 (lam<=L: 1060, slope0: 0) lams=[1] firstmoment=True inherit=True const=True affine=True
+    M_n=0.977307 E[M_N]=0.977307 (equal: True)  E Sigma=10745.6000 Var Sigma=27055.8783 sum_e Var X_e=3188.3421 corr-ratio=8.4859 relvar=0.00023 1/nL=0.00094 fourier=27055.878281 (exact 27055.878281)
+    Var by order p^d: d=1:26785.8400, d=2:270.0383   | normalised Weyl sums of slope-0 Newton roots: d=1:0.000, d=2:0.000
+x#5 x%p^4=545 m=5 D=3 M_n=2 M_N=2 conds={'W1': True, 'W2': False, 'W3': True, 'env': True} parents=3440 (lam<=L: 3440, slope0: 3440) lams=[0] firstmoment=True inherit=True const=True affine=True
+    M_n=0.640750 E[M_N]=0.640750 (equal: True)  E Sigma=7045.1200 Var Sigma=63136.1536 sum_e Var X_e=56022.7942 corr-ratio=1.1270 relvar=0.00127 1/nL=0.00029 fourier=63136.153600 (exact 63136.153600)
+    Var by order p^d: d=1:1289.7485, d=2:188.7539, d=3:61657.6512   | normalised Weyl sums of slope-0 Newton roots: d=1:0.004, d=2:0.010, d=3:0.038
+x#6 x%p^4=503 m=6 D=2 M_n=2 M_N=2 conds={'W1': True, 'W2': True, 'W3': True, 'env': True} parents=1424 (lam<=L: 908, slope0: 0) lams=[1] firstmoment=True inherit=True const=True affine=True
+    M_n=0.846339 E[M_N]=0.846339 (equal: True)  E Sigma=9305.6000 Var Sigma=28759.9427 sum_e Var X_e=2763.6720 corr-ratio=10.4064 relvar=0.00033 1/nL=0.00110 fourier=28759.942734 (exact 28759.942734)
+    Var by order p^d: d=1:28680.2400, d=2:79.7027   | normalised Weyl sums of slope-0 Newton roots: d=1:0.000, d=2:0.000
+TOTAL first-moment identities exact: 7476/7476
+python3 window_exact.py 5 11 6 24 32 20 1  112.22s user 0.85s system 92% cpu 2:02.14 total

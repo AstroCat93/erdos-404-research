@@ -1,0 +1,7 @@
+lambda=1: #even 16<=a<=4094/lambda with g2(a)>=lambda*a = 27
+lambda=2: #even 16<=a<=4094/lambda with g2(a)>=lambda*a = 15
+lambda=4: #even 16<=a<=4094/lambda with g2(a)>=lambda*a = 6
+lambda=8: #even 16<=a<=4094/lambda with g2(a)>=lambda*a = 3
+lambda=16: #even 16<=a<=4094/lambda with g2(a)>=lambda*a = 3
+lambda=32: #even 16<=a<=4094/lambda with g2(a)>=lambda*a = 2
+lambda=64: #even 16<=a<=4094/lambda with g2(a)>=lambda*a = 1

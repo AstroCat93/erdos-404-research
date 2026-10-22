@@ -1,0 +1,4 @@
+--- erdos 404 factorials
+--- sums of distinct factorials prime power
+2022-09-17 Outlier absences of monomials in a group of inversion partition polynomials https://mathoverflow.net/questions/428059/outlier-absences-of-monomials-in-a-group-of-inversion-partition-polynomials
+--- factorials divisible by high power of prime

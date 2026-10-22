@@ -1,0 +1,39 @@
+# python3 src/s3_check.py  START 2026-10-21 12:06:42 CDT
+p=3 t=2 H=6 c=1 M=3: classes=2 covered(direct)=0  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 2, 2), (2, 1, 1)]
+p=3 t=2 H=9 c=2 M=4: classes=6 covered(direct)=5  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 2, 2), (2, 0, 0), (4, 0, 0), (5, 0, 0), (7, 0, 0), (8, 0, 0)]
+p=3 t=3 H=6 c=1 M=4: classes=2 covered(direct)=0  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 33, 33), (2, 45, 45)]
+p=3 t=3 H=9 c=2 M=5: classes=6 covered(direct)=0  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 34, 34), (2, 79, 79), (4, 25, 25), (5, 27, 27), (7, 9, 9), (8, 88, 88)]
+p=3 t=3 H=12 c=4 M=7: classes=54 covered(direct)=0  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 873, 873), (2, 1053, 1053), (4, 829, 829), (5, 837, 837), (7, 765, 765), (8, 1117, 1117)]...
+p=3 t=4 H=9 c=2 M=6: classes=6 covered(direct)=0  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 417, 417), (2, 467, 467), (4, 389, 389), (5, 443, 443), (7, 376, 376), (8, 449, 449)]
+p=5 t=2 H=10 c=1 M=3: classes=4 covered(direct)=4  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 0, 0), (2, 0, 0), (3, 0, 0), (4, 0, 0)]
+p=5 t=2 H=15 c=2 M=4: classes=20 covered(direct)=20  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 0, 0), (2, 0, 0), (3, 0, 0), (4, 0, 0), (6, 0, 0), (7, 0, 0)]...
+p=5 t=3 H=10 c=1 M=4: classes=4 covered(direct)=0  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 238, 238), (2, 187, 187), (3, 240, 240), (4, 132, 132)]
+p=5 t=3 H=15 c=2 M=5: classes=20 covered(direct)=12  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 4, 4), (2, 0, 0), (3, 0, 0), (4, 0, 0), (6, 0, 0), (7, 0, 0)]...
+p=5 t=3 H=20 c=3 M=6: classes=100 covered(direct)=100  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 0, 0), (2, 0, 0), (3, 0, 0), (4, 0, 0), (6, 0, 0), (7, 0, 0)]...
+p=5 t=4 H=15 c=2 M=6: classes=20 covered(direct)=0  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 3183, 3183), (2, 3780, 3780), (3, 3120, 3120), (4, 3456, 3456), (6, 3180, 3180), (7, 4106, 4106)]...
+p=7 t=2 H=14 c=1 M=3: classes=6 covered(direct)=6  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 0, 0), (2, 0, 0), (3, 0, 0), (4, 0, 0), (5, 0, 0), (6, 0, 0)]
+p=7 t=2 H=21 c=2 M=4: classes=42 covered(direct)=42  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 0, 0), (2, 0, 0), (3, 0, 0), (4, 0, 0), (5, 0, 0), (6, 0, 0)]...
+p=7 t=3 H=21 c=2 M=5: classes=42 covered(direct)=42  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 0, 0), (2, 0, 0), (3, 0, 0), (4, 0, 0), (5, 0, 0), (6, 0, 0)]...
+p=11 t=2 H=22 c=1 M=3: classes=10 covered(direct)=10  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 0, 0), (2, 0, 0), (3, 0, 0), (4, 0, 0), (5, 0, 0), (6, 0, 0)]...
+p=11 t=2 H=33 c=2 M=4: classes=110 covered(direct)=110  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 0, 0), (2, 0, 0), (3, 0, 0), (4, 0, 0), (5, 0, 0), (6, 0, 0)]...
+p=13 t=2 H=26 c=1 M=3: classes=12 covered(direct)=12  S3 agrees on every class: True  miss counts equal (direct vs sum over fibres): True  S2(iv) last block == V_p mod p^t: True  [K, miss_direct, miss_fibres]=[(1, 0, 0), (2, 0, 0), (3, 0, 0), (4, 0, 0), (5, 0, 0), (6, 0, 0)]...
+S3/S2(iv) CHECK: ALL PASSED
+       13.32 real        13.11 user         0.12 sys
+            30392320  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                2856  page reclaims
+                  18  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                8235  involuntary context switches
+        255732089827  instructions retired
+         44859900554  cycles elapsed
+            27148648  peak memory footprint
+# END 2026-10-21 12:06:55 CDT

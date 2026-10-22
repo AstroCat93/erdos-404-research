@@ -1,0 +1,24 @@
+# winvar mode=1 p=3 L=1 P=40 n0=22 nwin=1 ratio=1.273 nsamp=5 maxpop=2000000 K=256 seed=5
+# windows: 22 28
+X sample=0 x=3805924433437325049
+LAMHIST n=22 pop=0:
+LAMHIST n=28 pop=0:
+W l=1 n=28 END m=13 Mn=3 pop=0 popL=0 M=0
+X sample=1 x=6904193186987155560
+LAMHIST n=22 pop=0:
+LAMHIST n=28 pop=0:
+W l=1 n=28 END m=13 Mn=3 pop=0 popL=0 M=0
+X sample=2 x=1295324154150365176
+LAMHIST n=22 pop=28: 2:12 5:16
+W l=0 n=22 N=28 H=6 m=11 D=2 Mn=3 MN=3 hyp=1111 pop=28 popL=0 nPhi=0 M=0 EM_N=0 ESig=0 ESigPred=0 VarSig=0 VarInd=0 corr=0 relvar=nan exact=1 K=0 weyl=nan/nan/0.000 byorder=0,0 incr2=nan
+LAMHIST n=28 pop=196: 2:80 5:116
+W l=1 n=28 END m=13 Mn=3 pop=196 popL=0 M=0
+X sample=3 x=7648129663635685059
+LAMHIST n=22 pop=0:
+LAMHIST n=28 pop=0:
+W l=1 n=28 END m=13 Mn=3 pop=0 popL=0 M=0
+X sample=4 x=9931185549497379070
+LAMHIST n=22 pop=256: 1:180 4:28 5:48
+W l=0 n=22 N=28 H=6 m=9 D=4 Mn=2 MN=3 hyp=1111 pop=256 popL=180 nPhi=2 M=0.851742 EM_N=0.851742 ESig=143.407 ESigPred=143.407 VarSig=967.816 VarInd=703.925 corr=1.375 relvar=0.04706 exact=1 K=0 weyl=0.022/0.116/0.133 byorder=0.3073,38.85,916.9,11.72 incr2=0.03414
+LAMHIST n=28 pop=204: 1:168 5:36
+W l=1 n=28 END m=13 Mn=3 pop=204 popL=168 M=0.979987

@@ -1,0 +1,28 @@
+2026-10-22T00:00:42Z
+p=2 w=9 K=22 P=18 types=2097152 mean_log_p_N=15.3548161258 mean_G_capped=17.945312 D=0.8530453403
+  G=16 frac=0.25000000 mean_logN=14.728422 min_logN=14.082814
+  G=17 frac=0.25000000 mean_logN=15.205865 min_logN=14.255029
+  G=18 frac=0.18750000 mean_logN=15.505599 min_logN=14.286558
+  G=19 frac=0.09375000 mean_logN=15.666467 min_logN=14.156083
+  G=20 frac=0.10937500 mean_logN=16.056093 min_logN=14.156083
+  G=21 frac=0.05468750 mean_logN=16.175692 min_logN=14.148477
+  G=22 frac=0.05468750 mean_logN=15.624593 min_logN=1.584963
+      808.68 real       787.59 user        13.90 sys
+            32178176  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                2160  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+              856657  involuntary context switches
+      10768496741712  instructions retired
+       3187982131875  cycles elapsed
+            31736240  peak memory footprint
+2026-10-22T00:14:10Z

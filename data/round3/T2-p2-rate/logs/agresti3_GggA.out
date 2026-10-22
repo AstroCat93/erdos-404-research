@@ -1,0 +1,17 @@
+A 256 G 256 pred N 7.117 
+A 256 G 1024 pred N 2.552  local exponent 0.740
+A 256 G 4096 pred N 1.052  local exponent 0.639
+A 256 G 16384 pred N 0.454  local exponent 0.607
+A 256 G 65536 pred N 0.199  local exponent 0.594
+A 256 G 262144 pred N 0.088  local exponent 0.589
+A 256 G 1048576 pred N 0.039  local exponent 0.587
+A 4096 G 4096 pred N 7.199 
+A 4096 G 8192 pred N 4.203  local exponent 0.776
+A 4096 G 16384 pred N 2.603  local exponent 0.692
+A 4096 G 32768 pred N 1.660  local exponent 0.649
+A 4096 G 65536 pred N 1.076  local exponent 0.625
+A 4096 G 131072 pred N 0.705  local exponent 0.611
+A 4096 G 262144 pred N 0.464  local exponent 0.602
+python3 agresti3.py  188.01s user 1.99s system 99% cpu 3:10.58 total
+
+[exited with code 0]

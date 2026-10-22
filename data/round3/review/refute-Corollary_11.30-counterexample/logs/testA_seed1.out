@@ -1,0 +1,8 @@
+S_e(-4) valuations (C0): [0, 0, 0, 0, 1, 1, 2, 3]
+C2 family A v(Phi_e(-4)) = [2, 1, 1, 2]
+C2 family B v(Phi_e(-4)) = [4, 1, 1, 4]
+C6 family B v(Phi_e(-8)) histogram: {1: 32, 3: 16, 4: 8, 5: 3, 6: 4, 7: 1}
+identity Lemma 11.24(c) at negative integers: ok
+max slope seen per class: {'C0': 1, 'C2': 3, 'C6': 3}
+slope violations: 0 []
+lemma violations: 0 []

@@ -1,0 +1,3 @@
+# CMD: bin/fibcov_ip 19 8 49 2 pos 3
+# START 2026-10-12 16:51:27 CDT unix=1791841887 host=<host>
+# fibcov_ip(A') p=19 t=8 H=49 c=2 M=10 k=2  Q=6131066257801 fibre=16983563041 bits (2024 MB + 1012 MB save)

@@ -1,0 +1,2 @@
+Prop 11.13(b) (p,c,v(y_c)=v(c!),H'(y_c) unit): [(2, 4, True, True), (2, 5, True, True), (2, 8, True, True), (2, 10, True, True), (3, 6, True, True), (3, 7, True, True), (3, 11, True, True), (3, 15, True, True), (5, 10, True, True), (5, 11, True, True), (5, 17, True, True), (5, 25, True, True), (7, 14, True, True), (7, 15, True, True), (7, 23, True, True), (7, 35, True, True)]
+Theorem 11.45 (a)-(d) congruences: tests 92064 failures 0

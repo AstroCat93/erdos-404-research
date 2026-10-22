@@ -1,0 +1,83 @@
+=== annealed p=2 G=4 start 14:34:25
+=== done p=2 G=4 in 0 s
+=== annealed p=2 G=8 start 14:34:25
+=== done p=2 G=8 in 0 s
+=== annealed p=2 G=12 start 14:34:25
+=== done p=2 G=12 in 0 s
+=== annealed p=2 G=16 start 14:34:25
+=== done p=2 G=16 in 0 s
+=== annealed p=2 G=18 start 14:34:25
+=== done p=2 G=18 in 0 s
+=== annealed p=2 G=20 start 14:34:25
+=== done p=2 G=20 in 0 s
+=== annealed p=2 G=22 start 14:34:25
+=== done p=2 G=22 in 1 s
+=== annealed p=2 G=24 start 14:34:26
+=== done p=2 G=24 in 6 s
+=== annealed p=2 G=26 start 14:34:32
+=== done p=2 G=26 in 25 s
+=== annealed p=3 G=2 start 14:34:57
+=== done p=3 G=2 in 0 s
+=== annealed p=3 G=4 start 14:34:57
+=== done p=3 G=4 in 0 s
+=== annealed p=3 G=6 start 14:34:57
+=== done p=3 G=6 in 0 s
+=== annealed p=3 G=8 start 14:34:57
+=== done p=3 G=8 in 0 s
+=== annealed p=3 G=10 start 14:34:57
+=== done p=3 G=10 in 0 s
+=== annealed p=3 G=12 start 14:34:57
+=== done p=3 G=12 in 0 s
+=== annealed p=3 G=13 start 14:34:57
+=== done p=3 G=13 in 0 s
+=== annealed p=3 G=14 start 14:34:57
+=== done p=3 G=14 in 2 s
+=== annealed p=3 G=15 start 14:34:59
+=== done p=3 G=15 in 8 s
+=== annealed p=3 G=16 start 14:35:07
+=== done p=3 G=16 in 29 s
+=== annealed p=5 G=2 start 14:35:36
+=== done p=5 G=2 in 0 s
+=== annealed p=5 G=3 start 14:35:36
+=== done p=5 G=3 in 0 s
+=== annealed p=5 G=4 start 14:35:36
+=== done p=5 G=4 in 0 s
+=== annealed p=5 G=5 start 14:35:36
+=== done p=5 G=5 in 0 s
+=== annealed p=5 G=6 start 14:35:36
+=== done p=5 G=6 in 0 s
+=== annealed p=5 G=7 start 14:35:36
+=== done p=5 G=7 in 0 s
+=== annealed p=5 G=8 start 14:35:36
+=== done p=5 G=8 in 1 s
+=== annealed p=5 G=9 start 14:35:37
+=== done p=5 G=9 in 4 s
+=== annealed p=5 G=10 start 14:35:41
+=== done p=5 G=10 in 55 s
+=== annealed p=7 G=1 start 14:36:36
+=== done p=7 G=1 in 0 s
+=== annealed p=7 G=2 start 14:36:36
+=== done p=7 G=2 in 0 s
+=== annealed p=7 G=3 start 14:36:36
+=== done p=7 G=3 in 0 s
+=== annealed p=7 G=4 start 14:36:36
+=== done p=7 G=4 in 0 s
+=== annealed p=7 G=5 start 14:36:36
+=== done p=7 G=5 in 0 s
+=== annealed p=7 G=6 start 14:36:36
+=== done p=7 G=6 in 0 s
+=== annealed p=7 G=7 start 14:36:36
+=== done p=7 G=7 in 8 s
+=== annealed p=7 G=8 start 14:36:44
+=== done p=7 G=8 in 141 s
+=== annealed p=2 G=27 start 14:39:05
+=== done p=2 G=27 in 51 s
+=== annealed p=3 G=17 start 14:39:56
+=== done p=3 G=17 in 111 s
+=== annealed p=5 G=11 start 14:41:47
+=== done p=5 G=11 in 490 s
+=== annealed p=7 G=9 start 14:49:57
+=== done p=7 G=9 in 3932 s
+=== annealed p=2 G=28 start 15:55:29
+=== done p=2 G=28 in 127 s
+ALLDONE

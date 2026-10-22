@@ -1,0 +1,4 @@
+C0=8Z2: pieces=1951 (no-hypothesis pieces 0); sup_G min(mu,RHS) G^a = 17.5263 at log2 G = 353.00; sup side-terms*G^a = 1.5844 (log2 G = 10.01); Chernoff main-term const = 20.88; main+side = 22.47; small-G requirement = 0.603; max B_L remainder = 2.22e-42
+C2=2+8Z2: pieces=1951 (no-hypothesis pieces 0); sup_G min(mu,RHS) G^a = 1121.3392 at log2 G = 353.00; sup side-terms*G^a = 1.7005 (log2 G = 10.02); Chernoff main-term const = 1316.37; main+side = 1318.07; small-G requirement = 0.603; max B_L remainder = 3.73e-42
+C6=6+16Z2: pieces=1951 (no-hypothesis pieces 0); sup_G min(mu,RHS) G^a = 167988.1599 at log2 G = 354.00; sup side-terms*G^a = 1.8755 (log2 G = 10.03); Chernoff main-term const = 197159.18; main+side = 197161.06; small-G requirement = 0.301; max B_L remainder = 8.13e-42
+python3 -I code_r3/lead/lead_t2_constants.py 400  1.28s user 0.03s system 98% cpu 1.326 total

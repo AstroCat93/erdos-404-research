@@ -1,0 +1,46 @@
+# Wed Oct 21 18:39:49 CDT 2026 spot re-run of two depth-7 classes with the stored binaries (sequential, 1 core)
+# fibcov_ip(A') p=19 t=7 H=45 c=2 M=9 k=2  Q=322687697779 fibre=893871739 bits (106 MB + 53 MB save)
+A p=19 t=7 H=45 c=2 M=9 K=20 missing=0 COVERED [55.61s]
+A p=19 t=7 H=45 c=2 M=9 K=360 missing=0 COVERED [55.99s]
+SUMMARY A' p=19 t=7 H=45 c=2 M=9 k=2 mode=pos nK=2 fail=0 worst_missing=0 ALL_COVERED total=111.6s
+      111.61 real       108.47 user         2.33 sys
+           185810944  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               11517  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+              108211  involuntary context switches
+       3082437986086  instructions retired
+        441353236713  cycles elapsed
+           185451048  peak memory footprint
+# covchk_ip(C') p=19 t=7 H=45 c=2 M=9 k=2 F=893871739 nK=2 (bitset 106 MB + save 53 MB)
+C p=19 t=7 H=45 M=9 K=20 Kmodpc=20 miss=0 COVERED 39.34s
+C p=19 t=7 H=45 M=9 K=360 Kmodpc=360 miss=0 COVERED 36.21s
+END C' p=19 t=7 H=45 nK=2 bad=0 ALL_COVERED 75.6s
+       75.56 real        73.60 user         1.44 sys
+           236191744  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               14592  page reclaims
+                   2  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+               67773  involuntary context switches
+       1500465296250  instructions retired
+        298941148070  cycles elapsed
+           235897456  peak memory footprint
+# END Wed Oct 21 18:42:56 CDT 2026

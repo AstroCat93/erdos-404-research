@@ -1,0 +1,31 @@
+p=2 G=0 survivors_mod_p^G=1  delta=1.0000000000  (exact div check 1)
+p=2 G=1 survivors_mod_p^G=1  delta=0.5000000000  (exact div check 1)
+p=2 G=2 survivors_mod_p^G=2  delta=0.5000000000  (exact div check 1)
+p=2 G=3 survivors_mod_p^G=4  delta=0.5000000000  (exact div check 1)
+p=2 G=4 survivors_mod_p^G=6  delta=0.3750000000  (exact div check 1)
+p=2 G=5 survivors_mod_p^G=12  delta=0.3750000000  (exact div check 1)
+p=2 G=8 survivors_mod_p^G=62  delta=0.2421875000  (exact div check 1)
+p=2 G=12 survivors_mod_p^G=802  delta=0.1958007812  (exact div check 1)
+p=2 G=16 survivors_mod_p^G=9942  delta=0.1517028809  (exact div check 1)
+p=2 G=20 survivors_mod_p^G=148568  delta=0.1416854858  (exact div check 1)
+real 4.43
+p=3 G=0 survivors_mod_p^G=1  delta=1.0000000000  (exact div check 1)
+p=3 G=1 survivors_mod_p^G=2  delta=0.6666666667  (exact div check 1)
+p=3 G=2 survivors_mod_p^G=5  delta=0.5555555556  (exact div check 1)
+p=3 G=4 survivors_mod_p^G=37  delta=0.4567901235  (exact div check 1)
+p=3 G=8 survivors_mod_p^G=2583  delta=0.3936899863  (exact div check 1)
+p=3 G=12 survivors_mod_p^G=196858  delta=0.3704230573  (exact div check 1)
+real 6.51
+p=5 G=0 survivors_mod_p^G=1  delta=1.0000000000  (exact div check 1)
+p=5 G=1 survivors_mod_p^G=3  delta=0.6000000000  (exact div check 1)
+p=5 G=2 survivors_mod_p^G=14  delta=0.5600000000  (exact div check 1)
+p=5 G=4 survivors_mod_p^G=337  delta=0.5392000000  (exact div check 1)
+p=5 G=7 survivors_mod_p^G=40810  delta=0.5223680000  (exact div check 1)
+real 1.60
+p=7 G=0 survivors_mod_p^G=1  delta=1.0000000000  (exact div check 1)
+p=7 G=1 survivors_mod_p^G=5  delta=0.7142857143  (exact div check 1)
+p=7 G=2 survivors_mod_p^G=31  delta=0.6326530612  (exact div check 1)
+p=7 G=4 survivors_mod_p^G=1501  delta=0.6251561849  (exact div check 1)
+p=7 G=5 survivors_mod_p^G=10502  delta=0.6248586898  (exact div check 1)
+real 0.34
+real 644.99

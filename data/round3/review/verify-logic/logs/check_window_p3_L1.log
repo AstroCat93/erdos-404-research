@@ -1,0 +1,8 @@
+p=3 n=16 N=22 L=1 m=6 D=3 Mn=2 MN=2 |P|=84 M_l=0.934387 E[M_l+1]=0.934387 equal=True Var=1314.1 Parseval=1314.1 M^2R=0.02894 <= 0.05788: True
+p=3 n=16 N=22 L=1 m=6 D=3 Mn=2 MN=2 |P|=38 M_l=0.422699 E[M_l+1]=0.422699 equal=True Var=75.1056 Parseval=75.1056 M^2R=0.001654 <= 0.004962: True
+p=3 n=16 N=22 L=1 m=7 D=2 Mn=2 MN=2 |P|=12 M_l=0.400452 E[M_l+1]=0.400452 equal=True Var=15.2222 Parseval=15.2222 M^2R=0.0003352 <= 0.0006705: True
+p=3 n=16 N=22 L=1 m=8 D=2 Mn=3 MN=3 |P|=2 M_l=0.200226 E[M_l+1]=0.200226 equal=True Var=9.28395 Parseval=9.28395 M^2R=0.00184 <= 0.00552: True
+p=3 n=16 N=22 L=1 m=7 D=2 Mn=2 MN=2 |P|=24 M_l=0.85096 E[M_l+1]=0.85096 equal=True Var=155.722 Parseval=155.722 M^2R=0.003429 <= 0.006859: True
+p=3 n=16 N=22 L=1 m=7 D=3 Mn=3 MN=3 |P|=30 M_l=1.00113 E[M_l+1]=1.00113 equal=True Var=42.7654 Parseval=42.7654 M^2R=0.008476 <= 0.02543: True
+windows tested: 6 of 42 draws
+python3 -I check_window.py 3 16 22 1 6 2  5.15s user 0.10s system 89% cpu 5.880 total

@@ -1,0 +1,68 @@
+Round 3 literature gate for Erdős #404 — verified references (2026-10-12).
+Verification = bibliographic record seen at the named URL (publisher page, Project Euclid, arXiv abstract, Numdam, Mathnet, IMPAN) via read-only fetch/search. "Content" lines are from abstracts only unless stated; no full texts were read.
+
+(a) BPRE
+A1. W. L. Smith, W. E. Wilkinson, On branching processes in random environments, Ann. Math. Statist. 40 (1969), no. 3, 814–827. doi:10.1214/aoms/1177697589 [Project Euclid]. i.i.d. environments; extinction a.s. iff E log m(ξ) <= 0 (plus integrability).
+A2. K. B. Athreya, S. Karlin, On branching processes with random environments I: Extinction probabilities, Ann. Math. Statist. 42 (1971), no. 5, 1499–1520, doi:10.1214/aoms/1177693150; II: Limit theorems, 42 (1971), no. 6, 1843–1858 [Project Euclid]. Stationary ergodic environments. Announcement: Bull. AMS 76 (1970), 865–870.
+A3. D. Tanny, Limit theorems for branching processes in a random environment, Ann. Probab. 5 (1977), no. 1, 100–116, doi:10.1214/aop/1176995894 [Project Euclid]. Explosion/extinction dichotomy.
+A4. J. Coffey, D. Tanny, A necessary and sufficient condition for noncertain extinction of a branching process in a random environment (BPRE), Stoch. Proc. Appl. 16 (1984), no. 2, 189–197 [RePEc/ScienceDirect].
+A5. D. Tanny, A necessary and sufficient condition for a branching process in a random environment to grow like the product of its means, Stoch. Proc. Appl. 28 (1988), no. 1, 123–139 [RePEc]. The Kesten–Stigum (Z log Z) analogue for BPRE (i.i.d. env.).
+A6. H. Kesten, B. P. Stigum, A limit theorem for multidimensional Galton–Watson processes, Ann. Math. Statist. 37 (1966), 1211–1223, doi:10.1214/aoms/1177699266 [Project Euclid]. (Classical, fixed environment.)
+A7. H. Kesten, M. V. Kozlov, F. Spitzer, A limit law for random walk in a random environment, Compositio Math. 30 (1975), no. 2, 145–168 [Numdam, MR 380998]. RWRE, not BPRE: stable limit law for hitting times; relevant only via the associated-walk heuristics.
+A8. M. V. Kozlov, On the asymptotic behavior of the probability of non-extinction for critical branching processes in a random environment, Teor. Veroyatnost. i Primenen. 21 (1976), no. 4, 813–825; Theory Probab. Appl. 21 (1977), no. 4, 791–804 [Mathnet tvp3425]. P(T>n) ≍ n^{-1/2}; exact ~ c n^{-1/2} for linear-fractional offspring.
+A9. J. Geiger, G. Kersting, The survival probability of a critical branching process in a random environment, Teor. Veroyatnost. i Primenen. 45 (2000), no. 3, 607–615; Theory Probab. Appl. 45 (2001), no. 3, 517–525, doi:10.4213/tvp491 [Mathnet]. Kozlov's n^{-1/2} for general i.i.d. offspring laws.
+A10. V. I. Afanasyev, J. Geiger, G. Kersting, V. A. Vatutin, Criticality for branching processes in random environment, Ann. Probab. 33 (2005), no. 2, 645–673, doi:10.1214/009117904000000928; arXiv:math/0503657 [Project Euclid, arXiv]. Oscillating associated walk under Spitzer's condition; survival asymptotics and conditional FLTs.
+A11. G. Kersting, V. Vatutin, Discrete Time Branching Processes in Random Environment, ISTE/Wiley, 2017, ISBN 9781786302526 [ISTE page]. Textbook; quenched and annealed critical case, three subcritical regimes.
+Not verified: "Afanasyev 1980, Theory Probab. Appl. 25" — the only record found is Afanasyev's 1980 MSU candidate dissertation "Limit theorems for a conditional random walk and some applications" (cited in Geiger–Kersting–Vatutin 2003). Do not cite as a journal paper.
+
+(b) random p-adic polynomials / p-adic Kac–Rice
+B1. S. N. Evans, The expected number of zeros of a random system of p-adic polynomials, Electron. Commun. Probab. 11 (2006), 278–290, doi:10.1214/ECP.v11-1230; arXiv:math/0602478 [EJP-ECP, Project Euclid]. First p-adic Kac–Rice/co-area formula; expected count (1+p^{-1}+...+p^{-d})^{-1} p^{d floor(log_p N)}.
+B2. J. Buhler, D. Goldstein, D. Moews, J. Rosenberg, The probability that a random monic p-adic polynomial splits, Experiment. Math. 15 (2006), no. 1, 21–32; arXiv:math/0404057 [Project Euclid]. Probability of full splitting over a complete DVR; recursion.
+B3. M. Bhargava, J. Cremona, T. Fisher, S. Gajović, The density of polynomials of degree n over Z_p having exactly r roots in Q_p, Proc. London Math. Soc. 124 (2022), no. 5, doi:10.1112/plms.12438; arXiv:2101.09590 [Warwick WRAP 164111, Cambridge repository; page ranges disagree between repositories (468–478 vs 713–736): verify at publisher]. Densities are rational in p, invariant under p -> 1/p; expected number of roots of monic f is 1 (talk abstracts).
+B4. X. Caruso, Where are the zeroes of a random p-adic polynomial?, Forum Math. Sigma 10 (2022), Paper e55, 41 pp.; arXiv:2110.03942; published online 18 Jul 2022 [Cambridge Core listing; DOI not seen]. p-adic Kac–Rice reformulation; distribution of roots over extensions; root repulsion.
+B5. A. Kulkarni, A. Lerario, p-adic integral geometry, SIAM J. Appl. Algebra Geom. 5 (2021), no. 1, 28–59, doi:10.1137/19M1284737; arXiv:1908.04775. Integral-geometry formula over Q_p; random p-adic systems.
+Gap: no paper found treating zero counts of random p-adic *power series* (as opposed to polynomials) or of random series with factorial-type coefficients.
+
+(c) n! mod p, mod p^k, Morita Gamma_p
+C1. C. Cobeli, M. Vâjâitu, A. Zaharescu, The sequence n! (mod p), J. Ramanujan Math. Soc. 15 (2000), no. 2, 135–154 [Illinois Experts; Vâjâitu's CV lists pp. 71–90 — verify]. Guy's question; residues missed ~ p/e like a random sequence.
+C2. M. Z. Garaev, F. Luca, I. E. Shparlinski, Character sums and congruences with n!, Trans. Amer. Math. Soc. 356 (2004), 5089–5102; arXiv:math/0403422 [arXiv abstract; Integers reference lists].
+C3. M. Z. Garaev, F. Luca, I. E. Shparlinski, Exponential sums and congruences with factorials, J. reine angew. Math. 584 (2005), 29–44; arXiv:math/0403424 [Macquarie research portal; arXiv]. NOTE: note.md's reference list conflates C2 and C3 (title of C2 with venue/arXiv of C3). Fix.
+C4. O. Klurman, M. Munsch, Distribution of factorials modulo p, J. Théor. Nombres Bordeaux 29 (2017), no. 1, 169–177, doi:10.5802/jtnb.974; arXiv:1505.01198 [Centre Mersenne, Numdam]. Lower bound on average (over p) for number of residue classes missed by n! mod p.
+C5. C. Cobeli, I. Pitrop (?), A. Zaharescu, Non-equal neighboring model for factorials (mod p), Filomat 38 (2024), no. 13 [pmf.ni.ac.rs]; C. Cobeli, A. Zaharescu, Factorials (mod p) and the average of modular mappings, arXiv:2011.07582. (Author list of the Filomat paper not independently verified.)
+C6. Y. Morita, A p-adic analogue of the Γ-function, J. Fac. Sci. Univ. Tokyo Sect. IA 22 (1975), 255–266 [standard; not re-verified beyond Wikipedia/Robert GTM 198 Ch. 7].
+Gap: no result found on n! mod p^k (k>=2) distribution, nor on equidistribution of Γ_p values / unit parts of n! in Z_p^×. Garaev–Luca–Shparlinski and Klurman–Munsch are mod-p only.
+
+(d) sums of factorials, Kurepa
+D1. S. Lin, On two problems of Erdős concerning sums of distinct factorials, Bell Laboratories internal memorandum, 1960 [erdosproblems.com/404 and /403 citation [Li76]; not online].
+D2. M. Andrejić, M. Tatarevic, Searching for a counterexample to Kurepa's conjecture, Math. Comp. 85 (2016), no. 302, 3061–3068; arXiv:1409.0800 [AMS page]. p < 2^34.
+D3. M. Andrejić, A. Bostan, M. Tatarevic, Improved algorithms for left factorial residues, Inform. Process. Lett. 167 (2021) 106078; arXiv:1904.09196. p < 2^40. Kurepa open as of 2021.
+D4. Ž. Mijajlović, Fifty years of Kurepa's !n hypothesis, Bull. Cl. Sci. Math. Nat. Sci. Math. 46 (2021) [geodesic.mathdoc.fr BASS_2021_46_a9]. Status: open.
+D5. V. Abramov, Kurepa's conjecture on the left factorial function is true, arXiv:2209.12677 (2022). Claimed proof; no journal publication, review, or refutation found. Treat as unverified.
+D6. B. Dragovich, On some finite sums with factorials, Facta Univ. Ser. Math. Inform. 14 (1999), 1–10; arXiv:math/0404487. Equivalents of Kurepa; also Dragovich–Mišić arXiv:1411.4195 and Dragovich–Khrennikov–Mišić Filomat 31 (2017) on p-adic invariant summation of factorial series (Σ n·n! = −1 in every Z_p; Schikhof's question on irrationality of Σ n! is open, per Murty–Sumner notes).
+D7. S. D. Hughes, Sums of distinct divisors of factorials, arXiv:2609.10902 (9 Sep 2026). Adjacent (divisors of n!, not factorials); no implication.
+D8. T. Edgar, J. Integer Seq. 23 (2020/2023) on factorial-base representation (cites Lenstra's "Profinite Fibonacci numbers"-style carry rules). Weak relevance to Prop. 10.21.
+No paper on p-adic valuations of sums of distinct factorials found (arXiv API: "distinct factorials", "sums of factorials", Erdős+factorial+p-adic; latest hits 2026-10-01 Yudin 2610.01899, unrelated).
+
+(e) purity (Jessen–Wintner)
+E1. B. Jessen, A. Wintner, Distribution functions and the Riemann zeta function, Trans. Amer. Math. Soc. 38 (1935), 48–88 [AMS page]. Purity law on R.
+E2. P. Hartman, Infinite convolutions on locally compact Abelian groups and additive functions, Trans. Amer. Math. Soc. 214 (1975), 215–231 [AMS page]. Abstract: Lévy atom theorem and "pure theorems" of Jessen–Wintner–van Kampen for infinite convolutions on arbitrary LCA groups (hence Z_p). This is the citation for the p-adic Jessen–Wintner law used in §3.7(c). Full text not read; check that the pure-type statement covers general G, not only R^d.
+
+(f) second moment
+F1. J.-P. Kahane, Some Random Series of Functions, 2nd ed., Cambridge Stud. Adv. Math. 5, CUP 1985 (1st ed. Heath 1968) [CiNii]. Paley–Zygmund inequality: P(Z >= θ E Z) >= (1−θ)^2 (E Z)^2 / E Z^2.
+F2. R. Lyons, R. Pemantle, Y. Peres, Conceptual proofs of L log L criteria for mean behavior of branching processes, Ann. Probab. 23 (1995), 1125–1138; arXiv:math/0404083. Size-biasing proof of Kesten–Stigum; the natural template for an L^2/size-biased argument for μ(K_p) > 0.
+
+(g) exponential sums mod p^k
+G1. L.-K. Hua, Additive Theory of Prime Numbers, Transl. Math. Monogr. 13, AMS 1965 [AMS bookstore]. Complete sums mod p^l via multiplicity of roots of p^{-t} f' (Hua's lemma).
+G2. J. H. Loxton, R. C. Vaughan, The estimation of complete exponential sums, Canad. Math. Bull. 28 (1985), no. 4, 440–454 [Cambridge Core]. |S(f;q)| <= C_f d_n(q) q^{e/(e+1)}.
+G3. T. Cochrane, Z. Zheng, Pure and mixed exponential sums, Acta Arith. 91 (1999), no. 3, 249–278, doi:10.4064/aa-91-3-249-278 [IMPAN]. Stationary-phase style evaluation mod p^m (per later citing papers).
+G4. T. Cochrane, Exponential sums modulo prime powers, Acta Arith. 101 (2002), no. 2, 131–149, doi:10.4064/aa101-2-5 [IMPAN].
+G5. T. Cochrane, Z. Zheng, Upper bounds on a two-term exponential sum, Sci. China Ser. A 44 (2001), 1003–1015, doi:10.1007/BF02878976.
+G6. W. K. A. Loh, On Hua's lemma, Bull. Austral. Math. Soc. 50 (1994) [Cambridge Core]; J. H. H. Chalk, On Hua's estimates for exponential sums, Mathematika 34 (1987).
+Caveat: these treat polynomial phases; the #404 Fourier coefficients (products of cos(π u n!/p^k)) are not polynomial exponential sums, so (g) is at best a template.
+
+New since 2026-10-08 (status check)
+- erdosproblems.com/404: open, last edited 29 Sep 2025, 0 proof claims; forum thread unchanged (latest comment Kitamura 08 Jul 2026).
+- KitaKen1 repos: no pushes since 2026-07-07/08.
+- GitHub: AstroCat93/erdos-404-research (this project's own publication; commits 2026-10-08, 2026-10-12 ×3, author Nathan Durfee). vibemathing/problem-um-ep-404-... (created 2026-09-06; harness template, no mathematical content in README). grandchallenge/MATH-PROGRAMME issue #1674 (opened 2026-10-09): a source-audit task packet for #404, no mathematics.
+- Zenodo 10.5281/zenodo.23144232 (S. Roy, 2026-10-04): framework for #393/#400/#404/#478/#1108; no abstract; already dismissed in note §2.
+- arXiv: nothing on #404.

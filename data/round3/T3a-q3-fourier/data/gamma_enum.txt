@@ -1,0 +1,149 @@
+p=2  e_u = 1 -1
+p=2  Sigma_p=2  total_weight=4^p=16  weight(W=0)=6
+p=2  distinct integer subset sums = 3  (3*2^(p-2) = 3)
+p=2 J=1  p^J=2  cnt=8  dist=2  pJ>Sigma=0
+p=2 J=2  p^J=4  cnt=6  dist=3  pJ>Sigma=1
+p=2 J=3  p^J=8  cnt=6  dist=3  pJ>Sigma=1
+p=2 J=4  p^J=16  cnt=6  dist=3  pJ>Sigma=1
+p=2 J=5  p^J=32  cnt=6  dist=3  pJ>Sigma=1
+p=2 J=6  p^J=64  cnt=6  dist=3  pJ>Sigma=1
+p=2 J=7  p^J=128  cnt=6  dist=3  pJ>Sigma=1
+p=2 J=8  p^J=256  cnt=6  dist=3  pJ>Sigma=1
+p=2 J=9  p^J=512  cnt=6  dist=3  pJ>Sigma=1
+p=2 J=10  p^J=1024  cnt=6  dist=3  pJ>Sigma=1
+p=2 J=11  p^J=2048  cnt=6  dist=3  pJ>Sigma=1
+p=2 J=12  p^J=4096  cnt=6  dist=3  pJ>Sigma=1
+p=2 J=13  p^J=8192  cnt=6  dist=3  pJ>Sigma=1
+p=2 J=14  p^J=16384  cnt=6  dist=3  pJ>Sigma=1
+p=2 J=15  p^J=32768  cnt=6  dist=3  pJ>Sigma=1
+p=2 J=16  p^J=65536  cnt=6  dist=3  pJ>Sigma=1
+p=3  e_u = 2 -2 1
+p=3  Sigma_p=5  total_weight=4^p=64  weight(W=0)=12
+p=3  distinct integer subset sums = 6  (3*2^(p-2) = 6)
+p=3 J=1  p^J=3  cnt=22  dist=3  pJ>Sigma=0
+p=3 J=2  p^J=9  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=3  p^J=27  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=4  p^J=81  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=5  p^J=243  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=6  p^J=729  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=7  p^J=2187  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=8  p^J=6561  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=9  p^J=19683  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=10  p^J=59049  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=11  p^J=177147  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=12  p^J=531441  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=13  p^J=1594323  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=14  p^J=4782969  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=15  p^J=14348907  cnt=12  dist=6  pJ>Sigma=1
+p=3 J=16  p^J=43046721  cnt=12  dist=6  pJ>Sigma=1
+p=5  e_u = 24 -24 12 -4 1
+p=5  Sigma_p=65  total_weight=4^p=1024  weight(W=0)=48
+p=5  distinct integer subset sums = 24  (3*2^(p-2) = 24)
+p=5 J=1  p^J=5  cnt=212  dist=5  pJ>Sigma=0
+p=5 J=2  p^J=25  cnt=80  dist=16  pJ>Sigma=0
+p=5 J=3  p^J=125  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=4  p^J=625  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=5  p^J=3125  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=6  p^J=15625  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=7  p^J=78125  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=8  p^J=390625  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=9  p^J=1953125  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=10  p^J=9765625  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=11  p^J=48828125  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=12  p^J=244140625  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=13  p^J=1220703125  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=14  p^J=6103515625  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=15  p^J=30517578125  cnt=48  dist=24  pJ>Sigma=1
+p=5 J=16  p^J=152587890625  cnt=48  dist=24  pJ>Sigma=1
+p=7  e_u = 720 -720 360 -120 30 -6 1
+p=7  Sigma_p=1957  total_weight=4^p=16384  weight(W=0)=192
+p=7  distinct integer subset sums = 96  (3*2^(p-2) = 96)
+p=7 J=1  p^J=7  cnt=2374  dist=7  pJ>Sigma=0
+p=7 J=2  p^J=49  cnt=372  dist=49  pJ>Sigma=0
+p=7 J=3  p^J=343  cnt=194  dist=95  pJ>Sigma=0
+p=7 J=4  p^J=2401  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=5  p^J=16807  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=6  p^J=117649  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=7  p^J=823543  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=8  p^J=5764801  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=9  p^J=40353607  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=10  p^J=282475249  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=11  p^J=1977326743  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=12  p^J=13841287201  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=13  p^J=96889010407  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=14  p^J=678223072849  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=15  p^J=4747561509943  cnt=192  dist=96  pJ>Sigma=1
+p=7 J=16  p^J=33232930569601  cnt=192  dist=96  pJ>Sigma=1
+p=11  e_u = 3628800 -3628800 1814400 -604800 151200 -30240 5040 -720 90 -10 1
+p=11  Sigma_p=9864101  total_weight=4^p=4194304  weight(W=0)=3072
+p=11  distinct integer subset sums = 1536  (3*2^(p-2) = 1536)
+p=11 J=1  p^J=11  cnt=381848  dist=11  pJ>Sigma=0
+p=11 J=2  p^J=121  cnt=38532  dist=121  pJ>Sigma=0
+p=11 J=3  p^J=1331  cnt=5676  dist=932  pJ>Sigma=0
+p=11 J=4  p^J=14641  cnt=3144  dist=1500  pJ>Sigma=0
+p=11 J=5  p^J=161051  cnt=3072  dist=1536  pJ>Sigma=0
+p=11 J=6  p^J=1771561  cnt=3072  dist=1536  pJ>Sigma=0
+p=11 J=7  p^J=19487171  cnt=3072  dist=1536  pJ>Sigma=1
+p=11 J=8  p^J=214358881  cnt=3072  dist=1536  pJ>Sigma=1
+p=11 J=9  p^J=2357947691  cnt=3072  dist=1536  pJ>Sigma=1
+p=11 J=10  p^J=25937424601  cnt=3072  dist=1536  pJ>Sigma=1
+p=11 J=11  p^J=285311670611  cnt=3072  dist=1536  pJ>Sigma=1
+p=11 J=12  p^J=3138428376721  cnt=3072  dist=1536  pJ>Sigma=1
+p=11 J=13  p^J=34522712143931  cnt=3072  dist=1536  pJ>Sigma=1
+p=11 J=14  p^J=379749833583241  cnt=3072  dist=1536  pJ>Sigma=1
+p=11 J=15  p^J=4177248169415651  cnt=3072  dist=1536  pJ>Sigma=1
+p=11 J=16  p^J=45949729863572161  cnt=3072  dist=1536  pJ>Sigma=1
+p=13  e_u = 479001600 -479001600 239500800 -79833600 19958400 -3991680 665280 -95040 11880 -1320 132 -12 1
+p=13  Sigma_p=1302061345  total_weight=4^p=67108864  weight(W=0)=12288
+p=13  distinct integer subset sums = 6144  (3*2^(p-2) = 6144)
+p=13 J=1  p^J=13  cnt=5162334  dist=13  pJ>Sigma=0
+p=13 J=2  p^J=169  cnt=400320  dist=169  pJ>Sigma=0
+p=13 J=3  p^J=2197  cnt=36424  dist=2163  pJ>Sigma=0
+p=13 J=4  p^J=28561  cnt=16180  dist=5178  pJ>Sigma=0
+p=13 J=5  p^J=371293  cnt=12304  dist=6136  pJ>Sigma=0
+p=13 J=6  p^J=4826809  cnt=12288  dist=6144  pJ>Sigma=0
+p=13 J=7  p^J=62748517  cnt=12288  dist=6144  pJ>Sigma=0
+p=13 J=8  p^J=815730721  cnt=12288  dist=6144  pJ>Sigma=0
+p=13 J=9  p^J=10604499373  cnt=12288  dist=6144  pJ>Sigma=1
+p=13 J=10  p^J=137858491849  cnt=12288  dist=6144  pJ>Sigma=1
+p=13 J=11  p^J=1792160394037  cnt=12288  dist=6144  pJ>Sigma=1
+p=13 J=12  p^J=23298085122481  cnt=12288  dist=6144  pJ>Sigma=1
+p=13 J=13  p^J=302875106592253  cnt=12288  dist=6144  pJ>Sigma=1
+p=13 J=14  p^J=3937376385699289  cnt=12288  dist=6144  pJ>Sigma=1
+p=13 J=15  p^J=51185893014090757  cnt=12288  dist=6144  pJ>Sigma=1
+p=13 J=16  p^J=665416609183179841  cnt=12288  dist=6144  pJ>Sigma=1
+p=17  e_u = 20922789888000 -20922789888000 10461394944000 -3487131648000 871782912000 -174356582400 29059430400 -4151347200 518918400 -57657600 5765760 -524160 43680 -3360 240 -16 1
+p=17  Sigma_p=56874039553217  total_weight=4^p=17179869184  weight(W=0)=196608
+p=17  distinct integer subset sums = 98304  (3*2^(p-2) = 98304)
+p=17 J=1  p^J=17  cnt=1010581156  dist=17  pJ>Sigma=0
+p=17 J=2  p^J=289  cnt=59463142  dist=289  pJ>Sigma=0
+p=17 J=3  p^J=4913  cnt=3575738  dist=4913  pJ>Sigma=0
+p=17 J=4  p^J=83521  cnt=401364  dist=58024  pJ>Sigma=0
+p=17 J=5  p^J=1419857  cnt=202360  dist=96676  pJ>Sigma=0
+p=17 J=6  p^J=24137569  cnt=197200  dist=98152  pJ>Sigma=0
+p=17 J=7  p^J=410338673  cnt=196608  dist=98304  pJ>Sigma=0
+p=17 J=8  p^J=6975757441  cnt=196608  dist=98304  pJ>Sigma=0
+p=17 J=9  p^J=118587876497  cnt=196608  dist=98304  pJ>Sigma=0
+p=17 J=10  p^J=2015993900449  cnt=196608  dist=98304  pJ>Sigma=0
+p=17 J=11  p^J=34271896307633  cnt=196608  dist=98304  pJ>Sigma=0
+p=17 J=12  p^J=582622237229761  cnt=196608  dist=98304  pJ>Sigma=1
+p=17 J=13  p^J=9904578032905937  cnt=196608  dist=98304  pJ>Sigma=1
+p=17 J=14  p^J=168377826559400929  cnt=196608  dist=98304  pJ>Sigma=1
+p=17 J=15  p^J=2862423051509815793  cnt=196608  dist=98304  pJ>Sigma=1
+p=19  e_u = 6402373705728000 -6402373705728000 3201186852864000 -1067062284288000 266765571072000 -53353114214400 8892185702400 -1270312243200 158789030400 -17643225600 1764322560 -160392960 13366080 -1028160 73440 -4896 306 -18 1
+p=19  Sigma_p=17403456103284421  total_weight=4^p=274877906944  weight(W=0)=786432
+p=19  distinct integer subset sums = 393216  (3*2^(p-2) = 393216)
+p=19 J=1  p^J=19  cnt=14467259682  dist=19  pJ>Sigma=0
+p=19 J=2  p^J=361  cnt=761787470  dist=361  pJ>Sigma=0
+p=19 J=3  p^J=6859  cnt=40506348  dist=6859  pJ>Sigma=0
+p=19 J=4  p^J=130321  cnt=2761852  dist=125661  pJ>Sigma=0
+p=19 J=5  p^J=2476099  cnt=916424  dist=359548  pJ>Sigma=0
+p=19 J=6  p^J=47045881  cnt=787392  dist=392832  pJ>Sigma=0
+p=19 J=7  p^J=893871739  cnt=786432  dist=393216  pJ>Sigma=0
+p=19 J=8  p^J=16983563041  cnt=786432  dist=393216  pJ>Sigma=0
+p=19 J=9  p^J=322687697779  cnt=786432  dist=393216  pJ>Sigma=0
+p=19 J=10  p^J=6131066257801  cnt=786432  dist=393216  pJ>Sigma=0
+p=19 J=11  p^J=116490258898219  cnt=786432  dist=393216  pJ>Sigma=0
+p=19 J=12  p^J=2213314919066161  cnt=786432  dist=393216  pJ>Sigma=0
+p=19 J=13  p^J=42052983462257059  cnt=786432  dist=393216  pJ>Sigma=1
+p=19 J=14  p^J=799006685782884121  cnt=786432  dist=393216  pJ>Sigma=1

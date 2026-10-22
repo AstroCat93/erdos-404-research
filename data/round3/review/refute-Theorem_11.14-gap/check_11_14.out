@@ -1,0 +1,33 @@
+p 2 c 4 v(F) 1000000000 v(F') 3 v(x+2) 3 v(c!) 3
+p 2 c 5 v(F) 1000000000 v(F') 3 v(x+2) 3 v(c!) 3
+p 2 c 6 v(F) 1000000000 v(F') 4 v(x+2) 4 v(c!) 4
+p 3 c 6 v(F) 1000000000 v(F') 2 v(x+2) 2 v(c!) 2
+p 3 c 7 v(F) 1000000000 v(F') 2 v(x+2) 2 v(c!) 2
+p 3 c 9 v(F) 1000000000 v(F') 4 v(x+2) 4 v(c!) 4
+p 5 c 10 v(F) 1000000000 v(F') 2 v(x+2) 2 v(c!) 2
+p 5 c 11 v(F) 1000000000 v(F') 2 v(x+2) 2 v(c!) 2
+p 5 c 15 v(F) 1000000000 v(F') 3 v(x+2) 3 v(c!) 3
+p 3 alpha mod p 1 lam 0 j 12 v(diff) 1000000000 pred 44 slope child 0 vF 1000000000
+p 3 alpha mod p 1 lam 0 j 13 v(diff) 1000000000 pred 44 slope child 0 vF 1000000000
+p 3 alpha mod p 1 lam 0 j 14 v(diff) 1000000000 pred 45 slope child 0 vF 1000000000
+p 3 alpha mod p 1 lam 0 j 15 v(diff) 1000000000 pred 45 slope child 0 vF 1000000000
+p 3 alpha mod p 1 lam 0 j 16 v(diff) 1000000000 pred 45 slope child 0 vF 1000000000
+p 3 alpha mod p 1 lam 0 j 17 v(diff) 1000000000 pred 46 slope child 0 vF 1000000000
+p 5 alpha mod p 3 lam 0 j 20 v(diff) 1000000000 pred 43 slope child 0 vF 1000000000
+p 5 alpha mod p 3 lam 0 j 21 v(diff) 1000000000 pred 43 slope child 0 vF 1000000000
+p 5 alpha mod p 3 lam 0 j 22 v(diff) 1000000000 pred 44 slope child 0 vF 1000000000
+p 5 alpha mod p 3 lam 0 j 23 v(diff) 1000000000 pred 44 slope child 0 vF 1000000000
+p 5 alpha mod p 3 lam 0 j 24 v(diff) 1000000000 pred 44 slope child 0 vF 1000000000
+p 5 alpha mod p 3 lam 0 j 25 v(diff) 1000000000 pred 44 slope child 0 vF 1000000000
+p 3 c 6 v(F) 1000000000 v(F') 2 v(x+2) 2 v(c!) 2
+p 3 c 7 v(F) 1000000000 v(F') 2 v(x+2) 2 v(c!) 2
+p 3 c 9 v(F) 1000000000 v(F') 4 v(x+2) 4 v(c!) 4
+p 5 c 10 v(F) 1000000000 v(F') 2 v(x+2) 2 v(c!) 2
+p 5 c 11 v(F) 1000000000 v(F') 2 v(x+2) 2 v(c!) 2
+p 5 c 15 v(F) 1000000000 v(F') 3 v(x+2) 3 v(c!) 3
+p 3 alpha mod p 0 lam 0 j 12 v(diff) 5 pred 5 slope child 0 vF 1000000000
+p 3 alpha mod p 0 lam 0 j 13 v(diff) 5 pred 5 slope child 0 vF 1000000000
+p 3 alpha mod p 0 lam 0 j 14 v(diff) 5 pred 5 slope child 0 vF 1000000000
+p 3 alpha mod p 0 lam 0 j 15 v(diff) 8 pred 8 slope child 0 vF 1000000000
+p 3 alpha mod p 0 lam 0 j 16 v(diff) 8 pred 8 slope child 0 vF 1000000000
+p 3 alpha mod p 0 lam 0 j 17 v(diff) 8 pred 8 slope child 0 vF 1000000000

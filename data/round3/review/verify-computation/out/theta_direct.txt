@@ -1,0 +1,3 @@
+3 0.229400028123489 (truncated at j=22; tail < p^-22*25)
+5 0.110133807562577 (truncated at j=22; tail < p^-22*25)
+13 0.000907675515210578 (truncated at j=22; tail < p^-22*25)

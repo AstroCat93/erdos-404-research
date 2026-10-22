@@ -1,0 +1,330 @@
+== p=2 N0=1 e0=0 depth 28 : C_28 = 4.4761604127
+   block defects D = C_b/C_a - 1 between consecutive attained levels a->b (J=b-a), worst case Gamma_p(J):
+     0->  1 J=1  D=0.000000e+00  Gamma=0.000000e+00  D/Gamma=nan  [p=2 block [1], elements 1..1]
+     1->  3 J=2  D=5.000000e-01  Gamma=5.000000e-01  D/Gamma=1.000e+00  [p=2 block [2, 3], elements 2..3]
+     3->  4 J=1  D=0.000000e+00  Gamma=0.000000e+00  D/Gamma=nan  [p=2 block [4, 5], elements 4..5]
+     4->  7 J=3  D=3.750000e-01  Gamma=2.000000e+00  D/Gamma=1.875e-01  [p=2 block [6, 7], elements 6..7]
+     7->  8 J=1  D=0.000000e+00  Gamma=0.000000e+00  D/Gamma=nan  [p=2 block [8, 9], elements 8..9]
+     8-> 10 J=2  D=1.856061e-01  Gamma=5.000000e-01  D/Gamma=3.712e-01  [p=2 block [10, 11], elements 10..11]
+    10-> 11 J=1  D=0.000000e+00  Gamma=0.000000e+00  D/Gamma=nan  [p=2 block [12, 13], elements 12..13]
+    11-> 15 J=4  D=2.522963e-01  Gamma=5.000000e+00  D/Gamma=5.046e-02  [p=2 block [14, 15], elements 14..15]
+    15-> 16 J=1  D=0.000000e+00  Gamma=0.000000e+00  D/Gamma=nan  [p=2 block [16, 17], elements 16..17]
+    16-> 18 J=2  D=1.658096e-01  Gamma=5.000000e-01  D/Gamma=3.316e-01  [p=2 block [18, 19], elements 18..19]
+    18-> 19 J=1  D=0.000000e+00  Gamma=0.000000e+00  D/Gamma=nan  [p=2 block [20, 21], elements 20..21]
+    19-> 22 J=3  D=1.690911e-01  Gamma=2.000000e+00  D/Gamma=8.455e-02  [p=2 block [22, 23], elements 22..23]
+    22-> 23 J=1  D=0.000000e+00  Gamma=0.000000e+00  D/Gamma=nan  [p=2 block [24, 25], elements 24..25]
+    23-> 25 J=2  D=6.301594e-02  Gamma=5.000000e-01  D/Gamma=1.260e-01  [p=2 block [26, 27], elements 26..27]
+    25-> 26 J=1  D=0.000000e+00  Gamma=0.000000e+00  D/Gamma=nan  [p=2 block [28, 29], elements 28..29]
+   shells T2(j) = C_j - C_{j-1} vs random model rm(j) = p^j (1-1/p) 2^-m_j  (m_j = #elements with v<j):
+   j= 1 m_j=  1  T2=0.000000e+00  rm=5.000000e-01  T2/rm=0.0000   cum: C_j-1=0.000000e+00  sum rm=5.000000e-01
+   j= 2 m_j=  3  T2=0.000000e+00  rm=2.500000e-01  T2/rm=0.0000   cum: C_j-1=0.000000e+00  sum rm=7.500000e-01
+   j= 3 m_j=  3  T2=5.000000e-01  rm=5.000000e-01  T2/rm=1.0000   cum: C_j-1=5.000000e-01  sum rm=1.250000e+00
+   j= 4 m_j=  5  T2=0.000000e+00  rm=2.500000e-01  T2/rm=0.0000   cum: C_j-1=5.000000e-01  sum rm=1.500000e+00
+   j= 5 m_j=  7  T2=0.000000e+00  rm=1.250000e-01  T2/rm=0.0000   cum: C_j-1=5.000000e-01  sum rm=1.625000e+00
+   j= 6 m_j=  7  T2=1.250000e-01  rm=2.500000e-01  T2/rm=0.5000   cum: C_j-1=6.250000e-01  sum rm=1.875000e+00
+   j= 7 m_j=  7  T2=4.375000e-01  rm=5.000000e-01  T2/rm=0.8750   cum: C_j-1=1.062500e+00  sum rm=2.375000e+00
+   j= 8 m_j=  9  T2=0.000000e+00  rm=2.500000e-01  T2/rm=0.0000   cum: C_j-1=1.062500e+00  sum rm=2.625000e+00
+   j= 9 m_j= 11  T2=0.000000e+00  rm=1.250000e-01  T2/rm=0.0000   cum: C_j-1=1.062500e+00  sum rm=2.750000e+00
+   j=10 m_j= 11  T2=3.828125e-01  rm=2.500000e-01  T2/rm=1.5312   cum: C_j-1=1.445312e+00  sum rm=3.000000e+00
+   j=11 m_j= 13  T2=0.000000e+00  rm=1.250000e-01  T2/rm=0.0000   cum: C_j-1=1.445312e+00  sum rm=3.125000e+00
+   j=12 m_j= 15  T2=0.000000e+00  rm=6.250000e-02  T2/rm=0.0000   cum: C_j-1=1.445312e+00  sum rm=3.187500e+00
+   j=13 m_j= 15  T2=8.886719e-02  rm=1.250000e-01  T2/rm=0.7109   cum: C_j-1=1.534180e+00  sum rm=3.312500e+00
+   j=14 m_j= 15  T2=1.098633e-01  rm=2.500000e-01  T2/rm=0.4395   cum: C_j-1=1.644043e+00  sum rm=3.562500e+00
+   j=15 m_j= 15  T2=4.182129e-01  rm=5.000000e-01  T2/rm=0.8364   cum: C_j-1=2.062256e+00  sum rm=4.062500e+00
+   j=16 m_j= 17  T2=0.000000e+00  rm=2.500000e-01  T2/rm=0.0000   cum: C_j-1=2.062256e+00  sum rm=4.312500e+00
+   j=17 m_j= 19  T2=0.000000e+00  rm=1.250000e-01  T2/rm=0.0000   cum: C_j-1=2.062256e+00  sum rm=4.437500e+00
+   j=18 m_j= 19  T2=5.077515e-01  rm=2.500000e-01  T2/rm=2.0310   cum: C_j-1=2.570007e+00  sum rm=4.687500e+00
+   j=19 m_j= 21  T2=0.000000e+00  rm=1.250000e-01  T2/rm=0.0000   cum: C_j-1=2.570007e+00  sum rm=4.812500e+00
+   j=20 m_j= 23  T2=0.000000e+00  rm=6.250000e-02  T2/rm=0.0000   cum: C_j-1=2.570007e+00  sum rm=4.875000e+00
+   j=21 m_j= 23  T2=5.286026e-02  rm=1.250000e-01  T2/rm=0.4229   cum: C_j-1=2.622868e+00  sum rm=5.000000e+00
+   j=22 m_j= 23  T2=5.507960e-01  rm=2.500000e-01  T2/rm=2.2032   cum: C_j-1=3.173664e+00  sum rm=5.250000e+00
+   j=23 m_j= 25  T2=0.000000e+00  rm=1.250000e-01  T2/rm=0.0000   cum: C_j-1=3.173664e+00  sum rm=5.375000e+00
+   j=24 m_j= 27  T2=0.000000e+00  rm=6.250000e-02  T2/rm=0.0000   cum: C_j-1=3.173664e+00  sum rm=5.437500e+00
+   j=25 m_j= 27  T2=2.630073e-01  rm=1.250000e-01  T2/rm=2.1041   cum: C_j-1=3.436671e+00  sum rm=5.562500e+00
+   j=26 m_j= 29  T2=0.000000e+00  rm=6.250000e-02  T2/rm=0.0000   cum: C_j-1=3.436671e+00  sum rm=5.625000e+00
+   j=27 m_j= 31  T2=0.000000e+00  rm=3.125000e-02  T2/rm=0.0000   cum: C_j-1=3.436671e+00  sum rm=5.656250e+00
+   j=28 m_j= 31  T2=3.948945e-02  rm=6.250000e-02  T2/rm=0.6318   cum: C_j-1=3.476160e+00  sum rm=5.718750e+00
+   p=2 random model continued: partial sums S(K) = sum_{j<=K} rm(j) and local exponent d log S / d log K
+      K=   28  S(K)=5.7188  
+      K=   64  S(K)=10.6406  exponent vs previous = 0.751
+      K=  128  S(K)=16.3359  exponent vs previous = 0.618
+      K=  256  S(K)=24.8789  exponent vs previous = 0.607
+      K=  512  S(K)=37.6934  exponent vs previous = 0.599
+      K= 1024  S(K)=56.9150  exponent vs previous = 0.594
+      K= 2048  S(K)=85.7476  exponent vs previous = 0.591
+      K= 4096  S(K)=128.9963  exponent vs previous = 0.589
+      K= 8192  S(K)=193.8695  exponent vs previous = 0.588
+      K=16384  S(K)=291.1793  exponent vs previous = 0.587
+      (mean of 2^-s_2(n) over n<2^L is (3/4)^L, so rm(j) ~ j^(log2(3/4)) = j^-0.415 on average and S(K) ~ K^0.585 [heuristic])
+== p=2 N0=2 e0=1 depth 27 : C_27 = 4.4761604127
+   block defects D = C_b/C_a - 1 between consecutive attained levels a->b (J=b-a), worst case Gamma_p(J):
+     0->  2 J=2  D=5.000000e-01  Gamma=5.000000e-01  D/Gamma=1.000e+00  [p=2 block [2, 3], elements 2..3]
+     2->  3 J=1  D=0.000000e+00  Gamma=0.000000e+00  D/Gamma=nan  [p=2 block [4, 5], elements 4..5]
+     3->  6 J=3  D=3.750000e-01  Gamma=2.000000e+00  D/Gamma=1.875e-01  [p=2 block [6, 7], elements 6..7]
+     6->  7 J=1  D=0.000000e+00  Gamma=0.000000e+00  D/Gamma=nan  [p=2 block [8, 9], elements 8..9]
+     7->  9 J=2  D=1.856061e-01  Gamma=5.000000e-01  D/Gamma=3.712e-01  [p=2 block [10, 11], elements 10..11]
+     9-> 10 J=1  D=0.000000e+00  Gamma=0.000000e+00  D/Gamma=nan  [p=2 block [12, 13], elements 12..13]
+    10-> 14 J=4  D=2.522963e-01  Gamma=5.000000e+00  D/Gamma=5.046e-02  [p=2 block [14, 15], elements 14..15]
+    14-> 15 J=1  D=0.000000e+00  Gamma=0.000000e+00  D/Gamma=nan  [p=2 block [16, 17], elements 16..17]
+    15-> 17 J=2  D=1.658096e-01  Gamma=5.000000e-01  D/Gamma=3.316e-01  [p=2 block [18, 19], elements 18..19]
+    17-> 18 J=1  D=0.000000e+00  Gamma=0.000000e+00  D/Gamma=nan  [p=2 block [20, 21], elements 20..21]
+    18-> 21 J=3  D=1.690911e-01  Gamma=2.000000e+00  D/Gamma=8.455e-02  [p=2 block [22, 23], elements 22..23]
+    21-> 22 J=1  D=0.000000e+00  Gamma=0.000000e+00  D/Gamma=nan  [p=2 block [24, 25], elements 24..25]
+    22-> 24 J=2  D=6.301594e-02  Gamma=5.000000e-01  D/Gamma=1.260e-01  [p=2 block [26, 27], elements 26..27]
+    24-> 25 J=1  D=0.000000e+00  Gamma=0.000000e+00  D/Gamma=nan  [p=2 block [28, 29], elements 28..29]
+   shells T2(j) = C_j - C_{j-1} vs random model rm(j) = p^j (1-1/p) 2^-m_j  (m_j = #elements with v<j):
+   j= 1 m_j=  2  T2=0.000000e+00  rm=2.500000e-01  T2/rm=0.0000   cum: C_j-1=0.000000e+00  sum rm=2.500000e-01
+   j= 2 m_j=  2  T2=5.000000e-01  rm=5.000000e-01  T2/rm=1.0000   cum: C_j-1=5.000000e-01  sum rm=7.500000e-01
+   j= 3 m_j=  4  T2=0.000000e+00  rm=2.500000e-01  T2/rm=0.0000   cum: C_j-1=5.000000e-01  sum rm=1.000000e+00
+   j= 4 m_j=  6  T2=0.000000e+00  rm=1.250000e-01  T2/rm=0.0000   cum: C_j-1=5.000000e-01  sum rm=1.125000e+00
+   j= 5 m_j=  6  T2=1.250000e-01  rm=2.500000e-01  T2/rm=0.5000   cum: C_j-1=6.250000e-01  sum rm=1.375000e+00
+   j= 6 m_j=  6  T2=4.375000e-01  rm=5.000000e-01  T2/rm=0.8750   cum: C_j-1=1.062500e+00  sum rm=1.875000e+00
+   j= 7 m_j=  8  T2=0.000000e+00  rm=2.500000e-01  T2/rm=0.0000   cum: C_j-1=1.062500e+00  sum rm=2.125000e+00
+   j= 8 m_j= 10  T2=0.000000e+00  rm=1.250000e-01  T2/rm=0.0000   cum: C_j-1=1.062500e+00  sum rm=2.250000e+00
+   j= 9 m_j= 10  T2=3.828125e-01  rm=2.500000e-01  T2/rm=1.5312   cum: C_j-1=1.445312e+00  sum rm=2.500000e+00
+   j=10 m_j= 12  T2=0.000000e+00  rm=1.250000e-01  T2/rm=0.0000   cum: C_j-1=1.445312e+00  sum rm=2.625000e+00
+   j=11 m_j= 14  T2=0.000000e+00  rm=6.250000e-02  T2/rm=0.0000   cum: C_j-1=1.445312e+00  sum rm=2.687500e+00
+   j=12 m_j= 14  T2=8.886719e-02  rm=1.250000e-01  T2/rm=0.7109   cum: C_j-1=1.534180e+00  sum rm=2.812500e+00
+   j=13 m_j= 14  T2=1.098633e-01  rm=2.500000e-01  T2/rm=0.4395   cum: C_j-1=1.644043e+00  sum rm=3.062500e+00
+   j=14 m_j= 14  T2=4.182129e-01  rm=5.000000e-01  T2/rm=0.8364   cum: C_j-1=2.062256e+00  sum rm=3.562500e+00
+   j=15 m_j= 16  T2=0.000000e+00  rm=2.500000e-01  T2/rm=0.0000   cum: C_j-1=2.062256e+00  sum rm=3.812500e+00
+   j=16 m_j= 18  T2=0.000000e+00  rm=1.250000e-01  T2/rm=0.0000   cum: C_j-1=2.062256e+00  sum rm=3.937500e+00
+   j=17 m_j= 18  T2=5.077515e-01  rm=2.500000e-01  T2/rm=2.0310   cum: C_j-1=2.570007e+00  sum rm=4.187500e+00
+   j=18 m_j= 20  T2=0.000000e+00  rm=1.250000e-01  T2/rm=0.0000   cum: C_j-1=2.570007e+00  sum rm=4.312500e+00
+   j=19 m_j= 22  T2=0.000000e+00  rm=6.250000e-02  T2/rm=0.0000   cum: C_j-1=2.570007e+00  sum rm=4.375000e+00
+   j=20 m_j= 22  T2=5.286026e-02  rm=1.250000e-01  T2/rm=0.4229   cum: C_j-1=2.622868e+00  sum rm=4.500000e+00
+   j=21 m_j= 22  T2=5.507960e-01  rm=2.500000e-01  T2/rm=2.2032   cum: C_j-1=3.173664e+00  sum rm=4.750000e+00
+   j=22 m_j= 24  T2=0.000000e+00  rm=1.250000e-01  T2/rm=0.0000   cum: C_j-1=3.173664e+00  sum rm=4.875000e+00
+   j=23 m_j= 26  T2=0.000000e+00  rm=6.250000e-02  T2/rm=0.0000   cum: C_j-1=3.173664e+00  sum rm=4.937500e+00
+   j=24 m_j= 26  T2=2.630073e-01  rm=1.250000e-01  T2/rm=2.1041   cum: C_j-1=3.436671e+00  sum rm=5.062500e+00
+   j=25 m_j= 28  T2=0.000000e+00  rm=6.250000e-02  T2/rm=0.0000   cum: C_j-1=3.436671e+00  sum rm=5.125000e+00
+   j=26 m_j= 30  T2=0.000000e+00  rm=3.125000e-02  T2/rm=0.0000   cum: C_j-1=3.436671e+00  sum rm=5.156250e+00
+   j=27 m_j= 30  T2=3.948945e-02  rm=6.250000e-02  T2/rm=0.6318   cum: C_j-1=3.476160e+00  sum rm=5.218750e+00
+   p=2 random model continued: partial sums S(K) = sum_{j<=K} rm(j) and local exponent d log S / d log K
+      K=   28  S(K)=5.3438  
+      K=   64  S(K)=10.2656  exponent vs previous = 0.790
+      K=  128  S(K)=15.9609  exponent vs previous = 0.637
+      K=  256  S(K)=24.5039  exponent vs previous = 0.618
+      K=  512  S(K)=37.3184  exponent vs previous = 0.607
+      K= 1024  S(K)=56.5400  exponent vs previous = 0.599
+      K= 2048  S(K)=85.3726  exponent vs previous = 0.594
+      K= 4096  S(K)=128.6213  exponent vs previous = 0.591
+      K= 8192  S(K)=193.4945  exponent vs previous = 0.589
+      K=16384  S(K)=290.8043  exponent vs previous = 0.588
+      (mean of 2^-s_2(n) over n<2^L is (3/4)^L, so rm(j) ~ j^(log2(3/4)) = j^-0.415 on average and S(K) ~ K^0.585 [heuristic])
+== p=3 N0=1 e0=0 depth 17 : C_17 = 1.3105245710
+   block defects D = C_b/C_a - 1 between consecutive attained levels a->b (J=b-a), worst case Gamma_p(J):
+     0->  1 J=1  D=1.250000e-01  Gamma=1.250000e-01  D/Gamma=1.000e+00  [partial first block, elements 1..2]
+     1->  2 J=1  D=1.562500e-02  Gamma=3.125000e-02  D/Gamma=5.000e-01  [non-gate, elements 3..5]
+     2->  4 J=2  D=1.055288e-01  Gamma=6.875000e-01  D/Gamma=1.535e-01  [gate level 1, elements 6..8]
+     4->  5 J=1  D=2.813112e-03  Gamma=3.125000e-02  D/Gamma=9.002e-02  [non-gate, elements 9..11]
+     5->  6 J=1  D=2.392632e-03  Gamma=3.125000e-02  D/Gamma=7.656e-02  [non-gate, elements 12..14]
+     6->  8 J=2  D=1.526782e-02  Gamma=6.875000e-01  D/Gamma=2.221e-02  [gate level 1, elements 15..17]
+     8->  9 J=1  D=9.217577e-04  Gamma=3.125000e-02  D/Gamma=2.950e-02  [non-gate, elements 18..20]
+     9-> 10 J=1  D=8.660150e-04  Gamma=3.125000e-02  D/Gamma=2.771e-02  [non-gate, elements 21..23]
+    10-> 13 J=3  D=1.297811e-02  Gamma=4.062500e+00  D/Gamma=3.195e-03  [gate level 2, elements 24..26]
+    13-> 14 J=1  D=5.151089e-04  Gamma=3.125000e-02  D/Gamma=1.648e-02  [non-gate, elements 27..29]
+    14-> 15 J=1  D=5.146797e-04  Gamma=3.125000e-02  D/Gamma=1.647e-02  [non-gate, elements 30..32]
+    15-> 17 J=2  D=7.542531e-04  Gamma=6.875000e-01  D/Gamma=1.097e-03  [gate level 1, elements 33..35]
+   shells T2(j) = C_j - C_{j-1} vs random model rm(j) = p^j (1-1/p) 2^-m_j  (m_j = #elements with v<j):
+   j= 1 m_j=  2  T2=1.250000e-01  rm=5.000000e-01  T2/rm=0.2500   cum: C_j-1=1.250000e-01  sum rm=5.000000e-01
+   j= 2 m_j=  5  T2=1.757812e-02  rm=1.875000e-01  T2/rm=0.0937   cum: C_j-1=1.425781e-01  sum rm=6.875000e-01
+   j= 3 m_j=  8  T2=1.098633e-03  rm=7.031250e-02  T2/rm=0.0156   cum: C_j-1=1.436768e-01  sum rm=7.578125e-01
+   j= 4 m_j=  8  T2=1.194763e-01  rm=2.109375e-01  T2/rm=0.5664   cum: C_j-1=2.631531e-01  sum rm=9.687500e-01
+   j= 5 m_j= 11  T2=3.553391e-03  rm=7.910156e-02  T2/rm=0.0449   cum: C_j-1=2.667065e-01  sum rm=1.047852e+00
+   j= 6 m_j= 14  T2=3.030762e-03  rm=2.966309e-02  T2/rm=0.1022   cum: C_j-1=2.697372e-01  sum rm=1.077515e+00
+   j= 7 m_j= 17  T2=8.410297e-05  rm=1.112366e-02  T2/rm=0.0076   cum: C_j-1=2.698213e-01  sum rm=1.088638e+00
+   j= 8 m_j= 17  T2=1.930201e-02  rm=3.337097e-02  T2/rm=0.5784   cum: C_j-1=2.891233e-01  sum rm=1.122009e+00
+   j= 9 m_j= 20  T2=1.188259e-03  rm=1.251411e-02  T2/rm=0.0950   cum: C_j-1=2.903116e-01  sum rm=1.134523e+00
+   j=10 m_j= 23  T2=1.117429e-03  rm=4.692793e-03  T2/rm=0.2381   cum: C_j-1=2.914290e-01  sum rm=1.139216e+00
+   j=11 m_j= 26  T2=9.855320e-06  rm=1.759797e-03  T2/rm=0.0056   cum: C_j-1=2.914389e-01  sum rm=1.140976e+00
+   j=12 m_j= 26  T2=7.839300e-03  rm=5.279392e-03  T2/rm=1.4849   cum: C_j-1=2.992782e-01  sum rm=1.146255e+00
+   j=13 m_j= 26  T2=8.911154e-03  rm=1.583818e-02  T2/rm=0.5626   cum: C_j-1=3.081893e-01  sum rm=1.162094e+00
+   j=14 m_j= 29  T2=6.738600e-04  rm=5.939316e-03  T2/rm=0.1135   cum: C_j-1=3.088632e-01  sum rm=1.168033e+00
+   j=15 m_j= 32  T2=6.736453e-04  rm=2.227244e-03  T2/rm=0.3025   cum: C_j-1=3.095368e-01  sum rm=1.170260e+00
+   j=16 m_j= 35  T2=3.948155e-05  rm=8.352163e-04  T2/rm=0.0473   cum: C_j-1=3.095763e-01  sum rm=1.171095e+00
+   j=17 m_j= 35  T2=9.482406e-04  rm=2.505649e-03  T2/rm=0.3784   cum: C_j-1=3.105246e-01  sum rm=1.173601e+00
+== p=3 N0=3 e0=1 depth 16 : C_16 = 1.3324522899
+   block defects D = C_b/C_a - 1 between consecutive attained levels a->b (J=b-a), worst case Gamma_p(J):
+     0->  1 J=1  D=3.125000e-02  Gamma=3.125000e-02  D/Gamma=1.000e+00  [non-gate, elements 3..5]
+     1->  3 J=2  D=2.272727e-01  Gamma=6.875000e-01  D/Gamma=3.306e-01  [gate level 1, elements 6..8]
+     3->  4 J=1  D=4.394531e-03  Gamma=3.125000e-02  D/Gamma=1.406e-01  [non-gate, elements 9..11]
+     4->  5 J=1  D=2.810525e-03  Gamma=3.125000e-02  D/Gamma=8.994e-02  [non-gate, elements 12..14]
+     5->  7 J=2  D=2.273802e-02  Gamma=6.875000e-01  D/Gamma=3.307e-02  [gate level 1, elements 15..17]
+     7->  8 J=1  D=1.361616e-03  Gamma=3.125000e-02  D/Gamma=4.357e-02  [non-gate, elements 18..20]
+     8->  9 J=1  D=1.134044e-03  Gamma=3.125000e-02  D/Gamma=3.629e-02  [non-gate, elements 21..23]
+     9-> 12 J=3  D=1.708512e-02  Gamma=4.062500e+00  D/Gamma=4.206e-03  [gate level 2, elements 24..26]
+    12-> 13 J=1  D=6.968897e-04  Gamma=3.125000e-02  D/Gamma=2.230e-02  [non-gate, elements 27..29]
+    13-> 14 J=1  D=6.743152e-04  Gamma=3.125000e-02  D/Gamma=2.158e-02  [non-gate, elements 30..32]
+    14-> 16 J=2  D=9.749863e-04  Gamma=6.875000e-01  D/Gamma=1.418e-03  [gate level 1, elements 33..35]
+   shells T2(j) = C_j - C_{j-1} vs random model rm(j) = p^j (1-1/p) 2^-m_j  (m_j = #elements with v<j):
+   j= 1 m_j=  3  T2=3.125000e-02  rm=2.500000e-01  T2/rm=0.1250   cum: C_j-1=3.125000e-02  sum rm=2.500000e-01
+   j= 2 m_j=  6  T2=1.464844e-03  rm=9.375000e-02  T2/rm=0.0156   cum: C_j-1=3.271484e-02  sum rm=3.437500e-01
+   j= 3 m_j=  6  T2=2.329102e-01  rm=2.812500e-01  T2/rm=0.8281   cum: C_j-1=2.656250e-01  sum rm=6.250000e-01
+   j= 4 m_j=  9  T2=5.561829e-03  rm=1.054688e-01  T2/rm=0.0527   cum: C_j-1=2.711868e-01  sum rm=7.304688e-01
+   j= 5 m_j= 12  T2=3.572702e-03  rm=3.955078e-02  T2/rm=0.0903   cum: C_j-1=2.747595e-01  sum rm=7.700195e-01
+   j= 6 m_j= 15  T2=1.226608e-04  rm=1.483154e-02  T2/rm=0.0083   cum: C_j-1=2.748822e-01  sum rm=7.848511e-01
+   j= 7 m_j= 15  T2=2.886285e-02  rm=4.449463e-02  T2/rm=0.6487   cum: C_j-1=3.037450e-01  sum rm=8.293457e-01
+   j= 8 m_j= 18  T2=1.775201e-03  rm=1.668549e-02  T2/rm=0.1064   cum: C_j-1=3.055202e-01  sum rm=8.460312e-01
+   j= 9 m_j= 21  T2=1.480518e-03  rm=6.257057e-03  T2/rm=0.2366   cum: C_j-1=3.070008e-01  sum rm=8.522882e-01
+   j=10 m_j= 24  T2=1.332871e-05  rm=2.346396e-03  T2/rm=0.0057   cum: C_j-1=3.070141e-01  sum rm=8.546346e-01
+   j=11 m_j= 24  T2=1.089424e-02  rm=7.039189e-03  T2/rm=1.5477   cum: C_j-1=3.179083e-01  sum rm=8.616738e-01
+   j=12 m_j= 24  T2=1.142269e-02  rm=2.111757e-02  T2/rm=0.5409   cum: C_j-1=3.293310e-01  sum rm=8.827914e-01
+   j=13 m_j= 27  T2=9.263971e-04  rm=7.919088e-03  T2/rm=0.1170   cum: C_j-1=3.302574e-01  sum rm=8.907105e-01
+   j=14 m_j= 30  T2=8.970128e-04  rm=2.969658e-03  T2/rm=0.3021   cum: C_j-1=3.311544e-01  sum rm=8.936801e-01
+   j=15 m_j= 33  T2=5.212630e-05  rm=1.113622e-03  T2/rm=0.0468   cum: C_j-1=3.312066e-01  sum rm=8.947938e-01
+   j=16 m_j= 33  T2=1.245731e-03  rm=3.340865e-03  T2/rm=0.3729   cum: C_j-1=3.324523e-01  sum rm=8.981346e-01
+== p=5 N0=1 e0=0 depth 12 : C_12 = 1.0790030186
+   block defects D = C_b/C_a - 1 between consecutive attained levels a->b (J=b-a), worst case Gamma_p(J):
+     0->  1 J=1  D=5.468750e-02  Gamma=5.468750e-02  D/Gamma=1.000e+00  [partial first block, elements 1..4]
+     1->  2 J=1  D=2.195457e-02  Gamma=3.515625e-02  D/Gamma=6.245e-01  [non-gate, elements 5..9]
+     2->  3 J=1  D=5.324348e-04  Gamma=3.515625e-02  D/Gamma=1.514e-02  [non-gate, elements 10..14]
+     3->  4 J=1  D=3.502985e-05  Gamma=3.515625e-02  D/Gamma=9.964e-04  [non-gate, elements 15..19]
+     4->  6 J=2  D=4.602289e-04  Gamma=9.531250e-01  D/Gamma=4.829e-04  [gate level 1, elements 20..24]
+     6->  7 J=1  D=1.673895e-05  Gamma=3.515625e-02  D/Gamma=4.761e-04  [non-gate, elements 25..29]
+     7->  8 J=1  D=3.102038e-05  Gamma=3.515625e-02  D/Gamma=8.824e-04  [non-gate, elements 30..34]
+     8->  9 J=1  D=1.882894e-07  Gamma=3.515625e-02  D/Gamma=5.356e-06  [non-gate, elements 35..39]
+     9-> 10 J=1  D=9.956730e-09  Gamma=3.515625e-02  D/Gamma=2.832e-07  [non-gate, elements 40..44]
+    10-> 12 J=2  D=5.265258e-07  Gamma=9.531250e-01  D/Gamma=5.524e-07  [gate level 1, elements 45..49]
+   shells T2(j) = C_j - C_{j-1} vs random model rm(j) = p^j (1-1/p) 2^-m_j  (m_j = #elements with v<j):
+   j= 1 m_j=  4  T2=5.468750e-02  rm=2.500000e-01  T2/rm=0.2188   cum: C_j-1=5.468750e-02  sum rm=2.500000e-01
+   j= 2 m_j=  9  T2=2.315521e-02  rm=3.906250e-02  T2/rm=0.5928   cum: C_j-1=7.784271e-02  sum rm=2.890625e-01
+   j= 3 m_j= 14  T2=5.738810e-04  rm=6.103516e-03  T2/rm=0.0940   cum: C_j-1=7.841659e-02  sum rm=2.951660e-01
+   j= 4 m_j= 19  T2=3.777677e-05  rm=9.536743e-04  T2/rm=0.0396   cum: C_j-1=7.845437e-02  sum rm=2.961197e-01
+   j= 5 m_j= 24  T2=6.840235e-06  rm=1.490116e-04  T2/rm=0.0459   cum: C_j-1=7.846121e-02  sum rm=2.962687e-01
+   j= 6 m_j= 24  T2=4.894956e-04  rm=7.450581e-04  T2/rm=0.6570   cum: C_j-1=7.895071e-02  sum rm=2.970138e-01
+   j= 7 m_j= 29  T2=1.806050e-05  rm=1.164153e-04  T2/rm=0.1551   cum: C_j-1=7.896877e-02  sum rm=2.971302e-01
+   j= 8 m_j= 34  T2=3.347002e-05  rm=1.818989e-05  T2/rm=1.8400   cum: C_j-1=7.900224e-02  sum rm=2.971484e-01
+   j= 9 m_j= 39  T2=2.031646e-07  rm=2.842171e-06  T2/rm=0.0715   cum: C_j-1=7.900244e-02  sum rm=2.971512e-01
+   j=10 m_j= 44  T2=1.074334e-08  rm=4.440892e-07  T2/rm=0.0242   cum: C_j-1=7.900245e-02  sum rm=2.971517e-01
+   j=11 m_j= 49  T2=7.589767e-08  rm=6.938894e-08  T2/rm=1.0938   cum: C_j-1=7.900253e-02  sum rm=2.971517e-01
+   j=12 m_j= 49  T2=4.922250e-07  rm=3.469447e-07  T2/rm=1.4187   cum: C_j-1=7.900302e-02  sum rm=2.971521e-01
+== p=5 N0=5 e0=1 depth 11 : C_11 = 1.0415557207
+   block defects D = C_b/C_a - 1 between consecutive attained levels a->b (J=b-a), worst case Gamma_p(J):
+     0->  1 J=1  D=3.515625e-02  Gamma=3.515625e-02  D/Gamma=1.000e+00  [non-gate, elements 5..9]
+     1->  2 J=1  D=3.740419e-03  Gamma=3.515625e-02  D/Gamma=1.064e-01  [non-gate, elements 10..14]
+     2->  3 J=1  D=4.959001e-04  Gamma=3.515625e-02  D/Gamma=1.411e-02  [non-gate, elements 15..19]
+     3->  5 J=2  D=1.745434e-03  Gamma=9.531250e-01  D/Gamma=1.831e-03  [gate level 1, elements 20..24]
+     5->  6 J=1  D=6.919800e-05  Gamma=3.515625e-02  D/Gamma=1.968e-03  [non-gate, elements 25..29]
+     6->  7 J=1  D=1.182387e-04  Gamma=3.515625e-02  D/Gamma=3.363e-03  [non-gate, elements 30..34]
+     7->  8 J=1  D=7.914512e-07  Gamma=3.515625e-02  D/Gamma=2.251e-05  [non-gate, elements 35..39]
+     8->  9 J=1  D=3.319115e-08  Gamma=3.515625e-02  D/Gamma=9.441e-07  [non-gate, elements 40..44]
+     9-> 11 J=2  D=1.716803e-06  Gamma=9.531250e-01  D/Gamma=1.801e-06  [gate level 1, elements 45..49]
+   shells T2(j) = C_j - C_{j-1} vs random model rm(j) = p^j (1-1/p) 2^-m_j  (m_j = #elements with v<j):
+   j= 1 m_j=  5  T2=3.515625e-02  rm=1.250000e-01  T2/rm=0.2812   cum: C_j-1=3.515625e-02  sum rm=1.250000e-01
+   j= 2 m_j= 10  T2=3.871918e-03  rm=1.953125e-02  T2/rm=0.1982   cum: C_j-1=3.902817e-02  sum rm=1.445312e-01
+   j= 3 m_j= 15  T2=5.152542e-04  rm=3.051758e-03  T2/rm=0.1688   cum: C_j-1=3.954342e-02  sum rm=1.475830e-01
+   j= 4 m_j= 20  T2=3.991886e-05  rm=4.768372e-04  T2/rm=0.0837   cum: C_j-1=3.958334e-02  sum rm=1.480598e-01
+   j= 5 m_j= 20  T2=1.774536e-03  rm=2.384186e-03  T2/rm=0.7443   cum: C_j-1=4.135788e-02  sum rm=1.504440e-01
+   j= 6 m_j= 25  T2=7.205989e-05  rm=3.725290e-04  T2/rm=0.1934   cum: C_j-1=4.142994e-02  sum rm=1.508166e-01
+   j= 7 m_j= 30  T2=1.231374e-04  rm=5.820766e-05  T2/rm=2.1155   cum: C_j-1=4.155307e-02  sum rm=1.508748e-01
+   j= 8 m_j= 35  T2=8.243384e-07  rm=9.094947e-06  T2/rm=0.0906   cum: C_j-1=4.155390e-02  sum rm=1.508839e-01
+   j= 9 m_j= 40  T2=3.457038e-08  rm=1.421085e-06  T2/rm=0.0243   cum: C_j-1=4.155393e-02  sum rm=1.508853e-01
+   j=10 m_j= 45  T2=1.425000e-07  rm=2.220446e-07  T2/rm=0.6418   cum: C_j-1=4.155408e-02  sum rm=1.508855e-01
+   j=11 m_j= 45  T2=1.645643e-06  rm=1.110223e-06  T2/rm=1.4823   cum: C_j-1=4.155572e-02  sum rm=1.508866e-01
+== p=7 N0=1 e0=0 depth 10 : C_10 = 1.0193292342
+   block defects D = C_b/C_a - 1 between consecutive attained levels a->b (J=b-a), worst case Gamma_p(J):
+     0->  1 J=1  D=1.855469e-02  Gamma=1.855469e-02  D/Gamma=1.000e+00  [partial first block, elements 1..6]
+     1->  2 J=1  D=7.393856e-04  Gamma=1.428223e-02  D/Gamma=5.177e-02  [non-gate, elements 7..13]
+     2->  3 J=1  D=1.150337e-05  Gamma=1.428223e-02  D/Gamma=8.054e-04  [non-gate, elements 14..20]
+     3->  4 J=1  D=9.477830e-06  Gamma=1.428223e-02  D/Gamma=6.636e-04  [non-gate, elements 21..27]
+     4->  5 J=1  D=5.411027e-09  Gamma=1.428223e-02  D/Gamma=3.789e-07  [non-gate, elements 28..34]
+     5->  6 J=1  D=2.018764e-08  Gamma=1.428223e-02  D/Gamma=1.413e-06  [non-gate, elements 35..41]
+     6->  8 J=2  D=2.763963e-08  Gamma=1.125488e-01  D/Gamma=2.456e-07  [gate level 1, elements 42..48]
+     8->  9 J=1  D=1.311136e-09  Gamma=1.428223e-02  D/Gamma=9.180e-08  [non-gate, elements 49..55]
+     9-> 10 J=1  D=2.267460e-11  Gamma=1.428223e-02  D/Gamma=1.588e-09  [non-gate, elements 56..62]
+   shells T2(j) = C_j - C_{j-1} vs random model rm(j) = p^j (1-1/p) 2^-m_j  (m_j = #elements with v<j):
+   j= 1 m_j=  6  T2=1.855469e-02  rm=9.375000e-02  T2/rm=0.1979   cum: C_j-1=1.855469e-02  sum rm=9.375000e-02
+   j= 2 m_j= 13  T2=7.531047e-04  rm=5.126953e-03  T2/rm=0.1469   cum: C_j-1=1.930779e-02  sum rm=9.887695e-02
+   j= 3 m_j= 20  T2=1.172547e-05  rm=2.803802e-04  T2/rm=0.0418   cum: C_j-1=1.931952e-02  sum rm=9.915733e-02
+   j= 4 m_j= 27  T2=9.660937e-06  rm=1.533329e-05  T2/rm=0.6301   cum: C_j-1=1.932918e-02  sum rm=9.917267e-02
+   j= 5 m_j= 34  T2=5.515618e-09  rm=8.385396e-07  T2/rm=0.0066   cum: C_j-1=1.932918e-02  sum rm=9.917351e-02
+   j= 6 m_j= 41  T2=2.057785e-08  rm=4.585763e-08  T2/rm=0.4487   cum: C_j-1=1.932920e-02  sum rm=9.917355e-02
+   j= 7 m_j= 48  T2=1.171155e-09  rm=2.507839e-09  T2/rm=0.4670   cum: C_j-1=1.932921e-02  sum rm=9.917355e-02
+   j= 8 m_j= 48  T2=2.700273e-08  rm=1.755487e-08  T2/rm=1.5382   cum: C_j-1=1.932923e-02  sum rm=9.917357e-02
+   j= 9 m_j= 55  T2=1.336479e-09  rm=9.600322e-10  T2/rm=1.3921   cum: C_j-1=1.932923e-02  sum rm=9.917357e-02
+   j=10 m_j= 62  T2=2.311288e-11  rm=5.250176e-11  T2/rm=0.4402   cum: C_j-1=1.932923e-02  sum rm=9.917357e-02
+== p=7 N0=7 e0=1 depth 9 : C_9 = 1.0149568015
+   block defects D = C_b/C_a - 1 between consecutive attained levels a->b (J=b-a), worst case Gamma_p(J):
+     0->  1 J=1  D=1.428223e-02  Gamma=1.428223e-02  D/Gamma=1.000e+00  [non-gate, elements 7..13]
+     1->  2 J=1  D=4.991308e-04  Gamma=1.428223e-02  D/Gamma=3.495e-02  [non-gate, elements 14..20]
+     2->  3 J=1  D=1.649220e-04  Gamma=1.428223e-02  D/Gamma=1.155e-02  [non-gate, elements 21..27]
+     3->  4 J=1  D=7.039710e-08  Gamma=1.428223e-02  D/Gamma=4.929e-06  [non-gate, elements 28..34]
+     4->  5 J=1  D=8.898241e-08  Gamma=1.428223e-02  D/Gamma=6.230e-06  [non-gate, elements 35..41]
+     5->  7 J=2  D=7.746932e-07  Gamma=1.125488e-01  D/Gamma=6.883e-06  [gate level 1, elements 42..48]
+     7->  8 J=1  D=5.925809e-09  Gamma=1.428223e-02  D/Gamma=4.149e-07  [non-gate, elements 49..55]
+     8->  9 J=1  D=4.208168e-10  Gamma=1.428223e-02  D/Gamma=2.946e-08  [non-gate, elements 56..62]
+   shells T2(j) = C_j - C_{j-1} vs random model rm(j) = p^j (1-1/p) 2^-m_j  (m_j = #elements with v<j):
+   j= 1 m_j=  7  T2=1.428223e-02  rm=4.687500e-02  T2/rm=0.3047   cum: C_j-1=1.428223e-02  sum rm=4.687500e-02
+   j= 2 m_j= 14  T2=5.062595e-04  rm=2.563477e-03  T2/rm=0.1975   cum: C_j-1=1.478849e-02  sum rm=4.943848e-02
+   j= 3 m_j= 21  T2=1.673609e-04  rm=1.401901e-04  T2/rm=1.1938   cum: C_j-1=1.495585e-02  sum rm=4.957867e-02
+   j= 4 m_j= 28  T2=7.144995e-08  rm=7.666647e-06  T2/rm=0.0093   cum: C_j-1=1.495592e-02  sum rm=4.958633e-02
+   j= 5 m_j= 35  T2=9.031323e-08  rm=4.192698e-07  T2/rm=0.2154   cum: C_j-1=1.495601e-02  sum rm=4.958675e-02
+   j= 6 m_j= 42  T2=9.849015e-09  rm=2.292882e-08  T2/rm=0.4295   cum: C_j-1=1.495602e-02  sum rm=4.958678e-02
+   j= 7 m_j= 42  T2=7.764305e-07  rm=1.605017e-07  T2/rm=4.8375   cum: C_j-1=1.495680e-02  sum rm=4.958694e-02
+   j= 8 m_j= 49  T2=6.014440e-09  rm=8.777437e-09  T2/rm=0.6852   cum: C_j-1=1.495680e-02  sum rm=4.958694e-02
+   j= 9 m_j= 56  T2=4.271109e-10  rm=4.800161e-10  T2/rm=0.8898   cum: C_j-1=1.495680e-02  sum rm=4.958695e-02
+== p=11 N0=1 e0=0 depth 7 : C_7 = 1.0020685590
+   block defects D = C_b/C_a - 1 between consecutive attained levels a->b (J=b-a), worst case Gamma_p(J):
+     0->  1 J=1  D=2.065659e-03  Gamma=2.065659e-03  D/Gamma=1.000e+00  [partial first block, elements 1..10]
+     1->  2 J=1  D=2.890096e-06  Gamma=1.436234e-03  D/Gamma=2.012e-03  [non-gate, elements 11..21]
+     2->  3 J=1  D=4.335085e-09  Gamma=1.436234e-03  D/Gamma=3.018e-06  [non-gate, elements 22..32]
+     3->  4 J=1  D=1.874993e-11  Gamma=1.436234e-03  D/Gamma=1.305e-08  [non-gate, elements 33..43]
+     4->  5 J=1  D=5.007669e-14  Gamma=1.436234e-03  D/Gamma=3.487e-11  [non-gate, elements 44..54]
+     5->  6 J=1  D=4.392118e-15  Gamma=1.436234e-03  D/Gamma=3.058e-12  [non-gate, elements 55..65]
+     6->  7 J=1  D=4.797395e-19  Gamma=1.436234e-03  D/Gamma=3.340e-16  [non-gate, elements 66..76]
+   shells T2(j) = C_j - C_{j-1} vs random model rm(j) = p^j (1-1/p) 2^-m_j  (m_j = #elements with v<j):
+   j= 1 m_j= 10  T2=2.065659e-03  rm=9.765625e-03  T2/rm=0.2115   cum: C_j-1=2.065659e-03  sum rm=9.765625e-03
+   j= 2 m_j= 21  T2=2.896066e-06  rm=5.245209e-05  T2/rm=0.0552   cum: C_j-1=2.068555e-03  sum rm=9.818077e-03
+   j= 3 m_j= 32  T2=4.344053e-09  rm=2.817251e-07  T2/rm=0.0154   cum: C_j-1=2.068559e-03  sum rm=9.818359e-03
+   j= 4 m_j= 43  T2=1.878872e-11  rm=1.513172e-09  T2/rm=0.0124   cum: C_j-1=2.068559e-03  sum rm=9.818360e-03
+   j= 5 m_j= 54  T2=5.018028e-14  rm=8.127388e-12  T2/rm=0.0062   cum: C_j-1=2.068559e-03  sum rm=9.818360e-03
+   j= 6 m_j= 65  T2=4.401204e-15  rm=4.365296e-14  T2/rm=0.1008   cum: C_j-1=2.068559e-03  sum rm=9.818360e-03
+   j= 7 m_j= 76  T2=4.807319e-19  rm=2.344641e-16  T2/rm=0.0021   cum: C_j-1=2.068559e-03  sum rm=9.818360e-03
+== p=11 N0=11 e0=1 depth 6 : C_6 = 1.0014401376
+   block defects D = C_b/C_a - 1 between consecutive attained levels a->b (J=b-a), worst case Gamma_p(J):
+     0->  1 J=1  D=1.436234e-03  Gamma=1.436234e-03  D/Gamma=1.000e+00  [non-gate, elements 11..21]
+     1->  2 J=1  D=3.894732e-06  Gamma=1.436234e-03  D/Gamma=2.712e-03  [non-gate, elements 22..32]
+     2->  3 J=1  D=3.751861e-09  Gamma=1.436234e-03  D/Gamma=2.612e-06  [non-gate, elements 33..43]
+     3->  4 J=1  D=1.097151e-11  Gamma=1.436234e-03  D/Gamma=7.639e-09  [non-gate, elements 44..54]
+     4->  5 J=1  D=2.038051e-12  Gamma=1.436234e-03  D/Gamma=1.419e-09  [non-gate, elements 55..65]
+     5->  6 J=1  D=3.341723e-17  Gamma=1.436234e-03  D/Gamma=2.327e-14  [non-gate, elements 66..76]
+   shells T2(j) = C_j - C_{j-1} vs random model rm(j) = p^j (1-1/p) 2^-m_j  (m_j = #elements with v<j):
+   j= 1 m_j= 11  T2=1.436234e-03  rm=4.882812e-03  T2/rm=0.2941   cum: C_j-1=1.436234e-03  sum rm=4.882812e-03
+   j= 2 m_j= 22  T2=3.900325e-06  rm=2.622604e-05  T2/rm=0.1487   cum: C_j-1=1.440134e-03  sum rm=4.909039e-03
+   j= 3 m_j= 33  T2=3.757264e-09  rm=1.408625e-07  T2/rm=0.0267   cum: C_j-1=1.440138e-03  sum rm=4.909179e-03
+   j= 4 m_j= 44  T2=1.098731e-11  rm=7.565859e-10  T2/rm=0.0145   cum: C_j-1=1.440138e-03  sum rm=4.909180e-03
+   j= 5 m_j= 55  T2=2.040987e-12  rm=4.063694e-12  T2/rm=0.5022   cum: C_j-1=1.440138e-03  sum rm=4.909180e-03
+   j= 6 m_j= 66  T2=3.346535e-17  rm=2.182648e-14  T2/rm=0.0015   cum: C_j-1=1.440138e-03  sum rm=4.909180e-03
+== p=13 N0=1 e0=0 depth 7 : C_7 = 1.0000286586
+   block defects D = C_b/C_a - 1 between consecutive attained levels a->b (J=b-a), worst case Gamma_p(J):
+     0->  1 J=1  D=2.861023e-05  Gamma=2.861023e-05  D/Gamma=1.000e+00  [partial first block, elements 1..12]
+     1->  2 J=1  D=4.758534e-08  Gamma=2.202392e-05  D/Gamma=2.161e-03  [non-gate, elements 13..25]
+     2->  3 J=1  D=7.962142e-10  Gamma=2.202392e-05  D/Gamma=3.615e-05  [non-gate, elements 26..38]
+     3->  4 J=1  D=2.204131e-16  Gamma=2.202392e-05  D/Gamma=1.001e-11  [non-gate, elements 39..51]
+     4->  5 J=1  D=9.112660e-19  Gamma=2.202392e-05  D/Gamma=4.138e-14  [non-gate, elements 52..64]
+     5->  6 J=1  D=2.447556e-20  Gamma=2.202392e-05  D/Gamma=1.111e-15  [non-gate, elements 65..77]
+     6->  7 J=1  D=1.067283e-22  Gamma=2.202392e-05  D/Gamma=4.846e-18  [non-gate, elements 78..90]
+   shells T2(j) = C_j - C_{j-1} vs random model rm(j) = p^j (1-1/p) 2^-m_j  (m_j = #elements with v<j):
+   j= 1 m_j= 12  T2=2.861023e-05  rm=2.929688e-03  T2/rm=0.0098   cum: C_j-1=2.861023e-05  sum rm=2.929688e-03
+   j= 2 m_j= 25  T2=4.758670e-08  rm=4.649162e-06  T2/rm=0.0102   cum: C_j-1=2.865782e-05  sum rm=2.934337e-03
+   j= 3 m_j= 38  T2=7.962370e-10  rm=7.377821e-09  T2/rm=0.1079   cum: C_j-1=2.865861e-05  sum rm=2.934344e-03
+   j= 4 m_j= 51  T2=2.204194e-16  rm=1.170797e-11  T2/rm=0.0000   cum: C_j-1=2.865861e-05  sum rm=2.934344e-03
+   j= 5 m_j= 64  T2=9.112921e-19  rm=1.857954e-14  T2/rm=0.0000   cum: C_j-1=2.865861e-05  sum rm=2.934344e-03
+   j= 6 m_j= 77  T2=2.447626e-20  rm=2.948413e-17  T2/rm=0.0008   cum: C_j-1=2.865861e-05  sum rm=2.934344e-03
+   j= 7 m_j= 90  T2=1.067314e-22  rm=4.678878e-20  T2/rm=0.0023   cum: C_j-1=2.865861e-05  sum rm=2.934344e-03
+== p=13 N0=13 e0=1 depth 6 : C_6 = 1.0000225377
+   block defects D = C_b/C_a - 1 between consecutive attained levels a->b (J=b-a), worst case Gamma_p(J):
+     0->  1 J=1  D=2.202392e-05  Gamma=2.202392e-05  D/Gamma=1.000e+00  [non-gate, elements 13..25]
+     1->  2 J=1  D=5.137635e-07  Gamma=2.202392e-05  D/Gamma=2.333e-02  [non-gate, elements 26..38]
+     2->  3 J=1  D=4.406260e-13  Gamma=2.202392e-05  D/Gamma=2.001e-08  [non-gate, elements 39..51]
+     3->  4 J=1  D=1.343105e-16  Gamma=2.202392e-05  D/Gamma=6.098e-12  [non-gate, elements 52..64]
+     4->  5 J=1  D=1.772818e-18  Gamma=2.202392e-05  D/Gamma=8.050e-14  [non-gate, elements 65..77]
+     5->  6 J=1  D=9.149228e-20  Gamma=2.202392e-05  D/Gamma=4.154e-15  [non-gate, elements 78..90]
+   shells T2(j) = C_j - C_{j-1} vs random model rm(j) = p^j (1-1/p) 2^-m_j  (m_j = #elements with v<j):
+   j= 1 m_j= 13  T2=2.202392e-05  rm=1.464844e-03  T2/rm=0.0150   cum: C_j-1=2.202392e-05  sum rm=1.464844e-03
+   j= 2 m_j= 26  T2=5.137748e-07  rm=2.324581e-06  T2/rm=0.2210   cum: C_j-1=2.253769e-05  sum rm=1.467168e-03
+   j= 3 m_j= 39  T2=4.406359e-13  rm=3.688911e-09  T2/rm=0.0001   cum: C_j-1=2.253769e-05  sum rm=1.467172e-03
+   j= 4 m_j= 52  T2=1.343135e-16  rm=5.853984e-12  T2/rm=0.0000   cum: C_j-1=2.253769e-05  sum rm=1.467172e-03
+   j= 5 m_j= 65  T2=1.772858e-18  rm=9.289769e-15  T2/rm=0.0002   cum: C_j-1=2.253769e-05  sum rm=1.467172e-03
+   j= 6 m_j= 78  T2=9.149434e-20  rm=1.474207e-17  T2/rm=0.0062   cum: C_j-1=2.253769e-05  sum rm=1.467172e-03

@@ -1,0 +1,65 @@
+{
+ "uniform t=1 H=5 c=0": [
+  "A",
+  "B",
+  "C"
+ ],
+ "uniform t=2 H=12 c=0": [
+  "A",
+  "B",
+  "C"
+ ],
+ "uniform t=3 H=17 c=0": [
+  "A",
+  "B",
+  "C"
+ ],
+ "uniform t=4 H=27 c=1": [
+  "A",
+  "B",
+  "C"
+ ],
+ "uniform t=5 H=31 c=1": [
+  "A",
+  "B",
+  "C"
+ ],
+ "uniform t=6 H=35 c=1": [
+  "A",
+  "B",
+  "C"
+ ],
+ "positions t=7 H=45 c=2": {
+  "needed": 342,
+  "covered_per_family": {
+   "A": 342,
+   "B": 18,
+   "C": 342
+  },
+  "families_per_class_histogram": {
+   "3": 18,
+   "2": 324
+  },
+  "failures": {
+   "A": [],
+   "B": [],
+   "C": []
+  }
+ },
+ "positions t=8 H=49 c=2": {
+  "needed": 18,
+  "covered_per_family": {
+   "A": 18,
+   "B": 0,
+   "C": 18
+  },
+  "families_per_class_histogram": {
+   "2": 18
+  },
+  "failures": {
+   "A": [],
+   "B": [],
+   "C": []
+  }
+ }
+}

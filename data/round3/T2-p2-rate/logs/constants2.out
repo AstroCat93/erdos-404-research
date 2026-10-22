@@ -1,0 +1,6 @@
+C0=8Z2: L=1 E_C<= 1  s_max=2  analytic C = 20.88 + side 3.13;  sup_G bound*G^a (numeric) = 17.77;  bound < mu(C) from G ~ 2^32
+C2=2+8Z2: L=3 E_C<= 64  s_max=3  analytic C = 1316 + side 3.35;  sup_G bound*G^a (numeric) = 1120;  bound < mu(C) from G ~ 2^57
+C6=6+16Z2: L=6 E_C<= 16384  s_max=3  analytic C = 1.972e+05 + side 3.69;  sup_G bound*G^a (numeric) = 1.678e+05;  bound < mu(C) from G ~ 2^94
+C0=8Z2: sup over grid of min(mu,bound)*G^0.227 = 17.76 at G=1565032201087099245587409753489603997102366895543936876544;  analytic main-term constant = 20.88
+C2=2+8Z2: sup over grid of min(mu,bound)*G^0.227 = 1120 at G=1565032201087099245587409753489603997102366895543936876544;  analytic main-term constant = 1316
+C6=6+16Z2: sup over grid of min(mu,bound)*G^0.227 = 1.678e+05 at G=3130064402174198491174819506979207994204733791087873753088;  analytic main-term constant = 1.972e+05

@@ -1,0 +1,203 @@
+### 2026-10-21T22:18:57Z wdim 2 7 22
+p=2 w=7 K=22 P=14 types=2097152 mean_log_p_N=11.6675013749 mean_G_capped=13.997437 D=0.8333929553
+  G=11 frac=0.12500000 mean_logN=10.578041 min_logN=10.438792
+  G=12 frac=0.06250000 mean_logN=10.945575 min_logN=10.839204
+  G=13 frac=0.15625000 mean_logN=11.443818 min_logN=11.129283
+  G=14 frac=0.32812500 mean_logN=11.864675 min_logN=11.066089
+  G=15 frac=0.16406250 mean_logN=12.100789 min_logN=11.255029
+  G=16 frac=0.08203125 mean_logN=12.152541 min_logN=11.189825
+  G=17 frac=0.04101562 mean_logN=12.163472 min_logN=11.156083
+  G=18 frac=0.02050781 mean_logN=12.201719 min_logN=11.156083
+  G=19 frac=0.01025391 mean_logN=12.212230 min_logN=11.148477
+  G=20 frac=0.00512695 mean_logN=12.206164 min_logN=11.105909
+  G=21 frac=0.00256348 mean_logN=12.206430 min_logN=11.105909
+  G=22 frac=0.00256348 mean_logN=11.532545 min_logN=1.584963
+real 46.82
+user 45.39
+sys 1.02
+### 2026-10-21T22:19:44Z wdim 2 9 20
+p=2 w=9 K=20 P=18 types=524288 mean_log_p_N=15.2362897481 mean_G_capped=17.781250 D=0.8464605416
+  G=16 frac=0.25000000 mean_logN=14.728422 min_logN=14.082814
+  G=17 frac=0.25000000 mean_logN=15.205865 min_logN=14.255029
+  G=18 frac=0.18750000 mean_logN=15.505599 min_logN=14.286558
+  G=19 frac=0.09375000 mean_logN=15.666467 min_logN=14.156083
+  G=20 frac=0.21875000 mean_logN=15.436283 min_logN=1.584963
+real 186.77
+user 181.14
+sys 3.96
+### 2026-10-21T22:22:51Z wdim 2 9 22
+p=2 w=9 K=22 P=18 types=2097152 mean_log_p_N=15.3548161258 mean_G_capped=17.945312 D=0.8530453403
+  G=16 frac=0.25000000 mean_logN=14.728422 min_logN=14.082814
+  G=17 frac=0.25000000 mean_logN=15.205865 min_logN=14.255029
+  G=18 frac=0.18750000 mean_logN=15.505599 min_logN=14.286558
+  G=19 frac=0.09375000 mean_logN=15.666467 min_logN=14.156083
+  G=20 frac=0.10937500 mean_logN=16.056093 min_logN=14.156083
+  G=21 frac=0.05468750 mean_logN=16.175692 min_logN=14.148477
+  G=22 frac=0.05468750 mean_logN=15.624593 min_logN=1.584963
+real 800.72
+user 783.83
+sys 12.67
+### 2026-10-21T22:36:12Z wdim 3 1 8
+p=3 w=1 K=8 P=3 types=2187 mean_log_p_N=1.2103099179 mean_G_capped=1.499771 D=0.8068732786
+  G=1 frac=0.66666667 mean_logN=1.000000 min_logN=1.000000
+  G=2 frac=0.22222222 mean_logN=1.630930 min_logN=1.630930
+  G=3 frac=0.07407407 mean_logN=1.630930 min_logN=1.630930
+  G=4 frac=0.02469136 mean_logN=1.630930 min_logN=1.630930
+  G=5 frac=0.00823045 mean_logN=1.630930 min_logN=1.630930
+  G=6 frac=0.00274348 mean_logN=1.630930 min_logN=1.630930
+  G=7 frac=0.00091449 mean_logN=1.630930 min_logN=1.630930
+  G=8 frac=0.00045725 mean_logN=1.630930 min_logN=1.630930
+real 0.00
+user 0.00
+sys 0.00
+### 2026-10-21T22:36:12Z wdim 3 2 10
+p=3 w=2 K=10 P=6 types=19683 mean_log_p_N=2.5775593787 mean_G_capped=2.999848 D=0.8591864596
+  G=2 frac=0.33333333 mean_logN=2.000000 min_logN=2.000000
+  G=3 frac=0.44444444 mean_logN=2.789363 min_logN=2.630930
+  G=4 frac=0.14814815 mean_logN=3.011860 min_logN=2.630930
+  G=5 frac=0.04938272 mean_logN=3.018094 min_logN=2.630930
+  G=6 frac=0.01646091 mean_logN=3.077324 min_logN=2.630930
+  G=7 frac=0.00548697 mean_logN=3.077324 min_logN=2.630930
+  G=8 frac=0.00182899 mean_logN=3.077324 min_logN=2.630930
+  G=9 frac=0.00060966 mean_logN=3.077324 min_logN=2.630930
+  G=10 frac=0.00030483 mean_logN=2.910658 min_logN=1.630930
+real 0.00
+user 0.00
+sys 0.00
+### 2026-10-21T22:36:12Z wdim 3 4 12
+p=3 w=4 K=12 P=12 types=177147 mean_log_p_N=5.4669391346 mean_G_capped=5.999390 D=0.9111565224
+  G=5 frac=0.44444444 mean_logN=4.972002 min_logN=4.929947
+  G=6 frac=0.25925926 mean_logN=5.613826 min_logN=5.261860
+  G=7 frac=0.19753086 mean_logN=6.001592 min_logN=5.286799
+  G=8 frac=0.06584362 mean_logN=6.214949 min_logN=5.523719
+  G=9 frac=0.02194787 mean_logN=6.284617 min_logN=5.523719
+  G=10 frac=0.00731596 mean_logN=6.319669 min_logN=5.523719
+  G=11 frac=0.00243865 mean_logN=6.336950 min_logN=5.523719
+  G=12 frac=0.00121933 mean_logN=6.058830 min_logN=1.630930
+real 0.60
+user 0.59
+sys 0.00
+### 2026-10-21T22:36:12Z wdim 3 5 13
+p=3 w=5 K=13 P=15 types=531441 mean_log_p_N=6.9355175214 mean_G_capped=7.499009 D=0.9247356695
+  G=6 frac=0.22222222 mean_logN=5.996207 min_logN=5.977243
+  G=7 frac=0.29629630 mean_logN=6.787630 min_logN=6.590723
+  G=8 frac=0.32098765 mean_logN=7.346483 min_logN=6.630930
+  G=9 frac=0.10699588 mean_logN=7.635061 min_logN=6.615822
+  G=10 frac=0.03566529 mean_logN=7.782149 min_logN=6.615822
+  G=11 frac=0.01188843 mean_logN=7.838052 min_logN=6.615822
+  G=12 frac=0.00396281 mean_logN=7.865275 min_logN=6.615822
+  G=13 frac=0.00198141 mean_logN=7.531849 min_logN=1.630930
+real 17.89
+user 17.47
+sys 0.30
+### 2026-10-21T22:36:30Z wdim 5 1 7
+p=5 w=1 K=7 P=5 types=15625 mean_log_p_N=1.1546184319 mean_G_capped=1.249984 D=0.9236947455
+  G=1 frac=0.80000000 mean_logN=1.000000 min_logN=1.000000
+  G=2 frac=0.16000000 mean_logN=1.722706 min_logN=1.722706
+  G=3 frac=0.03200000 mean_logN=1.974636 min_logN=1.974636
+  G=4 frac=0.00640000 mean_logN=1.974636 min_logN=1.974636
+  G=5 frac=0.00128000 mean_logN=1.974636 min_logN=1.974636
+  G=6 frac=0.00025600 mean_logN=1.974636 min_logN=1.974636
+  G=7 frac=0.00006400 mean_logN=1.974636 min_logN=1.974636
+real 0.00
+user 0.00
+sys 0.00
+### 2026-10-21T22:36:30Z wdim 5 2 8
+p=5 w=2 K=8 P=10 types=78125 mean_log_p_N=2.3871075117 mean_G_capped=2.499968 D=0.9548430047
+  G=2 frac=0.60000000 mean_logN=2.000000 min_logN=2.000000
+  G=3 frac=0.32000000 mean_logN=2.861353 min_logN=2.722706
+  G=4 frac=0.06400000 mean_logN=3.366421 min_logN=2.974636
+  G=5 frac=0.01280000 mean_logN=3.498587 min_logN=2.974636
+  G=6 frac=0.00256000 mean_logN=3.508444 min_logN=2.974636
+  G=7 frac=0.00051200 mean_logN=3.551327 min_logN=2.974636
+  G=8 frac=0.00012800 mean_logN=3.451327 min_logN=1.974636
+real 0.05
+user 0.04
+sys 0.00
+### 2026-10-21T22:36:30Z wdim 5 3 8
+p=5 w=3 K=8 P=15 types=78125 mean_log_p_N=3.6341741527 mean_G_capped=3.749760 D=0.9691131074
+  G=3 frac=0.40000000 mean_logN=3.000000 min_logN=3.000000
+  G=4 frac=0.48000000 mean_logN=3.907569 min_logN=3.722706
+  G=5 frac=0.09600000 mean_logN=4.577308 min_logN=3.974636
+  G=6 frac=0.01920000 mean_logN=4.946453 min_logN=3.974636
+  G=7 frac=0.00384000 mean_logN=5.044147 min_logN=3.974636
+  G=8 frac=0.00096000 mean_logN=4.977237 min_logN=1.974636
+real 0.58
+user 0.56
+sys 0.01
+### 2026-10-21T22:36:31Z wdim 7 1 5
+p=7 w=1 K=5 P=7 types=2401 mean_log_p_N=1.1498162965 mean_G_capped=1.166597 D=0.9855568255
+  G=1 frac=0.85714286 mean_logN=1.000000 min_logN=1.000000
+  G=2 frac=0.12244898 mean_logN=2.000000 min_logN=2.000000
+  G=3 frac=0.01749271 mean_logN=2.340230 min_logN=2.340230
+  G=4 frac=0.00249896 mean_logN=2.345611 min_logN=2.345611
+  G=5 frac=0.00041649 mean_logN=2.345611 min_logN=2.345611
+real 0.00
+user 0.00
+sys 0.00
+### 2026-10-21T22:36:31Z wdim 7 2 6
+p=7 w=2 K=6 P=14 types=16807 mean_log_p_N=2.3149877730 mean_G_capped=2.333195 D=0.9921376170
+  G=2 frac=0.71428571 mean_logN=2.000000 min_logN=2.000000
+  G=3 frac=0.24489796 mean_logN=3.000000 min_logN=3.000000
+  G=4 frac=0.03498542 mean_logN=3.669829 min_logN=3.340230
+  G=5 frac=0.00499792 mean_logN=3.999962 min_logN=3.345611
+  G=6 frac=0.00083299 mean_logN=4.010231 min_logN=2.345611
+real 0.03
+user 0.02
+sys 0.00
+### 2026-10-21T22:36:31Z wdim 13 1 5
+p=13 w=1 K=5 P=13 types=28561 mean_log_p_N=1.0829614791 mean_G_capped=1.083330 D=0.9996567499
+  G=1 frac=0.92307692 mean_logN=1.000000 min_logN=1.000000
+  G=2 frac=0.07100592 mean_logN=2.000000 min_logN=2.000000
+  G=3 frac=0.00546199 mean_logN=2.993919 min_logN=2.993919
+  G=4 frac=0.00042015 mean_logN=3.334247 min_logN=3.334247
+  G=5 frac=0.00003501 mean_logN=3.400429 min_logN=3.400429
+real 0.01
+user 0.00
+sys 0.00
+### 2026-10-21T22:36:31Z wdim 13 2 4
+p=13 w=2 K=4 P=26 types=2197 mean_log_p_N=2.1653442324 mean_G_capped=2.165680 D=0.9993896457
+  G=2 frac=0.84615385 mean_logN=2.000000 min_logN=2.000000
+  G=3 frac=0.14201183 mean_logN=3.000000 min_logN=3.000000
+  G=4 frac=0.01183432 mean_logN=3.971588 min_logN=3.334247
+real 0.02
+user 0.02
+sys 0.00
+### 2026-10-21T22:36:31Z wdim 11 1 5
+p=11 w=1 K=5 P=11 types=14641 mean_log_p_N=1.0980951476 mean_G_capped=1.099993 D=0.9982683160
+  G=1 frac=0.90909091 mean_logN=1.000000 min_logN=1.000000
+  G=2 frac=0.08264463 mean_logN=2.000000 min_logN=2.000000
+  G=3 frac=0.00751315 mean_logN=2.851389 min_logN=2.851389
+  G=4 frac=0.00068301 mean_logN=3.049850 min_logN=3.049850
+  G=5 frac=0.00006830 mean_logN=3.059740 min_logN=3.059740
+real 0.00
+user 0.00
+sys 0.00
+### 2026-10-21T22:36:31Z wdim 17 1 4
+p=17 w=1 K=4 P=17 types=4913 mean_log_p_N=1.0624611111 mean_G_capped=1.062487 D=0.9999633987
+  G=1 frac=0.94117647 mean_logN=1.000000 min_logN=1.000000
+  G=2 frac=0.05536332 mean_logN=2.000000 min_logN=2.000000
+  G=3 frac=0.00325667 mean_logN=3.000000 min_logN=3.000000
+  G=4 frac=0.00020354 mean_logN=3.871439 min_logN=3.871439
+real 0.00
+user 0.00
+sys 0.00
+### 2026-10-21T22:36:31Z wdim 19 1 4
+p=19 w=1 K=4 P=19 types=6859 mean_log_p_N=1.0555456529 mean_G_capped=1.055547 D=0.9999906186
+  G=1 frac=0.94736842 mean_logN=1.000000 min_logN=1.000000
+  G=2 frac=0.04986150 mean_logN=2.000000 min_logN=2.000000
+  G=3 frac=0.00262429 mean_logN=3.000000 min_logN=3.000000
+  G=4 frac=0.00014579 mean_logN=3.987633 min_logN=3.987633
+real 0.00
+user 0.00
+sys 0.00
+### 2026-10-21T22:36:31Z wdim 23 1 4
+p=23 w=1 K=4 P=23 types=12167 mean_log_p_N=1.0454508096 mean_G_capped=1.045451 D=0.9999964265
+  G=1 frac=0.95652174 mean_logN=1.000000 min_logN=1.000000
+  G=2 frac=0.04158790 mean_logN=2.000000 min_logN=2.000000
+  G=3 frac=0.00180817 mean_logN=3.000000 min_logN=3.000000
+  G=4 frac=0.00008219 mean_logN=4.000000 min_logN=4.000000
+real 0.01
+user 0.01
+sys 0.00
+### done 2026-10-21T22:36:31Z

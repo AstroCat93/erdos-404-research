@@ -1,0 +1,1 @@
+wrote results.json with keys ['generated', 'track', 'definitions', 'annealed_raw', 'annealed_conditioned', 'survivors_NAG', 'g2_capped_a_le_4096', 'kitamura_N256_from_exact_table', 'delta_G2_montecarlo', 'c_p', 'gate_block_sums']

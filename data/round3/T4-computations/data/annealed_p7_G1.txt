@@ -1,0 +1,6 @@
+# p=7 G=1 M_G=6 p^G=7  (Z = p^G N / 2^{M_G}; rows: maxv = max_{1<=i<=M_G} v_p(x+i))
+# maxv classes surviving sumN sumN2 maxN
+row 0 1 1 8 64 8
+row 1 6 4 52 1168 32
+total classes=7 surviving=5 sumN=60 sumN2=1232 maxN=32
+EZ=0.9375 EZ2=2.10546875 ratio=2.395555556 delta=0.7142857143

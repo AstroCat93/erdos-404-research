@@ -1,0 +1,7 @@
+# p=7 G=3 M_G=20 p^G=343  (Z = p^G N / 2^{M_G}; rows: maxv = max_{1<=i<=M_G} v_p(x+i))
+# maxv classes surviving sumN sumN2 maxN
+row 1 203 147 566400 3543510196 10240
+row 2 120 60 667588 31483721528 69632
+row 3 20 10 568284 275289313168 524288
+total classes=343 surviving=217 sumN=1802272 sumN2=310316544892 maxN=524288
+EZ=1.718780518 EZ2=96.80531993 ratio=32.76863719 delta=0.6326530612

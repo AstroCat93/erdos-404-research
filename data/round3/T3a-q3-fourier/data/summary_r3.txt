@@ -1,0 +1,152 @@
+== p=2 N0=1 (file p2_E28_N1.txt, M=31): exact C_k for k<=28
+  level   0->  1 J=1 (#el=1)  D=0.0000e+00  Gamma_group=0.0000e+00  D/Gamma=n/a  C_b=1.000000000000  product bound B=1.000000
+  level   1->  3 J=2 (#el=2)  D=5.0000e-01  Gamma_group=5.0000e-01  D/Gamma=1.000e+00  C_b=1.500000000000  product bound B=1.500000
+  level   3->  4 J=1 (#el=2)  D=0.0000e+00  Gamma_group=0.0000e+00  D/Gamma=n/a  C_b=1.500000000000  product bound B=1.500000
+  level   4->  7 J=3 (#el=2)  D=3.7500e-01  Gamma_group=2.0000e+00  D/Gamma=1.875e-01  C_b=2.062500000000  product bound B=4.500000
+  level   7->  8 J=1 (#el=2)  D=0.0000e+00  Gamma_group=0.0000e+00  D/Gamma=n/a  C_b=2.062500000000  product bound B=4.500000
+  level   8-> 10 J=2 (#el=2)  D=1.8561e-01  Gamma_group=5.0000e-01  D/Gamma=3.712e-01  C_b=2.445312500000  product bound B=6.750000
+  level  10-> 11 J=1 (#el=2)  D=0.0000e+00  Gamma_group=0.0000e+00  D/Gamma=n/a  C_b=2.445312500000  product bound B=6.750000
+  level  11-> 15 J=4 (#el=2)  D=2.5230e-01  Gamma_group=5.0000e+00  D/Gamma=5.046e-02  C_b=3.062255859375  product bound B=40.500000
+  level  15-> 16 J=1 (#el=2)  D=0.0000e+00  Gamma_group=0.0000e+00  D/Gamma=n/a  C_b=3.062255859375  product bound B=40.500000
+  level  16-> 18 J=2 (#el=2)  D=1.6581e-01  Gamma_group=5.0000e-01  D/Gamma=3.316e-01  C_b=3.570007324219  product bound B=60.750000
+  level  18-> 19 J=1 (#el=2)  D=0.0000e+00  Gamma_group=0.0000e+00  D/Gamma=n/a  C_b=3.570007324219  product bound B=60.750000
+  level  19-> 22 J=3 (#el=2)  D=1.6909e-01  Gamma_group=2.0000e+00  D/Gamma=8.455e-02  C_b=4.173663616180  product bound B=182.250000
+  level  22-> 23 J=1 (#el=2)  D=0.0000e+00  Gamma_group=0.0000e+00  D/Gamma=n/a  C_b=4.173663616180  product bound B=182.250000
+  level  23-> 25 J=2 (#el=2)  D=6.3016e-02  Gamma_group=5.0000e-01  D/Gamma=1.260e-01  C_b=4.436670958996  product bound B=273.375000
+  level  25-> 26 J=1 (#el=2)  D=0.0000e+00  Gamma_group=0.0000e+00  D/Gamma=n/a  C_b=4.436670958996  product bound B=273.375000
+  level  26-> 28 J=2 (#el=2)  D=8.9007e-03  Gamma_group=5.0000e-01  D/Gamma=1.780e-02  C_b=4.476160412654  product bound B=410.062500
+  depth 28: hit fraction 0.36587214 >= 1/C_k = 0.22340576 : True
+  checks 0<=D<=Gamma and C<=B: violations=0
+== p=2 N0=2 (file p2_E28_N2.txt, M=30): exact C_k for k<=27
+  level   0->  2 J=2 (#el=2)  D=5.0000e-01  Gamma_group=5.0000e-01  D/Gamma=1.000e+00  C_b=1.500000000000  product bound B=1.500000
+  level   2->  3 J=1 (#el=2)  D=0.0000e+00  Gamma_group=0.0000e+00  D/Gamma=n/a  C_b=1.500000000000  product bound B=1.500000
+  level   3->  6 J=3 (#el=2)  D=3.7500e-01  Gamma_group=2.0000e+00  D/Gamma=1.875e-01  C_b=2.062500000000  product bound B=4.500000
+  level   6->  7 J=1 (#el=2)  D=0.0000e+00  Gamma_group=0.0000e+00  D/Gamma=n/a  C_b=2.062500000000  product bound B=4.500000
+  level   7->  9 J=2 (#el=2)  D=1.8561e-01  Gamma_group=5.0000e-01  D/Gamma=3.712e-01  C_b=2.445312500000  product bound B=6.750000
+  level   9-> 10 J=1 (#el=2)  D=0.0000e+00  Gamma_group=0.0000e+00  D/Gamma=n/a  C_b=2.445312500000  product bound B=6.750000
+  level  10-> 14 J=4 (#el=2)  D=2.5230e-01  Gamma_group=5.0000e+00  D/Gamma=5.046e-02  C_b=3.062255859375  product bound B=40.500000
+  level  14-> 15 J=1 (#el=2)  D=0.0000e+00  Gamma_group=0.0000e+00  D/Gamma=n/a  C_b=3.062255859375  product bound B=40.500000
+  level  15-> 17 J=2 (#el=2)  D=1.6581e-01  Gamma_group=5.0000e-01  D/Gamma=3.316e-01  C_b=3.570007324219  product bound B=60.750000
+  level  17-> 18 J=1 (#el=2)  D=0.0000e+00  Gamma_group=0.0000e+00  D/Gamma=n/a  C_b=3.570007324219  product bound B=60.750000
+  level  18-> 21 J=3 (#el=2)  D=1.6909e-01  Gamma_group=2.0000e+00  D/Gamma=8.455e-02  C_b=4.173663616180  product bound B=182.250000
+  level  21-> 22 J=1 (#el=2)  D=0.0000e+00  Gamma_group=0.0000e+00  D/Gamma=n/a  C_b=4.173663616180  product bound B=182.250000
+  level  22-> 24 J=2 (#el=2)  D=6.3016e-02  Gamma_group=5.0000e-01  D/Gamma=1.260e-01  C_b=4.436670958996  product bound B=273.375000
+  level  24-> 25 J=1 (#el=2)  D=0.0000e+00  Gamma_group=0.0000e+00  D/Gamma=n/a  C_b=4.436670958996  product bound B=273.375000
+  level  25-> 27 J=2 (#el=2)  D=8.9007e-03  Gamma_group=5.0000e-01  D/Gamma=1.780e-02  C_b=4.476160412654  product bound B=410.062500
+  depth 27: hit fraction 0.36587214 >= 1/C_k = 0.22340576 : True
+  checks 0<=D<=Gamma and C<=B: violations=0
+== p=3 N0=1 (file p3_E17_N1.txt, M=35): exact C_k for k<=17
+  level   0->  1 J=1 (#el=2)  D=1.2500e-01  Gamma_group=1.2500e-01  D/Gamma=1.000e+00  C_b=1.125000000000  product bound B=1.125000
+  level   1->  2 J=1 (#el=3)  D=1.5625e-02  Gamma_group=3.1250e-02  D/Gamma=5.000e-01  C_b=1.142578125000  product bound B=1.160156
+  level   2->  4 J=2 (#el=3)  D=1.0553e-01  Gamma_group=6.8750e-01  D/Gamma=1.535e-01  C_b=1.263153076172  product bound B=1.957764
+  level   4->  5 J=1 (#el=3)  D=2.8131e-03  Gamma_group=3.1250e-02  D/Gamma=9.002e-02  C_b=1.266706466675  product bound B=2.018944
+  level   5->  6 J=1 (#el=3)  D=2.3926e-03  Gamma_group=3.1250e-02  D/Gamma=7.656e-02  C_b=1.269737228751  product bound B=2.082036
+  level   6->  8 J=2 (#el=3)  D=1.5268e-02  Gamma_group=6.8750e-01  D/Gamma=2.221e-02  C_b=1.289123344934  product bound B=3.513435
+  level   8->  9 J=1 (#el=3)  D=9.2176e-04  Gamma_group=3.1250e-02  D/Gamma=2.950e-02  C_b=1.290311604356  product bound B=3.623230
+  level   9-> 10 J=1 (#el=3)  D=8.6601e-04  Gamma_group=3.1250e-02  D/Gamma=2.771e-02  C_b=1.291429033550  product bound B=3.736456
+  level  10-> 13 J=3 (#el=3)  D=1.2978e-02  Gamma_group=4.0625e+00  D/Gamma=3.195e-03  C_b=1.308189343451  product bound B=18.915809
+  level  13-> 14 J=1 (#el=3)  D=5.1511e-04  Gamma_group=3.1250e-02  D/Gamma=1.648e-02  C_b=1.308863203447  product bound B=19.506928
+  level  14-> 15 J=1 (#el=3)  D=5.1468e-04  Gamma_group=3.1250e-02  D/Gamma=1.647e-02  C_b=1.309536848794  product bound B=20.116520
+  level  15-> 17 J=2 (#el=3)  D=7.5425e-04  Gamma_group=6.8750e-01  D/Gamma=1.097e-03  C_b=1.310524570972  product bound B=33.946627
+  depth 17: hit fraction 0.94996246 >= 1/C_k = 0.76305322 : True
+  checks 0<=D<=Gamma and C<=B: violations=0
+== p=3 N0=3 (file p3_E17_N3.txt, M=33): exact C_k for k<=16
+  level   0->  1 J=1 (#el=3)  D=3.1250e-02  Gamma_group=3.1250e-02  D/Gamma=1.000e+00  C_b=1.031250000000  product bound B=1.031250
+  level   1->  3 J=2 (#el=3)  D=2.2727e-01  Gamma_group=6.8750e-01  D/Gamma=3.306e-01  C_b=1.265625000000  product bound B=1.740234
+  level   3->  4 J=1 (#el=3)  D=4.3945e-03  Gamma_group=3.1250e-02  D/Gamma=1.406e-01  C_b=1.271186828613  product bound B=1.794617
+  level   4->  5 J=1 (#el=3)  D=2.8105e-03  Gamma_group=3.1250e-02  D/Gamma=8.994e-02  C_b=1.274759531021  product bound B=1.850698
+  level   5->  7 J=2 (#el=3)  D=2.2738e-02  Gamma_group=6.8750e-01  D/Gamma=3.307e-02  C_b=1.303745040670  product bound B=3.123054
+  level   7->  8 J=1 (#el=3)  D=1.3616e-03  Gamma_group=3.1250e-02  D/Gamma=4.357e-02  C_b=1.305520241323  product bound B=3.220649
+  level   8->  9 J=1 (#el=3)  D=1.1340e-03  Gamma_group=3.1250e-02  D/Gamma=3.629e-02  C_b=1.307000759026  product bound B=3.321294
+  level   9-> 12 J=3 (#el=3)  D=1.7085e-02  Gamma_group=4.0625e+00  D/Gamma=4.206e-03  C_b=1.329331022594  product bound B=16.814053
+  level  12-> 13 J=1 (#el=3)  D=6.9689e-04  Gamma_group=3.1250e-02  D/Gamma=2.230e-02  C_b=1.330257419704  product bound B=17.339492
+  level  13-> 14 J=1 (#el=3)  D=6.7432e-04  Gamma_group=3.1250e-02  D/Gamma=2.158e-02  C_b=1.331154432530  product bound B=17.881351
+  level  14-> 16 J=2 (#el=3)  D=9.7499e-04  Gamma_group=6.8750e-01  D/Gamma=1.418e-03  C_b=1.332452289915  product bound B=30.174780
+  depth 16: hit fraction 0.92494369 >= 1/C_k = 0.75049591 : True
+  checks 0<=D<=Gamma and C<=B: violations=0
+== p=5 N0=1 (file p5_E12_N1.txt, M=49): exact C_k for k<=12
+  level   0->  1 J=1 (#el=4)  D=5.4688e-02  Gamma_group=5.4688e-02  D/Gamma=1.000e+00  C_b=1.054687500000  product bound B=1.054688
+  level   1->  2 J=1 (#el=5)  D=2.1955e-02  Gamma_group=3.5156e-02  D/Gamma=6.245e-01  C_b=1.077842712402  product bound B=1.091766
+  level   2->  3 J=1 (#el=5)  D=5.3243e-04  Gamma_group=3.5156e-02  D/Gamma=1.514e-02  C_b=1.078416593373  product bound B=1.130149
+  level   3->  4 J=1 (#el=5)  D=3.5030e-05  Gamma_group=3.5156e-02  D/Gamma=9.964e-04  C_b=1.078454370145  product bound B=1.169881
+  level   4->  6 J=2 (#el=5)  D=4.6023e-04  Gamma_group=9.5312e-01  D/Gamma=4.829e-04  C_b=1.078950706002  product bound B=2.284923
+  level   6->  7 J=1 (#el=5)  D=1.6739e-05  Gamma_group=3.5156e-02  D/Gamma=4.761e-04  C_b=1.078968766503  product bound B=2.365252
+  level   7->  8 J=1 (#el=5)  D=3.1020e-05  Gamma_group=3.5156e-02  D/Gamma=8.824e-04  C_b=1.079002236524  product bound B=2.448406
+  level   8->  9 J=1 (#el=5)  D=1.8829e-07  Gamma_group=3.5156e-02  D/Gamma=5.356e-06  C_b=1.079002439689  product bound B=2.534482
+  level   9-> 10 J=1 (#el=5)  D=9.9567e-09  Gamma_group=3.5156e-02  D/Gamma=2.832e-07  C_b=1.079002450432  product bound B=2.623585
+  level  10-> 12 J=2 (#el=5)  D=5.2653e-07  Gamma_group=9.5312e-01  D/Gamma=5.524e-07  C_b=1.079003018555  product bound B=5.124190
+  depth 12: hit fraction 1.00000000 >= 1/C_k = 0.92678147 : True
+  checks 0<=D<=Gamma and C<=B: violations=0
+== p=5 N0=5 (file p5_E12_N5.txt, M=45): exact C_k for k<=11
+  level   0->  1 J=1 (#el=5)  D=3.5156e-02  Gamma_group=3.5156e-02  D/Gamma=1.000e+00  C_b=1.035156250000  product bound B=1.035156
+  level   1->  2 J=1 (#el=5)  D=3.7404e-03  Gamma_group=3.5156e-02  D/Gamma=1.064e-01  C_b=1.039028167725  product bound B=1.071548
+  level   2->  3 J=1 (#el=5)  D=4.9590e-04  Gamma_group=3.5156e-02  D/Gamma=1.411e-02  C_b=1.039543421939  product bound B=1.109220
+  level   3->  5 J=2 (#el=5)  D=1.7454e-03  Gamma_group=9.5312e-01  D/Gamma=1.831e-03  C_b=1.041357876375  product bound B=2.166445
+  level   5->  6 J=1 (#el=5)  D=6.9198e-05  Gamma_group=3.5156e-02  D/Gamma=1.968e-03  C_b=1.041429936260  product bound B=2.242610
+  level   6->  7 J=1 (#el=5)  D=1.1824e-04  Gamma_group=3.5156e-02  D/Gamma=3.363e-03  C_b=1.041553073613  product bound B=2.321451
+  level   7->  8 J=1 (#el=5)  D=7.9145e-07  Gamma_group=3.5156e-02  D/Gamma=2.251e-05  C_b=1.041553897951  product bound B=2.403065
+  level   8->  9 J=1 (#el=5)  D=3.3191e-08  Gamma_group=3.5156e-02  D/Gamma=9.441e-07  C_b=1.041553932521  product bound B=2.487548
+  level   9-> 11 J=2 (#el=5)  D=1.7168e-06  Gamma_group=9.5312e-01  D/Gamma=1.801e-06  C_b=1.041555720665  product bound B=4.858491
+  depth 11: hit fraction 1.00000000 >= 1/C_k = 0.96010226 : True
+  checks 0<=D<=Gamma and C<=B: violations=0
+== p=7 N0=1 (file p7_E10_N1.txt, M=62): exact C_k for k<=10
+  level   0->  1 J=1 (#el=6)  D=1.8555e-02  Gamma_group=1.8555e-02  D/Gamma=1.000e+00  C_b=1.018554687500  product bound B=1.018555
+  level   1->  2 J=1 (#el=7)  D=7.3939e-04  Gamma_group=1.4282e-02  D/Gamma=5.177e-02  C_b=1.019307792187  product bound B=1.033102
+  level   2->  3 J=1 (#el=7)  D=1.1503e-05  Gamma_group=1.4282e-02  D/Gamma=8.054e-04  C_b=1.019319517658  product bound B=1.047857
+  level   3->  4 J=1 (#el=7)  D=9.4778e-06  Gamma_group=1.4282e-02  D/Gamma=6.636e-04  C_b=1.019329178595  product bound B=1.062823
+  level   4->  5 J=1 (#el=7)  D=5.4110e-09  Gamma_group=1.4282e-02  D/Gamma=3.789e-07  C_b=1.019329184111  product bound B=1.078002
+  level   5->  6 J=1 (#el=7)  D=2.0188e-08  Gamma_group=1.4282e-02  D/Gamma=1.413e-06  C_b=1.019329204689  product bound B=1.093398
+  level   6->  8 J=2 (#el=7)  D=2.7640e-08  Gamma_group=1.1255e-01  D/Gamma=2.456e-07  C_b=1.019329232863  product bound B=1.216459
+  level   8->  9 J=1 (#el=7)  D=1.3111e-09  Gamma_group=1.4282e-02  D/Gamma=9.180e-08  C_b=1.019329234199  product bound B=1.233833
+  level   9-> 10 J=1 (#el=7)  D=2.2675e-11  Gamma_group=1.4282e-02  D/Gamma=1.588e-09  C_b=1.019329234222  product bound B=1.251455
+  depth 10: hit fraction 1.00000000 >= 1/C_k = 0.98103730 : True
+  checks 0<=D<=Gamma and C<=B: violations=0
+== p=7 N0=7 (file p7_E10_N7.txt, M=56): exact C_k for k<=9
+  level   0->  1 J=1 (#el=7)  D=1.4282e-02  Gamma_group=1.4282e-02  D/Gamma=1.000e+00  C_b=1.014282226562  product bound B=1.014282
+  level   1->  2 J=1 (#el=7)  D=4.9913e-04  Gamma_group=1.4282e-02  D/Gamma=3.495e-02  C_b=1.014788486063  product bound B=1.028768
+  level   2->  3 J=1 (#el=7)  D=1.6492e-04  Gamma_group=1.4282e-02  D/Gamma=1.155e-02  C_b=1.014955846991  product bound B=1.043462
+  level   3->  4 J=1 (#el=7)  D=7.0397e-08  Gamma_group=1.4282e-02  D/Gamma=4.929e-06  C_b=1.014955918441  product bound B=1.058364
+  level   4->  5 J=1 (#el=7)  D=8.8982e-08  Gamma_group=1.4282e-02  D/Gamma=6.230e-06  C_b=1.014956008754  product bound B=1.073480
+  level   5->  7 J=2 (#el=7)  D=7.7469e-07  Gamma_group=1.1255e-01  D/Gamma=6.883e-06  C_b=1.014956795034  product bound B=1.194299
+  level   7->  8 J=1 (#el=7)  D=5.9258e-09  Gamma_group=1.4282e-02  D/Gamma=4.149e-07  C_b=1.014956801048  product bound B=1.211356
+  level   8->  9 J=1 (#el=7)  D=4.2082e-10  Gamma_group=1.4282e-02  D/Gamma=2.946e-08  C_b=1.014956801475  product bound B=1.228657
+  depth 9: hit fraction 1.00000000 >= 1/C_k = 0.98526361 : True
+  checks 0<=D<=Gamma and C<=B: violations=0
+== p=11 N0=1 (file p11_E7_N1.txt, M=76): exact C_k for k<=7
+  level   0->  1 J=1 (#el=10)  D=2.0657e-03  Gamma_group=2.0657e-03  D/Gamma=1.000e+00  C_b=1.002065658569  product bound B=1.002066
+  level   1->  2 J=1 (#el=11)  D=2.8901e-06  Gamma_group=1.4362e-03  D/Gamma=2.012e-03  C_b=1.002068554635  product bound B=1.003505
+  level   2->  3 J=1 (#el=11)  D=4.3351e-09  Gamma_group=1.4362e-03  D/Gamma=3.018e-06  C_b=1.002068558979  product bound B=1.004946
+  level   3->  4 J=1 (#el=11)  D=1.8750e-11  Gamma_group=1.4362e-03  D/Gamma=1.305e-08  C_b=1.002068558998  product bound B=1.006389
+  level   4->  5 J=1 (#el=11)  D=5.0077e-14  Gamma_group=1.4362e-03  D/Gamma=3.487e-11  C_b=1.002068558998  product bound B=1.007835
+  level   5->  6 J=1 (#el=11)  D=4.3921e-15  Gamma_group=1.4362e-03  D/Gamma=3.058e-12  C_b=1.002068558998  product bound B=1.009282
+  level   6->  7 J=1 (#el=11)  D=4.7974e-19  Gamma_group=1.4362e-03  D/Gamma=3.340e-16  C_b=1.002068558998  product bound B=1.010732
+  depth 7: hit fraction 1.00000000 >= 1/C_k = 0.99793571 : True
+  checks 0<=D<=Gamma and C<=B: violations=0
+== p=11 N0=11 (file p11_E7_N11.txt, M=66): exact C_k for k<=6
+  level   0->  1 J=1 (#el=11)  D=1.4362e-03  Gamma_group=1.4362e-03  D/Gamma=1.000e+00  C_b=1.001436233521  product bound B=1.001436
+  level   1->  2 J=1 (#el=11)  D=3.8947e-06  Gamma_group=1.4362e-03  D/Gamma=2.712e-03  C_b=1.001440133846  product bound B=1.002875
+  level   2->  3 J=1 (#el=11)  D=3.7519e-09  Gamma_group=1.4362e-03  D/Gamma=2.612e-06  C_b=1.001440137603  product bound B=1.004315
+  level   3->  4 J=1 (#el=11)  D=1.0972e-11  Gamma_group=1.4362e-03  D/Gamma=7.639e-09  C_b=1.001440137614  product bound B=1.005757
+  level   4->  5 J=1 (#el=11)  D=2.0381e-12  Gamma_group=1.4362e-03  D/Gamma=1.419e-09  C_b=1.001440137616  product bound B=1.007202
+  level   5->  6 J=1 (#el=11)  D=3.3417e-17  Gamma_group=1.4362e-03  D/Gamma=2.327e-14  C_b=1.001440137616  product bound B=1.008648
+  depth 6: hit fraction 1.00000000 >= 1/C_k = 0.99856193 : True
+  checks 0<=D<=Gamma and C<=B: violations=0
+== p=13 N0=1 (file p13_E7_N1.txt, M=90): exact C_k for k<=7
+  level   0->  1 J=1 (#el=12)  D=2.8610e-05  Gamma_group=2.8610e-05  D/Gamma=1.000e+00  C_b=1.000028610229  product bound B=1.000029
+  level   1->  2 J=1 (#el=13)  D=4.7585e-08  Gamma_group=2.2024e-05  D/Gamma=2.161e-03  C_b=1.000028657816  product bound B=1.000051
+  level   2->  3 J=1 (#el=13)  D=7.9621e-10  Gamma_group=2.2024e-05  D/Gamma=3.615e-05  C_b=1.000028658612  product bound B=1.000073
+  level   3->  4 J=1 (#el=13)  D=2.2041e-16  Gamma_group=2.2024e-05  D/Gamma=1.001e-11  C_b=1.000028658612  product bound B=1.000095
+  level   4->  5 J=1 (#el=13)  D=9.1127e-19  Gamma_group=2.2024e-05  D/Gamma=4.138e-14  C_b=1.000028658612  product bound B=1.000117
+  level   5->  6 J=1 (#el=13)  D=2.4476e-20  Gamma_group=2.2024e-05  D/Gamma=1.111e-15  C_b=1.000028658612  product bound B=1.000139
+  level   6->  7 J=1 (#el=13)  D=1.0673e-22  Gamma_group=2.2024e-05  D/Gamma=4.846e-18  C_b=1.000028658612  product bound B=1.000161
+  depth 7: hit fraction 1.00000000 >= 1/C_k = 0.99997134 : True
+  checks 0<=D<=Gamma and C<=B: violations=0
+== p=13 N0=13 (file p13_E7_N13.txt, M=78): exact C_k for k<=6
+  level   0->  1 J=1 (#el=13)  D=2.2024e-05  Gamma_group=2.2024e-05  D/Gamma=1.000e+00  C_b=1.000022023916  product bound B=1.000022
+  level   1->  2 J=1 (#el=13)  D=5.1376e-07  Gamma_group=2.2024e-05  D/Gamma=2.333e-02  C_b=1.000022537691  product bound B=1.000044
+  level   2->  3 J=1 (#el=13)  D=4.4063e-13  Gamma_group=2.2024e-05  D/Gamma=2.001e-08  C_b=1.000022537691  product bound B=1.000066
+  level   3->  4 J=1 (#el=13)  D=1.3431e-16  Gamma_group=2.2024e-05  D/Gamma=6.098e-12  C_b=1.000022537691  product bound B=1.000088
+  level   4->  5 J=1 (#el=13)  D=1.7728e-18  Gamma_group=2.2024e-05  D/Gamma=8.050e-14  C_b=1.000022537691  product bound B=1.000110
+  level   5->  6 J=1 (#el=13)  D=9.1492e-20  Gamma_group=2.2024e-05  D/Gamma=4.154e-15  C_b=1.000022537691  product bound B=1.000132
+  depth 6: hit fraction 1.00000000 >= 1/C_k = 0.99997746 : True
+  checks 0<=D<=Gamma and C<=B: violations=0

@@ -1,0 +1,33 @@
+# 2026-10-21 18:43:08 CDT T3b-finish re-run on complete logs (A'/C' depth 7 and 8 all finished)
+== MINPROGS=1
+uniform Cov(19,1,5): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+uniform Cov(19,2,12): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+uniform Cov(19,3,17): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+uniform Cov(19,4,27): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+uniform Cov(19,5,31): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+uniform Cov(19,6,35): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+positions depth 7 H=45 K''=1..360 (342): programs certifying all = ['A', 'C']; N*-H>1=True; incomplete: {'B': [20, 21, 22, 23, 24, 25, 26, 27]}
+positions depth 8 H=49 K''=1..18 (18): programs certifying all = ['A', 'C']; N*-H>1=True
+CHAIN OK (1 program(s) per certificate): no first failure below 19^9; f(1,19) >= v_19((19^9-1)!) = 17927094312
+== MINPROGS=2
+uniform Cov(19,1,5): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+uniform Cov(19,2,12): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+uniform Cov(19,3,17): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+uniform Cov(19,4,27): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+uniform Cov(19,5,31): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+uniform Cov(19,6,35): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+positions depth 7 H=45 K''=1..360 (342): programs certifying all = ['A', 'C']; N*-H>1=True; incomplete: {'B': [20, 21, 22, 23, 24, 25, 26, 27]}
+positions depth 8 H=49 K''=1..18 (18): programs certifying all = ['A', 'C']; N*-H>1=True
+CHAIN OK (2 program(s) per certificate): no first failure below 19^9; f(1,19) >= v_19((19^9-1)!) = 17927094312
+== MINPROGS=3
+uniform Cov(19,1,5): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+uniform Cov(19,2,12): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+uniform Cov(19,3,17): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+uniform Cov(19,4,27): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+uniform Cov(19,5,31): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+uniform Cov(19,6,35): programs certifying all classes = ['A', 'B', 'C']; H+1<p^t=True
+positions depth 7 H=45 K''=1..360 (342): programs certifying all = ['A', 'C']; N*-H>1=True; incomplete: {'B': [20, 21, 22, 23, 24, 25, 26, 27]}
+positions depth 8 H=49 K''=1..18 (18): programs certifying all = ['A', 'C']; N*-H>1=True
+depth 7: NOT all positions below p^9 certified by 3 program(s) (342 missing)
+depth 8: NOT all positions below p^9 certified by 3 program(s) (18 missing)
+CHAIN INCOMPLETE

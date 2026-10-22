@@ -1,0 +1,25 @@
+p=5 E=11 N0=5 modulus=48828125 M=45 wide=0
+  element 8/45 (n!=39548475 mod, v=2) t=0.3s
+  element 16/45 (n!=22343125 mod, v=4) t=0.5s
+  element 24/45 (n!=39156250 mod, v=6) t=0.7s
+  element 32/45 (n!=43750000 mod, v=8) t=0.8s
+  element 40/45 (n!=21484375 mod, v=9) t=1.0s
+done in 1.3s
+        1.31 real         1.17 user         0.10 sys
+           783024128  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               47970  page reclaims
+                   1  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                 683  involuntary context switches
+          8011784577  instructions retired
+          4897568368  cycles elapsed
+           782943168  peak memory footprint

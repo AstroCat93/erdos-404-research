@@ -1,0 +1,1 @@
+./mydim 2 9 22 0 699051 > out/h_2_9_22_a.txt  83.66s user 0.47s system 99% cpu 1:24.83 total

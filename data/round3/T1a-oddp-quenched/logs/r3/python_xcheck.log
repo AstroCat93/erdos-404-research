@@ -1,0 +1,28 @@
+CMD p3
+    slope histogram of all parents: [(1, 180), (4, 28), (5, 48)]
+x#1 x%p^4=28 m=9 D=4 M_n=2 M_N=3 conds={'W1': True, 'W2': True, 'W3': True, 'env': True} parents=256 (lam<=L: 180, slope0: 0) lams=[1] firstmoment=True inherit=True const=True affine=True
+    M_n=0.851742 E[M_N]=0.851742 (equal: True)  E Sigma=143.4074 Var Sigma=967.8155 sum_e Var X_e=703.9246 corr-ratio=1.3749 relvar=0.04706 1/nL=0.00556 fourier=967.815501 (exact 967.815501)
+    Var by order p^d: d=1:0.3073, d=2:38.8477, d=3:916.9383, d=4:11.7222   | normalised Weyl sums of slope-0 Newton roots: d=1:0.000, d=2:0.000, d=3:0.000, d=4:0.000
+TOTAL first-moment identities exact: 180/180
+python3 window_exact2.py 3 1 1 22 28 40 1 x=9931185549497379070  1.65s user 0.02s system 99% cpu 1.679 total
+CMD p5 s0
+    slope histogram of all parents: [(1, 888), (2, 500), (3, 16), (4, 8), (5, 4)]
+x#1 x%p^4=253 m=6 D=2 M_n=2 M_N=2 conds={'W1': True, 'W2': True, 'W3': True, 'env': True} parents=1416 (lam<=L: 888, slope0: 0) lams=[1] firstmoment=True inherit=True const=True affine=True
+    M_n=0.823056 E[M_N]=0.823056 (equal: True)  E Sigma=36198.4000 Var Sigma=47205.3463 sum_e Var X_e=42938.1775 corr-ratio=1.0994 relvar=0.00004 1/nL=0.00113 fourier=47205.346250 (exact 47205.346250)
+    Var by order p^d: d=1:45975.0400, d=2:1230.3062   | normalised Weyl sums of slope-0 Newton roots: d=1:0.000, d=2:0.000
+TOTAL first-moment identities exact: 888/888
+python3 window_exact2.py 5 1 1 24 34 30 1 x=444893912871598826503  32.71s user 0.07s system 99% cpu 32.824 total
+CMD p5 s3
+    slope histogram of all parents: [(0, 221)]
+x#1 x%p^4=166 m=6 D=3 M_n=2 M_N=2 conds={'W1': True, 'W2': True, 'W3': True, 'env': True} parents=221 (lam<=L: 221, slope0: 221) lams=[0] firstmoment=True inherit=True const=True affine=True
+    M_n=0.205822 E[M_N]=0.205822 (equal: True)  E Sigma=1810.4320 Var Sigma=2425.7334 sum_e Var X_e=5288.7811 corr-ratio=0.4587 relvar=0.00074 1/nL=0.00452 fourier=2425.733376 (exact 2425.733376)
+    Var by order p^d: d=1:25.9523, d=2:4.5907, d=3:2395.1904   | normalised Weyl sums of slope-0 Newton roots: d=1:0.015, d=2:0.114, d=3:0.188
+TOTAL first-moment identities exact: 221/221
+python3 window_exact2.py 5 1 1 24 34 30 1 x=249015097408679049541  26.50s user 0.07s system 99% cpu 26.669 total
+CMD p7 s1 (W2 false)
+    slope histogram of all parents: [(0, 84)]
+x#1 x%p^4=184 m=4 D=2 M_n=2 M_N=2 conds={'W1': True, 'W2': False, 'W3': True, 'env': True} parents=84 (lam<=L: 84, slope0: 84) lams=[0] firstmoment=True inherit=True const=True affine=True
+    M_n=0.192341 E[M_N]=0.192341 (equal: True)  E Sigma=28086.8571 Var Sigma=28414.2041 sum_e Var X_e=193161.2362 corr-ratio=0.1471 relvar=0.00004 1/nL=0.01190 fourier=28414.204082 (exact 28414.204082)
+    Var by order p^d: d=1:21781.6443, d=2:6632.5598   | normalised Weyl sums of slope-0 Newton roots: d=1:0.117, d=2:0.319
+TOTAL first-moment identities exact: 84/84
+python3 window_exact2.py 7 1 1 20 34 30 1 x=20365253102807151669121665  54.57s user 0.09s system 99% cpu 54.748 total

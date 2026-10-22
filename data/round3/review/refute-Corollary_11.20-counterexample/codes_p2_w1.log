@@ -1,0 +1,29 @@
+p=2 base word [0, 1, 2, 6]; alpha mod p^20 = 867814, v(F)=607, slope lam=3, v(alpha+2)=3
+l0=2 i0=7 a_k=[16, 18, 20, 22, 24, 26, 28] P0=12
+window 0: tau=6 G=3 N=3
+window 1: tau=0 G=1 N=2
+window 2: tau=2 G=2 N=3
+window 3: tau=4 G=1 N=2
+window 4: tau=6 G=3 N=3
+window 5: tau=0 G=1 N=2
+window 6: tau=2 G=2 N=3
+181 zeros computed; slope/P0 failures: 0
+pairs checked 16290, distance-formula failures 0
+  first diff at window 0: dist range 12..13
+  first diff at window 1: dist range 15..15
+  first diff at window 2: dist range 16..17
+  first diff at window 3: dist range 18..18
+  first diff at window 4: dist range 19..20
+  first diff at window 5: dist range 28..28
+  first diff at window 6: dist range 29..30
+cylinder/ball correspondence failures: 0
+  G=12: classes mod p^G hit by sampled zeros = 1
+  G=16: classes mod p^G hit by sampled zeros = 6
+  G=20: classes mod p^G hit by sampled zeros = 63
+  G=24: classes mod p^G hit by sampled zeros = 87
+  G=28: classes mod p^G hit by sampled zeros = 87
+  G=32: classes mod p^G hit by sampled zeros = 181
+  G=36: classes mod p^G hit by sampled zeros = 181
+  G=40: classes mod p^G hit by sampled zeros = 181
+  G=44: classes mod p^G hit by sampled zeros = 181
+  G=48: classes mod p^G hit by sampled zeros = 181

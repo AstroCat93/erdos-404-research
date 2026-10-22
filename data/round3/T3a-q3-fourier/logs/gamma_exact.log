@@ -1,0 +1,62 @@
+p=3  e_u=[2, -2, 1]  Sigma=5  I_2(p)=3/16 = 1.8750000000e-01  (2^-p = 1.2500000000e-01, ratio I_2*2^p = 3/2)
+p=3  Gamma'_p (partial first block {1!..(p-1)!} mod p) = 1/8 = 0.1250000000
+p=3  Gamma_p(1) with pattern r! = 1/32 = 0.0312500000
+p=3 J=1  Gamma_p(J)=1/32 = 3.1250000000e-02   p^J I_2 - 1 = -4.3750000000e-01   identity holds: False   (p^J > Sigma: False)
+p=3 J=2  Gamma_p(J)=11/16 = 6.8750000000e-01   p^J I_2 - 1 = 6.8750000000e-01   identity holds: True   (p^J > Sigma: True)
+p=3 J=3  Gamma_p(J)=65/16 = 4.0625000000e+00   p^J I_2 - 1 = 4.0625000000e+00   identity holds: True   (p^J > Sigma: True)
+p=3 J=4  Gamma_p(J)=227/16 = 1.4187500000e+01   p^J I_2 - 1 = 1.4187500000e+01   identity holds: True   (p^J > Sigma: True)
+p=3 J=5  Gamma_p(J)=713/16 = 4.4562500000e+01   p^J I_2 - 1 = 4.4562500000e+01   identity holds: True   (p^J > Sigma: True)
+p=3 J=6  Gamma_p(J)=2171/16 = 1.3568750000e+02   p^J I_2 - 1 = 1.3568750000e+02   identity holds: True   (p^J > Sigma: True)
+p=3 J=7  Gamma_p(J)=6545/16 = 4.0906250000e+02   p^J I_2 - 1 = 4.0906250000e+02   identity holds: True   (p^J > Sigma: True)
+p=3 J=8  Gamma_p(J)=19667/16 = 1.2291875000e+03   p^J I_2 - 1 = 1.2291875000e+03   identity holds: True   (p^J > Sigma: True)
+p=3 J=9  Gamma_p(J)=59033/16 = 3.6895625000e+03   p^J I_2 - 1 = 3.6895625000e+03   identity holds: True   (p^J > Sigma: True)
+p=3 J=10  Gamma_p(J)=177131/16 = 1.1070687500e+04   p^J I_2 - 1 = 1.1070687500e+04   identity holds: True   (p^J > Sigma: True)
+p=3 J=11  Gamma_p(J)=531425/16 = 3.3214062500e+04   p^J I_2 - 1 = 3.3214062500e+04   identity holds: True   (p^J > Sigma: True)
+p=3 J=12  Gamma_p(J)=1594307/16 = 9.9644187500e+04   p^J I_2 - 1 = 9.9644187500e+04   identity holds: True   (p^J > Sigma: True)
+p=3 J=13  Gamma_p(J)=4782953/16 = 2.9893456250e+05   p^J I_2 - 1 = 2.9893456250e+05   identity holds: True   (p^J > Sigma: True)
+p=3 J=14  Gamma_p(J)=14348891/16 = 8.9680568750e+05   p^J I_2 - 1 = 8.9680568750e+05   identity holds: True   (p^J > Sigma: True)
+p=3 J=15  Gamma_p(J)=43046705/16 = 2.6904190625e+06   p^J I_2 - 1 = 2.6904190625e+06   identity holds: True   (p^J > Sigma: True)
+p=5  e_u=[24, -24, 12, -4, 1]  Sigma=65  I_2(p)=3/64 = 4.6875000000e-02  (2^-p = 3.1250000000e-02, ratio I_2*2^p = 3/2)
+p=5  Gamma'_p (partial first block {1!..(p-1)!} mod p) = 7/128 = 0.0546875000
+p=5  Gamma_p(1) with pattern r! = 9/256 = 0.0351562500
+p=5 J=1  Gamma_p(J)=9/256 = 3.5156250000e-02   p^J I_2 - 1 = -7.6562500000e-01   identity holds: False   (p^J > Sigma: False)
+p=5 J=2  Gamma_p(J)=61/64 = 9.5312500000e-01   p^J I_2 - 1 = 1.7187500000e-01   identity holds: False   (p^J > Sigma: False)
+p=5 J=3  Gamma_p(J)=311/64 = 4.8593750000e+00   p^J I_2 - 1 = 4.8593750000e+00   identity holds: True   (p^J > Sigma: True)
+p=5 J=4  Gamma_p(J)=1811/64 = 2.8296875000e+01   p^J I_2 - 1 = 2.8296875000e+01   identity holds: True   (p^J > Sigma: True)
+p=5 J=5  Gamma_p(J)=9311/64 = 1.4548437500e+02   p^J I_2 - 1 = 1.4548437500e+02   identity holds: True   (p^J > Sigma: True)
+p=5 J=6  Gamma_p(J)=46811/64 = 7.3142187500e+02   p^J I_2 - 1 = 7.3142187500e+02   identity holds: True   (p^J > Sigma: True)
+p=5 J=7  Gamma_p(J)=234311/64 = 3.6611093750e+03   p^J I_2 - 1 = 3.6611093750e+03   identity holds: True   (p^J > Sigma: True)
+p=5 J=8  Gamma_p(J)=1171811/64 = 1.8309546875e+04   p^J I_2 - 1 = 1.8309546875e+04   identity holds: True   (p^J > Sigma: True)
+p=5 J=9  Gamma_p(J)=5859311/64 = 9.1551734375e+04   p^J I_2 - 1 = 9.1551734375e+04   identity holds: True   (p^J > Sigma: True)
+p=5 J=10  Gamma_p(J)=29296811/64 = 4.5776267188e+05   p^J I_2 - 1 = 4.5776267188e+05   identity holds: True   (p^J > Sigma: True)
+p=7  e_u=[720, -720, 360, -120, 30, -6, 1]  Sigma=1957  I_2(p)=3/256 = 1.1718750000e-02  (2^-p = 7.8125000000e-03, ratio I_2*2^p = 3/2)
+p=7  Gamma'_p (partial first block {1!..(p-1)!} mod p) = 19/1024 = 0.0185546875
+p=7  Gamma_p(1) with pattern r! = 117/8192 = 0.0142822266
+p=7 J=1  Gamma_p(J)=117/8192 = 1.4282226562e-02   p^J I_2 - 1 = -9.1796875000e-01   identity holds: False   (p^J > Sigma: False)
+p=7 J=2  Gamma_p(J)=461/4096 = 1.1254882812e-01   p^J I_2 - 1 = -4.2578125000e-01   identity holds: False   (p^J > Sigma: False)
+p=7 J=3  Gamma_p(J)=25079/8192 = 3.0614013672e+00   p^J I_2 - 1 = 3.0195312500e+00   identity holds: False   (p^J > Sigma: False)
+p=7 J=4  Gamma_p(J)=6947/256 = 2.7136718750e+01   p^J I_2 - 1 = 2.7136718750e+01   identity holds: True   (p^J > Sigma: True)
+p=7 J=5  Gamma_p(J)=50165/256 = 1.9595703125e+02   p^J I_2 - 1 = 1.9595703125e+02   identity holds: True   (p^J > Sigma: True)
+p=7 J=6  Gamma_p(J)=352691/256 = 1.3776992188e+03   p^J I_2 - 1 = 1.3776992188e+03   identity holds: True   (p^J > Sigma: True)
+p=7 J=7  Gamma_p(J)=2470373/256 = 9.6498945312e+03   p^J I_2 - 1 = 9.6498945312e+03   identity holds: True   (p^J > Sigma: True)
+p=7 J=8  Gamma_p(J)=17294147/256 = 6.7555261719e+04   p^J I_2 - 1 = 6.7555261719e+04   identity holds: True   (p^J > Sigma: True)
+p=11  e_u=[3628800, -3628800, 1814400, -604800, 151200, -30240, 5040, -720, 90, -10, 1]  Sigma=9864101  I_2(p)=3/4096 = 7.3242187500e-04  (2^-p = 4.8828125000e-04, ratio I_2*2^p = 3/2)
+p=11  Gamma'_p (partial first block {1!..(p-1)!} mod p) = 1083/524288 = 0.0020656586
+p=11  Gamma_p(1) with pattern r! = 753/524288 = 0.0014362335
+p=11 J=1  Gamma_p(J)=753/524288 = 1.4362335205e-03   p^J I_2 - 1 = -9.9194335938e-01   identity holds: False   (p^J > Sigma: False)
+p=11 J=2  Gamma_p(J)=117017/1048576 = 1.1159610748e-01   p^J I_2 - 1 = -9.1137695312e-01   identity holds: False   (p^J > Sigma: False)
+p=11 J=3  Gamma_p(J)=840113/1048576 = 8.0119419098e-01   p^J I_2 - 1 = -2.5146484375e-02   identity holds: False   (p^J > Sigma: False)
+p=11 J=4  Gamma_p(J)=5229625/524288 = 9.9747180939e+00   p^J I_2 - 1 = 9.7233886719e+00   identity holds: False   (p^J > Sigma: False)
+p=11 J=5  Gamma_p(J)=479057/4096 = 1.1695727539e+02   p^J I_2 - 1 = 1.1695727539e+02   identity holds: True   (p^J > Sigma: False)
+p=11 J=6  Gamma_p(J)=5310587/4096 = 1.2965300293e+03   p^J I_2 - 1 = 1.2965300293e+03   identity holds: True   (p^J > Sigma: False)
+p=11 J=7  Gamma_p(J)=58457417/4096 = 1.4271830322e+04   p^J I_2 - 1 = 1.4271830322e+04   identity holds: True   (p^J > Sigma: True)
+p=13  e_u=[479001600, -479001600, 239500800, -79833600, 19958400, -3991680, 665280, -95040, 11880, -1320, 132, -12, 1]  Sigma=1302061345  I_2(p)=3/16384 = 1.8310546875e-04  (2^-p = 1.2207031250e-04, ratio I_2*2^p = 3/2)
+p=13  Gamma'_p (partial first block {1!..(p-1)!} mod p) = 15/524288 = 0.0000286102
+p=13  Gamma_p(1) with pattern r! = 739/33554432 = 0.0000220239
+p=13 J=1  Gamma_p(J)=739/33554432 = 2.2023916245e-05   p^J I_2 - 1 = -9.9761962891e-01   identity holds: False   (p^J > Sigma: False)
+p=13 J=2  Gamma_p(J)=8519/1048576 = 8.1243515015e-03   p^J I_2 - 1 = -9.6905517578e-01   identity holds: False   (p^J > Sigma: False)
+p=13 J=3  Gamma_p(J)=1614333/8388608 = 1.9244349003e-01   p^J I_2 - 1 = -5.9771728516e-01   identity holds: False   (p^J > Sigma: False)
+p=13 J=4  Gamma_p(J)=98752029/16777216 = 5.8860796094e+00   p^J I_2 - 1 = 4.2296752930e+00   identity holds: False   (p^J > Sigma: False)
+p=13 J=5  Gamma_p(J)=281330013/4194304 = 6.7074301958e+01   p^J I_2 - 1 = 6.6985778809e+01   identity holds: False   (p^J > Sigma: False)
+p=13 J=6  Gamma_p(J)=14464043/16384 = 8.8281512451e+02   p^J I_2 - 1 = 8.8281512451e+02   identity holds: True   (p^J > Sigma: False)
+python3 -I code/gamma_exact.py 3 5 7 11 13  0.54s user 0.04s system 97% cpu 0.590 total

@@ -1,0 +1,10 @@
+# p=5  e_u = (-1)^u (p-1)!/u!: 24 -24 12 -4 1
+p=5 i=1 p^i=5 Lunit=0.2795084972 Lall=0.2795084972 Lunit/units=0.0698771243 Lall/p^i=0.05590169944 maxterm=0.132377 argmax=1 randomphase_budget=0.4182737463
+p=5 i=2 p^i=25 Lunit=2.761067878 Lall=3.040576375 Lunit/units=0.1380533939 Lall/p^i=0.121623055 maxterm=0.483056 argmax=2 randomphase_budget=2.091368732
+p=5 i=3 p^i=125 Lunit=11.18767997 Lall=14.22825635 Lunit/units=0.1118767997 Lall/p^i=0.1138260508 maxterm=0.693283 argmax=94 randomphase_budget=10.45684366
+p=5 i=4 p^i=625 Lunit=61.03048415 Lall=75.2587405 Lunit/units=0.1220609683 Lall/p^i=0.1204139848 maxterm=0.983514 argmax=1 randomphase_budget=52.28421829
+p=5 i=5 p^i=3125 Lunit=305.0803099 Lall=380.3390504 Lunit/units=0.122032124 Lall/p^i=0.1217084961 maxterm=0.999337 argmax=1 randomphase_budget=261.4210914
+p=5 i=6 p^i=15625 Lunit=1525.360376 Lall=1905.699426 Lunit/units=0.12202883 Lall/p^i=0.1219647633 maxterm=0.999973 argmax=1 randomphase_budget=1307.105457
+p=5 i=7 p^i=78125 Lunit=7626.799508 Lall=9532.498934 Lunit/units=0.1220287921 Lall/p^i=0.1220159864 maxterm=0.999999 argmax=1 randomphase_budget=6535.527286
+p=5 i=8 p^i=390625 Lunit=38133.9959 Lall=47666.49484 Lunit/units=0.1220287869 Lall/p^i=0.1220262268 maxterm=1 argmax=1 randomphase_budget=32677.63643
+p=5 integral I_p=0.122028786816 (ngl=16, 24 unit pieces)  (2/pi)^p=0.104568436578  (2/pi)^(p-2)/2=0.129006137733

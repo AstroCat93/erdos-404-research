@@ -1,0 +1,5 @@
+(a) vals [1, -5, 7, 1, -2, -8, 4, -2] max v 3
+(b) e2=1,e3=0: [(Fraction(4, 5), 2), (Fraction(-26, 5), 1), (Fraction(34, 5), 1), (Fraction(4, 5), 2)]
+(b) e2=0,e3=1: [(Fraction(-16, 5), 4), (Fraction(-46, 5), 1), (Fraction(14, 5), 1), (Fraction(-16, 5), 4)]
+(c) e2=0,e3=1 hist {1: 32, 3: 16, 4: 8, 5: 3, 6: 4, 7: 1} zeros 0
+identity True

@@ -1,0 +1,112 @@
+### 3 1 2 2
+p=3 N0=1 e0=0 k0=2 J=2  #lower=5  #block=3  block units mod p^J: [8, 2, 7]
+C_4 direct = 41391/32768 = 1.2631530762 ; via Theorem B = 41391/32768 ; equal: True
+C_2 direct = 585/512 = 1.1425781250 ; via q = 585/512 ; equal: True
+defect D = C_4/C_2 - 1 = 1.055288e-01 ; worst case Gamma = p^J b(0) - 1 = 6.875000e-01 ; D/Gamma = 1.5350e-01
+carry law q/|q|: TV distance from uniform mod p^J = 2.051282e-01 ; max_z q/|q| = 2.461538e-01 (uniform 1.111111e-01) ; #support = 9 of 9
+block law: b(0) = 3/16 = 1.875000e-01 (uniform 1.111111e-01)
+real 0.05
+### 3 1 6 2
+p=3 N0=1 e0=0 k0=6 J=2  #lower=14  #block=3  block units mod p^J: [2, 5, 4]
+C_8 direct = 5536742607/4294967296 = 1.2891233449 ; via Theorem B = 5536742607/4294967296 ; equal: True
+C_6 direct = 85210623/67108864 = 1.2697372288 ; via q = 85210623/67108864 ; equal: True
+defect D = C_8/C_6 - 1 = 1.526782e-02 ; worst case Gamma = p^J b(0) - 1 = 6.875000e-01 ; D/Gamma = 2.2208e-02
+carry law q/|q|: TV distance from uniform mod p^J = 4.454967e-02 ; max_z q/|q| = 1.342450e-01 (uniform 1.111111e-01) ; #support = 9 of 9
+block law: b(0) = 3/16 = 1.875000e-01 (uniform 1.111111e-01)
+real 0.09
+### 3 1 10 3
+p=3 N0=1 e0=0 k0=10 J=3  #lower=23  #block=3  block units mod p^J: [1, 25, 2]
+C_13 direct = 368222564981079/281474976710656 = 1.3081893435 ; via Theorem B = 368222564981079/281474976710656 ; equal: True
+C_10 direct = 22719059821377/17592186044416 = 1.2914290336 ; via q = 22719059821377/17592186044416 ; equal: True
+defect D = C_13/C_10 - 1 = 1.297811e-02 ; worst case Gamma = p^J b(0) - 1 = 4.062500e+00 ; D/Gamma = 3.1946e-03
+carry law q/|q|: TV distance from uniform mod p^J = 7.076640e-03 ; max_z q/|q| = 4.086984e-02 (uniform 3.703704e-02) ; #support = 27 of 27
+block law: b(0) = 3/16 = 1.875000e-01 (uniform 3.703704e-02)
+real 21.48
+### 3 3 1 2
+p=3 N0=3 e0=1 k0=1 J=2  #lower=3  #block=3  block units mod p^J: [8, 2, 7]
+C_3 direct = 81/64 = 1.2656250000 ; via Theorem B = 81/64 ; equal: True
+C_1 direct = 33/32 = 1.0312500000 ; via q = 33/32 ; equal: True
+defect D = C_3/C_1 - 1 = 2.272727e-01 ; worst case Gamma = p^J b(0) - 1 = 6.875000e-01 ; D/Gamma = 3.3058e-01
+carry law q/|q|: TV distance from uniform mod p^J = 3.939394e-01 ; max_z q/|q| = 3.636364e-01 (uniform 1.111111e-01) ; #support = 7 of 9
+block law: b(0) = 3/16 = 1.875000e-01 (uniform 1.111111e-01)
+real 0.06
+### 5 1 4 2
+p=5 N0=1 e0=0 k0=4 J=2  #lower=19  #block=5  block units mod p^J: [24, 4, 13, 24, 1]
+C_6 direct = 151848812421875/140737488355328 = 1.0789507060 ; via Theorem B = 151848812421875/140737488355328 ; equal: True
+C_4 direct = 2315963125/2147483648 = 1.0784543701 ; via q = 2315963125/2147483648 ; equal: True
+defect D = C_6/C_4 - 1 = 4.602289e-04 ; worst case Gamma = p^J b(0) - 1 = 9.531250e-01 ; D/Gamma = 4.8286e-04
+carry law q/|q|: TV distance from uniform mod p^J = 1.954854e-03 ; max_z q/|q| = 4.065486e-02 (uniform 4.000000e-02) ; #support = 25 of 25
+block law: b(0) = 5/64 = 7.812500e-02 (uniform 4.000000e-02)
+real 0.21
+### 5 5 3 2
+p=5 N0=5 e0=1 k0=3 J=2  #lower=15  #block=5  block units mod p^J: [24, 4, 13, 24, 1]
+C_5 direct = 572492546875/549755813888 = 1.0413578764 ; via Theorem B = 572492546875/549755813888 ; equal: True
+C_3 direct = 558100625/536870912 = 1.0395434219 ; via q = 558100625/536870912 ; equal: True
+defect D = C_5/C_3 - 1 = 1.745434e-03 ; worst case Gamma = p^J b(0) - 1 = 9.531250e-01 ; D/Gamma = 1.8313e-03
+carry law q/|q|: TV distance from uniform mod p^J = 9.526508e-03 ; max_z q/|q| = 4.313581e-02 (uniform 4.000000e-02) ; #support = 25 of 25
+block law: b(0) = 5/64 = 7.812500e-02 (uniform 4.000000e-02)
+real 0.08
+### 7 1 6 2
+p=7 N0=1 e0=0 k0=6 J=2  #lower=41  #block=7  block units mod p^J: [48, 6, 19, 22, 32, 34, 15]
+C_8 direct = 10094947764597207356735738841/9903520314283042199192993792 = 1.0193292329 ; via Theorem B = 10094947764597207356735738841/9903520314283042199192993792 ; equal: True
+C_6 direct = 1232293394235419659956659/1208925819614629174706176 = 1.0193292047 ; via q = 1232293394235419659956659/1208925819614629174706176 ; equal: True
+defect D = C_8/C_6 - 1 = 2.763963e-08 ; worst case Gamma = p^J b(0) - 1 = 1.125488e-01 ; D/Gamma = 2.4558e-07
+carry law q/|q|: TV distance from uniform mod p^J = 3.430417e-07 ; max_z q/|q| = 2.040821e-02 (uniform 2.040816e-02) ; #support = 49 of 49
+block law: b(0) = 93/4096 = 2.270508e-02 (uniform 2.040816e-02)
+real 292.85
+### 5 1 0 1
+p=5 N0=1 e0=0 k0=0 J=1  #lower=0  #block=4  block units mod p^J: [1, 2, 1, 4]
+C_1 direct = 135/128 = 1.0546875000 ; via Theorem B = 135/128 ; equal: True
+C_0 direct = 1 = 1.0000000000 ; via q = 1 ; equal: True
+defect D = C_1/C_0 - 1 = 5.468750e-02 ; worst case Gamma = p^J b(0) - 1 = 5.468750e-02 ; D/Gamma = 1.0000e+00
+carry law q/|q|: TV distance from uniform mod p^J = 8.000000e-01 ; max_z q/|q| = 1.000000e+00 (uniform 2.000000e-01) ; #support = 1 of 5
+block law: b(0) = 27/128 = 2.109375e-01 (uniform 2.000000e-01)
+real 0.06
+### 5 1 1 1
+p=5 N0=1 e0=0 k0=1 J=1  #lower=4  #block=5  block units mod p^J: [4, 4, 3, 4, 1]
+C_2 direct = 141275/131072 = 1.0778427124 ; via Theorem B = 141275/131072 ; equal: True
+C_1 direct = 135/128 = 1.0546875000 ; via q = 135/128 ; equal: True
+defect D = C_2/C_1 - 1 = 2.195457e-02 ; worst case Gamma = p^J b(0) - 1 = 3.515625e-02 ; D/Gamma = 6.2449e-01
+carry law q/|q|: TV distance from uniform mod p^J = 3.629630e-01 ; max_z q/|q| = 5.185185e-01 (uniform 2.000000e-01) ; #support = 5 of 5
+block law: b(0) = 53/256 = 2.070312e-01 (uniform 2.000000e-01)
+real 0.05
+### 5 1 2 1
+p=5 N0=1 e0=0 k0=2 J=1  #lower=9  #block=5  block units mod p^J: [2, 2, 4, 2, 3]
+C_3 direct = 144742625/134217728 = 1.0784165934 ; via Theorem B = 144742625/134217728 ; equal: True
+C_2 direct = 141275/131072 = 1.0778427124 ; via q = 141275/131072 ; equal: True
+defect D = C_3/C_2 - 1 = 5.324348e-04 ; worst case Gamma = p^J b(0) - 1 = 3.515625e-02 ; D/Gamma = 1.5145e-02
+carry law q/|q|: TV distance from uniform mod p^J = 4.554946e-02 ; max_z q/|q| = 2.364183e-01 (uniform 2.000000e-01) ; #support = 5 of 5
+block law: b(0) = 53/256 = 2.070312e-01 (uniform 2.000000e-01)
+real 0.05
+### 2 1 1 2
+p=2 N0=1 e0=0 k0=1 J=2  #lower=1  #block=2  block units mod p^J: [1, 3]
+C_3 direct = 3/2 = 1.5000000000 ; via Theorem B = 3/2 ; equal: True
+C_1 direct = 1 = 1.0000000000 ; via q = 1 ; equal: True
+defect D = C_3/C_1 - 1 = 5.000000e-01 ; worst case Gamma = p^J b(0) - 1 = 5.000000e-01 ; D/Gamma = 1.0000e+00
+carry law q/|q|: TV distance from uniform mod p^J = 7.500000e-01 ; max_z q/|q| = 1.000000e+00 (uniform 2.500000e-01) ; #support = 1 of 4
+block law: b(0) = 3/8 = 3.750000e-01 (uniform 2.500000e-01)
+real 0.05
+### 2 1 4 3
+p=2 N0=1 e0=0 k0=4 J=3  #lower=5  #block=2  block units mod p^J: [5, 3]
+C_7 direct = 33/16 = 2.0625000000 ; via Theorem B = 33/16 ; equal: True
+C_4 direct = 3/2 = 1.5000000000 ; via q = 3/2 ; equal: True
+defect D = C_7/C_4 - 1 = 3.750000e-01 ; worst case Gamma = p^J b(0) - 1 = 2.000000e+00 ; D/Gamma = 1.8750e-01
+carry law q/|q|: TV distance from uniform mod p^J = 3.750000e-01 ; max_z q/|q| = 4.166667e-01 (uniform 1.250000e-01) ; #support = 5 of 8
+block law: b(0) = 3/8 = 3.750000e-01 (uniform 1.250000e-01)
+real 0.05
+### 2 1 8 2
+p=2 N0=1 e0=0 k0=8 J=2  #lower=9  #block=2  block units mod p^J: [3, 1]
+C_10 direct = 313/128 = 2.4453125000 ; via Theorem B = 313/128 ; equal: True
+C_8 direct = 33/16 = 2.0625000000 ; via q = 33/16 ; equal: True
+defect D = C_10/C_8 - 1 = 1.856061e-01 ; worst case Gamma = p^J b(0) - 1 = 5.000000e-01 ; D/Gamma = 3.7121e-01
+carry law q/|q|: TV distance from uniform mod p^J = 2.424242e-01 ; max_z q/|q| = 4.924242e-01 (uniform 2.500000e-01) ; #support = 4 of 4
+block law: b(0) = 3/8 = 3.750000e-01 (uniform 2.500000e-01)
+real 0.06
+### 2 1 11 4
+p=2 N0=1 e0=0 k0=11 J=4  #lower=13  #block=2  block units mod p^J: [5, 11]
+C_15 direct = 12543/4096 = 3.0622558594 ; via Theorem B = 12543/4096 ; equal: True
+C_11 direct = 313/128 = 2.4453125000 ; via q = 313/128 ; equal: True
+defect D = C_15/C_11 - 1 = 2.522963e-01 ; worst case Gamma = p^J b(0) - 1 = 5.000000e+00 ; D/Gamma = 5.0459e-02
+carry law q/|q|: TV distance from uniform mod p^J = 1.093251e-01 ; max_z q/|q| = 1.304912e-01 (uniform 6.250000e-02) ; #support = 16 of 16
+block law: b(0) = 3/8 = 3.750000e-01 (uniform 6.250000e-02)
+real 0.17

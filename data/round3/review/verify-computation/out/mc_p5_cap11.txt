@@ -1,0 +1,13 @@
+# mc p=5 cap=11 N=2000000 seed=20261021
+g=0 count=801203
+g=1 count=79898
+g=2 count=31808
+g=3 count=9770
+g=4 count=27621
+g=5 count=3910
+g=6 count=2182
+g=7 count=931
+g=8 count=314
+g=9 count=194
+g=10 count=19
+g=11 count=1042150

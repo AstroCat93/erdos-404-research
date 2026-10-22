@@ -1,0 +1,26 @@
+p=5 W==0 weight=48 (4^p=2^10)
+j=0 cnt=1024
+j=1 cnt=212
+j=2 cnt=80
+j=3 cnt=48
+j=4 cnt=48
+j=5 cnt=48
+j=6 cnt=48
+j=7 cnt=48
+j=8 cnt=48
+j=9 cnt=48
+j=10 cnt=48
+j=11 cnt=48
+j=12 cnt=48
+j=13 cnt=48
+j=14 cnt=48
+j=15 cnt=48
+j=16 cnt=48
+j=17 cnt=48
+j=18 cnt=48
+j=19 cnt=48
+j=20 cnt=48
+j=21 cnt=48
+j=22 cnt=48
+j=23 cnt=48
+j=24 cnt=48

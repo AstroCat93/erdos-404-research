@@ -1,0 +1,9 @@
+2 Gamma1= 0 J0= 2 dist= [2, 3, 3, 3] maxfull= 1 theta= 0.3962406252 1-theta_set= 0.64624062518
+3 Gamma1= 1/32 J0= 2 dist= [3, 6, 6, 6] maxfull= 1 theta= 0.2294000283 1-theta_set= 0.806873278571
+5 Gamma1= 9/256 J0= 3 dist= [5, 16, 24, 24] maxfull= 1 theta= 0.1101338076 1-theta_set= 0.923694745532
+7 Gamma1= 117/8192 J0= 4 dist= [7, 49, 95, 96] maxfull= 2 theta= 0.02660793049 1-theta_set= 0.985556825536
+11 Gamma1= 753/524288 J0= 5 dist= [11, 121, 932, 1500] maxfull= 2 theta= 0.00623569904 1-theta_set= 0.998268316014
+13 Gamma1= 739/33554432 J0= 6 dist= [13, 169, 2163, 5178] maxfull= 2 theta= 0.0009076755152 1-theta_set= 0.999656751178
+17 Gamma1= 2617/4294967296 J0= 7 dist= [17, 289, 4913, 58024] maxfull= 3 theta= 8.410653547e-5 1-theta_set= 0.999965432719
+19 Gamma1= 13507/137438953472 J0= 7 dist= [19, 361, 6859, 125661] maxfull= 3 theta= 3.406650642e-5 1-theta_set= 0.99999322551
+python3 "$D/gamma_theta.py"  0.71s user 0.05s system 93% cpu 0.822 total

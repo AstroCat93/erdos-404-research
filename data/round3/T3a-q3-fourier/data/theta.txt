@@ -1,0 +1,9 @@
+# p  theta_p(fair coins) upper   1-theta_p lower   theta_set_p upper   1-theta_set lower   1-p^-L_p   (J0 closed-form start)
+p= 2  theta=3.962406252e-01  1-theta>=0.603759374820   theta_set=3.537593748e-01  1-theta_set>=0.646240625180   1-p^-L=0.500000000 (L_p=1)   J0=2 J1=2
+p= 3  theta=2.294000283e-01  1-theta>=0.770599971714   theta_set=1.931267214e-01  1-theta_set>=0.806873278571   1-p^-L=0.666666667 (L_p=1)   J0=2 J1=2
+p= 5  theta=1.101338076e-01  1-theta>=0.889866192437   theta_set=7.630525447e-02  1-theta_set>=0.923694745532   1-p^-L=0.800000000 (L_p=1)   J0=3 J1=3
+p= 7  theta=2.660793049e-02  1-theta>=0.973392069507   theta_set=1.444317446e-02  1-theta_set>=0.985556825536   1-p^-L=0.979591837 (L_p=2)   J0=4 J1=4
+p=11  theta=6.235699040e-03  1-theta>=0.993764300960   theta_set=1.731683986e-03  1-theta_set>=0.998268316014   1-p^-L=0.991735537 (L_p=2)   J0=5 J1=5
+p=13  theta=9.076755152e-04  1-theta>=0.999092324485   theta_set=3.432488224e-04  1-theta_set>=0.999656751178   1-p^-L=0.994082840 (L_p=2)   J0=6 J1=6
+p=17  theta=8.410653547e-05  1-theta>=0.999915893465   theta_set=3.456728121e-05  1-theta_set>=0.999965432719   1-p^-L=0.999796458 (L_p=3)   J0=7 J1=7
+p=19  theta=3.406650642e-05  1-theta>=0.999965933494   theta_set=6.774490287e-06  1-theta_set>=0.999993225510   1-p^-L=0.999854206 (L_p=3)   J0=7 J1=7

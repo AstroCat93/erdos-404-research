@@ -1,0 +1,33 @@
+== Prop 11.25 finite cases ==
+ S_e(-4) values [-8, -5, -2, 1, 4, 7] max v2 = 3
+ family e2=1: [Fraction(-26, 5), Fraction(4, 5), Fraction(34, 5)] [1, 2, 1]
+ family e3=1: [Fraction(-46, 5), Fraction(-16, 5), Fraction(14, 5)] [1, 4, 1]
+ Phi_e(-8), e2=0,e3=1, histogram of v2: {1: 32, 3: 16, 4: 8, 5: 3, 6: 4, 7: 1}
+ identity S_e = y(y-1)Phi_e(y): 500 random cases OK;  S_{1,3} = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+== Prop 11.13(b): F_e = y H(y), H(0)=-c!, H'(0) unit ==
+ H'(0) is a p-unit for p in {2,3,5,7}, 2p<=c<2p+4
+== Thm 11.15 Step 0(b): f(u)=u+v(u!) hits every residue mod k with p|u ==
+ failures: [(2, 15), (2, 16), (2, 21), (2, 24), (2, 26), (2, 28), (2, 30), (2, 31), (2, 32), (2, 33), (2, 34), (2, 35), (2, 36), (2, 38), (2, 39), (3, 36)]
+== c_p (Remark 11.9 / Computation 11.58) and Lemma 11.54 ==
+ p=3 c_p=0.125 geo-mean*2^p=1.000000000000 worst-incomplete=0.250000 cos^2(pi/p)=0.250000
+ p=5 c_p=0.1323771 geo-mean*2^p=1.000000000000 worst-incomplete=0.654508 cos^2(pi/p)=0.654508
+ p=7 c_p=0.08236622 geo-mean*2^p=1.000000000000 worst-incomplete=0.811745 cos^2(pi/p)=0.811745
+ p=11 c_p=0.02668127 geo-mean*2^p=0.999999999834 worst-incomplete=0.920627 cos^2(pi/p)=0.920627
+ p=13 c_p=0.003299918 geo-mean*2^p=0.999999971548 worst-incomplete=0.942728 cos^2(pi/p)=0.942728
+== Thm 11.48(c): c_1(13,rho) ==
+ min_rho c_1(13,rho) = 2.2023920910516683e-05  13^4*min = 0.6290252051252669  13^5*max = 2042111.4999999993
+== Thm 11.50 Legendre values ==
+ v_19((19^8-1)!) = 943531272
+ v_19((19^9-1)!) = 17927094312
+== Prop 11.53: N_G(-2) = 2^{M_G-1} ==
+ p=2 G=6 M_G=7 N_G(-2)=64 2^(M_G-1)=64
+ p=3 G=3 M_G=8 N_G(-2)=128 2^(M_G-1)=128
+ p=5 G=2 M_G=9 N_G(-2)=256 2^(M_G-1)=256
+ p=7 G=2 M_G=13 N_G(-2)=4096 2^(M_G-1)=4096
+ p=3 G=4 M_G=8 N_G(-2)=128 2^(M_G-1)=128
+== Cor 11.30 main constants ==
+ 1-H2(0.227) = 0.2272551407868577
+ C0: main constant 20.8846
+ C2: main constant 1316.37
+ C6: main constant 197159
+python3 check_misc.py  0.07s user 0.02s system 54% cpu 0.172 total

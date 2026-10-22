@@ -1,0 +1,14 @@
+p=2 Gamma_p(1)=0 J0=2 Lp=1 theta=0.39624062518 1-theta_set=0.64624062518
+p=3 Gamma_p(1)=1/32 J0=2 Lp=1 theta=0.229400028286 1-theta_set=0.806873278571
+p=5 Gamma_p(1)=9/256 J0=3 Lp=1 theta=0.110133807563 1-theta_set=0.923694745532
+p=7 Gamma_p(1)=117/8192 J0=4 Lp=2 theta=0.0266079304932 1-theta_set=0.985556825536
+p=11 Gamma_p(1)=753/524288 J0=5 Lp=2 theta=0.00623569903984 1-theta_set=0.998268316014
+p=13 Gamma_p(1)=739/33554432 J0=6 Lp=2 theta=0.000907675515211 1-theta_set=0.999656751178
+p=5 m=124 J=4 conditional law of Y/p^J mod p^3: {101: Fraction(1, 6), 0: Fraction(2, 3), 24: Fraction(1, 6)}  U' mod p^3 = 24  -U' = 101
+p=5 m=624 J=5 conditional law of Y/p^J mod p^3: {24: Fraction(1, 6), 0: Fraction(2, 3), 101: Fraction(1, 6)}  U' mod p^3 = 101  -U' = 24
+p=7 m=342 J=4 conditional law of Y/p^J mod p^3: {64: Fraction(1, 6), 0: Fraction(2, 3), 279: Fraction(1, 6)}  U' mod p^3 = 279  -U' = 64
+2 [1.0, 1.0, 1.5, 1.5, 1.5, 1.625, 2.0625, 2.0625, 2.0625, 2.4453125, 2.4453125, 2.4453125, 2.5341797, 2.644043]
+3 [1.125, 1.1425781, 1.1436768, 1.2631531, 1.2667065, 1.2697372, 1.2698213, 1.2891233, 1.2903116]
+5 [1.0546875, 1.0778427, 1.0784166, 1.0784544, 1.0784612]
+7 [1.0185547, 1.0193078, 1.0193195, 1.0193292]
+python3 check_gate_theta.py  1.87s user 0.08s system 72% cpu 2.680 total

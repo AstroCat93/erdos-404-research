@@ -1,0 +1,4 @@
+a=3456 cap=4900 min(g_2(a),cap)=4823 f(a,2)=v2(a!)+g=8275 time=2.7s
+a=2210 cap=6300 min(g_2(a),cap)=6261 f(a,2)=v2(a!)+g=8467 time=9.8s
+a=1102 cap=11600 min(g_2(a),cap)=11536 (exact: died below cap) f(a,2)=v2(a!)+g=12633 time=57.0s
+a=34 cap=18500 min(g_2(a),cap)=18412 (exact: died below cap) f(a,2)=v2(a!)+g=18444 time=106.3s

@@ -1,0 +1,21 @@
+[A] start 2 1 4000 50000 1 2026-10-21T23:15:26Z
+real 106.62
+user 104.98
+sys 1.24
+[A] done  2 1 4000 50000 1 2026-10-21T23:17:13Z rc=0
+[A] start 2 1 4000 50000 2 2026-10-21T23:17:13Z
+real 107.29
+user 105.63
+sys 1.29
+[A] done  2 1 4000 50000 2 2026-10-21T23:19:00Z rc=0
+[A] start 2 1 4000 50000 3 2026-10-21T23:19:00Z
+real 107.50
+user 105.89
+sys 1.23
+[A] done  2 1 4000 50000 3 2026-10-21T23:20:48Z rc=0
+[A] start 2 1 4000 50000 4 2026-10-21T23:20:48Z
+[A] killed at 2026-10-21T23:20:55Z (seeds 3,4 and N0=2 run superseded by smc2.c)
+real 109.57
+user 107.90
+sys 1.23
+[A] note 2026-10-21T23:30:21Z: the kill above stopped seed 3 (file removed) but seed 4 had already been started by the lane and completed normally (data/smc/p2_N1_K4000_P50000_s4.txt, 2006 lines); the N0=2 run did not start.

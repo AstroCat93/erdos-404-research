@@ -1,0 +1,5 @@
+# p=5 E=3 N0=5 M=10
+# columns: Eprime  Mprime(=#elements with v<Eprime)  S_hi  S_lo  S_modq  S_longdouble  maxcount(as long double)
+3 10 0 43580 43580 4.358000e+04 5.600000e+01
+2 5 0 217088 217088 2.170880e+05 2.560000e+02
+1 0 0 1048576 1048576 1.048576e+06 1.024000e+03

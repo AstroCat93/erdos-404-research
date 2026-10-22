@@ -1,0 +1,6 @@
+# p=3 G=2 M_G=5 p^G=9  (Z = p^G N / 2^{M_G}; rows: maxv = max_{1<=i<=M_G} v_p(x+i))
+# maxv classes surviving sumN sumN2 maxN
+row 1 4 3 11 49 6
+row 2 5 2 22 292 16
+total classes=9 surviving=5 sumN=33 sumN2=341 maxN=16
+EZ=1.03125 EZ2=2.997070312 ratio=2.818181818 delta=0.5555555556

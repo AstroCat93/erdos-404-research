@@ -1,0 +1,9 @@
+C0=8Z2: L=1 E_C<= 1  s_max=2  analytic C = 20.88 + side 3.13;  sup_G bound*G^a (numeric) = 17.77;  bound < mu(C) from G ~ 2^32
+C2=2+8Z2: L=3 E_C<= 64  s_max=3  analytic C = 1316 + side 3.35;  sup_G bound*G^a (numeric) = 1120;  bound < mu(C) from G ~ 2^57
+C6=6+16Z2: L=6 E_C<= 16384  s_max=3  analytic C = 1.972e+05 + side 3.69;  sup_G bound*G^a (numeric) = 1.678e+05;  bound < mu(C) from G ~ 2^94
+C0=8Z2 mu(C)= 0.125 2^20:0.0942 2^30:0.0222 2^40:0.00451 2^60:0.000165 2^80:6.55e-06 2^100:2.98e-07 2^150:9.91e-11 2^200:3.77e-14
+C2=2+8Z2 mu(C)= 0.125 2^20:0.126 2^30:0.113 2^40:0.035 2^60:0.00163 2^80:7.83e-05 2^100:3.25e-06 2^150:1.29e-09 2^200:4.94e-13
+C6=6+16Z2 mu(C)= 0.0625 2^20:0.126 2^30:0.0626 2^40:0.0625 2^60:0.0127 2^80:0.000819 2^100:4.38e-05 2^150:2.02e-08 2^200:8.05e-12
+C0=8Z2 first j with bound<mu(C): 18
+C2=2+8Z2 first j with bound<mu(C): 29
+C6=6+16Z2 first j with bound<mu(C): 44

@@ -1,0 +1,1 @@
+$S/gdec mc 7 9 240000 20261022 2 > out/mc_p7_cap9.txt  760.31s user 6.61s system 198% cpu 6:27.15 total

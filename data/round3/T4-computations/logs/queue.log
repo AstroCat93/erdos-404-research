@@ -1,0 +1,29 @@
+=== surv_cap32: ./src/gsample_nl2 -1 0 32 4096 4 start 15:57:41
+=== surv_cap32 done in 0 s
+=== surv_cap254: ./src/gsample_nl4 -1 0 254 4096 4 start 15:57:41
+=== surv_cap254 done in 1 s
+=== surv_cap1022: ./src/gsample_nl17 -1 0 1022 4096 4 start 15:57:42
+=== surv_cap1022 done in 2 s
+=== surv_cap2046: ./src/gsample_nl33 -1 0 2046 4096 4 start 15:57:44
+=== surv_cap2046 done in 10 s
+=== gatesum_p5: ./src/gatesum 5 8 4 16 start 15:57:54
+=== gatesum_p5 done in 0 s
+=== gatesum_p7: ./src/gatesum 7 8 4 16 start 15:57:54
+=== gatesum_p7 done in 0 s
+=== gatesum_p11: ./src/gatesum 11 8 4 16 start 15:57:54
+=== gatesum_p11 done in 12 s
+=== gatesum_p13: ./src/gatesum 13 8 4 12 start 15:58:06
+=== gatesum_p13 done in 152 s
+=== mc_cap126: ./src/gsample_nl2 40000000 20261012 126 4 start 16:00:38
+=== mc_cap126 done in 155 s
+=== mc_cap256: ./src/gsample_nl5 20000000 20261013 256 4 start 16:03:13
+=== mc_cap256 done in 375 s
+=== mc_cap512: ./src/gsample_nl9 2000000 20261014 512 4 start 16:09:28
+=== mc_cap512 done in 141 s
+=== mc_cap1024: ./src/gsample_nl17 1000000 20261015 1024 4 start 16:11:49
+=== mc_cap1024 done in 353 s
+=== mc_cap2046: ./src/gsample_nl33 200000 20261016 2046 4 start 16:17:42
+=== mc_cap2046 done in 324 s
+=== surv_cap4094: ./src/gsample_nl65 -1 0 4094 4096 4 start 16:23:06
+=== surv_cap4094 done in 38 s
+QUEUEDONE

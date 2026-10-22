@@ -1,0 +1,6 @@
+trial 298: n=25 m=24 D=3 M_N=5 parents=8 total_pred=128 total_cnt=128 total_w=128
+trial 299: n=24 m=22 D=3 M_N=4 parents=4 total_pred=64 total_cnt=64 total_w=64
+trial 300: n=37 m=34 D=4 M_N=5 parents=6 total_pred=96 total_cnt=96 total_w=96
+L=1 trials=300 failures=0
+python3 -I "$D/code/testB_window.py" 1 300 1 14 2>&1  15.49s user 0.26s system 89% cpu 17.618 total
+tail -4  0.00s user 0.00s system 0% cpu 17.617 total

@@ -1,0 +1,13 @@
+trial 1: n=39 m=37 D=13 M_N=5 parents=4 total_pred=81920 total_cnt=81920 total_w=81920
+trial 2: n=38 m=37 D=13 M_N=5 parents=39 total_pred=671744 total_cnt=671744 total_w=671744
+trial 3: n=40 m=38 D=12 M_N=5 parents=5 total_pred=81920 total_cnt=81920 total_w=81920
+trial 4: n=38 m=40 D=13 M_N=8 parents=9 total_pred=147456 total_cnt=147456 total_w=147456
+trial 5: n=40 m=38 D=12 M_N=5 parents=5 total_pred=81920 total_cnt=81920 total_w=81920
+trial 6: n=37 m=34 D=13 M_N=5 parents=18 total_pred=294912 total_cnt=294912 total_w=294912
+trial 7: n=40 m=38 D=12 M_N=5 parents=27 total_pred=442368 total_cnt=442368 total_w=442368
+trial 8: n=38 m=41 D=13 M_N=7 parents=0 total_pred=0 total_cnt=0 total_w=0
+trial 9: n=34 m=34 D=12 M_N=5 parents=16 total_pred=311296 total_cnt=311296 total_w=311296
+trial 10: n=38 m=37 D=13 M_N=5 parents=45 total_pred=696320 total_cnt=696320 total_w=696320
+trial 11: n=34 m=38 D=11 M_N=7 parents=0 total_pred=0 total_cnt=0 total_w=0
+trial 12: n=35 m=39 D=11 M_N=8 parents=0 total_pred=0 total_cnt=0 total_w=0
+L=6 trials=12 failures=0

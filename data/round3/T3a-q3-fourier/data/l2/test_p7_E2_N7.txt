@@ -1,0 +1,4 @@
+# p=7 E=2 N0=7 M=7
+# columns: Eprime  Mprime(=#elements with v<Eprime)  S_hi  S_lo  S_modq  S_longdouble  maxcount(as long double)
+2 7 0 2374 2374 2.374000e+03 2.200000e+01
+1 0 0 16384 16384 1.638400e+04 1.280000e+02

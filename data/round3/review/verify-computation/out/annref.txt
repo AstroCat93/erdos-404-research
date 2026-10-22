@@ -1,0 +1,8 @@
+p=2 G=6 M_G=7 classes=64 surviving=24 sumN=272 sumN2=7200 maxN=64  N(-2)=64  2^(M_G-1)=64
+p=3 G=3 M_G=8 classes=27 surviving=14 sumN=360 sumN2=22848 maxN=128  N(-2)=128  2^(M_G-1)=128
+p=5 G=2 M_G=9 classes=25 surviving=14 sumN=609 sumN2=80313 maxN=256  N(-2)=256  2^(M_G-1)=256
+p=7 G=2 M_G=13 classes=49 surviving=31 sumN=10470 sumN2=18983634 maxN=4096  N(-2)=4096  2^(M_G-1)=4096
+p=2 G=12 M_G=15 classes=4096 surviving=802 sumN=169984 sumN2=513639424 maxN=16384  N(-2)=16384  2^(M_G-1)=16384
+p=3 G=6 M_G=14 classes=729 surviving=307 sumN=44208 sumN2=98229516 maxN=8192  N(-2)=8192  2^(M_G-1)=8192
+p=5 G=5 M_G=24 classes=3125 surviving=1642 sumN=42370272 sumN2=86805773504204 maxN=8388608  N(-2)=8388608  2^(M_G-1)=8388608
+p=7 G=4 M_G=27 classes=2401 surviving=1501 sumN=280874432 sumN2=5059734715660640 maxN=67108864  N(-2)=67108864  2^(M_G-1)=67108864

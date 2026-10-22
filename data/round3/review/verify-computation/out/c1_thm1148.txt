@@ -1,0 +1,3 @@
+7 min_rho c1= 0.0142822 argmin rho= 6  1/min= 70.0171
+11 min_rho c1= 0.00143623 argmin rho= 10  1/min= 696.266
+13 min_rho c1= 2.20239e-5 argmin rho= 12  1/min= 45405.2

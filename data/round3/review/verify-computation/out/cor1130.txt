@@ -1,0 +1,12 @@
+main-term constants (2^{1+sL-s(r0)} E_C + 2^-k) 2^{a k} 8^a:
+  C0 20.884603
+  C2 1316.3726
+  C6 197159.18
+check 1-H2(0.227) = 0.22725514
+C0: sup side*G^a = 1.58437 at G~2^10.007; main+side = 22.468977; sup min(mu,full)*G^a = 17.5263 at G~2^353.0; sup full*G^a=17.5263
+C2: sup side*G^a = 1.70053 at G~2^10.018; main+side = 1318.0731; sup min(mu,full)*G^a = 1121.34 at G~2^353.0; sup full*G^a=1121.34
+C6: sup side*G^a = 1.87547 at G~2^10.035; main+side = 197161.06; sup min(mu,full)*G^a = 167988.0 at G~2^354.0; sup full*G^a=167988.0
+G<=2^10: mu(C)<=1/8 vs 0.61*G^-a at G=2^10: 0.126471
+C0: full RHS (this n0, c choice) first < mu(C) at G=2^32
+C2: full RHS (this n0, c choice) first < mu(C) at G=2^58
+C6: full RHS (this n0, c choice) first < mu(C) at G=2^95

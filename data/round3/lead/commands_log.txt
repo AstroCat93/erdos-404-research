@@ -1,0 +1,27 @@
+Lead-author instance, round 3, command log (2026-10-21 18:50 CDT - 2026-10-21 19:30 CDT; at most 2 cores; every run < 15 min, < 100 MB).
+Track directories were copied (without binaries) to a scratch directory RERUN=<scratchpad>/r3-note/rerun and run there; nothing in the track directories was modified.
+
+python3 -I code_r3/lead/lead_t2_certs.py                      -> lead_t2_certs.out        (0.1 s)
+python3 -I code_r3/lead/lead_t2_constants.py 400              -> lead_t2_constants.out    (1.3 s)
+T4DIR=<T4-computations> python3 -I code_r3/lead/lead_checks_r3.py -> lead_checks_r3.out   (0.6 s)
+cd RERUN/T1b-Kp-structure; clang -O2 -o code/wdim code/wdim.c -lm
+  ./code/wdim 2 9 22   (background, /usr/bin/time -l)            -> wdim_2_9_22.log  (809 s, 32 MB)
+  ./code/wdim {3 5 13, 13 1 5, 5 3 8, 7 2 6, 11 1 5, 3 1 8, 2 7 22}; python3 -I code/wdim_check.py 2,3,7 3,2,5 5,1,4 2,5,6 7,1,3
+                                                               -> wdim_small.log   (65 s)
+  (a first attempt of this loop passed the arguments as one string under zsh and printed only usage errors; it was re-run correctly)
+cd RERUN/T3a-q3-fourier; clang -O2 -o code/gamma_enum code/gamma_enum.c
+  python3 code/theta.py; python3 code/verify_l2_r3.py; ./code/gamma_enum p 8 (p=3,5,7,11,13) -> t3a_rerun.log (2 s)
+cd RERUN/T3b-q3-covering
+  python3 -I src/chain_r3.py 19 9 "$L/logs_lead/R3:$L/logs_original/R3:$L/review/computation/logs:logs" specs_p19_D9_r3.txt N  (N=1,2,3; L=publish-erdos404/data/round2)
+  python3 -I ../T3b-finish/src/collect_t3b.py "$PWD" "$L"; python3 -I src/selfsim_check.py; python3 -I src/s3_check.py
+                                                               -> t3b_rerun.log    (2.3 min)
+cd RERUN/T4-computations; python3 code/t4b_indep_check.py      -> t4_rerun.log     (<1 s; byte-identical to logs/t4b_indep_check_2026-10-21.out
+  after providing publish-erdos404/review/computation/census_p2_32.out at the relative path the script expects)
+cd RERUN/T1a-oddp-quenched; clang -O2 -o winvar winvar.c -lm
+  ./winvar 1 101 3 4 79 24 4 1.25 14 8000000 256              -> t1a_traj_p3_L4.log (17 s; 130/130 window lines identical to logs/r3/traj_p3.log)
+  python3 window_exact2.py 3 1 1 22 28 40 1 x=9931185549497379070 -> t1a_xcheck_p3.log (1.6 s)
+python3 -I code_r3/lead/lead_deep_gcap.py RERUN/T2-p2-rate/code [3456,4900 2210,6300] then [1102,11600 34,18500]
+                                                               -> lead_deep_gcap.log (2.7 s, 9.8 s, 57 s, 106 s)
+  (a first launch used `timeout`, which is not available on macOS, and did not run)
+2026-10-21 21:09:36 CDT lead: copied referee dirs verify-*, refute-* into data_r3/review (Mach-O binaries removed); ran code_r3/lead/lead_r3fix_checks.py (<1 s)
+2026-10-21 21:17:43 CDT lead: applied round-3 referee corrections to note_v3.md (S1,S2,M1-M12, presentational); re-ran lead_t2_constants.py 400 (1.2 s)

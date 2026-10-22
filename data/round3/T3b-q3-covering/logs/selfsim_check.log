@@ -1,0 +1,11 @@
+p=13 D=2 t=3 K'=1: identity OK for all i<169; min slack a=0 b=0 c=0 d=0
+p=13 D=2 t=5 K'=7: identity OK for all i<169; min slack a=0 b=0 c=0 d=0
+p=13 D=3 t=4 K'=5: identity OK for all i<2197; min slack a=0 b=0 c=0 d=0
+p=13 D=3 t=6 K'=170: identity OK for all i<2197; min slack a=0 b=0 c=0 d=0
+p=7 D=2 t=3 K'=3: identity OK for all i<49; min slack a=0 b=0 c=0 d=0
+p=7 D=3 t=5 K'=2: identity OK for all i<343; min slack a=0 b=0 c=0 d=0
+p=11 D=2 t=4 K'=9: identity OK for all i<121; min slack a=0 b=0 c=0 d=0
+p=19 D=2 t=3 K'=4: identity OK for all i<361; min slack a=0 b=0 c=0 d=0
+p=5 D=3 t=4 K'=1: identity OK for all i<125; min slack a=0 b=0 c=0 d=0
+p=3 D=4 t=5 K'=2: identity OK for all i<81; min slack a=0 b=0 c=0 d=0
+ALL IDENTITY CHECKS PASSED

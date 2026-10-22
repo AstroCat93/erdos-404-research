@@ -1,0 +1,9 @@
+G=8 delta=0.242421(0.000214)  share of x=14 mod 16 among even survivors=0.258
+G=16 delta=0.151566(0.000179)  share of x=14 mod 16 among even survivors=0.412
+G=24 delta=0.128975(0.000168)  share of x=14 mod 16 among even survivors=0.404
+G=29 delta=0.113202(0.000158)  share of x=14 mod 16 among even survivors=0.452
+G=32 delta=0.101558(0.000151)  share of x=14 mod 16 among even survivors=0.502
+G=48 delta=0.079032(0.000135)  share of x=14 mod 16 among even survivors=0.550
+G=64 delta=0.064164(0.000123)  share of x=14 mod 16 among even survivors=0.577
+G=96 delta=0.048499(0.000107)  share of x=14 mod 16 among even survivors=0.588
+G=126 delta=0.038286(0.000096)  share of x=14 mod 16 among even survivors=0.597

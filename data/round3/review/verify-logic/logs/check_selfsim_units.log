@@ -1,0 +1,7 @@
+p=3 t=3 H=9 c=2 demand p^5: i with y_i==i!A_i mod demand: [6, 7, 8]; with y_i==i! mod demand: [6, 8]; max(v-demand) A:0 F:3
+p=3 t=4 H=27 c=10 demand p^14: i with y_i==i!A_i mod demand: []; with y_i==i! mod demand: [20, 25]; max(v-demand) A:-1 F:3
+p=5 t=3 H=25 c=4 demand p^7: i with y_i==i!A_i mod demand: [20, 21, 22, 23, 24]; with y_i==i! mod demand: [20, 24]; max(v-demand) A:1 F:4
+p=2 t=4 H=8 c=4 demand p^8: i with y_i==i!A_i mod demand: []; with y_i==i! mod demand: []; max(v-demand) A:-2 F:-3
+p=2 t=5 H=16 c=11 demand p^16: i with y_i==i!A_i mod demand: []; with y_i==i! mod demand: []; max(v-demand) A:-3 F:-4
+p=7 t=3 H=49 c=6 demand p^9: i with y_i==i!A_i mod demand: [42, 43, 44, 45, 46, 47, 48]; with y_i==i! mod demand: [42, 48]; max(v-demand) A:1 F:3
+p=3 t=5 H=81 c=36 demand p^41: i with y_i==i!A_i mod demand: []; with y_i==i! mod demand: [75, 76, 77]; max(v-demand) A:-2 F:4

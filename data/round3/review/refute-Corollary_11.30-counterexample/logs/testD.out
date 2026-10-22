@@ -1,0 +1,8 @@
+1-H2(0.227) = 0.22725514078685769275729702051839560778374893600473962078081
+C0: sup over breakpoints of RHS*G^a = 17.515884 at G~2^27.0; sup main*G^a = 17.515567; sup side*G^a = 1.58437; claimed constant 29; OK=True
+   small G<=2^10: mu(C)=0.125, claim*G^-a at 2^10 = 6.01257
+C2: sup over breakpoints of RHS*G^a = 1119.7997 at G~2^27.0; sup main*G^a = 1119.7993; sup side*G^a = 1.70053; claimed constant 1325; OK=True
+   small G<=2^10: mu(C)=0.125, claim*G^-a at 2^10 = 274.712
+C6: sup over breakpoints of RHS*G^a = 167755.45 at G~2^28.0; sup main*G^a = 167755.45; sup side*G^a = 1.87547; claimed constant 198000; OK=True
+   small G<=2^10: mu(C)=0.0625, claim*G^-a at 2^10 = 41051.3
+sum of claimed constants: 199354

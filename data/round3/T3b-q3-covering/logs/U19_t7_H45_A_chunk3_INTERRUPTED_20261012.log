@@ -1,0 +1,16 @@
+# CMD: bin/fibcov_ip 19 7 45 2 pos 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132
+# START 2026-10-12 16:54:03 CDT unix=1791842043 host=<host>
+# fibcov_ip(A') p=19 t=7 H=45 c=2 M=9 k=2  Q=322687697779 fibre=893871739 bits (106 MB + 53 MB save)
+A p=19 t=7 H=45 c=2 M=9 K=96 missing=0 COVERED [65.03s]
+A p=19 t=7 H=45 c=2 M=9 K=97 missing=0 COVERED [63.86s]
+A p=19 t=7 H=45 c=2 M=9 K=98 missing=0 COVERED [65.42s]
+A p=19 t=7 H=45 c=2 M=9 K=99 missing=0 COVERED [69.28s]
+A p=19 t=7 H=45 c=2 M=9 K=100 missing=0 COVERED [70.39s]
+A p=19 t=7 H=45 c=2 M=9 K=101 missing=0 COVERED [69.17s]
+A p=19 t=7 H=45 c=2 M=9 K=102 missing=0 COVERED [65.61s]
+A p=19 t=7 H=45 c=2 M=9 K=103 missing=0 COVERED [65.61s]
+A p=19 t=7 H=45 c=2 M=9 K=104 missing=0 COVERED [65.15s]
+A p=19 t=7 H=45 c=2 M=9 K=105 missing=0 COVERED [64.82s]
+A p=19 t=7 H=45 c=2 M=9 K=106 missing=0 COVERED [69.48s]
+A p=19 t=7 H=45 c=2 M=9 K=107 missing=0 COVERED [73.80s]
+A p=19 t=7 H=45 c=2 M=9 K=108 missing=0 COVERED [66.71s]

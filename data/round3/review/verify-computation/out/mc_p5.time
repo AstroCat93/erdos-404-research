@@ -1,0 +1,1 @@
+$S/gdec mc 5 11 2000000 20261021 2 > out/mc_p5_cap11.txt  544.94s user 4.42s system 198% cpu 4:36.58 total

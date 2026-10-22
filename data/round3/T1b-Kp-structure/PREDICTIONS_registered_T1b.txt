@@ -1,0 +1,8 @@
+T1b registered predictions -- written 2026-10-21T22:18:27Z BEFORE running the cases below.
+Basis: D_2(1,inf)=0.6462, D_2(3,16)=0.7543, D_2(5,16)=0.8054 (computed); fit 1-D ~ c*w^(-0.5) from w=3,5.
+P1: D_2(7,K) for the largest K run (K>=20) lies in [0.825, 0.845] (point 0.837).
+P2: D_2(9,K) for the largest K run lies in [0.840, 0.870] (point 0.856), if run with K>=20 (capping may lower it).
+P3: D_2(w,K) is increasing in w for w=1,3,5,7,9 at the largest K run.
+P4: D_3(w,K) increasing in w for w=1,2,4,5 and D_3(5,K)>0.90 at the largest K run.
+--- outcomes (appended 2026-10-21 after the runs; nothing above was edited) ---
+P1 confirmed: D_2(7,22)=0.83339. P2 confirmed: D_2(9,22)=0.85305 (D_2(9,20)=0.84646). P3 confirmed. P4 confirmed: D_3=0.80687,0.85919,0.91116,0.92474 (w=1,2,4,5).

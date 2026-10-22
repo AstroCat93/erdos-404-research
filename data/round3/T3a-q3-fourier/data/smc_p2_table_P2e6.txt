@@ -1,0 +1,9 @@
+# 6 files: c2_N1_K1000_P2000000_s11.txt c2_N1_K1000_P2000000_s12.txt c2_N1_K1000_P2000000_s13.txt c2_N1_K1000_P2000000_s14.txt c2_N1_K1000_P2000000_s15.txt c2_N1_K1000_P2000000_s16.txt
+k=   16 (group end used: 16)  mean C=   3.0634  sd=  0.0034  min=   3.0588  max=   3.0684   (p=2 refined random model 3.375)
+k=   26 (group end used: 26)  mean C=   4.4398  sd=  0.0076  min=   4.4298  max=   4.4487   (p=2 refined random model 4.125)
+k=   32 (group end used: 32)  mean C=   5.3467  sd=  0.0175  min=   5.3256  max=   5.3720   (p=2 refined random model 5.062)
+k=   64 (group end used: 64)  mean C=   8.9773  sd=  0.0597  min=   8.8896  max=   9.0547   (p=2 refined random model 7.594)
+k=  128 (group end used: 128)  mean C=  13.9816  sd=  0.2299  min=  13.6947  max=  14.3026   (p=2 refined random model 11.391)
+k=  256 (group end used: 256)  mean C=  21.9515  sd=  0.5766  min=  21.5106  max=  22.8765   (p=2 refined random model 17.086)
+k=  512 (group end used: 512)  mean C=  34.4800  sd=  1.8433  min=  32.7828  max=  37.8693   (p=2 refined random model 25.629)
+k= 1000 (group end used: 1000)  mean C=  50.3447  sd=  5.5338  min=  44.3030  max=  58.9736   (p=2 refined random model 37.398)

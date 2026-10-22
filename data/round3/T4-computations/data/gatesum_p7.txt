@@ -1,0 +1,10 @@
+# p=7  e_u = (-1)^u (p-1)!/u!: 720 -720 360 -120 30 -6 1
+p=7 i=1 p^i=7 Lunit=0.203125 Lall=0.203125 Lunit/units=0.03385416667 Lall/p^i=0.02901785714 maxterm=0.0823662 argmax=1 randomphase_budget=0.2542799464
+p=7 i=2 p^i=49 Lunit=1.116928635 Lall=1.320053635 Lunit/units=0.02659353893 Lall/p^i=0.0269398701 maxterm=0.148594 argmax=46 randomphase_budget=1.779959625
+p=7 i=3 p^i=343 Lunit=14.61792741 Lall=15.93798104 Lunit/units=0.04972084152 Lall/p^i=0.04646641703 maxterm=0.581419 argmax=60 randomphase_budget=12.45971737
+p=7 i=4 p^i=2401 Lunit=102.5675691 Lall=118.5055501 Lunit/units=0.04983846894 Lall/p^i=0.04935674724 maxterm=0.842046 argmax=2001 randomphase_budget=87.21802161
+p=7 i=5 p^i=16807 Lunit=714.1975364 Lall=832.7030865 Lunit/units=0.04957639431 Lall/p^i=0.04954501615 maxterm=0.979511 argmax=1 randomphase_budget=610.5261512
+p=7 i=6 p^i=117649 Lunit=5002.082963 Lall=5834.78605 Lunit/units=0.04960317093 Lall/p^i=0.04959486311 maxterm=0.999579 argmax=1 randomphase_budget=4273.683059
+p=7 i=7 p^i=823543 Lunit=35014.71685 Lall=40849.5029 Lunit/units=0.04960336374 Lall/p^i=0.04960214937 maxterm=0.999991 argmax=1 randomphase_budget=29915.78141
+p=7 i=8 p^i=5764801 Lunit=245103.0177 Lall=285952.5206 Lunit/units=0.04960336369 Lall/p^i=0.04960319022 maxterm=1 argmax=1 randomphase_budget=209410.4699
+p=7 integral I_p=0.0496033636567 (ngl=16, 720 unit pieces)  (2/pi)^p=0.0423799910627  (2/pi)^(p-2)/2=0.0522842182889

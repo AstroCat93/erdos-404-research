@@ -1,0 +1,37 @@
+== 1. Window-code dimension D_p(w,K) of T1b Thm 3.1, own brute force (definition re-implemented)
+  D_2(3,7) = 0.7317424946  track value 0.7317424946  agree=True
+  D_3(2,5) = 0.8550881683  track value 0.8550881683  agree=True
+  D_5(1,4) = 0.9236947455  track value 0.9236947455  agree=True
+  D_7(1,3) = 0.9855433782  track value 0.9855433782  agree=True
+== 2. Gate-block law, T3a Lemma 2(b),(c): brute force over all 3^p sign vectors
+  p=3: P(W=0)=3/16 (3/2^(p+1)=3/16) ; #distinct sums=6 (3*2^(p-2)=6) ; J0=2 ; Gamma_p(1)=1/32 ; weight counts 4^p*P(p^J | W), J=1..8: [22, 12, 12, 12, 12, 12, 12, 12]
+  p=5: P(W=0)=3/64 (3/2^(p+1)=3/64) ; #distinct sums=24 (3*2^(p-2)=24) ; J0=3 ; Gamma_p(1)=9/256 ; weight counts 4^p*P(p^J | W), J=1..8: [212, 80, 48, 48, 48, 48, 48, 48]
+  p=7: P(W=0)=3/256 (3/2^(p+1)=3/256) ; #distinct sums=96 (3*2^(p-2)=96) ; J0=4 ; Gamma_p(1)=117/8192 ; weight counts 4^p*P(p^J | W), J=1..8: [2374, 372, 194, 192, 192, 192, 192, 192]
+  p=11: P(W=0)=3/4096 (3/2^(p+1)=3/4096) ; #distinct sums=1536 (3*2^(p-2)=1536) ; J0=5 ; Gamma_p(1)=753/524288 ; weight counts 4^p*P(p^J | W), J=1..8: [381848, 38532, 5676, 3144, 3072, 3072, 3072, 3072]
+== 3. theta_2 = log2(3)/4 from the series of T3a Theorem 3
+  theta_2 = 0.396240625180 ; log2(3)/4 = 0.396240625180
+== 4. Legendre values for the p=19 bound
+  v_19((19^8-1)!) = 943531272
+  v_19((19^9-1)!) = 17927094312
+== 5. T1b Lemma 2.2: simple zero x_c of 1+pi_1+pi_2+pi_{c+2} with v(x_c+2)=v(c!)
+  p=3 c=6: v(y_c)=2 v(c!)=2 F(x_c)=0 mod p^60: True ; v(F'(x_c))=2 (= v(y_c) expected)
+  p=3 c=7: v(y_c)=2 v(c!)=2 F(x_c)=0 mod p^60: True ; v(F'(x_c))=2 (= v(y_c) expected)
+  p=3 c=9: v(y_c)=4 v(c!)=4 F(x_c)=0 mod p^60: True ; v(F'(x_c))=4 (= v(y_c) expected)
+  p=5 c=10: v(y_c)=2 v(c!)=2 F(x_c)=0 mod p^60: True ; v(F'(x_c))=2 (= v(y_c) expected)
+  p=5 c=12: v(y_c)=2 v(c!)=2 F(x_c)=0 mod p^60: True ; v(F'(x_c))=2 (= v(y_c) expected)
+  p=7 c=14: v(y_c)=2 v(c!)=2 F(x_c)=0 mod p^60: True ; v(F'(x_c))=2 (= v(y_c) expected)
+== 6. T4 Lemma 3: geometric mean over units xi of prod_{r<p}|cos(pi xi r!/p)| equals 2^-p
+  p=3: geometric mean * 2^p = 1.000000000000
+  p=5: geometric mean * 2^p = 1.000000000000
+  p=7: geometric mean * 2^p = 1.000000000000
+  p=11: geometric mean * 2^p = 1.000000000000
+  p=13: geometric mean * 2^p = 1.000000000000
+  p=17: geometric mean * 2^p = 1.000000000000
+== 7. T4 Proposition 2: N_G(x) = 2^(M_G-1) on x = -2 mod p^G (brute force over subsets)
+  p=2 G=6: M_G=7  N_G(-2)=64  2^(M_G-1)=64
+  p=3 G=3: M_G=8  N_G(-2)=128  2^(M_G-1)=128
+  p=5 G=2: M_G=9  N_G(-2)=256  2^(M_G-1)=256
+  p=7 G=2: M_G=13  N_G(-2)=4096  2^(M_G-1)=4096
+== 8. Kitamura's exact table vs T4 capped g_2 (value column is f(a,2) = v_2(a!) + g_2(a))
+  rows 256; mismatches after conversion f->g: []
+T4DIR="$N/../T4-computations" python3 -I code_r3/lead/lead_checks_r3.py  0.54s user 0.02s system 98% cpu 0.560 total

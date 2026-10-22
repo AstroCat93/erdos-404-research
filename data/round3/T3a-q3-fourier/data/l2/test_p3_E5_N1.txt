@@ -1,0 +1,7 @@
+# p=3 E=5 N0=1 M=11
+# columns: Eprime  Mprime(=#elements with v<Eprime)  S_hi  S_lo  S_modq  S_longdouble  maxcount(as long double)  hit(=#residues with N>0)
+5 11 0 21864 21864 2.186400e+04 1.900000e+01 231
+4 8 0 65408 65408 6.540800e+04 5.600000e+01 77
+3 8 0 177664 177664 1.776640e+05 1.280000e+02 27
+2 5 0 532480 532480 5.324800e+05 3.840000e+02 9
+1 2 0 1572864 1572864 1.572864e+06 1.024000e+03 3

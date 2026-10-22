@@ -1,0 +1,154 @@
+CMD: ./winvar 1 505 7 1 44 16 1 1.25 12 8000000 256
+# winvar mode=1 p=7 L=1 P=44 n0=16 nwin=1 ratio=1.250 nsamp=12 maxpop=8000000 K=256 seed=505
+# windows: 16 30
+X sample=0 x=2381502233938373174271784160155809867
+LAMHIST n=16 pop=311: 1:242 2:64 3:3 4:2
+W l=0 n=16 N=30 H=14 m=3 D=4 Mn=1 MN=3 hyp=1000 W2b=0 lammax=1 pop=311 popL=242 nPhi=1 M=1.26424 EM_N=1.26424 ESig=1648.33 ESigPred=1648.33 VarSig=1377.67 VarInd=1349.14 corr=1.021 relvar=0.0005071 exact=1 K=0 weyl=0.035/0.120/0.136 byorder=5.958,58.58,1280,32.68 incr2=0.0008104
+LAMHIST n=30 pop=2037: 1:1553 2:413 3:63 4:7 5:1
+W l=1 n=30 END m=7 Mn=3 pop=2037 popL=1553 M=1.19206
+X sample=1 x=8087616628037028474148676504508166148
+LAMHIST n=16 pop=640: 0:640
+W l=0 n=16 N=30 H=14 m=2 D=2 Mn=1 MN=1 hyp=1001 W2b=0 lammax=0 pop=640 popL=640 nPhi=1 M=0.478516 EM_N=0.478516 ESig=213995 ESigPred=213995 VarSig=1.27677e+07 VarInd=1.18582e+08 corr=0.1077 relvar=0.0002788 exact=1 K=0 weyl=0.014/0.075/0.000 byorder=1.064e+07,2.133e+06 incr2=6.384e-05
+LAMHIST n=30 pop=207424: 0:207424
+W l=1 n=30 END m=4 Mn=1 pop=207424 popL=207424 M=0.463822
+X sample=2 x=6776675891627266399180686458311537038
+LAMHIST n=16 pop=319: 1:250 2:60 3:7 4:2
+W l=0 n=16 N=30 H=14 m=3 D=2 Mn=1 MN=1 hyp=1011 W2b=0 lammax=1 pop=319 popL=250 nPhi=1 M=1.31347 EM_N=1.31347 ESig=83913.1 ESigPred=83913.1 VarSig=17607.5 VarInd=47037.7 corr=0.3743 relvar=2.501e-06 exact=1 K=0 weyl=0.068/0.103/0.000 byorder=1.745e+04,157.3 incr2=4.314e-06
+LAMHIST n=30 pop=106670: 1:83794 2:20221 3:2247 4:347 5:52 6:9
+W l=1 n=30 END m=5 Mn=1 pop=106670 popL=83794 M=1.31132
+X sample=3 x=13004295547535923676146284485606741542
+LAMHIST n=16 pop=0:
+LAMHIST n=30 pop=0:
+W l=1 n=30 END m=5 Mn=2 pop=0 popL=0 M=0
+X sample=4 x=6398502947817376746453099148328010313
+LAMHIST n=16 pop=704: 0:704
+W l=0 n=16 N=30 H=14 m=2 D=4 Mn=1 MN=3 hyp=1000 W2b=0 lammax=0 pop=704 popL=704 nPhi=1 M=0.526367 EM_N=0.526367 ESig=4803.97 ESigPred=4803.97 VarSig=216272 VarInd=202613 corr=1.067 relvar=0.009371 exact=1 K=0 weyl=0.047/0.123/0.086 byorder=6.909e+04,486.3,3558,1.431e+05 incr2=0.002596
+LAMHIST n=30 pop=4160: 0:4160
+W l=1 n=30 END m=6 Mn=3 pop=4160 popL=4160 M=0.455808
+X sample=5 x=3351122093409045442323292489018712477
+LAMHIST n=16 pop=352: 0:352
+W l=0 n=16 N=30 H=14 m=2 D=2 Mn=1 MN=1 hyp=1001 W2b=0 lammax=0 pop=352 popL=352 nPhi=1 M=0.263184 EM_N=0.263184 ESig=117697 ESigPred=117697 VarSig=234599 VarInd=1.29329e+07 corr=0.01814 relvar=1.694e-05 exact=1 K=0 weyl=0.005/0.088/0.000 byorder=6.638e+04,1.682e+05 incr2=1.173e-06
+LAMHIST n=30 pop=118032: 0:118032
+W l=1 n=30 END m=4 Mn=1 pop=118032 popL=118032 M=0.263932
+X sample=6 x=741243515915621151858625373723161140
+LAMHIST n=16 pop=0:
+LAMHIST n=30 pop=0:
+W l=1 n=30 END m=4 Mn=1 pop=0 popL=0 M=0
+X sample=7 x=7420649980551650433061042949101407723
+LAMHIST n=16 pop=302: 1:233 2:57 3:12
+W l=0 n=16 N=30 H=14 m=3 D=2 Mn=1 MN=1 hyp=1011 W2b=0 lammax=1 pop=302 popL=233 nPhi=1 M=1.21444 EM_N=1.21444 ESig=77586.3 ESigPred=77586.3 VarSig=1095.08 VarInd=2994.55 corr=0.3657 relvar=1.819e-07 exact=1 K=0 weyl=0.047/0.112/0.000 byorder=667.1,428 incr2=2.683e-07
+LAMHIST n=30 pop=100832: 1:77588 2:19973 3:2826 4:389 5:48 6:7 8:1
+W l=1 n=30 END m=5 Mn=1 pop=100832 popL=77588 M=1.21415
+X sample=8 x=14128017206224626533955893256306145357
+LAMHIST n=16 pop=76: 0:76
+W l=0 n=16 N=30 H=14 m=3 D=2 Mn=2 MN=2 hyp=1001 W2b=0 lammax=0 pop=76 popL=76 nPhi=1 M=0.397766 EM_N=0.397766 ESig=25411.9 ESigPred=25411.9 VarSig=378712 VarInd=232575 corr=1.628 relvar=0.0005865 exact=1 K=0 weyl=0.201/0.262/0.000 byorder=3.437e+05,3.501e+04 incr2=9.279e-05
+LAMHIST n=30 pop=25572: 0:25572
+W l=1 n=30 END m=5 Mn=2 pop=25572 popL=25572 M=0.400272
+X sample=9 x=13766216681249250675572907399079410619
+LAMHIST n=16 pop=352: 0:352
+W l=0 n=16 N=30 H=14 m=2 D=2 Mn=1 MN=1 hyp=1001 W2b=0 lammax=0 pop=352 popL=352 nPhi=1 M=0.263184 EM_N=0.263184 ESig=117697 ESigPred=117697 VarSig=296196 VarInd=1.29329e+07 corr=0.0229 relvar=2.138e-05 exact=1 K=0 weyl=0.005/0.088/0.000 byorder=6.638e+04,2.298e+05 incr2=1.481e-06
+LAMHIST n=30 pop=118112: 0:118112
+W l=1 n=30 END m=4 Mn=1 pop=118112 popL=118112 M=0.264111
+X sample=10 x=10089805674540613135342920826175538403
+LAMHIST n=16 pop=0:
+LAMHIST n=30 pop=0:
+W l=1 n=30 END m=5 Mn=2 pop=0 popL=0 M=0
+X sample=11 x=5317933617947136158868221224612107363
+LAMHIST n=16 pop=0:
+LAMHIST n=30 pop=0:
+W l=1 n=30 END m=4 Mn=1 pop=0 popL=0 M=0
+real 0.05
+user 0.05
+sys 0.00
+
+CMD: ./winvar 1 606 7 0 44 16 3 1.25 10 8000000 256
+# winvar mode=1 p=7 L=0 P=44 n0=16 nwin=3 ratio=1.250 nsamp=10 maxpop=8000000 K=256 seed=606
+# windows: 16 23 30 37
+X sample=0 x=14548050206785528539833372690430758373
+LAMHIST n=16 pop=552: 0:552
+W l=0 n=16 N=23 H=7 m=2 D=2 Mn=1 MN=2 hyp=1000 W2b=0 lammax=0 pop=552 popL=552 nPhi=1 M=0.41272 EM_N=0.41272 ESig=1441.96 ESigPred=1441.96 VarSig=8031.43 VarInd=13536.8 corr=0.5933 relvar=0.003863 exact=1 K=0 weyl=0.049/0.091/0.000 byorder=375.7,7656 incr2=0.000658
+LAMHIST n=23 pop=1384: 0:1384
+W l=1 n=23 N=30 H=7 m=4 D=1 Mn=2 MN=2 hyp=1111 W2b=1 lammax=0 pop=1384 popL=1384 nPhi=1 M=0.396131 EM_N=0.396131 ESig=25307.4 ESigPred=25307.4 VarSig=66795.1 VarInd=68691.6 corr=0.9724 relvar=0.0001043 exact=1 K=0 weyl=0.032/0.000/0.000 byorder=6.68e+04 incr2=1.637e-05
+LAMHIST n=30 pop=25080: 0:25080
+W l=2 n=30 N=37 H=7 m=5 D=1 Mn=2 MN=2 hyp=1111 W2b=1 lammax=0 pop=25080 popL=25080 nPhi=1 M=0.392571 EM_N=0.392571 ESig=458606 ESigPred=458606 VarSig=200918 VarInd=1.24479e+06 corr=0.1614 relvar=9.553e-07 exact=1 K=0 weyl=0.004/0.000/0.000 byorder=2.009e+05 incr2=1.472e-07
+LAMHIST n=37 pop=458464: 0:458464
+W l=3 n=37 END m=6 Mn=2 pop=458464 popL=458464 M=0.392449
+X sample=1 x=6690780336333240636951430777183078939
+LAMHIST n=16 pop=0:
+LAMHIST n=23 pop=0:
+LAMHIST n=30 pop=0:
+LAMHIST n=37 pop=0:
+W l=3 n=37 END m=5 Mn=1 pop=0 popL=0 M=0
+X sample=2 x=13588833011039567535969748736803671013
+LAMHIST n=16 pop=272: 0:272
+W l=0 n=16 N=23 H=7 m=2 D=1 Mn=1 MN=1 hyp=1111 W2b=1 lammax=0 pop=272 popL=272 nPhi=1 M=0.203369 EM_N=0.203369 ESig=4973.71 ESigPred=4973.71 VarSig=13782.2 VarInd=28421.2 corr=0.4849 relvar=0.0005571 exact=1 K=0 weyl=0.092/0.000/0.000 byorder=1.378e+04 incr2=2.304e-05
+LAMHIST n=23 pop=4832: 0:4832
+W l=1 n=23 N=30 H=7 m=3 D=2 Mn=1 MN=2 hyp=1111 W2b=1 lammax=0 pop=4832 popL=4832 nPhi=1 M=0.197575 EM_N=0.197575 ESig=12622.4 ESigPred=12622.4 VarSig=17713.6 VarInd=269964 corr=0.06561 relvar=0.0001112 exact=1 K=0 weyl=0.018/0.013/0.000 byorder=3291,1.442e+04 incr2=4.34e-06
+LAMHIST n=30 pop=12432: 0:12432
+W l=2 n=30 N=37 H=7 m=5 D=1 Mn=2 MN=2 hyp=1111 W2b=1 lammax=0 pop=12432 popL=12432 nPhi=1 M=0.194595 EM_N=0.194595 ESig=227328 ESigPred=227328 VarSig=47762.3 VarInd=1.29902e+06 corr=0.03677 relvar=9.242e-07 exact=1 K=0 weyl=0.003/0.000/0.000 byorder=4.776e+04 incr2=3.5e-08
+LAMHIST n=37 pop=227424: 0:227424
+W l=3 n=37 END m=6 Mn=2 pop=227424 popL=227424 M=0.194677
+X sample=3 x=10668269174572659167991265024614312039
+LAMHIST n=16 pop=0:
+LAMHIST n=23 pop=0:
+LAMHIST n=30 pop=0:
+LAMHIST n=37 pop=0:
+W l=3 n=37 END m=6 Mn=2 pop=0 popL=0 M=0
+X sample=4 x=13701230743059266007594296697224182509
+LAMHIST n=16 pop=640: 0:640
+W l=0 n=16 N=23 H=7 m=2 D=2 Mn=1 MN=2 hyp=1000 W2b=0 lammax=0 pop=640 popL=640 nPhi=1 M=0.478516 EM_N=0.478516 ESig=1671.84 ESigPred=1671.84 VarSig=33249.9 VarInd=75880.9 corr=0.4382 relvar=0.0119 exact=1 K=0 weyl=0.033/0.043/0.000 byorder=4082,2.917e+04 incr2=0.002724
+LAMHIST n=23 pop=1568: 0:1568
+W l=1 n=23 N=30 H=7 m=4 D=1 Mn=2 MN=2 hyp=1111 W2b=1 lammax=0 pop=1568 popL=1568 nPhi=1 M=0.448795 EM_N=0.448795 ESig=28672 ESigPred=28672 VarSig=41252.6 VarInd=851968 corr=0.04842 relvar=5.018e-05 exact=1 K=0 weyl=0.006/0.000/0.000 byorder=4.125e+04 incr2=1.011e-05
+LAMHIST n=30 pop=28864: 0:28864
+W l=2 n=30 N=37 H=7 m=5 D=1 Mn=2 MN=2 hyp=1111 W2b=1 lammax=0 pop=28864 popL=28864 nPhi=1 M=0.451801 EM_N=0.451801 ESig=527799 ESigPred=527799 VarSig=4.12868e+06 VarInd=1.56832e+07 corr=0.2633 relvar=1.482e-05 exact=1 K=0 weyl=0.003/0.000/0.000 byorder=4.129e+06 incr2=3.025e-06
+LAMHIST n=37 pop=530624: 0:530624
+W l=3 n=37 END m=6 Mn=2 pop=530624 popL=530624 M=0.454219
+X sample=5 x=10493682334673831857117111720949373209
+LAMHIST n=16 pop=600: 0:600
+W l=0 n=16 N=23 H=7 m=2 D=1 Mn=1 MN=1 hyp=1111 W2b=1 lammax=0 pop=600 popL=600 nPhi=1 M=0.448608 EM_N=0.448608 ESig=10971.4 ESigPred=10971.4 VarSig=3252.24 VarInd=5093.88 corr=0.6385 relvar=2.702e-05 exact=1 K=0 weyl=0.025/0.000/0.000 byorder=3252 incr2=5.437e-06
+LAMHIST n=23 pop=10976: 0:10976
+W l=1 n=23 N=30 H=7 m=3 D=1 Mn=1 MN=1 hyp=1111 W2b=1 lammax=0 pop=10976 popL=10976 nPhi=1 M=0.448795 EM_N=0.448795 ESig=200704 ESigPred=200704 VarSig=906752 VarInd=93184 corr=9.731 relvar=2.251e-05 exact=1 K=0 weyl=0.023/0.000/0.000 byorder=9.068e+05 incr2=4.534e-06
+LAMHIST n=30 pop=201780: 0:201780
+W l=2 n=30 N=37 H=7 m=4 D=2 Mn=1 MN=2 hyp=1111 W2b=1 lammax=0 pop=201780 popL=201780 nPhi=1 M=0.451201 EM_N=0.451201 ESig=527099 ESigPred=527099 VarSig=1.65071e+06 VarInd=2.31278e+06 corr=0.7137 relvar=5.941e-06 exact=1 K=0 weyl=0.004/0.004/0.000 byorder=1.033e+05,1.547e+06 incr2=1.21e-06
+LAMHIST n=37 pop=527364: 0:527364
+W l=3 n=37 END m=6 Mn=2 pop=527364 popL=527364 M=0.451428
+X sample=6 x=9250237067520246252325684129035489031
+LAMHIST n=16 pop=96: 0:96
+W l=0 n=16 N=23 H=7 m=3 D=1 Mn=2 MN=2 hyp=1111 W2b=1 lammax=0 pop=96 popL=96 nPhi=1 M=0.502441 EM_N=0.502441 ESig=1755.43 ESigPred=1755.43 VarSig=23531.1 VarInd=52161.3 corr=0.4511 relvar=0.007636 exact=1 K=0 weyl=0.076/0.000/0.000 byorder=2.353e+04 incr2=0.001928
+LAMHIST n=23 pop=1696: 0:1696
+W l=1 n=23 N=30 H=7 m=4 D=1 Mn=2 MN=2 hyp=1111 W2b=1 lammax=0 pop=1696 popL=1696 nPhi=1 M=0.485432 EM_N=0.485432 ESig=31012.6 ESigPred=31012.6 VarSig=484916 VarInd=921516 corr=0.5262 relvar=0.0005042 exact=1 K=0 weyl=0.019/0.000/0.000 byorder=4.849e+05 incr2=0.0001188
+LAMHIST n=30 pop=30272: 0:30272
+W l=2 n=30 N=37 H=7 m=5 D=1 Mn=2 MN=2 hyp=1111 W2b=1 lammax=0 pop=30272 popL=30272 nPhi=1 M=0.47384 EM_N=0.47384 ESig=553545 ESigPred=553545 VarSig=1.10819e+07 VarInd=1.64482e+07 corr=0.6737 relvar=3.617e-05 exact=1 K=0 weyl=0.005/0.000/0.000 byorder=1.108e+07 incr2=8.12e-06
+LAMHIST n=37 pop=558048: 0:558048
+W l=3 n=37 END m=6 Mn=2 pop=558048 popL=558048 M=0.477694
+X sample=7 x=6250550024495560622377260096520139976
+LAMHIST n=16 pop=272: 0:272
+W l=0 n=16 N=23 H=7 m=2 D=1 Mn=1 MN=1 hyp=1111 W2b=1 lammax=0 pop=272 popL=272 nPhi=1 M=0.203369 EM_N=0.203369 ESig=4973.71 ESigPred=4973.71 VarSig=13782.2 VarInd=28421.2 corr=0.4849 relvar=0.0005571 exact=1 K=0 weyl=0.092/0.000/0.000 byorder=1.378e+04 incr2=2.304e-05
+LAMHIST n=23 pop=5072: 0:5072
+W l=1 n=23 N=30 H=7 m=3 D=2 Mn=1 MN=2 hyp=1111 W2b=1 lammax=0 pop=5072 popL=5072 nPhi=1 M=0.207388 EM_N=0.207388 ESig=13249.3 ESigPred=13249.3 VarSig=24062.3 VarInd=283373 corr=0.08491 relvar=0.0001371 exact=1 K=0 weyl=0.014/0.019/0.000 byorder=2399,2.166e+04 incr2=5.895e-06
+LAMHIST n=30 pop=13440: 0:13440
+W l=2 n=30 N=37 H=7 m=5 D=1 Mn=2 MN=2 hyp=1111 W2b=1 lammax=0 pop=13440 popL=13440 nPhi=1 M=0.210373 EM_N=0.210373 ESig=245760 ESigPred=245760 VarSig=2.19758e+06 VarInd=1.40434e+06 corr=1.565 relvar=3.638e-05 exact=1 K=0 weyl=0.024/0.000/0.000 byorder=2.198e+06 incr2=1.61e-06
+LAMHIST n=37 pop=245696: 0:245696
+W l=3 n=37 END m=6 Mn=2 pop=245696 popL=245696 M=0.210318
+X sample=8 x=8719073955591663633451534180485172737
+LAMHIST n=16 pop=304: 2:251 3:46 4:5 5:2
+W l=0 n=16 N=23 H=7 m=4 D=1 Mn=2 MN=2 hyp=1111 W2b=1 lammax=0 pop=304 popL=0 nPhi=0 M=0 EM_N=0 ESig=0 ESigPred=0 VarSig=0 VarInd=0 corr=0 relvar=nan exact=1 K=0 weyl=nan/0.000/0.000 byorder=0 incr2=nan
+LAMHIST n=23 pop=5536: 2:4274 3:1073 4:162 5:26 6:1
+W l=1 n=23 N=30 H=7 m=5 D=1 Mn=2 MN=2 hyp=1111 W2b=1 lammax=0 pop=5536 popL=0 nPhi=0 M=0 EM_N=0 ESig=0 ESigPred=0 VarSig=0 VarInd=0 corr=0 relvar=nan exact=1 K=0 weyl=nan/0.000/0.000 byorder=0 incr2=nan
+LAMHIST n=30 pop=101161: 2:78137 3:19889 4:2681 5:386 6:57 7:11
+W l=2 n=30 N=37 H=7 m=6 D=1 Mn=2 MN=2 hyp=1111 W2b=1 lammax=0 pop=101161 popL=0 nPhi=0 M=0 EM_N=0 ESig=0 ESigPred=0 VarSig=0 VarInd=0 corr=0 relvar=nan exact=1 K=0 weyl=nan/0.000/0.000 byorder=0 incr2=nan
+LAMHIST n=37 pop=1849902: 2:1428853 3:363722 4:48755 5:7349 6:1035 7:161 8:25 9:2
+W l=3 n=37 END m=7 Mn=2 pop=1849902 popL=0 M=0
+X sample=9 x=12604243220522168360451999216316107628
+LAMHIST n=16 pop=75: 1:75
+W l=0 n=16 N=23 H=7 m=4 D=1 Mn=2 MN=2 hyp=1111 W2b=1 lammax=0 pop=75 popL=0 nPhi=0 M=0 EM_N=0 ESig=0 ESigPred=0 VarSig=0 VarInd=0 corr=0 relvar=nan exact=1 K=0 weyl=nan/0.000/0.000 byorder=0 incr2=nan
+LAMHIST n=23 pop=1389: 1:1389
+W l=1 n=23 N=30 H=7 m=5 D=1 Mn=2 MN=2 hyp=1111 W2b=1 lammax=0 pop=1389 popL=0 nPhi=0 M=0 EM_N=0 ESig=0 ESigPred=0 VarSig=0 VarInd=0 corr=0 relvar=nan exact=1 K=0 weyl=nan/0.000/0.000 byorder=0 incr2=nan
+LAMHIST n=30 pop=25386: 1:25386
+W l=2 n=30 N=37 H=7 m=6 D=1 Mn=2 MN=2 hyp=1111 W2b=1 lammax=0 pop=25386 popL=0 nPhi=0 M=0 EM_N=0 ESig=0 ESigPred=0 VarSig=0 VarInd=0 corr=0 relvar=nan exact=1 K=0 weyl=nan/0.000/0.000 byorder=0 incr2=nan
+LAMHIST n=37 pop=464227: 1:464227
+W l=3 n=37 END m=7 Mn=2 pop=464227 popL=0 M=0
+real 0.38
+user 0.35
+sys 0.03
+

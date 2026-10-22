@@ -1,0 +1,18 @@
+p=2: E_2 subset sums mod 4: [0, 1, 3] (L_2 set to 1 by the note)
+p=2 L_p=1 K=2 pointwise failures=0 D=0.64624062518 1-p^-L=0.5 ok=True
+p=2 L_p=1 K=3 pointwise failures=0 D=0.64624062518 1-p^-L=0.5 ok=True
+p=3 L_p=1 K=2 pointwise failures=0 D=0.806873278571 1-p^-L=0.666666666667 ok=True
+p=3 L_p=1 K=3 pointwise failures=0 D=0.806873278571 1-p^-L=0.666666666667 ok=True
+p=5 L_p=1 K=2 pointwise failures=0 D=0.915632997167 1-p^-L=0.8 ok=True
+p=5 L_p=1 K=3 pointwise failures=0 D=0.923694745532 1-p^-L=0.8 ok=True
+p=7 L_p=2 K=3 pointwise failures=0 D=0.98554337818 1-p^-L=0.979591836735 ok=True
+p=7 L_p=2 K=4 pointwise failures=0 D=0.985556825536 1-p^-L=0.979591836735 ok=True
+p=11 L_p=2 K=3 pointwise failures=0 D=0.998132150674 1-p^-L=0.99173553719 ok=True
+p=11 L_p=2 K=4 pointwise failures=0 D=0.998267701888 1-p^-L=0.99173553719 ok=True
+p=13 L_p=2 K=3 pointwise failures=0 D=0.999511621207 1-p^-L=0.994082840237 ok=True
+p=13 L_p=2 K=4 pointwise failures=0 D=0.999654610937 1-p^-L=0.994082840237 ok=True
+p=17 L_p=3 K=4 pointwise failures=0 D=0.999963398671 1-p^-L=0.999796458376 ok=True
+p=17 L_p=3 K=5 pointwise failures=0 D=0.999965429152 1-p^-L=0.999796458376 ok=True
+p=19 L_p=3 K=4 pointwise failures=0 D=0.999990618553 1-p^-L=0.999854206153 ok=True
+p=19 L_p=3 K=5 pointwise failures=0 D=0.999993213999 1-p^-L=0.999854206153 ok=True
+p=23 L_p=4 K=5 pointwise failures=0 D=0.999999273713 1-p^-L=0.999996426542 ok=True

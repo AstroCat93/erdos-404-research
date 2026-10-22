@@ -1,0 +1,35 @@
+--- all:"distinct factorials"
+entries: 1
+2026-10-01 http://arxiv.org/abs/2610.01899v1 Square products of factorials and a conjecture of Erdős and Graham
+--- all:"sum of factorials" AND all:prime
+entries: 0
+--- all:factorials AND all:"p-adic"
+entries: 10
+2026-06-22 http://arxiv.org/abs/2606.23485v1 The Brocard Problem: Structural Invariants, p-Adic Density, and the Generative Sieve
+2026-04-13 http://arxiv.org/abs/2604.11282v1 A Fixed-Prime Criterion for Reciprocals in Missing-Digit Sets
+2026-01-12 http://arxiv.org/abs/2601.07421v5 Resolution of Erdős Problem #728: a writeup of Aristotle's Lean proof
+2024-08-01 http://arxiv.org/abs/2408.00353v1 Bounds on the $p$-adic valuation of the factorial, hyperfactorial and superfactorial
+2024-06-01 http://arxiv.org/abs/2406.06557v1 Some properties of the generalized p-adic gamma function
+2023-04-06 http://arxiv.org/abs/2304.02946v1 On the Bhargava factorial of polynomial maps
+2022-07-30 http://arxiv.org/abs/2208.00294v3 Explicit results for Euler's factorial series in arithmetic progressions under GRH
+2022-06-25 http://arxiv.org/abs/2206.12726v2 Factorial-Type Recurrence Relations and $p$-adic Incomplete Gamma Functions
+2022-04-07 http://arxiv.org/abs/2204.03473v1 The Number of Roots of a Random Polynomial over The Field of $p$-adic Numbers
+2021-11-26 http://arxiv.org/abs/2111.13649v2 Euler's factorial series, Hardy integral, and continued fractions
+--- all:Erdos AND all:factorials
+entries: 4
+2026-10-01 http://arxiv.org/abs/2610.01899v1 Square products of factorials and a conjecture of Erdős and Graham
+2026-04-29 http://arxiv.org/abs/2604.26429v7 Solution to the Erdos problem on distinct residues of factorials
+2014-06-24 http://arxiv.org/abs/1406.6311v4 The Physics of the B Factories
+2005-09-01 http://arxiv.org/abs/cond-mat/0509012v1 Scaling Invariance in Spectra of Complex Networks: A Diffusion Factorial Moment Approach
+--- all:"Erdos problem"
+entries: 10
+2026-08-19 http://arxiv.org/abs/2608.18955v1 From Erdos Problem 1154 to a Zero One Law for Turing Ideals
+2026-08-03 http://arxiv.org/abs/2608.02043v3 Residual bounds for Schur-stable polynomials
+2026-07-25 http://arxiv.org/abs/2607.23004v1 Exact values and exact upper bounds for families of integers with arithmetic progression intersections (Erdős 
+2026-04-29 http://arxiv.org/abs/2604.26429v7 Solution to the Erdos problem on distinct residues of factorials
+2025-12-16 http://arxiv.org/abs/2512.14251v1 An improved lower bound to Erdos' problem concerning products of distances for fixed diameter
+2025-04-27 http://arxiv.org/abs/2504.19392v3 A solution to a Paul Erdos problem
+2018-05-17 http://arxiv.org/abs/1805.08065v1 Finite point configurations in the plane, rigidity and Erdos problems
+2016-09-12 http://arxiv.org/abs/1609.03468v1 The edge Folkman number $F_e(3, 3; 4)$ is greater than 19
+2011-07-17 http://arxiv.org/abs/1107.3279v21 Probabilistic Methods on Erdos Problems
+2009-07-29 http://arxiv.org/abs/0907.5066v1 A New Unicity Theorem and Erdos' Problem for Polarized Semi-Abelian Varieties

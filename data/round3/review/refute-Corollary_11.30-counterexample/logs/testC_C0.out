@@ -1,0 +1,10 @@
+C0: samples=30000
+  Prop 11.26: int_(C cap Gamma*) Z_n0 ~ 0.0596  (bound 1)
+  E[Y_l 1_C] for l=0..4: ['0.05197', '0.03732', '0.03736', '0.03753', '0.03739']
+  barrier c=-2: mu(C cap Hit cap alive) ~ 0.002108 +- 9.4e-05  vs 2^-c E[Y0 1_C] = 0.2079
+  barrier c=-1: mu(C cap Hit cap alive) ~ 0 +- 0  vs 2^-c E[Y0 1_C] = 0.1039
+  barrier c=0: mu(C cap Hit cap alive) ~ 0 +- 0  vs 2^-c E[Y0 1_C] = 0.05197
+  barrier c=1: mu(C cap Hit cap alive) ~ 0 +- 0  vs 2^-c E[Y0 1_C] = 0.02598
+  barrier c=2: mu(C cap Hit cap alive) ~ 0 +- 0  vs 2^-c E[Y0 1_C] = 0.01299
+  barrier c=3: mu(C cap Hit cap alive) ~ 0 +- 0  vs 2^-c E[Y0 1_C] = 0.006496
+python3 -I "$D/code/testC_mc.py" C0 30000 2  5.47s user 0.04s system 98% cpu 5.605 total
