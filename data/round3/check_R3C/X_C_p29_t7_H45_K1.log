@@ -1,0 +1,9 @@
+# command: /tmp/claude-0/-home-user-erdos-404-research/64513d2d-9023-5297-8d1a-eefeb2df66c3/scratchpad/chkR3C_bin/covchk 29 7 45 1 pos 1
+# binary sha256: 0ceec1e38708d4bb  /tmp/claude-0/-home-user-erdos-404-research/64513d2d-9023-5297-8d1a-eefeb2df66c3/scratchpad/chkR3C_bin/covchk
+# host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz  vmem cap (KB): 4700000
+# start: 2026-10-13 20:02:11 UTC
+# covchk(C) p=29 t=7 H=45 c=1 M=8 k=1 F=17249876309 nK=1
+C p=29 t=7 H=45 M=8 K=1 Kmodpc=1 miss=0 COVERED 555.08s
+END C p=29 t=7 H=45 nK=1 bad=0 ALL_COVERED 555.1s
+# exit status: 0
+# end: 2026-10-13 20:11:26 UTC

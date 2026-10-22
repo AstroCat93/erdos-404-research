@@ -1,0 +1,49 @@
+### command: nice -n 10 python3 code/round4/verify_C_falsify/test_W.py 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
+### start: 2026-10-14T02:48:21Z
+p=7 wilson=False first=std([0, 6]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=7 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 60
+p=11 wilson=False first=std([0, 10]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=11 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 58
+p=13 wilson=True first=std([0, 12]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 0; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=13 wilson=True first=special13([0, 1, 2, 3, 4, 8, 9]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: n/a; S'=(lam-k)/(xi+1): 40
+p=13 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 57
+p=13 special block: sum j! = 403234 = 13*31018, k_e mod 13 = 0, lambda_e mod 13 = 12
+p=17 wilson=False first=std([0, 16]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=17 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 54
+p=19 wilson=False first=std([0, 18]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=19 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 54
+p=23 wilson=False first=std([0, 22]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=23 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 60
+p=29 wilson=False first=std([0, 28]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=29 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 59
+p=31 wilson=False first=std([0, 30]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=31 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 57
+p=37 wilson=False first=std([0, 36]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=37 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 59
+p=41 wilson=False first=std([0, 40]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=41 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 60
+p=43 wilson=False first=std([0, 42]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=43 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 56
+p=47 wilson=False first=std([0, 46]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=47 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 60
+p=53 wilson=False first=std([0, 52]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=53 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 60
+p=59 wilson=False first=std([0, 58]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=59 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 59
+p=61 wilson=False first=std([0, 60]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=61 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 60
+p=67 wilson=False first=std([0, 66]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=67 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 58
+p=71 wilson=False first=std([0, 70]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=71 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 59
+p=73 wilson=False first=std([0, 72]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=73 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 59
+p=79 wilson=False first=std([0, 78]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=79 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 59
+p=83 wilson=False first=std([0, 82]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=83 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 60
+p=89 wilson=False first=std([0, 88]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=89 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 60
+p=97 wilson=False first=std([0, 96]): trials 40; V3p=3,M3p=1,v(x+4p)=1,M4p=1: 40; S=0 mod p^2 after block 2: 40; alive at 3p: 40; slope 0: 40; S'=-w_p/(xi+1) mod p: 40; S'=(lam-k)/(xi+1): 40
+p=97 general first blocks (random, p | sum e_j j!): 60 tested, criterion 'slope 0 iff lambda_e != k_e' agrees in 60; lambda!=k in 59
+### wall: 16 s

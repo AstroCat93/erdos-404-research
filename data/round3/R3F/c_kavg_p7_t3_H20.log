@@ -1,0 +1,7 @@
+# command: python3 -I /home/user/erdos-404-research/code/round3/R3F/kavg_l2.py 7 3 20 check
+# host: vm  start: 2026-10-13T07:47:28Z
+   per-level E_units Q_d (exact L2 shell, averaged over unit classes):  d=1:1.855e-02  d=2:2.757e-03  d=3:2.076e-05  d=4:2.691e-04  d=5:1.445e-02
+   C3 bound: proportion of failing unit classes <= 1.5926e+01  (true proportion 0.0000e+00);  classes certified by per-class C-S (sum_d sqrt(N_d Q_d) < 1): 0/42
+p=7 t=3 H=20 c=2 M=p^5  units=42  failing(exact)=0  sum_units L2=1.514307e+00  Markov bound #failing <= 2.5451e+04  max L2=5.9841e-02 vs p^-M=5.950e-05  L2-certified=0/42  random-model L2~1.603e-02
+   identity check (all K' mod p^c): per-class sum = 5.080685303815e+01, 2D-walk formula = 5.080685303815e+01, equal: True
+# end: 2026-10-13T07:47:28Z  exit=0  wall_seconds=.430688472

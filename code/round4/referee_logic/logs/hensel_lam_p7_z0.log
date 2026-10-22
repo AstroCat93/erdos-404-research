@@ -1,0 +1,8 @@
+=== command: python3 rl_hensel.py lam 7 0 28 7 3
+=== start: 2026-10-14T04:46:24Z
+  part C point z=77273: lhs=0.0235536371817 rhs=0.0235536371817 equal=True
+  part C point z=84378: lhs=0.0235536236172 rhs=0.0235536236172 equal=True
+  part C point z=8085: lhs=0.0235536136569 rhs=0.0235536136569 equal=True
+part C p=7 z0=0: first-index identity exact at 3/3 points
+=== exit: 0
+=== wall: 21 s

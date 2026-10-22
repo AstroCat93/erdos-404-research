@@ -1,0 +1,10 @@
+# cmd: nice -n 10 python3 -I code/round3/check_R3N/validate_D.py survey 0 -1 /tmp/r3_check_R3N/dfsD code/round3/check_R3N/verify_w.py 131070,32766,10578,65534,27142 data/round3/R3N/survey_2_4096.csv data/round3/R3N/survey_4098_16384.csv data/round3/R3N/survey_16386_32768_merged.csv data/round3/R3N/shadow_t15_17.csv
+a=131070 f=135292 g=4238 ok=1 witness=True time=0.98s
+a=32766 f=37403 g=4651 ok=1 witness=True time=0.36s
+a=10578 f=34843 g=24271 ok=1 witness=True time=4.11s
+a=65534 f=90619 g=25100 ok=1 witness=True time=9.24s
+a=27142 f=53882 g=26746 ok=1 witness=True time=11.50s
+survey sample: 5 rows (seed -1) from 16384 exact rows, failures 0, time 26.2s
+sample a values: 131070 32766 10578 65534 27142
+ALL_OK
+# wall 27 s

@@ -1,0 +1,9 @@
+=== command: python3 rl2_lemmaq.py dp 11 11 800 31 5 3
+=== start: 2026-10-14T18:13:47Z
+Q-b p=11 seed=11: 695 cases, 36 with a 2D block; M4C bound applicable in 94
+  M4A bound violated 0; max P/bound 0.9992
+  M4C bound violated 0; max P/bound 0.4996
+  control (2D factor q2/p^3) violated in 8 of 36 cases with a 2D block
+RESULT: PASS
+=== exit: 0
+=== wall: 39 s

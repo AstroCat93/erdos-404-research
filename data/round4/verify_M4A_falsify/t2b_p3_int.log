@@ -1,0 +1,5 @@
+=== command: python3 t2b_chain.py 3 203 40 int 8 81 177147
+=== start (UTC): 2026-10-14T01:27:57Z
+p=3 KIND=int: {'balls': 40, 'thm1_ok': 40, 'thm1_bad': 0, 'F_ok': 20, 'F_bad': 0, 'F_skip': 20, 'D_ok': 40, 'D_bad': 0, 'chi_ok': 40, 'chi_bad': 0, 'E_ok': 20, 'E_bad': 0, 'path_agree': 60, 'path_disagree': 0, 'Ep_ok': 20, 'Ep_bad': 0, 'theta_pos': 20}
+max ratios: Coll_K/PropD=0.9848  chi-version=1.0000  E_B eps/PropE=0.0446  LemmaF LHS/RHS=1.0000
+=== exit: 0   wall: 6.66 s

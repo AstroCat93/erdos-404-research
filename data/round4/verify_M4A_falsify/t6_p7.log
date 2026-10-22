@@ -1,0 +1,5 @@
+=== command: python3 t6_deep_algebra.py 7 601 20 800
+=== start (UTC): 2026-10-14T01:30:25Z
+p=7 tmax=800: {'a0': 6849, 'a0bad': 0, 's3': 2264, 's3bad': 0, 's3ctrl': 2264, 's4': 1940, 's4bad': 0, 's4ctrl': 1940, 'hist': 1940, 'histbad': 0, 'maxL': 154, 'nblocks1D': 2264, 'nblocks2D': 1940}
+Step 0(a) failures: 0 of 6849; Step 3 failures: 0 of 2264 (control mod p^(s+1) fails in 2264); Step 4 failures: 0 of 1940 2D blocks (control mod p^(L+3) fails in 1940); history identity failures: 0 of 1940
+=== exit: 0   wall: 3.19 s

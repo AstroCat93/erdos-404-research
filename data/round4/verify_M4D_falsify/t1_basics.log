@@ -1,0 +1,98 @@
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t1_basics.py 3 101 120
+# start 2026-10-14T01:47:32Z
+p=3 seed=101 samples=120  time=1.4s
+  F1a     checks=     2400  failures=0
+  DEL     checks=     4080  failures=0
+  DFS     checks=      120  failures=0
+  DP      checks=      480  failures=0
+  F2conv  checks=      889  failures=0
+  F2iff   checks=    37670  failures=0
+  F2tau   checks=      889  failures=0
+  LOC     checks=      120  failures=0
+TOTAL FAILURES 0
+# exit 0  wall 2 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t1_basics.py 5 101 120
+# start 2026-10-14T01:47:34Z
+p=5 seed=101 samples=120  time=2.7s
+  F1a     checks=     2400  failures=0
+  DEL     checks=    10862  failures=0
+  DFS     checks=      120  failures=0
+  DP      checks=      480  failures=0
+  F2conv  checks=     3985  failures=0
+  F2iff   checks=    65242  failures=0
+  F2tau   checks=     3985  failures=0
+  LOC     checks=      120  failures=0
+TOTAL FAILURES 0
+# exit 0  wall 3 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t1_basics.py 7 101 120
+# start 2026-10-14T01:47:37Z
+p=7 seed=101 samples=120  time=2.0s
+  F1a     checks=     2400  failures=0
+  DEL     checks=    11244  failures=0
+  DFS     checks=      120  failures=0
+  DP      checks=      480  failures=0
+  F2conv  checks=     6868  failures=0
+  F2iff   checks=    56798  failures=0
+  F2tau   checks=     6868  failures=0
+  LOC     checks=      120  failures=0
+TOTAL FAILURES 0
+# exit 0  wall 2 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t1_basics.py 11 101 120
+# start 2026-10-14T01:47:39Z
+p=11 seed=101 samples=120  time=9.9s
+  F1a     checks=     2400  failures=0
+  DEL     checks=    87592  failures=0
+  DFS     checks=      120  failures=0
+  DP      checks=      480  failures=0
+  F2conv  checks=    31335  failures=0
+  F2iff   checks=   238318  failures=0
+  F2tau   checks=    31335  failures=0
+  LOC     checks=      120  failures=0
+TOTAL FAILURES 0
+# exit 0  wall 10 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t1_basics.py 3 202 600
+# start 2026-10-14T01:47:52Z
+p=3 seed=202 samples=600  time=9.6s
+  F1a     checks=    12000  failures=0
+  DEL     checks=    16016  failures=0
+  DFS     checks=      600  failures=0
+  DP      checks=     2400  failures=0
+  F2conv  checks=     5470  failures=0
+  F2iff   checks=   259594  failures=0
+  F2tau   checks=     5470  failures=0
+  LOC     checks=      600  failures=0
+TOTAL FAILURES 0
+# exit 0  wall 10 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t1_basics.py 5 202 600
+# start 2026-10-14T01:48:02Z
+p=5 seed=202 samples=600  time=11.3s
+  F1a     checks=    12000  failures=0
+  DEL     checks=    48000  failures=0
+  DFS     checks=      600  failures=0
+  DP      checks=     2400  failures=0
+  F2conv  checks=    24995  failures=0
+  F2iff   checks=   367502  failures=0
+  F2tau   checks=    24995  failures=0
+  LOC     checks=      600  failures=0
+TOTAL FAILURES 0
+# exit 0  wall 11 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t1_basics.py 7 202 600
+# start 2026-10-14T01:48:13Z
+p=7 seed=202 samples=600  time=15.2s
+  F1a     checks=    12000  failures=0
+  DEL     checks=    85192  failures=0
+  DFS     checks=      600  failures=0
+  DP      checks=     2400  failures=0
+  F2conv  checks=    59383  failures=0
+  F2iff   checks=   582652  failures=0
+  F2tau   checks=    59383  failures=0
+  LOC     checks=      600  failures=0
+TOTAL FAILURES 0
+# exit 0  wall 16 s

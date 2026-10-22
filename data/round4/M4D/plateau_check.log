@@ -1,0 +1,8 @@
+=== command: python3 plateau_check.py 7 31 400 thm 50 6
+=== start (UTC): 2026-10-13T23:52:47Z
+RESULT plateau_check p=7 mode=thm samples with P(x,34)=268 (forced depths [(1, 35), (2, 42), (3, 47), (4, 47), (5, 39), (6, 58)]): P(x,N) held=268, FAILURES=0; recursion vs DFS mismatches=0/60
+=== exit: 0   wall: 131.84 s
+=== command: python3 plateau_check.py 7 32 200 ctrl 0 0
+=== start (UTC): 2026-10-13T23:54:59Z
+RESULT plateau_check p=7 mode=ctrl (gate depth 2..6 at i<=30): samples=200, P(x,i-1) and not P(x,i): 77; recursion vs DFS mismatches=0/60
+=== exit: 0   wall: 0.54 s

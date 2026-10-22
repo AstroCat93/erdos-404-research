@@ -1,0 +1,178 @@
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 3 11 40 8 24 9 4 rand
+=== start (UTC): 2026-10-13T23:06:10Z
+progress 0/40 tests=45 fails=0 max(P/bound)=0.2500
+progress 10/40 tests=400 fails=0 max(P/bound)=0.3125
+progress 20/40 tests=695 fails=0 max(P/bound)=0.3125
+progress 30/40 tests=1080 fails=0 max(P/bound)=0.3125
+RESULT p=3 mode=rand NU=40 t in [8,24] k<=9 f<=4: 1370 (u,k,f) tests, 0 failures, 477 with P>0, max P/bound = 0.3125
+=== exit: 0   wall: 7.0 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 3 12 40 8 24 9 4 deep
+=== start (UTC): 2026-10-13T23:06:17Z
+progress 0/40 tests=45 fails=0 max(P/bound)=0.3125
+progress 10/40 tests=440 fails=0 max(P/bound)=0.3125
+progress 20/40 tests=805 fails=0 max(P/bound)=0.3125
+progress 30/40 tests=1205 fails=0 max(P/bound)=0.3125
+RESULT p=3 mode=deep NU=40 t in [8,24] k<=9 f<=4: 1575 (u,k,f) tests, 0 failures, 597 with P>0, max P/bound = 0.3125
+=== exit: 0   wall: 11.57 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 5 13 30 10 30 6 3 rand
+=== start (UTC): 2026-10-13T23:06:29Z
+progress 0/30 tests=16 fails=0 max(P/bound)=0.2031
+progress 10/30 tests=244 fails=0 max(P/bound)=0.2500
+progress 20/30 tests=420 fails=0 max(P/bound)=0.2500
+RESULT p=5 mode=rand NU=30 t in [10,30] k<=6 f<=3: 608 (u,k,f) tests, 0 failures, 247 with P>0, max P/bound = 0.2500
+=== exit: 0   wall: 10.89 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 5 14 30 10 30 6 3 deep
+=== start (UTC): 2026-10-13T23:06:40Z
+progress 0/30 tests=24 fails=0 max(P/bound)=0.2031
+progress 10/30 tests=236 fails=0 max(P/bound)=0.2500
+progress 20/30 tests=452 fails=0 max(P/bound)=0.2500
+RESULT p=5 mode=deep NU=30 t in [10,30] k<=6 f<=3: 640 (u,k,f) tests, 0 failures, 280 with P>0, max P/bound = 0.2500
+=== exit: 0   wall: 9.23 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 3 21 30 8 24 9 4 rand 1/3
+=== start (UTC): 2026-10-13T23:07:01Z
+progress 0/30 tests=30 fails=0 max(P/bound)=0.3125
+progress 10/30 tests=385 fails=0 max(P/bound)=0.4886
+progress 20/30 tests=785 fails=0 max(P/bound)=0.4886
+RESULT p=3 mode=rand NU=30 t in [8,24] k<=9 f<=4: 1120 (u,k,f) tests, 0 failures, 368 with P>0, 310 using >=1 2D factor, max P/bound = 0.8333, ctrl=1/3
+=== exit: 0   wall: 7.84 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 7 22 20 14 30 5 2 rand
+=== start (UTC): 2026-10-13T23:07:09Z
+progress 0/20 tests=6 fails=0 max(P/bound)=0.1445
+progress 10/20 tests=102 fails=0 max(P/bound)=0.2500
+RESULT p=7 mode=rand NU=20 t in [14,30] k<=5 f<=2: 186 (u,k,f) tests, 0 failures, 106 with P>0, 19 using >=1 2D factor, max P/bound = 0.2500, ctrl=1
+=== exit: 0   wall: 0.97 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 7 23 20 14 30 5 2 rand 1/3
+=== start (UTC): 2026-10-13T23:07:10Z
+progress 0/20 tests=9 fails=0 max(P/bound)=0.1445
+progress 10/20 tests=117 fails=0 max(P/bound)=0.6534
+RESULT p=7 mode=rand NU=20 t in [14,30] k<=5 f<=2: 204 (u,k,f) tests, 0 failures, 117 with P>0, 19 using >=1 2D factor, max P/bound = 0.6534, ctrl=1/3
+=== exit: 0   wall: 1.1 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 7 24 20 14 30 5 2 deep
+=== start (UTC): 2026-10-13T23:07:11Z
+progress 0/20 tests=9 fails=0 max(P/bound)=0.1406
+progress 10/20 tests=141 fails=0 max(P/bound)=0.1445
+RESULT p=7 mode=deep NU=20 t in [14,30] k<=5 f<=2: 267 (u,k,f) tests, 0 failures, 104 with P>0, 0 using >=1 2D factor, max P/bound = 0.2500, ctrl=1
+=== exit: 0   wall: 2.56 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 3 31 40 8 24 9 4 g2
+=== start (UTC): 2026-10-13T23:07:34Z
+progress 0/40 tests=25 fails=0 max(P/bound)=1.0000
+progress 10/40 tests=375 fails=0 max(P/bound)=1.0000
+progress 20/40 tests=725 fails=0 max(P/bound)=1.0000
+progress 30/40 tests=1100 fails=0 max(P/bound)=1.0000
+RESULT p=3 mode=g2 NU=40 t in [8,24] k<=9 f<=4: 1405 (u,k,f) tests, 0 failures, 1169 with P>0, 249 using >=1 2D factor, max P/bound = 1.0000, ctrl=1
+=== exit: 0   wall: 8.14 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 3 32 40 8 24 9 4 g2 1/2
+=== start (UTC): 2026-10-13T23:07:42Z
+FAIL u=393487 t=23 k=5 f=3 P=3.5019e-03 bound=2.7695e-03 gates=[2, 5, 8, 11, 14, 17, 20, 23] depths=[2, 1, 1, 4, 1, 1, 2, 1]
+FAIL u=393487 t=23 k=6 f=4 P=6.1035e-04 bound=4.1199e-04 gates=[2, 5, 8, 11, 14, 17, 20, 23] depths=[2, 1, 1, 4, 1, 1, 2, 1]
+progress 0/40 tests=45 fails=2 max(P/bound)=1.4815
+FAIL u=170596 t=22 k=3 f=2 P=1.0498e-02 bound=8.0566e-03 gates=[2, 5, 8, 11, 14, 17, 20] depths=[1, 1, 2, 1, 1, 3, 1]
+FAIL u=46522 t=9 k=3 f=2 P=1.0498e-02 bound=8.0566e-03 gates=[2, 5, 8] depths=[1, 1, 2]
+FAIL u=58123 t=23 k=3 f=2 P=1.0498e-02 bound=8.0566e-03 gates=[2, 5, 8, 11, 14, 17, 20, 23] depths=[1, 1, 3, 1, 1, 2, 1, 1]
+progress 10/40 tests=395 fails=9 max(P/bound)=1.4815
+progress 20/40 tests=775 fails=22 max(P/bound)=1.4815
+progress 30/40 tests=1185 fails=27 max(P/bound)=1.4815
+RESULT p=3 mode=g2 NU=40 t in [8,24] k<=9 f<=4: 1480 (u,k,f) tests, 31 failures, 1132 with P>0, 303 using >=1 2D factor, max P/bound = 1.4815, ctrl=1/2
+=== exit: 0   wall: 11.41 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 5 33 30 10 30 6 3 g2
+=== start (UTC): 2026-10-13T23:07:54Z
+progress 0/30 tests=24 fails=0 max(P/bound)=1.0000
+progress 10/30 tests=204 fails=0 max(P/bound)=1.0000
+progress 20/30 tests=388 fails=0 max(P/bound)=1.0000
+RESULT p=5 mode=g2 NU=30 t in [10,30] k<=6 f<=3: 568 (u,k,f) tests, 0 failures, 564 with P>0, 98 using >=1 2D factor, max P/bound = 1.0000, ctrl=1
+=== exit: 0   wall: 7.09 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 5 34 30 10 30 6 3 g2 1/2
+=== start (UTC): 2026-10-13T23:08:01Z
+progress 0/30 tests=20 fails=0 max(P/bound)=1.0000
+FAIL u=5099783 t=26 k=4 f=3 P=9.5222e-05 bound=7.8976e-05 gates=[2, 7, 12, 17, 22] depths=[1, 1, 1, 2, 1]
+progress 10/30 tests=240 fails=1 max(P/bound)=1.2057
+FAIL u=25449658 t=21 k=4 f=3 P=9.5222e-05 bound=7.8976e-05 gates=[2, 7, 12, 17] depths=[1, 1, 1, 2]
+progress 20/30 tests=456 fails=2 max(P/bound)=1.2057
+FAIL u=66039583 t=26 k=4 f=3 P=9.5222e-05 bound=7.8976e-05 gates=[2, 7, 12, 17, 22] depths=[1, 1, 1, 2, 1]
+RESULT p=5 mode=g2 NU=30 t in [10,30] k<=6 f<=3: 620 (u,k,f) tests, 3 failures, 608 with P>0, 136 using >=1 2D factor, max P/bound = 1.2057, ctrl=1/2
+=== exit: 0   wall: 10.09 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 7 35 30 14 30 5 2 g2
+=== start (UTC): 2026-10-13T23:08:11Z
+progress 0/30 tests=15 fails=0 max(P/bound)=1.0000
+progress 10/30 tests=141 fails=0 max(P/bound)=1.0000
+progress 20/30 tests=267 fails=0 max(P/bound)=1.0000
+RESULT p=7 mode=g2 NU=30 t in [14,30] k<=5 f<=2: 375 (u,k,f) tests, 0 failures, 371 with P>0, 34 using >=1 2D factor, max P/bound = 1.0000, ctrl=1
+=== exit: 0   wall: 3.74 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 7 36 30 14 30 5 2 g2 1/2
+=== start (UTC): 2026-10-13T23:08:15Z
+FAIL u=13418323665 t=22 k=3 f=2 P=7.1649e-04 bound=4.1124e-04 gates=[2, 9, 16] depths=[1, 1, 1]
+progress 0/30 tests=9 fails=1 max(P/bound)=1.7423
+FAIL u=3548503131 t=19 k=3 f=2 P=7.1649e-04 bound=4.1124e-04 gates=[2, 9, 16] depths=[1, 1, 1]
+FAIL u=11930700773 t=25 k=3 f=2 P=7.1649e-04 bound=4.1124e-04 gates=[2, 9, 16, 23] depths=[1, 1, 1, 1]
+FAIL u=11930700773 t=25 k=4 f=2 P=1.0236e-04 bound=5.9587e-05 gates=[2, 9, 16, 23] depths=[1, 1, 1, 1]
+FAIL u=12245830315 t=16 k=3 f=2 P=7.1649e-04 bound=4.1124e-04 gates=[2, 9, 16] depths=[1, 1, 1]
+progress 10/30 tests=129 fails=10 max(P/bound)=1.7423
+progress 20/30 tests=258 fails=25 max(P/bound)=1.7423
+RESULT p=7 mode=g2 NU=30 t in [14,30] k<=5 f<=2: 351 (u,k,f) tests, 34 failures, 351 with P>0, 35 using >=1 2D factor, max P/bound = 1.7423, ctrl=1/2
+=== exit: 0   wall: 2.56 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 3 41 40 8 30 9 4 p0
+=== start (UTC): 2026-10-13T23:17:46Z
+progress 0/40 tests=45 fails=0 max(P/bound)=1.0000
+progress 10/40 tests=415 fails=0 max(P/bound)=1.0000
+progress 20/40 tests=805 fails=0 max(P/bound)=1.0000
+progress 30/40 tests=1145 fails=0 max(P/bound)=1.0000
+RESULT p=3 mode=p0 NU=40 t in [8,30] k<=9 f<=4: 1475 (u,k,f) tests, 0 failures, 523 with P>0, 303 using >=1 2D factor, max P/bound = 1.0000, ctrl=1
+=== exit: 0   wall: 11.88 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 3 42 40 8 30 9 4 int
+=== start (UTC): 2026-10-13T23:17:57Z
+progress 0/40 tests=20 fails=0 max(P/bound)=1.0000
+progress 10/40 tests=375 fails=0 max(P/bound)=1.0000
+progress 20/40 tests=810 fails=0 max(P/bound)=1.0000
+progress 30/40 tests=1205 fails=0 max(P/bound)=1.0000
+RESULT p=3 mode=int NU=40 t in [8,30] k<=9 f<=4: 1545 (u,k,f) tests, 0 failures, 673 with P>0, 394 using >=1 2D factor, max P/bound = 1.0000, ctrl=1
+=== exit: 0   wall: 14.15 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 3 43 40 8 30 9 4 int 1/2
+=== start (UTC): 2026-10-13T23:18:12Z
+progress 0/40 tests=35 fails=0 max(P/bound)=0.0000
+FAIL u=88 t=24 k=5 f=3 P=3.5019e-03 bound=2.7695e-03 gates=[2, 5, 8, 11, 14, 17, 20, 23] depths=[2, 1, 1, 2, 1, 1, 3, 1]
+FAIL u=88 t=24 k=6 f=4 P=6.1035e-04 bound=4.1199e-04 gates=[2, 5, 8, 11, 14, 17, 20, 23] depths=[2, 1, 1, 2, 1, 1, 3, 1]
+FAIL u=88 t=24 k=7 f=4 P=2.0313e-04 bound=1.4162e-04 gates=[2, 5, 8, 11, 14, 17, 20, 23] depths=[2, 1, 1, 2, 1, 1, 3, 1]
+FAIL u=88 t=24 k=8 f=4 P=6.7830e-05 bound=4.8682e-05 gates=[2, 5, 8, 11, 14, 17, 20, 23] depths=[2, 1, 1, 2, 1, 1, 3, 1]
+FAIL u=88 t=24 k=9 f=4 P=2.2611e-05 bound=1.6734e-05 gates=[2, 5, 8, 11, 14, 17, 20, 23] depths=[2, 1, 1, 2, 1, 1, 3, 1]
+progress 10/40 tests=410 fails=5 max(P/bound)=1.4815
+progress 20/40 tests=810 fails=8 max(P/bound)=1.4815
+progress 30/40 tests=1220 fails=21 max(P/bound)=1.4815
+RESULT p=3 mode=int NU=40 t in [8,30] k<=9 f<=4: 1615 (u,k,f) tests, 31 failures, 644 with P>0, 311 using >=1 2D factor, max P/bound = 1.4815, ctrl=1/2
+=== exit: 0   wall: 14.34 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 5 44 30 10 40 7 3 p0
+=== start (UTC): 2026-10-13T23:18:26Z
+progress 0/30 tests=16 fails=0 max(P/bound)=0.0000
+progress 10/30 tests=251 fails=0 max(P/bound)=1.0000
+progress 20/30 tests=451 fails=0 max(P/bound)=1.0000
+RESULT p=5 mode=p0 NU=30 t in [10,40] k<=7 f<=3: 636 (u,k,f) tests, 0 failures, 335 with P>0, 132 using >=1 2D factor, max P/bound = 1.0000, ctrl=1
+=== exit: 0   wall: 17.31 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 5 45 30 10 40 7 3 int
+=== start (UTC): 2026-10-13T23:18:43Z
+progress 0/30 tests=12 fails=0 max(P/bound)=0.0000
+progress 10/30 tests=245 fails=0 max(P/bound)=1.0000
+progress 20/30 tests=477 fails=0 max(P/bound)=1.0000
+RESULT p=5 mode=int NU=30 t in [10,40] k<=7 f<=3: 705 (u,k,f) tests, 0 failures, 301 with P>0, 108 using >=1 2D factor, max P/bound = 1.0000, ctrl=1
+=== exit: 0   wall: 24.82 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 7 46 30 14 45 5 2 p0
+=== start (UTC): 2026-10-13T23:19:08Z
+progress 0/30 tests=6 fails=0 max(P/bound)=1.0000
+progress 10/30 tests=135 fails=0 max(P/bound)=1.0000
+progress 20/30 tests=240 fails=0 max(P/bound)=1.0000
+RESULT p=7 mode=p0 NU=30 t in [14,45] k<=5 f<=2: 354 (u,k,f) tests, 0 failures, 195 with P>0, 30 using >=1 2D factor, max P/bound = 1.0000, ctrl=1
+=== exit: 0   wall: 5.26 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 7 47 30 14 45 5 2 int
+=== start (UTC): 2026-10-13T23:19:13Z
+progress 0/30 tests=15 fails=0 max(P/bound)=0.0000
+progress 10/30 tests=126 fails=0 max(P/bound)=1.0000
+progress 20/30 tests=261 fails=0 max(P/bound)=1.0000
+RESULT p=7 mode=int NU=30 t in [14,45] k<=5 f<=2: 384 (u,k,f) tests, 0 failures, 174 with P>0, 44 using >=1 2D factor, max P/bound = 1.0000, ctrl=1
+=== exit: 0   wall: 6.64 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/lemma_q_check.py 7 48 30 14 45 5 2 int 1/2
+=== start (UTC): 2026-10-13T23:19:20Z
+progress 0/30 tests=15 fails=0 max(P/bound)=0.1633
+progress 10/30 tests=150 fails=0 max(P/bound)=1.0000
+progress 20/30 tests=258 fails=0 max(P/bound)=1.0000
+FAIL u=257 t=25 k=3 f=2 P=7.1649e-04 bound=4.1124e-04 gates=[2, 9, 16, 23] depths=[1, 1, 1, 1]
+FAIL u=257 t=25 k=4 f=2 P=1.0236e-04 bound=5.9587e-05 gates=[2, 9, 16, 23] depths=[1, 1, 1, 1]
+RESULT p=7 mode=int NU=30 t in [14,45] k<=5 f<=2: 369 (u,k,f) tests, 2 failures, 146 with P>0, 47 using >=1 2D factor, max P/bound = 1.7423, ctrl=1/2
+=== exit: 0   wall: 5.6 s

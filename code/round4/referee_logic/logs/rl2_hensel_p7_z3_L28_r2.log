@@ -1,0 +1,10 @@
+=== command: python3 rl2_hensel.py 7 3 28 7 2 3
+=== start: 2026-10-14T18:03:08Z
+p=7 z0=3 L=28 L'=7 r=2: D=4 K=5 M=1; theta_M4A=2, ceil(D/2)=2; M4C hypotheses (D>=2r, ceil(D/2)<=K-M): True; M4A theta=ceil(D/2): True; points 343
+  E_B[eps]                       = 1.45073380998766e-07
+  M4A Thm 1 RHS (theta=2)      = 1.45073380998766e-07   identity exact: True
+  M4C H' RHS (theta=ceil(D/2)=2) = 0.100641782228666   E_B eps <= RHS: True
+  first-index identity (Prop H' / Lemma F decomposition): exact at 3/3 points
+RESULT: PASS
+=== exit: 0
+=== wall: 193 s

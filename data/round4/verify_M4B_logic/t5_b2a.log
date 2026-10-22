@@ -1,0 +1,57 @@
+### command: python3 b2a_exhaustive.py 22
+### start (UTC): 2026-10-14T00:26:27Z
+d= 1: 3^d=         3 zero-sum vectors=1 expected=1 OK  sols=[(0,)]
+d= 2: 3^d=         9 zero-sum vectors=3 expected=3 OK  sols=[(-1, 1), (0, 0), (1, -1)]
+d= 3: 3^d=        27 zero-sum vectors=3 expected=3 OK  sols=[(-1, 1, 0), (0, 0, 0), (1, -1, 0)]
+d= 4: 3^d=        81 zero-sum vectors=3 expected=3 OK  sols=[(-1, 1, 0, 0), (0, 0, 0, 0), (1, -1, 0, 0)]
+d= 5: 3^d=       243 zero-sum vectors=3 expected=3 OK
+d= 6: 3^d=       729 zero-sum vectors=3 expected=3 OK
+d= 7: 3^d=      2187 zero-sum vectors=3 expected=3 OK
+d= 8: 3^d=      6561 zero-sum vectors=3 expected=3 OK
+d= 9: 3^d=     19683 zero-sum vectors=3 expected=3 OK
+d=10: 3^d=     59049 zero-sum vectors=3 expected=3 OK
+d=11: 3^d=    177147 zero-sum vectors=3 expected=3 OK
+d=12: 3^d=    531441 zero-sum vectors=3 expected=3 OK
+d=13: 3^d=   1594323 zero-sum vectors=3 expected=3 OK
+d=14: 3^d=   4782969 zero-sum vectors=3 expected=3 OK
+d=15: 3^d=  14348907 zero-sum vectors=3 expected=3 OK
+d=16: 3^d=  43046721 zero-sum vectors=3 expected=3 OK
+d=17: 3^d= 129140163 zero-sum vectors=3 expected=3 OK
+d=18: 3^d= 387420489 zero-sum vectors=3 expected=3 OK
+d=19: 3^d=1162261467 zero-sum vectors=3 expected=3 OK
+d=20: 3^d=3486784401 zero-sum vectors=3 expected=3 OK
+d=21: 3^d=10460353203 zero-sum vectors=3 expected=3 OK
+d=22: 3^d=31381059609 zero-sum vectors=3 expected=3 OK
+tail bound sum_(k>k*) 1/k! <= (k*+2)/((k*+1)(k*+1)!) < 1/k*!, k*=2..60: OK
+e-2 < 1: 0.718282
+NEG digits in [-2,2], d=3: zero-sum vectors=13, violating the lemma's conclusion=8, e.g. (1, -2, 2)
+NEG digits in [-2,2], d=4: zero-sum vectors=13, violating the lemma's conclusion=8, e.g. (-1, 2, -2, 0)
+NEG digits in [-2,2], d=5: zero-sum vectors=13, violating the lemma's conclusion=8, e.g. (-1, 2, -2, 0, 0)
+NEG digits in [-2,2], d=6: zero-sum vectors=13, violating the lemma's conclusion=8, e.g. (-2, 1, 2, 0, 0, 0)
+p=3 d=2 (threshold s_min=1): #eps with T==0 mod p^s: s=1*:3  s=2*:3
+p=3 d=3 (threshold s_min=2): #eps with T==0 mod p^s: s=1 :9  s=2*:3  s=3*:3
+p=3 d=4 (threshold s_min=3): #eps with T==0 mod p^s: s=1 :27  s=2 :9  s=3*:3  s=4*:3
+p=3 d=5 (threshold s_min=4): #eps with T==0 mod p^s: s=2 :27  s=3 :7  s=4*:3  s=5*:3
+p=3 d=6 (threshold s_min=6): #eps with T==0 mod p^s: s=4 :15  s=5 :3  s=6*:3  s=7*:3
+p=3 d=7 (threshold s_min=7): #eps with T==0 mod p^s: s=5 :15  s=6 :3  s=7*:3  s=8*:3
+p=3 d=8 (threshold s_min=9): #eps with T==0 mod p^s: s=7 :7  s=8 :3  s=9*:3  s=10*:3
+p=3 d=9 (threshold s_min=11): #eps with T==0 mod p^s: s=9 :3  s=10 :3  s=11*:3  s=12*:3
+p=5 d=2 (threshold s_min=1): #eps with T==0 mod p^s: s=1*:3  s=2*:3
+p=5 d=3 (threshold s_min=2): #eps with T==0 mod p^s: s=1 :5  s=2*:3  s=3*:3
+p=5 d=4 (threshold s_min=2): #eps with T==0 mod p^s: s=1 :15  s=2*:3  s=3*:3
+p=5 d=5 (threshold s_min=3): #eps with T==0 mod p^s: s=1 :47  s=2 :7  s=3*:3  s=4*:3
+p=5 d=6 (threshold s_min=4): #eps with T==0 mod p^s: s=2 :47  s=3 :7  s=4*:3  s=5*:3
+p=5 d=7 (threshold s_min=5): #eps with T==0 mod p^s: s=3 :21  s=4 :7  s=5*:3  s=6*:3
+p=5 d=8 (threshold s_min=6): #eps with T==0 mod p^s: s=4 :7  s=5 :3  s=6*:3  s=7*:3
+p=5 d=9 (threshold s_min=8): #eps with T==0 mod p^s: s=6 :3  s=7 :3  s=8*:3  s=9*:3
+p=7 d=2 (threshold s_min=1): #eps with T==0 mod p^s: s=1*:3  s=2*:3
+p=7 d=3 (threshold s_min=1): #eps with T==0 mod p^s: s=1*:3  s=2*:3
+p=7 d=4 (threshold s_min=2): #eps with T==0 mod p^s: s=1 :9  s=2*:3  s=3*:3
+p=7 d=5 (threshold s_min=3): #eps with T==0 mod p^s: s=1 :33  s=2 :5  s=3*:3  s=4*:3
+p=7 d=6 (threshold s_min=3): #eps with T==0 mod p^s: s=1 :101  s=2 :13  s=3*:3  s=4*:3
+p=7 d=7 (threshold s_min=4): #eps with T==0 mod p^s: s=2 :45  s=3 :5  s=4*:3  s=5*:3
+p=7 d=8 (threshold s_min=5): #eps with T==0 mod p^s: s=3 :45  s=4 :5  s=5*:3  s=6*:3
+p=7 d=9 (threshold s_min=6): #eps with T==0 mod p^s: s=4 :7  s=5 :3  s=6*:3  s=7*:3
+RESULT Lemma B2a exhaustive d=1..22: ALL OK
+### exit: 0   wall: 1.54 s
+

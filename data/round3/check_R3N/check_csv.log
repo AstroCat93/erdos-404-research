@@ -1,0 +1,35 @@
+# cmd: python3 -I code/round3/check_R3N/check_csv.py data/round3/R3N data/round3/S0/kitamura_excerpts/p2_exact_table_1_256.csv
+rows: 16384; all even a in [2,32768] present exactly once: True
+exact rows 16382, capped rows [594, 17662] -> [(594, '65536'), (17662, '131072')]
+rows with g in {1,2,4,5}: 0; g=3 iff a=4 mod 8 on all exact rows: True
+a<=256 even: survey f vs Kitamura table mismatches: []
+  Kitamura row a=1102: f=12633; survey f=12633 OK
+  Kitamura row a=3456: f=8275; survey f=8275 OK
+  Kitamura row a=8190: f=16396; survey f=16396 OK
+  Kitamura row a=34: f=18444; survey f=18444 OK
+  Kitamura row a=14: f=1533; survey f=1533 OK
+  Kitamura row a=2: f=254; survey f=254 OK
+  shadow t=14 a=16382: survey f=20215 g=3846
+  shadow t=15 a=32766: survey f=37403 g=4651
+  shadow csv a=32766 f=37403 g=4651 consistent=True (survey row: f=37403)
+  shadow csv a=65534 f=90619 g=25100 consistent=True
+  shadow csv a=131070 f=135292 g=4238 consistent=True
+top exact g (with g(594)=89804): 594:89804, 17534:59527, 16846:44786, 26274:42347, 27142:26746, 10578:24271, 34:18412, 32494:18023, 22050:16628, 16510:14723, 9934:14654, 20736:12032, 25170:11697, 1102:11536, 12706:10269, 25774:9047, 26974:8516, 8190:8218
+top g, a<=4096: 594:89804, 34:18412, 1102:11536, 2210:6261, 3456:4823, 1438:3948, 574:3526, 1602:3486, 640:3196, 2662:3129
+largest g for a<=16384: a=594 g=89804
+G, c(G), G*c(G)/16384:
+  64 2077 8.1
+  128 1244 9.7
+  256 656 10.2
+  512 367 11.5
+  1024 174 10.9
+  2048 94 11.8
+  4096 43 10.8
+  8192 19 9.5
+  16384 10 10.0
+  32768 5 10.0
+  65536 2 8.0
+  131072 1 8.0
+overlap of the two 16386..32768 processes: 30 rows (24578..24636), identical: True; first process max a = 24636
+profile_594: 351 boundaries, sum of populations 13566171, peak 392640 at M=63446
+problems: none

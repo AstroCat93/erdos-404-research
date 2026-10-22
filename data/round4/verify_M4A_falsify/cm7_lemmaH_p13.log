@@ -1,0 +1,4 @@
+=== command: python3 cm7_lemmaH.py 13 713 600 4
+=== start (UTC): 2026-10-14T02:05:28Z
+RESULT p=13: Lemma H exact in 597/597 cases (121 with theta <= 0); control theta+1 fails in 69
+=== exit: 0   wall: 4.26 s

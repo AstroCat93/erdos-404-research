@@ -1,0 +1,280 @@
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 3 809 30 24 9 12
+=== start (UTC): 2026-10-13T17:44:29Z
+TABLE p=3 n=24 gate i=9 depth s=1: P(Z0>0|gate)=0.067 E[M|gate]=0.02956 E[M^2|gate]=0.01418 contrib1=0.00657 contrib2=0.003151
+TABLE p=3 n=24 gate i=9 depth s=2: P(Z0>0|gate)=0.933 E[M|gate]=0.4398 E[M^2|gate]=0.3295 contrib1=0.03258 contrib2=0.02441
+TABLE p=3 n=24 gate i=9 depth s=3: P(Z0>0|gate)=0.667 E[M|gate]=0.4903 E[M^2|gate]=0.4357 contrib1=0.01211 contrib2=0.01076
+TABLE p=3 n=24 gate i=9 depth s=4: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=9 depth s=5: P(Z0>0|gate)=0.233 E[M|gate]=0.9693 E[M^2|gate]=4.442 contrib1=0.002659 contrib2=0.01219
+TABLE p=3 n=24 gate i=9 depth s=6: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=9 depth s=7: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=9 depth s=8: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=9 depth s=9: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=9 depth s=10: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=9 depth s=11: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=9 depth s=12: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+RESULT deepgate p=3 n=24 i=9 samples/depth=30: sum_s contrib1=0.05391 sum_s contrib2=0.05051
+=== exit: 0   wall: 0.14 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 3 8012 30 24 12 12
+=== start (UTC): 2026-10-13T17:44:29Z
+TABLE p=3 n=24 gate i=12 depth s=1: P(Z0>0|gate)=0.433 E[M|gate]=0.3469 E[M^2|gate]=0.6898 contrib1=0.07709 contrib2=0.1533
+TABLE p=3 n=24 gate i=12 depth s=2: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=12 depth s=3: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=12 depth s=4: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=12 depth s=5: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=12 depth s=6: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=12 depth s=7: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=12 depth s=8: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=12 depth s=9: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=12 depth s=10: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=12 depth s=11: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=12 depth s=12: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+RESULT deepgate p=3 n=24 i=12 samples/depth=30: sum_s contrib1=0.07709 sum_s contrib2=0.1533
+=== exit: 0   wall: 0.06 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 3 8018 30 24 18 12
+=== start (UTC): 2026-10-13T17:44:29Z
+TABLE p=3 n=24 gate i=18 depth s=1: P(Z0>0|gate)=0.100 E[M|gate]=0.03062 E[M^2|gate]=0.01107 contrib1=0.006805 contrib2=0.00246
+TABLE p=3 n=24 gate i=18 depth s=2: P(Z0>0|gate)=0.633 E[M|gate]=0.2681 E[M^2|gate]=0.151 contrib1=0.01986 contrib2=0.01118
+TABLE p=3 n=24 gate i=18 depth s=3: P(Z0>0|gate)=0.933 E[M|gate]=0.3879 E[M^2|gate]=0.2422 contrib1=0.009577 contrib2=0.005981
+TABLE p=3 n=24 gate i=18 depth s=4: P(Z0>0|gate)=0.833 E[M|gate]=0.5026 E[M^2|gate]=0.4228 contrib1=0.004137 contrib2=0.00348
+TABLE p=3 n=24 gate i=18 depth s=5: P(Z0>0|gate)=0.400 E[M|gate]=0.491 E[M^2|gate]=0.9509 contrib1=0.001347 contrib2=0.002609
+TABLE p=3 n=24 gate i=18 depth s=6: P(Z0>0|gate)=0.167 E[M|gate]=0.5132 E[M^2|gate]=2.054 contrib1=0.0004693 contrib2=0.001878
+TABLE p=3 n=24 gate i=18 depth s=7: P(Z0>0|gate)=0.133 E[M|gate]=1.226 E[M^2|gate]=12.31 contrib1=0.0003737 contrib2=0.003753
+TABLE p=3 n=24 gate i=18 depth s=8: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=18 depth s=9: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=18 depth s=10: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=18 depth s=11: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=18 depth s=12: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+RESULT deepgate p=3 n=24 i=18 samples/depth=30: sum_s contrib1=0.04257 sum_s contrib2=0.03134
+=== exit: 0   wall: 0.27 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 3 8024 30 24 24 12
+=== start (UTC): 2026-10-13T17:44:29Z
+TABLE p=3 n=24 gate i=24 depth s=1: P(Z0>0|gate)=0.467 E[M|gate]=0.2213 E[M^2|gate]=0.14 contrib1=0.04917 contrib2=0.03111
+TABLE p=3 n=24 gate i=24 depth s=2: P(Z0>0|gate)=0.433 E[M|gate]=0.2756 E[M^2|gate]=0.294 contrib1=0.02041 contrib2=0.02178
+TABLE p=3 n=24 gate i=24 depth s=3: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=24 depth s=4: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=24 depth s=5: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=24 depth s=6: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=24 depth s=7: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=24 depth s=8: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=24 depth s=9: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=24 depth s=10: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=24 depth s=11: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=24 gate i=24 depth s=12: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+RESULT deepgate p=3 n=24 i=24 samples/depth=30: sum_s contrib1=0.06958 sum_s contrib2=0.05289
+=== exit: 0   wall: 0.08 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 3 829 100 40 9 14
+=== start (UTC): 2026-10-13T17:46:38Z
+TABLE p=3 n=40 gate i=9 depth s=1: P(Z0>0|gate)=0.150 E[M|gate]=0.1325 E[M^2|gate]=0.2833 contrib1=0.02945 contrib2=0.06296
+TABLE p=3 n=40 gate i=9 depth s=2: P(Z0>0|gate)=0.880 E[M|gate]=0.5342 E[M^2|gate]=0.9521 contrib1=0.03957 contrib2=0.07052
+TABLE p=3 n=40 gate i=9 depth s=3: P(Z0>0|gate)=0.670 E[M|gate]=0.5626 E[M^2|gate]=0.5321 contrib1=0.01389 contrib2=0.01314
+TABLE p=3 n=40 gate i=9 depth s=4: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=9 depth s=5: P(Z0>0|gate)=0.140 E[M|gate]=0.5314 E[M^2|gate]=2.413 contrib1=0.001458 contrib2=0.00662
+TABLE p=3 n=40 gate i=9 depth s=6: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=9 depth s=7: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=9 depth s=8: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=9 depth s=9: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=9 depth s=10: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=9 depth s=11: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=9 depth s=12: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=9 depth s=13: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=9 depth s=14: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+RESULT deepgate p=3 n=40 i=9 samples/depth=100: sum_s contrib1=0.08437 sum_s contrib2=0.1532
+=== exit: 0   wall: 7.11 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 3 8212 100 40 12 14
+=== start (UTC): 2026-10-13T17:46:45Z
+TABLE p=3 n=40 gate i=12 depth s=1: P(Z0>0|gate)=0.550 E[M|gate]=0.4218 E[M^2|gate]=0.9569 contrib1=0.09372 contrib2=0.2126
+TABLE p=3 n=40 gate i=12 depth s=2: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=12 depth s=3: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=12 depth s=4: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=12 depth s=5: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=12 depth s=6: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=12 depth s=7: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=12 depth s=8: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=12 depth s=9: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=12 depth s=10: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=12 depth s=11: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=12 depth s=12: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=12 depth s=13: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=12 depth s=14: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+RESULT deepgate p=3 n=40 i=12 samples/depth=100: sum_s contrib1=0.09372 sum_s contrib2=0.2126
+=== exit: 0   wall: 2.15 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 3 8215 100 40 15 14
+=== start (UTC): 2026-10-13T17:46:48Z
+TABLE p=3 n=40 gate i=15 depth s=1: P(Z0>0|gate)=0.380 E[M|gate]=0.2349 E[M^2|gate]=0.1831 contrib1=0.05221 contrib2=0.04068
+TABLE p=3 n=40 gate i=15 depth s=2: P(Z0>0|gate)=0.070 E[M|gate]=0.2929 E[M^2|gate]=1.248 contrib1=0.0217 contrib2=0.09244
+TABLE p=3 n=40 gate i=15 depth s=3: P(Z0>0|gate)=0.860 E[M|gate]=0.4446 E[M^2|gate]=0.2743 contrib1=0.01098 contrib2=0.006773
+TABLE p=3 n=40 gate i=15 depth s=4: P(Z0>0|gate)=0.300 E[M|gate]=0.3073 E[M^2|gate]=0.3978 contrib1=0.002529 contrib2=0.003274
+TABLE p=3 n=40 gate i=15 depth s=5: P(Z0>0|gate)=0.090 E[M|gate]=0.234 E[M^2|gate]=0.7522 contrib1=0.0006419 contrib2=0.002064
+TABLE p=3 n=40 gate i=15 depth s=6: P(Z0>0|gate)=0.030 E[M|gate]=0.2675 E[M^2|gate]=2.737 contrib1=0.0002446 contrib2=0.002503
+TABLE p=3 n=40 gate i=15 depth s=7: P(Z0>0|gate)=0.010 E[M|gate]=0.1244 E[M^2|gate]=1.548 contrib1=3.793e-05 contrib2=0.000472
+TABLE p=3 n=40 gate i=15 depth s=8: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=15 depth s=9: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=15 depth s=10: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=15 depth s=11: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=15 depth s=12: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=15 depth s=13: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=15 depth s=14: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+RESULT deepgate p=3 n=40 i=15 samples/depth=100: sum_s contrib1=0.08834 sum_s contrib2=0.1482
+=== exit: 0   wall: 6.23 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 3 8218 100 40 18 14
+=== start (UTC): 2026-10-13T17:46:54Z
+TABLE p=3 n=40 gate i=18 depth s=1: P(Z0>0|gate)=0.060 E[M|gate]=0.07637 E[M^2|gate]=0.1808 contrib1=0.01697 contrib2=0.04018
+TABLE p=3 n=40 gate i=18 depth s=2: P(Z0>0|gate)=0.720 E[M|gate]=0.4166 E[M^2|gate]=0.2911 contrib1=0.03086 contrib2=0.02156
+TABLE p=3 n=40 gate i=18 depth s=3: P(Z0>0|gate)=0.950 E[M|gate]=0.4093 E[M^2|gate]=0.2505 contrib1=0.01011 contrib2=0.006185
+TABLE p=3 n=40 gate i=18 depth s=4: P(Z0>0|gate)=0.820 E[M|gate]=0.4921 E[M^2|gate]=0.4148 contrib1=0.00405 contrib2=0.003414
+TABLE p=3 n=40 gate i=18 depth s=5: P(Z0>0|gate)=0.320 E[M|gate]=0.358 E[M^2|gate]=0.4822 contrib1=0.0009821 contrib2=0.001323
+TABLE p=3 n=40 gate i=18 depth s=6: P(Z0>0|gate)=0.190 E[M|gate]=0.615 E[M^2|gate]=2.469 contrib1=0.0005624 contrib2=0.002258
+TABLE p=3 n=40 gate i=18 depth s=7: P(Z0>0|gate)=0.110 E[M|gate]=0.9361 E[M^2|gate]=9.278 contrib1=0.0002854 contrib2=0.002828
+TABLE p=3 n=40 gate i=18 depth s=8: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=18 depth s=9: P(Z0>0|gate)=0.010 E[M|gate]=0.637 E[M^2|gate]=40.58 contrib1=2.158e-05 contrib2=0.001374
+TABLE p=3 n=40 gate i=18 depth s=10: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=18 depth s=11: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=18 depth s=12: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=18 depth s=13: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=18 depth s=14: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+RESULT deepgate p=3 n=40 i=18 samples/depth=100: sum_s contrib1=0.06384 sum_s contrib2=0.07912
+=== exit: 0   wall: 9.5 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 3 8221 100 40 21 14
+=== start (UTC): 2026-10-13T17:47:03Z
+TABLE p=3 n=40 gate i=21 depth s=1: P(Z0>0|gate)=0.380 E[M|gate]=0.2478 E[M^2|gate]=0.2936 contrib1=0.05507 contrib2=0.06524
+TABLE p=3 n=40 gate i=21 depth s=2: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=21 depth s=3: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=21 depth s=4: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=21 depth s=5: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=21 depth s=6: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=21 depth s=7: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=21 depth s=8: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=21 depth s=9: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=21 depth s=10: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=21 depth s=11: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=21 depth s=12: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=21 depth s=13: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=21 depth s=14: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+RESULT deepgate p=3 n=40 i=21 samples/depth=100: sum_s contrib1=0.05507 sum_s contrib2=0.06524
+=== exit: 0   wall: 1.56 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 3 8227 100 40 27 14
+=== start (UTC): 2026-10-13T17:47:05Z
+TABLE p=3 n=40 gate i=27 depth s=1: P(Z0>0|gate)=0.080 E[M|gate]=0.1098 E[M^2|gate]=0.3693 contrib1=0.02441 contrib2=0.08208
+TABLE p=3 n=40 gate i=27 depth s=2: P(Z0>0|gate)=0.660 E[M|gate]=0.3911 E[M^2|gate]=0.3342 contrib1=0.02897 contrib2=0.02475
+TABLE p=3 n=40 gate i=27 depth s=3: P(Z0>0|gate)=1.000 E[M|gate]=0.5554 E[M^2|gate]=0.3301 contrib1=0.01371 contrib2=0.00815
+TABLE p=3 n=40 gate i=27 depth s=4: P(Z0>0|gate)=0.930 E[M|gate]=0.1525 E[M^2|gate]=0.0356 contrib1=0.001255 contrib2=0.000293
+TABLE p=3 n=40 gate i=27 depth s=5: P(Z0>0|gate)=0.820 E[M|gate]=0.2053 E[M^2|gate]=0.06884 contrib1=0.0005632 contrib2=0.0001889
+TABLE p=3 n=40 gate i=27 depth s=6: P(Z0>0|gate)=0.290 E[M|gate]=0.1404 E[M^2|gate]=0.09154 contrib1=0.0001284 contrib2=8.372e-05
+TABLE p=3 n=40 gate i=27 depth s=7: P(Z0>0|gate)=0.110 E[M|gate]=0.1496 E[M^2|gate]=0.2204 contrib1=4.559e-05 contrib2=6.718e-05
+TABLE p=3 n=40 gate i=27 depth s=8: P(Z0>0|gate)=0.050 E[M|gate]=0.2654 E[M^2|gate]=1.541 contrib1=2.697e-05 contrib2=0.0001566
+TABLE p=3 n=40 gate i=27 depth s=9: P(Z0>0|gate)=0.010 E[M|gate]=0.0822 E[M^2|gate]=0.6756 contrib1=2.784e-06 contrib2=2.288e-05
+TABLE p=3 n=40 gate i=27 depth s=10: P(Z0>0|gate)=0.010 E[M|gate]=0.6165 E[M^2|gate]=38.01 contrib1=6.96e-06 contrib2=0.0004291
+TABLE p=3 n=40 gate i=27 depth s=11: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=27 depth s=12: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=27 depth s=13: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=27 depth s=14: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+RESULT deepgate p=3 n=40 i=27 samples/depth=100: sum_s contrib1=0.06912 sum_s contrib2=0.1162
+=== exit: 0   wall: 10.89 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 3 8233 100 40 33 14
+=== start (UTC): 2026-10-13T17:47:16Z
+TABLE p=3 n=40 gate i=33 depth s=1: P(Z0>0|gate)=0.340 E[M|gate]=0.2397 E[M^2|gate]=0.29 contrib1=0.05327 contrib2=0.06444
+TABLE p=3 n=40 gate i=33 depth s=2: P(Z0>0|gate)=0.330 E[M|gate]=0.239 E[M^2|gate]=0.6102 contrib1=0.0177 contrib2=0.0452
+TABLE p=3 n=40 gate i=33 depth s=3: P(Z0>0|gate)=0.210 E[M|gate]=0.8788 E[M^2|gate]=4.098 contrib1=0.0217 contrib2=0.1012
+TABLE p=3 n=40 gate i=33 depth s=4: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=33 depth s=5: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=33 depth s=6: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=33 depth s=7: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=33 depth s=8: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=33 depth s=9: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=33 depth s=10: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=33 depth s=11: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=33 depth s=12: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=33 depth s=13: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=33 depth s=14: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+RESULT deepgate p=3 n=40 i=33 samples/depth=100: sum_s contrib1=0.09267 sum_s contrib2=0.2108
+=== exit: 0   wall: 3.77 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 3 8239 100 40 39 14
+=== start (UTC): 2026-10-13T17:47:20Z
+TABLE p=3 n=40 gate i=39 depth s=1: P(Z0>0|gate)=0.570 E[M|gate]=0.5847 E[M^2|gate]=1.475 contrib1=0.1299 contrib2=0.3278
+TABLE p=3 n=40 gate i=39 depth s=2: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=39 depth s=3: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=39 depth s=4: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=39 depth s=5: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=39 depth s=6: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=39 depth s=7: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=39 depth s=8: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=39 depth s=9: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=39 depth s=10: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=39 depth s=11: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=39 depth s=12: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=39 depth s=13: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=3 n=40 gate i=39 depth s=14: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+RESULT deepgate p=3 n=40 i=39 samples/depth=100: sum_s contrib1=0.1299 sum_s contrib2=0.3278
+=== exit: 0   wall: 3.25 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 5 8310 100 30 10 8
+=== start (UTC): 2026-10-13T17:47:23Z
+TABLE p=5 n=30 gate i=10 depth s=1: P(Z0>0|gate)=0.930 E[M|gate]=0.2555 E[M^2|gate]=0.1338 contrib1=0.04088 contrib2=0.0214
+TABLE p=5 n=30 gate i=10 depth s=2: P(Z0>0|gate)=0.570 E[M|gate]=0.1509 E[M^2|gate]=0.04977 contrib1=0.004827 contrib2=0.001593
+TABLE p=5 n=30 gate i=10 depth s=3: P(Z0>0|gate)=0.580 E[M|gate]=0.5008 E[M^2|gate]=0.4811 contrib1=0.003205 contrib2=0.003079
+TABLE p=5 n=30 gate i=10 depth s=4: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=5 n=30 gate i=10 depth s=5: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=5 n=30 gate i=10 depth s=6: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=5 n=30 gate i=10 depth s=7: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=5 n=30 gate i=10 depth s=8: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+RESULT deepgate p=5 n=30 i=10 samples/depth=100: sum_s contrib1=0.04891 sum_s contrib2=0.02607
+=== exit: 0   wall: 26.23 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 5 8315 100 30 15 8
+=== start (UTC): 2026-10-13T17:47:49Z
+TABLE p=5 n=30 gate i=15 depth s=1: P(Z0>0|gate)=0.770 E[M|gate]=0.3278 E[M^2|gate]=0.2217 contrib1=0.05245 contrib2=0.03547
+TABLE p=5 n=30 gate i=15 depth s=2: P(Z0>0|gate)=1.000 E[M|gate]=0.1254 E[M^2|gate]=0.01769 contrib1=0.004014 contrib2=0.0005661
+TABLE p=5 n=30 gate i=15 depth s=3: P(Z0>0|gate)=0.630 E[M|gate]=0.1187 E[M^2|gate]=0.03302 contrib1=0.0007597 contrib2=0.0002113
+TABLE p=5 n=30 gate i=15 depth s=4: P(Z0>0|gate)=0.130 E[M|gate]=0.09089 E[M^2|gate]=0.08021 contrib1=0.0001163 contrib2=0.0001027
+TABLE p=5 n=30 gate i=15 depth s=5: P(Z0>0|gate)=0.020 E[M|gate]=0.03656 E[M^2|gate]=0.06833 contrib1=9.36e-06 contrib2=1.749e-05
+TABLE p=5 n=30 gate i=15 depth s=6: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=5 n=30 gate i=15 depth s=7: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+TABLE p=5 n=30 gate i=15 depth s=8: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+RESULT deepgate p=5 n=30 i=15 samples/depth=100: sum_s contrib1=0.05735 sum_s contrib2=0.03636
+=== exit: 0   wall: 21.83 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 5 8320 100 30 20 8
+=== start (UTC): 2026-10-13T17:48:11Z
+TABLE p=5 n=30 gate i=20 depth s=1: P(Z0>0|gate)=0.870 E[M|gate]=0.3336 E[M^2|gate]=0.224 contrib1=0.05337 contrib2=0.03583
+TABLE p=5 n=30 gate i=20 depth s=2: P(Z0>0|gate)=1.000 E[M|gate]=0.1694 E[M^2|gate]=0.02974 contrib1=0.005421 contrib2=0.0009516
+TABLE p=5 n=30 gate i=20 depth s=3: P(Z0>0|gate)=1.000 E[M|gate]=0.155 E[M^2|gate]=0.02791 contrib1=0.000992 contrib2=0.0001786
+TABLE p=5 n=30 gate i=20 depth s=4: P(Z0>0|gate)=0.790 E[M|gate]=0.1917 E[M^2|gate]=0.0632 contrib1=0.0002454 contrib2=8.09e-05
+TABLE p=5 n=30 gate i=20 depth s=5: P(Z0>0|gate)=0.370 E[M|gate]=0.2687 E[M^2|gate]=0.2802 contrib1=6.878e-05 contrib2=7.173e-05
+TABLE p=5 n=30 gate i=20 depth s=6: P(Z0>0|gate)=0.060 E[M|gate]=0.1282 E[M^2|gate]=0.3104 contrib1=6.566e-06 contrib2=1.589e-05
+TABLE p=5 n=30 gate i=20 depth s=7: P(Z0>0|gate)=0.010 E[M|gate]=0.08185 E[M^2|gate]=0.67 contrib1=8.382e-07 contrib2=6.861e-06
+TABLE p=5 n=30 gate i=20 depth s=8: P(Z0>0|gate)=0.000 E[M|gate]=0 E[M^2|gate]=0 contrib1=0 contrib2=0
+RESULT deepgate p=5 n=30 i=20 samples/depth=100: sum_s contrib1=0.06011 sum_s contrib2=0.03714
+=== exit: 0   wall: 26.16 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 5 8325 100 30 25 8
+=== start (UTC): 2026-10-13T17:48:37Z
+TABLE p=5 n=30 gate i=25 depth s=1: P(Z0>0|gate)=0.800 E[M|gate]=0.2408 E[M^2|gate]=0.1354 contrib1=0.03852 contrib2=0.02167
+TABLE p=5 n=30 gate i=25 depth s=2: P(Z0>0|gate)=1.000 E[M|gate]=0.1914 E[M^2|gate]=0.03702 contrib1=0.006124 contrib2=0.001185
+TABLE p=5 n=30 gate i=25 depth s=3: P(Z0>0|gate)=1.000 E[M|gate]=0.2077 E[M^2|gate]=0.04394 contrib1=0.001329 contrib2=0.0002812
+TABLE p=5 n=30 gate i=25 depth s=4: P(Z0>0|gate)=1.000 E[M|gate]=0.203 E[M^2|gate]=0.04426 contrib1=0.0002598 contrib2=5.665e-05
+TABLE p=5 n=30 gate i=25 depth s=5: P(Z0>0|gate)=0.860 E[M|gate]=0.1919 E[M^2|gate]=0.05768 contrib1=4.913e-05 contrib2=1.477e-05
+TABLE p=5 n=30 gate i=25 depth s=6: P(Z0>0|gate)=0.420 E[M|gate]=0.1924 E[M^2|gate]=0.1055 contrib1=9.849e-06 contrib2=5.401e-06
+TABLE p=5 n=30 gate i=25 depth s=7: P(Z0>0|gate)=0.030 E[M|gate]=0.0523 E[M^2|gate]=0.09151 contrib1=5.355e-07 contrib2=9.37e-07
+TABLE p=5 n=30 gate i=25 depth s=8: P(Z0>0|gate)=0.020 E[M|gate]=0.1592 E[M^2|gate]=1.267 contrib1=3.26e-07 contrib2=2.594e-06
+RESULT deepgate p=5 n=30 i=25 samples/depth=100: sum_s contrib1=0.04629 sum_s contrib2=0.02321
+=== exit: 0   wall: 56.55 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 5 8330 100 30 30 8
+=== start (UTC): 2026-10-13T17:49:34Z
+TABLE p=5 n=30 gate i=30 depth s=1: P(Z0>0|gate)=0.870 E[M|gate]=0.1598 E[M^2|gate]=0.03854 contrib1=0.02557 contrib2=0.006167
+TABLE p=5 n=30 gate i=30 depth s=2: P(Z0>0|gate)=0.780 E[M|gate]=0.7197 E[M^2|gate]=0.682 contrib1=0.02303 contrib2=0.02182
+TABLE p=5 n=30 gate i=30 depth s=3: P(Z0>0|gate)=1.000 E[M|gate]=0.5906 E[M^2|gate]=0.3554 contrib1=0.00378 contrib2=0.002274
+TABLE p=5 n=30 gate i=30 depth s=4: P(Z0>0|gate)=1.000 E[M|gate]=0.6737 E[M^2|gate]=0.4606 contrib1=0.0008623 contrib2=0.0005895
+TABLE p=5 n=30 gate i=30 depth s=5: P(Z0>0|gate)=1.000 E[M|gate]=0.6953 E[M^2|gate]=0.5334 contrib1=0.000178 contrib2=0.0001365
+TABLE p=5 n=30 gate i=30 depth s=6: P(Z0>0|gate)=0.860 E[M|gate]=0.6958 E[M^2|gate]=0.7155 contrib1=3.562e-05 contrib2=3.663e-05
+TABLE p=5 n=30 gate i=30 depth s=7: P(Z0>0|gate)=0.370 E[M|gate]=0.7731 E[M^2|gate]=2.145 contrib1=7.916e-06 contrib2=2.197e-05
+TABLE p=5 n=30 gate i=30 depth s=8: P(Z0>0|gate)=0.080 E[M|gate]=0.6821 E[M^2|gate]=6.462 contrib1=1.397e-06 contrib2=1.323e-05
+RESULT deepgate p=5 n=30 i=30 samples/depth=100: sum_s contrib1=0.05346 sum_s contrib2=0.03106
+=== exit: 0   wall: 136.58 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 3 8439 3000 40 39 1
+=== start (UTC): 2026-10-13T17:57:16Z
+TABLE p=3 n=40 gate i=39 depth s=1: P(Z0>0|gate)=0.492 E[M|gate]=0.3396 E[M^2|gate]=0.562 contrib1=0.07547 contrib2=0.1249
+RESULT deepgate p=3 n=40 i=39 samples/depth=3000: sum_s contrib1=0.07547 sum_s contrib2=0.1249
+=== exit: 0   wall: 51.34 s
+=== command: python3 code/round3/check_R3M/ck_deepgate_M2.py 3 8433 1000 40 33 3
+=== start (UTC): 2026-10-13T17:58:07Z
+TABLE p=3 n=40 gate i=33 depth s=1: P(Z0>0|gate)=0.392 E[M|gate]=0.2408 E[M^2|gate]=0.3384 contrib1=0.05351 contrib2=0.07521
+TABLE p=3 n=40 gate i=33 depth s=2: P(Z0>0|gate)=0.311 E[M|gate]=0.1917 E[M^2|gate]=0.1642 contrib1=0.0142 contrib2=0.01216
+TABLE p=3 n=40 gate i=33 depth s=3: P(Z0>0|gate)=0.159 E[M|gate]=0.6062 E[M^2|gate]=2.612 contrib1=0.01497 contrib2=0.0645
+RESULT deepgate p=3 n=40 i=33 samples/depth=1000: sum_s contrib1=0.08268 sum_s contrib2=0.1519
+=== exit: 0   wall: 31.52 s

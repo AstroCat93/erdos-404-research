@@ -1,0 +1,35 @@
+=== command: python3 q2d_test.py 3 51 300 7 5 18
+=== start (UTC): 2026-10-14T00:56:32Z
+  #2D blocks=0: tests=57 violations=0 max P/bound=0.208333
+  #2D blocks=1: tests=206 violations=0 max P/bound=0.632231
+  #2D blocks=2: tests=37 violations=0 max P/bound=0.370370
+Q2D p=3 seed=51 ctrl=0 kmax=7 fmax=5 tmax=18: tests=300 violations=0
+=== exit: 0   wall: 2.211097136 s
+=== command: python3 q2d_test.py 5 52 200 5 3 25
+=== start (UTC): 2026-10-14T00:56:35Z
+  #2D blocks=0: tests=75 violations=0 max P/bound=0.976415
+  #2D blocks=1: tests=109 violations=0 max P/bound=0.495283
+  #2D blocks=2: tests=16 violations=0 max P/bound=0.209272
+Q2D p=5 seed=52 ctrl=0 kmax=5 fmax=3 tmax=25: tests=200 violations=0
+=== exit: 0   wall: 1.383345336 s
+=== command: python3 q2d_test.py 7 53 80 4 3 28
+=== start (UTC): 2026-10-14T00:56:36Z
+  #2D blocks=0: tests=42 violations=0 max P/bound=0.994103
+  #2D blocks=1: tests=34 violations=0 max P/bound=0.871142
+  #2D blocks=2: tests=4 violations=0 max P/bound=0.784010
+Q2D p=7 seed=53 ctrl=0 kmax=4 fmax=3 tmax=28: tests=80 violations=0
+=== exit: 0   wall: 1.289017310 s
+=== command: python3 q2d_test.py 3 54 150 7 5 18 1
+=== start (UTC): 2026-10-14T00:56:37Z
+  #2D blocks=0: tests=33 violations=0 max P/bound=0.181818
+  #2D blocks=1: tests=103 violations=6 max P/bound=3.795455
+  #2D blocks=2: tests=14 violations=3 max P/bound=9.681818
+Q2D p=3 seed=54 ctrl=1 kmax=7 fmax=5 tmax=18: tests=150 violations=9
+=== exit: 0   wall: 1.256166982 s
+=== command: python3 q2d_test.py 5 55 100 5 3 25 1
+=== start (UTC): 2026-10-14T00:56:38Z
+  #2D blocks=0: tests=36 violations=1 max P/bound=2.411213
+  #2D blocks=1: tests=53 violations=14 max P/bound=6.693838
+  #2D blocks=2: tests=11 violations=7 max P/bound=23.830078
+Q2D p=5 seed=55 ctrl=1 kmax=5 fmax=3 tmax=25: tests=100 violations=22
+=== exit: 0   wall: .796786170 s

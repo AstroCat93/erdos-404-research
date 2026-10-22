@@ -1,0 +1,54 @@
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w2_concrete.py 3 41 30 20 5 4 12 6 3
+## start 2026-10-14T02:12:10Z
+RESULT w2_concrete p=3 n=20 H=5 H2=4 samples=30 (tries 332): bridge fails 0/82296; slope-inheritance fails 0; full-population fails 0/6; W1 fails 0; W2 identity fails 0; W2 bound fails 0; W3a fails 0; W3b fails 0/1184; W4~ fails 0/120 (max ratio 0.1573); W4 sharp fails 0/120 (max ratio 0.4552); W5b fails 0; W5c fails 0/8 | CONTROL uniform q with m=0: M_N2 non-constant on some C' in 8/8
+## exit 0, wall 14 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w2_concrete.py 3 42 20 26 6 5 12 7 2
+## start 2026-10-14T02:12:24Z
+## exit 143, wall 40 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w2_concrete.py 3 41 30 20 5 4 12 6 3
+## start 2026-10-14T02:13:42Z
+RESULT w2_concrete p=3 n=20 H=5 H2=4 samples=30 (tries 332): bridge fails 0/82296; slope-inheritance fails 0; full-population fails 0/6; W1 fails 0; W2 identity fails 0; W2 bound fails 0; W3a fails 0; W3b fails 0/1184; W4~ fails 0/120 (max ratio 0.1573); W4 sharp fails 0/120 (max ratio 0.4552); W5b fails 0; W5c fails 0/8 | CONTROL uniform q with m=0: M_N2 non-constant on some C' in 8/8
+## exit 0, wall 13 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w2_concrete.py 3 42 20 26 6 5 12 7 2
+## start 2026-10-14T02:13:55Z
+RESULT w2_concrete p=3 n=26 H=6 H2=5 samples=20 (tries 221): bridge fails 0/443232; slope-inheritance fails 0; full-population fails 0/4; W1 fails 0; W2 identity fails 0; W2 bound fails 0; W3a fails 0; W3b fails 0/1928; W4~ fails 0/80 (max ratio 0.0280); W4 sharp fails 0/80 (max ratio 0.2076); W5b fails 0; W5c fails 0/0 | CONTROL uniform q with m=0: M_N2 non-constant on some C' in 0/0
+## exit 0, wall 71 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w2_concrete.py 3 43 20 32 6 6 10 7 0
+## start 2026-10-14T02:15:06Z
+RESULT w2_concrete p=3 n=32 H=6 H2=6 samples=20 (tries 156): bridge fails 0/427680; slope-inheritance fails 0; full-population fails 0/0; W1 fails 0; W2 identity fails 0; W2 bound fails 0; W3a fails 0; W3b fails 0/1668; W4~ fails 0/80 (max ratio 0.0289); W4 sharp fails 0/80 (max ratio 0.4252); W5b fails 0; W5c fails 0/0 | CONTROL uniform q with m=0: M_N2 non-constant on some C' in 0/0
+## exit 0, wall 99 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w2_concrete.py 5 51 20 20 5 5 10 5 2
+## start 2026-10-14T02:16:45Z
+RESULT w2_concrete p=5 n=20 H=5 H2=5 samples=20 (tries 66): bridge fails 0/18000; slope-inheritance fails 0; full-population fails 0/4; W1 fails 0; W2 identity fails 0; W2 bound fails 0; W3a fails 0; W3b fails 0/320; W4~ fails 0/80 (max ratio 0.0257); W4 sharp fails 0/80 (max ratio 0.3496); W5b fails 0; W5c fails 0/10 | CONTROL uniform q with m=0: M_N2 non-constant on some C' in 10/10
+## exit 0, wall 11 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w2_concrete.py 5 52 15 25 6 5 10 5 0
+## start 2026-10-14T02:16:56Z
+RESULT w2_concrete p=5 n=25 H=6 H2=5 samples=15 (tries 58): bridge fails 0/17500; slope-inheritance fails 0; full-population fails 0/0; W1 fails 0; W2 identity fails 0; W2 bound fails 0; W3a fails 0; W3b fails 0/424; W4~ fails 0/60 (max ratio 0.0224); W4 sharp fails 0/60 (max ratio 0.3424); W5b fails 0; W5c fails 0/10 | CONTROL uniform q with m=0: M_N2 non-constant on some C' in 10/10
+## exit 0, wall 16 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w2_concrete.py 5 53 10 30 7 6 8 5 0
+## start 2026-10-14T02:17:12Z
+RESULT w2_concrete p=5 n=30 H=7 H2=6 samples=10 (tries 40): bridge fails 0/23200; slope-inheritance fails 0; full-population fails 0/0; W1 fails 0; W2 identity fails 0; W2 bound fails 0; W3a fails 0; W3b fails 0/1248; W4~ fails 0/40 (max ratio 0.0741); W4 sharp fails 0/40 (max ratio 0.4263); W5b fails 0; W5c fails 0/3 | CONTROL uniform q with m=0: M_N2 non-constant on some C' in 3/3
+## exit 0, wall 73 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w2_concrete.py 7 71 12 28 7 7 6 3 0
+## start 2026-10-14T02:18:25Z
+RESULT w2_concrete p=7 n=28 H=7 H2=7 samples=12 (tries 44): bridge fails 0/7056; slope-inheritance fails 0; full-population fails 0/0; W1 fails 0; W2 identity fails 0; W2 bound fails 0; W3a fails 0; W3b fails 0/276; W4~ fails 0/48 (max ratio 0.0119); W4 sharp fails 0/48 (max ratio 0.4240); W5b fails 0; W5c fails 0/11 | CONTROL uniform q with m=0: M_N2 non-constant on some C' in 11/11
+## exit 0, wall 35 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w2_concrete.py 7 72 8 35 8 7 5 4 0
+## start 2026-10-14T02:19:00Z
+RESULT w2_concrete p=7 n=35 H=8 H2=7 samples=8 (tries 11): bridge fails 0/6860; slope-inheritance fails 0; full-population fails 0/0; W1 fails 0; W2 identity fails 0; W2 bound fails 0; W3a fails 0; W3b fails 0/564; W4~ fails 0/32 (max ratio 0.0468); W4 sharp fails 0/32 (max ratio 1.0000); W5b fails 0; W5c fails 0/7 | CONTROL uniform q with m=0: M_N2 non-constant on some C' in 7/7
+## exit 0, wall 65 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w2_concrete.py 7 73 8 21 7 7 6 3 0
+## start 2026-10-14T02:20:05Z
+RESULT w2_concrete p=7 n=21 H=7 H2=7 samples=8 (tries 32): bridge fails 0/4704; slope-inheritance fails 0; full-population fails 0/0; W1 fails 0; W2 identity fails 0; W2 bound fails 0; W3a fails 0; W3b fails 0/180; W4~ fails 0/32 (max ratio 0.0149); W4 sharp fails 0/32 (max ratio 0.4102); W5b fails 0; W5c fails 0/8 | CONTROL uniform q with m=0: M_N2 non-constant on some C' in 8/8
+## exit 0, wall 20 s
+

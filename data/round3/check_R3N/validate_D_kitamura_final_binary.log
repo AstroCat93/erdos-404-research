@@ -1,0 +1,4 @@
+# regression after adding -p: final dfsD.c (sha256 84b799efc172e63f...); cmd: nice -n 10 python3 -I code/round3/check_R3N/validate_D.py kitamura data/round3/S0/kitamura_excerpts/p2_exact_table_1_256.csv /tmp/r3_check_R3N/dfsD code/round3/check_R3N/verify_w.py
+kitamura table: odd rows 128 (formula), even rows 128 (dfsD both directions), witnesses verified 128, failures 0, time 11.5s
+ALL_OK
+RESULT a=34 K=18445 reachable=0 steps=95198258 alive_even=15866376 surv=691378 updates=2807618 windows=145 faccheck=19 time=0.8s

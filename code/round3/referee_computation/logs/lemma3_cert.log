@@ -1,0 +1,9 @@
+# cmd: nice -n 10 python3 -I code/round3/referee_computation/lemma3_cert.py
+(a) x=0 mod 8   modulus 2^4, n0=6: qualifying (x,e) pairs=4 violations=0  second representative agrees=True
+(b) x=2 mod 16  modulus 2^7, n0=8: qualifying (x,e) pairs=32 violations=0  second representative agrees=True
+(c) x=6 mod 16  modulus 2^11, n0=10: qualifying (x,e) pairs=128 violations=0  second representative agrees=True
+(d) x=10 mod 16  modulus 2^7, n0=6: qualifying (x,e) pairs=0 violations=0  second representative agrees=True
+(e) x=4 mod 8   modulus 2^4, n0=4: qualifying (x,e) pairs=0 violations=0  second representative agrees=True
+CERTIFICATE PASS
+consequence test (200 random x per class, all alive paths to n=24): {'C0': 11296, 'C2': 20674, 'C6': 7883, '10+16Z': 0, '4+8Z': 0} failures 0
+time 0.2s

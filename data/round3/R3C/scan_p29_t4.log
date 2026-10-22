@@ -1,0 +1,41 @@
+# command: env R3C_BIN=/tmp/r3_R3C/bin python3 code/round3/R3C/scan_r3.py 29 4 2 58
+# cwd: /home/user/erdos-404-research  host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz
+# start: 2026-10-13 06:15:21 UTC
+# scan p=29 t=4 H=2..58 rho0=6
+p=29 t=4 H=2 c=0 M=4: FAILS by counting (2^2 < 29^4)
+p=29 t=4 H=3 c=0 M=4: FAILS by counting (2^3 < 29^4)
+p=29 t=4 H=4 c=0 M=4: FAILS by counting (2^4 < 29^4)
+p=29 t=4 H=5 c=0 M=4: FAILS by counting (2^5 < 29^4)
+p=29 t=4 H=6 c=0 M=4: FAILS by counting (2^6 < 29^4)
+p=29 t=4 H=7 c=0 M=4: FAILS by counting (2^7 < 29^4)
+p=29 t=4 H=8 c=0 M=4: FAILS by counting (2^8 < 29^4)
+p=29 t=4 H=9 c=0 M=4: FAILS by counting (2^9 < 29^4)
+p=29 t=4 H=10 c=0 M=4: FAILS by counting (2^10 < 29^4)
+p=29 t=4 H=11 c=0 M=4: FAILS by counting (2^11 < 29^4)
+p=29 t=4 H=12 c=0 M=4: FAILS by counting (2^12 < 29^4)
+p=29 t=4 H=13 c=0 M=4: FAILS by counting (2^13 < 29^4)
+p=29 t=4 H=14 c=0 M=4: FAILS by counting (2^14 < 29^4)
+p=29 t=4 H=15 c=0 M=4: FAILS by counting (2^15 < 29^4)
+p=29 t=4 H=16 c=0 M=4: FAILS by counting (2^16 < 29^4)
+p=29 t=4 H=17 c=0 M=4: FAILS by counting (2^17 < 29^4)
+p=29 t=4 H=18 c=0 M=4: FAILS by counting (2^18 < 29^4)
+p=29 t=4 H=19 c=0 M=4: FAILS by counting (2^19 < 29^4)
+p=29 t=4 H=20 c=0 M=4 k=0: FAILS  class K=1: A missing=217553, C miss=217553 [AGREE]
+    A: A p=29 t=4 H=20 c=0 M=4 K=1 missing=217553 NOT_COVERED [0.00s]
+    C: C p=29 t=4 H=20 M=4 K=1 Kmodpc=0 miss=217553 UNCOVERED 0.00s
+p=29 t=4 H=21 c=0 M=4 k=0: FAILS  class K=1: A missing=68067, C miss=68067 [AGREE]
+    A: A p=29 t=4 H=21 c=0 M=4 K=1 missing=68067 NOT_COVERED [0.00s]
+    C: C p=29 t=4 H=21 M=4 K=1 Kmodpc=0 miss=68067 UNCOVERED 0.00s
+p=29 t=4 H=22 c=0 M=4 k=0: FAILS  class K=1: A missing=5475, C miss=5475 [AGREE]
+    A: A p=29 t=4 H=22 c=0 M=4 K=1 missing=5475 NOT_COVERED [0.00s]
+    C: C p=29 t=4 H=22 M=4 K=1 Kmodpc=0 miss=5475 UNCOVERED 0.00s
+p=29 t=4 H=23 c=0 M=4 k=0: FAILS  class K=1: A missing=30, C miss=30 [AGREE]
+    A: A p=29 t=4 H=23 c=0 M=4 K=1 missing=30 NOT_COVERED [0.00s]
+    C: C p=29 t=4 H=23 M=4 K=1 Kmodpc=0 miss=30 UNCOVERED 0.00s
+p=29 t=4 H=24 c=0 M=4 k=0: HOLDS
+    SUMMARY A p=29 t=4 H=24 c=0 M=4 k=0 mode=all nK=1 fail=0 worst_missing=0 ALL_COVERED total=0.0s
+    END C p=29 t=4 H=24 nK=1 bad=0 ALL_COVERED 0.0s
+    A p=29 t=4 H=24 c=0 M=4 K=1 missing=0 COVERED [0.00s]
+    C p=29 t=4 H=24 M=4 K=3 Kmodpc=0 miss=0 COVERED 0.00s
+# wall=0.209 s user=0.196 s sys=0.020 s
+# end: 2026-10-13 06:15:21 UTC

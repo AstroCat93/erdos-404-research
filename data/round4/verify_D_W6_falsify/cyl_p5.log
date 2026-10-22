@@ -1,0 +1,151 @@
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_D_W6_falsify && nice -n 10 python3 t_cyl.py 5 20 5 5 201 30 rand,gate_hist,gate_win,near2,tight - 1
+# start 2026-10-14T03:38:48Z
+p=5 n=20 H=5 H2=5 seed=201 ncyl=30 kinds=['rand', 'gate_hist', 'gate_win', 'near2', 'tight'] psub=None kextra=1 maxcombos=1000000000
+cylinders: 24 attempts: 3476 kinds: {'gate_hist': 6, 'rand': 6, 'gate_win': 6, 'tight': 6}
+cylinder table (kind, m, D, D', M_N', #alive_all, #P0_all, #P lines, #grandchildren total, m(W;D'), complete):
+   ('gate_hist', 5, 1, 1, 2, 128, 128, 128, 655360, 0.0, True)
+   ('gate_hist', 6, 1, 1, 3, 18, 18, 18, 92160, 0.5, False)
+   ('gate_hist', 6, 1, 1, 3, 14, 14, 14, 71680, 0.0, True)
+   ('gate_hist', 5, 1, 1, 2, 102, 55, 55, 281600, 0.0, True)
+   ('gate_hist', 5, 1, 1, 2, 104, 104, 104, 532480, 0.0, True)
+   ('rand', 5, 1, 1, 2, 224, 164, 164, 839680, 0.0, True)
+   ('gate_win', 5, 1, 2, 2, 254, 254, 254, 260096, 3.4545454545454546, False)
+   ('rand', 5, 1, 1, 2, 76, 36, 36, 184320, 0.0, True)
+   ('gate_hist', 5, 1, 1, 2, 28, 28, 28, 143360, 0.0, True)
+   ('rand', 6, 1, 1, 3, 18, 8, 8, 40960, 1.0, False)
+   ('rand', 6, 1, 1, 3, 15, 5, 5, 25600, 0.0, True)
+   ('rand', 5, 1, 1, 2, 84, 56, 56, 286720, 1.0, False)
+   ('rand', 5, 1, 1, 2, 76, 76, 76, 389120, 0.5, False)
+   ('gate_win', 5, 1, 2, 2, 274, 274, 274, 280576, 3.4545454545454546, False)
+   ('gate_win', 5, 1, 2, 2, 310, 310, 310, 317440, 2.8598130841121496, False)
+   ('tight', 5, 1, 2, 2, 278, 278, 278, 284672, 3.0, False)
+   ('gate_win', 5, 1, 2, 2, 392, 392, 392, 401408, 2.8598130841121496, False)
+   ('gate_win', 5, 1, 2, 2, 392, 392, 392, 401408, 2.8598130841121496, False)
+   ('gate_win', 5, 1, 2, 2, 308, 308, 308, 315392, 2.8598130841121496, False)
+   ('tight', 5, 1, 2, 2, 323, 323, 323, 330752, 3.4545454545454546, False)
+   ('tight', 5, 1, 2, 2, 336, 336, 336, 344064, 3.0, False)
+   ('tight', 5, 1, 2, 2, 341, 341, 341, 349184, 3.4545454545454546, False)
+   ('tight', 5, 1, 2, 2, 272, 272, 272, 278528, 3.0, False)
+   ('tight', 5, 1, 2, 2, 219, 219, 219, 224256, 3.4545454545454546, False)
+checks:
+  Lemma 2(a) alive set at n identical at sampled x' (BFS): checks 24 failures 0
+  Lemma 2(a) parents alive/slope constant on C: checks 24 failures 0
+  M_N constant on C': checks 5904 failures 0
+  [control] NC1 q varying with C' inside C: E_C[M_N]=M_n (control, failures expected): checks 24 failures 24
+  [control] NC2 sharp form with varying q' (control, failures expected): checks 2520 failures 89
+  [control] NC3 W3(b) per xi with u instead of u^{-1}: checks 4704 failures 234
+  [control] NC4 W4 with eps~ at level K-1 (control, failures expected): checks 24 failures 24
+  W1 step1 E_C'[M_N']=M_N(C'): checks 5904 failures 0
+  W1(a) children of slope-0 parents have slope 0: checks 24 failures 0
+  W1(a) children of slope>0 parents have slope>0: checks 24 failures 0
+  W1(a) grandchildren: slope 0 iff line slope 0: checks 24 failures 0
+  W1b E_C[M_N]=M_n: checks 5904 failures 0
+  W2 bound Var <= M_n^2 chi^2_q: checks 840 failures 0
+  W2 equality for a single parent: checks 168 failures 0
+  W2 identity (exact Parseval form): checks 840 failures 0
+  W2 literal Fourier form (float): checks 195 failures 0
+  W2 pointwise child mass (Prop B(i) weighted): checks 840 failures 0
+  W3 identity sum_{xi!=0} F^q = eps~ (level k): checks 1344 failures 0
+  W3(a) E_C Psi(xi)=0 (child-target mass flat in s): checks 1344 failures 0
+  W3(b) per xi (float64 FFT, rel. tol 1e-9): checks 18816 failures 0
+  W3(b) summed over xi (exact): checks 1344 failures 0
+  W3(b) summed: equality for a single parent: checks 336 failures 0
+  W4 LHS >= 0 (E_C Var_{C'}): checks 5880 failures 0
+  W4 adapted: LHS <= eps~^q M_n^2: checks 5880 failures 0
+  W4 equality: single parent and point-mass q': checks 504 failures 0
+  W4 sharp: Fourier form = composite-collision form (float): checks 522 failures 0
+  W4 sharp: LHS <= eps^{q,q'} M_n^2: checks 3360 failures 0
+  W5 m=0 iff a complete class exists: checks 24 failures 0
+  W5(a) eps~^q >= m (all point masses): checks 768 failures 0
+  W5(a) eps~^q >= m (gradient-descent minimiser): checks 72 failures 0
+  W5(a) eps~^q >= m (perturbed q*): checks 240 failures 0
+  W5(a) eps~^q >= m (random): checks 240 failures 0
+  W5(a) eps~^q >= m(W;D'): checks 168 failures 0
+  W5(b) eps~^{q*} = m(W;D'): checks 24 failures 0
+  W5(c) complete coset + q*: LHS = 0: checks 280 failures 0
+  W5(c) complete coset + q*: M_N' constant on every C': checks 280 failures 0
+  [control] control: complete coset, q in {unif, rand}: count of cases with M_N' constant on every C': checks 96 failures 0
+  eps^{q,q'} <= eps~^q: checks 3360 failures 0
+  locality: alive structure at N, N' depends on w mod p^Ken only: checks 24 failures 0
+max ratios:
+  W2 Var/bound: 1  (exact 1)
+  W3(b) per-xi LHS/RHS (float): 1
+  W3(b) summed LHS/RHS: 1  (exact 1)
+  W4 adapted LHS/RHS: 1  (exact 1)
+  W4 sharp LHS/RHS: 1  (exact 1)
+min ratios: {'W5 min over descent of eps~/m (>=1 expected)': 1.0}
+exact equalities: {'W5 descent reached eps~=0 when m=0': 0, 'W4 single+point equality': 504}
+control failure example NC3 W3(b) per xi with u instead of u^{-1} (('gate_hist', 319411, 5, 1, 1, 'single', 'unif', 'unif'), 2, 1, np.float64(0.0455073877310806), 0.020506183136414217)
+control failure example NC3 W3(b) per xi with u instead of u^{-1} (('gate_hist', 319411, 5, 1, 1, 'single', 'unif', 'unif'), 2, 2, np.float64(0.38913471662507804), 0.000497519354070174)
+control failure example NC3 W3(b) per xi with u instead of u^{-1} (('gate_hist', 319411, 5, 1, 1, 'single', 'unif', 'unif'), 2, 6, np.float64(0.5589873359946885), 0.02926976907603444)
+RESULT OK core_failures=0 time=72.7s
+# exit 0  wall 72 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_D_W6_falsify && nice -n 10 python3 t_cyl.py 5 25 5 5 202 10 rand,gate_hist,gate_win,tight 60 1 20
+# start 2026-10-14T03:40:00Z
+p=5 n=25 H=5 H2=5 seed=202 ncyl=10 kinds=['rand', 'gate_hist', 'gate_win', 'tight'] psub=60 kextra=1 maxcombos=20 full_children=False
+cylinders: 9 attempts: 3075 kinds: {'rand': 3, 'gate_win': 3, 'gate_hist': 3}
+cylinder table (kind, m, D, D', M_N', #alive_all, #P0_all, #P lines, #grandchildren total, m(W;D'), complete):
+   ('rand', 6, 1, 1, 2, 582, 323, 60, 307200, 0.0, True)
+   ('gate_win', 6, 1, 2, 2, 536, 536, 60, 307200, 3.1253263707571803, False)
+   ('rand', 6, 1, 1, 2, 558, 558, 60, 307200, 0.0, True)
+   ('gate_win', 6, 2, 1, 2, 1657, 1657, 60, 307200, 1.7857142857142858, False)
+   ('gate_hist', 7, 1, 1, 3, 182, 182, 60, 307200, 0.0, True)
+   ('rand', 6, 2, 1, 2, 2107, 2107, 60, 307200, 1.7857142857142858, False)
+   ('gate_hist', 6, 1, 2, 2, 1344, 1344, 60, 307200, 2.835702341137124, False)
+   ('gate_hist', 6, 1, 1, 2, 392, 139, 60, 307200, 0.0, True)
+   ('gate_win', 6, 1, 2, 2, 1028, 648, 60, 307200, 2.8598130841121496, False)
+checks:
+  Lemma 2(a) alive set at n identical at sampled x' (BFS): checks 9 failures 0
+  Lemma 2(a) parents alive/slope constant on C: checks 9 failures 0
+  M_N constant on C': checks 1269 failures 0
+  [control] NC1 q varying with C' inside C: E_C[M_N]=M_n (control, failures expected): checks 9 failures 9
+  [control] NC2 sharp form with varying q' (control, failures expected): checks 540 failures 31
+  [control] NC3 W3(b) per xi with u instead of u^{-1}: checks 2164 failures 352
+  [control] NC4 W4 with eps~ at level K-1 (control, failures expected): checks 9 failures 9
+  W1 step1 E_C'[M_N']=M_N(C'): checks 1269 failures 0
+  W1(a) children of slope-0 parents have slope 0: checks 9 failures 0
+  W1(a) children of slope>0 parents have slope>0: checks 9 failures 0
+  W1(a) grandchildren: slope 0 iff line slope 0: checks 9 failures 0
+  W1b E_C[M_N]=M_n: checks 1269 failures 0
+  W2 bound Var <= M_n^2 chi^2_q: checks 180 failures 0
+  W2 equality for a single parent: checks 63 failures 0
+  W2 identity (exact Parseval form): checks 180 failures 0
+  W2 literal Fourier form (float): checks 48 failures 0
+  W2 pointwise child mass (Prop B(i) weighted): checks 180 failures 0
+  W3 identity sum_{xi!=0} F^q = eps~ (level k): checks 345 failures 0
+  W3(a) E_C Psi(xi)=0 (child-target mass flat in s): checks 345 failures 0
+  W3(b) per xi (float64 FFT, rel. tol 1e-9): checks 10220 failures 0
+  W3(b) summed over xi (exact): checks 345 failures 0
+  W3(b) summed: equality for a single parent: checks 147 failures 0
+  W4 LHS >= 0 (E_C Var_{C'}): checks 1260 failures 0
+  W4 adapted: LHS <= eps~^q M_n^2: checks 1260 failures 0
+  W4 equality: single parent and point-mass q': checks 189 failures 0
+  W4 sharp: Fourier form = composite-collision form (float): checks 82 failures 0
+  W4 sharp: LHS <= eps^{q,q'} M_n^2: checks 720 failures 0
+  W5 m=0 iff a complete class exists: checks 9 failures 0
+  W5(a) eps~^q >= m (all point masses): checks 288 failures 0
+  W5(a) eps~^q >= m (gradient-descent minimiser): checks 27 failures 0
+  W5(a) eps~^q >= m (perturbed q*): checks 90 failures 0
+  W5(a) eps~^q >= m (random): checks 90 failures 0
+  W5(a) eps~^q >= m(W;D'): checks 63 failures 0
+  W5(b) eps~^{q*} = m(W;D'): checks 9 failures 0
+  W5(c) complete coset + q*: LHS = 0: checks 140 failures 0
+  W5(c) complete coset + q*: M_N' constant on every C': checks 140 failures 0
+  [control] control: complete coset, q in {unif, rand}: count of cases with M_N' constant on every C': checks 18 failures 0
+  eps^{q,q'} <= eps~^q: checks 720 failures 0
+  locality: alive structure at N, N' depends on w mod p^Ken only: checks 9 failures 0
+max ratios:
+  W2 Var/bound: 1  (exact 1)
+  W3(b) per-xi LHS/RHS (float): 1
+  W3(b) summed LHS/RHS: 1  (exact 1)
+  W4 adapted LHS/RHS: 1  (exact 1)
+  W4 sharp LHS/RHS: 1  (exact 1)
+min ratios: {'W5 min over descent of eps~/m (>=1 expected)': 1.0}
+exact equalities: {'W5 descent reached eps~=0 when m=0': 0, 'W4 single+point equality': 189}
+control failure example NC2 sharp form with varying q' (control, failures expected) (('rand', 424005, 6, 1, 1, 'single', 'unif', 'vrand'),)
+control failure example NC2 sharp form with varying q' (control, failures expected) (('rand', 424005, 6, 1, 1, 'single', 'rand', 'vrand'),)
+control failure example NC2 sharp form with varying q' (control, failures expected) (('rand', 424005, 6, 1, 1, 'single', 'sparse', 'vrand'),)
+RESULT OK core_failures=0 time=20.2s
+# exit 0  wall 21 s

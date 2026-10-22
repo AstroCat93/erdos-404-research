@@ -1,0 +1,49 @@
+### command: python3 ladder_vs_fixed.py 7 21 400 21 1.25 1.0 30 8
+### start: 2026-10-13T23:10:59Z
+RESULT p=7 n0=21 r=1.25 C'=1.0: 400 samples, no ladder point within 30: 0
+ROW fixed : n=400, K>8 (eps not computed, counted as +inf): 0; median 0.0161, 90% 0.198, 99% 2.28, max 11.2; mean over computed 0.111; P(eps>0.01) 0.743, P(eps>0.05) 0.172
+ROW ladder: n=400, K>8 (eps not computed, counted as +inf): 0; median 0.0143, 90% 0.0161, 99% 0.12, max 0.282; mean over computed 0.0174; P(eps>0.01) 0.680, P(eps>0.05) 0.060
+### exit: 0
+### wall: .289045803 s
+### command: python3 ladder_vs_fixed.py 7 28 400 28 1.25 1.0 30 8
+### start: 2026-10-13T23:11:00Z
+RESULT p=7 n0=28 r=1.25 C'=1.0: 400 samples, no ladder point within 30: 0
+ROW fixed : n=400, K>8 (eps not computed, counted as +inf): 0; median 0.0161, 90% 0.189, 99% 2.28, max 10.9; mean over computed 0.108; P(eps>0.01) 0.568, P(eps>0.05) 0.255
+ROW ladder: n=400, K>8 (eps not computed, counted as +inf): 0; median 0.00262, 90% 0.0161, 99% 0.0933, max 0.176; mean over computed 0.00829; P(eps>0.01) 0.223, P(eps>0.05) 0.028
+### exit: 0
+### wall: .355461791 s
+### command: python3 ladder_vs_fixed.py 7 35 300 35 1.25 1.0 30 8
+### start: 2026-10-13T23:11:00Z
+RESULT p=7 n0=35 r=1.25 C'=1.0: 300 samples, no ladder point within 30: 0
+ROW fixed : n=300, K>8 (eps not computed, counted as +inf): 0; median 0.00636, 90% 0.0517, 99% 0.731, max 2.32; mean over computed 0.035; P(eps>0.01) 0.453, P(eps>0.05) 0.107
+ROW ladder: n=300, K>8 (eps not computed, counted as +inf): 0; median 0.00353, 90% 0.0179, 99% 0.13, max 0.178; mean over computed 0.0107; P(eps>0.01) 0.270, P(eps>0.05) 0.053
+### exit: 0
+### wall: .440883157 s
+### command: python3 ladder_vs_fixed.py 7 42 300 42 1.25 1.0 40 9
+### start: 2026-10-13T23:11:00Z
+RESULT p=7 n0=42 r=1.25 C'=1.0: 300 samples, no ladder point within 40: 0
+ROW fixed : n=300, K>9 (eps not computed, counted as +inf): 0; median 0.00338, 90% 0.022, 99% 0.182, max 0.442; mean over computed 0.0113; P(eps>0.01) 0.237, P(eps>0.05) 0.023
+ROW ladder: n=300, K>9 (eps not computed, counted as +inf): 0; median 0.00112, 90% 0.0104, 99% 0.0593, max 0.165; mean over computed 0.00475; P(eps>0.01) 0.100, P(eps>0.05) 0.010
+### exit: 0
+### wall: 1.035639124 s
+### command: python3 ladder_vs_fixed.py 5 20 400 20 1.25 1.0 30 9
+### start: 2026-10-13T23:11:01Z
+RESULT p=5 n0=20 r=1.25 C'=1.0: 400 samples, no ladder point within 30: 0
+ROW fixed : n=400, K>9 (eps not computed, counted as +inf): 0; median 0.0633, 90% 1.24, 99% 72.7, max 228; mean over computed 1.88; P(eps>0.01) 0.843, P(eps>0.05) 0.603
+ROW ladder: n=400, K>9 (eps not computed, counted as +inf): 0; median 0.0212, 90% 0.198, 99% 1.2, max 1.24; mean over computed 0.0838; P(eps>0.01) 0.688, P(eps>0.05) 0.170
+### exit: 0
+### wall: .361845755 s
+### command: python3 ladder_vs_fixed.py 5 30 300 30 1.25 1.0 30 10
+### start: 2026-10-13T23:11:02Z
+RESULT p=5 n0=30 r=1.25 C'=1.0: 300 samples, no ladder point within 30: 0
+ROW fixed : n=300, K>10 (eps not computed, counted as +inf): 0; median 0.0869, 90% 0.807, 99% 8.67, max 43.8; mean over computed 0.498; P(eps>0.01) 0.813, P(eps>0.05) 0.567
+ROW ladder: n=300, K>10 (eps not computed, counted as +inf): 0; median 0.0222, 90% 0.196, 99% 1.25, max 1.28; mean over computed 0.0938; P(eps>0.01) 0.720, P(eps>0.05) 0.313
+### exit: 0
+### wall: .843166855 s
+### command: python3 ladder_vs_fixed.py 3 24 300 24 1.25 1.0 30 13
+### start: 2026-10-13T23:11:03Z
+RESULT p=3 n0=24 r=1.25 C'=1.0: 300 samples, no ladder point within 30: 0
+ROW fixed : n=300, K>13 (eps not computed, counted as +inf): 0; median 0.316, 90% 5.09, 99% 59.9, max 127; mean over computed 2.66; P(eps>0.01) 0.990, P(eps>0.05) 0.907
+ROW ladder: n=300, K>13 (eps not computed, counted as +inf): 0; median 0.0704, 90% 0.347, 99% 1.47, max 1.48; mean over computed 0.161; P(eps>0.01) 0.987, P(eps>0.05) 0.660
+### exit: 0
+### wall: .688672516 s

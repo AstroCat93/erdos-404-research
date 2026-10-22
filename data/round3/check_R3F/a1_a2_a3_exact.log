@@ -1,0 +1,85 @@
+# command: python3 -I /home/user/erdos-404-research/code/round3/check_R3F/a2check.py
+# start: 2026-10-13T17:44:08Z
+# Lemma A1: gate blocks m = p^j K' - 1, elements (pm+i)!/(pm)!  vs sigma_i
+p=5 j=1: [(1, True, False), (2, True, False), (3, True, False), (4, True, False), (6, True, False), (7, True, False)]  (K', = mod p^{j+1}, = mod p^{j+2})
+p=5 j=2: [(1, True, False), (2, True, False), (3, True, False), (4, True, False), (6, True, False), (7, True, False)]  (K', = mod p^{j+1}, = mod p^{j+2})
+p=7 j=1: [(1, True, False), (2, True, False), (3, True, False), (4, True, False), (5, True, False), (6, True, False)]  (K', = mod p^{j+1}, = mod p^{j+2})
+p=7 j=2: [(1, True, False), (2, True, False), (3, True, False), (4, True, False), (5, True, False), (6, True, False)]  (K', = mod p^{j+1}, = mod p^{j+2})
+p=13 j=1: [(1, True, False), (2, True, False), (3, True, False), (4, True, False), (5, True, False), (6, True, False), (7, True, False)]  (K', = mod p^{j+1}, = mod p^{j+2})
+
+# p=3: sigma=[1, -2, 2]  R=sum|sigma|=5  floor(e (p-1)!)=5  equal=True
+  nonzero delta with <delta,sigma>=0: [(0, 1, 1), (0, -1, -1)]
+  d= 1 Q_d/(N_d 2^-p) =            1/8 = 0.1250000000   CS ratio = 0.48447307
+  d= 2 Q_d/(N_d 2^-p) =            7/8 = 0.8750000000   CS ratio = 1.2817953
+  d= 3 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 1.678264   (p^(d-1) > R)
+  d= 4 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 1.678264   (p^(d-1) > R)
+  d= 5 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 1.678264   (p^(d-1) > R)
+  d= 6 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 1.678264   (p^(d-1) > R)
+  d= 7 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 1.678264   (p^(d-1) > R)
+  d= 8 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 1.678264   (p^(d-1) > R)
+  max_d CS ratio (d <= 8) = 1.678264;  sqrt(3/2)(pi/(2 sqrt2))^p = 1.678264
+
+# p=5: sigma=[1, -4, 12, -24, 24]  R=sum|sigma|=65  floor(e (p-1)!)=65  equal=True
+  nonzero delta with <delta,sigma>=0: [(0, 0, 0, 1, 1), (0, 0, 0, -1, -1)]
+  d= 1 Q_d/(N_d 2^-p) =           9/32 = 0.2812500000   CS ratio = 0.89654205
+  d= 2 Q_d/(N_d 2^-p) =          47/32 = 1.4687500000   CS ratio = 2.0487942
+  d= 3 Q_d/(N_d 2^-p) =            5/4 = 1.2500000000   CS ratio = 1.8900766
+  d= 4 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 2.0704752   (p^(d-1) > R)
+  d= 5 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 2.0704752   (p^(d-1) > R)
+  d= 6 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 2.0704752   (p^(d-1) > R)
+  d= 7 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 2.0704752   (p^(d-1) > R)
+  d= 8 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 2.0704752   (p^(d-1) > R)
+  max_d CS ratio (d <= 8) = 2.0704752;  sqrt(3/2)(pi/(2 sqrt2))^p = 2.0704752
+
+# p=7: sigma=[1, -6, 30, -120, 360, -720, 720]  R=sum|sigma|=1957  floor(e (p-1)!)=1957  equal=True
+  nonzero delta with <delta,sigma>=0: [(0, 0, 0, 0, 0, 1, 1), (0, 0, 0, 0, 0, -1, -1)]
+  d= 1 Q_d/(N_d 2^-p) =         39/128 = 0.3046875000   CS ratio = 1.1512283
+  d= 2 Q_d/(N_d 2^-p) =        115/384 = 0.2994791667   CS ratio = 1.1413464
+  d= 3 Q_d/(N_d 2^-p) =        493/384 = 1.2838541667   CS ratio = 2.3631539
+  d= 4 Q_d/(N_d 2^-p) =        575/384 = 1.4973958333   CS ratio = 2.5521281
+  d= 5 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 2.5543463   (p^(d-1) > R)
+  d= 6 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 2.5543463   (p^(d-1) > R)
+  d= 7 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 2.5543463   (p^(d-1) > R)
+  d= 8 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 2.5543463   (p^(d-1) > R)
+  d= 9 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 2.5543463   (p^(d-1) > R)
+  max_d CS ratio (d <= 9) = 2.5543463;  sqrt(3/2)(pi/(2 sqrt2))^p = 2.5543463
+
+# p=11: sigma=[1, -10, 90, -720, 5040, -30240, 151200, -604800, 1814400, -3628800, 3628800]  R=sum|sigma|=9864101  floor(e (p-1)!)=9864101  equal=True
+  nonzero delta with <delta,sigma>=0: [(0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1), (0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1)]
+  d= 1 Q_d/(N_d 2^-p) =       753/2560 = 0.2941406250   CS ratio = 1.7215957
+  d= 2 Q_d/(N_d 2^-p) =     10501/5120 = 2.0509765625   CS ratio = 4.546048
+  d= 3 Q_d/(N_d 2^-p) =        747/640 = 1.1671875000   CS ratio = 3.4294461
+  d= 4 Q_d/(N_d 2^-p) =      7227/5120 = 1.4115234375   CS ratio = 3.7713576
+  d= 5 Q_d/(N_d 2^-p) =      3831/2560 = 1.4964843750   CS ratio = 3.8832
+  d= 6 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 3.8877587
+  d= 7 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 3.8877587
+  d= 8 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 3.8877587   (p^(d-1) > R)
+  d= 9 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 3.8877587   (p^(d-1) > R)
+  d=10 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 3.8877587   (p^(d-1) > R)
+  d=11 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 3.8877587   (p^(d-1) > R)
+  max_d CS ratio (d <= 11) = 4.546048;  sqrt(3/2)(pi/(2 sqrt2))^p = 3.8877587
+
+# p=13: sigma=[1, -12, 132, -1320, 11880, -95040, 665280, -3991680, 19958400, -79833600, 239500800, -479001600, 479001600]  R=sum|sigma|=1302061345  floor(e (p-1)!)=1302061345  equal=True
+  nonzero delta with <delta,sigma>=0: [(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1), (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1)]
+  d= 1 Q_d/(N_d 2^-p) =      739/49152 = 0.0150349935   CS ratio = 0.48019215
+  d= 2 Q_d/(N_d 2^-p) =     6971/16384 = 0.4254760742   CS ratio = 2.5544711
+  d= 3 Q_d/(N_d 2^-p) =     9149/12288 = 0.7445475260   CS ratio = 3.3791669
+  d= 4 Q_d/(N_d 2^-p) =     14493/8192 = 1.7691650391   CS ratio = 5.208919
+  d= 5 Q_d/(N_d 2^-p) =     11981/8192 = 1.4625244141   CS ratio = 4.736036
+  d= 6 Q_d/(N_d 2^-p) =      9215/6144 = 1.4998372396   CS ratio = 4.7960698
+  d= 7 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 4.79633
+  d= 8 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 4.79633
+  d= 9 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 4.79633
+  d=10 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 4.79633   (p^(d-1) > R)
+  d=11 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 4.79633   (p^(d-1) > R)
+  d=12 Q_d/(N_d 2^-p) =            3/2 = 1.5000000000   CS ratio = 4.79633   (p^(d-1) > R)
+  max_d CS ratio (d <= 12) = 5.208919;  sqrt(3/2)(pi/(2 sqrt2))^p = 4.79633
+
+# brute-force cross-check of Q_d (mpmath, direct cos^2 sums)
+  p=5 d=1: exact Q_d = 0.03515625  brute = 0.03515625  agree: True
+  p=5 d=2: exact Q_d = 0.91796875  brute = 0.91796875  agree: True
+  p=5 d=3: exact Q_d = 3.90625  brute = 3.90625  agree: True
+  p=7 d=2: exact Q_d = 0.0982666015625  brute = 0.0982666015625  agree: True
+  p=11 d=2: exact Q_d = 0.110159873962402  brute = 0.110159873962402  agree: True
+  p=13 d=2: exact Q_d = 0.00810232758522034  brute = 0.00810232758522034  agree: True
+# end: 2026-10-13T17:44:09Z  exit=0  wall_seconds=.522873615

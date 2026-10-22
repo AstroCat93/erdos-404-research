@@ -1,0 +1,77 @@
+=== command: python3 weighted_twowin_check.py 3 21 10 20 5 4 unif 6
+=== start (UTC): 2026-10-13T23:15:55Z
+RESULT weighted p=3 n=20 H=5 H2=4 mode=unif samples=10: W1 fails=0, W2 fails=0, W3 fails=0 (max lhs/(eps M^2)=0.2092, nontrivial=10), slope-inheritance fails=0, W4 eps!=0: 0/0, W4 non-constant: 0/0; [control] samples with M_N2 non-constant on some C': 10/10
+=== exit: 0   wall: 6.84 s
+=== command: python3 weighted_twowin_check.py 3 22 6 26 6 5 unif 7
+=== start (UTC): 2026-10-13T23:16:02Z
+RESULT weighted p=3 n=26 H=6 H2=5 mode=unif samples=6: W1 fails=0, W2 fails=0, W3 fails=0 (max lhs/(eps M^2)=0.0133, nontrivial=6), slope-inheritance fails=0, W4 eps!=0: 0/0, W4 non-constant: 0/0; [control] samples with M_N2 non-constant on some C': 6/6
+=== exit: 0   wall: 226.05 s
+=== command: python3 weighted_twowin_check.py 5 23 6 20 5 5 unif 5
+=== start (UTC): 2026-10-13T23:19:48Z
+RESULT weighted p=5 n=20 H=5 H2=5 mode=unif samples=6: W1 fails=0, W2 fails=0, W3 fails=0 (max lhs/(eps M^2)=0.1786, nontrivial=6), slope-inheritance fails=0, W4 eps!=0: 0/0, W4 non-constant: 0/0; [control] samples with M_N2 non-constant on some C': 6/6
+=== exit: 0   wall: 21.31 s
+=== command: python3 weighted_twowin_check.py 7 24 4 21 7 7 unif 4
+=== start (UTC): 2026-10-13T23:20:10Z
+Terminated
+=== exit: 143   wall: 432.66 s
+=== NOTE: run 'weighted_twowin_check.py 7 24 4 21 7 7 unif 4' killed by hand at 23:27:24Z after 433 s (too slow: ~10^3 slope-0 parents x 2401 points in pure Python); no result taken. Replaced by n=14 runs in batch2b.sh.
+=== command: python3 weighted_twowin_check.py 7 24 4 14 7 7 unif 4
+=== start (UTC): 2026-10-13T23:27:24Z
+RESULT weighted p=7 n=14 H=7 H2=7 mode=unif samples=0: W1 fails=0, W2 fails=0, W3 fails=0 (max lhs/(eps M^2)=0.0000, nontrivial=0), slope-inheritance fails=0, W4 eps!=0: 0/0, W4 non-constant: 0/0; [control] samples with M_N2 non-constant on some C': 0/0
+=== exit: 0   wall: 7.76 s
+=== command: python3 weighted_twowin_check.py 3 21 10 20 5 4 rand 6
+=== start (UTC): 2026-10-13T23:27:32Z
+RESULT weighted p=3 n=20 H=5 H2=4 mode=rand samples=10: W1 fails=0, W2 fails=0, W3 fails=0 (max lhs/(eps M^2)=0.1006, nontrivial=10), slope-inheritance fails=0, W4 eps!=0: 0/0, W4 non-constant: 0/0; [control] samples with M_N2 non-constant on some C': 10/10
+=== exit: 0   wall: 7.71 s
+=== command: python3 weighted_twowin_check.py 3 22 6 26 6 5 rand 7
+=== start (UTC): 2026-10-13T23:27:40Z
+RESULT weighted p=3 n=26 H=6 H2=5 mode=rand samples=6: W1 fails=0, W2 fails=0, W3 fails=0 (max lhs/(eps M^2)=0.0153, nontrivial=6), slope-inheritance fails=0, W4 eps!=0: 0/0, W4 non-constant: 0/0; [control] samples with M_N2 non-constant on some C': 6/6
+=== exit: 0   wall: 189.96 s
+=== command: python3 weighted_twowin_check.py 5 23 6 20 5 5 rand 5
+=== start (UTC): 2026-10-13T23:30:50Z
+RESULT weighted p=5 n=20 H=5 H2=5 mode=rand samples=6: W1 fails=0, W2 fails=0, W3 fails=0 (max lhs/(eps M^2)=0.0792, nontrivial=6), slope-inheritance fails=0, W4 eps!=0: 0/0, W4 non-constant: 0/0; [control] samples with M_N2 non-constant on some C': 6/6
+=== exit: 0   wall: 5.3 s
+=== command: python3 weighted_twowin_check.py 7 24 4 14 7 7 rand 4
+=== start (UTC): 2026-10-13T23:30:55Z
+RESULT weighted p=7 n=14 H=7 H2=7 mode=rand samples=0: W1 fails=0, W2 fails=0, W3 fails=0 (max lhs/(eps M^2)=0.0000, nontrivial=0), slope-inheritance fails=0, W4 eps!=0: 0/0, W4 non-constant: 0/0; [control] samples with M_N2 non-constant on some C': 0/0
+=== exit: 0   wall: 7.99 s
+=== command: python3 weighted_twowin_check.py 3 21 10 20 5 4 fib 6
+=== start (UTC): 2026-10-13T23:31:03Z
+RESULT weighted p=3 n=20 H=5 H2=4 mode=fib samples=10: W1 fails=0, W2 fails=0, W3 fails=0 (max lhs/(eps M^2)=0.0000, nontrivial=0), slope-inheritance fails=0, W4 eps!=0: 0/10, W4 non-constant: 0/10; [control] samples with M_N2 non-constant on some C': 0/10
+=== exit: 0   wall: 2.38 s
+=== command: python3 weighted_twowin_check.py 3 22 6 26 6 5 fib 7
+=== start (UTC): 2026-10-13T23:31:05Z
+RESULT weighted p=3 n=26 H=6 H2=5 mode=fib samples=0: W1 fails=0, W2 fails=0, W3 fails=0 (max lhs/(eps M^2)=0.0000, nontrivial=0), slope-inheritance fails=0, W4 eps!=0: 0/0, W4 non-constant: 0/0; [control] samples with M_N2 non-constant on some C': 0/0
+=== exit: 0   wall: 345.1 s
+=== command: python3 weighted_twowin_check.py 5 23 6 20 5 5 fib 5
+=== start (UTC): 2026-10-13T23:36:51Z
+RESULT weighted p=5 n=20 H=5 H2=5 mode=fib samples=6: W1 fails=0, W2 fails=0, W3' (epst) fails=0 (max ratio 0.0000), W3 fails=0 (max lhs/(eps M^2)=0.0000, nontrivial=0), slope-inheritance fails=0, W4 eps!=0: 0/6, W4 non-constant: 0/6; [control] samples with M_N2 non-constant on some C': 0/6
+=== exit: 0   wall: 4.88 s
+=== command: python3 weighted_twowin_check.py 7 24 4 14 7 7 fib 4
+=== start (UTC): 2026-10-13T23:36:56Z
+RESULT weighted p=7 n=14 H=7 H2=7 mode=fib samples=0: W1 fails=0, W2 fails=0, W3' (epst) fails=0 (max ratio 0.0000), W3 fails=0 (max lhs/(eps M^2)=0.0000, nontrivial=0), slope-inheritance fails=0, W4 eps!=0: 0/0, W4 non-constant: 0/0; [control] samples with M_N2 non-constant on some C': 0/0
+=== exit: 0   wall: 10.69 s
+=== command: python3 weighted_twowin_check.py 7 25 4 21 7 7 unif 4 25
+=== start (UTC): 2026-10-14T00:15:49Z
+RESULT weighted p=7 n=21 H=7 H2=7 mode=unif samples=4: W1 fails=0, W2 fails=0, W3' (epst) fails=0 (max ratio 0.0014), W3 fails=0 (max lhs/(eps M^2)=0.0515, nontrivial=4), slope-inheritance fails=0, W4 eps!=0: 0/0, W4 non-constant: 0/0; [control] samples with M_N2 non-constant on some C': 4/4
+=== exit: 0   wall: 16.06 s
+=== command: python3 weighted_twowin_check.py 7 25 4 21 7 7 rand 4 25
+=== start (UTC): 2026-10-14T00:16:05Z
+RESULT weighted p=7 n=21 H=7 H2=7 mode=rand samples=4: W1 fails=0, W2 fails=0, W3' (epst) fails=0 (max ratio 0.0022), W3 fails=0 (max lhs/(eps M^2)=0.0903, nontrivial=4), slope-inheritance fails=0, W4 eps!=0: 0/0, W4 non-constant: 0/0; [control] samples with M_N2 non-constant on some C': 4/4
+=== exit: 0   wall: 14.35 s
+=== command: python3 weighted_twowin_check.py 7 25 4 21 7 7 fib 4 25
+=== start (UTC): 2026-10-14T00:16:19Z
+RESULT weighted p=7 n=21 H=7 H2=7 mode=fib samples=4: W1 fails=0, W2 fails=0, W3' (epst) fails=0 (max ratio 0.0000), W3 fails=0 (max lhs/(eps M^2)=0.0000, nontrivial=0), slope-inheritance fails=0, W4 eps!=0: 0/4, W4 non-constant: 0/4; [control] samples with M_N2 non-constant on some C': 0/4
+=== exit: 0   wall: 16.94 s
+=== command: python3 weighted_twowin_check.py 3 26 10 20 5 4 vary 6
+=== start (UTC): 2026-10-14T00:16:36Z
+RESULT weighted p=3 n=20 H=5 H2=4 mode=vary samples=10: W1 fails=0, W2 fails=0, W3' (epst) fails=0 (max ratio 0.0428), W3 fails=0 (max lhs/(eps M^2)=0.0000, nontrivial=0), slope-inheritance fails=0, W4 eps!=0: 0/0, W4 non-constant: 0/0; [control] samples with M_N2 non-constant on some C': 0/10
+=== exit: 0   wall: 4.25 s
+=== command: python3 weighted_twowin_check.py 5 27 6 20 5 5 vary 5
+=== start (UTC): 2026-10-14T00:16:40Z
+RESULT weighted p=5 n=20 H=5 H2=5 mode=vary samples=6: W1 fails=0, W2 fails=0, W3' (epst) fails=0 (max ratio 0.0023), W3 fails=0 (max lhs/(eps M^2)=0.0000, nontrivial=0), slope-inheritance fails=0, W4 eps!=0: 0/0, W4 non-constant: 0/0; [control] samples with M_N2 non-constant on some C': 0/6
+=== exit: 0   wall: 17.95 s
+=== command: python3 weighted_twowin_check.py 7 28 3 21 7 7 vary 4 25
+=== start (UTC): 2026-10-14T00:16:58Z
+RESULT weighted p=7 n=21 H=7 H2=7 mode=vary samples=3: W1 fails=0, W2 fails=0, W3' (epst) fails=0 (max ratio 0.0005), W3 fails=0 (max lhs/(eps M^2)=0.0000, nontrivial=0), slope-inheritance fails=0, W4 eps!=0: 0/0, W4 non-constant: 0/0; [control] samples with M_N2 non-constant on some C': 0/3
+=== exit: 0   wall: 14.39 s

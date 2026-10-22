@@ -1,0 +1,31 @@
+# command: env R3C_BIN=/tmp/r3_R3C/bin python3 code/round3/R3C/scan_r3.py 29 1 2 10 --all
+# cwd: /home/user/erdos-404-research  host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz
+# start: 2026-10-13 06:17:21 UTC
+# scan p=29 t=1 H=2..10 rho0=6
+p=29 t=1 H=2 c=0 M=1: FAILS by counting (2^2 < 29^1)
+p=29 t=1 H=3 c=0 M=1: FAILS by counting (2^3 < 29^1)
+p=29 t=1 H=4 c=0 M=1: FAILS by counting (2^4 < 29^1)
+p=29 t=1 H=5 c=0 M=1: FAILS by Lemma 10.11 ((H-1) mod p = 4 < rho0 = 6)
+p=29 t=1 H=6 c=0 M=1: FAILS by Lemma 10.11 ((H-1) mod p = 5 < rho0 = 6)
+p=29 t=1 H=7 c=0 M=1 k=0: HOLDS
+    SUMMARY A p=29 t=1 H=7 c=0 M=1 k=0 mode=all nK=1 fail=0 worst_missing=0 ALL_COVERED total=0.0s
+    END C p=29 t=1 H=7 nK=1 bad=0 ALL_COVERED 0.0s
+    A p=29 t=1 H=7 c=0 M=1 K=1 missing=0 COVERED [0.00s]
+    C p=29 t=1 H=7 M=1 K=3 Kmodpc=0 miss=0 COVERED 0.00s
+p=29 t=1 H=8 c=0 M=1 k=0: HOLDS
+    SUMMARY A p=29 t=1 H=8 c=0 M=1 k=0 mode=all nK=1 fail=0 worst_missing=0 ALL_COVERED total=0.0s
+    END C p=29 t=1 H=8 nK=1 bad=0 ALL_COVERED 0.0s
+    A p=29 t=1 H=8 c=0 M=1 K=1 missing=0 COVERED [0.00s]
+    C p=29 t=1 H=8 M=1 K=3 Kmodpc=0 miss=0 COVERED 0.00s
+p=29 t=1 H=9 c=0 M=1 k=0: HOLDS
+    SUMMARY A p=29 t=1 H=9 c=0 M=1 k=0 mode=all nK=1 fail=0 worst_missing=0 ALL_COVERED total=0.0s
+    END C p=29 t=1 H=9 nK=1 bad=0 ALL_COVERED 0.0s
+    A p=29 t=1 H=9 c=0 M=1 K=1 missing=0 COVERED [0.00s]
+    C p=29 t=1 H=9 M=1 K=3 Kmodpc=0 miss=0 COVERED 0.00s
+p=29 t=1 H=10 c=0 M=1 k=0: HOLDS
+    SUMMARY A p=29 t=1 H=10 c=0 M=1 k=0 mode=all nK=1 fail=0 worst_missing=0 ALL_COVERED total=0.0s
+    END C p=29 t=1 H=10 nK=1 bad=0 ALL_COVERED 0.0s
+    A p=29 t=1 H=10 c=0 M=1 K=1 missing=0 COVERED [0.00s]
+    C p=29 t=1 H=10 M=1 K=3 Kmodpc=0 miss=0 COVERED 0.00s
+# wall=0.652 s user=0.198 s sys=0.040 s
+# end: 2026-10-13 06:17:21 UTC

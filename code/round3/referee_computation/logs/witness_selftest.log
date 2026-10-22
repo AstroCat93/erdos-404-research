@@ -1,0 +1,2 @@
+# cmd: nice -n 10 python3 -I code/round3/referee_computation/verify_witness_bsplit.py --selftest
+selftest: 400 random sets agree with direct sum of math.factorial; OK

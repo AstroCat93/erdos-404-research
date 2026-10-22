@@ -1,0 +1,11 @@
+# command: env COVFAST_ZMAX=16777216 COVFAST_VERBOSE=1 /tmp/claude-0/-home-user-erdos-404-research/64513d2d-9023-5297-8d1a-eefeb2df66c3/scratchpad/chkR3C_bin/covfast 29 7 45 1 pos 27
+# binary sha256: 7596867116ee1ac9  /tmp/claude-0/-home-user-erdos-404-research/64513d2d-9023-5297-8d1a-eefeb2df66c3/scratchpad/chkR3C_bin/covfast
+# host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz  vmem cap (KB): 0
+# start: 2026-10-13 19:41:29 UTC
+# covfast(D) p=29 t=7 H=45 c=1 M=8 k=1 Q=500246412961 F=17249876309 bits (2056 MB x2) LISTMAX=16777216 ZMAX=16777216
+    (fibres ending in bitset phase 0, complement phase 29)
+D p=29 t=7 H=45 c=1 M=8 k=1 K=27 Kmodpc=27 missing=0 COVERED [244.72s]
+SUMMARY D p=29 t=7 H=45 c=1 M=8 k=1 mode=pos nK=1 fail=0 worst_missing=0 ALL_COVERED total=244.7s
+# wall=244.885 s user=234.307 s sys=1.971 s
+# exit status: 0
+# end: 2026-10-13 19:45:34 UTC

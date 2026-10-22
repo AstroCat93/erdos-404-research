@@ -1,0 +1,4 @@
+=== command: python3 alive_targets_validate.py 1 300
+=== start (UTC): 2026-10-13T23:19:43Z
+RESULT alive_targets_validate seed=1 tests=300 mismatches=0
+=== exit: 0   wall: 4.62 s

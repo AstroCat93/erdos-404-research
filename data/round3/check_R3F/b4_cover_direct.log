@@ -1,0 +1,6 @@
+# command: python3 -I /home/user/erdos-404-research/code/round3/check_R3F/covercheck.py 7 9 11 7 13 7
+# start: 2026-10-13T17:44:32Z
+p=7 K=9 modulus=40353607 elements=0!..55! (56)  missing residues: 0  (0.7s)
+p=11 K=7 modulus=19487171 elements=0!..76! (77)  missing residues: 0  (0.2s)
+p=13 K=7 modulus=62748517 elements=0!..90! (91)  missing residues: 0  (1.5s)
+# end: 2026-10-13T17:44:34Z  exit=0  wall_seconds=2.524036431

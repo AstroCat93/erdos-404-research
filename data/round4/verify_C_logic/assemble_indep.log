@@ -1,0 +1,270 @@
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 11
+=== start: 2026-10-14T02:55:47Z
+# vcl_assemble p=11 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 11, 15, 21, 28, 39, 54, 76, 105, 120] (k0 = 12); log Pi_phase1 (incl. q1) <= 2.29718205068
+  k=13 (105,120,144] s=4 N_W=15 N=39 I=6 muGc=0.00826446 log10 Bfr=-2.4555064 ebar=0.0591898
+  k=14 (120,144,183] s=4 N_W=24 N=63 I=10 muGc=0.00826446 log10 Bfr=-4.2029504 ebar=0.00791635
+  k=15 (144,183,246] s=5 N_W=39 N=102 I=19 muGc=0.00150263 log10 Bfr=-14.089021 ebar=9.02588e-8
+  k=16 (183,246,347] s=5 N_W=63 N=164 I=31 muGc=0.00150263 log10 Bfr=-23.732884 ebar=1.36006e-12
+  k=17 (246,347,481] s=6 N_W=101 N=235 I=50 muGc=0.000204904 log10 Bfr=-39.297878 ebar=2.2442e-20
+  k=18 (347,481,682] s=6 N_W=134 N=335 I=63 muGc=0.000341507 log10 Bfr=-50.308431 ebar=7.01107e-26
+  k=19 (481,682,947] s=7 N_W=201 N=466 I=96 muGc=4.34645e-5 log10 Bfr=-75.590476 ebar=1.60237e-38
+  k=20 (682,947,1348] s=7 N_W=265 N=666 I=129 muGc=6.83013e-5 log10 Bfr=-107.83968 ebar=1.2027e-54
+  k=21 (947,1348,1876] s=7 N_W=401 N=929 I=196 muGc=9.31382e-5 log10 Bfr=-165.8955 ebar=1.12785e-83
+  k=22 (1348,1876,2673] s=8 N_W=528 N=1325 I=258 muGc=1.24184e-5 log10 Bfr=-218.04642 ebar=9.47961e-110
+  k=23 (1876,2673,3724] s=8 N_W=797 N=1848 I=394 muGc=1.69342e-5 log10 Bfr=-337.14563 ebar=2.67413e-169
+  k=24 (2673,3724,5311] s=9 N_W=1051 N=2638 I=519 muGc=2.20658e-6 log10 Bfr=-444.61697 ebar=4.91488e-223
+explicit phase-2 windows: 12; far tail stops at l*=607 (l*-k0=595), b_(l*-1)=1.0708412e+60
+remainder: deep gates <= 7.712e-181; fine scale: sum sqrt(Bfr) <= 10^(-2.63596e+58); slope of log T2 bound per unit b = -0.226719
+RESULT p=11: log Pi_A <= 2.3625715872992, Pi_A <= 10.6182220580182, delta_A <= 0.0874274367768, Pi_A*delta_A <= 0.9283239377
+RESULT p=11: c_p >= 0.000125497932335 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 1 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 13
+=== start: 2026-10-14T02:55:48Z
+# vcl_assemble p=13 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 12, 15, 21, 28, 39, 54, 77, 106, 151, 168] (k0 = 13); log Pi_phase1 (incl. q1) <= 0.192491977758
+  k=14 (151,168,196] s=4 N_W=17 N=45 I=7 muGc=0.00591716 log10 Bfr=-4.3383371 ebar=0.00677379
+  k=15 (168,196,241] s=4 N_W=28 N=73 I=12 muGc=0.00591716 log10 Bfr=-7.6518056 ebar=0.000149313
+  k=16 (196,241,313] s=5 N_W=45 N=117 I=22 muGc=0.000455166 log10 Bfr=-22.163431 ebar=8.28484e-12
+  k=17 (241,313,429] s=5 N_W=72 N=188 I=35 muGc=0.000910332 log10 Bfr=-32.055636 ebar=9.37955e-17
+  k=18 (313,429,615] s=5 N_W=116 N=302 I=55 muGc=0.0013655 log10 Bfr=-53.051742 ebar=2.9794e-27
+  k=19 (429,615,846] s=6 N_W=186 N=417 I=90 muGc=0.000175064 log10 Bfr=-87.36597 ebar=2.07499e-44
+  k=20 (615,846,1216] s=6 N_W=231 N=601 I=112 muGc=0.000245089 log10 Bfr=-109.45081 ebar=1.8819e-55
+  k=21 (846,1216,1677] s=7 N_W=370 N=831 I=180 muGc=2.42396e-5 log10 Bfr=-178.22863 ebar=7.68577e-90
+  k=22 (1216,1677,2413] s=7 N_W=461 N=1197 I=226 muGc=3.77061e-5 log10 Bfr=-224.54625 ebar=5.33179e-113
+  k=23 (1677,2413,3332] s=8 N_W=736 N=1655 I=363 muGc=3.93635e-6 log10 Bfr=-364.11101 ebar=8.8002e-183
+  k=24 (2413,3332,4798] s=8 N_W=919 N=2385 I=455 muGc=5.80093e-6 log10 Bfr=-456.88512 ebar=3.60943e-229
+explicit phase-2 windows: 11; far tail stops at l*=608 (l*-k0=595), b_(l*-1)=1.2094492e+60
+remainder: deep gates <= 7.712e-181; fine scale: sum sqrt(Bfr) <= 10^(-3.55426e+58); slope of log T2 bound per unit b = -0.270668
+RESULT p=13: log Pi_A <= 0.199392226399784, Pi_A <= 1.22066064734905, delta_A <= 0.0219904749557, Pi_A*delta_A <= 0.02684290739
+RESULT p=13: c_p >= 0.572777376113 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 1 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 17
+=== start: 2026-10-14T02:55:49Z
+# vcl_assemble p=17 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 16, 23, 29, 44, 55, 85, 108, 169, 214, 288] (k0 = 14); log Pi_phase1 (incl. q1) <= 0.00839859350143
+  k=15 (214,288,407] s=4 N_W=74 N=193 I=36 muGc=0.00346021 log10 Bfr=-39.358129 ebar=2.0938e-20
+  k=16 (288,407,569] s=4 N_W=119 N=281 I=57 muGc=0.00346021 log10 Bfr=-60.272467 ebar=7.30746e-31
+  k=17 (407,569,804] s=5 N_W=162 N=397 I=80 muGc=0.000407083 log10 Bfr=-88.569114 ebar=5.19329e-45
+  k=18 (569,804,1129] s=5 N_W=235 N=560 I=114 muGc=0.000610625 log10 Bfr=-127.92884 ebar=1.08538e-64
+  k=19 (804,1129,1598] s=5 N_W=325 N=794 I=160 muGc=0.00101771 log10 Bfr=-182.05167 ebar=9.42251e-92
+  k=20 (1129,1598,2245] s=6 N_W=469 N=1116 I=231 muGc=8.38113e-5 log10 Bfr=-262.0105 ebar=9.8798e-132
+  k=21 (1598,2245,3181] s=6 N_W=647 N=1583 I=321 muGc=0.000131703 log10 Bfr=-367.79564 ebar=1.26526e-184
+  k=22 (2245,3181,4473] s=6 N_W=936 N=2228 I=465 muGc=0.000179596 log10 Bfr=-533.86518 ebar=1.16791e-267
+explicit phase-2 windows: 8; far tail stops at l*=606 (l*-k0=592), b_(l*-1)=1.1273311e+60
+remainder: deep gates <= 6.169e-180; fine scale: sum sqrt(Bfr) <= 10^(-3.83452e+58); slope of log T2 bound per unit b = -0.313282
+RESULT p=17: log Pi_A <= 0.00839859350142541, Pi_A <= 1.00843396062987, delta_A <= 0.00938686440007, Pi_A*delta_A <= 0.009466032845
+RESULT p=17: c_p >= 0.808063775606 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 1 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 19
+=== start: 2026-10-14T02:55:50Z
+# vcl_assemble p=19 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 23, 31, 44, 59, 86, 116, 170, 230, 337, 360] (k0 = 15); log Pi_phase1 (incl. q1) <= 0.0162786057546
+  k=16 (337,360,397] s=4 N_W=23 N=60 I=10 muGc=0.00277008 log10 Bfr=-8.9441166 ebar=3.37242e-5
+  k=17 (360,397,457] s=4 N_W=37 N=97 I=16 muGc=0.00277008 log10 Bfr=-14.057118 ebar=9.36356e-8
+  k=18 (397,457,553] s=4 N_W=60 N=156 I=29 muGc=0.00277008 log10 Bfr=-33.240045 ebar=2.39871e-17
+  k=19 (457,553,707] s=5 N_W=96 N=250 I=48 muGc=0.000145794 log10 Bfr=-57.531733 ebar=1.71449e-29
+  k=20 (553,707,954] s=5 N_W=154 N=401 I=76 muGc=0.000291588 log10 Bfr=-88.21053 ebar=7.84757e-45
+  k=21 (707,954,1350] s=5 N_W=247 N=643 I=121 muGc=0.000437382 log10 Bfr=-143.18122 ebar=2.5668e-72
+  k=22 (954,1350,1896] s=6 N_W=396 N=942 I=194 muGc=3.83668e-5 log10 Bfr=-230.1151 ebar=8.75886e-116
+  k=23 (1350,1896,2687] s=6 N_W=546 N=1337 I=269 muGc=5.37135e-5 log10 Bfr=-320.88364 ebar=3.61559e-161
+  k=24 (1896,2687,3777] s=6 N_W=791 N=1881 I=392 muGc=7.67336e-5 log10 Bfr=-469.18542 ebar=2.5544e-235
+  k=25 (2687,3777,5355] s=7 N_W=1090 N=2668 I=541 muGc=5.65406e-6 log10 Bfr=-649.44394 ebar=1.89683e-325
+explicit phase-2 windows: 10; far tail stops at l*=608 (l*-k0=593), b_(l*-1)=1.0797566e+60
+remainder: deep gates <= 3.085e-180; fine scale: sum sqrt(Bfr) <= 10^(-3.86863e+58); slope of log T2 bound per unit b = -0.329995
+RESULT p=19: log Pi_A <= 0.0163124230246679, Pi_A <= 1.01644619699982, delta_A <= 0.00941244052164, Pi_A*delta_A <= 0.009567239373
+RESULT p=19: c_p >= 0.80077303634 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 2 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 23
+=== start: 2026-10-14T02:55:52Z
+# vcl_assemble p=23 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 23, 31, 45, 60, 87, 117, 171, 232, 340, 462, 528] (k0 = 16); log Pi_phase1 (incl. q1) <= 0.000100147708001
+  k=17 (462,528,634] s=4 N_W=66 N=172 I=32 muGc=0.00189036 log10 Bfr=-39.489541 ebar=1.79982e-20
+  k=18 (528,634,804] s=4 N_W=106 N=276 I=50 muGc=0.00189036 log10 Bfr=-58.553708 ebar=5.28623e-30
+  k=19 (634,804,1076] s=4 N_W=170 N=442 I=84 muGc=0.00378072 log10 Bfr=-106.21414 ebar=7.81498e-54
+  k=20 (804,1076,1512] s=5 N_W=272 N=708 I=136 muGc=0.000164379 log10 Bfr=-172.93875 ebar=3.39334e-87
+  k=21 (1076,1512,2141] s=5 N_W=436 N=1065 I=217 muGc=0.000328758 log10 Bfr=-277.7912 ebar=1.27175e-139
+  k=22 (1512,2141,3013] s=5 N_W=629 N=1501 I=312 muGc=0.000410948 log10 Bfr=-401.70782 ebar=1.39988e-201
+  k=23 (2141,3013,4268] s=6 N_W=872 N=2127 I=436 muGc=2.85877e-5 log10 Bfr=-562.39106 ebar=6.37487e-282
+explicit phase-2 windows: 7; far tail stops at l*=607 (l*-k0=591), b_(l*-1)=1.075745e+60
+remainder: deep gates <= 1.234e-179; fine scale: sum sqrt(Bfr) <= 10^(-4.18653e+58); slope of log T2 bound per unit b = -0.358443
+RESULT p=23: log Pi_A <= 0.000100147708001341, Pi_A <= 1.00010015272295, delta_A <= 0.00858747917805, Pi_A*delta_A <= 0.008588339237
+RESULT p=23: c_p >= 0.823159311569 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 1 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 29
+=== start: 2026-10-14T02:55:53Z
+# vcl_assemble p=29 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 31, 47, 60, 91, 118, 180, 234, 358, 466, 714, 840] (k0 = 17); log Pi_phase1 (incl. q1) <= 4.19767206777e-6
+  k=18 (714,840,1042] s=4 N_W=126 N=328 I=62 muGc=0.00118906 log10 Bfr=-84.819077 ebar=3.89459e-43
+  k=19 (840,1042,1366] s=4 N_W=202 N=526 I=98 muGc=0.00118906 log10 Bfr=-131.61581 ebar=1.5563e-66
+  k=20 (1042,1366,1885] s=4 N_W=324 N=843 I=161 muGc=0.00237812 log10 Bfr=-223.74688 ebar=1.33832e-112
+  k=21 (1366,1885,2716] s=5 N_W=519 N=1350 I=259 muGc=0.000123006 log10 Bfr=-361.21229 ebar=2.4766e-181
+  k=22 (1885,2716,3760] s=5 N_W=831 N=1875 I=415 muGc=0.000164008 log10 Bfr=-582.03438 ebar=9.61192e-292
+  k=23 (2716,3760,5420] s=5 N_W=1044 N=2704 I=522 muGc=0.000246013 log10 Bfr=-732.66137 ebar=4.67e-367
+explicit phase-2 windows: 6; far tail stops at l*=606 (l*-k0=589), b_(l*-1)=1.0930121e+60
+remainder: deep gates <= 4.936e-179; fine scale: sum sqrt(Bfr) <= 10^(-4.65556e+58); slope of log T2 bound per unit b = -0.392304
+RESULT p=29: log Pi_A <= 4.1976720677675e-6, Pi_A <= 1.00000419768088, delta_A <= 0.00567535288411, Pi_A*delta_A <= 0.005675376707
+RESULT p=29: c_p >= 0.855001595443 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 1 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 31
+=== start: 2026-10-14T02:55:54Z
+# vcl_assemble p=31 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 31, 47, 61, 92, 119, 181, 235, 359, 467, 715, 932, 960] (k0 = 18); log Pi_phase1 (incl. q1) <= 7.54580276656e-6
+  k=19 (932,960,1005] s=4 N_W=28 N=73 I=13 muGc=0.00104058 log10 Bfr=-16.404968 ebar=6.27359e-9
+  k=20 (960,1005,1077] s=4 N_W=45 N=117 I=20 muGc=0.00104058 log10 Bfr=-22.370415 ebar=6.52819e-12
+  k=21 (1005,1077,1193] s=4 N_W=72 N=188 I=35 muGc=0.00104058 log10 Bfr=-49.214934 ebar=2.46907e-25
+  k=22 (1077,1193,1379] s=4 N_W=116 N=302 I=57 muGc=0.00104058 log10 Bfr=-80.533528 ebar=5.41048e-41
+  k=23 (1193,1379,1677] s=5 N_W=186 N=484 I=92 muGc=3.35672e-5 log10 Bfr=-131.23982 ebar=2.39932e-66
+  k=24 (1379,1677,2154] s=5 N_W=298 N=775 I=148 muGc=6.71344e-5 log10 Bfr=-208.79062 ebar=4.0243e-105
+  k=25 (1677,2154,2918] s=5 N_W=477 N=1241 I=239 muGc=0.000100702 log10 Bfr=-341.52179 ebar=1.73421e-171
+  k=26 (2154,2918,4141] s=5 N_W=764 N=1987 I=382 muGc=0.000134269 log10 Bfr=-547.3297 ebar=2.16347e-274
+  k=27 (2918,4141,5823] s=6 N_W=1223 N=2905 I=612 muGc=6.49687e-6 log10 Bfr=-878.41197 ebar=6.2232e-440
+explicit phase-2 windows: 9; far tail stops at l*=610 (l*-k0=592), b_(l*-1)=1.1741033e+60
+remainder: deep gates <= 6.169e-180; fine scale: sum sqrt(Bfr) <= 10^(-5.12373e+58); slope of log T2 bound per unit b = -0.401935
+RESULT p=31: log Pi_A <= 7.552082880172e-6, Pi_A <= 1.0000075521114, delta_A <= 0.00452433291188, Pi_A*delta_A <= 0.00452436708
+RESULT p=31: c_p >= 0.869990965582 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 1 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 37
+=== start: 2026-10-14T02:55:55Z
+# vcl_assemble p=37 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 33, 47, 63, 92, 123, 182, 244, 361, 485, 719, 968, 1368] (k0 = 18); log Pi_phase1 (incl. q1) <= 1.51160887268e-8
+  k=19 (968,1368,1930] s=4 N_W=400 N=962 I=199 muGc=0.00073046 log10 Bfr=-301.09473 ebar=2.83553e-151
+  k=20 (1368,1930,2729] s=4 N_W=562 N=1361 I=279 muGc=0.00073046 log10 Bfr=-418.70986 ebar=4.41642e-210
+  k=21 (1930,2729,3853] s=4 N_W=799 N=1923 I=399 muGc=0.00146092 log10 Bfr=-606.89407 ebar=3.57245e-304
+  k=22 (2729,3853,5450] s=4 N_W=1124 N=2721 I=560 muGc=0.00219138 log10 Bfr=-851.53354 ebar=1.71093e-426
+explicit phase-2 windows: 4; far tail stops at l*=605 (l*-k0=587), b_(l*-1)=1.0989601e+60
+remainder: deep gates <= 1.974e-178; fine scale: sum sqrt(Bfr) <= 10^(-5.09793e+58); slope of log T2 bound per unit b = -0.427255
+RESULT p=37: log Pi_A <= 1.51160887268476e-8, Pi_A <= 1.00000001511609, delta_A <= 0.00547973645171, Pi_A*delta_A <= 0.005479736535
+RESULT p=37: c_p >= 0.857429238474 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 2 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 41
+=== start: 2026-10-14T02:55:57Z
+# vcl_assemble p=41 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 33, 47, 63, 92, 123, 182, 245, 362, 487, 721, 971, 1439, 1680] (k0 = 19); log Pi_phase1 (incl. q1) <= 5.24025027798e-10
+  k=20 (1439,1680,2066] s=3 N_W=241 N=627 I=119 muGc=0.0243902 log10 Bfr=-185.47014 ebar=1.84047e-93
+  k=21 (1680,2066,2684] s=4 N_W=386 N=1004 I=191 muGc=0.000594884 log10 Bfr=-293.52666 ebar=1.72452e-147
+  k=22 (2066,2684,3673] s=4 N_W=618 N=1607 I=309 muGc=0.00118977 log10 Bfr=-483.83516 ebar=1.20899e-242
+  k=23 (2684,3673,5256] s=4 N_W=989 N=2572 I=494 muGc=0.00178465 log10 Bfr=-774.13625 ebar=8.54819e-388
+explicit phase-2 windows: 4; far tail stops at l*=606 (l*-k0=587), b_(l*-1)=1.0599181e+60
+remainder: deep gates <= 1.974e-178; fine scale: sum sqrt(Bfr) <= 10^(-5.08417e+58); slope of log T2 bound per unit b = -0.441798
+RESULT p=41: log Pi_A <= 5.2402502779837e-10, Pi_A <= 1.00000000052403, delta_A <= 0.0282693582887, Pi_A*delta_A <= 0.0282693583
+RESULT p=41: c_p >= 0.691999476426 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 2 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 43
+=== start: 2026-10-14T02:55:59Z
+# vcl_assemble p=43 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 33, 47, 63, 92, 124, 182, 245, 362, 487, 722, 972, 1441, 1848] (k0 = 19); log Pi_phase1 (incl. q1) <= 2.74623609634e-9
+  k=20 (1441,1848,2500] s=3 N_W=407 N=1059 I=202 muGc=0.0232558 log10 Bfr=-320.15982 ebar=8.31939e-161
+  k=21 (1848,2500,3544] s=4 N_W=652 N=1696 I=324 muGc=0.000540833 log10 Bfr=-509.64216 ebar=1.50981e-255
+  k=22 (2500,3544,4993] s=4 N_W=1044 N=2493 I=521 muGc=0.00108167 log10 Bfr=-828.16851 ebar=8.23657e-415
+explicit phase-2 windows: 3; far tail stops at l*=605 (l*-k0=586), b_(l*-1)=1.0068127e+60
+remainder: deep gates <= 3.948e-178; fine scale: sum sqrt(Bfr) <= 10^(-4.90281e+58); slope of log T2 bound per unit b = -0.44851
+RESULT p=43: log Pi_A <= 2.74623609633554e-9, Pi_A <= 1.00000000274624, delta_A <= 0.0268080973944, Pi_A*delta_A <= 0.02680809747
+RESULT p=43: c_p >= 0.69934452525 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 1 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 47
+=== start: 2026-10-14T02:56:00Z
+# vcl_assemble p=47 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 33, 47, 63, 93, 124, 183, 245, 363, 488, 723, 974, 1444, 1945, 2208] (k0 = 20); log Pi_phase1 (incl. q1) <= 1.07887150671e-13
+  k=21 (1945,2208,2629] s=3 N_W=263 N=684 I=130 muGc=0.0212766 log10 Bfr=-210.68433 ebar=4.54815e-106
+  k=22 (2208,2629,3303] s=4 N_W=421 N=1095 I=208 muGc=0.000452694 log10 Bfr=-332.74747 ebar=4.22925e-167
+  k=23 (2629,3303,4382] s=4 N_W=674 N=1753 I=336 muGc=0.000452694 log10 Bfr=-546.776 ebar=4.09261e-274
+explicit phase-2 windows: 3; far tail stops at l*=607 (l*-k0=587), b_(l*-1)=1.1045246e+60
+remainder: deep gates <= 1.974e-178; fine scale: sum sqrt(Bfr) <= 10^(-5.52824e+58); slope of log T2 bound per unit b = -0.460985
+RESULT p=47: log Pi_A <= 1.07887150670804e-13, Pi_A <= 1.00000000000011, delta_A <= 0.024649349702, Pi_A*delta_A <= 0.0246493497
+RESULT p=47: c_p >= 0.710647122308 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 1 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 53
+=== start: 2026-10-14T02:56:01Z
+# vcl_assemble p=53 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 63, 95, 124, 187, 246, 371, 489, 741, 976, 1479, 1950, 2808] (k0 = 20); log Pi_phase1 (incl. q1) <= 1.03328216539e-14
+  k=21 (1950,2808,3895] s=3 N_W=858 N=1945 I=428 muGc=0.0188679 log10 Bfr=-722.47159 ebar=5.81039e-362
+  k=22 (2808,3895,5609] s=4 N_W=1087 N=2801 I=541 muGc=0.000355999 log10 Bfr=-906.96911 ebar=3.27677e-454
+explicit phase-2 windows: 2; far tail stops at l*=605 (l*-k0=585), b_(l*-1)=1.1309642e+60
+remainder: deep gates <= 7.897e-178; fine scale: sum sqrt(Bfr) <= 10^(-5.86606e+58); slope of log T2 bound per unit b = -0.47772
+RESULT p=53: log Pi_A <= 1.03328216538595e-14, Pi_A <= 1.00000000000001, delta_A <= 0.0222553412118, Pi_A*delta_A <= 0.02225534121
+RESULT p=53: c_p >= 0.723890857992 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 2 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 59
+=== start: 2026-10-14T02:56:03Z
+# vcl_assemble p=59 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 63, 95, 124, 187, 246, 372, 490, 742, 978, 1481, 1953, 2960, 3480] (k0 = 21); log Pi_phase1 (incl. q1) <= 2.91123367189e-15
+  k=22 (2960,3480,4312] s=3 N_W=520 N=1352 I=259 muGc=0.0169492 log10 Bfr=-449.79641 ebar=1.26414e-225
+explicit phase-2 windows: 1; far tail stops at l*=606 (l*-k0=585), b_(l*-1)=1.0869225e+60
+remainder: deep gates <= 7.897e-178; fine scale: sum sqrt(Bfr) <= 10^(-5.81263e+58); slope of log T2 bound per unit b = -0.49255
+RESULT p=59: log Pi_A <= 2.91123367188713e-15, Pi_A <= 1.0, delta_A <= 0.0190589253932, Pi_A*delta_A <= 0.01905892539
+RESULT p=59: c_p >= 0.742950791553 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 2 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 61
+=== start: 2026-10-14T02:56:05Z
+# vcl_assemble p=61 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 63, 95, 124, 187, 246, 372, 490, 742, 978, 1482, 1954, 2962, 3720] (k0 = 21); log Pi_phase1 (incl. q1) <= 7.06079769423e-17
+  k=22 (2962,3720,4933] s=3 N_W=758 N=1971 I=378 muGc=0.0163934 log10 Bfr=-662.35737 ebar=6.62698e-332
+explicit phase-2 windows: 1; far tail stops at l*=606 (l*-k0=585), b_(l*-1)=1.2433444e+60
+remainder: deep gates <= 7.897e-178; fine scale: sum sqrt(Bfr) <= 10^(-6.7111e+58); slope of log T2 bound per unit b = -0.497139
+RESULT p=61: log Pi_A <= 7.06079769423377e-17, Pi_A <= 1.0, delta_A <= 0.0186462481368, Pi_A*delta_A <= 0.01864624814
+RESULT p=61: c_p >= 0.745543716938 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 2 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 67
+=== start: 2026-10-14T02:56:07Z
+# vcl_assemble p=67 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 95, 127, 188, 251, 373, 499, 743, 996, 1484, 1989, 2966, 3975, 4488] (k0 = 22); log Pi_phase1 (incl. q1) <= 1.14245146494e-16
+explicit phase-2 windows: 0; far tail stops at l*=606 (l*-k0=584), b_(l*-1)=1.1313245e+60
+remainder: deep gates <= 1.579e-177; fine scale: sum sqrt(Bfr) <= 10^(-6.26451e+58); slope of log T2 bound per unit b = -0.510007
+RESULT p=67: log Pi_A <= 1.1424514649362e-16, Pi_A <= 1.0, delta_A <= 0.0165812395616, Pi_A*delta_A <= 0.01658123956
+RESULT p=67: c_p >= 0.759044915431 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 3 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 71
+=== start: 2026-10-14T02:56:10Z
+# vcl_assemble p=71 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 95, 127, 188, 251, 373, 499, 744, 996, 1486, 1990, 2969, 3978, 5040] (k0 = 22); log Pi_phase1 (incl. q1) <= 1.41169630373e-20
+explicit phase-2 windows: 0; far tail stops at l*=605 (l*-k0=583), b_(l*-1)=1.0162804e+60
+remainder: deep gates <= 3.159e-177; fine scale: sum sqrt(Bfr) <= 10^(-5.71484e+58); slope of log T2 bound per unit b = -0.517924
+RESULT p=71: log Pi_A <= 1.41169630372945e-20, Pi_A <= 1.0, delta_A <= 0.0155551301801, Pi_A*delta_A <= 0.01555513018
+RESULT p=71: c_p >= 0.766114715009 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 4 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 73
+=== start: 2026-10-14T02:56:14Z
+# vcl_assemble p=73 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 95, 127, 188, 251, 373, 500, 744, 997, 1486, 1991, 2970, 3980, 5328] (k0 = 22); log Pi_phase1 (incl. q1) <= 3.61045026087e-22
+explicit phase-2 windows: 0; far tail stops at l*=605 (l*-k0=583), b_(l*-1)=1.0744603e+60
+remainder: deep gates <= 3.159e-177; fine scale: sum sqrt(Bfr) <= 10^(-6.08615e+58); slope of log T2 bound per unit b = -0.521708
+RESULT p=73: log Pi_A <= 3.61045026086594e-22, Pi_A <= 1.0, delta_A <= 0.0156427970173, Pi_A*delta_A <= 0.01564279702
+RESULT p=73: c_p >= 0.765500461397 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 4 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 79
+=== start: 2026-10-14T02:56:18Z
+# vcl_assemble p=79 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 95, 127, 188, 251, 374, 500, 745, 998, 1488, 1993, 2973, 3984, 5943, 6240] (k0 = 23); log Pi_phase1 (incl. q1) <= 1.46388314437e-24
+explicit phase-2 windows: 0; far tail stops at l*=605 (l*-k0=582), b_(l*-1)=1.0067385e+60
+remainder: deep gates <= 6.317e-177; fine scale: sum sqrt(Bfr) <= 10^(-5.81981e+58); slope of log T2 bound per unit b = -0.532436
+RESULT p=79: log Pi_A <= 1.46388314437337e-24, Pi_A <= 1.0, delta_A <= 0.0143137264437, Pi_A*delta_A <= 0.01431372644
+RESULT p=79: c_p >= 0.775033752825 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 5 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 83
+=== start: 2026-10-14T02:56:23Z
+# vcl_assemble p=83 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 95, 127, 188, 251, 374, 500, 746, 998, 1489, 1994, 2975, 3986, 5947, 6888] (k0 = 23); log Pi_phase1 (incl. q1) <= 1.85961880142e-23
+explicit phase-2 windows: 0; far tail stops at l*=605 (l*-k0=582), b_(l*-1)=1.1112877e+60
+remainder: deep gates <= 6.317e-177; fine scale: sum sqrt(Bfr) <= 10^(-6.50485e+58); slope of log T2 bound per unit b = -0.539121
+RESULT p=83: log Pi_A <= 1.85961880142107e-23, Pi_A <= 1.0, delta_A <= 0.0254485744577, Pi_A*delta_A <= 0.02544857446
+RESULT p=83: c_p >= 0.706396387769 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 5 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 89
+=== start: 2026-10-14T02:56:28Z
+# vcl_assemble p=89 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 95, 127, 188, 252, 374, 501, 746, 999, 1490, 1996, 2977, 3990, 5952, 7920] (k0 = 23); log Pi_phase1 (incl. q1) <= 1.4088198962e-26
+explicit phase-2 windows: 0; far tail stops at l*=604 (l*-k0=581), b_(l*-1)=1.0222644e+60
+remainder: deep gates <= 1.263e-176; fine scale: sum sqrt(Bfr) <= 10^(-6.08828e+58); slope of log T2 bound per unit b = -0.548538
+RESULT p=89: log Pi_A <= 1.40881989619878e-26, Pi_A <= 1.0, delta_A <= 0.0236611084691, Pi_A*delta_A <= 0.02366110847
+RESULT p=89: c_p >= 0.716017753468 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 8 s
+=== command: python3 code/round4/verify_C_logic/vcl_assemble.py 97
+=== start: 2026-10-14T02:56:36Z
+# vcl_assemble p=97 eta=1/20 BCUT=3000 gamma=8/5
+phase 1: b = [3, 4, 5, 7, 9, 13, 17, 25, 33, 49, 65, 96, 127, 189, 252, 375, 501, 747, 1000, 1491, 1998, 2980, 3993, 5957, 7984, 9408] (k0 = 24); log Pi_phase1 (incl. q1) <= 1.73860724342e-26
+explicit phase-2 windows: 0; far tail stops at l*=605 (l*-k0=581), b_(l*-1)=1.214381e+60
+remainder: deep gates <= 1.263e-176; fine scale: sum sqrt(Bfr) <= 10^(-7.38499e+58); slope of log T2 bound per unit b = -0.560106
+RESULT p=97: log Pi_A <= 1.73860724341532e-26, Pi_A <= 1.0, delta_A <= 0.021615897385, Pi_A*delta_A <= 0.02161589738
+RESULT p=97: c_p >= 0.727568980142 (value of the C3 bound at these upper bounds; any smaller number is a valid lower bound)
+=== exit: 0   wall: 13 s

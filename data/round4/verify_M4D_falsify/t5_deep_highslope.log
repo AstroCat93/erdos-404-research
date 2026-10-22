@@ -1,0 +1,68 @@
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t5_deep_highslope.py 3 606 400
+# start 2026-10-14T02:05:09Z
+p=3 seed=606 samples=400  max K=18  time=0.1s
+  Sigma set vs bitset cross-checks             329
+  cube-path slope == 2s                        0
+  parents (all)                                802
+  parents (cube path (1,1,0,1,0..))            43
+  parents with children (all)                  489
+  parents with children (cube path (1,1,0,1,0..)) 43
+  windows (after)                              104
+  windows (before)                             104
+  windows (start-at-m)                         113
+  windows (straddle)                           79
+  failures: {}
+TOTAL FAILURES 0
+# exit 0  wall 1 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t5_deep_highslope.py 5 606 400
+# start 2026-10-14T02:05:10Z
+p=5 seed=606 samples=400  max K=15  time=0.2s
+  Sigma set vs bitset cross-checks             274
+  cube-path slope == 2s                        48
+  parents (all)                                1057
+  parents (cube path (1,1,0,1,0..))            48
+  parents with children (all)                  559
+  parents with children (cube path (1,1,0,1,0..)) 48
+  windows (after)                              94
+  windows (before)                             99
+  windows (start-at-m)                         108
+  windows (straddle)                           99
+  failures: {}
+TOTAL FAILURES 0
+# exit 0  wall 0 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t5_deep_highslope.py 7 606 400
+# start 2026-10-14T02:05:10Z
+p=7 seed=606 samples=400  max K=14  time=0.3s
+  Sigma set vs bitset cross-checks             278
+  cube-path slope == 2s                        57
+  parents (all)                                1560
+  parents (cube path (1,1,0,1,0..))            57
+  parents with children (all)                  633
+  parents with children (cube path (1,1,0,1,0..)) 57
+  windows (after)                              103
+  windows (before)                             115
+  windows (start-at-m)                         106
+  windows (straddle)                           76
+  failures: {}
+TOTAL FAILURES 0
+# exit 0  wall 1 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t5_deep_highslope.py 11 606 400
+# start 2026-10-14T02:05:11Z
+p=11 seed=606 samples=400  max K=13  time=0.4s
+  Sigma set vs bitset cross-checks             218
+  cube-path slope == 2s                        52
+  parents (all)                                2007
+  parents (cube path (1,1,0,1,0..))            52
+  parents with children (all)                  1036
+  parents with children (cube path (1,1,0,1,0..)) 52
+  windows (after)                              100
+  windows (before)                             107
+  windows (start-at-m)                         99
+  windows (straddle)                           94
+  failures: {}
+TOTAL FAILURES 0
+# exit 0  wall 0 s

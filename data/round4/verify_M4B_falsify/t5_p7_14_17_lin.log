@@ -1,0 +1,16 @@
+### command: python3 t5_global.py 7 14 17 lin 8 3 1/20
+### start (UTC): 2026-10-14T00:10:11Z
+RESULT p=7 n0=14 n1=17 rule=lin H=8 L=3 epsbar=1/20: 254 atoms of G_0, cut mass 4.552e-01, total mass == 1: True; Observation G checks 22, failures 0
+RESULT admissible atoms 62; nodes 341; DPs 611; B held 81, B failed (linear regime) 30, (eps) 230
+RESULT m* = 0.189819, Q = 0.0831747, a_k = [0.08317472785711288, 0.08317472785711288, 0.08321735439812983, 0.08321735439812983], delta_L = 0.484917
+RESULT (G1) E[Mt_k] == m* exactly for k=0..3: True  values [0.1898193359375, 0.1898193359375, 0.1898193359375, 0.1898193359375]
+RESULT (G2) a_0 <= a_1 <= Q: True
+RESULT (G3) a_(k+1) <= a_k + epsbar_k a_(k-1): True  slacks [0.004116109851838701, 0.004158736392855644]
+RESULT (G4) a_L <= Pi Q: True
+RESULT (G5) E[Y_L] >= m* - sqrt(a_L delta_L): True; Paley-Zygmund mu(Y>0)E[Y^2] >= E[Y]^2: True; mu(Y_L>0) = 0
+RESULT (G5) B1' finite-horizon bound vacuous here (m* = 0.1898 <= sqrt(Pi Q delta) = 0.2109)
+RESULT (A) per-atom Theorem B1 at horizon 3: 62 admissible atoms, 0 with delta_A < 1/Pi_A, failures 0; min ratio mu_A(Y>0)/bound = None
+RESULT node-level C2 checks 81, failures 0
+SUMMARY t5 p=7 rule=lin L=3 epsbar=1/20: total failures 0
+### exit: 0
+### wall: 0 s

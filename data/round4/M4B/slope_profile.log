@@ -1,0 +1,90 @@
+### command: python3 slope_profile.py 7 714 200 14 3 3 8
+### start: 2026-10-13T23:00:46Z
+RESULT p=7 a=14 sG=3: samples 200 (on G 200/200, memory-skipped 0); E[Lam_a]=1.228+-0.44; slope shares 0:0.381, 1:0.531, 2:0.075, >=3:0.013; Kac-Rice shares 0.857, 0.122, 0.017, 0.003; E[Hensel-failure mass]=0.7603+-0.44 (share 0.619)
+### exit: 0
+### wall: 2.497549150 s
+### command: python3 slope_profile.py 7 721 200 21 3 3 8
+### start: 2026-10-13T23:00:48Z
+RESULT p=7 a=21 sG=3: samples 198 (on G 198/200, memory-skipped 0); E[Lam_a]=1.245+-0.44; slope shares 0:0.368, 1:0.158, 2:0.406, >=3:0.068; Kac-Rice shares 0.857, 0.122, 0.017, 0.003; E[Hensel-failure mass]=0.787+-0.45 (share 0.632)
+### exit: 0
+### wall: 42.164896064 s
+### command: python3 slope_profile.py 7 728 200 28 3 3 8
+### start: 2026-10-13T23:01:31Z
+RESULT p=7 a=28 sG=3: samples 183 (on G 197/200, memory-skipped 14); E[Lam_a]=1.057+-0.15; slope shares 0:0.476, 1:0.179, 2:0.296, >=3:0.048; Kac-Rice shares 0.857, 0.122, 0.017, 0.003; E[Hensel-failure mass]=0.3641+-0.15 (share 0.344)
+### exit: 0
+### wall: 327.620453944 s
+### command: python3 slope_profile.py 5 510 200 10 3 3 9
+### start: 2026-10-13T23:06:58Z
+RESULT p=5 a=10 sG=3: samples 197 (on G 197/200, memory-skipped 0); E[Lam_a]=0.9483+-0.087; slope shares 0:0.471, 1:0.423, 2:0.086, >=3:0.020; Kac-Rice shares 0.800, 0.160, 0.032, 0.008; E[Hensel-failure mass]=0.5018+-0.091 (share 0.529)
+### exit: 0
+### wall: .294636773 s
+### command: python3 slope_profile.py 5 515 200 15 3 3 9
+### start: 2026-10-13T23:06:59Z
+RESULT p=5 a=15 sG=3: samples 197 (on G 197/200, memory-skipped 0); E[Lam_a]=1.024+-0.18; slope shares 0:0.374, 1:0.223, 2:0.322, >=3:0.081; Kac-Rice shares 0.800, 0.160, 0.032, 0.008; E[Hensel-failure mass]=0.6411+-0.18 (share 0.626)
+### exit: 0
+### wall: 2.448284977 s
+### command: python3 slope_profile.py 5 520 200 20 3 3 9
+### start: 2026-10-13T23:07:01Z
+RESULT p=5 a=20 sG=3: samples 195 (on G 195/200, memory-skipped 0); E[Lam_a]=0.8775+-0.08; slope shares 0:0.447, 1:0.254, 2:0.240, >=3:0.059; Kac-Rice shares 0.800, 0.160, 0.032, 0.008; E[Hensel-failure mass]=0.2628+-0.079 (share 0.300)
+### exit: 0
+### wall: 17.884381829 s
+### command: python3 slope_profile.py 5 525 200 25 3 3 9
+### start: 2026-10-13T23:07:19Z
+RESULT p=5 a=25 sG=3: samples 158 (on G 192/200, memory-skipped 34); E[Lam_a]=0.943+-0.096; slope shares 0:0.430, 1:0.248, 2:0.261, >=3:0.060; Kac-Rice shares 0.800, 0.160, 0.032, 0.008; E[Hensel-failure mass]=0.3034+-0.098 (share 0.322)
+### exit: 0
+### wall: 59.786577423 s
+### command: python3 slope_profile.py 3 36 200 6 4 4 12
+### start: 2026-10-13T23:08:19Z
+RESULT p=3 a=6 sG=4: samples 197 (on G 197/200, memory-skipped 0); E[Lam_a]=0.8492+-0.16; slope shares 0:0.243, 1:0.461, 2:0.120, 3:0.062, >=4:0.114; Kac-Rice shares 0.667, 0.222, 0.074, 0.025, 0.012; E[Hensel-failure mass]=0.6424+-0.16 (share 0.757)
+### exit: 0
+### wall: .155648422 s
+### command: python3 slope_profile.py 3 39 200 9 4 4 12
+### start: 2026-10-13T23:08:19Z
+RESULT p=3 a=9 sG=4: samples 191 (on G 191/200, memory-skipped 0); E[Lam_a]=0.8378+-0.14; slope shares 0:0.238, 1:0.107, 2:0.435, 3:0.139, >=4:0.080; Kac-Rice shares 0.667, 0.222, 0.074, 0.025, 0.012; E[Hensel-failure mass]=0.638+-0.14 (share 0.762)
+### exit: 0
+### wall: .301463733 s
+### command: python3 slope_profile.py 3 312 200 12 4 4 12
+### start: 2026-10-13T23:08:19Z
+RESULT p=3 a=12 sG=4: samples 187 (on G 187/200, memory-skipped 0); E[Lam_a]=0.6926+-0.13; slope shares 0:0.344, 1:0.149, 2:0.204, 3:0.086, >=4:0.217; Kac-Rice shares 0.667, 0.222, 0.074, 0.025, 0.012; E[Hensel-failure mass]=0.3512+-0.13 (share 0.507)
+### exit: 0
+### wall: 1.453324764 s
+### command: python3 slope_profile.py 3 315 200 15 4 4 12
+### start: 2026-10-13T23:08:21Z
+RESULT p=3 a=15 sG=4: samples 166 (on G 188/200, memory-skipped 22); E[Lam_a]=0.6589+-0.099; slope shares 0:0.337, 1:0.145, 2:0.091, 3:0.245, >=4:0.181; Kac-Rice shares 0.667, 0.222, 0.074, 0.025, 0.012; E[Hensel-failure mass]=0.2978+-0.097 (share 0.452)
+### exit: 0
+### wall: 5.703433423 s
+### command: python3 slope_profile.py 3 318 200 18 4 4 12
+### start: 2026-10-13T23:08:26Z
+RESULT p=3 a=18 sG=4: samples 70 (on G 188/200, memory-skipped 118); E[Lam_a]=0.5709+-0.087; slope shares 0:0.366, 1:0.163, 2:0.280, 3:0.090, >=4:0.101; Kac-Rice shares 0.667, 0.222, 0.074, 0.025, 0.012; E[Hensel-failure mass]=0.1093+-0.033 (share 0.191)
+### exit: 0
+### wall: 5.972834825 s
+### note: re-runs below with the stratified version (early gate of depth >= 2 within p of the start)
+### command: python3 slope_profile.py 7 721 200 21 3 3 8
+### start: 2026-10-13T23:08:58Z
+RESULT p=7 a=21 sG=3: samples 198 (on G 198/200, memory-skipped 0); E[Lam_a]=1.245+-0.44; slope shares 0:0.368, 1:0.158, 2:0.406, >=3:0.068; Kac-Rice shares 0.857, 0.122, 0.017, 0.003; E[Hensel-failure mass]=0.787+-0.45 (share 0.632)
+   stratum [gate of depth>=2 within p of the start]: 21 samples, E[Lam_a]=5.611, E[Hensel-failure]=5.299, share 0.944, median per-sample share 0.000
+   stratum [no such gate]: 177 samples, E[Lam_a]=0.7274, E[Hensel-failure]=0.2517, share 0.346, median per-sample share 0.047
+### exit: 0
+### wall: 44.754002341 s
+### command: python3 slope_profile.py 5 520 300 20 3 3 9
+### start: 2026-10-13T23:09:43Z
+RESULT p=5 a=20 sG=3: samples 291 (on G 291/300, memory-skipped 0); E[Lam_a]=1.031+-0.16; slope shares 0:0.355, 1:0.223, 2:0.168, >=3:0.255; Kac-Rice shares 0.800, 0.160, 0.032, 0.008; E[Hensel-failure mass]=0.436+-0.17 (share 0.423)
+   stratum [gate of depth>=2 within p of the start]: 50 samples, E[Lam_a]=2.464, E[Hensel-failure]=2.187, share 0.888, median per-sample share 0.000
+   stratum [no such gate]: 241 samples, E[Lam_a]=0.7337, E[Hensel-failure]=0.07257, share 0.099, median per-sample share 0.000
+### exit: 0
+### wall: 25.252009921 s
+### command: python3 slope_profile.py 3 315 300 15 4 4 12
+### start: 2026-10-13T23:10:08Z
+RESULT p=3 a=15 sG=4: samples 256 (on G 283/300, memory-skipped 27); E[Lam_a]=0.6735+-0.083; slope shares 0:0.320, 1:0.150, 2:0.087, 3:0.256, >=4:0.187; Kac-Rice shares 0.667, 0.222, 0.074, 0.025, 0.012; E[Hensel-failure mass]=0.313+-0.081 (share 0.465)
+   stratum [gate of depth>=2 within p of the start]: 76 samples, E[Lam_a]=1.111, E[Hensel-failure]=0.963, share 0.867, median per-sample share 0.000
+   stratum [no such gate]: 180 samples, E[Lam_a]=0.4887, E[Hensel-failure]=0.03854, share 0.079, median per-sample share 0.000
+### exit: 0
+### wall: 9.242410723 s
+### note: re-run (logged) of the 30-sample pilot quoted in report section 8.5
+### command: python3 slope_profile.py 7 1 30 21 2 3 8
+### start: 2026-10-13T23:25:59Z
+RESULT p=7 a=21 sG=2: samples 28 (on G 28/30, memory-skipped 0); E[Lam_a]=0.5644+-0.1; slope shares 0:0.840, 1:0.138, 2:0.019, >=3:0.003; Kac-Rice shares 0.857, 0.122, 0.017, 0.003; E[Hensel-failure mass]=0.09057+-0.062 (share 0.160)
+   stratum [gate of depth>=2 within p of the start]: 6 samples, E[Lam_a]=0.05534, E[Hensel-failure]=0, share 0.000, median per-sample share 0.000
+   stratum [no such gate]: 22 samples, E[Lam_a]=0.7033, E[Hensel-failure]=0.1153, share 0.164, median per-sample share 0.024
+### exit: 0
+### wall: 2.497174662 s

@@ -1,0 +1,8 @@
+# cmd: /tmp/r3_R3N/verify_witness_gmp /tmp/r3_R3N/best17662_212995.txt 17662 212995 ; python3 -I code/round3/R3N/verify_witness.py /tmp/r3_R3N/best17662_212995.txt 17662 212995  (intermediate-best witness written by dfsW4 -b)
+terms=97664 min=17662 max=212992 v2(sum)=212995 bits=3462780 v2(a!)=17653 g>=195342
+check v2(sum) >= 212995: True
+VERIFIED
+terms=97664 min=17662 max=212992 v2(sum)=212995 bits(sum)=3462780 time=34.6s
+check v2(sum) >= 212995: True
+v2(a!)=17653 => f(17662,2) >= 212995, g >= 195342
+VERIFIED

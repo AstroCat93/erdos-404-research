@@ -1,0 +1,21 @@
+# command: env R3C_BIN=/tmp/r3_R3C/bin python3 code/round3/R3C/scan_r3.py 29 3 19 21 --all
+# cwd: /home/user/erdos-404-research  host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz
+# start: 2026-10-13 06:15:31 UTC
+# scan p=29 t=3 H=19..21 rho0=6
+p=29 t=3 H=19 c=0 M=3 k=0: HOLDS
+    SUMMARY A p=29 t=3 H=19 c=0 M=3 k=0 mode=all nK=1 fail=0 worst_missing=0 ALL_COVERED total=0.0s
+    END C p=29 t=3 H=19 nK=1 bad=0 ALL_COVERED 0.0s
+    A p=29 t=3 H=19 c=0 M=3 K=1 missing=0 COVERED [0.00s]
+    C p=29 t=3 H=19 M=3 K=3 Kmodpc=0 miss=0 COVERED 0.00s
+p=29 t=3 H=20 c=0 M=3 k=0: HOLDS
+    SUMMARY A p=29 t=3 H=20 c=0 M=3 k=0 mode=all nK=1 fail=0 worst_missing=0 ALL_COVERED total=0.0s
+    END C p=29 t=3 H=20 nK=1 bad=0 ALL_COVERED 0.0s
+    A p=29 t=3 H=20 c=0 M=3 K=1 missing=0 COVERED [0.00s]
+    C p=29 t=3 H=20 M=3 K=3 Kmodpc=0 miss=0 COVERED 0.00s
+p=29 t=3 H=21 c=0 M=3 k=0: HOLDS
+    SUMMARY A p=29 t=3 H=21 c=0 M=3 k=0 mode=all nK=1 fail=0 worst_missing=0 ALL_COVERED total=0.0s
+    END C p=29 t=3 H=21 nK=1 bad=0 ALL_COVERED 0.0s
+    A p=29 t=3 H=21 c=0 M=3 K=1 missing=0 COVERED [0.00s]
+    C p=29 t=3 H=21 M=3 K=3 Kmodpc=0 miss=0 COVERED 0.00s
+# wall=0.285 s user=0.274 s sys=0.018 s
+# end: 2026-10-13 06:15:32 UTC

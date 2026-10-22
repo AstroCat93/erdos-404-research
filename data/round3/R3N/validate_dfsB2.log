@@ -1,0 +1,2 @@
+# cmd: compare dfsB2 with dfsB (RESULT/EXACT incl. step counts) on all even a<=256 at K=f,f+1 (Kitamura table) and deeper rows
+compared 262 runs; differences: 0

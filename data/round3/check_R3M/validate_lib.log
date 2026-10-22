@@ -1,0 +1,12 @@
+=== command: python3 ck_validate_lib.py 3 1 30 12
+=== start (UTC): 2026-10-13T07:54:21Z
+RESULT validate_lib p=3 n=12 samples=30 alive paths compared=112 failures=0
+=== exit: 0   wall: 4.03 s
+=== command: python3 ck_validate_lib.py 5 2 30 12
+=== start (UTC): 2026-10-13T07:54:25Z
+RESULT validate_lib p=5 n=12 samples=30 alive paths compared=575 failures=0
+=== exit: 0   wall: 4.33 s
+=== command: python3 ck_validate_lib.py 7 3 30 13
+=== start (UTC): 2026-10-13T07:54:30Z
+RESULT validate_lib p=7 n=13 samples=30 alive paths compared=3705 failures=0
+=== exit: 0   wall: 12.4 s

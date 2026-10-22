@@ -1,0 +1,18 @@
+### command: python3 t1_partition.py 2 80 8
+### start (UTC): 2026-10-14T00:13:11Z
+RESULT p=3 cumulative {'lift': 14671, 'liftfail': 0, 'Bcheck': 5440, 'Bfail': 0, 'epscheck': 3812, 'epsfail': 0, 'Bheld': 953, 'deep': 2136}
+RESULT p=3 cumulative {'lift': 29213, 'liftfail': 0, 'Bcheck': 10880, 'Bfail': 0, 'epscheck': 6948, 'epsfail': 0, 'Bheld': 1737, 'deep': 4020}
+RESULT p=3 cumulative {'lift': 43704, 'liftfail': 0, 'Bcheck': 16320, 'Bfail': 0, 'epscheck': 10332, 'epsfail': 0, 'Bheld': 2583, 'deep': 5796}
+RESULT p=3 cumulative {'lift': 58171, 'liftfail': 0, 'Bcheck': 21760, 'Bfail': 0, 'epscheck': 13700, 'epsfail': 0, 'Bheld': 3425, 'deep': 7530}
+RESULT p=5 cumulative {'lift': 72593, 'liftfail': 0, 'Bcheck': 27200, 'Bfail': 0, 'epscheck': 18108, 'epsfail': 0, 'Bheld': 4527, 'deep': 9174}
+RESULT p=5 cumulative {'lift': 86865, 'liftfail': 0, 'Bcheck': 32640, 'Bfail': 0, 'epscheck': 22232, 'epsfail': 0, 'Bheld': 5558, 'deep': 10518}
+RESULT p=5 cumulative {'lift': 101188, 'liftfail': 0, 'Bcheck': 38080, 'Bfail': 0, 'epscheck': 26096, 'epsfail': 0, 'Bheld': 6524, 'deep': 11961}
+RESULT p=5 cumulative {'lift': 115478, 'liftfail': 0, 'Bcheck': 43520, 'Bfail': 0, 'epscheck': 29752, 'epsfail': 0, 'Bheld': 7438, 'deep': 13341}
+RESULT p=7 cumulative {'lift': 129921, 'liftfail': 0, 'Bcheck': 48960, 'Bfail': 0, 'epscheck': 34020, 'epsfail': 0, 'Bheld': 8505, 'deep': 15027}
+RESULT p=7 cumulative {'lift': 144043, 'liftfail': 0, 'Bcheck': 54400, 'Bfail': 0, 'epscheck': 38876, 'epsfail': 0, 'Bheld': 9719, 'deep': 16047}
+RESULT p=7 cumulative {'lift': 158315, 'liftfail': 0, 'Bcheck': 59840, 'Bfail': 0, 'epscheck': 43012, 'epsfail': 0, 'Bheld': 10753, 'deep': 17385}
+RESULT p=7 cumulative {'lift': 172683, 'liftfail': 0, 'Bcheck': 65280, 'Bfail': 0, 'epscheck': 46708, 'epsfail': 0, 'Bheld': 11677, 'deep': 18921}
+RESULT negative control (one-step rule): n_2 non-constant on 119/240 atoms of G_0 (expected > 0 when D_0 > 0)
+SUMMARY t1 {'lift': 172683, 'liftfail': 0, 'Bcheck': 65280, 'Bfail': 0, 'epscheck': 46708, 'epsfail': 0, 'Bheld': 11677, 'deep': 18921}
+### exit: 0
+### wall: 13 s

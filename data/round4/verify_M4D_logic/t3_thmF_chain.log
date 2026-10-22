@@ -1,0 +1,123 @@
+## python3 t3_thmF_chain.py 3 31 150 14 3 8 14 22 32 44
+## start 2026-10-14T01:12:17Z
+RESULT t3 p=3 seed=31 times=[3, 8, 14, 22, 32, 44] L=4 KCAP=14 forced=(): samples=150 (censored 3), alive at n_L: 49; per-step |T_l+1|>=max|Lift| fails=0; union identity: checked 600, fails=0; NEG1 ((I) alone => alive at n_L): hyp 55, violations 6
+  schedule opt_1         : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule opt_half      : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule opt_full      : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_1       : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_3/4     : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_1/2     : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_1/4     : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_1/10    : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule tao           : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule rand_lattice  : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule rand_k/997    : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule NEG2_weak(>=) : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+## exit 0, wall 5 s
+
+## python3 t3_thmF_chain.py 5 32 120 10 5 12 20 30 42
+## start 2026-10-14T01:12:22Z
+RESULT t3 p=5 seed=32 times=[5, 12, 20, 30, 42] L=3 KCAP=10 forced=(): samples=120 (censored 0), alive at n_L: 58; per-step |T_l+1|>=max|Lift| fails=0; union identity: checked 360, fails=0; NEG1 ((I) alone => alive at n_L): hyp 61, violations 3
+  schedule opt_1         : hypotheses (I)+(II) hold in   12 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.6800; equalities 0
+  schedule opt_half      : hypotheses (I)+(II) hold in    1 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.6800; equalities 0
+  schedule opt_full      : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_1       : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_3/4     : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_1/2     : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_1/4     : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_1/10    : hypotheses (I)+(II) hold in    2 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.2000; equalities 0
+  schedule tao           : hypotheses (I)+(II) hold in    7 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 3.0000; equalities 0
+  schedule rand_lattice  : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule rand_k/997    : hypotheses (I)+(II) hold in    1 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.3377; equalities 0
+  schedule NEG2_weak(>=) : hypotheses (I)+(II) hold in   19 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+## exit 0, wall 6 s
+
+## python3 t3_thmF_chain.py 7 33 300 8 8 18 30 44 60
+## start 2026-10-14T01:12:28Z
+RESULT t3 p=7 seed=33 times=[8, 18, 30, 44, 60] L=3 KCAP=8 forced=(): samples=300 (censored 0), alive at n_L: 184; per-step |T_l+1|>=max|Lift| fails=0; union identity: checked 860, fails=0; NEG1 ((I) alone => alive at n_L): hyp 184, violations 0
+  schedule opt_1         : hypotheses (I)+(II) hold in  112 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0000; equalities 1
+  schedule opt_half      : hypotheses (I)+(II) hold in   66 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0000; equalities 1
+  schedule opt_full      : hypotheses (I)+(II) hold in   26 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0000; equalities 26
+  schedule const_1       : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_3/4     : hypotheses (I)+(II) hold in    8 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.3333; equalities 0
+  schedule const_1/2     : hypotheses (I)+(II) hold in   10 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.9592; equalities 0
+  schedule const_1/4     : hypotheses (I)+(II) hold in   15 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 3.3469; equalities 0
+  schedule const_1/10    : hypotheses (I)+(II) hold in   34 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 8.5714; equalities 0
+  schedule tao           : hypotheses (I)+(II) hold in   36 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 6.0000; equalities 0
+  schedule rand_lattice  : hypotheses (I)+(II) hold in   36 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0000; equalities 3
+  schedule rand_k/997    : hypotheses (I)+(II) hold in   42 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0000; equalities 1
+  schedule NEG2_weak(>=) : hypotheses (I)+(II) hold in  119 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+## exit 0, wall 64 s
+
+## python3 t3_thmF_chain.py 7 34 25 8 10 34 60 88
+## start 2026-10-14T01:13:32Z
+RESULT t3 p=7 seed=34 times=[10, 34, 60, 88] L=2 KCAP=8 forced=(): samples=25 (censored 125), alive at n_L: 20; per-step |T_l+1|>=max|Lift| fails=0; union identity: checked 30, fails=0; NEG1 ((I) alone => alive at n_L): hyp 20, violations 0
+  schedule opt_1         : hypotheses (I)+(II) hold in   20 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 343.0000; equalities 0
+  schedule opt_half      : hypotheses (I)+(II) hold in   20 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.9992; equalities 0
+  schedule opt_full      : hypotheses (I)+(II) hold in   20 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0000; equalities 20
+  schedule const_1       : hypotheses (I)+(II) hold in   17 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0000; equalities 34
+  schedule const_3/4     : hypotheses (I)+(II) hold in   20 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.3333; equalities 0
+  schedule const_1/2     : hypotheses (I)+(II) hold in   20 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 2.0000; equalities 0
+  schedule const_1/4     : hypotheses (I)+(II) hold in   20 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 4.0000; equalities 0
+  schedule const_1/10    : hypotheses (I)+(II) hold in   20 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 10.0000; equalities 0
+  schedule tao           : hypotheses (I)+(II) hold in   20 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 343.0000; equalities 0
+  schedule rand_lattice  : hypotheses (I)+(II) hold in   60 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0000; equalities 1
+  schedule rand_k/997    : hypotheses (I)+(II) hold in   60 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0071; equalities 0
+  schedule NEG2_weak(>=) : hypotheses (I)+(II) hold in   20 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+## exit 0, wall 210 s
+
+## python3 t3_thmF_chain.py 7 35 30 8 8 18 30 44 60 --gate 19 3
+## start 2026-10-14T01:17:02Z
+RESULT t3 p=7 seed=35 times=[8, 18, 30, 44, 60] L=3 KCAP=8 forced=((19, 3),): samples=30 (censored 0), alive at n_L: 30; per-step |T_l+1|>=max|Lift| fails=0; union identity: checked 90, fails=0; NEG1 ((I) alone => alive at n_L): hyp 30, violations 0
+  schedule opt_1         : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule opt_half      : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule opt_full      : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_1       : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_3/4     : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_1/2     : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_1/4     : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule const_1/10    : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule tao           : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule rand_lattice  : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule rand_k/997    : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+  schedule NEG2_weak(>=) : hypotheses (I)+(II) hold in    0 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+## exit 0, wall 3 s
+
+## python3 t3_thmF_chain.py 11 36 40 6 11 33 58 86
+## start 2026-10-14T01:17:05Z
+RESULT t3 p=11 seed=36 times=[11, 33, 58, 86] L=2 KCAP=6 forced=(): samples=40 (censored 2), alive at n_L: 29; per-step |T_l+1|>=max|Lift| fails=0; union identity: checked 52, fails=0; NEG1 ((I) alone => alive at n_L): hyp 29, violations 0
+  schedule opt_1         : hypotheses (I)+(II) hold in   29 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.3582; equalities 0
+  schedule opt_half      : hypotheses (I)+(II) hold in   29 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.3582; equalities 0
+  schedule opt_full      : hypotheses (I)+(II) hold in   29 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0000; equalities 29
+  schedule const_1       : hypotheses (I)+(II) hold in   29 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0000; equalities 58
+  schedule const_3/4     : hypotheses (I)+(II) hold in   29 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.3333; equalities 0
+  schedule const_1/2     : hypotheses (I)+(II) hold in   23 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 2.0000; equalities 0
+  schedule const_1/4     : hypotheses (I)+(II) hold in   23 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 4.0000; equalities 0
+  schedule const_1/10    : hypotheses (I)+(II) hold in   23 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 10.0000; equalities 0
+  schedule tao           : hypotheses (I)+(II) hold in   23 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 121.0000; equalities 0
+  schedule rand_lattice  : hypotheses (I)+(II) hold in   72 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0083; equalities 0
+  schedule rand_k/997    : hypotheses (I)+(II) hold in   74 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0010; equalities 0
+  schedule NEG2_weak(>=) : hypotheses (I)+(II) hold in   29 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+## exit 0, wall 178 s
+
+## python3 t3_thmF_chain.py 13 37 40 6 13 39 65 91
+## start 2026-10-14T01:20:03Z
+RESULT t3 p=13 seed=37 times=[13, 39, 65, 91] L=2 KCAP=6 forced=(): samples=40 (censored 0), alive at n_L: 31; per-step |T_l+1|>=max|Lift| fails=0; union identity: checked 50, fails=0; NEG1 ((I) alone => alive at n_L): hyp 31, violations 0
+  schedule opt_1         : hypotheses (I)+(II) hold in   31 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0013; equalities 0
+  schedule opt_half      : hypotheses (I)+(II) hold in   31 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0013; equalities 0
+  schedule opt_full      : hypotheses (I)+(II) hold in   31 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0000; equalities 31
+  schedule const_1       : hypotheses (I)+(II) hold in   31 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0000; equalities 62
+  schedule const_3/4     : hypotheses (I)+(II) hold in   28 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.3333; equalities 0
+  schedule const_1/2     : hypotheses (I)+(II) hold in   28 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 2.0000; equalities 0
+  schedule const_1/4     : hypotheses (I)+(II) hold in   28 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 4.0000; equalities 0
+  schedule const_1/10    : hypotheses (I)+(II) hold in   25 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 10.0000; equalities 0
+  schedule tao           : hypotheses (I)+(II) hold in   25 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 169.0000; equalities 0
+  schedule rand_lattice  : hypotheses (I)+(II) hold in   83 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0000; equalities 1
+  schedule rand_k/997    : hypotheses (I)+(II) hold in   83 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = 1.0061; equalities 0
+  schedule NEG2_weak(>=) : hypotheses (I)+(II) hold in   31 samples; conclusion VIOLATIONS 0; min |T_l|/(theta_l p^D_l) = n/a; equalities 0
+## exit 0, wall 674 s
+
+## python3 t3_thmF_chain.py 13 38 15 6 13 39 65 91 --gate 41 3
+## start 2026-10-14T01:31:17Z
+## exit 143, wall 615 s
+

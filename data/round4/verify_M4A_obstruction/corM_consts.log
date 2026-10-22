@@ -1,0 +1,45 @@
+=== command: python3 code/round4/verify_M4A_obstruction/corM_consts.py consts 7 11 13 17 19 23
+=== start (UTC): 2026-10-14T01:50:48Z
+p=7: own DP mod p^7: q_1=1.014282227, q_2=1.112548828, q_3=4.061401367, q_4=28.136718750, q_5=196.957031250, q_6=1378.699218750, q_7=9650.894531250
+      exact: q_1 = 8309/8192  q_2 = 4557/4096
+      q_1 > 1: True;  q_2/p = 0.158936 < 1: True;  q_(s-1) <= q_s <= p q_(s-1) for s <= 7: True
+      full enumeration of 3^7 configurations: equals the DP for q_1..q_7: True; q_8=67556.3
+      max atom of Z = 3/256 = 0.0117188;  q_8/p^8 = 0.0117188  (q_s/p^s decreases to the max atom: a depth-s gate costs ~ p^s * 0.0117)
+      P_0(2,s) = 1/4 for s = 1..6: True;  P_0(1,s)=0: True;  for g >= 3 the block-0 sum is == 1 mod (g-1), never 0
+      P_0(g,6) > 0 for g >= 3: none
+      with M4A's S=8: rho_1=0.06040608 gamma=1.853438 kappa=0.9116697 > 0: True;  rate c=0.0314359 > 0: True  (c/2 = 0.0157179)
+p=11: own DP mod p^6: q_1=1.001436234, q_2=1.111596107, q_3=1.801194191, q_4=10.974718094, q_5=117.957275391, q_6=1297.530029297
+      exact: q_1 = 525041/524288  q_2 = 1165593/1048576
+      q_1 > 1: True;  q_2/p = 0.101054 < 1: True;  q_(s-1) <= q_s <= p q_(s-1) for s <= 6: True
+      full enumeration of 3^11 configurations: equals the DP for q_1..q_6: True; q_7=14272.8, q_8=157001
+      max atom of Z = 3/4096 = 0.000732422;  q_8/p^8 = 0.000732422  (q_s/p^s decreases to the max atom: a depth-s gate costs ~ p^s * 0.000732)
+      P_0(2,s) = 1/4 for s = 1..6: True;  P_0(1,s)=0: True;  for g >= 3 the block-0 sum is == 1 mod (g-1), never 0
+      P_0(g,6) > 0 for g >= 3: none
+      with M4A's S=8: rho_1=0.01644781 gamma=2.293534 kappa=2.654542 > 0: True;  rate c=0.0318181 > 0: True  (c/2 = 0.0159091)
+p=13: own DP mod p^5: q_1=1.000022024, q_2=1.008124352, q_3=1.192443490, q_4=6.886079609, q_5=68.074301958
+      exact: q_1 = 33555171/33554432  q_2 = 1057095/1048576
+      q_1 > 1: True;  q_2/p = 0.077548 < 1: True;  q_(s-1) <= q_s <= p q_(s-1) for s <= 5: True
+      full enumeration of 3^13 configurations: equals the DP for q_1..q_5: True; q_6=883.815, q_7=11489.6, q_8=149365
+      max atom of Z = 3/16384 = 0.000183105;  q_8/p^8 = 0.000183105  (q_s/p^s decreases to the max atom: a depth-s gate costs ~ p^s * 0.000183)
+      P_0(2,s) = 1/4 for s = 1..5: True;  P_0(1,s)=0: True;  for g >= 3 the block-0 sum is == 1 mod (g-1), never 0
+      P_0(g,5) > 0 for g >= 3: [(13, 4.76837158203125e-07)]
+      with M4A's S=8: rho_1=0.002522154 gamma=2.55688 kappa=3.576696 > 0: True;  rate c=0.031599 > 0: True  (c/2 = 0.0157995)
+p=17: own DP mod p^5: q_1=1.000000609, q_2=1.000289807, q_3=1.022568950, q_4=1.951255989, q_5=16.724356830
+      exact: q_1 = 4294969913/4294967296  q_2 = 8592424019/8589934592
+      q_1 > 1: True;  q_2/p = 0.058841 < 1: True;  q_(s-1) <= q_s <= p q_(s-1) for s <= 5: True
+      P_0(2,s) = 1/4 for s = 1..5: True;  P_0(1,s)=0: True;  for g >= 3 the block-0 sum is == 1 mod (g-1), never 0
+      P_0(g,5) > 0 for g >= 3: [(16, 5.21540641784668e-07), (17, 4.0885061025619507e-07)]
+      with M4A's S=4: rho_1=0.0002614027 gamma=2.832924 kappa=5.747961 > 0: True;  rate c=0.0274336 > 0: True  (c/2 = 0.0137168)
+p=19: own DP mod p^4: q_1=1.000000098, q_2=1.000463368, q_3=1.010750715, q_4=1.309407942
+      exact: q_1 = 137438966979/137438953472  q_2 = 137502638335/137438953472
+      q_1 > 1: True;  q_2/p = 0.052656 < 1: True;  q_(s-1) <= q_s <= p q_(s-1) for s <= 4: True
+      P_0(2,s) = 1/4 for s = 1..4: True;  P_0(1,s)=0: True;  for g >= 3 the block-0 sum is == 1 mod (g-1), never 0
+      P_0(g,4) > 0 for g >= 3: [(14, 5.662441253662109e-06), (15, 1.0125339031219482e-05), (16, 6.57886266708374e-06), (17, 7.0552341639995575e-06), (18, 6.524031050503254e-06), (19, 7.71510531194508e-06)]
+      with M4A's S=4: rho_1=0.0001144057 gamma=2.943976 kappa=6.890086 > 0: True;  rate c=0.0256832 > 0: True  (c/2 = 0.0128416)
+p=23: own DP mod p^4: q_1=1.000000005, q_2=1.000002263, q_3=1.001157882, q_4=1.044938579
+      exact: q_1 = 17592186139819/17592186044416  q_2 = 35184451705469/35184372088832
+      q_1 > 1: True;  q_2/p = 0.043478 < 1: True;  q_(s-1) <= q_s <= p q_(s-1) for s <= 4: True
+      P_0(2,s) = 1/4 for s = 1..4: True;  P_0(1,s)=0: True;  for g >= 3 the block-0 sum is == 1 mod (g-1), never 0
+      P_0(g,4) > 0 for g >= 3: [(14, 3.0994415283203125e-06), (15, 1.1920928955078125e-06), (16, 2.0712614059448242e-06), (17, 2.391636371612549e-06), (18, 3.459281288087368e-06), (19, 3.751265467144549e-06), (20, 3.4750373743008822e-06), (21, 3.55775591742713e-06), (22, 3.58282068191329e-06), (23, 3.588413051147654e-06)]
+      with M4A's S=4: rho_1=1.751848e-5 gamma=3.135492 kappa=9.244994 > 0: True;  rate c=0.0228191 > 0: True  (c/2 = 0.0114095)
+=== exit: 0   wall: 3.35 s

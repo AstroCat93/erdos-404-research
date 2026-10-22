@@ -1,0 +1,47 @@
+### command: timeout 1500 python3 code/round4/M4C/test_base.py 1 30 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61
+### start: 2026-10-13T23:52:45Z
+p=7 wilson_quotient_mod_p=5 wilson=False :: [('first-block-0', 'alive&V=3: 30/30, slope0: 30/30')]
+p=11 wilson_quotient_mod_p=1 wilson=False :: [('first-block-0', 'alive&V=3: 30/30, slope0: 30/30')]
+p=13 wilson_quotient_mod_p=0 wilson=True :: [('first-block-0', 'alive&V=3: 30/30, slope0: 0/30'), ('first-block-1', 'alive&V=3: 30/30, slope0: 30/30')]
+p=17 wilson_quotient_mod_p=5 wilson=False :: [('first-block-0', 'alive&V=3: 30/30, slope0: 30/30')]
+p=19 wilson_quotient_mod_p=2 wilson=False :: [('first-block-0', 'alive&V=3: 30/30, slope0: 30/30')]
+p=23 wilson_quotient_mod_p=8 wilson=False :: [('first-block-0', 'alive&V=3: 30/30, slope0: 30/30')]
+p=29 wilson_quotient_mod_p=18 wilson=False :: [('first-block-0', 'alive&V=3: 30/30, slope0: 30/30')]
+p=31 wilson_quotient_mod_p=19 wilson=False :: [('first-block-0', 'alive&V=3: 30/30, slope0: 30/30')]
+p=37 wilson_quotient_mod_p=7 wilson=False :: [('first-block-0', 'alive&V=3: 30/30, slope0: 30/30')]
+p=41 wilson_quotient_mod_p=16 wilson=False :: [('first-block-0', 'alive&V=3: 30/30, slope0: 30/30')]
+p=43 wilson_quotient_mod_p=13 wilson=False :: [('first-block-0', 'alive&V=3: 30/30, slope0: 30/30')]
+p=47 wilson_quotient_mod_p=6 wilson=False :: [('first-block-0', 'alive&V=3: 30/30, slope0: 30/30')]
+p=53 wilson_quotient_mod_p=34 wilson=False :: [('first-block-0', 'alive&V=3: 30/30, slope0: 30/30')]
+p=59 wilson_quotient_mod_p=27 wilson=False :: [('first-block-0', 'alive&V=3: 30/30, slope0: 30/30')]
+p=61 wilson_quotient_mod_p=56 wilson=False :: [('first-block-0', 'alive&V=3: 30/30, slope0: 30/30')]
+### wall: 0 s
+### command: timeout 1500 python3 code/round4/M4C/test_base.py 2 20 atom 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61
+### start: 2026-10-14T00:24:19Z
+p=7 wilson_quotient_mod_p=5 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=11 wilson_quotient_mod_p=1 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=13: Wilson prime; first block found: indices [0, 1, 2, 3, 4, 8, 9]
+p=13 wilson_quotient_mod_p=0 wilson=True :: [('first-block-0', 'alive&V=3: 20/20, slope0: 0/20'), ('first-block-1', 'alive&V=3: 20/20, slope0: 20/20')]
+p=17 wilson_quotient_mod_p=5 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=19 wilson_quotient_mod_p=2 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=23 wilson_quotient_mod_p=8 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=29 wilson_quotient_mod_p=18 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=31 wilson_quotient_mod_p=19 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=37 wilson_quotient_mod_p=7 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=41 wilson_quotient_mod_p=16 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=43 wilson_quotient_mod_p=13 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=47 wilson_quotient_mod_p=6 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=53 wilson_quotient_mod_p=34 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=59 wilson_quotient_mod_p=27 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=61 wilson_quotient_mod_p=56 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+### wall: 0 s
+### command: timeout 1500 python3 code/round4/M4C/test_base.py 3 20 atom 67 71 73 79 83 89 97
+### start: 2026-10-14T01:32:03Z
+p=67 wilson_quotient_mod_p=12 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=71 wilson_quotient_mod_p=69 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=73 wilson_quotient_mod_p=11 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=79 wilson_quotient_mod_p=73 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=83 wilson_quotient_mod_p=20 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=89 wilson_quotient_mod_p=70 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+p=97 wilson_quotient_mod_p=70 wilson=False :: [('first-block-0', 'alive&V=3: 20/20, slope0: 20/20')]
+### wall: 1 s

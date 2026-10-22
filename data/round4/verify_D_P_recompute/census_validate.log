@@ -1,0 +1,78 @@
+=== command: python3 census_brute.py /tmp/r4_verify_D_P_recompute/census
+=== start (UTC): 2026-10-14T03:17:41Z
+p=3 G=1: classes 3, survivors brute 2, dfs 2, mismatches 0
+p=3 G=2: classes 9, survivors brute 5, dfs 5, mismatches 0
+p=3 G=3: classes 27, survivors brute 14, dfs 14, mismatches 0
+p=3 G=4: classes 81, survivors brute 37, dfs 37, mismatches 0
+p=3 G=5: classes 243, survivors brute 105, dfs 105, mismatches 0
+p=5 G=1: classes 5, survivors brute 3, dfs 3, mismatches 0
+p=5 G=2: classes 25, survivors brute 14, dfs 14, mismatches 0
+p=5 G=3: classes 125, survivors brute 68, dfs 68, mismatches 0
+p=5 G=4: classes 625, survivors brute 337, dfs 337, mismatches 0
+p=7 G=1: classes 7, survivors brute 5, dfs 5, mismatches 0
+p=7 G=2: classes 49, survivors brute 31, dfs 31, mismatches 0
+p=7 G=3: classes 343, survivors brute 217, dfs 217, mismatches 0
+p=7 G=4: classes 2401, survivors brute 1501, dfs 1501, mismatches 0
+p=11 G=1: classes 11, survivors brute 8, dfs 8, mismatches 0
+p=11 G=2: classes 121, survivors brute 85, dfs 85, mismatches 0
+p=11 G=3: classes 1331, survivors brute 932, dfs 932, mismatches 0
+p=13 G=1: classes 13, survivors brute 10, dfs 10, mismatches 0
+p=13 G=2: classes 169, survivors brute 128, dfs 128, mismatches 0
+p=13 G=3: classes 2197, survivors brute 1658, dfs 1658, mismatches 0
+p=17 G=2: classes 289, survivors brute 219, dfs 219, mismatches 0
+p=19 G=2: classes 361, survivors brute 281, dfs 281, mismatches 0
+p=23 G=2: classes 529, survivors brute 453, dfs 453, mismatches 0
+VALIDATION OK
+=== exit: 0   wall: 2.317060097 s
+=== command: python3 census_brute.py /tmp/r4_verify_D_P_recompute/census
+=== start (UTC): 2026-10-14T03:34:10Z
+p=3 G=1: classes 3, survivors brute 2, dfs 2, mismatches 0
+p=3 G=2: classes 9, survivors brute 5, dfs 5, mismatches 0
+p=3 G=3: classes 27, survivors brute 14, dfs 14, mismatches 0
+p=3 G=4: classes 81, survivors brute 37, dfs 37, mismatches 0
+p=3 G=5: classes 243, survivors brute 105, dfs 105, mismatches 0
+p=5 G=1: classes 5, survivors brute 3, dfs 3, mismatches 0
+p=5 G=2: classes 25, survivors brute 14, dfs 14, mismatches 0
+p=5 G=3: classes 125, survivors brute 68, dfs 68, mismatches 0
+p=5 G=4: classes 625, survivors brute 337, dfs 337, mismatches 0
+p=7 G=1: classes 7, survivors brute 5, dfs 5, mismatches 0
+p=7 G=2: classes 49, survivors brute 31, dfs 31, mismatches 0
+p=7 G=3: classes 343, survivors brute 217, dfs 217, mismatches 0
+p=7 G=4: classes 2401, survivors brute 1501, dfs 1501, mismatches 0
+p=11 G=1: classes 11, survivors brute 8, dfs 8, mismatches 0
+p=11 G=2: classes 121, survivors brute 85, dfs 85, mismatches 0
+p=11 G=3: classes 1331, survivors brute 932, dfs 932, mismatches 0
+p=13 G=1: classes 13, survivors brute 10, dfs 10, mismatches 0
+p=13 G=2: classes 169, survivors brute 128, dfs 128, mismatches 0
+p=13 G=3: classes 2197, survivors brute 1658, dfs 1658, mismatches 0
+p=17 G=2: classes 289, survivors brute 219, dfs 219, mismatches 0
+p=19 G=2: classes 361, survivors brute 281, dfs 281, mismatches 0
+p=23 G=2: classes 529, survivors brute 453, dfs 453, mismatches 0
+VALIDATION OK
+=== exit: 0   wall: 2.300334190 s
+=== command: python3 census_brute.py /tmp/r4_verify_D_P_recompute/census
+=== start (UTC): 2026-10-14T03:35:55Z
+p=3 G=1: classes 3, survivors brute 2, dfs 2, mismatches 0
+p=3 G=2: classes 9, survivors brute 5, dfs 5, mismatches 0
+p=3 G=3: classes 27, survivors brute 14, dfs 14, mismatches 0
+p=3 G=4: classes 81, survivors brute 37, dfs 37, mismatches 0
+p=3 G=5: classes 243, survivors brute 105, dfs 105, mismatches 0
+p=5 G=1: classes 5, survivors brute 3, dfs 3, mismatches 0
+p=5 G=2: classes 25, survivors brute 14, dfs 14, mismatches 0
+p=5 G=3: classes 125, survivors brute 68, dfs 68, mismatches 0
+p=5 G=4: classes 625, survivors brute 337, dfs 337, mismatches 0
+p=7 G=1: classes 7, survivors brute 5, dfs 5, mismatches 0
+p=7 G=2: classes 49, survivors brute 31, dfs 31, mismatches 0
+p=7 G=3: classes 343, survivors brute 217, dfs 217, mismatches 0
+p=7 G=4: classes 2401, survivors brute 1501, dfs 1501, mismatches 0
+p=11 G=1: classes 11, survivors brute 8, dfs 8, mismatches 0
+p=11 G=2: classes 121, survivors brute 85, dfs 85, mismatches 0
+p=11 G=3: classes 1331, survivors brute 932, dfs 932, mismatches 0
+p=13 G=1: classes 13, survivors brute 10, dfs 10, mismatches 0
+p=13 G=2: classes 169, survivors brute 128, dfs 128, mismatches 0
+p=13 G=3: classes 2197, survivors brute 1658, dfs 1658, mismatches 0
+p=17 G=2: classes 289, survivors brute 219, dfs 219, mismatches 0
+p=19 G=2: classes 361, survivors brute 281, dfs 281, mismatches 0
+p=23 G=2: classes 529, survivors brute 453, dfs 453, mismatches 0
+VALIDATION OK
+=== exit: 0   wall: 2.227716757 s

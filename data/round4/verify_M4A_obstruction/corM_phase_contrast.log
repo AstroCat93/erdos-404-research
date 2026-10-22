@@ -1,0 +1,75 @@
+=== command: python3 code/round4/verify_M4A_obstruction/corM_phase_contrast.py data/round4/M4A/atom_p11.txt 10
+=== start (UTC): 2026-10-14T01:51:26Z
+p=11 m=30: q_1=1.001436234 q_2=1.111596107
+W_0 [300,405): chi^2_0 <= Prop D - 1 = 3.63828
+l= 1 [300,405,547) D= 11 K= 25 M_W=2 #depth>=2: 2 #depth>=3: 0 theta= -18:  log10(PropD-1) =    0.628   log10 PropE(E_A eps) =     0.720
+l= 2 [405,547,739) D= 14 K= 33 M_W=2 #depth>=2: 3 #depth>=3: 0 theta= -15:  log10(PropD-1) =   -0.344   log10 PropE(E_A eps) =     0.162
+l= 3 [547,739,998) D= 19 K= 45 M_W=2 #depth>=2: 4 #depth>=3: 0 theta= -10:  log10(PropD-1) =   -0.197   log10 PropE(E_A eps) =     0.214
+l= 4 [739,998,1348) D= 26 K= 61 M_W=2 #depth>=2: 5 #depth>=3: 0 theta=  -3:  log10(PropD-1) =    0.441   log10 PropE(E_A eps) =     0.575
+l= 5 [998,1348,1820) D= 35 K= 83 M_W=3 #depth>=2: 7 #depth>=3: 1 theta=   6:  log10(PropD-1) =    0.448   log10 PropE(E_A eps) =    -4.255
+l= 6 [1348,1820,2457) D= 48 K=110 M_W=3 #depth>=2: 9 #depth>=3: 1 theta=  19:  log10(PropD-1) =    0.578   log10 PropE(E_A eps) =   -14.219
+l= 7 [1820,2457,3317) D= 62 K=149 M_W=3 #depth>=2: 12 #depth>=3: 1 theta=  31:  log10(PropD-1) =    0.770   log10 PropE(E_A eps) =   -25.038
+l= 8 [2457,3317,4478) D= 87 K=203 M_W=3 #depth>=2: 17 #depth>=3: 2 theta=  44:  log10(PropD-1) =    2.040   log10 PropE(E_A eps) =   -32.797
+l= 9 [3317,4478,6046) D=116 K=273 M_W=3 #depth>=2: 23 #depth>=3: 2 theta=  58:  log10(PropD-1) =    1.606   log10 PropE(E_A eps) =   -45.157
+l=10 [4478,6046,8163) D=157 K=369 M_W=4 #depth>=2: 30 #depth>=3: 3 theta=  79:  log10(PropD-1) =    3.062   log10 PropE(E_A eps) =   -61.874
+=== exit: 0   wall: 11.99 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_phase_contrast.py data/round4/M4A/atom_p13.txt 10
+=== start (UTC): 2026-10-14T01:51:38Z
+p=13 m=26: q_1=1.000022024 q_2=1.008124352
+W_0 [300,405): chi^2_0 <= Prop D - 1 = 0.422094
+l= 1 [300,405,547) D=  8 K= 20 M_W=2 #depth>=2: 1 #depth>=3: 0 theta= -17:  log10(PropD-1) =   -0.363   log10 PropE(E_A eps) =     0.157
+l= 2 [405,547,739) D= 12 K= 28 M_W=2 #depth>=2: 2 #depth>=3: 0 theta= -13:  log10(PropD-1) =    0.170   log10 PropE(E_A eps) =     0.394
+l= 3 [547,739,998) D= 16 K= 38 M_W=2 #depth>=2: 3 #depth>=3: 0 theta=  -9:  log10(PropD-1) =   -0.339   log10 PropE(E_A eps) =     0.164
+l= 4 [739,998,1348) D= 22 K= 51 M_W=2 #depth>=2: 4 #depth>=3: 0 theta=  -3:  log10(PropD-1) =   -1.223   log10 PropE(E_A eps) =     0.025
+l= 5 [998,1348,1820) D= 29 K= 68 M_W=2 #depth>=2: 5 #depth>=3: 0 theta=   4:  log10(PropD-1) =   -1.365   log10 PropE(E_A eps) =    -3.104
+l= 6 [1348,1820,2457) D= 39 K= 91 M_W=2 #depth>=2: 6 #depth>=3: 0 theta=  14:  log10(PropD-1) =   -1.286   log10 PropE(E_A eps) =   -12.076
+l= 7 [1820,2457,3317) D= 52 K=124 M_W=3 #depth>=2: 8 #depth>=3: 1 theta=  26:  log10(PropD-1) =   -0.134   log10 PropE(E_A eps) =   -23.528
+l= 8 [2457,3317,4478) D= 72 K=169 M_W=3 #depth>=2: 12 #depth>=3: 1 theta=  36:  log10(PropD-1) =   -0.101   log10 PropE(E_A eps) =   -30.581
+l= 9 [3317,4478,6046) D= 97 K=229 M_W=4 #depth>=2: 17 #depth>=3: 1 theta=  49:  log10(PropD-1) =    2.392   log10 PropE(E_A eps) =   -42.176
+l=10 [4478,6046,8163) D=132 K=308 M_W=4 #depth>=2: 22 #depth>=3: 2 theta=  66:  log10(PropD-1) =    0.940   log10 PropE(E_A eps) =   -57.866
+=== exit: 0   wall: 17.09 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_phase_contrast.py data/round4/M4A/atom_p17.txt 10
+=== start (UTC): 2026-10-14T01:51:55Z
+p=17 m=18: q_1=1.000000609 q_2=1.000289807
+W_0 [300,405): chi^2_0 <= Prop D - 1 = 7.50249
+l= 1 [300,405,547) D=  8 K= 16 M_W=2 #depth>=2: 1 #depth>=3: 0 theta=  -9:  log10(PropD-1) =    0.875   log10 PropE(E_A eps) =     0.930
+l= 2 [405,547,739) D=  8 K= 20 M_W=2 #depth>=2: 1 #depth>=3: 0 theta=  -9:  log10(PropD-1) =   -3.521   log10 PropE(E_A eps) =     0.000
+l= 3 [547,739,998) D= 12 K= 29 M_W=2 #depth>=2: 2 #depth>=3: 0 theta=  -5:  log10(PropD-1) =   -2.621   log10 PropE(E_A eps) =     0.001
+l= 4 [739,998,1348) D= 17 K= 38 M_W=2 #depth>=2: 2 #depth>=3: 0 theta=   0:  log10(PropD-1) =   -0.226   log10 PropE(E_A eps) =     0.203
+l= 5 [998,1348,1820) D= 21 K= 51 M_W=2 #depth>=2: 3 #depth>=3: 0 theta=   4:  log10(PropD-1) =   -3.047   log10 PropE(E_A eps) =    -3.690
+l= 6 [1348,1820,2457) D= 30 K= 69 M_W=2 #depth>=2: 4 #depth>=3: 0 theta=  13:  log10(PropD-1) =   -1.388   log10 PropE(E_A eps) =   -11.802
+l= 7 [1820,2457,3317) D= 39 K= 93 M_W=2 #depth>=2: 5 #depth>=3: 0 theta=  20:  log10(PropD-1) =   -2.790   log10 PropE(E_A eps) =   -20.861
+l= 8 [2457,3317,4478) D= 54 K=127 M_W=3 #depth>=2: 7 #depth>=3: 1 theta=  27:  log10(PropD-1) =    0.355   log10 PropE(E_A eps) =   -27.946
+l= 9 [3317,4478,6046) D= 73 K=170 M_W=3 #depth>=2: 9 #depth>=3: 1 theta=  37:  log10(PropD-1) =   -1.595   log10 PropE(E_A eps) =   -39.257
+l=10 [4478,6046,8163) D= 97 K=230 M_W=2 #depth>=2: 13 #depth>=3: 0 theta=  49:  log10(PropD-1) =   -0.699   log10 PropE(E_A eps) =   -50.685
+=== exit: 0   wall: 12.24 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_phase_contrast.py data/round4/M4A/atom_p19.txt 10
+=== start (UTC): 2026-10-14T01:52:07Z
+p=19 m=16: q_1=1.000000098 q_2=1.000463368
+W_0 [300,405): chi^2_0 <= Prop D - 1 = 0.0014437
+l= 1 [300,405,547) D=  6 K= 14 M_W=2 #depth>=2: 1 #depth>=3: 0 theta=  -9:  log10(PropD-1) =   -2.840   log10 PropE(E_A eps) =     0.001
+l= 2 [405,547,739) D=  8 K= 19 M_W=2 #depth>=2: 1 #depth>=3: 0 theta=  -7:  log10(PropD-1) =   -1.142   log10 PropE(E_A eps) =     0.030
+l= 3 [547,739,998) D= 11 K= 24 M_W=2 #depth>=2: 1 #depth>=3: 0 theta=  -4:  log10(PropD-1) =   -3.332   log10 PropE(E_A eps) =     0.000
+l= 4 [739,998,1348) D= 13 K= 33 M_W=2 #depth>=2: 1 #depth>=3: 0 theta=  -2:  log10(PropD-1) =   -3.323   log10 PropE(E_A eps) =     0.000
+l= 5 [998,1348,1820) D= 20 K= 47 M_W=2 #depth>=2: 3 #depth>=3: 0 theta=   5:  log10(PropD-1) =    0.410   log10 PropE(E_A eps) =    -0.891
+l= 6 [1348,1820,2457) D= 27 K= 61 M_W=2 #depth>=2: 3 #depth>=3: 0 theta=  12:  log10(PropD-1) =   -2.850   log10 PropE(E_A eps) =   -11.497
+l= 7 [1820,2457,3317) D= 34 K= 83 M_W=3 #depth>=2: 4 #depth>=3: 1 theta=  17:  log10(PropD-1) =   -1.915   log10 PropE(E_A eps) =   -17.893
+l= 8 [2457,3317,4478) D= 49 K=114 M_W=3 #depth>=2: 6 #depth>=3: 1 theta=  25:  log10(PropD-1) =   -1.068   log10 PropE(E_A eps) =   -24.256
+l= 9 [3317,4478,6046) D= 65 K=151 M_W=2 #depth>=2: 7 #depth>=3: 0 theta=  33:  log10(PropD-1) =    0.789   log10 PropE(E_A eps) =   -36.388
+l=10 [4478,6046,8163) D= 86 K=203 M_W=2 #depth>=2: 10 #depth>=3: 0 theta=  43:  log10(PropD-1) =   -2.331   log10 PropE(E_A eps) =   -48.583
+=== exit: 0   wall: 14.99 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_phase_contrast.py data/round4/M4A/atom_p23.txt 10
+=== start (UTC): 2026-10-14T01:52:22Z
+p=23 m=14: q_1=1.000000005 q_2=1.000002263
+W_0 [300,405): chi^2_0 <= Prop D - 1 = 2.22478e-08
+l= 1 [300,405,547) D=  4 K= 10 M_W=1 #depth>=2: 0 #depth>=3: 0 theta=  -9:  log10(PropD-1) =   -7.261   log10 PropE(E_A eps) =     0.000
+l= 2 [405,547,739) D=  6 K= 16 M_W=2 #depth>=2: 1 #depth>=3: 0 theta=  -7:  log10(PropD-1) =   -1.206   log10 PropE(E_A eps) =     0.026
+l= 3 [547,739,998) D= 10 K= 21 M_W=2 #depth>=2: 1 #depth>=3: 0 theta=  -3:  log10(PropD-1) =   -0.099   log10 PropE(E_A eps) =     0.255
+l= 4 [739,998,1348) D= 11 K= 27 M_W=2 #depth>=2: 1 #depth>=3: 0 theta=  -2:  log10(PropD-1) =   -5.619   log10 PropE(E_A eps) =     0.000
+l= 5 [998,1348,1820) D= 16 K= 38 M_W=2 #depth>=2: 2 #depth>=3: 0 theta=   3:  log10(PropD-1) =   -3.054   log10 PropE(E_A eps) =    -2.710
+l= 6 [1348,1820,2457) D= 22 K= 50 M_W=2 #depth>=2: 2 #depth>=3: 0 theta=   9:  log10(PropD-1) =   -1.206   log10 PropE(E_A eps) =   -10.582
+l= 7 [1820,2457,3317) D= 28 K= 68 M_W=2 #depth>=2: 3 #depth>=3: 0 theta=  14:  log10(PropD-1) =   -5.147   log10 PropE(E_A eps) =   -17.702
+l= 8 [2457,3317,4478) D= 40 K= 92 M_W=2 #depth>=2: 4 #depth>=3: 0 theta=  20:  log10(PropD-1) =    0.063   log10 PropE(E_A eps) =   -21.621
+l= 9 [3317,4478,6046) D= 52 K=123 M_W=2 #depth>=2: 5 #depth>=3: 0 theta=  26:  log10(PropD-1) =   -4.864   log10 PropE(E_A eps) =   -31.319
+l=10 [4478,6046,8163) D= 71 K=167 M_W=2 #depth>=2: 7 #depth>=3: 0 theta=  36:  log10(PropD-1) =   -0.678   log10 PropE(E_A eps) =   -44.224
+=== exit: 0   wall: 32.84 s

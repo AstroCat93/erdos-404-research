@@ -1,0 +1,70 @@
+# cmd: test of checkpoint/resume: /tmp/r3_R3N/dfsW4 594 90395 - -c /tmp/r3_R3N/ck594 -i 30 -x 50 , then repeated with -r until RESULT; compare with the uninterrupted run (nodes 5537780784, surv 13566171)
+dfsW4 (WL=4) a=594 K=90395 witness=(none)
+[30s] checkpoint: level 119 depth 128 nodes=236669183 best=32797
+[50s] checkpoint: level 124 depth 128 nodes=464645950 best=45067
+EXIT after checkpoint (level 124 depth 128)
+dfsW4 (WL=4) a=594 K=90395 witness=(none)
+checkpoint read: e1=1 J=124 nodes=464645950 best=45067 (previous elapsed 50.0s)
+resumed at level 124 depth 128
+[30s] checkpoint: level 51 depth 128 nodes=763117582 best=45067
+[50s] checkpoint: level 43 depth 128 nodes=923934491 best=45067
+EXIT after checkpoint (level 43 depth 128)
+dfsW4 (WL=4) a=594 K=90395 witness=(none)
+checkpoint read: e1=1 J=43 nodes=923934491 best=45067 (previous elapsed 50.0s)
+resumed at level 43 depth 128
+[30s] checkpoint: level 155 depth 128 nodes=1166352719 best=45067
+[50s] checkpoint: level 217 depth 128 nodes=1301450270 best=58680
+EXIT after checkpoint (level 217 depth 128)
+dfsW4 (WL=4) a=594 K=90395 witness=(none)
+checkpoint read: e1=1 J=217 nodes=1301450270 best=58680 (previous elapsed 50.0s)
+resumed at level 217 depth 128
+[30s] checkpoint: level 227 depth 129 nodes=1570158406 best=72423
+[50s] checkpoint: level 178 depth 127 nodes=1707778640 best=72423
+EXIT after checkpoint (level 178 depth 127)
+dfsW4 (WL=4) a=594 K=90395 witness=(none)
+checkpoint read: e1=1 J=178 nodes=1707778640 best=72423 (previous elapsed 50.0s)
+resumed at level 178 depth 127
+[30s] checkpoint: level 212 depth 128 nodes=1864570094 best=72423
+[50s] checkpoint: level 119 depth 128 nodes=2052936293 best=72423
+EXIT after checkpoint (level 119 depth 128)
+dfsW4 (WL=4) a=594 K=90395 witness=(none)
+checkpoint read: e1=1 J=119 nodes=2052936293 best=72423 (previous elapsed 50.0s)
+resumed at level 119 depth 128
+[30s] checkpoint: level 140 depth 128 nodes=2451076915 best=72423
+[50s] checkpoint: level 201 depth 128 nodes=2636312060 best=72423
+EXIT after checkpoint (level 201 depth 128)
+dfsW4 (WL=4) a=594 K=90395 witness=(none)
+checkpoint read: e1=1 J=201 nodes=2636312060 best=72423 (previous elapsed 50.0s)
+resumed at level 201 depth 128
+[30s] checkpoint: level 250 depth 127 nodes=2914341428 best=72423
+[50s] checkpoint: level 235 depth 129 nodes=3171359049 best=76795
+EXIT after checkpoint (level 235 depth 129)
+dfsW4 (WL=4) a=594 K=90395 witness=(none)
+checkpoint read: e1=1 J=235 nodes=3171359049 best=76795 (previous elapsed 50.0s)
+resumed at level 235 depth 129
+[30s] checkpoint: level 291 depth 129 nodes=3558863439 best=83321
+[50s] checkpoint: level 228 depth 128 nodes=3851241390 best=90394
+EXIT after checkpoint (level 228 depth 128)
+dfsW4 (WL=4) a=594 K=90395 witness=(none)
+checkpoint read: e1=1 J=228 nodes=3851241390 best=90394 (previous elapsed 50.0s)
+resumed at level 228 depth 128
+[30s] checkpoint: level 250 depth 127 nodes=4189163619 best=90394
+[50s] checkpoint: level 225 depth 128 nodes=4362827304 best=90394
+EXIT after checkpoint (level 225 depth 128)
+dfsW4 (WL=4) a=594 K=90395 witness=(none)
+checkpoint read: e1=1 J=225 nodes=4362827304 best=90394 (previous elapsed 50.0s)
+resumed at level 225 depth 128
+[30s] checkpoint: level 223 depth 128 nodes=4628772158 best=90394
+[50s] checkpoint: level 166 depth 126 nodes=4812060523 best=90394
+EXIT after checkpoint (level 166 depth 126)
+dfsW4 (WL=4) a=594 K=90395 witness=(none)
+checkpoint read: e1=1 J=166 nodes=4812060523 best=90394 (previous elapsed 50.0s)
+resumed at level 166 depth 126
+[30s] checkpoint: level 60 depth 128 nodes=5134592602 best=90394
+[50s] checkpoint: level 117 depth 126 nodes=5396700256 best=90394
+EXIT after checkpoint (level 117 depth 126)
+dfsW4 (WL=4) a=594 K=90395 witness=(none)
+checkpoint read: e1=1 J=117 nodes=5396700256 best=90394 (previous elapsed 50.0s)
+resumed at level 117 depth 126
+RESULT a=594 K=90395 reachable=0 nodes=5537780784 surv=13566171 fulladds=109945269 levels=127 time=62.9s
+EXACT a=594 f=90394 g=89804 (max valuation over all paths; valid since K > f)

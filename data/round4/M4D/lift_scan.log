@@ -1,0 +1,148 @@
+=== command: python3 lift_scan.py 13 41 800 26 26 3 5 7 5
+=== start (UTC): 2026-10-13T23:55:07Z
+SUMMARY lift_scan p=13 seed=41 NX=800 n0=26 H0=26 h=3 L=5 KMAX=7 times=[26, 52, 81, 113, 148, 186, 227]
+SUMMARY P(alive at n0)=0.7500
+TABLE l=0 [26,52) n=800 cens=0 K:med=4,max=7 P(FL fails)=0.0025 rho:min=0.000,med=1.000 cov:min=0.012,med=1.000 m_HM:med=0,q90=0,P(m>0)=0.003 eps:med=2.67e-09,q90=1.98e-07,max=2.73e-05
+TABLE l=1 [52,81) n=799 cens=1 K:med=5,max=7 P(FL fails)=0.0013 rho:min=0.000,med=1.000 cov:min=0.012,med=1.000 P(crit holds) th0.5=0.7610 th0.75=0.8561 th0.9=0.9787 th0.95=0.9850 th0.99=1.0000 th1.0=0.9987 m_HM:med=0,q90=0,P(m>0)=0.001 eps:med=2.48e-10,q90=1.55e-08,max=6.44e-07
+TABLE l=2 [81,113) n=792 cens=7 K:med=5,max=7 P(FL fails)=0.0000 rho:min=0.003,med=1.000 cov:min=0.003,med=1.000 P(crit holds) th0.5=0.7260 th0.75=0.8245 th0.9=0.9811 th0.95=0.9848 th0.99=0.9987 th1.0=1.0000 m_HM:med=0,q90=0,P(m>0)=0.000
+TABLE l=3 [113,148) n=777 cens=15 K:med=6,max=7 P(FL fails)=0.0000 rho:min=0.012,med=1.000 cov:min=0.012,med=1.000 P(crit holds) th0.5=0.7812 th0.75=0.8456 th0.9=0.9781 th0.95=0.9846 th0.99=1.0000 th1.0=1.0000 m_HM:med=0,q90=0,P(m>0)=0.000
+TABLE l=4 [148,186) n=723 cens=54 K:med=6,max=7 P(FL fails)=0.0000 rho:min=0.018,med=1.000 cov:min=0.018,med=1.000 P(crit holds) th0.5=0.7621 th0.75=0.8603 th0.9=0.9793 th0.95=0.9876 th0.99=1.0000 th1.0=1.0000 m_HM:med=0,q90=0,P(m>0)=0.000
+TABLE opt-adaptive-theta: certified over all 5 windows: 540, not certified: 183, censored: 77  (of 800)
+TABLE theta=0.5: P(I_0)=0.7500; criterion failures at l=0(initial),1..4: 200 62 139 156 112; censored before failing: 21; certified through all computed windows: 110 of 800
+TABLE theta=0.75: P(I_0)=0.7488; criterion failures at l=0(initial),1..4: 201 57 72 112 93; censored before failing: 49; certified through all computed windows: 216 of 800
+TABLE theta=0.9: P(I_0)=0.7488; criterion failures at l=0(initial),1..4: 201 4 12 17 15; censored before failing: 58; certified through all computed windows: 493 of 800
+TABLE theta=0.95: P(I_0)=0.7488; criterion failures at l=0(initial),1..4: 201 4 9 12 9; censored before failing: 58; certified through all computed windows: 507 of 800
+TABLE theta=0.99: P(I_0)=0.7488; criterion failures at l=0(initial),1..4: 201 0 1 0 0; censored before failing: 59; certified through all computed windows: 539 of 800
+TABLE theta=1.0: P(I_0)=0.7488; criterion failures at l=0(initial),1..4: 201 1 0 0 0; censored before failing: 59; certified through all computed windows: 539 of 800
+=== exit: 0   wall: 207.35 s
+=== command: python3 lift_scan.py 11 42 300 22 22 3 5 7 5
+=== start (UTC): 2026-10-13T23:58:34Z
+SUMMARY lift_scan p=11 seed=42 NX=300 n0=22 H0=22 h=3 L=5 KMAX=7 times=[22, 44, 69, 97, 128, 162, 199]
+SUMMARY P(alive at n0)=0.6900
+TABLE l=0 [22,44) n=300 cens=0 K:med=5,max=7 P(FL fails)=0.0333 rho:min=0.000,med=1.000 cov:min=0.002,med=1.000 m_HM:med=0,q90=0,P(m>0)=0.033 eps:med=3.83e-06,q90=6.25e-05,max=0.000671
+TABLE l=1 [44,69) n=298 cens=2 K:med=5,max=7 P(FL fails)=0.0369 rho:min=0.000,med=0.998 cov:min=0.017,med=1.000 P(crit holds) th0.5=0.7752 th0.75=0.8691 th0.9=0.9396 th0.95=0.9463 th0.99=0.9631 th1.0=0.9631 m_HM:med=0,q90=0,P(m>0)=0.037 eps:med=3.95e-07,q90=1.09e-05,max=0.00014
+TABLE l=2 [69,97) n=289 cens=9 K:med=6,max=7 P(FL fails)=0.0069 rho:min=0.000,med=1.000 cov:min=0.017,med=1.000 P(crit holds) th0.5=0.7889 th0.75=0.8789 th0.9=0.9792 th0.95=0.9827 th0.99=1.0000 th1.0=0.9931 m_HM:med=0,q90=0,P(m>0)=0.007 eps:med=9.14e-08,q90=1.72e-06,max=8.38e-06
+TABLE l=3 [97,128) n=270 cens=19 K:med=6,max=7 P(FL fails)=0.0000 rho:min=0.017,med=1.000 cov:min=0.017,med=1.000 P(crit holds) th0.5=0.7556 th0.75=0.8370 th0.9=0.9519 th0.95=0.9667 th0.99=1.0000 th1.0=1.0000 m_HM:med=0,q90=0,P(m>0)=0.000
+TABLE l=4 [128,162) n=184 cens=86 K:med=7,max=7 P(FL fails)=0.0000 rho:min=0.182,med=1.000 cov:min=0.182,med=1.000 P(crit holds) th0.5=0.7880 th0.75=0.9239 th0.9=1.0000 th0.95=1.0000 th0.99=1.0000 th1.0=1.0000 m_HM:med=0,q90=0,P(m>0)=0.000
+TABLE opt-adaptive-theta: certified over all 5 windows: 120, not certified: 64, censored: 116  (of 300)
+TABLE theta=0.5: P(I_0)=0.6900; criterion failures at l=0(initial),1..4: 93 31 28 46 31; censored before failing: 41; certified through all computed windows: 30 of 300
+TABLE theta=0.75: P(I_0)=0.6900; criterion failures at l=0(initial),1..4: 93 4 7 36 14; censored before failing: 64; certified through all computed windows: 82 of 300
+TABLE theta=0.9: P(I_0)=0.6900; criterion failures at l=0(initial),1..4: 93 9 3 10 0; censored before failing: 80; certified through all computed windows: 105 of 300
+TABLE theta=0.95: P(I_0)=0.6867; criterion failures at l=0(initial),1..4: 94 10 2 6 0; censored before failing: 78; certified through all computed windows: 110 of 300
+TABLE theta=0.99: P(I_0)=0.6867; criterion failures at l=0(initial),1..4: 94 10 0 0 0; censored before failing: 78; certified through all computed windows: 118 of 300
+TABLE theta=1.0: P(I_0)=0.6833; criterion failures at l=0(initial),1..4: 95 10 0 0 0; censored before failing: 78; certified through all computed windows: 117 of 300
+=== exit: 0   wall: 46.75 s
+=== command: python3 lift_scan.py 7 43 150 21 24 2 4 10 7
+=== start (UTC): 2026-10-13T23:59:21Z
+SUMMARY lift_scan p=7 seed=43 NX=150 n0=21 H0=24 h=2 L=4 KMAX=10 times=[21, 45, 71, 99, 129, 161]
+SUMMARY P(alive at n0)=0.5600
+TABLE l=0 [21,45) n=149 cens=1 K:med=8,max=10 P(FL fails)=0.7785 rho:min=0.000,med=0.000 cov:min=0.040,med=1.000 m_HM:med=0.0522,q90=1.83,P(m>0)=0.779
+TABLE l=1 [45,71) n=142 cens=7 K:med=9,max=10 P(FL fails)=0.6761 rho:min=0.000,med=0.000 cov:min=0.041,med=1.000 P(crit holds) th0.5=0.6127 th0.75=0.8099 th0.9=0.6901 th0.95=0.5352 th0.99=0.5000 th1.0=0.3239 m_HM:med=0.0951,q90=2.34,P(m>0)=0.676
+TABLE l=2 [71,99) n=127 cens=15 K:med=9,max=10 P(FL fails)=0.3701 rho:min=0.000,med=0.008 cov:min=0.122,med=1.000 P(crit holds) th0.5=0.7717 th0.75=0.8819 th0.9=0.8819 th0.95=0.8819 th0.99=0.6850 th1.0=0.6299 m_HM:med=0,q90=0.445,P(m>0)=0.370
+TABLE l=3 [99,129) n=86 cens=41 K:med=10,max=10 P(FL fails)=0.5698 rho:min=0.000,med=0.000 cov:min=0.286,med=1.000 P(crit holds) th0.5=0.8023 th0.75=1.0000 th0.9=1.0000 th0.95=1.0000 th0.99=0.9884 th1.0=0.4302 m_HM:med=0.00301,q90=0.018,P(m>0)=0.570
+TABLE opt-adaptive-theta: certified over all 4 windows: 52, not certified: 34, censored: 64  (of 150)
+TABLE theta=0.5: P(I_0)=0.5400; criterion failures at l=0(initial),1..3: 68 35 10 0; censored before failing: 19; certified through all computed windows: 18 of 150
+TABLE theta=0.75: P(I_0)=0.5267; criterion failures at l=0(initial),1..3: 70 15 5 0; censored before failing: 24; certified through all computed windows: 36 of 150
+TABLE theta=0.9: P(I_0)=0.4933; criterion failures at l=0(initial),1..3: 75 18 3 0; censored before failing: 24; certified through all computed windows: 30 of 150
+TABLE theta=0.95: P(I_0)=0.4867; criterion failures at l=0(initial),1..3: 76 29 1 0; censored before failing: 20; certified through all computed windows: 24 of 150
+TABLE theta=0.99: P(I_0)=0.2200; criterion failures at l=0(initial),1..3: 116 7 7 0; censored before failing: 9; certified through all computed windows: 11 of 150
+TABLE theta=1.0: P(I_0)=0.1400; criterion failures at l=0(initial),1..3: 128 8 7 0; censored before failing: 7; certified through all computed windows: 0 of 150
+=== exit: 0   wall: 233.53 s
+=== command: python3 lift_scan.py 5 44 150 20 20 2 4 13 9
+=== start (UTC): 2026-10-14T00:03:14Z
+SUMMARY lift_scan p=5 seed=44 NX=150 n0=20 H0=20 h=2 L=4 KMAX=13 times=[20, 40, 62, 86, 112, 140]
+SUMMARY P(alive at n0)=0.5467
+TABLE l=0 [20,40) n=149 cens=1 K:med=10,max=13 P(FL fails)=1.0000 rho:min=0.000,med=0.000 cov:min=0.003,med=0.640 m_HM:med=9.03,q90=226,P(m>0)=1.000 eps:med=0.000472,q90=0.00186,max=0.00711
+TABLE l=1 [40,62) n=143 cens=6 K:med=11,max=13 P(FL fails)=1.0000 rho:min=0.000,med=0.000 cov:min=0.005,med=0.904 P(crit holds) th0.5=0.0000 th0.75=0.0000 th0.9=0.0000 th0.95=0.0000 th0.99=0.0000 th1.0=0.0000 m_HM:med=11.1,q90=146,P(m>0)=1.000
+TABLE l=2 [62,86) n=131 cens=12 K:med=12,max=13 P(FL fails)=1.0000 rho:min=0.000,med=0.000 cov:min=0.016,med=0.640 P(crit holds) th0.5=0.0000 th0.75=0.0000 th0.9=0.0000 th0.95=0.0000 th0.99=0.0000 th1.0=0.0000 m_HM:med=14,q90=72.3,P(m>0)=1.000
+TABLE l=3 [86,112) n=69 cens=62 K:med=13,max=13 P(FL fails)=1.0000 rho:min=0.000,med=0.000 cov:min=0.256,med=1.000 P(crit holds) th0.5=0.0000 th0.75=0.0000 th0.9=0.0000 th0.95=0.0000 th0.99=0.0000 th1.0=0.0000 m_HM:med=17.2,q90=17.7,P(m>0)=1.000
+TABLE opt-adaptive-theta: certified over all 4 windows: 12, not certified: 57, censored: 81  (of 150)
+TABLE theta=0.5: P(I_0)=0.1000; criterion failures at l=0(initial),1..3: 134 14 0 0; censored before failing: 2; certified through all computed windows: 0 of 150
+TABLE theta=0.75: P(I_0)=0.0000; criterion failures at l=0(initial),1..3: 149 0 0 0; censored before failing: 1; certified through all computed windows: 0 of 150
+TABLE theta=0.9: P(I_0)=0.0000; criterion failures at l=0(initial),1..3: 149 0 0 0; censored before failing: 1; certified through all computed windows: 0 of 150
+TABLE theta=0.95: P(I_0)=0.0000; criterion failures at l=0(initial),1..3: 149 0 0 0; censored before failing: 1; certified through all computed windows: 0 of 150
+TABLE theta=0.99: P(I_0)=0.0000; criterion failures at l=0(initial),1..3: 149 0 0 0; censored before failing: 1; certified through all computed windows: 0 of 150
+TABLE theta=1.0: P(I_0)=0.0000; criterion failures at l=0(initial),1..3: 149 0 0 0; censored before failing: 1; certified through all computed windows: 0 of 150
+=== exit: 0   wall: 492.42 s
+=== command: python3 lift_scan.py 3 45 150 12 16 2 4 18 12
+=== start (UTC): 2026-10-14T00:11:27Z
+SUMMARY lift_scan p=3 seed=45 NX=150 n0=12 H0=16 h=2 L=4 KMAX=18 times=[12, 28, 46, 66, 88, 112]
+SUMMARY P(alive at n0)=0.3267
+TABLE l=0 [12,28) n=125 cens=25 K:med=16,max=18 P(FL fails)=1.0000 rho:min=0.000,med=0.000 cov:min=0.036,med=0.617 m_HM:med=656,q90=5.91e+03,P(m>0)=1.000
+TABLE l=1 [28,46) n=50 cens=75 K:med=18,max=18 P(FL fails)=1.0000 rho:min=0.000,med=0.000 cov:min=0.222,med=0.693 P(crit holds) th0.5=0.0000 th0.75=0.0000 th0.9=0.0000 th0.95=0.0000 th0.99=0.0000 th1.0=0.0000 m_HM:med=1.48e+03,q90=1.48e+03,P(m>0)=1.000
+TABLE l=2 [46,66) none computed (censored 50)
+TABLE l=3 [66,88) none computed (censored 0)
+TABLE opt-adaptive-theta: certified over all 4 windows: 0, not certified: 0, censored: 150  (of 150)
+TABLE theta=0.5: P(I_0)=0.0000; criterion failures at l=0(initial),1..3: 125 0 0 0; censored before failing: 25; certified through all computed windows: 0 of 150
+TABLE theta=0.75: P(I_0)=0.0000; criterion failures at l=0(initial),1..3: 125 0 0 0; censored before failing: 25; certified through all computed windows: 0 of 150
+TABLE theta=0.9: P(I_0)=0.0000; criterion failures at l=0(initial),1..3: 125 0 0 0; censored before failing: 25; certified through all computed windows: 0 of 150
+TABLE theta=0.95: P(I_0)=0.0000; criterion failures at l=0(initial),1..3: 125 0 0 0; censored before failing: 25; certified through all computed windows: 0 of 150
+TABLE theta=0.99: P(I_0)=0.0000; criterion failures at l=0(initial),1..3: 125 0 0 0; censored before failing: 25; certified through all computed windows: 0 of 150
+TABLE theta=1.0: P(I_0)=0.0000; criterion failures at l=0(initial),1..3: 125 0 0 0; censored before failing: 25; certified through all computed windows: 0 of 150
+=== exit: 0   wall: 54.82 s
+=== command: python3 lift_scan.py 7 46 40 21 33 0 3 11 0
+=== start (UTC): 2026-10-14T00:12:22Z
+SUMMARY lift_scan p=7 seed=46 NX=40 n0=21 H0=33 h=0 L=3 KMAX=11 times=[21, 54, 87, 120, 153]
+SUMMARY P(alive at n0)=0.4000
+TABLE l=0 [21,54) n=25 cens=15 K:med=10,max=11 P(FL fails)=0.0800 rho:min=0.000,med=0.996 cov:min=0.286,med=1.000 m_HM:med=0,q90=0,P(m>0)=0.080
+TABLE l=1 [54,87) n=16 cens=9 K:med=10,max=11 P(FL fails)=0.2500 rho:min=0.000,med=0.641 cov:min=0.286,med=1.000 P(crit holds) th0.5=0.8125 th0.75=1.0000 th0.9=1.0000 th0.95=1.0000 th0.99=1.0000 th1.0=0.7500 m_HM:med=0,q90=0.00595,P(m>0)=0.250
+TABLE l=2 [87,120) n=8 cens=8 K:med=11,max=11 P(FL fails)=0.3750 rho:min=0.000,med=0.081 cov:min=0.286,med=0.643 P(crit holds) th0.5=0.5000 th0.75=1.0000 th0.9=1.0000 th0.95=1.0000 th0.99=1.0000 th1.0=0.6250 m_HM:med=0,q90=0.00351,P(m>0)=0.375
+TABLE opt-adaptive-theta: certified over all 3 windows: 5, not certified: 3, censored: 32  (of 40)
+TABLE theta=0.5: P(I_0)=0.4000; criterion failures at l=0(initial),1..2: 9 3 2; censored before failing: 26; certified through all computed windows: 0 of 40
+TABLE theta=0.75: P(I_0)=0.4000; criterion failures at l=0(initial),1..2: 9 0 0; censored before failing: 26; certified through all computed windows: 5 of 40
+TABLE theta=0.9: P(I_0)=0.4000; criterion failures at l=0(initial),1..2: 9 0 0; censored before failing: 26; certified through all computed windows: 5 of 40
+TABLE theta=0.95: P(I_0)=0.4000; criterion failures at l=0(initial),1..2: 9 0 0; censored before failing: 26; certified through all computed windows: 5 of 40
+TABLE theta=0.99: P(I_0)=0.4000; criterion failures at l=0(initial),1..2: 9 0 0; censored before failing: 26; certified through all computed windows: 5 of 40
+TABLE theta=1.0: P(I_0)=0.3500; criterion failures at l=0(initial),1..2: 11 2 1; censored before failing: 24; certified through all computed windows: 2 of 40
+=== exit: 0   wall: 207.12 s
+=== command: python3 lift_scan.py 11 47 100 22 22 3 5 9 0
+=== start (UTC): 2026-10-14T00:34:22Z
+SUMMARY lift_scan p=11 seed=47 NX=100 n0=22 H0=22 h=3 L=5 KMAX=9 times=[22, 44, 69, 97, 128, 162, 199]
+SUMMARY P(alive at n0)=0.7100
+TABLE l=0 [22,44) n=100 cens=0 K:med=5,max=8 P(FL fails)=0.0500 rho:min=0.000,med=1.000 cov:min=0.000,med=1.000 m_HM:med=0,q90=0,P(m>0)=0.050
+TABLE l=1 [44,69) n=100 cens=0 K:med=5,max=8 P(FL fails)=0.0100 rho:min=0.000,med=0.909 cov:min=0.025,med=1.000 P(crit holds) th0.5=0.7900 th0.75=0.8900 th0.9=0.9800 th0.95=0.9800 th0.99=0.9900 th1.0=0.9900 m_HM:med=0,q90=0,P(m>0)=0.010
+TABLE l=2 [69,97) n=100 cens=0 K:med=6,max=9 P(FL fails)=0.0400 rho:min=0.000,med=1.000 cov:min=0.017,med=1.000 P(crit holds) th0.5=0.8100 th0.75=0.8800 th0.9=0.9600 th0.95=0.9600 th0.99=0.9900 th1.0=0.9600 m_HM:med=0,q90=0,P(m>0)=0.040
+TABLE l=3 [97,128) n=100 cens=0 K:med=7,max=8 P(FL fails)=0.0000 rho:min=0.009,med=1.000 cov:min=0.009,med=1.000 P(crit holds) th0.5=0.8200 th0.75=0.8800 th0.9=0.9500 th0.95=0.9600 th0.99=0.9900 th1.0=1.0000 m_HM:med=0,q90=0,P(m>0)=0.000
+TABLE l=4 [128,162) n=100 cens=0 K:med=7,max=9 P(FL fails)=0.0000 rho:min=0.002,med=1.000 cov:min=0.002,med=1.000 P(crit holds) th0.5=0.7500 th0.75=0.8600 th0.9=0.9600 th0.95=0.9600 th0.99=0.9900 th1.0=1.0000 m_HM:med=0,q90=0,P(m>0)=0.000
+TABLE opt-adaptive-theta: certified over all 5 windows: 69, not certified: 31, censored: 0  (of 100)
+TABLE theta=0.5: P(I_0)=0.7100; criterion failures at l=0(initial),1..4: 29 13 10 13 18; censored before failing: 0; certified through all computed windows: 17 of 100
+TABLE theta=0.75: P(I_0)=0.7000; criterion failures at l=0(initial),1..4: 30 2 3 10 8; censored before failing: 0; certified through all computed windows: 47 of 100
+TABLE theta=0.9: P(I_0)=0.7000; criterion failures at l=0(initial),1..4: 30 2 2 5 2; censored before failing: 0; certified through all computed windows: 59 of 100
+TABLE theta=0.95: P(I_0)=0.6900; criterion failures at l=0(initial),1..4: 31 2 2 4 2; censored before failing: 0; certified through all computed windows: 59 of 100
+TABLE theta=0.99: P(I_0)=0.6900; criterion failures at l=0(initial),1..4: 31 1 0 1 1; censored before failing: 0; certified through all computed windows: 66 of 100
+TABLE theta=1.0: P(I_0)=0.6900; criterion failures at l=0(initial),1..4: 31 1 1 0 0; censored before failing: 0; certified through all computed windows: 67 of 100
+=== exit: 0   wall: 49.96 s
+=== command: python3 lift_scan.py 11 48 100 22 22 3 5 9 0
+=== start (UTC): 2026-10-14T00:35:12Z
+SUMMARY lift_scan p=11 seed=48 NX=100 n0=22 H0=22 h=3 L=5 KMAX=9 times=[22, 44, 69, 97, 128, 162, 199]
+SUMMARY P(alive at n0)=0.7200
+TABLE l=0 [22,44) n=100 cens=0 K:med=5,max=7 P(FL fails)=0.0500 rho:min=0.000,med=1.000 cov:min=0.017,med=1.000 m_HM:med=0,q90=0,P(m>0)=0.050
+TABLE l=1 [44,69) n=100 cens=0 K:med=5,max=7 P(FL fails)=0.0400 rho:min=0.000,med=1.000 cov:min=0.005,med=1.000 P(crit holds) th0.5=0.7500 th0.75=0.8400 th0.9=0.9100 th0.95=0.9100 th0.99=0.9600 th1.0=0.9600 m_HM:med=0,q90=0,P(m>0)=0.040
+TABLE l=2 [69,97) n=100 cens=0 K:med=6,max=8 P(FL fails)=0.0200 rho:min=0.000,med=1.000 cov:min=0.050,med=1.000 P(crit holds) th0.5=0.7600 th0.75=0.8500 th0.9=0.9500 th0.95=0.9900 th0.99=0.9800 th1.0=0.9800 m_HM:med=0,q90=0,P(m>0)=0.020
+TABLE l=3 [97,128) n=100 cens=0 K:med=7,max=8 P(FL fails)=0.0100 rho:min=0.000,med=1.000 cov:min=0.017,med=1.000 P(crit holds) th0.5=0.7400 th0.75=0.8600 th0.9=0.9700 th0.95=0.9800 th0.99=1.0000 th1.0=0.9900 m_HM:med=0,q90=0,P(m>0)=0.010
+TABLE l=4 [128,162) n=100 cens=0 K:med=7,max=9 P(FL fails)=0.0000 rho:min=0.017,med=1.000 cov:min=0.017,med=1.000 P(crit holds) th0.5=0.7400 th0.75=0.8000 th0.9=0.9500 th0.95=0.9700 th0.99=1.0000 th1.0=1.0000 m_HM:med=0,q90=0,P(m>0)=0.000
+TABLE opt-adaptive-theta: certified over all 5 windows: 72, not certified: 28, censored: 0  (of 100)
+TABLE theta=0.5: P(I_0)=0.7200; criterion failures at l=0(initial),1..4: 28 10 15 23 15; censored before failing: 0; certified through all computed windows: 9 of 100
+TABLE theta=0.75: P(I_0)=0.7200; criterion failures at l=0(initial),1..4: 28 1 8 14 11; censored before failing: 0; certified through all computed windows: 38 of 100
+TABLE theta=0.9: P(I_0)=0.7100; criterion failures at l=0(initial),1..4: 29 3 4 3 3; censored before failing: 0; certified through all computed windows: 58 of 100
+TABLE theta=0.95: P(I_0)=0.7000; criterion failures at l=0(initial),1..4: 30 4 1 2 1; censored before failing: 0; certified through all computed windows: 62 of 100
+TABLE theta=0.99: P(I_0)=0.6900; criterion failures at l=0(initial),1..4: 31 2 1 0 0; censored before failing: 0; certified through all computed windows: 66 of 100
+TABLE theta=1.0: P(I_0)=0.6900; criterion failures at l=0(initial),1..4: 31 2 1 1 0; censored before failing: 0; certified through all computed windows: 65 of 100
+=== exit: 0   wall: 41.9 s
+=== command: python3 lift_scan.py 13 49 200 26 26 3 5 8 0
+=== start (UTC): 2026-10-14T00:35:54Z
+SUMMARY lift_scan p=13 seed=49 NX=200 n0=26 H0=26 h=3 L=5 KMAX=8 times=[26, 52, 81, 113, 148, 186, 227]
+SUMMARY P(alive at n0)=0.7000
+TABLE l=0 [26,52) n=200 cens=0 K:med=4,max=6 P(FL fails)=0.0000 rho:min=0.012,med=1.000 cov:min=0.012,med=1.000 m_HM:med=0,q90=0,P(m>0)=0.000
+TABLE l=1 [52,81) n=200 cens=0 K:med=5,max=7 P(FL fails)=0.0050 rho:min=0.000,med=1.000 cov:min=0.012,med=1.000 P(crit holds) th0.5=0.7500 th0.75=0.8650 th0.9=0.9650 th0.95=0.9750 th0.99=1.0000 th1.0=0.9950 m_HM:med=0,q90=0,P(m>0)=0.005
+TABLE l=2 [81,113) n=200 cens=0 K:med=5,max=8 P(FL fails)=0.0000 rho:min=0.011,med=1.000 cov:min=0.011,med=1.000 P(crit holds) th0.5=0.7450 th0.75=0.8100 th0.9=0.9750 th0.95=0.9750 th0.99=1.0000 th1.0=1.0000 m_HM:med=0,q90=0,P(m>0)=0.000
+TABLE l=3 [113,148) n=200 cens=0 K:med=6,max=8 P(FL fails)=0.0000 rho:min=0.012,med=1.000 cov:min=0.012,med=1.000 P(crit holds) th0.5=0.7650 th0.75=0.8300 th0.9=0.9800 th0.95=0.9850 th0.99=1.0000 th1.0=1.0000 m_HM:med=0,q90=0,P(m>0)=0.000
+TABLE l=4 [148,186) n=200 cens=0 K:med=7,max=8 P(FL fails)=0.0000 rho:min=0.018,med=1.000 cov:min=0.018,med=1.000 P(crit holds) th0.5=0.7350 th0.75=0.8150 th0.9=0.9800 th0.95=0.9900 th0.99=1.0000 th1.0=1.0000 m_HM:med=0,q90=0,P(m>0)=0.000
+TABLE opt-adaptive-theta: certified over all 5 windows: 140, not certified: 60, censored: 0  (of 200)
+TABLE theta=0.5: P(I_0)=0.7000; criterion failures at l=0(initial),1..4: 60 11 27 43 36; censored before failing: 0; certified through all computed windows: 23 of 200
+TABLE theta=0.75: P(I_0)=0.7000; criterion failures at l=0(initial),1..4: 60 8 19 32 33; censored before failing: 0; certified through all computed windows: 48 of 200
+TABLE theta=0.9: P(I_0)=0.7000; criterion failures at l=0(initial),1..4: 60 2 4 4 4; censored before failing: 0; certified through all computed windows: 126 of 200
+TABLE theta=0.95: P(I_0)=0.7000; criterion failures at l=0(initial),1..4: 60 2 4 3 2; censored before failing: 0; certified through all computed windows: 129 of 200
+TABLE theta=0.99: P(I_0)=0.7000; criterion failures at l=0(initial),1..4: 60 0 0 0 0; censored before failing: 0; certified through all computed windows: 140 of 200
+TABLE theta=1.0: P(I_0)=0.7000; criterion failures at l=0(initial),1..4: 60 1 0 0 0; censored before failing: 0; certified through all computed windows: 139 of 200
+=== exit: 0   wall: 94.06 s

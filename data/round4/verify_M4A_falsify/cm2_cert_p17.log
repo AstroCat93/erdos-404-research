@@ -1,0 +1,43 @@
+=== command: python3 cm2_cert.py /home/user/erdos-404-research/data/round4/M4A/atom_p17.txt 6 60000 300 2
+=== start (UTC): 2026-10-14T01:45:53Z
+atom p=17 n0=300 m=18 xA=476142940561818649182; Prop E' constants S=4 rho1=0.00026140269 gamma=2.8329242 kappa=5.7479615
+(a) V_300(x_A): product 18, Legendre 18, scan 18; claimed m=18: True; M_300=2 < m: True
+    path at x_A: v(S_e)=18 >= V_300=18, S_e' mod p=6
+    path alive with slope 0 at x_A and 5 random x in A (V_300(x) = m there too): True
+(b) i_A = 13586941511505906341827 = 1.35869e+22; last l with n_(l+1) < i_A: 149 (n_(l+1)=1.0674e+22, next 1.4410e+22); Legendre/floor digit formulas vs scan (N <= 40000): 0 mismatches
+(c) W_0 = [300,405): D_0=8, M_(n_1)=2; D_0 <= m - M: True; admissible: True
+    linear regime holds on all of A for l = 1..149: True
+(d) chi^2_0 <= 7.50249   [block == literal per-c: True]
+    l=1 [300,405,547) D=8 K=16 M_W=2 eps_bar = 7.50253  [block == literal: True]
+    l=2 [405,547,739) D=8 K=20 M_W=2 eps_bar = 0.000301028  [block == literal: True]
+    l=3 [547,739,998) D=12 K=29 M_W=2 eps_bar = 0.00239594
+    l=4 [739,998,1348) D=17 K=38 M_W=2 eps_bar = 0.594706
+    l=5 [998,1348,1820) D=21 K=51 M_W=2 eps_bar = 0.000897118
+    l=6 [1348,1820,2457) D=30 K=69 M_W=2 eps_bar = 0.0409166
+(e) l=7 [1820,2457,3317) D=39 K=93 theta=20 (=ceil(D/2): True) M_W=2 Lemma F hyp: True  log10 E_A eps <= -20.86054  log10 fail <= -20.55951
+(e) l=8 [2457,3317,4478) D=54 K=127 theta=27 (=ceil(D/2): True) M_W=3 Lemma F hyp: True  log10 E_A eps <= -27.94613  log10 fail <= -27.34407
+(e) l=9 [3317,4478,6046) D=73 K=170 theta=37 (=ceil(D/2): True) M_W=3 Lemma F hyp: True  log10 E_A eps <= -39.25701  log10 fail <= -38.35392
+(e) l=10 [4478,6046,8163) D=97 K=230 theta=49 (=ceil(D/2): True) M_W=2 Lemma F hyp: True  log10 E_A eps <= -50.68461  log10 fail <= -49.48049
+(e) l=11 [6046,8163,11021) D=133 K=312 theta=67 (=ceil(D/2): True) M_W=3 Lemma F hyp: True  log10 E_A eps <= -69.18621  log10 fail <= -67.68106
+(e) l=12 [8163,11021,14879) D=179 K=420 theta=90 (=ceil(D/2): True) M_W=3 Lemma F hyp: True  log10 E_A eps <= -95.75725  log10 fail <= -93.95107
+(e) l=13 [11021,14879,20087) D=241 K=566 theta=121 (=ceil(D/2): True) M_W=3 Lemma F hyp: True  log10 E_A eps <= -132.3509  log10 fail <= -130.2437
+(e) l=14 [14879,20087,27118) D=325 K=764 theta=163 (=ceil(D/2): True) M_W=3 Lemma F hyp: True  log10 E_A eps <= -176.8257  log10 fail <= -174.4174
+(e) l=15 [20087,27118,36610) D=439 K=1033 theta=220 (=ceil(D/2): True) M_W=4 Lemma F hyp: True  log10 E_A eps <= -237.7241  log10 fail <= -235.0149
+(e) l=16 [27118,36610,49424) D=594 K=1395 theta=297 (=ceil(D/2): True) M_W=4 Lemma F hyp: True  log10 E_A eps <= -320.5901  log10 fail <= -317.5798
+    Prop E' >= exact Prop E on all 10 phase-2 windows: True
+(f) l=17 D=801 K=1882 M_W=3 theta=401 log10 fail <= -411.84982
+(f) l=18 D=1081 K=2540 M_W=3 theta=541 log10 fail <= -564.05121
+(f) l=21 D=2660 K=6252 M_W=4 theta=1330 log10 fail <= -1416.4208
+(f) l=50 D=16016970 K=37639875 M_W=7 theta=8008485 log10 fail <= -8723604.4
+(f) l=100 D=52634285638049 K=123690571249411 M_W=12 theta=26317142819025 log10 fail <= -2.8667343e+13
+(f) l=149 D=128121905540062724396 K=301086478019147402336 M_W=17 theta=64060952770031362198 log10 fail <= -6.978179e+19
+    phase 2 (l=7..16) sum = 2.7573123e-21;  phase 3 (l=17..149) sum = 1.41312e-412
+(g) phase 4 from l=150 (n*=7.90695e+21); mu_A(G'^c) <= 6.8127e-57
+    per-l worst case on G', l=150..450: side conditions fail for 0; max ln fail = -2.16916e+20; min (-ln fail)/n_(l-1) = 0.0274336; sum = 10^-9.42054e+19
+    analytic majorant (each branch = -a n + b ln n + c0, so its slope -a + b/n is monotone): at n*: branch1 -3.2478e+21, branch2 -1.08458e+20; slopes -0.410752, -0.0137168; side margins D-2sig-1 = 1.72965e+20, V_n-K-sig-1 = 8.77177e+19 (slopes 0.02187, 0.01109)
+    rate c = 0.027433579, used c' = c/2 = 0.013716789; all l >= 150: ln fail_l <= -c' n_(l-1): True
+    => sum_(l >= 150) fail_l <= 2 exp(-c' n*) = 10^-4.71027e+19
+(h) log10 Pi_A <= 2.4580987;  delta_A <= 2.7573123e-21 (log10 -20.55951);  log10(Pi_A delta_A) <= -18.10142;  FE: True
+RESULT p=17: mu(K_p cap A)/mu(A) >= 0.0034825819   (log10 -2.4581);  mu(A) = p^-18;  mu(K_p) >= 10^-24.6062
+[0.8 s]
+=== exit: 0   wall: 0.99 s

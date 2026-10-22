@@ -1,0 +1,27 @@
+# command: R3C_LOGS=data/round3/R3C:data/round3/R3C/p29_t7 python3 code/round3/R3C/chain_c_r3.py PROG p D UNIFORM POSITIONS   (one line per run)
+# run: 2026-10-13 18:35:25 UTC  cwd: /home/user/erdos-404-research
+## A 29 8 "1:7,2:13,3:19,4:24,5:29,6:40" "7:45"
+[A] p=29 D=8: CHAIN OK  f(1,p) >= 17865943312 []
+## D 29 8 "1:7,2:13,3:19,4:24,5:29,6:40" "7:45"
+[D] p=29 D=8: CHAIN OK  f(1,p) >= 17865943312 []
+## C 29 8 "1:7,2:13,3:19,4:24,5:29,6:40" "7:45"
+[C] p=29 D=8: INCOMPLETE ['pos t=7 K=1', 'pos t=7 K=2', 'pos t=7 K=3', 'pos t=7 K=4', 'pos t=7 K=5', 'pos t=7 K=6', 'pos t=7 K=7', 'pos t=7 K=8'] ...
+## A 29 7 "1:7,2:13,3:19,4:24,5:29,6:40" ""
+[A] p=29 D=7: CHAIN OK  f(1,p) >= 616067004 []
+## C 29 7 "1:7,2:13,3:19,4:24,5:29,6:40" ""
+[C] p=29 D=7: CHAIN OK  f(1,p) >= 616067004 []
+## D 29 7 "1:7,2:13,3:19,4:24,5:29,6:40" ""
+[D] p=29 D=7: CHAIN OK  f(1,p) >= 616067004 []
+## A 31 7 "1:7,2:14,3:19,4:25,5:30,6:41" ""
+[A] p=31 D=7: CHAIN OK  f(1,p) >= 917087130 []
+## C 31 7 "1:7,2:14,3:19,4:25,5:30,6:41" ""
+[C] p=31 D=7: CHAIN OK  f(1,p) >= 917087130 []
+## D 31 7 "1:7,2:14,3:19,4:25,5:30,6:41" ""
+[D] p=31 D=7: INCOMPLETE ['uniform t=1 H=7 missing', 'uniform t=2 H=14 missing', 'uniform t=3 H=19 missing', 'uniform t=4 H=25 missing', 'uniform t=5 H=30 missing', 'uniform t=6 H=41 missing']
+## negative controls
+[A] p=29 D=8: INCOMPLETE ['pos t=7 K=1', 'pos t=7 K=2', 'pos t=7 K=3', 'pos t=7 K=4', 'pos t=7 K=5', 'pos t=7 K=6', 'pos t=7 K=7', 'pos t=7 K=8'] ...
+[A] p=29 D=8: INCOMPLETE ['uniform t=6 H=39 missing']
+[A] p=31 D=8: INCOMPLETE ['pos t=7 K=1', 'pos t=7 K=2', 'pos t=7 K=3', 'pos t=7 K=4', 'pos t=7 K=5', 'pos t=7 K=6', 'pos t=7 K=7', 'pos t=7 K=8'] ...
+[D] p=29 D=8: INCOMPLETE ['pos t=7 K=1', 'pos t=7 K=2', 'pos t=7 K=3', 'pos t=7 K=4', 'pos t=7 K=5', 'pos t=7 K=6', 'pos t=7 K=7', 'pos t=7 K=8'] ...
+[D] p=29 D=8: INCOMPLETE ['uniform t=6 H=39 missing']
+[D] p=31 D=8: INCOMPLETE ['uniform t=1 H=7 missing', 'uniform t=2 H=14 missing', 'uniform t=3 H=19 missing', 'uniform t=4 H=25 missing', 'uniform t=5 H=30 missing', 'uniform t=6 H=41 missing', 'pos t=7 K=1', 'pos t=7 K=2'] ...

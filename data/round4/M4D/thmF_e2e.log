@@ -1,0 +1,20 @@
+=== command: python3 thmF_e2e.py 13 61 400 13 26 3 2 6
+=== start (UTC): 2026-10-14T00:17:13Z
+RESULT thmF_e2e p=13 times=[13, 39, 68, 100] samples=400 (censored 12): opt-theta certified=295 of which alive at n_L=295, VIOLATIONS=0; theta=1 certified=295, VIOLATIONS=0; not certified: alive=0, dead=105
+=== exit: 0   wall: 44.13 s
+=== command: python3 thmF_e2e.py 11 62 300 11 22 3 2 7
+=== start (UTC): 2026-10-14T00:17:57Z
+RESULT thmF_e2e p=11 times=[11, 33, 58, 86] samples=300 (censored 0): opt-theta certified=205 of which alive at n_L=205, VIOLATIONS=0; theta=1 certified=198, VIOLATIONS=0; not certified: alive=1, dead=94
+=== exit: 0   wall: 9.99 s
+=== command: python3 thmF_e2e.py 7 63 300 14 14 2 2 8
+=== start (UTC): 2026-10-14T00:18:07Z
+RESULT thmF_e2e p=7 times=[14, 28, 44, 62] samples=300 (censored 1): opt-theta certified=171 of which alive at n_L=171, VIOLATIONS=0; theta=1 certified=18, VIOLATIONS=0; not certified: alive=35, dead=94
+=== exit: 0   wall: 2.06 s
+=== command: python3 thmF_e2e.py 5 64 200 10 14 2 2 9
+=== start (UTC): 2026-10-14T00:18:09Z
+RESULT thmF_e2e p=5 times=[10, 24, 40, 58] samples=200 (censored 37): opt-theta certified=61 of which alive at n_L=61, VIOLATIONS=0; theta=1 certified=0, VIOLATIONS=0; not certified: alive=34, dead=105
+=== exit: 0   wall: 1.38 s
+=== command: python3 thmF_e2e.py 7 65 100 14 18 2 3 9
+=== start (UTC): 2026-10-14T00:18:10Z
+RESULT thmF_e2e p=7 times=[14, 32, 52, 74, 98] samples=100 (censored 1): opt-theta certified=58 of which alive at n_L=58, VIOLATIONS=0; theta=1 certified=0, VIOLATIONS=0; not certified: alive=6, dead=36
+=== exit: 0   wall: 89.86 s

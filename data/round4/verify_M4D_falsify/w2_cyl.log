@@ -1,0 +1,143 @@
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 w2_cyl.py 7 101 40 21 7 7 rand 150
+# start 2026-10-14T02:33:50Z
+p=7 seed=101 ncyl=40 n=21 H=7 H2=7 mode=rand Pmax=150 smax=4
+cylinders tested 40 (void draws 51); parents 5590; kinds {'rand': 40}; 3.2 s
+regime draws with alive paths but EMPTY slope-0 population: {'rand': 7}
+  LIN      checks     280  failures      0
+  MNconst  checks     280  failures      0
+  NC1      checks      40  failures     40
+  NC2      checks       7  failures      7
+  NC3      checks     200  failures    161
+  NC4      checks     200  failures     39
+  NC5      checks      40  failures     40
+  W1b      checks     280  failures      0
+  W1pt     checks     280  failures      0
+  W2       checks     280  failures      0
+  W2eq     checks      40  failures      0
+  W2four   checks     280  failures      0
+  W3a      checks     280  failures      0
+  W3bsum   checks     280  failures      0
+  W3bxi    checks     280  failures      0
+  W4adv    checks     280  failures      0
+  W4c      checks     840  failures      0
+  W4ident  checks     840  failures      0
+  W4m      checks     840  failures      0
+  W4mpt    checks     280  failures      0
+  W4order  checks     840  failures      0
+  W4rnd    checks     280  failures      0
+  W5a      checks     920  failures      0
+  W5b      checks      40  failures      0
+  W5c      checks      80  failures      0
+  W5ceq    checks      80  failures      0
+  W5z      checks      40  failures      0
+  engine   checks     280  failures      0
+  max W2 Var/RHS     1
+  max W4adv LHS/eps~ 1
+  max W4c LHS/sharp  1
+  first failure NC1: (7, 29805274096334, 21, 28, 35, 'rand', 3, 1, 1)
+  first failure NC2: (7, 10118705849481, 21, 28, 35, 'rand', 4, 1, 1)
+  first failure NC3: (7, 29805274096334, 21, 28, 35, 'rand', 3, 1, 1, 'rand', 'rand')
+  first failure NC4: (7, 29805274096334, 21, 28, 35, 'rand', 3, 1, 1, 'ones', 'unif')
+  first failure NC5: (7, 29805274096334, 21, 28, 35, 'rand', 3, 1, 1)
+NEGATIVE CONTROLS (failures expected): {'NC4': '39/200', 'NC3': '161/200', 'NC5': '40/40', 'NC1': '40/40', 'NC2': '7/7'}
+RESULT OK core failures=0
+# exit 0  wall 3 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 w2_cyl.py 7 102 30 35 7 7 mix 80 2
+# start 2026-10-14T02:33:53Z
+p=7 seed=102 ncyl=30 n=35 H=7 H2=7 mode=mix Pmax=80 smax=2
+cylinders tested 30 (void draws 82); parents 2400; kinds {'nega': 13, 'gateW2': 4, 'rand': 9, 'gateW': 4}; 7.0 s
+regime draws with alive paths but EMPTY slope-0 population: {'gateW2': 5, 'rand': 5, 'nega': 4, 'gateW': 11}
+  LIN      checks     210  failures      0
+  MNconst  checks     210  failures      0
+  NC1      checks      30  failures     30
+  NC2      checks      25  failures     25
+  NC3      checks     150  failures    134
+  NC4      checks     150  failures     27
+  NC5      checks      16  failures     16
+  W1b      checks     210  failures      0
+  W1pt     checks     210  failures      0
+  W2       checks     210  failures      0
+  W2eq     checks      30  failures      0
+  W2four   checks     210  failures      0
+  W3a      checks     210  failures      0
+  W3bsum   checks     210  failures      0
+  W3bxi    checks     210  failures      0
+  W4adv    checks     210  failures      0
+  W4c      checks     630  failures      0
+  W4ident  checks     630  failures      0
+  W4m      checks     630  failures      0
+  W4mpt    checks     210  failures      0
+  W4order  checks     630  failures      0
+  W4rnd    checks     210  failures      0
+  W5a      checks     690  failures      0
+  W5b      checks      30  failures      0
+  W5c      checks      32  failures      0
+  W5ceq    checks      32  failures      0
+  W5z      checks      30  failures      0
+  engine   checks     210  failures      0
+  max W2 Var/RHS     1
+  max W4adv LHS/eps~ 1
+  max W4c LHS/sharp  1
+  max W5a -(eps~/m)  -1
+  first failure NC1: (7, 227888061, 35, 42, 49, 'nega(a=12,s=2)', 6, 1, 1)
+  first failure NC2: (7, 202769845, 35, 42, 49, 'gateW2(a=44,s=2)', 5, 1, 2)
+  first failure NC3: (7, 227888061, 35, 42, 49, 'nega(a=12,s=2)', 6, 1, 1, 'ones', 'unif')
+  first failure NC4: (7, 227888061, 35, 42, 49, 'nega(a=12,s=2)', 6, 1, 1, 'ones', 'unif')
+  first failure NC5: (7, 227888061, 35, 42, 49, 'nega(a=12,s=2)', 6, 1, 1)
+NEGATIVE CONTROLS (failures expected): {'NC4': '27/150', 'NC3': '134/150', 'NC5': '16/16', 'NC1': '30/30', 'NC2': '25/25'}
+RESULT OK core failures=0
+# exit 0  wall 7 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 w2_cyl.py 7 103 15 42 14 7 mix 60 2
+# start 2026-10-14T02:34:00Z
+# run above killed by hand at 02:37Z after ~220 s (a quadratic-time loop in the q* perturbation step of w2_cyl.py; fixed, rerun in batch 2). No result taken from it.
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 w2_cyl.py 7 103 60 42 14 7 mix 60 2
+# start 2026-10-14T02:37:52Z
+p=7 seed=103 ncyl=60 n=42 H=14 H2=7 mode=mix Pmax=60 smax=2
+cylinders tested 60 (void draws 101); parents 3600; kinds {'rand': 22, 'gateW2': 11, 'nega': 17, 'gateW': 10}; 168.0 s
+regime draws with alive paths but EMPTY slope-0 population: {'gateW2': 9, 'nega': 8, 'gateW': 8, 'rand': 6}
+  LIN      checks     420  failures      0
+  MNconst  checks     420  failures      0
+  NC1      checks      60  failures     60
+  NC2      checks      31  failures     31
+  NC3      checks     300  failures    274
+  NC4      checks     135  failures     16
+  NC5      checks      60  failures     60
+  W1b      checks     420  failures      0
+  W1pt     checks     420  failures      0
+  W2       checks     420  failures      0
+  W2eq     checks      60  failures      0
+  W2four   checks     189  failures      0
+  W3a      checks     420  failures      0
+  W3bsum   checks     420  failures      0
+  W3bxi    checks     189  failures      0
+  W4adv    checks     420  failures      0
+  W4c      checks    1260  failures      0
+  W4ident  checks     567  failures      0
+  W4m      checks    1260  failures      0
+  W4mpt    checks     420  failures      0
+  W4order  checks    1260  failures      0
+  W4rnd    checks     420  failures      0
+  W5a      checks     744  failures      0
+  W5b      checks      60  failures      0
+  W5c      checks     120  failures      0
+  W5ceq    checks     120  failures      0
+  W5z      checks      60  failures      0
+  engine   checks     420  failures      0
+  max W2 Var/RHS     1
+  max W4adv LHS/eps~ 1
+  max W4c LHS/sharp  1
+  first failure NC1: (7, 2892613701880, 42, 56, 63, 'rand', 7, 2, 1)
+  first failure NC2: (7, 255690958, 42, 56, 63, 'gateW2(a=58,s=2)', 7, 2, 2)
+  first failure NC3: (7, 2892613701880, 42, 56, 63, 'rand', 7, 2, 1, 'ones', 'unif')
+  first failure NC4: (7, 2892613701880, 42, 56, 63, 'rand', 7, 2, 1, 'single', 'rand')
+  first failure NC5: (7, 2892613701880, 42, 56, 63, 'rand', 7, 2, 1)
+NEGATIVE CONTROLS (failures expected): {'NC4': '16/135', 'NC3': '274/300', 'NC5': '60/60', 'NC1': '60/60', 'NC2': '31/31'}
+RESULT OK core failures=0
+# exit 0  wall 168 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 w2_cyl.py 7 104 30 49 7 7 gateW2 60 3
+# start 2026-10-14T02:40:40Z

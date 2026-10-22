@@ -1,0 +1,10 @@
+# negative control: uniform Cov(29,6,39), which fails at K' = 2
+29 8
+require A,D
+uniform 1 7
+uniform 2 13
+uniform 3 19
+uniform 4 24
+uniform 5 29
+uniform 6 39
+pos 7 45 1 28

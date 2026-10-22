@@ -1,0 +1,16 @@
+# command: python3 -I /home/user/erdos-404-research/code/round3/R3F/summarize_a.py /home/user/erdos-404-research/data/round3/R3F 11 9 9
+# host: vm  start: 2026-10-13T07:20:18Z
+# p=11: per-level certified upper bounds of rho_d = S_d/(N_d (2/pi)^p)
+d= 1  rho_d <= 0.867229   (programs: gate_d,ivshell)
+d= 2  rho_d <= 1.837653   (programs: gate_d,ivshell)
+d= 3  rho_d <= 1.068908   (programs: gate_d,ivshell)
+d= 4  rho_d <= 1.172620   (programs: gate_d,ivshell)
+d= 5  rho_d <= 1.171714   (programs: gate_d,ivshell)
+d= 6  rho_d <= 1.172171   (programs: gate_d,ivshell)
+d= 7  rho_d <= 1.172558   (programs: gate_d,ivshell)
+d= 8  rho_d <= 1.172524   (programs: gate_d,ivshell)
+d= 9  rho_d <= 1.172524   (programs: gate_d)
+J_p in [1.1724292498, 1.1726187467];  for all d >= 9: rho_d <= J_p^+ + dev_d <= 1.175890  (dev_d decreasing in d; maximum over d >= 9 attained at d = 9)
+levels covered by computation: 1..9; analytic: >= 9; uncovered: []
+CERTIFIED: sup_d rho_d <= 1.837654
+# end: 2026-10-13T07:20:19Z  exit=0  wall_seconds=.386593461

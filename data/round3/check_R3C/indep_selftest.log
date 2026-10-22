@@ -1,0 +1,7 @@
+# command: python3 code/round3/check_R3C/indep.py selftest
+# host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz  vmem cap (KB): 0
+# start: 2026-10-13 20:02:34 UTC
+selftest: 582 (p,t,H,K) cases, 387 of them failing; bitcover vs mitm residue by residue: 0 mismatches
+# wall=9.876 s user=7.034 s sys=2.613 s
+# exit status: 0
+# end: 2026-10-13 20:02:44 UTC

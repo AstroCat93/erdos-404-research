@@ -1,0 +1,19 @@
+# command: python3 -I jcheck.py 10000 3 17 19 23
+# start: 2026-10-13T17:49:08Z
+# A4(iii) constants (mpmath iv, upper ends):  alpha_{p-1}/((p-1)!)^2  and beta_{p-1}
+p=3: alpha_(p-1)/((p-1)!)^2 <= 1.7330593   beta_(p-1) <= 1.498455
+p=17: alpha_(p-1)/((p-1)!)^2 <= 81.127408   beta_(p-1) <= 1.9651914
+p=19: alpha_(p-1)/((p-1)!)^2 <= 102.89893   beta_(p-1) <= 1.9757927
+p=23: alpha_(p-1)/((p-1)!)^2 <= 154.61764   beta_(p-1) <= 1.9914514
+# kappa_m: closed form vs direct summation (|k| <= 2e5; tail <= 3.4e-6)
+  m=2: closed form 1.2146018366  direct 1.214600586609 (max class 0, tail <= 3.3e-06)
+  m=3: closed form 1.09310031788  direct 1.093099484547 (max class 0, tail <= 3.3e-06)
+  m=4: closed form 1.05194055103  direct 1.051939926038 (max class 0, tail <= 3.3e-06)
+  m=7: closed form 1.01684166062  direct 1.016841303475 (max class 0, tail <= 3.3e-06)
+  m=12: closed form 1.00571811171  direct 1.005717903372 (max class 0, tail <= 3.3e-06)
+# Prop A6: prod_(m>=2) kappa_m in [1.6742186, 1.6742972];  beta_abs_inf <= 2.0655814;  (pi^2/9) beta_abs_inf <= 2.2651635
+p=3 C=10000: J_trunc = 1.15145384679  total error <= 4.112e-5  => J_p in [1.151412723, 1.15149497]   (0.8s)
+p=17 C=10000: J_trunc = 1.17342385218  total error <= 9.472e-5  => J_p in [1.173329135, 1.173518569]   (6.0s)
+p=19 C=10000: J_trunc = 1.17356722443  total error <= 9.564e-5  => J_p in [1.173471582, 1.173662866]   (7.3s)
+p=23 C=10000: J_trunc = 1.17376212845  total error <= 9.7e-5  => J_p in [1.173665133, 1.173859123]   (9.8s)
+# end: 2026-10-13T17:49:34Z  exit=0  wall_seconds=25.256373982

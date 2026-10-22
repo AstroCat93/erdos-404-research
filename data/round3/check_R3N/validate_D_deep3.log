@@ -1,0 +1,18 @@
+# cmd: nice -n 10 python3 -I code/round3/check_R3N/validate_D.py survey 0 -1 /tmp/r3_check_R3N/dfsD code/round3/check_R3N/verify_w.py 16510,9934,20736,25170,12706,25774,26974,2210,1438,574,1602,640,2662 data/round3/R3N/survey_2_4096.csv data/round3/R3N/survey_4098_16384.csv data/round3/R3N/survey_16386_32768_merged.csv data/round3/R3N/shadow_t15_17.csv
+a=16510 f=31226 g=14723 ok=1 witness=True time=1.87s
+a=9934 f=24580 g=14654 ok=1 witness=True time=2.05s
+a=20736 f=32765 g=12032 ok=1 witness=True time=2.03s
+a=25170 f=36861 g=11697 ok=1 witness=True time=1.07s
+a=12706 f=22969 g=10269 ok=1 witness=True time=0.90s
+a=25774 f=34813 g=9047 ok=1 witness=True time=0.97s
+a=26974 f=35481 g=8516 ok=1 witness=True time=0.72s
+a=2210 f=8467 g=6261 ok=1 witness=True time=0.28s
+a=1438 f=5379 g=3948 ok=1 witness=True time=0.18s
+a=574 f=4094 g=3526 ok=1 witness=True time=0.16s
+a=1602 f=5084 g=3486 ok=1 witness=True time=0.15s
+a=640 f=3834 g=3196 ok=1 witness=True time=0.11s
+a=2662 f=5785 g=3129 ok=1 witness=True time=0.21s
+survey sample: 13 rows (seed -1) from 16384 exact rows, failures 0, time 10.7s
+sample a values: 16510 9934 20736 25170 12706 25774 26974 2210 1438 574 1602 640 2662
+ALL_OK
+# wall 11 s

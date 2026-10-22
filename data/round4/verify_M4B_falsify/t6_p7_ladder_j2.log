@@ -1,0 +1,6 @@
+### command: python3 t6_atom_j.py 22 7 14 21 ladder 14 2 5 1/5 30
+### start (UTC): 2026-10-14T00:16:13Z
+RESULT p=7 n0=14 n1=21 rule=ladder H=14 j=2 L=5 epsbar=1/5: {'atoms': 30, 'mart_fail': 0, 'a_fail': 0, 'rec_fail': 0, 'nonvac': 24, 'bound_fail': 0, 'minratio': 1.44, 'tries': 58}
+SUMMARY t6 failures 0
+### exit: 0
+### wall: 1 s

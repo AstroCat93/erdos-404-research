@@ -1,0 +1,28 @@
+# command: env R3C_BIN=/tmp/r3_R3C/bin python3 code/round3/R3C/scan_r3.py 29 2 2 58
+# cwd: /home/user/erdos-404-research  host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz
+# start: 2026-10-13 06:15:20 UTC
+# scan p=29 t=2 H=2..58 rho0=6
+p=29 t=2 H=2 c=0 M=2: FAILS by counting (2^2 < 29^2)
+p=29 t=2 H=3 c=0 M=2: FAILS by counting (2^3 < 29^2)
+p=29 t=2 H=4 c=0 M=2: FAILS by counting (2^4 < 29^2)
+p=29 t=2 H=5 c=0 M=2: FAILS by counting (2^5 < 29^2)
+p=29 t=2 H=6 c=0 M=2: FAILS by counting (2^6 < 29^2)
+p=29 t=2 H=7 c=0 M=2: FAILS by counting (2^7 < 29^2)
+p=29 t=2 H=8 c=0 M=2: FAILS by counting (2^8 < 29^2)
+p=29 t=2 H=9 c=0 M=2: FAILS by counting (2^9 < 29^2)
+p=29 t=2 H=10 c=0 M=2 k=0: FAILS  class K=1: A missing=451, C miss=451 [AGREE]
+    A: A p=29 t=2 H=10 c=0 M=2 K=1 missing=451 NOT_COVERED [0.00s]
+    C: C p=29 t=2 H=10 M=2 K=1 Kmodpc=0 miss=451 UNCOVERED 0.00s
+p=29 t=2 H=11 c=0 M=2 k=0: FAILS  class K=1: A missing=236, C miss=236 [AGREE]
+    A: A p=29 t=2 H=11 c=0 M=2 K=1 missing=236 NOT_COVERED [0.00s]
+    C: C p=29 t=2 H=11 M=2 K=1 Kmodpc=0 miss=236 UNCOVERED 0.00s
+p=29 t=2 H=12 c=0 M=2 k=0: FAILS  class K=1: A missing=67, C miss=67 [AGREE]
+    A: A p=29 t=2 H=12 c=0 M=2 K=1 missing=67 NOT_COVERED [0.00s]
+    C: C p=29 t=2 H=12 M=2 K=1 Kmodpc=0 miss=67 UNCOVERED 0.00s
+p=29 t=2 H=13 c=0 M=2 k=0: HOLDS
+    SUMMARY A p=29 t=2 H=13 c=0 M=2 k=0 mode=all nK=1 fail=0 worst_missing=0 ALL_COVERED total=0.0s
+    END C p=29 t=2 H=13 nK=1 bad=0 ALL_COVERED 0.0s
+    A p=29 t=2 H=13 c=0 M=2 K=1 missing=0 COVERED [0.00s]
+    C p=29 t=2 H=13 M=2 K=3 Kmodpc=0 miss=0 COVERED 0.00s
+# wall=0.216 s user=0.200 s sys=0.035 s
+# end: 2026-10-13 06:15:20 UTC

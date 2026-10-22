@@ -1,0 +1,18 @@
+samples 4000 x uniform in 2Z_2
+n=20 P(nonempty)=0.2637 P(max>=2)=0.2062 P(max>=4)=0.1000 P(max>=6)=0.0958 P(max>=8)=0.0958 P(max>=10)=0.0850 P(max>=12)=0.0348 P(max>=16)=0.0107 P(max>=20)=0.0045 P(max>=24)=0.0008 P(max>=32)=0.0000 P(max>=40)=0.0000 P(max>=48)=0.0000
+n=40 P(nonempty)=0.1700 P(max>=2)=0.1393 P(max>=4)=0.0843 P(max>=6)=0.0793 P(max>=8)=0.0785 P(max>=10)=0.0645 P(max>=12)=0.0328 P(max>=16)=0.0070 P(max>=20)=0.0015 P(max>=24)=0.0005 P(max>=32)=0.0000 P(max>=40)=0.0000 P(max>=48)=0.0000
+n=80 P(nonempty)=0.0998 P(max>=2)=0.0840 P(max>=4)=0.0565 P(max>=6)=0.0520 P(max>=8)=0.0495 P(max>=10)=0.0405 P(max>=12)=0.0215 P(max>=16)=0.0045 P(max>=20)=0.0010 P(max>=24)=0.0005 P(max>=32)=0.0000 P(max>=40)=0.0000 P(max>=48)=0.0000
+n=120 P(nonempty)=0.0760 P(max>=2)=0.0635 P(max>=4)=0.0423 P(max>=6)=0.0377 P(max>=8)=0.0350 P(max>=10)=0.0293 P(max>=12)=0.0180 P(max>=16)=0.0037 P(max>=20)=0.0010 P(max>=24)=0.0005 P(max>=32)=0.0000 P(max>=40)=0.0000 P(max>=48)=0.0000
+n=160 P(nonempty)=0.0575 P(max>=2)=0.0483 P(max>=4)=0.0328 P(max>=6)=0.0285 P(max>=8)=0.0260 P(max>=10)=0.0205 P(max>=12)=0.0123 P(max>=16)=0.0032 P(max>=20)=0.0010 P(max>=24)=0.0005 P(max>=32)=0.0000 P(max>=40)=0.0000 P(max>=48)=0.0000
+j=v(x+2) 1 count 37 max slopes at nmax: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+j=v(x+2) 2 count 35 max slopes at nmax: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+j=v(x+2) 3 count 27 max slopes at nmax: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+j=v(x+2) 4 count 43 max slopes at nmax: [11, 12, 12, 12, 12, 12, 13, 14, 16, 19]
+j=v(x+2) 5 count 35 max slopes at nmax: [11, 11, 11, 11, 11, 11, 11, 11, 11, 11]
+j=v(x+2) 6 count 12 max slopes at nmax: [13, 13, 13, 13, 13, 14, 14, 14, 15, 16]
+j=v(x+2) 7 count 20 max slopes at nmax: [14, 14, 14, 14, 15, 15, 15, 15, 15, 15]
+j=v(x+2) 8 count 12 max slopes at nmax: [15, 15, 15, 15, 15, 15, 15, 15, 17, 17]
+j=v(x+2) 9 count 3 max slopes at nmax: [16, 19, 19]
+j=v(x+2) 10 count 3 max slopes at nmax: [17, 21, 21]
+j=v(x+2) 11 count 1 max slopes at nmax: [15]
+j=v(x+2) 12 count 2 max slopes at nmax: [25, 27]

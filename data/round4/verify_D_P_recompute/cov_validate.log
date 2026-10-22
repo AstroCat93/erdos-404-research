@@ -1,0 +1,45 @@
+=== command: python3 cov_brute.py /tmp/r4_verify_D_P_recompute/covchk
+=== start (UTC): 2026-10-14T03:20:42Z
+Cov(3,1,2) c=0: classes 1, brute not-covered 0, mismatches 0
+Cov(3,2,9) c=2: classes 6, brute not-covered 1, mismatches 0
+Cov(3,2,8) c=2: classes 6, brute not-covered 6, mismatches 0
+Cov(5,1,3) c=0: classes 1, brute not-covered 0, mismatches 0
+Cov(5,1,2) c=0: classes 1, brute not-covered 1, mismatches 0
+Cov(5,2,10) c=1: classes 4, brute not-covered 0, mismatches 0
+Cov(5,2,9) c=1: classes 4, brute not-covered 3, mismatches 0
+Cov(5,3,20) c=3: classes 100, brute not-covered 0, mismatches 0
+Cov(5,3,19) c=3: classes 100, brute not-covered 2, mismatches 0
+Cov(7,1,4) c=0: classes 1, brute not-covered 0, mismatches 0
+Cov(7,1,3) c=0: classes 1, brute not-covered 1, mismatches 0
+Cov(7,2,7) c=0: classes 1, brute not-covered 0, mismatches 0
+Cov(7,2,6) c=0: classes 1, brute not-covered 1, mismatches 0
+Cov(7,3,19) c=2: classes 42, brute not-covered 0, mismatches 0
+Cov(7,3,18) c=2: classes 42, brute not-covered 21, mismatches 0
+Cov(7,3,17) c=2: classes 42, brute not-covered 42, mismatches 0
+Cov(7,4,26) c=3: classes 294, brute not-covered 0, mismatches 0
+Cov(7,4,25) c=3: classes 294, brute not-covered 49, mismatches 0
+Cov(11,1,5) c=0: classes 1, brute not-covered 0, mismatches 0
+Cov(11,1,4) c=0: classes 1, brute not-covered 1, mismatches 0
+Cov(11,2,10) c=0: classes 1, brute not-covered 0, mismatches 0
+Cov(11,3,18) c=1: classes 10, brute not-covered 0, mismatches 0
+Cov(11,3,17) c=1: classes 10, brute not-covered 10, mismatches 0
+Cov(13,1,6) c=0: classes 1, brute not-covered 0, mismatches 0
+Cov(13,1,5) c=0: classes 1, brute not-covered 1, mismatches 0
+Cov(13,2,10) c=0: classes 1, brute not-covered 0, mismatches 0
+Cov(13,2,13) c=0: classes 1, brute not-covered 0, mismatches 0
+Cov(13,2,14) c=1: classes 12, brute not-covered 12, mismatches 0
+Cov(13,2,18) c=1: classes 12, brute not-covered 12, mismatches 0
+Cov(13,2,19) c=1: classes 12, brute not-covered 0, mismatches 0
+Cov(13,3,19) c=1: classes 12, brute not-covered 0, mismatches 0
+Cov(17,2,11) c=0: classes 1, brute not-covered 0, mismatches 0
+Cov(19,2,12) c=0: classes 1, brute not-covered 0, mismatches 0
+Cov(23,2,12) c=0: classes 1, brute not-covered 0, mismatches 0
+Cov(23,2,11) c=0: classes 1, brute not-covered 1, mismatches 0
+lift j=5 Cov(7,3,18): classes 42, lifted-vs-base mismatches 0, brute(lifted, 10 classes) mismatches 0
+lift j=123457 Cov(7,3,18): classes 42, lifted-vs-base mismatches 0, brute(lifted, 10 classes) mismatches 0
+lift j=3 Cov(7,4,25): classes 294, lifted-vs-base mismatches 0, brute(lifted, 10 classes) mismatches 0
+lift j=7 Cov(13,2,14): classes 12, lifted-vs-base mismatches 0, brute(lifted, 10 classes) mismatches 0
+lift j=11 Cov(5,3,19): classes 100, lifted-vs-base mismatches 0, brute(lifted, 10 classes) mismatches 0
+1020 classes compared; 16 configurations with failing classes
+VALIDATION OK
+=== exit: 0   wall: 3.847854487 s

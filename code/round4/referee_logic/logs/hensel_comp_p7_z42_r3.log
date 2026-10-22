@@ -1,0 +1,10 @@
+=== command: python3 rl_hensel.py comp 7 42 3 21 7 0
+=== start: 2026-10-14T04:40:41Z
+part B p=7 z0=42 r=3 L=21 L'=7: D=4 K=5 M=2 theta_M4A=2 ceil(D/2)=2; points used 49/49
+  M4C hypotheses D>=2r: False; ceil(D/2) <= K-M: True
+  E_B[eps]                    = 5.93285890904e-06
+  M4A Thm 1 RHS (theta=2)   = 5.93285890904e-06   exact equality: True
+  M4C H' RHS p^K P_K(ceil D/2) = 0.581597442855   E_B eps <= RHS: True
+  min/max eps over points: 4.80767e-06 / 7.49261e-06
+=== exit: 0
+=== wall: 36 s

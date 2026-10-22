@@ -1,0 +1,98 @@
+=== command: /tmp/r4_verify_D_P_recompute/covchk 7 6 33 dump 5
+=== start (UTC): 2026-10-14T03:21:04Z
+# covchk p=7 t=6 H=33 c=4 M=t+c=10 Q=p^M=282475249 explicit=22 mode=dump
+K=5 Kmodpc=5 missing=2 NOT_COVERED
+  missed 94559789
+  missed 241978387
+SUMMARY p=7 t=6 H=33 c=4 classes=1 not_covered=1 worst_missing=2 COV_FAILS cpu=0.4s
+=== exit: 0   wall: .373628646 s
+=== command: /tmp/r4_verify_D_P_recompute/covchk 7 3 18
+=== start (UTC): 2026-10-14T03:21:05Z
+# covchk p=7 t=3 H=18 c=2 M=t+c=5 Q=p^M=16807 explicit=12 mode=all
+K=1 Kmodpc=1 missing=8 NOT_COVERED
+K=2 Kmodpc=2 missing=0 covered
+K=3 Kmodpc=3 missing=0 covered
+K=4 Kmodpc=4 missing=4 NOT_COVERED
+K=5 Kmodpc=5 missing=20 NOT_COVERED
+K=6 Kmodpc=6 missing=0 covered
+K=8 Kmodpc=8 missing=8 NOT_COVERED
+K=9 Kmodpc=9 missing=0 covered
+K=10 Kmodpc=10 missing=0 covered
+K=11 Kmodpc=11 missing=4 NOT_COVERED
+K=12 Kmodpc=12 missing=20 NOT_COVERED
+K=13 Kmodpc=13 missing=0 covered
+K=15 Kmodpc=15 missing=8 NOT_COVERED
+K=16 Kmodpc=16 missing=0 covered
+K=17 Kmodpc=17 missing=0 covered
+K=18 Kmodpc=18 missing=4 NOT_COVERED
+K=19 Kmodpc=19 missing=20 NOT_COVERED
+K=20 Kmodpc=20 missing=0 covered
+K=22 Kmodpc=22 missing=8 NOT_COVERED
+K=23 Kmodpc=23 missing=0 covered
+K=24 Kmodpc=24 missing=0 covered
+K=25 Kmodpc=25 missing=4 NOT_COVERED
+K=26 Kmodpc=26 missing=20 NOT_COVERED
+K=27 Kmodpc=27 missing=0 covered
+K=29 Kmodpc=29 missing=8 NOT_COVERED
+K=30 Kmodpc=30 missing=0 covered
+K=31 Kmodpc=31 missing=0 covered
+K=32 Kmodpc=32 missing=4 NOT_COVERED
+K=33 Kmodpc=33 missing=20 NOT_COVERED
+K=34 Kmodpc=34 missing=0 covered
+K=36 Kmodpc=36 missing=8 NOT_COVERED
+K=37 Kmodpc=37 missing=0 covered
+K=38 Kmodpc=38 missing=0 covered
+K=39 Kmodpc=39 missing=4 NOT_COVERED
+K=40 Kmodpc=40 missing=20 NOT_COVERED
+K=41 Kmodpc=41 missing=0 covered
+K=43 Kmodpc=43 missing=8 NOT_COVERED
+K=44 Kmodpc=44 missing=0 covered
+K=45 Kmodpc=45 missing=0 covered
+K=46 Kmodpc=46 missing=4 NOT_COVERED
+K=47 Kmodpc=47 missing=20 NOT_COVERED
+K=48 Kmodpc=48 missing=0 covered
+SUMMARY p=7 t=3 H=18 c=2 classes=42 not_covered=21 worst_missing=20 COV_FAILS cpu=0.0s
+=== exit: 0   wall: .004481693 s
+BATCH_DONE
+=== command: /tmp/r4_verify_D_P_recompute/covchk 7 3 12 one 1
+=== start (UTC): 2026-10-14T03:46:34Z
+# covchk p=7 t=3 H=12 c=1 M=t+c=4 Q=p^M=2401 explicit=9 mode=one
+K=1 Kmodpc=1 missing=549 NOT_COVERED
+SUMMARY p=7 t=3 H=12 c=1 classes=1 not_covered=1 worst_missing=549 COV_FAILS cpu=0.0s
+=== exit: 0   wall: .005785434 s
+=== command: /tmp/r4_verify_D_P_recompute/covchk 7 3 13 one 1
+=== start (UTC): 2026-10-14T03:46:34Z
+# covchk p=7 t=3 H=13 c=1 M=t+c=4 Q=p^M=2401 explicit=9 mode=one
+K=1 Kmodpc=1 missing=101 NOT_COVERED
+SUMMARY p=7 t=3 H=13 c=1 classes=1 not_covered=1 worst_missing=101 COV_FAILS cpu=0.0s
+=== exit: 0   wall: .003799838 s
+=== command: /tmp/r4_verify_D_P_recompute/covchk 7 3 14 one 1
+=== start (UTC): 2026-10-14T03:46:34Z
+# covchk p=7 t=3 H=14 c=1 M=t+c=4 Q=p^M=2401 explicit=9 mode=one
+K=1 Kmodpc=1 missing=4 NOT_COVERED
+SUMMARY p=7 t=3 H=14 c=1 classes=1 not_covered=1 worst_missing=4 COV_FAILS cpu=0.0s
+=== exit: 0   wall: .003851460 s
+=== command: /tmp/r4_verify_D_P_recompute/covchk 7 3 15 one 1
+=== start (UTC): 2026-10-14T03:46:34Z
+# covchk p=7 t=3 H=15 c=2 M=t+c=5 Q=p^M=16807 explicit=12 mode=one
+K=1 Kmodpc=1 missing=12013 NOT_COVERED
+SUMMARY p=7 t=3 H=15 c=2 classes=1 not_covered=1 worst_missing=12013 COV_FAILS cpu=0.0s
+=== exit: 0   wall: .003789551 s
+=== command: /tmp/r4_verify_D_P_recompute/covchk 7 3 16 one 1
+=== start (UTC): 2026-10-14T03:46:34Z
+# covchk p=7 t=3 H=16 c=2 M=t+c=5 Q=p^M=16807 explicit=12 mode=one
+K=1 Kmodpc=1 missing=9612 NOT_COVERED
+SUMMARY p=7 t=3 H=16 c=2 classes=1 not_covered=1 worst_missing=9612 COV_FAILS cpu=0.0s
+=== exit: 0   wall: .003700192 s
+=== command: /tmp/r4_verify_D_P_recompute/covchk 7 3 17 one 1
+=== start (UTC): 2026-10-14T03:46:34Z
+# covchk p=7 t=3 H=17 c=2 M=t+c=5 Q=p^M=16807 explicit=12 mode=one
+K=1 Kmodpc=1 missing=2417 NOT_COVERED
+SUMMARY p=7 t=3 H=17 c=2 classes=1 not_covered=1 worst_missing=2417 COV_FAILS cpu=0.0s
+=== exit: 0   wall: .003880290 s
+=== command: /tmp/r4_verify_D_P_recompute/covchk 7 3 18 one 1
+=== start (UTC): 2026-10-14T03:46:34Z
+# covchk p=7 t=3 H=18 c=2 M=t+c=5 Q=p^M=16807 explicit=12 mode=one
+K=1 Kmodpc=1 missing=8 NOT_COVERED
+SUMMARY p=7 t=3 H=18 c=2 classes=1 not_covered=1 worst_missing=8 COV_FAILS cpu=0.0s
+=== exit: 0   wall: .003921148 s

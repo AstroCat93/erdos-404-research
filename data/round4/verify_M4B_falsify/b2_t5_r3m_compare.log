@@ -1,0 +1,41 @@
+### command: python3 b2_t5_r3m_compare.py 91 8
+### start (UTC): 2026-10-14T00:42:24Z
+[16,26) split 21 d=1 s=1 hyp=Y: median 0.07354 mean 0.1456 (R3M median 0.333) kappa/heur in [1.0000,1.0000]
+[16,26) split 21 d=1 s=2 hyp=Y: median 1.199 mean 1.658 (R3M median 0.307) kappa/heur in [1.0000,1.0000]
+[16,26) split 21 d=1 s=3 hyp=Y: median 1.087 mean 0.8427 (R3M median 0.436) kappa/heur in [1.0000,1.0000]
+[16,26) split 21 d=1 s=4 hyp=Y: median 4.587 mean 4.587 (R3M median 4.59) kappa/heur in [1.0000,1.0000]
+[16,26) split 21 d=1 s=5 hyp=Y: median 13.76 mean 13.76 (R3M median 13.8) kappa/heur in [1.0000,1.0000]
+[16,26) split 21 d=1 s=6 hyp=Y: median 41.28 mean 41.28 (R3M median 41.3) kappa/heur in [1.0000,1.0000]
+[16,26) split 21 d=4 s=1 hyp=n: median 0.3984 mean 1.147 (R3M median 2.64)
+[16,26) split 21 d=4 s=2 hyp=n: median 0.07354 mean 0.07354 (R3M median 0.0735)
+[16,26) split 21 d=4 s=3 hyp=Y: median 0.2206 mean 0.2206 (R3M median 0.221) kappa/heur in [0.9495,0.9495]
+[16,26) split 21 d=4 s=4 hyp=Y: median 0.6619 mean 0.6619 (R3M median 0.662) kappa/heur in [0.9495,0.9495]
+[16,26) split 21 d=4 s=5 hyp=Y: median 1.986 mean 1.986 (R3M median 1.99) kappa/heur in [0.9495,0.9495]
+[16,26) split 21 d=4 s=6 hyp=Y: median 5.957 mean 5.957 (R3M median 5.96) kappa/heur in [0.9495,0.9495]
+[24,40) split 32 d=1 s=1 hyp=Y: median 0.7105 mean 1.008 (R3M median 0.193) kappa/heur in [1.0000,1.0000]
+[24,40) split 32 d=1 s=2 hyp=Y: median 0.2858 mean 2.951 (R3M median 0.961) kappa/heur in [1.0000,1.0000]
+[24,40) split 32 d=1 s=3 hyp=Y: median 0.9474 mean 0.7258 (R3M median 0.344) kappa/heur in [1.0000,1.0000]
+[24,40) split 32 d=1 s=4 hyp=Y: median 4.146 mean 4.141 (R3M median 4.12) kappa/heur in [1.0000,1.0000]
+[24,40) split 32 d=1 s=5 hyp=Y: median 12.46 mean 12.46 (R3M median 12.5) kappa/heur in [1.0000,1.0000]
+[24,40) split 32 d=1 s=6 hyp=Y: median 38.03 mean 38.03 (R3M median 38) kappa/heur in [1.0000,1.0000]
+[24,40) split 32 d=4 s=1 hyp=n: median 0.1239 mean 2.19 (R3M median 0.261)
+[24,40) split 32 d=4 s=2 hyp=n: median 0.4898 mean 2.181 (R3M median 1.38)
+[24,40) split 32 d=4 s=3 hyp=Y: median 0.4049 mean 0.3553 (R3M median 0.41) kappa/heur in [0.9741,1.1304]
+[24,40) split 32 d=4 s=4 hyp=Y: median 2.349 mean 2.349 (R3M median 2.35) kappa/heur in [1.3508,1.3537]
+[24,40) split 32 d=4 s=5 hyp=Y: median 7.192 mean 7.192 (R3M median 7.19) kappa/heur in [1.3575,1.3575]
+[24,40) split 32 d=4 s=6 hyp=Y: median 21.58 mean 21.58 (R3M median 21.6) kappa/heur in [1.3575,1.3575]
+[32,52) split 42 d=1 s=1 hyp=Y: median 0.1546 mean 0.2725 (R3M median 0.322) kappa/heur in [1.0000,1.0000]
+[32,52) split 42 d=1 s=2 hyp=Y: median 0.3308 mean 1.569 (R3M median 0.393) kappa/heur in [1.0000,1.0000]
+[32,52) split 42 d=1 s=3 hyp=Y: median 0.1944 mean 0.1865 (R3M median 0.192) kappa/heur in [1.0000,1.0000]
+[32,52) split 42 d=1 s=4 hyp=Y: median 0.4984 mean 0.5029 (R3M median 0.511) kappa/heur in [1.0000,1.0000]
+[32,52) split 42 d=1 s=5 hyp=Y: median 1.501 mean 1.605 (R3M median 1.82) kappa/heur in [1.0000,1.0000]
+[32,52) split 42 d=1 s=6 hyp=Y: median 4.712 mean 5.246 (R3M median 4.75) kappa/heur in [1.0000,1.0000]
+[32,52) split 42 d=4 s=1 hyp=n: median 0.1406 mean 0.5434 (R3M median 0.469)
+[32,52) split 42 d=4 s=2 hyp=n: median 0.1142 mean 0.9388 (R3M median 0.0961)
+[32,52) split 42 d=4 s=3 hyp=Y: median 0.3315 mean 0.2538 (R3M median 0.332) kappa/heur in [0.9101,1.0028]
+[32,52) split 42 d=4 s=4 hyp=Y: median 2.081 mean 2.089 (R3M median 2.08) kappa/heur in [1.3419,1.3513]
+[32,52) split 42 d=4 s=5 hyp=Y: median 6.32 mean 6.319 (R3M median 6.32) kappa/heur in [1.3519,1.3523]
+[32,52) split 42 d=4 s=6 hyp=Y: median 19.36 mean 19.36 (R3M median 19.4) kappa/heur in [1.3574,1.3574]
+RESULT r3m_compare: identity failures 0
+### exit: 0
+### wall: 2 s

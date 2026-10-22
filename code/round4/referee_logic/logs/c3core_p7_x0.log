@@ -1,0 +1,26 @@
+=== command: python3 rl_c3core.py 7 0 21 7 median
+=== start: 2026-10-14T04:28:29Z
+p=7 x0=0 times=[21, 28, 35, 42] m=[3, 4, 5, 6] M=[1, 1, 1, 1] D=[1, 1, 1]
+admissible(W0)=True  lin_1=True  lin_2=True
+paths of length 21: 1048576; alive at x0: 2557
+slope-0 parents Z0=2557; slope-0 descendants of slope>0 parents: 0
+(a) martingale E[M_t | G_{t-1}] = M_{t-1}: checked on 57 atoms
+1+chi0^2 = 8309/8192 = 1.014282
+eps_1 (Coll form) = 13951/134217728 = 0.000103943; Fourier band form = 0.000103943
+(b) Prop B: E[M1^2]=1.749063e-01 <= (1+chi^2)M0^2=1.773980e-01: True
+(c) C2 l=1: E[M2^2]-E[M1^2]=3.051238e-09 <= eps1*M0^2=1.817964e-05: True  ratio=0.0002
+(d) C2 l=2 atom 0: eps2=0.001654 (Fourier 0.001654) lhs=2.4833e-09 rhs=2.9028e-04 ok=True
+(d) C2 l=2 atom 1: eps2=0.001654 (Fourier 0.001654) lhs=1.5464e-09 rhs=2.9380e-04 ok=True
+(d) C2 l=2 atom 2: eps2=0.001654 (Fourier 0.001654) lhs=4.7710e-10 rhs=2.9116e-04 ok=True
+(d) C2 l=2 atom 3: eps2=0.001654 (Fourier 0.001654) lhs=5.5468e-10 rhs=2.9096e-04 ok=True
+(d) C2 l=2 atom 4: eps2=0.001654 (Fourier 0.001654) lhs=1.0065e-09 rhs=2.8756e-04 ok=True
+(d) C2 l=2 atom 5: eps2=0.001654 (Fourier 0.001654) lhs=5.9941e-09 rhs=2.8893e-04 ok=True
+(d) C2 l=2 atom 6: eps2=0.001654 (Fourier 0.001654) lhs=3.4034e-10 rhs=2.8202e-04 ok=True
+(d) worst ratio lhs/rhs over G_1 atoms: 0.0000
+(f) single parent: Prop B equality 2557/2557, C2 equality 2557/2557
+(e) stopping: epsbar2=0.001654, tau=2 on 0/7 G_1 atoms
+(e) a = ['1.749000e-01', '1.749063e-01', '1.749063e-01', '1.749063e-01']
+(e) a1<=(1+chi2)a0 True; a2<=a1+epsbar1 a0 True; a3<=a2+epsbar2 a1 True; monotone True; a3<=Pi*M0^2 True
+RESULT: ALL CHECKS PASS
+=== exit: 0
+=== wall: 23 s

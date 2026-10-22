@@ -1,0 +1,4 @@
+=== command: python3 liftprof_validate.py 1 400
+=== start (UTC): 2026-10-13T23:16:59Z
+RESULT liftprof_validate seed=1 tests=400 mismatches=0
+=== exit: 0   wall: 1.81 s

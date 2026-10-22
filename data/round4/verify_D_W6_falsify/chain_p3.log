@@ -1,0 +1,285 @@
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_D_W6_falsify && nice -n 10 python3 t_chain.py 3 24 5 3 401 5 U,R,RP,S,P,M inf,med,q1 - rand,gate_hist
+# start 2026-10-14T03:42:17Z
+p=3 times=[24, 29, 34, 39, 44, 49] L=3 seed=401 natoms=5 schedules=['U', 'R', 'RP', 'S', 'P', 'M'] ebar=['inf', 'med', 'q1'] psub=None kinds=['rand', 'gate_hist'] Rcap=31
+  atom rand x0=71235 m0=11 sched=U ebar=inf nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 1.0254, 1.0298, 1.0321]
+  atom rand x0=71235 m0=11 sched=U ebar=med nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 1.0254, 1.0298, 1.0321]
+  atom rand x0=71235 m0=11 sched=U ebar=q1 nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 1.0254, 1.0298, 1.0321]
+  atom rand x0=71235 m0=11 sched=R ebar=inf nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 1.0259, 1.0416, 1.0566]
+  atom rand x0=71235 m0=11 sched=R ebar=med nodes/level=[1, 9, 81, 1251] active=[1, 9, 45, 621] |P0 lines|=12 a_l/M0^2=[1.0, 1.0259, 1.0416, 1.049]
+  atom rand x0=71235 m0=11 sched=R ebar=q1 nodes/level=[1, 9, 81, 783] active=[1, 9, 27, 189] |P0 lines|=12 a_l/M0^2=[1.0, 1.0259, 1.0416, 1.0455]
+  atom rand x0=71235 m0=11 sched=RP ebar=inf nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 1.0328, 1.0511, 1.0632]
+  atom rand x0=71235 m0=11 sched=RP ebar=med nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 1215] |P0 lines|=12 a_l/M0^2=[1.0, 1.0328, 1.0511, 1.0632]
+  atom rand x0=71235 m0=11 sched=RP ebar=q1 nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 729] |P0 lines|=12 a_l/M0^2=[1.0, 1.0328, 1.0511, 1.0632]
+  atom rand x0=71235 m0=11 sched=S ebar=inf nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 1.0225, 1.0306, 1.0351]
+  atom rand x0=71235 m0=11 sched=S ebar=med nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 1.0225, 1.0306, 1.0351]
+  atom rand x0=71235 m0=11 sched=S ebar=q1 nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 1.0225, 1.0306, 1.0351]
+  atom rand x0=71235 m0=11 sched=P ebar=inf nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 1.375, 10.125, 182.25]
+  atom rand x0=71235 m0=11 sched=P ebar=med nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 1.375, 10.125, 182.25]
+  atom rand x0=71235 m0=11 sched=P ebar=q1 nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 1.375, 10.125, 182.25]
+  atom rand x0=71235 m0=11 sched=M ebar=inf nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 1.12, 3.3665, 29.8038]
+  atom rand x0=71235 m0=11 sched=M ebar=med nodes/level=[1, 9, 81, 1251] active=[1, 9, 45, 621] |P0 lines|=12 a_l/M0^2=[1.0, 1.12, 3.3665, 15.8654]
+  atom rand x0=71235 m0=11 sched=M ebar=q1 nodes/level=[1, 9, 81, 783] active=[1, 9, 27, 189] |P0 lines|=12 a_l/M0^2=[1.0, 1.12, 3.3665, 11.3616]
+  atom gate_hist x0=1092 m0=12 sched=U ebar=inf nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=6 a_l/M0^2=[1.0, 1.0026, 1.0117, 1.0126]
+  atom gate_hist x0=1092 m0=12 sched=U ebar=med nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=6 a_l/M0^2=[1.0, 1.0026, 1.0117, 1.0126]
+  atom gate_hist x0=1092 m0=12 sched=U ebar=q1 nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=6 a_l/M0^2=[1.0, 1.0026, 1.0117, 1.0126]
+  atom gate_hist x0=1092 m0=12 sched=R ebar=inf nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=6 a_l/M0^2=[1.0, 1.0044, 1.0234, 1.0278]
+  atom gate_hist x0=1092 m0=12 sched=R ebar=med nodes/level=[1, 3, 81, 513] active=[1, 3, 54, 252] |P0 lines|=6 a_l/M0^2=[1.0, 1.0044, 1.0234, 1.0264]
+  atom gate_hist x0=1092 m0=12 sched=R ebar=q1 nodes/level=[1, 3, 81, 297] active=[1, 3, 27, 63] |P0 lines|=6 a_l/M0^2=[1.0, 1.0044, 1.0234, 1.0246]
+  atom gate_hist x0=1092 m0=12 sched=RP ebar=inf nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=6 a_l/M0^2=[1.0, 1.0067, 1.029, 1.0313]
+  atom gate_hist x0=1092 m0=12 sched=RP ebar=med nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 486] |P0 lines|=6 a_l/M0^2=[1.0, 1.0067, 1.029, 1.0313]
+  atom gate_hist x0=1092 m0=12 sched=RP ebar=q1 nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 243] |P0 lines|=6 a_l/M0^2=[1.0, 1.0067, 1.029, 1.0313]
+  atom gate_hist x0=1092 m0=12 sched=S ebar=inf nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=6 a_l/M0^2=[1.0, 1.0041, 1.0113, 1.0124]
+  atom gate_hist x0=1092 m0=12 sched=S ebar=med nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=6 a_l/M0^2=[1.0, 1.0041, 1.0113, 1.0124]
+  atom gate_hist x0=1092 m0=12 sched=S ebar=q1 nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=6 a_l/M0^2=[1.0, 1.0041, 1.0113, 1.0124]
+  atom gate_hist x0=1092 m0=12 sched=P ebar=inf nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=6 a_l/M0^2=[1.0, 1.1667, 13.5, 121.5]
+  atom gate_hist x0=1092 m0=12 sched=P ebar=med nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=6 a_l/M0^2=[1.0, 1.1667, 13.5, 121.5]
+  atom gate_hist x0=1092 m0=12 sched=P ebar=q1 nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=6 a_l/M0^2=[1.0, 1.1667, 13.5, 121.5]
+  atom gate_hist x0=1092 m0=12 sched=M ebar=inf nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=6 a_l/M0^2=[1.0, 1.0823, 4.7527, 25.1777]
+  atom gate_hist x0=1092 m0=12 sched=M ebar=med nodes/level=[1, 3, 81, 513] active=[1, 3, 54, 252] |P0 lines|=6 a_l/M0^2=[1.0, 1.0823, 4.7527, 17.4937]
+  atom gate_hist x0=1092 m0=12 sched=M ebar=q1 nodes/level=[1, 3, 81, 297] active=[1, 3, 27, 63] |P0 lines|=6 a_l/M0^2=[1.0, 1.0823, 4.7527, 6.8129]
+  atom rand x0=458094 m0=12 sched=U ebar=inf nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=33 a_l/M0^2=[1.0, 1.0001, 1.003, 1.0032]
+  atom rand x0=458094 m0=12 sched=U ebar=med nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=33 a_l/M0^2=[1.0, 1.0001, 1.003, 1.0032]
+  atom rand x0=458094 m0=12 sched=U ebar=q1 nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=33 a_l/M0^2=[1.0, 1.0001, 1.003, 1.0032]
+  atom rand x0=458094 m0=12 sched=R ebar=inf nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=33 a_l/M0^2=[1.0, 1.0001, 1.0049, 1.0059]
+  atom rand x0=458094 m0=12 sched=R ebar=med nodes/level=[1, 3, 81, 513] active=[1, 3, 54, 252] |P0 lines|=33 a_l/M0^2=[1.0, 1.0001, 1.0049, 1.0056]
+  atom rand x0=458094 m0=12 sched=R ebar=q1 nodes/level=[1, 3, 81, 297] active=[1, 3, 27, 63] |P0 lines|=33 a_l/M0^2=[1.0, 1.0001, 1.0049, 1.0052]
+  atom rand x0=458094 m0=12 sched=RP ebar=inf nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=33 a_l/M0^2=[1.0, 1.0002, 1.0125, 1.0139]
+  atom rand x0=458094 m0=12 sched=RP ebar=med nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 486] |P0 lines|=33 a_l/M0^2=[1.0, 1.0002, 1.0125, 1.0139]
+  atom rand x0=458094 m0=12 sched=RP ebar=q1 nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 243] |P0 lines|=33 a_l/M0^2=[1.0, 1.0002, 1.0125, 1.0139]
+  atom rand x0=458094 m0=12 sched=S ebar=inf nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=33 a_l/M0^2=[1.0, 1.0001, 1.0026, 1.0028]
+  atom rand x0=458094 m0=12 sched=S ebar=med nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=33 a_l/M0^2=[1.0, 1.0001, 1.0026, 1.0028]
+  atom rand x0=458094 m0=12 sched=S ebar=q1 nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=33 a_l/M0^2=[1.0, 1.0001, 1.0026, 1.0028]
+  atom rand x0=458094 m0=12 sched=P ebar=inf nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=33 a_l/M0^2=[1.0, 1.0055, 2.9008, 22.0909]
+  atom rand x0=458094 m0=12 sched=P ebar=med nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=33 a_l/M0^2=[1.0, 1.0055, 2.9008, 22.0909]
+  atom rand x0=458094 m0=12 sched=P ebar=q1 nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=33 a_l/M0^2=[1.0, 1.0055, 2.9008, 22.0909]
+  atom rand x0=458094 m0=12 sched=M ebar=inf nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=33 a_l/M0^2=[1.0, 1.0021, 1.6096, 4.6282]
+  atom rand x0=458094 m0=12 sched=M ebar=med nodes/level=[1, 3, 81, 513] active=[1, 3, 54, 252] |P0 lines|=33 a_l/M0^2=[1.0, 1.0021, 1.6096, 3.2926]
+  atom rand x0=458094 m0=12 sched=M ebar=q1 nodes/level=[1, 3, 81, 297] active=[1, 3, 27, 63] |P0 lines|=33 a_l/M0^2=[1.0, 1.0021, 1.6096, 2.3012]
+  atom rand x0=139113 m0=11 sched=U ebar=inf nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=70 a_l/M0^2=[1.0, 1.0025, 1.0032, 1.0041]
+  atom rand x0=139113 m0=11 sched=U ebar=med nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=70 a_l/M0^2=[1.0, 1.0025, 1.0032, 1.0041]
+  atom rand x0=139113 m0=11 sched=U ebar=q1 nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=70 a_l/M0^2=[1.0, 1.0025, 1.0032, 1.0041]
+  atom rand x0=139113 m0=11 sched=R ebar=inf nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=70 a_l/M0^2=[1.0, 1.0018, 1.004, 1.0078]
+  atom rand x0=139113 m0=11 sched=R ebar=med nodes/level=[1, 9, 81, 1251] active=[1, 9, 45, 621] |P0 lines|=70 a_l/M0^2=[1.0, 1.0018, 1.004, 1.0059]
+  atom rand x0=139113 m0=11 sched=R ebar=q1 nodes/level=[1, 9, 81, 783] active=[1, 9, 27, 189] |P0 lines|=70 a_l/M0^2=[1.0, 1.0018, 1.004, 1.005]
+  atom rand x0=139113 m0=11 sched=RP ebar=inf nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=70 a_l/M0^2=[1.0, 1.0027, 1.0044, 1.0073]
+  atom rand x0=139113 m0=11 sched=RP ebar=med nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 1215] |P0 lines|=70 a_l/M0^2=[1.0, 1.0027, 1.0044, 1.0073]
+  atom rand x0=139113 m0=11 sched=RP ebar=q1 nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 729] |P0 lines|=70 a_l/M0^2=[1.0, 1.0027, 1.0044, 1.0073]
+  atom rand x0=139113 m0=11 sched=S ebar=inf nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=70 a_l/M0^2=[1.0, 1.002, 1.0028, 1.0039]
+  atom rand x0=139113 m0=11 sched=S ebar=med nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=70 a_l/M0^2=[1.0, 1.002, 1.0028, 1.0039]
+  atom rand x0=139113 m0=11 sched=S ebar=q1 nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=70 a_l/M0^2=[1.0, 1.002, 1.0028, 1.0039]
+  atom rand x0=139113 m0=11 sched=P ebar=inf nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=70 a_l/M0^2=[1.0, 1.0653, 2.182, 31.2429]
+  atom rand x0=139113 m0=11 sched=P ebar=med nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=70 a_l/M0^2=[1.0, 1.0653, 2.182, 31.2429]
+  atom rand x0=139113 m0=11 sched=P ebar=q1 nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=70 a_l/M0^2=[1.0, 1.0653, 2.182, 31.2429]
+  atom rand x0=139113 m0=11 sched=M ebar=inf nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=70 a_l/M0^2=[1.0, 1.0202, 1.2791, 5.132]
+  atom rand x0=139113 m0=11 sched=M ebar=med nodes/level=[1, 9, 81, 1251] active=[1, 9, 45, 621] |P0 lines|=70 a_l/M0^2=[1.0, 1.0202, 1.2791, 3.2528]
+  atom rand x0=139113 m0=11 sched=M ebar=q1 nodes/level=[1, 9, 81, 783] active=[1, 9, 27, 189] |P0 lines|=70 a_l/M0^2=[1.0, 1.0202, 1.2791, 2.5522]
+  atom rand x0=25614 m0=11 sched=U ebar=inf nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 6561] |P0 lines|=34 a_l/M0^2=[1.0, 1.0107, 1.0119, 1.0195]
+  atom rand x0=25614 m0=11 sched=U ebar=med nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 6561] |P0 lines|=34 a_l/M0^2=[1.0, 1.0107, 1.0119, 1.0195]
+  atom rand x0=25614 m0=11 sched=U ebar=q1 nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 6561] |P0 lines|=34 a_l/M0^2=[1.0, 1.0107, 1.0119, 1.0195]
+  atom rand x0=25614 m0=11 sched=R ebar=inf nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 6561] |P0 lines|=34 a_l/M0^2=[1.0, 1.0108, 1.0134, 1.0438]
+  atom rand x0=25614 m0=11 sched=R ebar=med nodes/level=[1, 9, 81, 3681] active=[1, 9, 45, 1863] |P0 lines|=34 a_l/M0^2=[1.0, 1.0108, 1.0134, 1.0264]
+  atom rand x0=25614 m0=11 sched=R ebar=q1 nodes/level=[1, 9, 81, 2241] active=[1, 9, 27, 567] |P0 lines|=34 a_l/M0^2=[1.0, 1.0108, 1.0134, 1.0204]
+  atom rand x0=25614 m0=11 sched=RP ebar=inf nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 6561] |P0 lines|=34 a_l/M0^2=[1.0, 1.0111, 1.0148, 1.0471]
+  atom rand x0=25614 m0=11 sched=RP ebar=med nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 3645] |P0 lines|=34 a_l/M0^2=[1.0, 1.0111, 1.0148, 1.0471]
+  atom rand x0=25614 m0=11 sched=RP ebar=q1 nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 2187] |P0 lines|=34 a_l/M0^2=[1.0, 1.0111, 1.0148, 1.0471]
+  atom rand x0=25614 m0=11 sched=S ebar=inf nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 6561] |P0 lines|=34 a_l/M0^2=[1.0, 1.0092, 1.01, 1.025]
+  atom rand x0=25614 m0=11 sched=S ebar=med nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 6561] |P0 lines|=34 a_l/M0^2=[1.0, 1.0092, 1.01, 1.025]
+  atom rand x0=25614 m0=11 sched=S ebar=q1 nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 6561] |P0 lines|=34 a_l/M0^2=[1.0, 1.0092, 1.01, 1.025]
+  atom rand x0=25614 m0=11 sched=P ebar=inf nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 6561] |P0 lines|=34 a_l/M0^2=[1.0, 1.0744, 4.2042, 192.9706]
+  atom rand x0=25614 m0=11 sched=P ebar=med nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 6561] |P0 lines|=34 a_l/M0^2=[1.0, 1.0744, 4.2042, 192.9706]
+  atom rand x0=25614 m0=11 sched=P ebar=q1 nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 6561] |P0 lines|=34 a_l/M0^2=[1.0, 1.0744, 4.2042, 192.9706]
+  atom rand x0=25614 m0=11 sched=M ebar=inf nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 6561] |P0 lines|=34 a_l/M0^2=[1.0, 1.0439, 1.4551, 26.8952]
+  atom rand x0=25614 m0=11 sched=M ebar=med nodes/level=[1, 9, 81, 3681] active=[1, 9, 45, 1863] |P0 lines|=34 a_l/M0^2=[1.0, 1.0439, 1.4551, 12.3829]
+  atom rand x0=25614 m0=11 sched=M ebar=q1 nodes/level=[1, 9, 81, 2241] active=[1, 9, 27, 567] |P0 lines|=34 a_l/M0^2=[1.0, 1.0439, 1.4551, 7.7609]
+atoms: 5 attempts: 26 measurability samples: 532
+checks:
+  MEAS: eps~_{l+1} constant on the G_l-atom (stopping time is predictable): checks 360 failures 0
+  MEAS: q* constant on the G_l-atom: checks 60 failures 0
+  MEAS: regime R_{l+1} constant on the G_l-atom: checks 60 failures 0
+  MEAS: weighted paths alive with slope 0 at a 2nd representative (exact): checks 180 failures 0
+  MEAS: weighted population = full P^0_{n_l} at a 2nd representative (BFS): checks 352 failures 0
+  PZ: E[Y_L] >= M_0 (1 - sqrt(Pi delta)): checks 60 failures 0
+  PZ: E[Y_L^2] <= M_0^2 Pi: checks 60 failures 0
+  Remark 2: with q* schedule eps~_l = m(W_{l-1};D_l): checks 114 failures 0
+  W1(a) along the chain: alive children of slope-0 parents have slope 0: checks 90 failures 0
+  W6 a_{l+1} <= M_0^2 Pi_{A,l}: checks 120 failures 0
+  W6 conclusion (finite horizon): mu_A(Y_L>0) >= (1-sqrt(Pi delta))^2/Pi: checks 30 failures 0
+  W6 first window a_1 <= M_0^2 (1+chi^2_{q_0}): checks 90 failures 0
+  W6 martingale E[M_{l+1} | G_l] = M_l (W1, weighted): checks 7110 failures 0
+  W6 per-atom equality: single weighted path at C and point-mass q_l: checks 9 failures 0
+  W6 per-atom: ... <= ebar_l M_{l-1}(C)^2: checks 384 failures 0
+  W6 per-atom: E_C[M_{l+1}^2 - M_l^2] <= eps~_l M_{l-1}(C)^2 (W4): checks 612 failures 0
+  W6 predictable: ... <= eps^{q_{l-1},q_l} M_{l-1}(C)^2 (sharp W4): checks 228 failures 0
+  W6 recursion a_{l+1} - a_l <= ebar_l a_{l-1}: checks 120 failures 0
+  a_l nondecreasing: checks 90 failures 0
+  measures sum to 1: checks 360 failures 0
+  predictable schedule: q_l constant on the G_{l-1}-atom: checks 228 failures 0
+  sharp eps <= eps~: checks 228 failures 0
+  survival: M_l > 0 => some path alive at n_l (BFS): checks 352 failures 0
+per-atom W4 ratio LHS/(eps~ M^2): max 1, median 0.0009007, n=606
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 71235, 11, 'U', 'med'), 1.0, 0.01922124848954117, 0.0, 52.0257568359375)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 71235, 11, 'U', 'q1'), 1.0, 0.01922124848954117, 0.0, 52.0257568359375)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 71235, 11, 'S', 'med'), 1.0, 0.025641368073825773, 0.0, 38.99947916666667)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 71235, 11, 'S', 'q1'), 1.0, 0.025641368073825773, 0.0, 38.99947916666667)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 71235, 11, 'P', 'med'), 0.0054869684499314125, 6.476893681790213e-06, 0.0, 154395.0)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 71235, 11, 'P', 'q1'), 0.0054869684499314125, 6.476893681790213e-06, 0.0, 154395.0)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('gate_hist', 1092, 12, 'U', 'med'), 1.0, 0.03701194258993696, 0.0, 27.018306255340576)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('gate_hist', 1092, 12, 'U', 'q1'), 1.0, 0.03701194258993696, 0.0, 27.018306255340576)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('gate_hist', 1092, 12, 'S', 'med'), 1.0, 0.04405023977967455, 0.0, 22.70135202445402)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('gate_hist', 1092, 12, 'S', 'q1'), 1.0, 0.04405023977967455, 0.0, 22.70135202445402)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('gate_hist', 1092, 12, 'P', 'med'), 0.00823045267489712, 1.9444282408757704e-05, 0.0, 51429.0)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('gate_hist', 1092, 12, 'P', 'q1'), 0.00823045267489712, 1.9444282408757704e-05, 0.0, 51429.0)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 458094, 12, 'U', 'med'), 1.0, 0.03701194258993696, 0.0, 27.018306255340576)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 458094, 12, 'U', 'q1'), 1.0, 0.03701194258993696, 0.0, 27.018306255340576)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 458094, 12, 'S', 'med'), 1.0, 0.04405023977967455, 0.0, 22.70135202445402)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 458094, 12, 'S', 'q1'), 1.0, 0.04405023977967455, 0.0, 22.70135202445402)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 458094, 12, 'P', 'med'), 0.04526748971193416, 1.9444282408757704e-05, 0.0, 51429.0)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 458094, 12, 'P', 'q1'), 0.04526748971193416, 1.9444282408757704e-05, 0.0, 51429.0)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 139113, 11, 'U', 'med'), 1.0, 0.01922124848954117, 0.0, 52.0257568359375)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 139113, 11, 'U', 'q1'), 1.0, 0.01922124848954117, 0.0, 52.0257568359375)
+S-schedule atoms with m=0 (complete coset): 0
+PZ vacuous (Pi*delta >= 1): 30  sharp-form checks with U: 114
+RESULT OK failures=0 time=79.5s
+# exit 0  wall 80 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_D_W6_falsify && nice -n 10 python3 t_chain.py 3 20 5 3 402 5 U,R,P,M med,tiny - rand,gate_hist
+# start 2026-10-14T03:43:37Z
+p=3 times=[20, 25, 30, 35, 40, 45] L=3 seed=402 natoms=5 schedules=['U', 'R', 'P', 'M'] ebar=['med', 'tiny'] psub=None kinds=['rand', 'gate_hist'] Rcap=31
+  atom gate_hist x0=1767 m0=10 sched=U ebar=med nodes/level=[1, 27, 243, 2187] active=[1, 27, 243, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 1.0752, 1.0787, 1.0857]
+  atom gate_hist x0=1767 m0=10 sched=U ebar=tiny nodes/level=[1, 27, 27, 27] active=[1, 0, 0, 0] |P0 lines|=12 a_l/M0^2=[1.0, 1.0752, 1.0752, 1.0752]
+  atom gate_hist x0=1767 m0=10 sched=R ebar=med nodes/level=[1, 27, 243, 1251] active=[1, 27, 126, 576] |P0 lines|=12 a_l/M0^2=[1.0, 1.0806, 1.093, 1.1004]
+  atom gate_hist x0=1767 m0=10 sched=R ebar=tiny nodes/level=[1, 27, 27, 27] active=[1, 0, 0, 0] |P0 lines|=12 a_l/M0^2=[1.0, 1.0806, 1.0806, 1.0806]
+  atom gate_hist x0=1767 m0=10 sched=P ebar=med nodes/level=[1, 27, 243, 2187] active=[1, 27, 243, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 3.75, 20.25, 182.25]
+  atom gate_hist x0=1767 m0=10 sched=P ebar=tiny nodes/level=[1, 27, 27, 27] active=[1, 0, 0, 0] |P0 lines|=12 a_l/M0^2=[1.0, 3.75, 3.75, 3.75]
+  atom gate_hist x0=1767 m0=10 sched=M ebar=med nodes/level=[1, 27, 243, 1251] active=[1, 27, 126, 576] |P0 lines|=12 a_l/M0^2=[1.0, 2.27, 5.6332, 14.1881]
+  atom gate_hist x0=1767 m0=10 sched=M ebar=tiny nodes/level=[1, 27, 27, 27] active=[1, 0, 0, 0] |P0 lines|=12 a_l/M0^2=[1.0, 2.27, 2.27, 2.27]
+  atom rand x0=5832 m0=8 sched=U ebar=med nodes/level=[1, 9, 9, 9] active=[1, 0, 0, 0] |P0 lines|=104 a_l/M0^2=[1.0, 1.0037, 1.0037, 1.0037]
+  atom rand x0=5832 m0=8 sched=U ebar=tiny nodes/level=[1, 9, 9, 9] active=[1, 0, 0, 0] |P0 lines|=104 a_l/M0^2=[1.0, 1.0037, 1.0037, 1.0037]
+  atom rand x0=5832 m0=8 sched=R ebar=med nodes/level=[1, 9, 9, 9] active=[1, 0, 0, 0] |P0 lines|=104 a_l/M0^2=[1.0, 1.0039, 1.0039, 1.0039]
+  atom rand x0=5832 m0=8 sched=R ebar=tiny nodes/level=[1, 9, 9, 9] active=[1, 0, 0, 0] |P0 lines|=104 a_l/M0^2=[1.0, 1.0039, 1.0039, 1.0039]
+  atom rand x0=5832 m0=8 sched=P ebar=med nodes/level=[1, 9, 9, 9] active=[1, 0, 0, 0] |P0 lines|=104 a_l/M0^2=[1.0, 1.2448, 1.2448, 1.2448]
+  atom rand x0=5832 m0=8 sched=P ebar=tiny nodes/level=[1, 9, 9, 9] active=[1, 0, 0, 0] |P0 lines|=104 a_l/M0^2=[1.0, 1.2448, 1.2448, 1.2448]
+  atom rand x0=5832 m0=8 sched=M ebar=med nodes/level=[1, 9, 9, 9] active=[1, 0, 0, 0] |P0 lines|=104 a_l/M0^2=[1.0, 1.2078, 1.2078, 1.2078]
+  atom rand x0=5832 m0=8 sched=M ebar=tiny nodes/level=[1, 9, 9, 9] active=[1, 0, 0, 0] |P0 lines|=104 a_l/M0^2=[1.0, 1.2078, 1.2078, 1.2078]
+  atom gate_hist x0=36 m0=9 sched=U ebar=med nodes/level=[1, 9, 243, 729] active=[1, 9, 243, 729] |P0 lines|=20 a_l/M0^2=[1.0, 1.0097, 1.013, 1.0139]
+  atom gate_hist x0=36 m0=9 sched=U ebar=tiny nodes/level=[1, 9, 9, 9] active=[1, 0, 0, 0] |P0 lines|=20 a_l/M0^2=[1.0, 1.0097, 1.0097, 1.0097]
+  atom gate_hist x0=36 m0=9 sched=R ebar=med nodes/level=[1, 9, 243, 513] active=[1, 9, 135, 204] |P0 lines|=20 a_l/M0^2=[1.0, 1.0387, 1.0516, 1.053]
+  atom gate_hist x0=36 m0=9 sched=R ebar=tiny nodes/level=[1, 9, 9, 9] active=[1, 0, 0, 0] |P0 lines|=20 a_l/M0^2=[1.0, 1.0387, 1.0387, 1.0387]
+  atom gate_hist x0=36 m0=9 sched=P ebar=med nodes/level=[1, 9, 243, 729] active=[1, 9, 243, 729] |P0 lines|=20 a_l/M0^2=[1.0, 1.98, 17.01, 51.03]
+  atom gate_hist x0=36 m0=9 sched=P ebar=tiny nodes/level=[1, 9, 9, 9] active=[1, 0, 0, 0] |P0 lines|=20 a_l/M0^2=[1.0, 1.98, 1.98, 1.98]
+  atom gate_hist x0=36 m0=9 sched=M ebar=med nodes/level=[1, 9, 243, 513] active=[1, 9, 135, 204] |P0 lines|=20 a_l/M0^2=[1.0, 1.8269, 7.0646, 11.5469]
+  atom gate_hist x0=36 m0=9 sched=M ebar=tiny nodes/level=[1, 9, 9, 9] active=[1, 0, 0, 0] |P0 lines|=20 a_l/M0^2=[1.0, 1.8269, 1.8269, 1.8269]
+  atom gate_hist x0=16185 m0=10 sched=U ebar=med nodes/level=[1, 27, 243, 2187] active=[1, 27, 243, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 1.0752, 1.0789, 1.0847]
+  atom gate_hist x0=16185 m0=10 sched=U ebar=tiny nodes/level=[1, 27, 27, 27] active=[1, 0, 0, 0] |P0 lines|=12 a_l/M0^2=[1.0, 1.0752, 1.0752, 1.0752]
+  atom gate_hist x0=16185 m0=10 sched=R ebar=med nodes/level=[1, 27, 243, 1251] active=[1, 27, 126, 576] |P0 lines|=12 a_l/M0^2=[1.0, 1.1254, 1.1437, 1.1499]
+  atom gate_hist x0=16185 m0=10 sched=R ebar=tiny nodes/level=[1, 27, 27, 27] active=[1, 0, 0, 0] |P0 lines|=12 a_l/M0^2=[1.0, 1.1254, 1.1254, 1.1254]
+  atom gate_hist x0=16185 m0=10 sched=P ebar=med nodes/level=[1, 27, 243, 2187] active=[1, 27, 243, 2187] |P0 lines|=12 a_l/M0^2=[1.0, 3.75, 20.25, 182.25]
+  atom gate_hist x0=16185 m0=10 sched=P ebar=tiny nodes/level=[1, 27, 27, 27] active=[1, 0, 0, 0] |P0 lines|=12 a_l/M0^2=[1.0, 3.75, 3.75, 3.75]
+  atom gate_hist x0=16185 m0=10 sched=M ebar=med nodes/level=[1, 27, 243, 1251] active=[1, 27, 126, 576] |P0 lines|=12 a_l/M0^2=[1.0, 2.3044, 7.3414, 21.1148]
+  atom gate_hist x0=16185 m0=10 sched=M ebar=tiny nodes/level=[1, 27, 27, 27] active=[1, 0, 0, 0] |P0 lines|=12 a_l/M0^2=[1.0, 2.3044, 2.3044, 2.3044]
+  atom rand x0=17454 m0=9 sched=U ebar=med nodes/level=[1, 27, 243, 2187] active=[1, 27, 243, 2187] |P0 lines|=44 a_l/M0^2=[1.0, 1.0046, 1.0056, 1.0072]
+  atom rand x0=17454 m0=9 sched=U ebar=tiny nodes/level=[1, 27, 27, 27] active=[1, 0, 0, 0] |P0 lines|=44 a_l/M0^2=[1.0, 1.0046, 1.0046, 1.0046]
+  atom rand x0=17454 m0=9 sched=R ebar=med nodes/level=[1, 27, 243, 1251] active=[1, 27, 126, 576] |P0 lines|=44 a_l/M0^2=[1.0, 1.0113, 1.0145, 1.0169]
+  atom rand x0=17454 m0=9 sched=R ebar=tiny nodes/level=[1, 27, 27, 27] active=[1, 0, 0, 0] |P0 lines|=44 a_l/M0^2=[1.0, 1.0113, 1.0113, 1.0113]
+  atom rand x0=17454 m0=9 sched=P ebar=med nodes/level=[1, 27, 243, 2187] active=[1, 27, 243, 2187] |P0 lines|=44 a_l/M0^2=[1.0, 1.1994, 9.0372, 49.7045]
+  atom rand x0=17454 m0=9 sched=P ebar=tiny nodes/level=[1, 27, 27, 27] active=[1, 0, 0, 0] |P0 lines|=44 a_l/M0^2=[1.0, 1.1994, 1.1994, 1.1994]
+  atom rand x0=17454 m0=9 sched=M ebar=med nodes/level=[1, 27, 243, 1251] active=[1, 27, 126, 576] |P0 lines|=44 a_l/M0^2=[1.0, 1.0802, 2.7776, 4.8547]
+  atom rand x0=17454 m0=9 sched=M ebar=tiny nodes/level=[1, 27, 27, 27] active=[1, 0, 0, 0] |P0 lines|=44 a_l/M0^2=[1.0, 1.0802, 1.0802, 1.0802]
+atoms: 5 attempts: 44 measurability samples: 96
+checks:
+  MEAS: eps~_{l+1} constant on the G_l-atom (stopping time is predictable): checks 64 failures 0
+  MEAS: weighted paths alive with slope 0 at a 2nd representative (exact): checks 24 failures 0
+  MEAS: weighted population = full P^0_{n_l} at a 2nd representative (BFS): checks 72 failures 0
+  PZ: E[Y_L] >= M_0 (1 - sqrt(Pi delta)): checks 16 failures 0
+  PZ: E[Y_L^2] <= M_0^2 Pi: checks 16 failures 0
+  W1(a) along the chain: alive children of slope-0 parents have slope 0: checks 40 failures 0
+  W6 a_{l+1} <= M_0^2 Pi_{A,l}: checks 48 failures 0
+  W6 conclusion (finite horizon): mu_A(Y_L>0) >= (1-sqrt(Pi delta))^2/Pi: checks 8 failures 0
+  W6 first window a_1 <= M_0^2 (1+chi^2_{q_0}): checks 40 failures 0
+  W6 martingale E[M_{l+1} | G_l] = M_l (W1, weighted): checks 3370 failures 0
+  W6 per-atom equality: single weighted path at C and point-mass q_l: checks 20 failures 0
+  W6 per-atom: ... <= ebar_l M_{l-1}(C)^2: checks 290 failures 0
+  W6 per-atom: E_C[M_{l+1}^2 - M_l^2] <= eps~_l M_{l-1}(C)^2 (W4): checks 290 failures 0
+  W6 predictable: ... <= eps^{q_{l-1},q_l} M_{l-1}(C)^2 (sharp W4): checks 94 failures 0
+  W6 recursion a_{l+1} - a_l <= ebar_l a_{l-1}: checks 48 failures 0
+  a_l nondecreasing: checks 40 failures 0
+  measures sum to 1: checks 160 failures 0
+  predictable schedule: q_l constant on the G_{l-1}-atom: checks 94 failures 0
+  sharp eps <= eps~: checks 94 failures 0
+  survival: M_l > 0 => some path alive at n_l (BFS): checks 72 failures 0
+per-atom W4 ratio LHS/(eps~ M^2): max 1, median 0.007811, n=248
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('gate_hist', 1767, 10, 'U', 'med'), 1.0, 0.01948467268531247, 0.0, 51.322391510009766)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('gate_hist', 1767, 10, 'P', 'med'), 0.0054869684499314125, 2.338049178526421e-06, 0.0, 427707.0)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('gate_hist', 36, 9, 'U', 'med'), 1.0, 0.023520151108429314, 0.0, 42.51673364639282)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('gate_hist', 36, 9, 'P', 'med'), 0.02194787379972565, 8.596604341285193e-06, 0.0, 116325.0)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('gate_hist', 16185, 10, 'U', 'med'), 1.0, 0.01948467268531247, 0.0, 51.322391510009766)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('gate_hist', 16185, 10, 'P', 'med'), 0.0054869684499314125, 2.338049178526421e-06, 0.0, 427707.0)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 17454, 9, 'U', 'med'), 1.0, 0.01948467268531247, 0.0, 51.322391510009766)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 17454, 9, 'P', 'med'), 0.020118884316415182, 2.338049178526421e-06, 0.0, 427707.0)
+S-schedule atoms with m=0 (complete coset): 0
+PZ vacuous (Pi*delta >= 1): 8  sharp-form checks with U: 94
+RESULT OK failures=0 time=3.8s
+# exit 0  wall 4 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_D_W6_falsify && nice -n 10 python3 t_chain.py 3 24 5 3 403 5 P,S,U med 1 rand,gate_hist
+# start 2026-10-14T03:43:41Z
+p=3 times=[24, 29, 34, 39, 44, 49] L=3 seed=403 natoms=5 schedules=['P', 'S', 'U'] ebar=['med'] psub=1 kinds=['rand', 'gate_hist'] Rcap=31
+  atom rand x0=21969 m0=11 sched=P ebar=med nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 6561] |P0 lines|=1 a_l/M0^2=[1.0, 9.0, 81.0, 6561.0]
+  atom rand x0=21969 m0=11 sched=S ebar=med nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 6561] |P0 lines|=1 a_l/M0^2=[1.0, 1.5833, 1.6335, 2.311]
+  atom rand x0=21969 m0=11 sched=U ebar=med nodes/level=[1, 9, 81, 6561] active=[1, 9, 81, 6561] |P0 lines|=1 a_l/M0^2=[1.0, 1.6875, 1.7365, 2.0984]
+  atom rand x0=30267 m0=10 sched=P ebar=med nodes/level=[1, 81, 729, 19683] active=[1, 81, 729, 19683] |P0 lines|=1 a_l/M0^2=[1.0, 81.0, 729.0, 19683.0]
+  atom rand x0=30267 m0=10 sched=S ebar=med nodes/level=[1, 81, 729, 19683] active=[1, 81, 729, 19683] |P0 lines|=1 a_l/M0^2=[1.0, 14.25, 14.7587, 15.8147]
+  atom rand x0=30267 m0=10 sched=U ebar=med nodes/level=[1, 81, 729, 19683] active=[1, 81, 729, 19683] |P0 lines|=1 a_l/M0^2=[1.0, 15.1875, 15.6287, 16.9881]
+  atom rand x0=85788 m0=11 sched=P ebar=med nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=1 a_l/M0^2=[1.0, 9.0, 81.0, 2187.0]
+  atom rand x0=85788 m0=11 sched=S ebar=med nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=1 a_l/M0^2=[1.0, 1.5833, 1.6399, 1.7225]
+  atom rand x0=85788 m0=11 sched=U ebar=med nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=1 a_l/M0^2=[1.0, 1.6875, 1.7365, 1.7865]
+  atom rand x0=7626 m0=12 sched=P ebar=med nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=1 a_l/M0^2=[1.0, 3.0, 81.0, 729.0]
+  atom rand x0=7626 m0=12 sched=S ebar=med nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=1 a_l/M0^2=[1.0, 1.044, 1.1022, 1.1103]
+  atom rand x0=7626 m0=12 sched=U ebar=med nodes/level=[1, 3, 81, 729] active=[1, 3, 81, 729] |P0 lines|=1 a_l/M0^2=[1.0, 1.0312, 1.0969, 1.1048]
+  atom rand x0=157230 m0=11 sched=P ebar=med nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=1 a_l/M0^2=[1.0, 9.0, 81.0, 2187.0]
+  atom rand x0=157230 m0=11 sched=S ebar=med nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=1 a_l/M0^2=[1.0, 1.5833, 1.6399, 1.7225]
+  atom rand x0=157230 m0=11 sched=U ebar=med nodes/level=[1, 9, 81, 2187] active=[1, 9, 81, 2187] |P0 lines|=1 a_l/M0^2=[1.0, 1.6875, 1.7365, 1.7865]
+atoms: 5 attempts: 40 measurability samples: 90
+checks:
+  MEAS: eps~_{l+1} constant on the G_l-atom (stopping time is predictable): checks 60 failures 0
+  MEAS: q* constant on the G_l-atom: checks 20 failures 0
+  MEAS: regime R_{l+1} constant on the G_l-atom: checks 20 failures 0
+  MEAS: weighted paths alive with slope 0 at a 2nd representative (exact): checks 90 failures 0
+  PZ: E[Y_L] >= M_0 (1 - sqrt(Pi delta)): checks 15 failures 0
+  PZ: E[Y_L^2] <= M_0^2 Pi: checks 15 failures 0
+  Remark 2: with q* schedule eps~_l = m(W_{l-1};D_l): checks 116 failures 0
+  W1(a) along the chain: alive children of slope-0 parents have slope 0: checks 15 failures 0
+  W6 a_{l+1} <= M_0^2 Pi_{A,l}: checks 30 failures 0
+  W6 conclusion (finite horizon): mu_A(Y_L>0) >= (1-sqrt(Pi delta))^2/Pi: checks 15 failures 0
+  W6 first window a_1 <= M_0^2 (1+chi^2_{q_0}): checks 15 failures 0
+  W6 martingale E[M_{l+1} | G_l] = M_l (W1, weighted): checks 3507 failures 0
+  W6 per-atom equality: single weighted path at C and point-mass q_l: checks 10 failures 0
+  W6 per-atom: ... <= ebar_l M_{l-1}(C)^2: checks 348 failures 0
+  W6 per-atom: E_C[M_{l+1}^2 - M_l^2] <= eps~_l M_{l-1}(C)^2 (W4): checks 348 failures 0
+  W6 predictable: ... <= eps^{q_{l-1},q_l} M_{l-1}(C)^2 (sharp W4): checks 116 failures 0
+  W6 recursion a_{l+1} - a_l <= ebar_l a_{l-1}: checks 30 failures 0
+  a_l nondecreasing: checks 15 failures 0
+  measures sum to 1: checks 60 failures 0
+  predictable schedule: q_l constant on the G_{l-1}-atom: checks 116 failures 0
+  sharp eps <= eps~: checks 116 failures 0
+per-atom W4 ratio LHS/(eps~ M^2): max 1, median 0.01453, n=74
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 21969, 11, 'P', 'med'), 0.00015241579027587258, 2.1110541126500694e-06, 0.0, 473697.0)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 21969, 11, 'S', 'med'), 0.6172839506172839, 0.008116868987418107, 0.0, 123.20021446078431)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 21969, 11, 'U', 'med'), 0.6172839506172839, 0.006091906583825066, 0.0, 164.1522216796875)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 30267, 10, 'P', 'med'), 5.080526342529086e-05, 8.094731018159315e-08, 0.0, 12353715.0)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 30267, 10, 'S', 'med'), 0.0728547477518671, 0.0004243252399923887, 0.0, 2356.6828125)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 30267, 10, 'U', 'med'), 0.0728547477518671, 0.0002978059748268885, 0.0, 3357.8909912109375)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 85788, 11, 'P', 'med'), 0.0004572473708276177, 6.476893681790213e-06, 0.0, 154395.0)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 85788, 11, 'S', 'med'), 0.6666666666666666, 0.025641368073825773, 0.0, 38.99947916666667)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 85788, 11, 'U', 'med'), 0.6666666666666666, 0.01922124848954117, 0.0, 52.0257568359375)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 7626, 12, 'P', 'med'), 0.0013717421124828531, 1.9444282408757704e-05, 0.0, 51429.0)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 7626, 12, 'S', 'med'), 1.0, 0.04913658029931556, 0.0, 20.351436626409455)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 7626, 12, 'U', 'med'), 1.0, 0.043249045259392355, 0.0, 23.12189769744873)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 157230, 11, 'P', 'med'), 0.0004572473708276177, 6.476893681790213e-06, 0.0, 154395.0)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 157230, 11, 'S', 'med'), 0.6666666666666666, 0.025641368073825773, 0.0, 38.99947916666667)
+  PZ row (tag, mu_A(Y_L>0), bound, delta, Pi): (('rand', 157230, 11, 'U', 'med'), 0.6666666666666666, 0.01922124848954117, 0.0, 52.0257568359375)
+S-schedule atoms with m=0 (complete coset): 0
+PZ vacuous (Pi*delta >= 1): 0  sharp-form checks with U: 116
+RESULT OK failures=0 time=7.0s
+# exit 0  wall 8 s

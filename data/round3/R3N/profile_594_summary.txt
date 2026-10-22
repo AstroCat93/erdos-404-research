@@ -1,0 +1,24 @@
+levels=351 last boundary M=90262 pop=16
+max population 392640 at M=63446
+power-of-two crossings (last boundary below 2^k, first above):
+  2^10=1024: M=854 pop=32 (mean-field 2)  ->  M=1108 pop=51 (mean-field 0.5)
+  2^11=2048: M=1878 pop=156 (mean-field 4)  ->  M=2130 pop=176 (mean-field 0.5)
+  2^12=4096: M=3922 pop=2466 (mean-field 4)  ->  M=4174 pop=276 (mean-field 1)
+  2^13=8192: M=8010 pop=13416 (mean-field 8)  ->  M=8262 pop=814 (mean-field 0.5)
+  2^14=16384: M=16186 pop=135974 (mean-field 32)  ->  M=16436 pop=2561 (mean-field 0.5)
+  2^15=32768: M=32538 pop=92882 (mean-field 32)  ->  M=32786 pop=816 (mean-field 0.25)
+  2^16=65536: M=65490 pop=381806 (mean-field 128)  ->  M=65738 pop=3018 (mean-field 1)
+tail (last 12 boundaries):
+  j=340 M=87454 v2(M!)=87444 pop=5990
+  j=341 M=87710 v2(M!)=87700 pop=4666
+  j=342 M=87966 v2(M!)=87955 pop=8040
+  j=343 M=88218 v2(M!)=88210 pop=720
+  j=344 M=88474 v2(M!)=88465 pop=1058
+  j=345 M=88730 v2(M!)=88721 pop=888
+  j=346 M=88986 v2(M!)=88976 pop=1962
+  j=347 M=89240 v2(M!)=89232 pop=739
+  j=348 M=89498 v2(M!)=89488 pop=1800
+  j=349 M=89754 v2(M!)=89744 pop=2316
+  j=350 M=90010 v2(M!)=89999 pop=3328
+  j=351 M=90262 v2(M!)=90255 pop=16
+sum of boundary populations = 13566171

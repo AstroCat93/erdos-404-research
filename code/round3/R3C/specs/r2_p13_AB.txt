@@ -1,0 +1,10 @@
+13 9
+require A,B
+uniform 1 6
+uniform 2 10
+uniform 3 19
+uniform 4 24
+uniform 5 32
+uniform 6 35
+uniform 7 39
+pos 8 47 1 12

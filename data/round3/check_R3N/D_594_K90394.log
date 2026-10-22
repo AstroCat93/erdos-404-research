@@ -1,0 +1,32 @@
+# cmd: nice -n 10 /tmp/r3_check_R3N/dfsD 594 90394 /tmp/r3_check_R3N/wD594_90394.txt ; then python3 -I code/round3/check_R3N/verify_w.py /tmp/r3_check_R3N/wD594_90394.txt 594 90394  (started 2026-10-13T15:35:18Z)
+dfsD a=594 K=90394
+N_K=90400 tables~0.50 GB
+[4s] win=201 s=26209 steps=155123355 surv=1048576 best=34307
+[9s] win=251 s=32587 steps=338472834 surv=2097152 best=34307
+[13s] win=521 s=66991 steps=550352001 surv=3145728 best=70282
+[16s] win=507 s=65211 steps=747334172 surv=4194304 best=77621
+[19s] win=396 s=51059 steps=887553367 surv=5242880 best=77621
+[21s] win=464 s=59727 steps=1068460288 surv=6291456 best=77621
+[25s] win=380 s=49027 steps=1234298311 surv=7340032 best=77621
+[28s] win=436 s=56159 steps=1374343192 surv=8388608 best=77621
+[31s] win=506 s=65081 steps=1531005335 surv=9437184 best=77621
+[35s] win=496 s=63807 steps=1693202132 surv=10485760 best=77621
+[37s] win=500 s=64319 steps=1851350095 surv=11534336 best=77621
+[40s] win=436 s=56159 steps=2037008070 surv=12582912 best=77621
+[43s] win=502 s=64571 steps=2205223681 surv=13631488 best=77621
+[46s] win=500 s=64319 steps=2360153305 surv=14680064 best=77621
+[49s] win=507 s=65211 steps=2522525885 surv=15728640 best=77621
+[52s] win=498 s=64061 steps=2669026151 surv=16777216 best=77621
+[54s] win=605 s=77699 steps=2812056102 surv=17825792 best=80742
+[57s] win=635 s=81517 steps=2970687828 surv=18874368 best=82427
+[59s] win=636 s=81647 steps=3112242748 surv=19922944 best=83321
+SUCCESS: S_{N_K} == 0 mod 2^90394 at N_K=90400
+witness: /tmp/r3_check_R3N/wD594_90394.txt (44804 terms)
+RESULT a=594 K=90394 reachable=1 steps=3169957294 alive_even=528341229 surv=20432230 updates=82573980 windows=705 faccheck=89 time=60.5s
+# wall time: 60.531032554 s
+file=/tmp/r3_check_R3N/wD594_90394.txt sha256(text)=c34a5088742566dfa12b3c93cd37b6c0b2ae8ab2ceddb0482431f0619e6cc956 terms=44804 min=594 max=90399
+method H (Horner, exact): v2(S)=90394 bits(S)=1357923 time=0.7s
+method M (mod 2^(K+64), odd parts): v2(S)=90394 time=0.3s
+v2(a!)=590; claimed f(594,2) >= 90394, g >= 89804
+VERIFIED (both methods, v2(S) = K exactly)
+verifier exit=0

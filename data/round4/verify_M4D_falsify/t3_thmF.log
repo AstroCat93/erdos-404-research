@@ -1,0 +1,157 @@
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t3_thmF.py 3 505 400
+# start 2026-10-14T01:50:03Z
+p=3 seed=505 samples=400  time=3.1s
+  (j) ... ONLY intermediate theta works            27
+  (j) ... theta=1 (R2b) works                      18
+  (j) ... theta=p^-D (Tao) works                   204
+  (j) some theta works                             234
+  ... conclusion instances                         734
+  ... literal with hypotheses true                 1590
+  ... nontrivial conclusions (theta p^D >= 2)      654
+  ... with hypotheses true                         526
+  F2(b) gate instances                             50
+  F2(b) theta-sets checked                         967
+  R2b instances                                    1191
+  T cross-checks DP vs DFS                         800
+  Tao block-lemma instances                        178
+  chains                                           400
+  full->full instances                             8
+  literal Fraction theta-sets                      14292
+  theta-sequences evaluated                        11412
+  tightness: {'|T_l| = theta_l p^D_l exactly': 98}
+  NEG controls: {'drop (I): conclusion fails': 959, 'index slip: conclusion fails': 24}
+  failures: {}
+TOTAL FAILURES 0
+# exit 0  wall 3 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t3_thmF.py 5 505 400
+# start 2026-10-14T01:50:06Z
+p=5 seed=505 samples=400  time=10.8s
+  (j) ... ONLY intermediate theta works            98
+  (j) ... theta=1 (R2b) works                      74
+  (j) ... theta=p^-D (Tao) works                   299
+  (j) some theta works                             403
+  ... conclusion instances                         2414
+  ... literal with hypotheses true                 2893
+  ... nontrivial conclusions (theta p^D >= 2)      2304
+  ... with hypotheses true                         1203
+  F2(b) gate instances                             50
+  F2(b) theta-sets checked                         738
+  R2b instances                                    1230
+  T cross-checks DP vs DFS                         800
+  Tao block-lemma instances                        309
+  chains                                           400
+  full->full instances                             101
+  literal Fraction theta-sets                      14760
+  theta-sequences evaluated                        9591
+  tightness: {'|T_l| = theta_l p^D_l exactly': 640}
+  NEG controls: {'drop (I): conclusion fails': 1502, 'index slip: conclusion fails': 10}
+  failures: {}
+TOTAL FAILURES 0
+# exit 0  wall 11 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t3_thmF.py 7 505 400
+# start 2026-10-14T01:50:17Z
+p=7 seed=505 samples=400  time=106.6s
+  (j) ... ONLY intermediate theta works            138
+  (j) ... theta=1 (R2b) works                      200
+  (j) ... theta=p^-D (Tao) works                   433
+  (j) some theta works                             598
+  ... conclusion instances                         5248
+  ... literal with hypotheses true                 5039
+  ... nontrivial conclusions (theta p^D >= 2)      5098
+  ... with hypotheses true                         2265
+  F2(b) gate instances                             50
+  F2(b) theta-sets checked                         365
+  R2b instances                                    1163
+  T cross-checks DP vs DFS                         763
+  Tao block-lemma instances                        395
+  chains                                           400
+  full->full instances                             281
+  literal Fraction theta-sets                      13956
+  theta-sequences evaluated                        6741
+  tightness: {'|T_l| = theta_l p^D_l exactly': 1666}
+  NEG controls: {'drop (I): conclusion fails': 913, 'index slip: conclusion fails': 16}
+  failures: {}
+TOTAL FAILURES 0
+# exit 0  wall 107 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t3_thmF.py 11 505 120
+# start 2026-10-14T01:52:04Z
+p=11 seed=505 samples=120  time=134.7s
+  (j) ... ONLY intermediate theta works            17
+  (j) ... theta=1 (R2b) works                      123
+  (j) ... theta=p^-D (Tao) works                   136
+  (j) some theta works                             175
+  ... conclusion instances                         863
+  ... literal with hypotheses true                 1777
+  ... nontrivial conclusions (theta p^D >= 2)      830
+  ... with hypotheses true                         444
+  F2(b) gate instances                             15
+  F2(b) theta-sets checked                         29
+  R2b instances                                    299
+  T cross-checks DP vs DFS                         216
+  Tao block-lemma instances                        116
+  chains                                           120
+  full->full instances                             131
+  literal Fraction theta-sets                      3588
+  theta-sequences evaluated                        790
+  tightness: {'|T_l| = theta_l p^D_l exactly': 407}
+  NEG controls: {'drop (I): conclusion fails': 165}
+  failures: {}
+TOTAL FAILURES 0
+# exit 0  wall 135 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t3_thmF.py 7 707 150 10 16
+# start 2026-10-14T02:05:43Z
+p=7 seed=707 samples=150  time=76.0s
+  (j) ... ONLY intermediate theta works            21
+  (j) ... theta=1 (R2b) works                      54
+  (j) ... theta=p^-D (Tao) works                   128
+  (j) some theta works                             158
+  ... conclusion instances                         4844
+  ... literal with hypotheses true                 1395
+  ... nontrivial conclusions (theta p^D >= 2)      4802
+  ... with hypotheses true                         2745
+  F2(b) gate instances                             9
+  F2(b) theta-sets checked                         63
+  R2b instances                                    272
+  T cross-checks DP vs DFS                         216
+  Tao block-lemma instances                        96
+  chains                                           136
+  full->full instances                             27
+  literal Fraction theta-sets                      3264
+  skipped (modulus)                                14
+  theta-sequences evaluated                        6067
+  tightness: {'|T_l| = theta_l p^D_l exactly': 424}
+  NEG controls: {'drop (I): conclusion fails': 896, 'index slip: conclusion fails': 7}
+  failures: {}
+TOTAL FAILURES 0
+# exit 0  wall 76 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_M4D_falsify && nice -n 10 python3 t3_thmF.py 5 707 200 8 13
+# start 2026-10-14T02:06:59Z
+p=5 seed=707 samples=200  time=122.2s
+  (j) ... ONLY intermediate theta works            20
+  (j) ... theta=1 (R2b) works                      14
+  (j) ... theta=p^-D (Tao) works                   140
+  (j) some theta works                             160
+  ... conclusion instances                         2543
+  ... literal with hypotheses true                 1139
+  ... nontrivial conclusions (theta p^D >= 2)      2525
+  ... with hypotheses true                         1614
+  F2(b) gate instances                             25
+  F2(b) theta-sets checked                         573
+  R2b instances                                    400
+  T cross-checks DP vs DFS                         396
+  Tao block-lemma instances                        92
+  chains                                           200
+  full->full instances                             2
+  literal Fraction theta-sets                      4800
+  theta-sequences evaluated                        10344
+  tightness: {'|T_l| = theta_l p^D_l exactly': 136}
+  NEG controls: {'drop (I): conclusion fails': 1881, 'index slip: conclusion fails': 83}
+  failures: {}
+TOTAL FAILURES 0
+# exit 0  wall 123 s

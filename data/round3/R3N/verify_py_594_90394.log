@@ -1,0 +1,5 @@
+# cmd: python3 -I code/round3/R3N/verify_witness.py /tmp/r3_R3N/w594_90394.txt 594 90394   (witness = data/round3/R3N/witness_594_K90394.txt.gz)
+terms=44801 min=594 max=90397 v2(sum)=90394 bits(sum)=1357890 time=2.8s
+check v2(sum) >= 90394: True
+v2(a!)=590 => f(594,2) >= 90394, g >= 89804
+VERIFIED

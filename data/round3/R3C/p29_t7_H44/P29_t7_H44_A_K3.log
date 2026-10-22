@@ -1,0 +1,10 @@
+# command: env FIBCOV_DUMP=20 /tmp/r3_R3C/bin/fibcov 29 7 44 1 pos 3
+# cwd: /home/user/erdos-404-research  host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz
+# start: 2026-10-13 18:55:46 UTC
+# fibcov(A) p=29 t=7 H=44 c=1 M=8 k=1  Q=500246412961 fibre=17249876309 bits (2056 MB x2)
+    MISS K=3 x=197789838580 (x mod p^k=11)
+    MISS K=3 x=169097737247 (x mod p^k=23)
+A p=29 t=7 H=44 c=1 M=8 K=3 missing=2 NOT_COVERED [506.08s]
+SUMMARY A p=29 t=7 H=44 c=1 M=8 k=1 mode=pos nK=1 fail=1 worst_missing=2 SOME_NOT_COVERED total=506.1s
+# wall=506.231 s user=484.288 s sys=3.253 s
+# end: 2026-10-13 19:04:12 UTC

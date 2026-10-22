@@ -1,0 +1,4 @@
+# cmd: nice -n 10 python3 -I code/round3/check_R3N/validate_D.py full 2 16384 /tmp/r3_check_R3N/dfsD code/round3/check_R3N/verify_w.py data/round3/R3N/survey_2_4096.csv data/round3/R3N/survey_4098_16384.csv data/round3/R3N/survey_16386_32768_merged.csv (2026-10-13T15:41:50Z)
+full re-certification of 8191 exact rows with 2 <= a <= 16384: failures 0, time 105.8s
+ALL_OK
+# wall 106 s

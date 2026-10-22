@@ -1,0 +1,21 @@
+# cmd: nice -n 10 python3 -I code/round3/R3N/survey.py 2 4096 65536 /tmp/r3_R3N data/round3/R3N/survey_2_4096.csv
+a=14 f=1533 g=1522 time=0.1s
+a=34 f=18444 g=18412 time=7.7s
+a=574 f=4094 g=3526 time=0.3s
+a=594 g>=65536 (lower bound only)
+a=640 f=3834 g=3196 time=0.1s
+a=894 f=2045 g=1159 time=0.0s
+a=1086 f=3689 g=2609 time=0.1s
+a=1102 f=12633 g=11536 time=3.5s
+a=1438 f=5379 g=3948 time=0.4s
+a=1602 f=5084 g=3486 time=0.3s
+a=1890 f=4094 g=2210 time=0.1s
+a=2210 f=8467 g=6261 time=0.9s
+a=2238 f=3387 g=1156 time=0.1s
+a=2584 f=3707 g=1127 time=0.1s
+a=2662 f=5785 g=3129 time=0.4s
+a=2718 f=4109 g=1398 time=0.0s
+a=2754 f=4221 g=1472 time=0.1s
+a=3158 f=4337 g=1185 time=0.1s
+a=3456 f=8275 g=4823 time=0.4s
+a=3934 f=6170 g=2245 time=0.1s

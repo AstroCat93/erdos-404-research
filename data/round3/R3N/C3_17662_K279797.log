@@ -1,0 +1,40 @@
+# cmd: nice -n 10 /tmp/r3_R3N/dfsW3 17662 279797 /tmp/r3_R3N/w17662_279797.txt   (dfsW3 = gcc -O3 -march=native code/round3/R3N/dfsW3.c; G = 262144)
+dfsW3 (WL=4) a=17662 K=279797 witness=/tmp/r3_R3N/w17662_279797.txt
+[60s] level=82 M=38614 nlev=95 maxlevel=94 nodes=144473219 surv=548864 fulladds=4334240 best=41850
+[120s] level=130 M=50878 nlev=188 maxlevel=187 nodes=423580675 surv=1179648 fulladds=9552466 best=65600
+[180s] level=124 M=49342 nlev=188 maxlevel=187 nodes=651609977 surv=1769472 fulladds=14357266 best=65600
+[241s] level=208 M=70804 nlev=221 maxlevel=220 nodes=901043537 surv=2281472 fulladds=18630880 best=74099
+[301s] level=436 M=129058 nlev=444 maxlevel=443 nodes=1240109994 surv=2740224 fulladds=22662761 best=131070
+[361s] level=426 M=126506 nlev=452 maxlevel=451 nodes=1888940208 surv=3239936 fulladds=27716592 best=133116
+[421s] level=417 M=124206 nlev=452 maxlevel=451 nodes=2404055641 surv=3723264 fulladds=32293613 best=133116
+[481s] level=527 M=152302 nlev=531 maxlevel=530 nodes=2689815282 surv=4419584 fulladds=37927990 best=153175
+[541s] level=550 M=158178 nlev=553 maxlevel=552 nodes=2893549576 surv=5427200 fulladds=45404414 best=158745
+[601s] level=630 M=178614 nlev=657 maxlevel=656 nodes=3215181597 surv=6680576 fulladds=54479971 best=185394
+[661s] level=617 M=175292 nlev=704 maxlevel=703 nodes=3642053480 surv=7909376 fulladds=63353670 best=197434
+[721s] level=659 M=186022 nlev=704 maxlevel=703 nodes=4036453696 surv=9158656 fulladds=73002097 best=197434
+[782s] level=612 M=174018 nlev=704 maxlevel=703 nodes=4441883541 surv=10481664 fulladds=82472427 best=197434
+[842s] level=643 M=181934 nlev=704 maxlevel=703 nodes=4882706461 surv=11755520 fulladds=92170693 best=197434
+[902s] level=618 M=175550 nlev=704 maxlevel=703 nodes=5336205746 surv=13144064 fulladds=102117985 best=197434
+[962s] level=659 M=186022 nlev=768 maxlevel=767 nodes=5968010966 surv=14381056 fulladds=112105989 best=213761
+[1022s] level=726 M=203134 nlev=770 maxlevel=769 nodes=6582349500 surv=15785984 fulladds=122838700 best=214329
+[1082s] level=617 M=175292 nlev=770 maxlevel=769 nodes=7148968600 surv=17174528 fulladds=133201624 best=214329
+[1142s] level=571 M=163546 nlev=770 maxlevel=769 nodes=7625633242 surv=18423808 fulladds=142481464 best=214329
+[1202s] level=569 M=163032 nlev=770 maxlevel=769 nodes=7888474719 surv=19595264 fulladds=151395758 best=214329
+[1262s] level=537 M=154856 nlev=770 maxlevel=769 nodes=8169445349 surv=20733952 fulladds=159950439 best=214329
+[1322s] level=412 M=122926 nlev=770 maxlevel=769 nodes=8508562205 surv=21790720 fulladds=168096890 best=214329
+[1383s] level=345 M=105810 nlev=770 maxlevel=769 nodes=9001351085 surv=22441984 fulladds=173746022 best=214329
+[1443s] level=400 M=119860 nlev=770 maxlevel=769 nodes=9495165316 surv=22999040 fulladds=178737774 best=214329
+[1503s] level=571 M=163546 nlev=770 maxlevel=769 nodes=9848198796 surv=23838720 fulladds=185385276 best=214329
+[1563s] level=567 M=162522 nlev=770 maxlevel=769 nodes=10120408036 surv=24829952 fulladds=192651073 best=214329
+[1624s] level=565 M=162010 nlev=770 maxlevel=769 nodes=10360887934 surv=25747456 fulladds=199759910 best=214329
+[1684s] level=686 M=192918 nlev=770 maxlevel=769 nodes=10902903156 surv=26779648 fulladds=208361652 best=214329
+[1744s] level=696 M=195474 nlev=771 maxlevel=770 nodes=11476282049 surv=28147712 fulladds=218501681 best=214614
+[1804s] level=618 M=175550 nlev=771 maxlevel=770 nodes=11995359131 surv=29249536 fulladds=227476278 best=214614
+[1864s] level=528 M=152558 nlev=771 maxlevel=770 nodes=12327720361 surv=30375936 fulladds=236096678 best=214614
+[1924s] level=609 M=173248 nlev=771 maxlevel=770 nodes=12635520210 surv=31637504 fulladds=245198615 best=214614
+[1984s] level=697 M=195728 nlev=771 maxlevel=770 nodes=13280095362 surv=32829440 fulladds=255008346 best=214614
+[2045s] level=750 M=209266 nlev=798 maxlevel=797 nodes=13893238634 surv=34160640 fulladds=265209749 best=221465
+[2105s] level=619 M=175806 nlev=798 maxlevel=797 nodes=14387648758 surv=35618816 fulladds=275488100 best=221465
+[2165s] level=634 M=179638 nlev=798 maxlevel=797 nodes=14852343100 surv=37142528 fulladds=286294363 best=221465
+[2225s] level=619 M=175806 nlev=798 maxlevel=797 nodes=15332965175 surv=38547456 fulladds=296710382 best=221465
+# stopped by hand after the last progress line above (about 38 min wall, at roughly 50% of a core; this program has no checkpoint support); restarted as dfsW4 with checkpoints: C4_17662_K279797.log

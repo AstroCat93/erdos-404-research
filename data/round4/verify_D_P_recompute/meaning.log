@@ -1,0 +1,9 @@
+=== command: python3 meaning.py
+=== start (UTC): 2026-10-14T03:26:48Z
+p=7: delta_G in [0.61191, 0.62394] for 8 <= G <= 1376; lower bound vacuous from G ~ 85364 (N = 512202); gate events disjoint on the eps=0.01 range: True; mu(K_7) <= delta_G for all G, and the bound says nothing about lim delta_G
+p=11: delta_G in [0.68955, 0.69976] for 6 <= G <= 19488; lower bound vacuous from G ~ 1363215 (N = 13632188); gate events disjoint on the eps=0.01 range: True; mu(K_11) <= delta_G for all G, and the bound says nothing about lim delta_G
+p=13: delta_G in [0.74316, 0.75454] for 5 <= G <= 679775; lower bound vacuous from G ~ 51198284 (N = 614379461); gate events disjoint on the eps=0.01 range: True; mu(K_13) <= delta_G for all G, and the bound says nothing about lim delta_G
+p=17: delta_G in [0.73816, 0.75692] for 4 <= G <= 4359848; lower bound vacuous from G ~ 326185417 (N = 5218966757); gate events disjoint on the eps=0.01 range: True; mu(K_17) <= delta_G for all G, and the bound says nothing about lim delta_G
+p=19: delta_G in [0.76764, 0.77792] for 4 <= G <= 496595; lower bound vacuous from G ~ 38617315 (N = 695111735); gate events disjoint on the eps=0.01 range: True; mu(K_19) <= delta_G for all G, and the bound says nothing about lim delta_G
+p=23: delta_G in [0.84312, 0.85617] for 3 <= G <= 1547647; lower bound vacuous from G ~ 132032781 (N = 2904721275); gate events disjoint on the eps=0.01 range: True; mu(K_23) <= delta_G for all G, and the bound says nothing about lim delta_G
+=== exit: 0   wall: .030670701 s

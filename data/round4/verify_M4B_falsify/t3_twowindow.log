@@ -1,0 +1,18 @@
+### command: python3 t3_twowindow.py 7 25 400 2500
+### start (UTC): 2026-10-14T00:06:14Z
+RESULT p=3 rule=lin n0=7 n1=9: {'atoms': 25, 'single': 54, 'c2_fail': 0, 'eq_fail': 0, 'B_fail': 0, 'Beq_fail': 0, 'mart_fail': 0, 'const_fail': 0, 'eps_fail': 0, 'subset': 9, 'neg': 0, 'neg_viol': 0, 'neg_single': 0, 'neg_single_viol': 0}
+RESULT p=3 rule=hash n0=7 n1=9: {'atoms': 51, 'single': 111, 'c2_fail': 0, 'eq_fail': 0, 'B_fail': 0, 'Beq_fail': 0, 'mart_fail': 0, 'const_fail': 0, 'eps_fail': 0, 'subset': 22, 'neg': 0, 'neg_viol': 0, 'neg_single': 0, 'neg_single_viol': 0}
+RESULT p=3 rule=ladder n0=6 n1=8: {'atoms': 76, 'single': 161, 'c2_fail': 0, 'eq_fail': 0, 'B_fail': 0, 'Beq_fail': 0, 'mart_fail': 0, 'const_fail': 0, 'eps_fail': 0, 'subset': 44, 'neg': 0, 'neg_viol': 0, 'neg_single': 0, 'neg_single_viol': 0}
+RESULT p=5 rule=lin n0=12 n1=14: {'atoms': 101, 'single': 211, 'c2_fail': 0, 'eq_fail': 0, 'B_fail': 0, 'Beq_fail': 0, 'mart_fail': 0, 'const_fail': 0, 'eps_fail': 0, 'subset': 68, 'neg': 0, 'neg_viol': 0, 'neg_single': 0, 'neg_single_viol': 0}
+RESULT p=5 rule=hash n0=11 n1=15: {'atoms': 126, 'single': 261, 'c2_fail': 0, 'eq_fail': 0, 'B_fail': 0, 'Beq_fail': 0, 'mart_fail': 0, 'const_fail': 0, 'eps_fail': 0, 'subset': 91, 'neg': 0, 'neg_viol': 0, 'neg_single': 0, 'neg_single_viol': 0}
+RESULT p=5 rule=ladder n0=14 n1=20: {'atoms': 152, 'single': 313, 'c2_fail': 0, 'eq_fail': 0, 'B_fail': 0, 'Beq_fail': 0, 'mart_fail': 0, 'const_fail': 0, 'eps_fail': 0, 'subset': 117, 'neg': 0, 'neg_viol': 0, 'neg_single': 0, 'neg_single_viol': 0}
+RESULT p=7 rule=lin n0=20 n1=23: {'atoms': 177, 'single': 353, 'c2_fail': 0, 'eq_fail': 0, 'B_fail': 0, 'Beq_fail': 0, 'mart_fail': 0, 'const_fail': 0, 'eps_fail': 0, 'subset': 137, 'neg': 0, 'neg_viol': 0, 'neg_single': 0, 'neg_single_viol': 0}
+RESULT p=7 rule=hash n0=16 n1=23: {'atoms': 203, 'single': 391, 'c2_fail': 0, 'eq_fail': 0, 'B_fail': 0, 'Beq_fail': 0, 'mart_fail': 0, 'const_fail': 0, 'eps_fail': 0, 'subset': 156, 'neg': 0, 'neg_viol': 0, 'neg_single': 0, 'neg_single_viol': 0}
+RESULT p=7 rule=ladder n0=16 n1=20: {'atoms': 229, 'single': 443, 'c2_fail': 0, 'eq_fail': 0, 'B_fail': 0, 'Beq_fail': 0, 'mart_fail': 0, 'const_fail': 0, 'eps_fail': 0, 'subset': 182, 'neg': 0, 'neg_viol': 0, 'neg_single': 0, 'neg_single_viol': 0}
+RESULT C2 slack lhs/rhs over 142 atoms with eps>0: min 0.0000 median 0.0443 max 1.000000
+RESULT negative control p=3: one-step-predictable N' (adversary A: maximise E[M^2]) exceeds max_cand eps * M^2 on 0/0 single-parent atoms; adversary B (maximise excess) exceeds E[eps(N'(x))] * M^2 on 0/0 (cumulative)
+RESULT negative control p=5: one-step-predictable N' (adversary A: maximise E[M^2]) exceeds max_cand eps * M^2 on 0/8 single-parent atoms; adversary B (maximise excess) exceeds E[eps(N'(x))] * M^2 on 8/8 (cumulative)
+RESULT negative control p=7: one-step-predictable N' (adversary A: maximise E[M^2]) exceeds max_cand eps * M^2 on 0/16 single-parent atoms; adversary B (maximise excess) exceeds E[eps(N'(x))] * M^2 on 16/16 (cumulative)
+SUMMARY t3 {'atoms': 229, 'single': 443, 'c2_fail': 0, 'eq_fail': 0, 'B_fail': 0, 'Beq_fail': 0, 'mart_fail': 0, 'const_fail': 0, 'eps_fail': 0, 'subset': 182, 'neg': 16, 'neg_viol': 0, 'neg_single': 16, 'neg_single_viol': 16}
+### exit: 0
+### wall: 26 s

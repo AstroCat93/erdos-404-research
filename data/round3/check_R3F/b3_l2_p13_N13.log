@@ -1,0 +1,10 @@
+# command: python3 -I /home/user/erdos-404-research/code/round3/check_R3F/b3check.py 13 13 4
+# start: 2026-10-13T17:47:42Z
+# p=13 N0=13 K=4 n_K=52
+# k  n_k  L2(k)  Q(k)  Q(k)/(N_k 2^-n_k)
+  1  13  2.20239e-05  2.20239e-05  0.01503
+  2  26  2.25377e-05  5.13775e-07  0.221
+  3  39  2.25377e-05  4.40636e-13  0.0001194
+  4  52  2.25377e-05  1.34314e-16  2.294e-05
+# wall 0.0s
+# end: 2026-10-13T17:47:42Z  exit=0  wall_seconds=.134450905

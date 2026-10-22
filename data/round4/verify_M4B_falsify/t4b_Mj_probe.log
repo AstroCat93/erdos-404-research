@@ -1,0 +1,8 @@
+### command: python3 t4b_Mj_probe.py 12 1500
+### start (UTC): 2026-10-14T00:12:29Z
+RESULT p=7 n=14: 237 deep-gate points with Z0>0 out of 1500; deepest gate with Z0>0: s = 4; max M_n = 3.077 at (gate i, depth s, V_n, Z0) = (14, 4, 5, 3)
+RESULT p=7 n=21: 236 deep-gate points with Z0>0 out of 1500; deepest gate with Z0>0: s = 5; max M_n = 3.478 at (gate i, depth s, V_n, Z0) = (14, 4, 6, 62)
+RESULT p=7 n=28: 188 deep-gate points with Z0>0 out of 1500; deepest gate with Z0>0: s = 8; max M_n = 14.73 at (gate i, depth s, V_n, Z0) = (28, 8, 11, 2)
+RESULT p=7 n=35: 165 deep-gate points with Z0>0 out of 1500; deepest gate with Z0>0: s = 8; max M_n = 29.81 at (gate i, depth s, V_n, Z0) = (27, 8, 12, 74)
+### exit: 0
+### wall: 33 s

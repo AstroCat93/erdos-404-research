@@ -1,0 +1,13 @@
+# command: nice -n 10 timeout 900 /tmp/r3_S0/bin/sumform_big 594 8782
+# meaning: decide whether 2^8782 = 2^(v2(594!)+8192) divides some sum of distinct factorials with minimum 594 (Kitamura rung g(594,2)>=8192)
+# binary: clang -O3 -march=native code/D/sumform_big.c (sha256 2db737da...a580), population cap 2^17
+# start 2026-10-13T06:14:12Z
+population overflow at N=6142
+# end 2026-10-13T06:14:19Z exit=2 wall=7 s
+
+# retry with a larger population cap
+# command: nice -n 10 timeout 1200 /tmp/r3_S0/bin/sumform_big_cap 594 8782 19 21
+# binary: clang -O3 -march=native code/round3/S0/sumform_big_cap.c (copy of code/D/sumform_big.c with PMAX=2^19, HS=2^21 as parameters)
+# start 2026-10-13T06:16:51Z
+a=594 K=8782 reachable=1 (final stage N=8787, maxpop=444540)
+# end 2026-10-13T06:17:31Z exit=0 wall=40 s

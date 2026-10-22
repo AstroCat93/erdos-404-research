@@ -1,0 +1,18 @@
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py shadow 11 1 22 34 52 46 4
+=== start (UTC): 2026-10-14T01:54:03Z
+T2 p=11: window [22,34,52) H=30, gate at i*=46 (c=22), unit w=16308913933363097937903454892534
+  s= 1 K= 3 D=1 M_W=1: eps=0.0048037  eps/p^s=0.0004367  lowerbd=-11  PropD(p^K Coll_K)=4.1369 >= p^K Coll_K=4.1298: True  partial sum_s mu(depth=s) eps = 0.000397
+  s= 2 K= 4 D=1 M_W=2: eps=0.0053388  eps/p^s=4.4122e-05  lowerbd=-11  PropD(p^K Coll_K)=4.5919 >= p^K Coll_K=4.1303: True  partial sum_s mu(depth=s) eps = 0.00043711
+  s= 3 K= 5 D=1 M_W=3: eps=0.013758  eps/p^s=1.0336e-05  lowerbd=-11  PropD(p^K Coll_K)=7.4406 >= p^K Coll_K=4.1388: True  partial sum_s mu(depth=s) eps = 0.00044651
+  s= 4 K= 6 D=1 M_W=4: eps=0.18537  eps/p^s=1.2661e-05  lowerbd=-11  PropD(p^K Coll_K)=45.336 >= p^K Coll_K=4.3104: True  partial sum_s mu(depth=s) eps = 0.00045802
+T2 p=11: failures (eps < lower bound, or Prop D < exact): 0
+=== exit: 0   wall: 1.14 s
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py shadow 11 2 30 41 60 50 4
+=== start (UTC): 2026-10-14T01:54:04Z
+T2 p=11: window [30,41,60) H=30, gate at i*=50 (c=18), unit w=17267605895788376044159427848564
+  s= 1 K= 2 D=1 M_W=1: eps=5.059e-05  eps/p^s=4.5991e-06  lowerbd=-11  PropD(p^K Coll_K)=1.0046 >= p^K Coll_K=1.0032: True  partial sum_s mu(depth=s) eps = 4.181e-06
+  s= 2 K= 3 D=1 M_W=2: eps=0.0011104  eps/p^s=9.1768e-06  lowerbd=-11  PropD(p^K Coll_K)=1.1151 >= p^K Coll_K=1.0042: True  partial sum_s mu(depth=s) eps = 1.2523e-05
+  s= 3 K= 4 D=1 M_W=3: eps=0.018605  eps/p^s=1.3979e-05  lowerbd=-11  PropD(p^K Coll_K)=1.8068 >= p^K Coll_K=1.0217: True  partial sum_s mu(depth=s) eps = 2.5231e-05
+  s= 4 K= 5 D=1 M_W=4: eps=0.25476  eps/p^s=1.7401e-05  lowerbd=-11  PropD(p^K Coll_K)=11.009 >= p^K Coll_K=1.2579: True  partial sum_s mu(depth=s) eps = 4.105e-05
+T2 p=11: failures (eps < lower bound, or Prop D < exact): 0
+=== exit: 0   wall: 0.64 s

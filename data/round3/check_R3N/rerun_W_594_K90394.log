@@ -1,0 +1,8 @@
+# cmd: nice -n 10 /tmp/r3_check_R3N/dfsW 594 90394 /tmp/r3_check_R3N/w594_90394_C.txt   (binary rebuilt by check_R3N: gcc 13.3.0 -O3 -march=native code/round3/R3N/dfsW.c; started 2026-10-13T15:17:11Z)
+dfsW (WL=4) a=594 K=90394 witness=/tmp/r3_check_R3N/w594_90394_C.txt
+[60s] level=207 M=53478 nlev=282 maxlevel=281 nodes=1793098158 surv=3657728 fulladds=39889737 best=72423
+[120s] level=293 M=75450 nlev=324 maxlevel=323 nodes=3517081336 surv=8511488 fulladds=91493762 best=83321
+SUCCESS: 2^90394 divides a witness sum (final gate at N=90398)
+witness written: /tmp/r3_check_R3N/w594_90394_C.txt (44801 terms)
+RESULT a=594 K=90394 reachable=1 nodes=3645409494 surv=8940409 fulladds=95471529 levels=352 time=122.7s
+# wall time (driver): 122.764082892 s; finished 2026-10-13T15:19:14Z

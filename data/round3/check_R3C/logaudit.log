@@ -1,0 +1,50 @@
+## 1. Uniform certificates t <= 6 at p = 29 (programs A and C, scan logs)
+uniform Cov(29,1,7) c=0 M=1 k=0 in scan_p29_t1.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(29,2,13) c=0 M=2 k=0 in scan_p29_t2.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(29,3,19) c=0 M=3 k=0 in scan_p29_t3.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(29,4,24) c=0 M=4 k=0 in scan_p29_t4.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(29,5,29) c=0 M=5 k=0 in scan_p29_t5.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(29,6,40) c=1 M=7 k=1 in scan_p29_t6.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 28/28 covered=True C classes 28/28 covered=True end-line=True -> OK
+## 2. Uniform certificates t <= 6 at p = 29 (program D)
+uniform Cov(29,1,7) program D in U29_D_t1_H7.log: command ok=True header ok=True classes 1/1 covered=True SUMMARY ok=True end=True other lines=[] -> OK
+uniform Cov(29,2,13) program D in U29_D_t2_H13.log: command ok=True header ok=True classes 1/1 covered=True SUMMARY ok=True end=True other lines=[] -> OK
+uniform Cov(29,3,19) program D in U29_D_t3_H19.log: command ok=True header ok=True classes 1/1 covered=True SUMMARY ok=True end=True other lines=[] -> OK
+uniform Cov(29,4,24) program D in U29_D_t4_H24.log: command ok=True header ok=True classes 1/1 covered=True SUMMARY ok=True end=True other lines=[] -> OK
+uniform Cov(29,5,29) program D in U29_D_t5_H29.log: command ok=True header ok=True classes 1/1 covered=True SUMMARY ok=True end=True other lines=[] -> OK
+uniform Cov(29,6,40) program D in U29_D_t6_H40.log: command ok=True header ok=True classes 28/28 covered=True SUMMARY ok=True end=True other lines=[] -> OK
+## 3. Depth-7 positions K'' = 1..28, H = 45 (programs A and D)
+   56/56 logs OK (command, header c=1 M=8 k=1, K'' line 'missing=0 COVERED', SUMMARY nK=1 fail=0 ALL_COVERED, end line, no other output)
+   program A: wall 460-854 s per position, total 4.16 h
+   program D: wall 242-508 s per position, total 2.28 h
+## 4. Uniform certificates t <= 6 at p = 31 (programs A and C)
+uniform Cov(31,1,7) c=0 M=1 k=0 in scan_p31_t1.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(31,2,14) c=0 M=2 k=0 in scan_p31_t2.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(31,3,19) c=0 M=3 k=0 in scan_p31_t3.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(31,4,25) c=0 M=4 k=0 in scan_p31_t4.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(31,5,30) c=0 M=5 k=0 in scan_p31_t5.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(31,6,41) c=1 M=7 k=1 in scan_p31_t6.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 30/30 covered=True C classes 30/30 covered=True end-line=True -> OK
+## 5. Holds above the minimum (scanall logs, A and C over all classes)
+uniform Cov(29,2,13) c=0 M=2 k=0 in scanall_p29_t2.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(29,2,14) c=0 M=2 k=0 in scanall_p29_t2.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(29,2,15) c=0 M=2 k=0 in scanall_p29_t2.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(29,2,16) c=0 M=2 k=0 in scanall_p29_t2.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(29,3,20) c=0 M=3 k=0 in scanall_p29_t3.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(29,3,21) c=0 M=3 k=0 in scanall_p29_t3.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(29,4,25) c=0 M=4 k=0 in scanall_p29_t4.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(29,4,26) c=0 M=4 k=0 in scanall_p29_t4.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(29,5,29) c=0 M=5 k=0 in scanall_p29_t5.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(29,5,36) c=1 M=6 k=1 in scanall_p29_t5.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 28/28 covered=True C classes 28/28 covered=True end-line=True -> OK
+uniform Cov(29,5,37) c=1 M=6 k=1 in scanall_p29_t5.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 28/28 covered=True C classes 28/28 covered=True end-line=True -> OK
+uniform Cov(29,5,38) c=1 M=6 k=1 in scanall_p29_t5.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 28/28 covered=True C classes 28/28 covered=True end-line=True -> OK
+uniform Cov(29,5,39) c=1 M=6 k=1 in scanall_p29_t5.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 28/28 covered=True C classes 28/28 covered=True end-line=True -> OK
+uniform Cov(31,2,15) c=0 M=2 k=0 in scanall_p31_t2.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(31,2,16) c=0 M=2 k=0 in scanall_p31_t2.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(31,3,20) c=0 M=3 k=0 in scanall_p31_t3.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(31,3,21) c=0 M=3 k=0 in scanall_p31_t3.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(31,4,26) c=0 M=4 k=0 in scanall_p31_t4.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(31,4,27) c=0 M=4 k=0 in scanall_p31_t4.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(31,5,30) c=0 M=5 k=0 in scanall_p31_t5.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(31,5,31) c=0 M=5 k=0 in scanall_p31_t5.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 1/1 covered=True C classes 1/1 covered=True end-line=True -> OK
+uniform Cov(31,5,38) c=1 M=6 k=1 in scanall_p31_t5.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 30/30 covered=True C classes 30/30 covered=True end-line=True -> OK
+uniform Cov(31,5,39) c=1 M=6 k=1 in scanall_p31_t5.log: command ok=True HOLDS-line=True SUMMARY A ok=True END C ok=True A classes 30/30 covered=True C classes 30/30 covered=True end-line=True -> OK
+## problems: 0

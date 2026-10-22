@@ -1,0 +1,118 @@
+# command: env R3C_BIN=/tmp/r3_R3C/bin python3 code/round3/R3C/scan_r3.py 31 6 2 62
+# cwd: /home/user/erdos-404-research  host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz
+# start: 2026-10-13 06:56:26 UTC
+# scan p=31 t=6 H=2..62 rho0=6
+p=31 t=6 H=2 c=0 M=6: FAILS by counting (2^2 < 31^6)
+p=31 t=6 H=3 c=0 M=6: FAILS by counting (2^3 < 31^6)
+p=31 t=6 H=4 c=0 M=6: FAILS by counting (2^4 < 31^6)
+p=31 t=6 H=5 c=0 M=6: FAILS by counting (2^5 < 31^6)
+p=31 t=6 H=6 c=0 M=6: FAILS by counting (2^6 < 31^6)
+p=31 t=6 H=7 c=0 M=6: FAILS by counting (2^7 < 31^6)
+p=31 t=6 H=8 c=0 M=6: FAILS by counting (2^8 < 31^6)
+p=31 t=6 H=9 c=0 M=6: FAILS by counting (2^9 < 31^6)
+p=31 t=6 H=10 c=0 M=6: FAILS by counting (2^10 < 31^6)
+p=31 t=6 H=11 c=0 M=6: FAILS by counting (2^11 < 31^6)
+p=31 t=6 H=12 c=0 M=6: FAILS by counting (2^12 < 31^6)
+p=31 t=6 H=13 c=0 M=6: FAILS by counting (2^13 < 31^6)
+p=31 t=6 H=14 c=0 M=6: FAILS by counting (2^14 < 31^6)
+p=31 t=6 H=15 c=0 M=6: FAILS by counting (2^15 < 31^6)
+p=31 t=6 H=16 c=0 M=6: FAILS by counting (2^16 < 31^6)
+p=31 t=6 H=17 c=0 M=6: FAILS by counting (2^17 < 31^6)
+p=31 t=6 H=18 c=0 M=6: FAILS by counting (2^18 < 31^6)
+p=31 t=6 H=19 c=0 M=6: FAILS by counting (2^19 < 31^6)
+p=31 t=6 H=20 c=0 M=6: FAILS by counting (2^20 < 31^6)
+p=31 t=6 H=21 c=0 M=6: FAILS by counting (2^21 < 31^6)
+p=31 t=6 H=22 c=0 M=6: FAILS by counting (2^22 < 31^6)
+p=31 t=6 H=23 c=0 M=6: FAILS by counting (2^23 < 31^6)
+p=31 t=6 H=24 c=0 M=6: FAILS by counting (2^24 < 31^6)
+p=31 t=6 H=25 c=0 M=6: FAILS by counting (2^25 < 31^6)
+p=31 t=6 H=26 c=0 M=6: FAILS by counting (2^26 < 31^6)
+p=31 t=6 H=27 c=0 M=6: FAILS by counting (2^27 < 31^6)
+p=31 t=6 H=28 c=0 M=6: FAILS by counting (2^28 < 31^6)
+p=31 t=6 H=29 c=0 M=6: FAILS by counting (2^29 < 31^6)
+p=31 t=6 H=30 c=0 M=6 k=0: FAILS  class K=1: A missing=359737219, C miss=359737219 [AGREE]
+    A: A p=31 t=6 H=30 c=0 M=6 K=1 missing=359737219 NOT_COVERED [3.54s]
+    C: C p=31 t=6 H=30 M=6 K=1 Kmodpc=0 miss=359737219 UNCOVERED 3.16s
+p=31 t=6 H=31 c=0 M=6 k=0: FAILS  class K=1: A missing=145228109, C miss=145228109 [AGREE]
+    A: A p=31 t=6 H=31 c=0 M=6 K=1 missing=145228109 NOT_COVERED [2.32s]
+    C: C p=31 t=6 H=31 M=6 K=1 Kmodpc=0 miss=145228109 UNCOVERED 3.54s
+p=31 t=6 H=32 c=1 M=7: FAILS by counting (2^32 < 31^7)
+p=31 t=6 H=33 c=1 M=7: FAILS by counting (2^33 < 31^7)
+p=31 t=6 H=34 c=1 M=7: FAILS by counting (2^34 < 31^7)
+p=31 t=6 H=35 c=1 M=7: FAILS by Lemma 10.11 ((H-1) mod p = 3 < rho0 = 6)
+p=31 t=6 H=36 c=1 M=7: FAILS by Lemma 10.11 ((H-1) mod p = 4 < rho0 = 6)
+p=31 t=6 H=37 c=1 M=7: FAILS by Lemma 10.11 ((H-1) mod p = 5 < rho0 = 6)
+p=31 t=6 H=38 c=1 M=7 k=1: FAILS  class K=1: A missing=688753618, C miss=688753618 [AGREE]
+    A: A p=31 t=6 H=38 c=1 M=7 K=1 missing=688753618 NOT_COVERED [49.87s]
+    C: C p=31 t=6 H=38 M=7 K=1 Kmodpc=1 miss=688753618 UNCOVERED 68.48s
+p=31 t=6 H=39 c=1 M=7 k=1: FAILS  class K=1: A missing=217680, C miss=217680 [AGREE]
+    A: A p=31 t=6 H=39 c=1 M=7 K=1 missing=217680 NOT_COVERED [41.48s]
+    C: C p=31 t=6 H=39 M=7 K=1 Kmodpc=1 miss=217680 UNCOVERED 66.06s
+p=31 t=6 H=40 c=1 M=7 k=1: FAILS  class K=2: A missing=2, C miss=2 [AGREE]
+    A: A p=31 t=6 H=40 c=1 M=7 K=2 missing=2 NOT_COVERED [55.37s]
+    C: C p=31 t=6 H=40 M=7 K=2 Kmodpc=2 miss=2 UNCOVERED 78.47s
+p=31 t=6 H=41 c=1 M=7 k=1: HOLDS
+    SUMMARY A p=31 t=6 H=41 c=1 M=7 k=1 mode=all nK=30 fail=0 worst_missing=0 ALL_COVERED total=1441.1s
+    END C p=31 t=6 H=41 nK=30 bad=0 ALL_COVERED 1562.6s
+    A p=31 t=6 H=41 c=1 M=7 K=1 missing=0 COVERED [61.74s]
+    A p=31 t=6 H=41 c=1 M=7 K=2 missing=0 COVERED [62.09s]
+    A p=31 t=6 H=41 c=1 M=7 K=3 missing=0 COVERED [48.76s]
+    A p=31 t=6 H=41 c=1 M=7 K=4 missing=0 COVERED [48.61s]
+    A p=31 t=6 H=41 c=1 M=7 K=5 missing=0 COVERED [50.20s]
+    A p=31 t=6 H=41 c=1 M=7 K=6 missing=0 COVERED [45.41s]
+    A p=31 t=6 H=41 c=1 M=7 K=7 missing=0 COVERED [45.75s]
+    A p=31 t=6 H=41 c=1 M=7 K=8 missing=0 COVERED [44.03s]
+    A p=31 t=6 H=41 c=1 M=7 K=9 missing=0 COVERED [43.60s]
+    A p=31 t=6 H=41 c=1 M=7 K=10 missing=0 COVERED [42.45s]
+    A p=31 t=6 H=41 c=1 M=7 K=11 missing=0 COVERED [42.66s]
+    A p=31 t=6 H=41 c=1 M=7 K=12 missing=0 COVERED [43.74s]
+    A p=31 t=6 H=41 c=1 M=7 K=13 missing=0 COVERED [42.29s]
+    A p=31 t=6 H=41 c=1 M=7 K=14 missing=0 COVERED [44.81s]
+    A p=31 t=6 H=41 c=1 M=7 K=15 missing=0 COVERED [44.42s]
+    A p=31 t=6 H=41 c=1 M=7 K=16 missing=0 COVERED [43.70s]
+    A p=31 t=6 H=41 c=1 M=7 K=17 missing=0 COVERED [45.54s]
+    A p=31 t=6 H=41 c=1 M=7 K=18 missing=0 COVERED [47.24s]
+    A p=31 t=6 H=41 c=1 M=7 K=19 missing=0 COVERED [47.13s]
+    A p=31 t=6 H=41 c=1 M=7 K=20 missing=0 COVERED [42.55s]
+    A p=31 t=6 H=41 c=1 M=7 K=21 missing=0 COVERED [42.34s]
+    A p=31 t=6 H=41 c=1 M=7 K=22 missing=0 COVERED [44.89s]
+    A p=31 t=6 H=41 c=1 M=7 K=23 missing=0 COVERED [48.52s]
+    A p=31 t=6 H=41 c=1 M=7 K=24 missing=0 COVERED [47.79s]
+    A p=31 t=6 H=41 c=1 M=7 K=25 missing=0 COVERED [57.87s]
+    A p=31 t=6 H=41 c=1 M=7 K=26 missing=0 COVERED [58.99s]
+    A p=31 t=6 H=41 c=1 M=7 K=27 missing=0 COVERED [56.10s]
+    A p=31 t=6 H=41 c=1 M=7 K=28 missing=0 COVERED [48.36s]
+    A p=31 t=6 H=41 c=1 M=7 K=29 missing=0 COVERED [50.74s]
+    A p=31 t=6 H=41 c=1 M=7 K=30 missing=0 COVERED [48.70s]
+    C p=31 t=6 H=41 M=7 K=63 Kmodpc=1 miss=0 COVERED 69.06s
+    C p=31 t=6 H=41 M=7 K=64 Kmodpc=2 miss=0 COVERED 63.35s
+    C p=31 t=6 H=41 M=7 K=65 Kmodpc=3 miss=0 COVERED 63.16s
+    C p=31 t=6 H=41 M=7 K=66 Kmodpc=4 miss=0 COVERED 79.19s
+    C p=31 t=6 H=41 M=7 K=67 Kmodpc=5 miss=0 COVERED 63.93s
+    C p=31 t=6 H=41 M=7 K=68 Kmodpc=6 miss=0 COVERED 59.74s
+    C p=31 t=6 H=41 M=7 K=69 Kmodpc=7 miss=0 COVERED 60.46s
+    C p=31 t=6 H=41 M=7 K=70 Kmodpc=8 miss=0 COVERED 59.09s
+    C p=31 t=6 H=41 M=7 K=71 Kmodpc=9 miss=0 COVERED 59.56s
+    C p=31 t=6 H=41 M=7 K=72 Kmodpc=10 miss=0 COVERED 58.76s
+    C p=31 t=6 H=41 M=7 K=73 Kmodpc=11 miss=0 COVERED 58.54s
+    C p=31 t=6 H=41 M=7 K=74 Kmodpc=12 miss=0 COVERED 48.70s
+    C p=31 t=6 H=41 M=7 K=75 Kmodpc=13 miss=0 COVERED 47.79s
+    C p=31 t=6 H=41 M=7 K=76 Kmodpc=14 miss=0 COVERED 51.68s
+    C p=31 t=6 H=41 M=7 K=77 Kmodpc=15 miss=0 COVERED 54.05s
+    C p=31 t=6 H=41 M=7 K=78 Kmodpc=16 miss=0 COVERED 52.10s
+    C p=31 t=6 H=41 M=7 K=79 Kmodpc=17 miss=0 COVERED 49.54s
+    C p=31 t=6 H=41 M=7 K=80 Kmodpc=18 miss=0 COVERED 48.38s
+    C p=31 t=6 H=41 M=7 K=81 Kmodpc=19 miss=0 COVERED 42.85s
+    C p=31 t=6 H=41 M=7 K=82 Kmodpc=20 miss=0 COVERED 39.70s
+    C p=31 t=6 H=41 M=7 K=83 Kmodpc=21 miss=0 COVERED 39.53s
+    C p=31 t=6 H=41 M=7 K=84 Kmodpc=22 miss=0 COVERED 38.57s
+    C p=31 t=6 H=41 M=7 K=85 Kmodpc=23 miss=0 COVERED 37.04s
+    C p=31 t=6 H=41 M=7 K=86 Kmodpc=24 miss=0 COVERED 37.33s
+    C p=31 t=6 H=41 M=7 K=87 Kmodpc=25 miss=0 COVERED 35.71s
+    C p=31 t=6 H=41 M=7 K=88 Kmodpc=26 miss=0 COVERED 37.32s
+    C p=31 t=6 H=41 M=7 K=89 Kmodpc=27 miss=0 COVERED 46.51s
+    C p=31 t=6 H=41 M=7 K=90 Kmodpc=28 miss=0 COVERED 55.17s
+    C p=31 t=6 H=41 M=7 K=91 Kmodpc=29 miss=0 COVERED 57.02s
+    C p=31 t=6 H=41 M=7 K=92 Kmodpc=30 miss=0 COVERED 48.72s
+# wall=3428.794 s user=2122.957 s sys=5.738 s
+# end: 2026-10-13 07:53:35 UTC

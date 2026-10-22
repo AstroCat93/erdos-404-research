@@ -1,0 +1,36 @@
+=== command: python3 code/round4/verify_M4A_obstruction/corM_chi0.py data/round4/M4A/atom_p11.txt 3.63828
+=== start (UTC): 2026-10-14T01:56:43Z
+p=11 W_0=[300,405) H=105 D_0=11 M_W=2; first gate at n+2 (depth 1)
+   exact mod-p level  p P(S == 0 mod p) - 1 = 3.125   (lower bound for chi^2_0)
+   Prop 11.12 floor (p-1)4^-p = 2.384e-06 <= mod-p level: True
+   M4A's Prop D bound 3.63828 >= mod-p level: True;  ratio = 0.85892
+=== exit: 0   wall: 0.2 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_chi0.py data/round4/M4A/atom_p13.txt 0.422094
+=== start (UTC): 2026-10-14T01:56:43Z
+p=13 W_0=[300,405) H=105 D_0=8 M_W=1; first gate at n+4 (depth 1)
+   exact mod-p level  p P(S == 0 mod p) - 1 = 0.421875   (lower bound for chi^2_0)
+   Prop 11.12 floor (p-1)4^-p = 1.788e-07 <= mod-p level: True
+   M4A's Prop D bound 0.422094 >= mod-p level: True;  ratio = 0.99948
+=== exit: 0   wall: 0.18 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_chi0.py data/round4/M4A/atom_p17.txt 7.50249
+=== start (UTC): 2026-10-14T01:56:43Z
+p=17 W_0=[300,405) H=105 D_0=8 M_W=2; first gate at n+1 (depth 1)
+   exact mod-p level  p P(S == 0 mod p) - 1 = 7.5   (lower bound for chi^2_0)
+   Prop 11.12 floor (p-1)4^-p = 9.313e-10 <= mod-p level: True
+   M4A's Prop D bound 7.50249 >= mod-p level: True;  ratio = 0.99967
+=== exit: 0   wall: 0.18 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_chi0.py data/round4/M4A/atom_p19.txt 0.0014437
+=== start (UTC): 2026-10-14T01:56:43Z
+p=19 W_0=[300,405) H=105 D_0=6 M_W=2; first gate at n+17 (depth 2)
+   exact mod-p level  p P(S == 0 mod p) - 1 = 2.972083e-07   (lower bound for chi^2_0)
+   Prop 11.12 floor (p-1)4^-p = 6.548e-11 <= mod-p level: True
+   M4A's Prop D bound 0.0014437 >= mod-p level: True;  ratio = 0.00021
+=== exit: 0   wall: 0.16 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_chi0.py data/round4/M4A/atom_p23.txt 2.22478e-8
+=== start (UTC): 2026-10-14T01:56:43Z
+p=23 W_0=[300,405) H=105 D_0=4 M_W=1; first gate at n+22 (depth 1)
+   exact mod-p level  p P(S == 0 mod p) - 1 = 5.978677e-09   (lower bound for chi^2_0)
+   Prop 11.12 floor (p-1)4^-p = 3.126e-13 <= mod-p level: True
+   M4A's Prop D bound 2.22478e-08 >= mod-p level: True;  ratio = 0.26873
+   exact chi^2_0 = 5.97868e-09:  mod-p level <= chi^2_0 <= Prop D: True;  chi^2_0 / Prop D = 0.2687
+=== exit: 0   wall: 2.44 s

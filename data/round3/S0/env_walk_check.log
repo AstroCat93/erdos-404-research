@@ -1,0 +1,15 @@
+# command: nice -n 10 python3 -I code/round3/S0/env_walk_check.py 20 1024
+# start 2026-10-13T06:13:04Z
+identity mismatches (even a < 3000, n < 400): 0
+n=     1 m= 0  P in [0.750000, 0.750001]   lemma bounds [0.500000, 1.000000]   ok=True
+n=     2 m= 1  P in [0.625000, 0.625002]   lemma bounds [0.375000, 0.750000]   ok=True
+n=     4 m= 2  P in [0.437500, 0.437504]   lemma bounds [0.250000, 0.500000]   ok=True
+n=     8 m= 3  P in [0.281250, 0.281258]   lemma bounds [0.156250, 0.312500]   ok=True
+n=    16 m= 4  P in [0.171875, 0.171890]   lemma bounds [0.093750, 0.187500]   ok=True
+n=    32 m= 5  P in [0.101562, 0.101593]   lemma bounds [0.054688, 0.109375]   ok=True
+n=    64 m= 6  P in [0.058594, 0.058655]   lemma bounds [0.031250, 0.062500]   ok=True
+n=   128 m= 7  P in [0.033203, 0.033325]   lemma bounds [0.017578, 0.035156]   ok=True
+n=   256 m= 8  P in [0.018555, 0.018799]   lemma bounds [0.009766, 0.019531]   ok=True
+n=   512 m= 9  P in [0.010254, 0.010742]   lemma bounds [0.005371, 0.010742]   ok=True
+n=  1024 m=10  P in [0.005615, 0.006592]   lemma bounds [0.002930, 0.005859]   ok=True
+# end 2026-10-13T06:14:03Z exit=0 wall=59 s

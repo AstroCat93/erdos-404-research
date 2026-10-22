@@ -1,0 +1,9 @@
+# cmd: nice -n 10 /tmp/r3_R3N/dfsWp 594 90395 - data/round3/R3N/profile_594.txt   (dfsWp = gcc -O3 -march=native code/round3/R3N/dfsWp.c)
+dfsW (WL=4) a=594 K=90395 witness=(none)
+[60s] level=219 M=56544 nlev=247 maxlevel=246 nodes=1389413281 surv=2187264 fulladds=24341941 best=63482
+[120s] level=203 M=52456 nlev=282 maxlevel=281 nodes=2629444768 surv=5623808 fulladds=60864004 best=72423
+[180s] level=244 M=62934 nlev=352 maxlevel=351 nodes=3876072331 surv=9572352 fulladds=102154993 best=90394
+[241s] level=152 M=39430 nlev=352 maxlevel=351 nodes=4945079485 surv=12845056 fulladds=138314598 best=90394
+deepest alive stage N = 90398 (v2(N!) = 90390)
+RESULT a=594 K=90395 reachable=0 nodes=5537780784 surv=13566171 fulladds=146314113 levels=352 time=267.4s
+EXACT a=594 f=90394 g=89804 (max valuation over all paths; valid since K > f)

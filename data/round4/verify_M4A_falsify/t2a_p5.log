@@ -1,0 +1,5 @@
+=== command: python3 t2a_lemmaH.py 5 102 2000
+=== start (UTC): 2026-10-14T01:27:12Z
+p=5: Lemma H identity: 2000 exact equalities, 0 failures (of which theta<=0 trivial: 601); kinds {'sq': 408, 'signed': 406, 'rand': 374, 'cube': 396, 'near': 416}
+control (theta+1 in place of theta): identity fails in 198 cases
+=== exit: 0   wall: 2.49 s

@@ -1,0 +1,13 @@
+# command: python3 code/round3/check_R3C/indep.py lemma29
+# host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz  vmem cap (KB): 0
+# start: 2026-10-13 19:41:42 UTC
+p=29 t=2 H=30..58, 28 classes each: lemma mismatches []
+p=29 t=3 H=30..58, 28 classes each: lemma mismatches []
+p=29 t=4 H=30..58, 28 classes each: lemma mismatches []
+Cov(29,5,36) over the 28 classes K'+5*29: missed counts [0] -> HOLDS (273s)
+Cov(29,5,37) over the 28 classes K'+5*29: missed counts [0] -> HOLDS (264s)
+Cov(29,5,38) over the 28 classes K'+5*29: missed counts [0] -> HOLDS (283s)
+Cov(29,5,39) over the 28 classes K'+5*29: missed counts [0] -> HOLDS (287s)
+# wall=1222.062 s user=383.399 s sys=791.926 s
+# exit status: 0
+# end: 2026-10-13 20:02:04 UTC

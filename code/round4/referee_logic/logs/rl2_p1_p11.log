@@ -1,0 +1,11 @@
+=== command: python3 rl2_p1.py 11 4
+=== start: 2026-10-14T18:22:03Z
+p=11: greedy phase-1 schedule b = (3, 4, 5, 7, 9, 11, 15, 21, 28, 39, 54, 76, 105, 120)  (k_0 = 12)
+  Lemma 5.1 valuations and linear regime on the schedule at 3 random x: True
+  k=1: composite blocks (3,5] D=1 K=2 n1=2 n2=0: max eps_k = 2.64741e-06 <= threshold 0.00287453: True
+  k=2: composite blocks (4,7] D=1 K=3 n1=3 n2=0: max eps_k = 3.85843e-05 <= threshold 0.00431489: True
+  k=3: composite blocks (5,9] D=2 K=4 n1=4 n2=0: max eps_k = 7.84133e-07 <= threshold 0.00575732: True
+  k=4: composite blocks (7,11] D=2 K=5 n1=3 n2=1: max eps_k = 3.42233e-07 <= threshold 0.116393: True
+RESULT: PASS
+=== exit: 0
+=== wall: 1 s

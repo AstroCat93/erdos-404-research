@@ -1,0 +1,14 @@
+# command: python3 -I /home/user/erdos-404-research/code/round3/R3F/shells_mpfr.py fact 11 11 8
+# host: vm  start: 2026-10-13T06:30:05Z
+# shells_mpfr fact p=11 N0=11 e0=1 kmax=8 elements=88
+# cosine table: 107179441 entries, 250.4 s
+k= 1 units/2=5 factors=11 T1_upper=6.036917472815e-02 cum_upper=6.036917472815e-02
+k= 2 units/2=55 factors=22 T1_upper=6.182812476169e-03 cum_upper=6.655198720431e-02
+k= 3 units/2=605 factors=33 T1_upper=2.699637376798e-04 cum_upper=6.682195094199e-02
+k= 4 units/2=6655 factors=44 T1_upper=2.243729250741e-05 cum_upper=6.684438823450e-02
+k= 5 units/2=73205 factors=55 T1_upper=9.952083657521e-06 cum_upper=6.685434031816e-02
+k= 6 units/2=805255 factors=66 T1_upper=1.200351998394e-07 cum_upper=6.685446035336e-02
+k= 7 units/2=8857805 factors=77 T1_upper=3.319903236666e-08 cum_upper=6.685449355239e-02
+k= 8 units/2=97435855 factors=88 T1_upper=3.238681166924e-09 cum_upper=6.685449679107e-02
+# total time 660.4 s
+# end: 2026-10-13T06:41:06Z  exit=0  wall_seconds=661.026711590

@@ -1,0 +1,49 @@
+# command: env R3C_BIN=/tmp/r3_R3C/bin python3 code/round3/R3C/scan_r3.py 31 5 2 62
+# cwd: /home/user/erdos-404-research  host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz
+# start: 2026-10-13 06:47:18 UTC
+# scan p=31 t=5 H=2..62 rho0=6
+p=31 t=5 H=2 c=0 M=5: FAILS by counting (2^2 < 31^5)
+p=31 t=5 H=3 c=0 M=5: FAILS by counting (2^3 < 31^5)
+p=31 t=5 H=4 c=0 M=5: FAILS by counting (2^4 < 31^5)
+p=31 t=5 H=5 c=0 M=5: FAILS by counting (2^5 < 31^5)
+p=31 t=5 H=6 c=0 M=5: FAILS by counting (2^6 < 31^5)
+p=31 t=5 H=7 c=0 M=5: FAILS by counting (2^7 < 31^5)
+p=31 t=5 H=8 c=0 M=5: FAILS by counting (2^8 < 31^5)
+p=31 t=5 H=9 c=0 M=5: FAILS by counting (2^9 < 31^5)
+p=31 t=5 H=10 c=0 M=5: FAILS by counting (2^10 < 31^5)
+p=31 t=5 H=11 c=0 M=5: FAILS by counting (2^11 < 31^5)
+p=31 t=5 H=12 c=0 M=5: FAILS by counting (2^12 < 31^5)
+p=31 t=5 H=13 c=0 M=5: FAILS by counting (2^13 < 31^5)
+p=31 t=5 H=14 c=0 M=5: FAILS by counting (2^14 < 31^5)
+p=31 t=5 H=15 c=0 M=5: FAILS by counting (2^15 < 31^5)
+p=31 t=5 H=16 c=0 M=5: FAILS by counting (2^16 < 31^5)
+p=31 t=5 H=17 c=0 M=5: FAILS by counting (2^17 < 31^5)
+p=31 t=5 H=18 c=0 M=5: FAILS by counting (2^18 < 31^5)
+p=31 t=5 H=19 c=0 M=5: FAILS by counting (2^19 < 31^5)
+p=31 t=5 H=20 c=0 M=5: FAILS by counting (2^20 < 31^5)
+p=31 t=5 H=21 c=0 M=5: FAILS by counting (2^21 < 31^5)
+p=31 t=5 H=22 c=0 M=5: FAILS by counting (2^22 < 31^5)
+p=31 t=5 H=23 c=0 M=5: FAILS by counting (2^23 < 31^5)
+p=31 t=5 H=24 c=0 M=5: FAILS by counting (2^24 < 31^5)
+p=31 t=5 H=25 c=0 M=5 k=0: FAILS  class K=1: A missing=11567544, C miss=11567544 [AGREE]
+    A: A p=31 t=5 H=25 c=0 M=5 K=1 missing=11567544 NOT_COVERED [0.05s]
+    C: C p=31 t=5 H=25 M=5 K=1 Kmodpc=0 miss=11567544 UNCOVERED 0.05s
+p=31 t=5 H=26 c=0 M=5 k=0: FAILS  class K=1: A missing=4565402, C miss=4565402 [AGREE]
+    A: A p=31 t=5 H=26 c=0 M=5 K=1 missing=4565402 NOT_COVERED [0.04s]
+    C: C p=31 t=5 H=26 M=5 K=1 Kmodpc=0 miss=4565402 UNCOVERED 0.06s
+p=31 t=5 H=27 c=0 M=5 k=0: FAILS  class K=1: A missing=684050, C miss=684050 [AGREE]
+    A: A p=31 t=5 H=27 c=0 M=5 K=1 missing=684050 NOT_COVERED [0.02s]
+    C: C p=31 t=5 H=27 M=5 K=1 Kmodpc=0 miss=684050 UNCOVERED 0.07s
+p=31 t=5 H=28 c=0 M=5 k=0: FAILS  class K=1: A missing=18070, C miss=18070 [AGREE]
+    A: A p=31 t=5 H=28 c=0 M=5 K=1 missing=18070 NOT_COVERED [0.06s]
+    C: C p=31 t=5 H=28 M=5 K=1 Kmodpc=0 miss=18070 UNCOVERED 0.06s
+p=31 t=5 H=29 c=0 M=5 k=0: FAILS  class K=1: A missing=10, C miss=10 [AGREE]
+    A: A p=31 t=5 H=29 c=0 M=5 K=1 missing=10 NOT_COVERED [0.04s]
+    C: C p=31 t=5 H=29 M=5 K=1 Kmodpc=0 miss=10 UNCOVERED 0.06s
+p=31 t=5 H=30 c=0 M=5 k=0: HOLDS
+    SUMMARY A p=31 t=5 H=30 c=0 M=5 k=0 mode=all nK=1 fail=0 worst_missing=0 ALL_COVERED total=0.0s
+    END C p=31 t=5 H=30 nK=1 bad=0 ALL_COVERED 0.1s
+    A p=31 t=5 H=30 c=0 M=5 K=1 missing=0 COVERED [0.01s]
+    C p=31 t=5 H=30 M=5 K=3 Kmodpc=0 miss=0 COVERED 0.06s
+# wall=1.250 s user=0.357 s sys=0.051 s
+# end: 2026-10-13 06:47:20 UTC

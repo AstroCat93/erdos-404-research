@@ -1,0 +1,4 @@
+# cmd: /tmp/r3_R3N/verify_witness_gmp /tmp/r3_R3N/w594_90394.txt 594 90394
+terms=44801 min=594 max=90397 v2(sum)=90394 bits=1357890 v2(a!)=590 g>=89804
+check v2(sum) >= 90394: True
+VERIFIED

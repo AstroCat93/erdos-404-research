@@ -1,0 +1,148 @@
+# command: env R3C_BIN=/tmp/r3_R3C/bin python3 code/round3/R3C/scan_r3.py 31 5 30 39 --all
+# cwd: /home/user/erdos-404-research  host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz
+# start: 2026-10-13 07:30:00 UTC
+# scan p=31 t=5 H=30..39 rho0=6
+p=31 t=5 H=30 c=0 M=5 k=0: HOLDS
+    SUMMARY A p=31 t=5 H=30 c=0 M=5 k=0 mode=all nK=1 fail=0 worst_missing=0 ALL_COVERED total=0.1s
+    END C p=31 t=5 H=30 nK=1 bad=0 ALL_COVERED 0.0s
+    A p=31 t=5 H=30 c=0 M=5 K=1 missing=0 COVERED [0.06s]
+    C p=31 t=5 H=30 M=5 K=3 Kmodpc=0 miss=0 COVERED 0.05s
+p=31 t=5 H=31 c=0 M=5 k=0: HOLDS
+    SUMMARY A p=31 t=5 H=31 c=0 M=5 k=0 mode=all nK=1 fail=0 worst_missing=0 ALL_COVERED total=0.0s
+    END C p=31 t=5 H=31 nK=1 bad=0 ALL_COVERED 0.0s
+    A p=31 t=5 H=31 c=0 M=5 K=1 missing=0 COVERED [0.04s]
+    C p=31 t=5 H=31 M=5 K=3 Kmodpc=0 miss=0 COVERED 0.05s
+p=31 t=5 H=32 c=1 M=6: FAILS by Lemma 10.11 ((H-1) mod p = 0 < rho0 = 6)
+p=31 t=5 H=33 c=1 M=6: FAILS by Lemma 10.11 ((H-1) mod p = 1 < rho0 = 6)
+p=31 t=5 H=34 c=1 M=6: FAILS by Lemma 10.11 ((H-1) mod p = 2 < rho0 = 6)
+p=31 t=5 H=35 c=1 M=6: FAILS by Lemma 10.11 ((H-1) mod p = 3 < rho0 = 6)
+p=31 t=5 H=36 c=1 M=6: FAILS by Lemma 10.11 ((H-1) mod p = 4 < rho0 = 6)
+p=31 t=5 H=37 c=1 M=6: FAILS by Lemma 10.11 ((H-1) mod p = 5 < rho0 = 6)
+p=31 t=5 H=38 c=1 M=6 k=1: HOLDS
+    SUMMARY A p=31 t=5 H=38 c=1 M=6 k=1 mode=all nK=30 fail=0 worst_missing=0 ALL_COVERED total=23.1s
+    END C p=31 t=5 H=38 nK=30 bad=0 ALL_COVERED 31.7s
+    A p=31 t=5 H=38 c=1 M=6 K=1 missing=0 COVERED [0.87s]
+    A p=31 t=5 H=38 c=1 M=6 K=2 missing=0 COVERED [0.77s]
+    A p=31 t=5 H=38 c=1 M=6 K=3 missing=0 COVERED [0.81s]
+    A p=31 t=5 H=38 c=1 M=6 K=4 missing=0 COVERED [0.76s]
+    A p=31 t=5 H=38 c=1 M=6 K=5 missing=0 COVERED [0.85s]
+    A p=31 t=5 H=38 c=1 M=6 K=6 missing=0 COVERED [0.79s]
+    A p=31 t=5 H=38 c=1 M=6 K=7 missing=0 COVERED [0.69s]
+    A p=31 t=5 H=38 c=1 M=6 K=8 missing=0 COVERED [0.51s]
+    A p=31 t=5 H=38 c=1 M=6 K=9 missing=0 COVERED [0.79s]
+    A p=31 t=5 H=38 c=1 M=6 K=10 missing=0 COVERED [0.89s]
+    A p=31 t=5 H=38 c=1 M=6 K=11 missing=0 COVERED [0.58s]
+    A p=31 t=5 H=38 c=1 M=6 K=12 missing=0 COVERED [0.75s]
+    A p=31 t=5 H=38 c=1 M=6 K=13 missing=0 COVERED [0.70s]
+    A p=31 t=5 H=38 c=1 M=6 K=14 missing=0 COVERED [0.74s]
+    A p=31 t=5 H=38 c=1 M=6 K=15 missing=0 COVERED [0.83s]
+    A p=31 t=5 H=38 c=1 M=6 K=16 missing=0 COVERED [0.80s]
+    A p=31 t=5 H=38 c=1 M=6 K=17 missing=0 COVERED [0.66s]
+    A p=31 t=5 H=38 c=1 M=6 K=18 missing=0 COVERED [0.72s]
+    A p=31 t=5 H=38 c=1 M=6 K=19 missing=0 COVERED [0.85s]
+    A p=31 t=5 H=38 c=1 M=6 K=20 missing=0 COVERED [0.78s]
+    A p=31 t=5 H=38 c=1 M=6 K=21 missing=0 COVERED [0.98s]
+    A p=31 t=5 H=38 c=1 M=6 K=22 missing=0 COVERED [0.90s]
+    A p=31 t=5 H=38 c=1 M=6 K=23 missing=0 COVERED [0.79s]
+    A p=31 t=5 H=38 c=1 M=6 K=24 missing=0 COVERED [0.81s]
+    A p=31 t=5 H=38 c=1 M=6 K=25 missing=0 COVERED [0.76s]
+    A p=31 t=5 H=38 c=1 M=6 K=26 missing=0 COVERED [0.73s]
+    A p=31 t=5 H=38 c=1 M=6 K=27 missing=0 COVERED [0.81s]
+    A p=31 t=5 H=38 c=1 M=6 K=28 missing=0 COVERED [0.72s]
+    A p=31 t=5 H=38 c=1 M=6 K=29 missing=0 COVERED [0.72s]
+    A p=31 t=5 H=38 c=1 M=6 K=30 missing=0 COVERED [0.71s]
+    C p=31 t=5 H=38 M=6 K=63 Kmodpc=1 miss=0 COVERED 1.07s
+    C p=31 t=5 H=38 M=6 K=64 Kmodpc=2 miss=0 COVERED 1.10s
+    C p=31 t=5 H=38 M=6 K=65 Kmodpc=3 miss=0 COVERED 0.88s
+    C p=31 t=5 H=38 M=6 K=66 Kmodpc=4 miss=0 COVERED 1.24s
+    C p=31 t=5 H=38 M=6 K=67 Kmodpc=5 miss=0 COVERED 1.19s
+    C p=31 t=5 H=38 M=6 K=68 Kmodpc=6 miss=0 COVERED 0.87s
+    C p=31 t=5 H=38 M=6 K=69 Kmodpc=7 miss=0 COVERED 1.07s
+    C p=31 t=5 H=38 M=6 K=70 Kmodpc=8 miss=0 COVERED 0.98s
+    C p=31 t=5 H=38 M=6 K=71 Kmodpc=9 miss=0 COVERED 0.91s
+    C p=31 t=5 H=38 M=6 K=72 Kmodpc=10 miss=0 COVERED 1.15s
+    C p=31 t=5 H=38 M=6 K=73 Kmodpc=11 miss=0 COVERED 1.24s
+    C p=31 t=5 H=38 M=6 K=74 Kmodpc=12 miss=0 COVERED 1.18s
+    C p=31 t=5 H=38 M=6 K=75 Kmodpc=13 miss=0 COVERED 0.90s
+    C p=31 t=5 H=38 M=6 K=76 Kmodpc=14 miss=0 COVERED 1.01s
+    C p=31 t=5 H=38 M=6 K=77 Kmodpc=15 miss=0 COVERED 0.99s
+    C p=31 t=5 H=38 M=6 K=78 Kmodpc=16 miss=0 COVERED 1.06s
+    C p=31 t=5 H=38 M=6 K=79 Kmodpc=17 miss=0 COVERED 0.77s
+    C p=31 t=5 H=38 M=6 K=80 Kmodpc=18 miss=0 COVERED 1.06s
+    C p=31 t=5 H=38 M=6 K=81 Kmodpc=19 miss=0 COVERED 0.74s
+    C p=31 t=5 H=38 M=6 K=82 Kmodpc=20 miss=0 COVERED 0.77s
+    C p=31 t=5 H=38 M=6 K=83 Kmodpc=21 miss=0 COVERED 1.03s
+    C p=31 t=5 H=38 M=6 K=84 Kmodpc=22 miss=0 COVERED 1.13s
+    C p=31 t=5 H=38 M=6 K=85 Kmodpc=23 miss=0 COVERED 1.02s
+    C p=31 t=5 H=38 M=6 K=86 Kmodpc=24 miss=0 COVERED 1.08s
+    C p=31 t=5 H=38 M=6 K=87 Kmodpc=25 miss=0 COVERED 1.25s
+    C p=31 t=5 H=38 M=6 K=88 Kmodpc=26 miss=0 COVERED 1.16s
+    C p=31 t=5 H=38 M=6 K=89 Kmodpc=27 miss=0 COVERED 1.25s
+    C p=31 t=5 H=38 M=6 K=90 Kmodpc=28 miss=0 COVERED 1.25s
+    C p=31 t=5 H=38 M=6 K=91 Kmodpc=29 miss=0 COVERED 1.15s
+    C p=31 t=5 H=38 M=6 K=92 Kmodpc=30 miss=0 COVERED 1.16s
+p=31 t=5 H=39 c=1 M=6 k=1: HOLDS
+    SUMMARY A p=31 t=5 H=39 c=1 M=6 k=1 mode=all nK=30 fail=0 worst_missing=0 ALL_COVERED total=25.4s
+    END C p=31 t=5 H=39 nK=30 bad=0 ALL_COVERED 36.5s
+    A p=31 t=5 H=39 c=1 M=6 K=1 missing=0 COVERED [0.86s]
+    A p=31 t=5 H=39 c=1 M=6 K=2 missing=0 COVERED [0.85s]
+    A p=31 t=5 H=39 c=1 M=6 K=3 missing=0 COVERED [0.79s]
+    A p=31 t=5 H=39 c=1 M=6 K=4 missing=0 COVERED [0.80s]
+    A p=31 t=5 H=39 c=1 M=6 K=5 missing=0 COVERED [0.85s]
+    A p=31 t=5 H=39 c=1 M=6 K=6 missing=0 COVERED [0.75s]
+    A p=31 t=5 H=39 c=1 M=6 K=7 missing=0 COVERED [0.85s]
+    A p=31 t=5 H=39 c=1 M=6 K=8 missing=0 COVERED [0.86s]
+    A p=31 t=5 H=39 c=1 M=6 K=9 missing=0 COVERED [0.75s]
+    A p=31 t=5 H=39 c=1 M=6 K=10 missing=0 COVERED [0.71s]
+    A p=31 t=5 H=39 c=1 M=6 K=11 missing=0 COVERED [0.84s]
+    A p=31 t=5 H=39 c=1 M=6 K=12 missing=0 COVERED [0.91s]
+    A p=31 t=5 H=39 c=1 M=6 K=13 missing=0 COVERED [0.84s]
+    A p=31 t=5 H=39 c=1 M=6 K=14 missing=0 COVERED [0.89s]
+    A p=31 t=5 H=39 c=1 M=6 K=15 missing=0 COVERED [0.73s]
+    A p=31 t=5 H=39 c=1 M=6 K=16 missing=0 COVERED [1.00s]
+    A p=31 t=5 H=39 c=1 M=6 K=17 missing=0 COVERED [0.85s]
+    A p=31 t=5 H=39 c=1 M=6 K=18 missing=0 COVERED [0.99s]
+    A p=31 t=5 H=39 c=1 M=6 K=19 missing=0 COVERED [0.80s]
+    A p=31 t=5 H=39 c=1 M=6 K=20 missing=0 COVERED [0.83s]
+    A p=31 t=5 H=39 c=1 M=6 K=21 missing=0 COVERED [0.96s]
+    A p=31 t=5 H=39 c=1 M=6 K=22 missing=0 COVERED [1.01s]
+    A p=31 t=5 H=39 c=1 M=6 K=23 missing=0 COVERED [0.86s]
+    A p=31 t=5 H=39 c=1 M=6 K=24 missing=0 COVERED [0.79s]
+    A p=31 t=5 H=39 c=1 M=6 K=25 missing=0 COVERED [0.79s]
+    A p=31 t=5 H=39 c=1 M=6 K=26 missing=0 COVERED [0.84s]
+    A p=31 t=5 H=39 c=1 M=6 K=27 missing=0 COVERED [0.86s]
+    A p=31 t=5 H=39 c=1 M=6 K=28 missing=0 COVERED [0.85s]
+    A p=31 t=5 H=39 c=1 M=6 K=29 missing=0 COVERED [0.92s]
+    A p=31 t=5 H=39 c=1 M=6 K=30 missing=0 COVERED [0.77s]
+    C p=31 t=5 H=39 M=6 K=63 Kmodpc=1 miss=0 COVERED 1.18s
+    C p=31 t=5 H=39 M=6 K=64 Kmodpc=2 miss=0 COVERED 1.28s
+    C p=31 t=5 H=39 M=6 K=65 Kmodpc=3 miss=0 COVERED 1.28s
+    C p=31 t=5 H=39 M=6 K=66 Kmodpc=4 miss=0 COVERED 1.22s
+    C p=31 t=5 H=39 M=6 K=67 Kmodpc=5 miss=0 COVERED 1.13s
+    C p=31 t=5 H=39 M=6 K=68 Kmodpc=6 miss=0 COVERED 1.05s
+    C p=31 t=5 H=39 M=6 K=69 Kmodpc=7 miss=0 COVERED 1.11s
+    C p=31 t=5 H=39 M=6 K=70 Kmodpc=8 miss=0 COVERED 1.75s
+    C p=31 t=5 H=39 M=6 K=71 Kmodpc=9 miss=0 COVERED 1.14s
+    C p=31 t=5 H=39 M=6 K=72 Kmodpc=10 miss=0 COVERED 1.31s
+    C p=31 t=5 H=39 M=6 K=73 Kmodpc=11 miss=0 COVERED 1.48s
+    C p=31 t=5 H=39 M=6 K=74 Kmodpc=12 miss=0 COVERED 1.70s
+    C p=31 t=5 H=39 M=6 K=75 Kmodpc=13 miss=0 COVERED 1.28s
+    C p=31 t=5 H=39 M=6 K=76 Kmodpc=14 miss=0 COVERED 1.40s
+    C p=31 t=5 H=39 M=6 K=77 Kmodpc=15 miss=0 COVERED 1.14s
+    C p=31 t=5 H=39 M=6 K=78 Kmodpc=16 miss=0 COVERED 1.10s
+    C p=31 t=5 H=39 M=6 K=79 Kmodpc=17 miss=0 COVERED 1.06s
+    C p=31 t=5 H=39 M=6 K=80 Kmodpc=18 miss=0 COVERED 1.32s
+    C p=31 t=5 H=39 M=6 K=81 Kmodpc=19 miss=0 COVERED 1.07s
+    C p=31 t=5 H=39 M=6 K=82 Kmodpc=20 miss=0 COVERED 1.20s
+    C p=31 t=5 H=39 M=6 K=83 Kmodpc=21 miss=0 COVERED 1.06s
+    C p=31 t=5 H=39 M=6 K=84 Kmodpc=22 miss=0 COVERED 1.05s
+    C p=31 t=5 H=39 M=6 K=85 Kmodpc=23 miss=0 COVERED 1.09s
+    C p=31 t=5 H=39 M=6 K=86 Kmodpc=24 miss=0 COVERED 1.12s
+    C p=31 t=5 H=39 M=6 K=87 Kmodpc=25 miss=0 COVERED 1.19s
+    C p=31 t=5 H=39 M=6 K=88 Kmodpc=26 miss=0 COVERED 1.13s
+    C p=31 t=5 H=39 M=6 K=89 Kmodpc=27 miss=0 COVERED 1.09s
+    C p=31 t=5 H=39 M=6 K=90 Kmodpc=28 miss=0 COVERED 1.08s
+    C p=31 t=5 H=39 M=6 K=91 Kmodpc=29 miss=0 COVERED 1.18s
+    C p=31 t=5 H=39 M=6 K=92 Kmodpc=30 miss=0 COVERED 1.23s
+# wall=117.547 s user=58.481 s sys=0.083 s
+# end: 2026-10-13 07:31:58 UTC

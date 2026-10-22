@@ -1,0 +1,16 @@
+# cmd (lead, 2026-10-13 18:27:27 UTC): three exact verifiers on /tmp/r3_R3N/w17662_221465.txt (a=17662, K=221465)
+## track verifier 1 (GMP)
+terms=101480 min=17662 max=221465 v2(sum)=221465 bits=3612996 v2(a!)=17653 g>=203812
+check v2(sum) >= 221465: True
+VERIFIED
+## track verifier 2 (python ints)
+terms=101480 min=17662 max=221465 v2(sum)=221465 bits(sum)=3612996 time=15.5s
+check v2(sum) >= 221465: True
+v2(a!)=17653 => f(17662,2) >= 221465, g >= 203812
+VERIFIED
+## checker verifier (gmpy2, Horner + odd-part methods)
+file=/tmp/r3_R3N/w17662_221465.txt sha256(text)=9e37ef6dce001e91f388eb81e85c253fbe701cd4389fad3028f682cb2e81be66 terms=101480 min=17662 max=221465
+method H (Horner, exact): v2(S)=221465 bits(S)=3612996 time=3.7s
+method M (mod 2^(K+64), odd parts): v2(S)=221465 time=1.5s
+v2(a!)=17653; claimed f(17662,2) >= 221465, g >= 203812
+VERIFIED (both methods, v2(S) = K exactly)

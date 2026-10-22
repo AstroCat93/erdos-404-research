@@ -1,0 +1,58 @@
+# a=594 lower rungs: v2(594!)=590; decide g(594,2) >= G for G=1024,2048,4096 with two programs
+# (i) /tmp/r3_S0/bin/sumform_big = clang -O3 -march=native code/D/sumform_big.c (sha256 2db737da2d71bacb942fe49a23a52407e932324617b9bc619e8eb1470552a580; population cap 2^17)
+# (ii) K. Kitamura's scripts/p2_scaled_gate_search.py (commit 32697193, sha256 aea2342bd7c1afc5fff5a7e63bb2b03ea3da76a4f9184358b55e32ada7058c31), run unmodified with python3 -I
+# start 2026-10-13T06:14:49Z
+## G=1024
+# command: nice -n 10 /tmp/r3_S0/bin/sumform_big 594 1614
+a=594 K=1614 reachable=1 (final stage N=1619, maxpop=2728)
+#   wall .302147731 s
+# command: nice -n 10 python3 -I /tmp/r3_S0/kita/erdos-404-p2-landscape/scripts/p2_scaled_gate_search.py one --a 594 --extra-target 1024
+Exact decision for g(594,2) >= 1024
+Equivalently, f(594,2) >= 1614
+Result: witness exists
+Maximum reachable states seen: 1364
+Steps: 513
+Remaining bits: 0
+Last reachable count: 2
+Last low residues: [0, 1]
+#   wall .097401400 s
+## G=2048
+# command: nice -n 10 /tmp/r3_S0/bin/sumform_big 594 2638
+a=594 K=2638 reachable=1 (final stage N=2643, maxpop=3712)
+#   wall .527753988 s
+# command: nice -n 10 python3 -I /tmp/r3_S0/kita/erdos-404-p2-landscape/scripts/p2_scaled_gate_search.py one --a 594 --extra-target 2048
+Exact decision for g(594,2) >= 2048
+Equivalently, f(594,2) >= 2638
+Result: witness exists
+Maximum reachable states seen: 1856
+Steps: 1025
+Remaining bits: 0
+Last reachable count: 2
+Last low residues: [0, 1]
+#   wall .204650904 s
+## G=4096
+# command: nice -n 10 /tmp/r3_S0/bin/sumform_big 594 4686
+a=594 K=4686 reachable=1 (final stage N=4691, maxpop=79412)
+#   wall 2.064261107 s
+# command: nice -n 10 python3 -I /tmp/r3_S0/kita/erdos-404-p2-landscape/scripts/p2_scaled_gate_search.py one --a 594 --extra-target 4096
+Exact decision for g(594,2) >= 4096
+Equivalently, f(594,2) >= 4686
+Result: witness exists
+Maximum reachable states seen: 39706
+Steps: 2049
+Remaining bits: 0
+Last reachable count: 2
+Last low residues: [0, 1]
+#   wall 1.768767293 s
+# end 2026-10-13T06:14:54Z
+## G=8192 (Kitamura's program only)
+# command: nice -n 10 python3 -I /tmp/r3_S0/kita/erdos-404-p2-landscape/scripts/p2_scaled_gate_search.py one --a 594 --extra-target 8192
+Exact decision for g(594,2) >= 8192
+Equivalently, f(594,2) >= 8782
+Result: witness exists
+Maximum reachable states seen: 222270
+Steps: 4097
+Remaining bits: 0
+Last reachable count: 2
+Last low residues: [0, 1]
+#   wall 24.650022211 s; end 2026-10-13T06:15:26Z

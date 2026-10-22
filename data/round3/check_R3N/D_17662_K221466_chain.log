@@ -1,0 +1,16 @@
+# cmd: bash code/round3/check_R3N/chain_17662.sh : jobs 'timeout 1790 nice -n 10 /tmp/r3_check_R3N/dfsD 17662 221466 -p 120 START inf 1000' with START = previous NEXT (2026-10-13T15:57:47Z)
+## job 1: START=0 (2026-10-13T15:57:47Z)
+dfsD a=17662 K=221466
+N_K=221472 tables~2.60 GB
+RESULT a=17662 K=221466 reachable=2 steps=28026218959 alive_even=4671039051 surv=178734426 updates=722641294 windows=1600 faccheck=200 time=1213.5s
+PARTITION L=120 range=[0,inf) processed=[0,3019) stopped=1 complete_shallow=0 subtrees_seen=3020 deep_trees=3019 shallow_steps=317506787 shallow_alive_even=52921362 deep_steps=27708712172 deep_alive_even=4618117689 deep_surv=177009816 best=221465
+STOPPED by time limit: NEXT=3019 (start the next job there)
+## job 1 exit=0 wall=1214 s
+## job 2: START=3019 (2026-10-13T16:18:01Z)
+dfsD a=17662 K=221466
+N_K=221472 tables~2.60 GB
+RESULT a=17662 K=221466 reachable=0 steps=7858722756 alive_even=1309788132 surv=49384342 updates=201294002 windows=890 faccheck=112 time=429.6s
+PARTITION L=120 range=[3019,inf) processed=[3019,20000) stopped=0 complete_shallow=1 subtrees_seen=20000 deep_trees=16981 shallow_steps=1004795800 shallow_alive_even=167472633 deep_steps=6853926956 deep_alive_even=1142315499 deep_surv=43601336 best=131070
+PART DONE: no success in subtrees [3019,20000); max death valuation seen = 131070
+## job 2 exit=0 wall=429 s
+## CHAIN COMPLETE

@@ -1,0 +1,40 @@
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w4_cw5_adv.py 3 81 40 20 6 4 win 5 4
+## start 2026-10-14T02:26:08Z
+RESULT w4_cw5_adv p=3 src=win n=20 H=6 H2=4 systems=40 (m>0 in 19): PSD fails 0/40; KKT certificate fails 0; eps~(q*) != m: 0; 'm=0 iff complete' fails 0; attacks below m: 0 (best descent eps~/m = 1.0; min exact random eps~/m = 2.5772889417360285) | SCOPE: W' covers mod p^D' in 23; of these, sharp eps^(q*,q'_unif-res) = 0 while m(W;D') > 0 in 6 (nonzero sharp eps despite cover: 0)
+## exit 0, wall 3 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w4_cw5_adv.py 3 82 40 0 6 4 rand 4 4
+## start 2026-10-14T02:26:11Z
+RESULT w4_cw5_adv p=3 src=rand n=0 H=6 H2=4 systems=40 (m>0 in 6): PSD fails 0/40; KKT certificate fails 0; eps~(q*) != m: 0; 'm=0 iff complete' fails 0; attacks below m: 0 (best descent eps~/m = 1.0; min exact random eps~/m = 3.6743801652892563) | SCOPE: W' covers mod p^D' in 21; of these, sharp eps^(q*,q'_unif-res) = 0 while m(W;D') > 0 in 2 (nonzero sharp eps despite cover: 0)
+## exit 0, wall 3 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w4_cw5_adv.py 5 83 40 20 6 5 win 5 4
+## start 2026-10-14T02:26:14Z
+RESULT w4_cw5_adv p=5 src=win n=20 H=6 H2=5 systems=40 (m>0 in 20): PSD fails 0/40; KKT certificate fails 0; eps~(q*) != m: 0; 'm=0 iff complete' fails 0; attacks below m: 0 (best descent eps~/m = 1.0; min exact random eps~/m = 2.3470638137430484) | SCOPE: W' covers mod p^D' in 15; of these, sharp eps^(q*,q'_unif-res) = 0 while m(W;D') > 0 in 8 (nonzero sharp eps despite cover: 0)
+## exit 0, wall 3 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w4_cw5_adv.py 5 84 30 0 7 4 rand 4 3
+## start 2026-10-14T02:26:17Z
+RESULT w4_cw5_adv p=5 src=rand n=0 H=7 H2=4 systems=30 (m>0 in 11): PSD fails 0/30; KKT certificate fails 0; eps~(q*) != m: 0; 'm=0 iff complete' fails 0; attacks below m: 0 (best descent eps~/m = 1.0; min exact random eps~/m = 3.5616057629748017) | SCOPE: W' covers mod p^D' in 11; of these, sharp eps^(q*,q'_unif-res) = 0 while m(W;D') > 0 in 0 (nonzero sharp eps despite cover: 0)
+## exit 0, wall 2 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w4_cw5_adv.py 7 85 40 21 7 7 win 4 4
+## start 2026-10-14T02:26:19Z
+RESULT w4_cw5_adv p=7 src=win n=21 H=7 H2=7 systems=40 (m>0 in 16): PSD fails 0/40; KKT certificate fails 0; eps~(q*) != m: 0; 'm=0 iff complete' fails 0; attacks below m: 0 (best descent eps~/m = 1.0; min exact random eps~/m = 3.2572026592135312) | SCOPE: W' covers mod p^D' in 23; of these, sharp eps^(q*,q'_unif-res) = 0 while m(W;D') > 0 in 11 (nonzero sharp eps despite cover: 0)
+## exit 0, wall 3 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w4_cw5_adv.py 7 86 20 0 7 4 rand 3 3
+## start 2026-10-14T02:26:22Z
+RESULT w4_cw5_adv p=7 src=rand n=0 H=7 H2=4 systems=20 (m>0 in 11): PSD fails 0/20; KKT certificate fails 0; eps~(q*) != m: 0; 'm=0 iff complete' fails 0; attacks below m: 0 (best descent eps~/m = 1.0; min exact random eps~/m = 3.9591992297382337) | SCOPE: W' covers mod p^D' in 4; of these, sharp eps^(q*,q'_unif-res) = 0 while m(W;D') > 0 in 1 (nonzero sharp eps despite cover: 0)
+## exit 0, wall 2 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w4_cw5_adv.py 11 87 30 22 8 8 win 3 3
+## start 2026-10-14T02:26:24Z
+RESULT w4_cw5_adv p=11 src=win n=22 H=8 H2=8 systems=30 (m>0 in 9): PSD fails 0/30; KKT certificate fails 0; eps~(q*) != m: 0; 'm=0 iff complete' fails 0; attacks below m: 0 (best descent eps~/m = 1.0; min exact random eps~/m = 3.7403150951645) | SCOPE: W' covers mod p^D' in 15; of these, sharp eps^(q*,q'_unif-res) = 0 while m(W;D') > 0 in 2 (nonzero sharp eps despite cover: 0)
+## exit 0, wall 3 s
+
+## python3 /home/user/erdos-404-research/code/round4/verify_M4D_logic/w4_cw5_adv.py 13 88 20 26 8 8 win 3 3
+## start 2026-10-14T02:26:27Z
+RESULT w4_cw5_adv p=13 src=win n=26 H=8 H2=8 systems=20 (m>0 in 1): PSD fails 0/20; KKT certificate fails 0; eps~(q*) != m: 0; 'm=0 iff complete' fails 0; attacks below m: 0 (best descent eps~/m = 1.0; min exact random eps~/m = 9.206829508783565) | SCOPE: W' covers mod p^D' in 10; of these, sharp eps^(q*,q'_unif-res) = 0 while m(W;D') > 0 in 0 (nonzero sharp eps despite cover: 0)
+## exit 0, wall 2 s
+

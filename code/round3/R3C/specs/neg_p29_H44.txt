@@ -1,0 +1,11 @@
+# negative control: depth-7 positions at H = 44 (no H = 44 logs in data/round3/R3C or p29_t7;
+# the completion runs in p29_t7_H44/ cover only K'' <= 3 and find K'' = 3 NOT covered)
+29 8
+require A,D
+uniform 1 7
+uniform 2 13
+uniform 3 19
+uniform 4 24
+uniform 5 29
+uniform 6 40
+pos 7 44 1 28

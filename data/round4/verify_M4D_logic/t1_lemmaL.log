@@ -1,0 +1,79 @@
+## python3 t1_lemmaL.py 3 11 30 9 8 6
+## start 2026-10-14T00:58:26Z
+RESULT t1 p=3 seed=11 n=9 H=8 H2=6 forced=(): samples=30 (with D=0: 0, D2=0: 0), parents=206 (full lift 0, non-full 206, childless 109); (F2) aliveness fails=0, (F2) target-formula fails=0, LemmaL set-equality fails=0, size fails=0, coset-bijection fails=0, full<=>cover fails=0
+## exit 0, wall 0 s
+
+## python3 t1_lemmaL.py 3 12 30 12 10 6
+## start 2026-10-14T00:58:26Z
+RESULT t1 p=3 seed=12 n=12 H=10 H2=6 forced=(): samples=30 (with D=0: 0, D2=0: 0), parents=401 (full lift 9, non-full 392, childless 149); (F2) aliveness fails=0, (F2) target-formula fails=0, LemmaL set-equality fails=0, size fails=0, coset-bijection fails=0, full<=>cover fails=0
+## exit 0, wall 4 s
+
+## python3 t1_lemmaL.py 5 13 30 10 9 8
+## start 2026-10-14T00:58:30Z
+RESULT t1 p=5 seed=13 n=10 H=9 H2=8 forced=(): samples=30 (with D=0: 0, D2=0: 0), parents=800 (full lift 16, non-full 784, childless 426); (F2) aliveness fails=0, (F2) target-formula fails=0, LemmaL set-equality fails=0, size fails=0, coset-bijection fails=0, full<=>cover fails=0
+## exit 0, wall 2 s
+
+## python3 t1_lemmaL.py 5 14 20 15 10 8
+## start 2026-10-14T00:58:32Z
+RESULT t1 p=5 seed=14 n=15 H=10 H2=8 forced=(): samples=20 (with D=0: 0, D2=0: 0), parents=1660 (full lift 175, non-full 1485, childless 827); (F2) aliveness fails=0, (F2) target-formula fails=0, LemmaL set-equality fails=0, size fails=0, coset-bijection fails=0, full<=>cover fails=0
+## exit 0, wall 12 s
+
+## python3 t1_lemmaL.py 7 15 30 14 10 8
+## start 2026-10-14T00:58:44Z
+RESULT t1 p=7 seed=15 n=14 H=10 H2=8 forced=(): samples=30 (with D=0: 0, D2=0: 0), parents=4032 (full lift 2262, non-full 1770, childless 936); (F2) aliveness fails=0, (F2) target-formula fails=0, LemmaL set-equality fails=0, size fails=0, coset-bijection fails=0, full<=>cover fails=0
+## exit 0, wall 23 s
+
+## python3 t1_lemmaL.py 7 16 15 21 12 10
+## start 2026-10-14T00:59:07Z
+RESULT t1 p=7 seed=16 n=21 H=12 H2=10 forced=(): samples=15 (with D=0: 0, D2=0: 0), parents=2877 (full lift 1217, non-full 1660, childless 715); (F2) aliveness fails=0, (F2) target-formula fails=0, LemmaL set-equality fails=0, size fails=0, coset-bijection fails=0, full<=>cover fails=0
+## exit 0, wall 131 s
+
+## python3 t1_lemmaL.py 7 17 40 14 8 3
+## start 2026-10-14T01:01:18Z
+RESULT t1 p=7 seed=17 n=14 H=8 H2=3 forced=(): samples=40 (with D=0: 0, D2=0: 18), parents=5158 (full lift 3008, non-full 2150, childless 1677); (F2) aliveness fails=0, (F2) target-formula fails=0, LemmaL set-equality fails=0, size fails=0, coset-bijection fails=0, full<=>cover fails=0
+## exit 0, wall 6 s
+
+## python3 t1_lemmaL.py 13 18 40 13 6 4
+## start 2026-10-14T01:01:24Z
+RESULT t1 p=13 seed=18 n=13 H=6 H2=4 forced=(): samples=40 (with D=0: 31, D2=0: 22), parents=7479 (full lift 7055, non-full 424, childless 424); (F2) aliveness fails=0, (F2) target-formula fails=0, LemmaL set-equality fails=0, size fails=0, coset-bijection fails=0, full<=>cover fails=0
+## exit 0, wall 3 s
+
+## python3 t1_lemmaL.py 11 19 20 11 10 9
+## start 2026-10-14T01:01:27Z
+RESULT t1 p=11 seed=19 n=11 H=10 H2=9 forced=(): samples=20 (with D=0: 3, D2=0: 5), parents=2097 (full lift 1665, non-full 432, childless 292); (F2) aliveness fails=0, (F2) target-formula fails=0, LemmaL set-equality fails=0, size fails=0, coset-bijection fails=0, full<=>cover fails=0
+## exit 0, wall 9 s
+
+## python3 t1_lemmaL.py 7 20 20 14 10 8 200 0 16 3
+## start 2026-10-14T01:01:36Z
+RESULT t1 p=7 seed=20 n=14 H=10 H2=8 forced=((16, 3),): samples=20 (with D=0: 0, D2=0: 0), parents=4000 (full lift 45, non-full 3955, childless 3955); (F2) aliveness fails=0, (F2) target-formula fails=0, LemmaL set-equality fails=0, size fails=0, coset-bijection fails=0, full<=>cover fails=0
+## exit 0, wall 23 s
+
+## python3 t1_lemmaL.py 7 21 20 14 10 8 200 0 26 4
+## start 2026-10-14T01:01:59Z
+RESULT t1 p=7 seed=21 n=14 H=10 H2=8 forced=((26, 4),): samples=20 (with D=0: 0, D2=0: 0), parents=1360 (full lift 0, non-full 1360, childless 0); (F2) aliveness fails=0, (F2) target-formula fails=0, LemmaL set-equality fails=0, size fails=0, coset-bijection fails=0, full<=>cover fails=0
+## exit 0, wall 11 s
+
+## python3 t1_lemmaL.py 5 22 20 10 9 8 200 0 12 4
+## start 2026-10-14T01:02:10Z
+RESULT t1 p=5 seed=22 n=10 H=9 H2=8 forced=((12, 4),): samples=20 (with D=0: 0, D2=0: 0), parents=1120 (full lift 0, non-full 1120, childless 1120); (F2) aliveness fails=0, (F2) target-formula fails=0, LemmaL set-equality fails=0, size fails=0, coset-bijection fails=0, full<=>cover fails=0
+## exit 0, wall 3 s
+
+## python3 t1_lemmaL.py 3 23 20 9 8 6 200 0 12 5
+## start 2026-10-14T01:02:13Z
+## exit 143, wall 591 s
+
+## python3 t1_lemmaL.py 5 24 20 10 9 8 200 1
+## start 2026-10-14T01:12:04Z
+RESULT t1 NEG-CONTROL(2u) p=5 seed=24 n=10 H=9 H2=8 forced=(): samples=20 (with D=0: 0, D2=0: 0), parents=501 (full lift 7, non-full 494, childless 256); (F2) aliveness fails=0, (F2) target-formula fails=0, LemmaL set-equality fails=235, size fails=0, coset-bijection fails=0, full<=>cover fails=0
+## exit 0, wall 1 s
+
+## python3 t1_lemmaL.py 7 25 20 14 10 8 200 1
+## start 2026-10-14T01:12:05Z
+RESULT t1 NEG-CONTROL(2u) p=7 seed=25 n=14 H=10 H2=8 forced=(): samples=20 (with D=0: 0, D2=0: 0), parents=2469 (full lift 1112, non-full 1357, childless 621); (F2) aliveness fails=0, (F2) target-formula fails=0, LemmaL set-equality fails=729, size fails=0, coset-bijection fails=0, full<=>cover fails=0
+## exit 0, wall 12 s
+
+## python3 t1_lemmaL.py 3 23 20 9 8 6 200 0 14 3
+## start 2026-10-14T01:52:29Z
+RESULT t1 p=3 seed=23 n=9 H=8 H2=6 forced=((14, 3),): samples=20 (with D=0: 0, D2=0: 0), parents=120 (full lift 0, non-full 120, childless 78); (F2) aliveness fails=0, (F2) target-formula fails=0, LemmaL set-equality fails=0, size fails=0, coset-bijection fails=0, full<=>cover fails=0
+## exit 0, wall 1 s
+

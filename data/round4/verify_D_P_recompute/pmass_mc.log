@@ -1,0 +1,24 @@
+=== command: /tmp/r4_verify_D_P_recompute/thmP_test 7 6 34 35 21 40000 101 0 0 0 0 34
+=== start (UTC): 2026-10-14T03:37:47Z
+# thmP_test p=7 T=6 n0=34 N=35 L=21 samples=40000 forced depth 0..0 at i in [0,0], premise P(x,34)
+samples 40000 (skipped 0 for valuation >= L); P(x,34): 24951; of these P(x,35): 24951, not P(x,35): 0
+by max depth in (34,35]:  d=0: 20166 premise, 0 fail  d=1: 3938 premise, 0 fail  d=2: 725 premise, 0 fail  d=3: 103 premise, 0 fail  d=4: 15 premise, 0 fail  d=5: 4 premise, 0 fail
+samples with a gate deeper than T=6: 0 (fails among them: 0)
+RESULT violations of Theorem P (premise, no gate > T, but not P(x,N)): 0
+=== exit: 0   wall: 2.789429646 s
+=== command: /tmp/r4_verify_D_P_recompute/thmP_test 17 7 43 44 14 40000 102 0 0 0 0 43
+=== start (UTC): 2026-10-14T03:37:50Z
+# thmP_test p=17 T=7 n0=43 N=44 L=14 samples=40000 forced depth 0..0 at i in [0,0], premise P(x,43)
+samples 40000 (skipped 0 for valuation >= L); P(x,43): 30360; of these P(x,44): 30360, not P(x,44): 0
+by max depth in (43,44]:  d=0: 28084 premise, 0 fail  d=1: 2140 premise, 0 fail  d=2: 127 premise, 0 fail  d=3: 9 premise, 0 fail
+samples with a gate deeper than T=7: 0 (fails among them: 0)
+RESULT violations of Theorem P (premise, no gate > T, but not P(x,N)): 0
+=== exit: 0   wall: 1.761216058 s
+=== command: /tmp/r4_verify_D_P_recompute/thmP_test 19 6 35 36 13 40000 103 0 0 0 0 35
+=== start (UTC): 2026-10-14T03:37:52Z
+# thmP_test p=19 T=6 n0=35 N=36 L=13 samples=40000 forced depth 0..0 at i in [0,0], premise P(x,35)
+samples 40000 (skipped 0 for valuation >= L); P(x,35): 31099; of these P(x,36): 31099, not P(x,36): 0
+by max depth in (35,36]:  d=0: 29014 premise, 0 fail  d=1: 1984 premise, 0 fail  d=2: 94 premise, 0 fail  d=3: 7 premise, 0 fail
+samples with a gate deeper than T=6: 0 (fails among them: 0)
+RESULT violations of Theorem P (premise, no gate > T, but not P(x,N)): 0
+=== exit: 0   wall: .896363934 s

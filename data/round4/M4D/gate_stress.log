@@ -1,0 +1,96 @@
+=== command: python3 lift_gate_stress.py 13 72 25 26 26 2 start 8
+=== start (UTC): 2026-10-14T00:19:40Z
+RESULT gate_stress p=13 windows=[26,52,78,104) H=26 gate depth s=2 at n1+1 (start): samples=25 (censored 0): P(FL_0)=1.000 P(FL_1)=1.000 P(both)=1.000 P(opt-theta chain over W_0,W_1)=1.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 0.27 s
+=== command: python3 lift_gate_stress.py 13 72 25 26 26 2 mid 8
+=== start (UTC): 2026-10-14T00:19:41Z
+RESULT gate_stress p=13 windows=[26,52,78,104) H=26 gate depth s=2 at n1+13 (mid): samples=25 (censored 0): P(FL_0)=1.000 P(FL_1)=1.000 P(both)=1.000 P(opt-theta chain over W_0,W_1)=1.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 0.26 s
+=== command: python3 lift_gate_stress.py 13 73 25 26 26 3 start 8
+=== start (UTC): 2026-10-14T00:19:41Z
+RESULT gate_stress p=13 windows=[26,52,78,104) H=26 gate depth s=3 at n1+1 (start): samples=25 (censored 0): P(FL_0)=1.000 P(FL_1)=1.000 P(both)=1.000 P(opt-theta chain over W_0,W_1)=1.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 0.68 s
+=== command: python3 lift_gate_stress.py 13 73 25 26 26 3 mid 8
+=== start (UTC): 2026-10-14T00:19:42Z
+RESULT gate_stress p=13 windows=[26,52,78,104) H=26 gate depth s=3 at n1+13 (mid): samples=25 (censored 0): P(FL_0)=1.000 P(FL_1)=1.000 P(both)=1.000 P(opt-theta chain over W_0,W_1)=1.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 0.9 s
+=== command: python3 lift_gate_stress.py 13 74 25 26 26 4 start 8
+=== start (UTC): 2026-10-14T00:19:42Z
+RESULT gate_stress p=13 windows=[26,52,78,104) H=26 gate depth s=4 at n1+1 (start): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=1.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=0.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 6.42 s
+=== command: python3 lift_gate_stress.py 13 74 25 26 26 4 mid 8
+=== start (UTC): 2026-10-14T00:19:49Z
+RESULT gate_stress p=13 windows=[26,52,78,104) H=26 gate depth s=4 at n1+13 (mid): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=1.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=0.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 8.2 s
+=== command: python3 lift_gate_stress.py 13 75 25 26 26 5 start 8
+=== start (UTC): 2026-10-14T00:19:57Z
+RESULT gate_stress p=13 windows=[26,52,78,104) H=26 gate depth s=5 at n1+1 (start): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=1.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=0.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 99.91 s
+=== command: python3 lift_gate_stress.py 13 75 25 26 26 5 mid 8
+=== start (UTC): 2026-10-14T00:21:37Z
+RESULT gate_stress p=13 windows=[26,52,78,104) H=26 gate depth s=5 at n1+13 (mid): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=0.680 P(both)=0.000 P(opt-theta chain over W_0,W_1)=0.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 100.23 s
+=== command: python3 lift_gate_stress.py 11 82 25 22 22 2 start 9
+=== start (UTC): 2026-10-14T00:23:17Z
+RESULT gate_stress p=11 windows=[22,44,66,88) H=22 gate depth s=2 at n1+1 (start): samples=25 (censored 0): P(FL_0)=1.000 P(FL_1)=1.000 P(both)=1.000 P(opt-theta chain over W_0,W_1)=1.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 0.21 s
+=== command: python3 lift_gate_stress.py 11 82 25 22 22 2 mid 9
+=== start (UTC): 2026-10-14T00:23:17Z
+RESULT gate_stress p=11 windows=[22,44,66,88) H=22 gate depth s=2 at n1+11 (mid): samples=25 (censored 0): P(FL_0)=1.000 P(FL_1)=1.000 P(both)=1.000 P(opt-theta chain over W_0,W_1)=1.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 0.22 s
+=== command: python3 lift_gate_stress.py 11 83 25 22 22 3 start 9
+=== start (UTC): 2026-10-14T00:23:18Z
+RESULT gate_stress p=11 windows=[22,44,66,88) H=22 gate depth s=3 at n1+1 (start): samples=25 (censored 0): P(FL_0)=1.000 P(FL_1)=1.000 P(both)=1.000 P(opt-theta chain over W_0,W_1)=1.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 0.71 s
+=== command: python3 lift_gate_stress.py 11 83 25 22 22 3 mid 9
+=== start (UTC): 2026-10-14T00:23:18Z
+RESULT gate_stress p=11 windows=[22,44,66,88) H=22 gate depth s=3 at n1+11 (mid): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=1.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=1.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 0.81 s
+=== command: python3 lift_gate_stress.py 11 84 25 22 22 4 start 9
+=== start (UTC): 2026-10-14T00:23:19Z
+RESULT gate_stress p=11 windows=[22,44,66,88) H=22 gate depth s=4 at n1+1 (start): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=1.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=0.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 2.17 s
+=== command: python3 lift_gate_stress.py 11 84 25 22 22 4 mid 9
+=== start (UTC): 2026-10-14T00:23:21Z
+RESULT gate_stress p=11 windows=[22,44,66,88) H=22 gate depth s=4 at n1+11 (mid): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=0.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=0.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 2.34 s
+=== command: python3 lift_gate_stress.py 11 85 25 22 22 5 start 9
+=== start (UTC): 2026-10-14T00:23:24Z
+RESULT gate_stress p=11 windows=[22,44,66,88) H=22 gate depth s=5 at n1+1 (start): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=1.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=0.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 21.84 s
+=== command: python3 lift_gate_stress.py 11 85 25 22 22 5 mid 9
+=== start (UTC): 2026-10-14T00:23:46Z
+RESULT gate_stress p=11 windows=[22,44,66,88) H=22 gate depth s=5 at n1+11 (mid): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=0.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=0.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 21.69 s
+=== command: python3 lift_gate_stress.py 11 86 25 22 22 6 start 9
+=== start (UTC): 2026-10-14T00:24:07Z
+RESULT gate_stress p=11 windows=[22,44,66,88) H=22 gate depth s=6 at n1+1 (start): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=1.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=0.000 P(counting 2^H >= p^D1)=0.000
+=== exit: 0   wall: 276.05 s
+=== command: python3 lift_gate_stress.py 11 86 25 22 22 6 mid 9
+=== start (UTC): 2026-10-14T00:28:43Z
+RESULT gate_stress p=11 windows=[22,44,66,88) H=22 gate depth s=6 at n1+11 (mid): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=0.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=0.000 P(counting 2^H >= p^D1)=0.000
+=== exit: 0   wall: 280.0 s
+=== command: python3 lift_gate_stress.py 7 92 25 21 24 2 start 11
+=== start (UTC): 2026-10-14T00:33:23Z
+RESULT gate_stress p=7 windows=[21,45,69,93) H=24 gate depth s=2 at n1+1 (start): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=1.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=1.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 0.76 s
+=== command: python3 lift_gate_stress.py 7 92 25 21 24 2 mid 11
+=== start (UTC): 2026-10-14T00:33:24Z
+RESULT gate_stress p=7 windows=[21,45,69,93) H=24 gate depth s=2 at n1+12 (mid): samples=25 (censored 0): P(FL_0)=1.000 P(FL_1)=0.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=1.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 0.76 s
+=== command: python3 lift_gate_stress.py 7 93 25 21 24 3 start 11
+=== start (UTC): 2026-10-14T00:33:25Z
+RESULT gate_stress p=7 windows=[21,45,69,93) H=24 gate depth s=3 at n1+1 (start): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=1.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=0.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 4.21 s
+=== command: python3 lift_gate_stress.py 7 93 25 21 24 3 mid 11
+=== start (UTC): 2026-10-14T00:33:29Z
+RESULT gate_stress p=7 windows=[21,45,69,93) H=24 gate depth s=3 at n1+12 (mid): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=0.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=1.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 4.05 s
+=== command: python3 lift_gate_stress.py 7 94 25 21 24 4 start 11
+=== start (UTC): 2026-10-14T00:33:33Z
+RESULT gate_stress p=7 windows=[21,45,69,93) H=24 gate depth s=4 at n1+1 (start): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=1.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=0.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 24.86 s
+=== command: python3 lift_gate_stress.py 7 94 25 21 24 4 mid 11
+=== start (UTC): 2026-10-14T00:33:58Z
+RESULT gate_stress p=7 windows=[21,45,69,93) H=24 gate depth s=4 at n1+12 (mid): samples=25 (censored 0): P(FL_0)=0.000 P(FL_1)=0.000 P(both)=0.000 P(opt-theta chain over W_0,W_1)=0.000 P(counting 2^H >= p^D1)=1.000
+=== exit: 0   wall: 23.61 s

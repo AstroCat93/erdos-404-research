@@ -1,0 +1,19 @@
+### command: python3 code/round4/M4C/test_H2.py 3 1 3000
+### start: 2026-10-13T23:31:55Z
+# test_H2 p=3 seed=1 NT=3000
+RESULT {'trials': 3000, 'fail': 0, 'nonzero_lhs': 452, 'ctrl_fail': 294, 'max_ratio': 0.9444444444444444}
+### wall: 3 s
+### command: python3 code/round4/M4C/test_H2.py 5 1 2000
+### start: 2026-10-13T23:31:58Z
+# test_H2 p=5 seed=1 NT=2000
+RESULT {'trials': 2000, 'fail': 0, 'nonzero_lhs': 260, 'ctrl_fail': 185, 'max_ratio': 0.98}
+### wall: 115 s
+### command: python3 code/round4/M4C/test_H2.py 7 1 1500
+### start: 2026-10-13T23:33:53Z
+### wall: 780 s
+### NOTE: the p=7 run above was killed by hand (too slow: up to 7^11 points per trial); re-run below with K-r <= 6 (parameter KRMAX)
+### command: timeout 1500 python3 code/round4/M4C/test_H2.py 7 1 1500 6
+### start: 2026-10-14T00:18:46Z
+# test_H2 p=7 seed=1 NT=1500
+RESULT {'trials': 1152, 'fail': 0, 'nonzero_lhs': 149, 'ctrl_fail': 123, 'max_ratio': 0.9931972789115646}
+### wall: 26 s

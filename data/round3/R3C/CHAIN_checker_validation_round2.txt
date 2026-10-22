@@ -1,0 +1,75 @@
+# Validation of the round-3 chain checkers on ROUND-2 logs (expected: the round-2 results).
+# run: 2026-10-13 18:35:42 UTC  cwd: /home/user/erdos-404-research
+## chain_r3.py, programs A and B, logs data/round2/outputs/R3 (the lead's 2026-10-12 re-runs)
+### spec r2_p7_AB
+# chain_r3: p=7 D=9 logs=['data/round2/outputs/R3']
+# required programs: ['A', 'B']
+positions depth 7 H=40 K''=1..48 (42): certified by all of ['A', 'B']: 42
+positions depth 8 H=47 K''=1..6 (6): certified by all of ['A', 'B']: 6
+depth 7: all 42 positions below 7^9 excluded
+depth 8: all 6 positions below 7^9 excluded
+CHAIN OK: no first failure below 7^9; f(1,7) >= v_7((7^9-1)!) = 6725592
+### spec r2_p11_AB
+# chain_r3: p=11 D=9 logs=['data/round2/outputs/R3']
+# required programs: ['A', 'B']
+positions depth 7 H=40 K''=1..36 (33): certified by all of ['A', 'B']: 33
+positions depth 7 H=41 K''=37..37 (1): certified by all of ['A', 'B']: 1
+positions depth 7 H=40 K''=38..120 (76): certified by all of ['A', 'B']: 76
+positions depth 8 H=44 K''=1..10 (10): certified by all of ['A', 'B']: 10
+depth 7: all 110 positions below 11^9 excluded
+depth 8: all 10 positions below 11^9 excluded
+CHAIN OK: no first failure below 11^9; f(1,11) >= v_11((11^9-1)!) = 235794760
+### spec r2_p13_AB
+# chain_r3: p=13 D=9 logs=['data/round2/outputs/R3']
+# required programs: ['A', 'B']
+positions depth 8 H=47 K''=1..12 (12): certified by all of ['A', 'B']: 12
+depth 8: all 12 positions below 13^9 excluded
+CHAIN OK: no first failure below 13^9; f(1,13) >= v_13((13^9-1)!) = 883708272
+### spec r2_p19_AB
+# chain_r3: p=19 D=8 logs=['data/round2/outputs/R3']
+# required programs: ['A', 'B']
+positions depth 7 H=45 K''=1..18 (18): certified by all of ['A', 'B']: 18
+depth 7: all 18 positions below 19^8 excluded
+CHAIN OK: no first failure below 19^8; f(1,19) >= v_19((19^8-1)!) = 943531272
+### spec r2_p23_AB
+# chain_r3: p=23 D=8 logs=['data/round2/outputs/R3']
+# required programs: ['A', 'B']
+positions depth 7 H=43 K''=1..22 (22): certified by all of ['A', 'B']: 22
+depth 7: all 22 positions below 23^8 excluded
+CHAIN OK: no first failure below 23^8; f(1,23) >= v_23((23^8-1)!) = 3559590232
+### spec r2_p23_neg
+# chain_r3: p=23 D=8 logs=['data/round2/outputs/R3']
+# required programs: ['A', 'B']
+positions depth 7 H=43 K''=1..22 (22): certified by all of ['A', 'B']: 22
+depth 6: first non-excluded position K''=1 (N=23^6*1)
+depth 7: all 22 positions below 23^8 excluded
+CHAIN PARTIAL: no first failure below N=148035889; f(1,23) >= v_23((N-1)!) = 6728898
+### spec r2_p23_partial
+# chain_r3: p=23 D=8 logs=['data/round2/outputs/R3']
+# required programs: ['A', 'B']
+positions depth 7 H=43 K''=1..10 (10): certified by all of ['A', 'B']: 10
+depth 7: first non-excluded position K''=11 (N=23^7*11)
+CHAIN PARTIAL: no first failure below N=37453079917; f(1,23) >= v_23((N-1)!) = 1702412716
+### spec r2_p23_C (program C, logs data/round2/review/computation/logs)
+# chain_r3: p=23 D=8 logs=['data/round2/review/computation/logs']
+# required programs: ['C']
+positions depth 7 H=43 K''=1..22 (22): certified by all of ['C']: 22
+depth 7: all 22 positions below 23^8 excluded
+CHAIN OK: no first failure below 23^8; f(1,23) >= v_23((23^8-1)!) = 3559590232
+## chain_c_r3.py, program C, logs data/round2/review/computation/logs (round-2 output: data/round2/review/computation/chain_c.out)
+# control 1 (R3C_LOGS unset, so no logs are read; must be INCOMPLETE):
+[C] p=7 D=9: INCOMPLETE ['uniform t=1 H=4 missing', 'uniform t=2 H=7 missing', 'uniform t=3 H=19 missing', 'uniform t=4 H=26 missing', 'uniform t=5 H=28 missing', 'uniform t=6 H=34 missing', 'pos t=7 K=1', 'pos t=7 K=2'] ...
+# with the logs (one run per plan of chain_c.py):
+[C] p=7 D=9: CHAIN OK  f(1,p) >= 6725592 []
+[C] p=11 D=9: CHAIN OK  f(1,p) >= 235794760 []
+[C] p=11 D=9: INCOMPLETE ['pos t=7 K=37']   <- control 2: without the exception 37=41 the class K''=37 (H=40 fails) is not excluded
+[C] p=13 D=9: CHAIN OK  f(1,p) >= 883708272 []
+[C] p=17 D=9: CHAIN OK  f(1,p) >= 7411742272 []
+[C] p=19 D=8: CHAIN OK  f(1,p) >= 943531272 []
+[C] p=23 D=8: CHAIN OK  f(1,p) >= 3559590232 []
+## chain_c_r3.py, programs A and B are not in its pattern table (A, C, D only); A on the round-2 re-run logs:
+[A] p=7 D=9: CHAIN OK  f(1,p) >= 6725592 []
+[A] p=11 D=9: CHAIN OK  f(1,p) >= 235794760 []
+[A] p=13 D=9: CHAIN OK  f(1,p) >= 883708272 []
+[A] p=19 D=8: CHAIN OK  f(1,p) >= 943531272 []
+[A] p=23 D=8: CHAIN OK  f(1,p) >= 3559590232 []

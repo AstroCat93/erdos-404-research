@@ -1,0 +1,14 @@
+# cmd: nice -n 10 python3 -I bounds_check.py ruleA 1024 1536 2048 4096  (start 18:09:21)
+RULE-A K=1024 C0: exact log2=-161.994 Kt=1023 vs -K/7=-146.29 OK
+RULE-A K=1024 C2: exact log2=-159.000 Kt=1023 vs -K/7=-146.29 OK
+RULE-A K=1024 C6: exact log2=-170.913 Kt=1023 vs -K/7=-146.29 OK
+RULE-A K=1536 C0: exact log2=-250.983 Kt=1535 vs -K/7=-219.43 OK
+RULE-A K=1536 C2: exact log2=-254.956 Kt=1535 vs -K/7=-219.43 OK
+RULE-A K=1536 C6: exact log2=-251.994 Kt=1535 vs -K/7=-219.43 OK
+RULE-A K=2048 C0: exact log2=-328.989 Kt=2047 vs -K/7=-292.57 OK
+RULE-A K=2048 C2: exact log2=-333.000 Kt=2047 vs -K/7=-292.57 OK
+RULE-A K=2048 C6: exact log2=-330.000 Kt=2047 vs -K/7=-292.57 OK
+RULE-A K=4096 C0: exact log2=-670.994 Kt=4095 vs -K/7=-585.14 OK
+RULE-A K=4096 C2: exact log2=-668.000 Kt=4095 vs -K/7=-585.14 OK
+RULE-A K=4096 C6: exact log2=-679.989 Kt=4095 vs -K/7=-585.14 OK
+# wall 0 s

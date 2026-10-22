@@ -1,0 +1,10 @@
+=== command: python3 cm3_lemmaQ.py 23 2323 3 3 2 56 rand,neg,int,d1first,dbl
+=== start (UTC): 2026-10-14T01:50:37Z
+p=23 kind=rand: 708 cases, 0 failures, 3 cases with a 2D block  [42.7 s]
+p=23 kind=neg: 864 cases, 0 failures, 9 cases with a 2D block  [83.7 s]
+p=23 kind=int: 423 cases, 0 failures, 0 cases with a 2D block  [125.3 s]
+p=23 kind=d1first: 864 cases, 0 failures, 9 cases with a 2D block  [170.8 s]
+p=23 kind=dbl: 777 cases, 0 failures, 18 cases with a 2D block  [216.6 s]
+TOTAL p=23: 3636 cases, 0 failures; equality in 1894; max P/bound = 1.000000; cases with a 2D block: 39
+controls (violations; >0 means that feature of the bound is needed): half2D 36, noq 372, noM 6
+=== exit: 0   wall: 218.86 s

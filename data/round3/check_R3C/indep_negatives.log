@@ -1,0 +1,12 @@
+# command: python3 code/round3/check_R3C/indep.py negatives
+# host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz  vmem cap (KB): 0
+# start: 2026-10-13 19:40:14 UTC
+R4 (29,6,39) K'=2: M=7 listed residues are subset sums? [False, False]; 20 random residues covered: 20/20 (0.7s)
+R4 (31,6,40) K'=2: M=7 listed residues are subset sums? [False, False]; 20 random residues covered: 20/20 (1.3s)
+R4 (29,7,44) K''=3: M=8 listed residues are subset sums? [False, False]; 20 random residues covered: 20/20 (10.1s)
+R6 (11,7,40) K''=37: M=10 listed residues are subset sums? [False, False]; 20 random residues covered: 20/20 (1.3s)
+R6 (7,6,33) K'=5: M=10 listed residues are subset sums? [False, False]; 20 random residues covered: 20/20 (0.1s)
+R6 (13,8,46) K''=1: M=11 listed residues are subset sums? [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]; 20 random residues covered: 20/20 (59.2s)
+# wall=72.843 s user=60.088 s sys=10.095 s
+# exit status: 0
+# end: 2026-10-13 19:41:27 UTC

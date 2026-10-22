@@ -1,0 +1,21 @@
+=== command: python3 eprime_test.py 7 61 80 60 1500
+=== start (UTC): 2026-10-14T00:57:07Z
+EPRIME p=7 seed=61: windows=80 E'<E in 0; max log10(E/E') = -5.92094
+=== exit: 0   wall: .342004412 s
+=== command: python3 eprime_test.py 11 62 60 60 1500
+=== start (UTC): 2026-10-14T00:57:08Z
+EPRIME p=11 seed=62: windows=60 E'<E in 0; max log10(E/E') = -4.74198
+=== exit: 0   wall: .809294492 s
+(the two runs above printed the number of windows drawn, not evaluated; rerun below with the count)
+=== command: python3 eprime_test.py 7 61 80 60 1500
+=== start (UTC): 2026-10-14T00:57:18Z
+EPRIME p=7 seed=61: windows drawn=80 evaluated=79 E'<E in 0; max log10(E/E') = -5.92094
+=== exit: 0   wall: .285811895 s
+=== command: python3 eprime_test.py 11 62 60 60 1500
+=== start (UTC): 2026-10-14T00:57:18Z
+EPRIME p=11 seed=62: windows drawn=60 evaluated=58 E'<E in 0; max log10(E/E') = -4.74198
+=== exit: 0   wall: .817400513 s
+=== command: python3 eprime_test.py 7 63 60 1000 4000
+=== start (UTC): 2026-10-14T00:57:19Z
+EPRIME p=7 seed=63: windows drawn=60 evaluated=60 E'<E in 0; max log10(E/E') = -8.04685
+=== exit: 0   wall: .534420069 s

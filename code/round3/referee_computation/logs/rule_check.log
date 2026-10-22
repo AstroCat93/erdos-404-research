@@ -1,0 +1,10 @@
+# cmd: nice -n 10 python3 -I code/round3/referee_computation/rule_check.py
+largest K in [2400, 4e6] with majorant > 2^(-K/80): 3071
+minimum margin on [3072, 4e6]: 0.6252 bits at K=3135
+max q = (k-1)/(K-5) over [2400, 4e6]: 0.35641 (report: <= 0.36)
+max q_A over [2400, 4e6]: 0.03543 (report: <= 0.04)
+1 - H(0.36) = 0.05732, 1 - H(0.04) = 0.75771
+Theorem A' closed form with c=0.911000: violations in [1024,4e6]: 0 (first []); min margin 4.5154 bits; max q 0.25538 (report <= 0.26)
+Theorem A' closed form with c=0.911111: violations in [1024,4e6]: 0 (first []); min margin 4.5153 bits; max q 0.25538 (report <= 0.26)
+1 - H(0.26) = 0.17325
+time 41.1s

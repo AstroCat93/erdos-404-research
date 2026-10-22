@@ -1,0 +1,22 @@
+# early timing runs (2026-10-13 ~05:59-06:05 UTC, before run.sh existed); outputs copied from the session's terminal capture
+# command: (time nice -n 10 /tmp/r3_R3C/bin/fibcov 23 7 43 1 pos 1); (time nice -n 10 /tmp/r3_R3C/bin/covchk 23 7 43 1 pos 1)
+SUMMARY A p=23 t=7 H=43 c=1 M=8 k=1 mode=pos nK=1 fail=0 worst_missing=0 ALL_COVERED total=60.2s
+
+real	1m0.203s
+user	0m56.703s
+sys	0m1.157s
+END C p=23 t=7 H=43 nK=1 bad=0 ALL_COVERED 74.3s
+
+real	1m14.294s
+user	1m10.399s
+sys	0m1.016s
+
+[exited with code 0]
+# command: nice -n 10 /tmp/r3_R3C/bin/fibcov 5 5 39 5 pos <48 classes 1..59 not divisible by 5> ; same with covchk
+SUMMARY A p=5 t=5 H=39 c=8 M=13 k=5 mode=pos nK=48 fail=0 worst_missing=0 ALL_COVERED total=7.3s
+END C p=5 t=5 H=39 nK=48 bad=0 ALL_COVERED 11.5s
+# (also: fibcov 5 5 39 k pos 1 2 3 for k=4,5,6: total 0.5, 0.4, 0.5 s, all covered)
+# memory-bandwidth probe (code/round3/R3C/bw.c; gcc -O3 -march=native), run ~05:58 UTC with one other track's job active:
+# command: ./bw 33554432 ; ./bw 268435456
+# pass n=33554432 words (268.4 MB): 0.061-0.065 s, 12.3-13.2 GB/s (3 streams)
+# pass n=268435456 words (2147.5 MB): 0.391-0.518 s, 12.4-16.5 GB/s (3 streams)

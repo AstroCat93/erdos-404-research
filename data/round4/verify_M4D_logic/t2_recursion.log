@@ -1,0 +1,35 @@
+## python3 t2_recursion.py 3 1 20 14
+## start 2026-10-14T00:58:22Z
+RESULT t2 p=3 seed=1 nx=20 nmax=14 forced=(): (x,n) checks=280, alive paths seen=491; brute-force vs DFS mismatches=0, target-set (brute force) vs carry recursion mismatches: python=0, numpy=0, Legendre V_n>=v(n!) failures=0
+## exit 0, wall 0 s
+
+## python3 t2_recursion.py 5 2 20 14
+## start 2026-10-14T00:58:22Z
+RESULT t2 p=5 seed=2 nx=20 nmax=14 forced=(): (x,n) checks=280, alive paths seen=4244; brute-force vs DFS mismatches=0, target-set (brute force) vs carry recursion mismatches: python=0, numpy=0, Legendre V_n>=v(n!) failures=0
+## exit 0, wall 1 s
+
+## python3 t2_recursion.py 7 3 20 14
+## start 2026-10-14T00:58:23Z
+RESULT t2 p=7 seed=3 nx=20 nmax=14 forced=(): (x,n) checks=280, alive paths seen=9717; brute-force vs DFS mismatches=0, target-set (brute force) vs carry recursion mismatches: python=0, numpy=0, Legendre V_n>=v(n!) failures=0
+## exit 0, wall 1 s
+
+## python3 t2_recursion.py 3 4 10 14 6 4
+## start 2026-10-14T00:58:24Z
+RESULT t2 p=3 seed=4 nx=10 nmax=14 forced=((6, 4),): (x,n) checks=140, alive paths seen=625; brute-force vs DFS mismatches=0, target-set (brute force) vs carry recursion mismatches: python=0, numpy=0, Legendre V_n>=v(n!) failures=0
+## exit 0, wall 0 s
+
+## python3 t2_recursion.py 5 5 10 14 7 3
+## start 2026-10-14T00:58:24Z
+RESULT t2 p=5 seed=5 nx=10 nmax=14 forced=((7, 3),): (x,n) checks=140, alive paths seen=1071; brute-force vs DFS mismatches=0, target-set (brute force) vs carry recursion mismatches: python=0, numpy=0, Legendre V_n>=v(n!) failures=0
+## exit 0, wall 1 s
+
+## python3 t2_recursion.py 7 6 10 14 9 3
+## start 2026-10-14T00:58:25Z
+RESULT t2 p=7 seed=6 nx=10 nmax=14 forced=((9, 3),): (x,n) checks=140, alive paths seen=1280; brute-force vs DFS mismatches=0, target-set (brute force) vs carry recursion mismatches: python=0, numpy=0, Legendre V_n>=v(n!) failures=0
+## exit 0, wall 0 s
+
+## python3 t2_recursion.py 7 7 10 14 2 2
+## start 2026-10-14T00:58:25Z
+RESULT t2 p=7 seed=7 nx=10 nmax=14 forced=((2, 2),): (x,n) checks=140, alive paths seen=11990; brute-force vs DFS mismatches=0, target-set (brute force) vs carry recursion mismatches: python=0, numpy=0, Legendre V_n>=v(n!) failures=0
+## exit 0, wall 1 s
+

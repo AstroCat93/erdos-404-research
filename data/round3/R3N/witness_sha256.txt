@@ -1,0 +1,14 @@
+# SHA-256 of the witnesses. Uncompressed hashes are of the text produced by the search program; the shipped files are the gzipped versions listed below.
+# (Annotated after the round-3 computational referee's check: each uncompressed entry is mapped to its shipped file.)
+ea44330fa8074a8e02c3fc6c9cc86b0499a5efeb4fe47c01319e91e5e2da80f5  w594_90394.txt (uncompressed content of witness_594_K90394.txt.gz)
+d68f7dfbe876e944351d1b96f9ced8b02c2bbf0eaa97fdae5a0beb2fb0b9eddc  w594_66126.txt (uncompressed content of witness_594_K66126.txt.gz)
+3300c18c02dba06f093432107e5348a246e05a64442908c7e8b28eb80cd28f75  wB594_90394.txt (uncompressed content of witnessB_594_K90394.txt.gz)
+d2e704de373ea91593dbcf524e616bf232e7691b09dac39a7a65c0bc31581404  w17662_148725.txt (uncompressed content of witness_17662_K148725.txt.gz)
+e0b1d81d375e4bddf34dce0e591658ecf058efb6dd6215e38459da2499cd60db  best17662_212995.txt (uncompressed content of witness_17662_v212995.txt.gz)
+ca0863bdca9fd7b8257678d70a5b759474a4457ba240c9a7d688c4f5168ac63f  witness_17662_K221465.txt.gz 
+9e37ef6dce001e91f388eb81e85c253fbe701cd4389fad3028f682cb2e81be66  witness_17662_K221465.txt (uncompressed)
+7274780bc39c08adf464fda3940a2a221f88865da739fdf8650a732992596912  witness_594_K90394.txt.gz
+f41507fde4bc76ae17aaafbda9fa0dc5609438f3039efc5854721e5662ef1e41  witness_594_K66126.txt.gz
+e5d039c6864085f306a8b1c503c047fbec864cbc26b02b129031a79683c5730a  witnessB_594_K90394.txt.gz
+d39048217879e19759af55e7aa5363ea1abcd7e5220cdd6ed94cfa58596b6a76  witness_17662_K148725.txt.gz
+71a5dbd23b69f013369f22e1673c87c60ea8971292f6ecd3cf48441e39d2a1ca  witness_17662_v212995.txt.gz

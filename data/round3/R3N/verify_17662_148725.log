@@ -1,0 +1,8 @@
+# cmd: python3 -I code/round3/R3N/verify_witness.py /tmp/r3_R3N/w17662_148725.txt 17662 148725 ; /tmp/r3_R3N/verify_witness_gmp (same args)
+terms=65459 min=17662 max=148730 v2(sum)=148725 bits(sum)=2340967 time=20.0s
+check v2(sum) >= 148725: True
+v2(a!)=17653 => f(17662,2) >= 148725, g >= 131072
+VERIFIED
+terms=65459 min=17662 max=148730 v2(sum)=148725 bits=2340967 v2(a!)=17653 g>=131072
+check v2(sum) >= 148725: True
+VERIFIED

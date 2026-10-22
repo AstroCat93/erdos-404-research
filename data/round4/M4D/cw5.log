@@ -1,0 +1,16 @@
+=== command: python3 cw5_check.py 3 51 20 12 10 6 6
+=== start (UTC): 2026-10-13T23:54:59Z
+RESULT cw5 p=3 n=12 H=10 H2=6 samples=20 (m=0 in 5): (a) Fine(q) < m: 0 (of 260 weightings; min Fine/m over m>0: 1.0543812693627652); (b) Fine(q*) != m: 0
+=== exit: 0   wall: 1.2 s
+=== command: python3 cw5_check.py 5 52 20 15 10 8 6
+=== start (UTC): 2026-10-13T23:55:01Z
+RESULT cw5 p=5 n=15 H=10 H2=8 samples=20 (m=0 in 7): (a) Fine(q) < m: 0 (of 260 weightings; min Fine/m over m>0: 1.0012751005739355); (b) Fine(q*) != m: 0
+=== exit: 0   wall: 1.17 s
+=== command: python3 cw5_check.py 7 53 20 14 11 7 6
+=== start (UTC): 2026-10-13T23:55:02Z
+RESULT cw5 p=7 n=14 H=11 H2=7 samples=20 (m=0 in 19): (a) Fine(q) < m: 0 (of 260 weightings; min Fine/m over m>0: 1.043542975929963); (b) Fine(q*) != m: 0
+=== exit: 0   wall: 3.06 s
+=== command: python3 cw5_check.py 11 54 12 22 11 11 6
+=== start (UTC): 2026-10-13T23:55:05Z
+RESULT cw5 p=11 n=22 H=11 H2=11 samples=12 (m=0 in 12): (a) Fine(q) < m: 0 (of 156 weightings; min Fine/m over m>0: n/a); (b) Fine(q*) != m: 0
+=== exit: 0   wall: 1.78 s

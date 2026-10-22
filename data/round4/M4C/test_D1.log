@@ -1,0 +1,41 @@
+### command: python3 code/round4/M4C/test_D1.py 3 1 40 8 12 16
+### start: 2026-10-13T23:28:34Z
+# test_D1 p=3 seed=1 NX=40 n=(8,12,16) prec=60
+RESULT {'samples': 40, 'nonempty': 15, 'ident_fail': 0, 'fibre_fail': 0, 'rec_fail': 0, 'rec_checks': 105, 'minslack': 2.6396730635928245}
+### wall: 0 s
+### command: python3 code/round4/M4C/test_D1.py 3 2 40 10 14 19
+### start: 2026-10-13T23:28:34Z
+# test_D1 p=3 seed=2 NX=40 n=(10,14,19) prec=60
+RESULT {'samples': 40, 'nonempty': 8, 'ident_fail': 0, 'fibre_fail': 0, 'rec_fail': 0, 'rec_checks': 56, 'minslack': None}
+### wall: 0 s
+### command: python3 code/round4/M4C/test_D1.py 5 1 40 10 16 22
+### start: 2026-10-13T23:28:34Z
+# test_D1 p=5 seed=1 NX=40 n=(10,16,22) prec=60
+RESULT {'samples': 40, 'nonempty': 25, 'ident_fail': 0, 'fibre_fail': 0, 'rec_fail': 0, 'rec_checks': 175, 'minslack': 2.5022297557682687}
+### wall: 1 s
+### command: python3 code/round4/M4C/test_D1.py 7 1 30 14 21 28
+### start: 2026-10-13T23:28:35Z
+# test_D1 p=7 seed=1 NX=30 n=(14,21,28) prec=60
+RESULT {'samples': 30, 'nonempty': 18, 'ident_fail': 0, 'fibre_fail': 0, 'rec_fail': 0, 'rec_checks': 126, 'minslack': 1.50794745177156}
+### wall: 3 s
+### command: python3 code/round4/M4C/test_D1.py 7 2 30 16 23 31
+### start: 2026-10-13T23:28:38Z
+# test_D1 p=7 seed=2 NX=30 n=(16,23,31) prec=60
+RESULT {'samples': 30, 'nonempty': 20, 'ident_fail': 0, 'fibre_fail': 0, 'rec_fail': 0, 'rec_checks': 140, 'minslack': 2.004823288374406}
+### wall: 12 s
+### (re-run with tightness ratio and negative control B/8 added)
+### command: python3 code/round4/M4C/test_D1.py 3 1 40 8 12 16
+### start: 2026-10-13T23:28:58Z
+# test_D1 p=3 seed=1 NX=40 n=(8,12,16) prec=60
+RESULT {'samples': 40, 'nonempty': 15, 'ident_fail': 0, 'fibre_fail': 0, 'rec_fail': 0, 'rec_checks': 105, 'minslack': 2.6396730635928245, 'max_fibre_ratio': 0.9297477640424576, 'control_fail_B_over_8': 15}
+### wall: 0 s
+### command: python3 code/round4/M4C/test_D1.py 5 1 40 10 16 22
+### start: 2026-10-13T23:28:58Z
+# test_D1 p=5 seed=1 NX=40 n=(10,16,22) prec=60
+RESULT {'samples': 40, 'nonempty': 25, 'ident_fail': 0, 'fibre_fail': 0, 'rec_fail': 0, 'rec_checks': 175, 'minslack': 2.5022297557682687, 'max_fibre_ratio': 0.9171448575801033, 'control_fail_B_over_8': 25}
+### wall: 1 s
+### command: python3 code/round4/M4C/test_D1.py 7 1 30 14 21 28
+### start: 2026-10-13T23:28:59Z
+# test_D1 p=7 seed=1 NX=30 n=(14,21,28) prec=60
+RESULT {'samples': 30, 'nonempty': 18, 'ident_fail': 0, 'fibre_fail': 0, 'rec_fail': 0, 'rec_checks': 126, 'minslack': 1.50794745177156, 'max_fibre_ratio': 0.9170013382319137, 'control_fail_B_over_8': 18}
+### wall: 4 s

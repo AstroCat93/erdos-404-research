@@ -1,0 +1,27 @@
+### command: nice -n 10 python3 code/round4/verify_C_falsify/test_H2.py 7 3000 8
+### start: 2026-10-14T03:00:45Z
+p=7 family Tdelta  trials  471  failures 0  (LHS>0 in    0, max LHS/RHS 0.0000)  control(2v(F')>=D+2) violated 0
+p=7 family dbl     trials  470  failures 0  (LHS>0 in  126, max LHS/RHS 0.9821)  control(2v(F')>=D+2) violated 39
+p=7 family tri     trials  475  failures 0  (LHS>0 in  173, max LHS/RHS 0.9932)  control(2v(F')>=D+2) violated 4
+p=7 family gate2   trials  476  failures 0  (LHS>0 in   98, max LHS/RHS 0.9796)  control(2v(F')>=D+2) violated 33
+p=7 family rand    trials  450  failures 0  (LHS>0 in    1, max LHS/RHS 0.5000)  control(2v(F')>=D+2) violated 1
+p=7 TOTAL: 2342 trials, 0 failures, LHS>0 in 398, control violated 77  [3s]
+### wall: 3 s
+### command: nice -n 10 python3 code/round4/verify_C_falsify/test_H2.py 11 2000 6
+### start: 2026-10-14T03:00:48Z
+p=11 family Tdelta  trials  234  failures 0  (LHS>0 in    0, max LHS/RHS 0.0000)  control(2v(F')>=D+2) violated 0
+p=11 family dbl     trials  244  failures 0  (LHS>0 in   80, max LHS/RHS 0.9924)  control(2v(F')>=D+2) violated 36
+p=11 family tri     trials  249  failures 0  (LHS>0 in   97, max LHS/RHS 0.9917)  control(2v(F')>=D+2) violated 0
+p=11 family gate2   trials  206  failures 0  (LHS>0 in   49, max LHS/RHS 0.9917)  control(2v(F')>=D+2) violated 26
+p=11 family rand    trials  238  failures 0  (LHS>0 in    0, max LHS/RHS 0.0000)  control(2v(F')>=D+2) violated 0
+p=11 TOTAL: 1171 trials, 0 failures, LHS>0 in 226, control violated 62  [4s]
+### wall: 4 s
+### command: nice -n 10 python3 code/round4/verify_C_falsify/test_H2.py 13 1500 5
+### start: 2026-10-14T03:00:52Z
+p=13 family Tdelta  trials  115  failures 0  (LHS>0 in    0, max LHS/RHS 0.0000)  control(2v(F')>=D+2) violated 0
+p=13 family dbl     trials  133  failures 0  (LHS>0 in   37, max LHS/RHS 0.9941)  control(2v(F')>=D+2) violated 8
+p=13 family tri     trials  125  failures 0  (LHS>0 in   44, max LHS/RHS 0.9970)  control(2v(F')>=D+2) violated 0
+p=13 family gate2   trials  121  failures 0  (LHS>0 in   35, max LHS/RHS 0.9615)  control(2v(F')>=D+2) violated 19
+p=13 family rand    trials  111  failures 0  (LHS>0 in    0, max LHS/RHS 0.0000)  control(2v(F')>=D+2) violated 0
+p=13 TOTAL: 605 trials, 0 failures, LHS>0 in 116, control violated 27  [1s]
+### wall: 2 s

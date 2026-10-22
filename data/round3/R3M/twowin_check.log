@@ -1,0 +1,19 @@
+### command: python3 code/round3/R3M/twowin_check.py 3 61 12 20 4 4 5
+### start: 2026-10-13T07:30:08Z
+RESULT p=3 n=20 H=4 H2=4: martingale exact 12/12; C1 bounds 150/150; C2 inequality 12/12; max ratio lhs/(eps M^2) = 0.2805
+### wall: 16.204863071 s
+### command: python3 code/round3/R3M/twowin_check.py 3 62 6 26 5 5 6
+### start: 2026-10-13T07:30:25Z
+RESULT p=3 n=26 H=5 H2=5: martingale exact 6/6; C1 bounds 216/216; C2 inequality 6/6; max ratio lhs/(eps M^2) = 0.0598
+### wall: 220.578764902 s
+### command: python3 code/round3/R3M/twowin_check.py 5 63 5 20 5 5 4
+### start: 2026-10-13T07:34:05Z
+RESULT p=5 n=20 H=5 H2=5: martingale exact 5/5; C1 bounds 25/25; C2 inequality 5/5; max ratio lhs/(eps M^2) = 0.1093
+### wall: 5.201301863 s
+### command: python3 code/round3/R3M/twowin_check.py 7 64 4 28 7 7 3
+### start: 2026-10-13T07:34:10Z
+### (run killed by hand: population too large at n=28 for the brute-force check; re-run below at n=21)
+### command: python3 code/round3/R3M/twowin_check.py 7 65 2 21 7 7 2
+### start: 2026-10-13T07:40:52Z
+RESULT p=7 n=21 H=7 H2=7: martingale exact 2/2; C1 bounds 14/14; C2 inequality 2/2; max ratio lhs/(eps M^2) = 0.0125
+### wall: 68.659135992 s

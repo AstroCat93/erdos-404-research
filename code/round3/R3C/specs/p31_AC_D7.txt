@@ -1,0 +1,9 @@
+# p = 31, D = 7 (uniform depths only; no depth-7 positions were run), programs A and C.
+31 7
+require A,C
+uniform 1 7
+uniform 2 14
+uniform 3 19
+uniform 4 25
+uniform 5 30
+uniform 6 41

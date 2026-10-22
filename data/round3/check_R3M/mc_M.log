@@ -1,0 +1,15 @@
+=== command: python3 code/round3/check_R3M/ck_mc_M.py 3 701 4000 8,16,24,32
+=== start (UTC): 2026-10-13T17:44:09Z
+TABLE p=3 n=8 samples=4000: P(Z>0)=0.4243 P(Z0>0)=0.1487 E[M]=0.0779+-0.0046 E[M^2]=0.0905+-0.0153 ratio=14.91 max single-sample share of sum M^2=0.040
+TABLE p=3 n=16 samples=4000: P(Z>0)=0.3738 P(Z0>0)=0.1170 E[M]=0.0737+-0.0050 E[M^2]=0.1034+-0.0191 ratio=19.04 max single-sample share of sum M^2=0.071
+TABLE p=3 n=24 samples=4000: P(Z>0)=0.3598 P(Z0>0)=0.1123 E[M]=0.0734+-0.0051 E[M^2]=0.1078+-0.0201 ratio=20.01 max single-sample share of sum M^2=0.083
+TABLE p=3 n=32 samples=4000: P(Z>0)=0.3560 P(Z0>0)=0.1103 E[M]=0.0731+-0.0051 E[M^2]=0.1076+-0.0200 ratio=20.14 max single-sample share of sum M^2=0.080
+RESULT mcM p=3 seed=701 samples=4000 done
+=== exit: 0   wall: 19.75 s
+=== command: python3 code/round3/check_R3M/ck_mc_M.py 5 702 2000 16,24,30
+=== start (UTC): 2026-10-13T17:51:50Z
+TABLE p=5 n=16 samples=2000: P(Z>0)=0.5170 P(Z0>0)=0.3080 E[M]=0.1027+-0.0052 E[M^2]=0.0637+-0.0081 ratio=6.04 max single-sample share of sum M^2=0.064
+TABLE p=5 n=24 samples=2000: P(Z>0)=0.5165 P(Z0>0)=0.3065 E[M]=0.1027+-0.0052 E[M^2]=0.0645+-0.0080 ratio=6.12 max single-sample share of sum M^2=0.057
+TABLE p=5 n=30 samples=2000: P(Z>0)=0.5165 P(Z0>0)=0.3065 E[M]=0.1026+-0.0052 E[M^2]=0.0642+-0.0080 ratio=6.10 max single-sample share of sum M^2=0.057
+RESULT mcM p=5 seed=702 samples=2000 done
+=== exit: 0   wall: 145.68 s

@@ -1,0 +1,138 @@
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_D_W6_falsify && nice -n 10 python3 t_cyl.py 3 21 2 4 104 15 D0,any - 1
+# start 2026-10-14T03:38:29Z
+p=3 n=21 H=2 H2=4 seed=104 ncyl=15 kinds=['D0', 'any'] psub=None kextra=1 maxcombos=1000000000
+cylinders: 15 attempts: 152 kinds: {'D0': 8, 'any': 7}
+cylinder table (kind, m, D, D', M_N', #alive_all, #P0_all, #P lines, #grandchildren total, m(W;D'), complete):
+   ('D0', 11, 0, 3, 4, 9, 9, 9, 1728, 5.75, False)
+   ('D0', 10, 0, 3, 3, 6, 6, 6, 1152, 5.75, False)
+   ('D0', 10, 0, 3, 3, 5, 5, 5, 960, 5.75, False)
+   ('any', 10, 0, 3, 3, 26, 26, 26, 4992, 5.75, False)
+   ('D0', 10, 0, 3, 3, 32, 32, 32, 6144, 5.75, False)
+   ('D0', 10, 0, 3, 3, 19, 19, 19, 3648, 5.75, False)
+   ('any', 9, 0, 4, 3, 55, 55, 55, 10560, 19.25, False)
+   ('any', 10, 0, 3, 3, 34, 34, 34, 6528, 5.75, False)
+   ('any', 9, 0, 4, 3, 47, 47, 47, 9024, 19.25, False)
+   ('D0', 9, 0, 4, 3, 49, 49, 49, 9408, 19.25, False)
+   ('any', 12, 0, 3, 5, 21, 21, 21, 4032, 5.75, False)
+   ('D0', 10, 0, 3, 3, 28, 28, 28, 5376, 5.75, False)
+   ('D0', 9, 0, 5, 4, 11, 11, 11, 2112, 59.75, False)
+   ('any', 10, 0, 3, 3, 35, 35, 35, 6720, 5.75, False)
+   ('any', 10, 0, 3, 3, 35, 35, 35, 6720, 5.75, False)
+checks:
+  Lemma 2(a) alive set at n identical at sampled x' (BFS): checks 15 failures 0
+  Lemma 2(a) parents alive/slope constant on C: checks 15 failures 0
+  M_N constant on C': checks 3690 failures 0
+  [control] NC2 sharp form with varying q' (control, failures expected): checks 1575 failures 0
+  [control] NC3 W3(b) per xi with u instead of u^{-1}: checks 24328 failures 4882
+  [control] NC4 W4 with eps~ at level K-1 (control, failures expected): checks 15 failures 15
+  W1 step1 E_C'[M_N']=M_N(C'): checks 3690 failures 0
+  W1(a) children of slope-0 parents have slope 0: checks 15 failures 0
+  W1(a) children of slope>0 parents have slope>0: checks 15 failures 0
+  W1(a) grandchildren: slope 0 iff line slope 0: checks 15 failures 0
+  W1b E_C[M_N]=M_n: checks 3690 failures 0
+  W2 bound Var <= M_n^2 chi^2_q: checks 525 failures 0
+  W2 equality for a single parent: checks 105 failures 0
+  W2 identity (exact Parseval form): checks 525 failures 0
+  W2 pointwise child mass (Prop B(i) weighted): checks 525 failures 0
+  W3 identity sum_{xi!=0} F^q = eps~ (level k): checks 1820 failures 0
+  W3(a) E_C Psi(xi)=0 (child-target mass flat in s): checks 1820 failures 0
+  W3(b) per xi (float64 FFT, rel. tol 1e-9): checks 96208 failures 0
+  W3(b) summed over xi (exact): checks 1820 failures 0
+  W3(b) summed: equality for a single parent: checks 455 failures 0
+  W4 LHS >= 0 (E_C Var_{C'}): checks 3675 failures 0
+  W4 adapted: LHS <= eps~^q M_n^2: checks 3675 failures 0
+  W4 equality: single parent and point-mass q': checks 315 failures 0
+  W4 sharp: Fourier form = composite-collision form (float): checks 354 failures 0
+  W4 sharp: LHS <= eps^{q,q'} M_n^2: checks 2100 failures 0
+  W5 m=0 iff a complete class exists: checks 15 failures 0
+  W5(a) eps~^q >= m (all point masses): checks 60 failures 0
+  W5(a) eps~^q >= m (gradient-descent minimiser): checks 45 failures 0
+  W5(a) eps~^q >= m (perturbed q*): checks 150 failures 0
+  W5(a) eps~^q >= m (random): checks 150 failures 0
+  W5(a) eps~^q >= m(W;D'): checks 105 failures 0
+  W5(b) eps~^{q*} = m(W;D'): checks 15 failures 0
+  eps^{q,q'} <= eps~^q: checks 2100 failures 0
+  locality: alive structure at N, N' depends on w mod p^Ken only: checks 15 failures 0
+max ratios:
+  W3(b) per-xi LHS/RHS (float): 1
+  W3(b) summed LHS/RHS: 1  (exact 1)
+  W4 adapted LHS/RHS: 1  (exact 1)
+  W4 sharp LHS/RHS: 1  (exact 1)
+min ratios: {'W5 min over descent of eps~/m (>=1 expected)': 1.0}
+exact equalities: {'W4 single+point equality': 315}
+control failure example NC3 W3(b) per xi with u instead of u^{-1} (('D0', 3750123, 11, 0, 3, 'ones', 'qstar', 'unif'), 2, 2, np.float64(0.03483710614010474), 0.026626377985028846)
+control failure example NC3 W3(b) per xi with u instead of u^{-1} (('D0', 3750123, 11, 0, 3, 'ones', 'qstar', 'unif'), 2, 7, np.float64(0.03483710614010474), 0.026626377985028853)
+control failure example NC3 W3(b) per xi with u instead of u^{-1} (('D0', 3750123, 11, 0, 3, 'ones', 'qstar', 'unif'), 3, 6, np.float64(0.03483710614010473), 0.026626377985028836)
+RESULT OK core_failures=0 time=12.4s
+# exit 0  wall 13 s
+================================================================
+$ cd /home/user/erdos-404-research/code/round4/verify_D_W6_falsify && nice -n 10 python3 t_cyl.py 3 22 5 2 105 15 D20,any - 1
+# start 2026-10-14T03:38:42Z
+p=3 n=22 H=5 H2=2 seed=105 ncyl=15 kinds=['D20', 'any'] psub=None kextra=1 maxcombos=1000000000
+cylinders: 15 attempts: 189 kinds: {'D20': 8, 'any': 7}
+cylinder table (kind, m, D, D', M_N', #alive_all, #P0_all, #P lines, #grandchildren total, m(W;D'), complete):
+   ('D20', 9, 4, 0, 3, 156, 156, 156, 59904, 0.0, True)
+   ('any', 11, 3, 0, 4, 6, 6, 6, 2304, 0.0, True)
+   ('any', 10, 3, 0, 3, 68, 68, 68, 26112, 0.0, True)
+   ('D20', 10, 3, 0, 3, 16, 16, 16, 6144, 0.0, True)
+   ('any', 9, 5, 0, 4, 40, 40, 40, 5120, 0.0, True)
+   ('D20', 11, 3, 0, 4, 16, 16, 16, 6144, 0.0, True)
+   ('any', 9, 5, 0, 4, 28, 28, 28, 3584, 0.0, True)
+   ('any', 10, 3, 0, 3, 44, 44, 44, 16896, 0.0, True)
+   ('D20', 11, 3, 0, 4, 10, 10, 10, 3840, 0.0, True)
+   ('D20', 12, 3, 0, 5, 10, 10, 10, 3840, 0.0, True)
+   ('D20', 9, 4, 0, 3, 106, 106, 106, 40704, 0.0, True)
+   ('any', 10, 3, 0, 3, 72, 72, 72, 27648, 0.0, True)
+   ('D20', 10, 3, 0, 3, 42, 42, 42, 16128, 0.0, True)
+   ('D20', 11, 3, 0, 4, 20, 20, 20, 7680, 0.0, True)
+   ('any', 9, 4, 0, 3, 80, 80, 80, 30720, 0.0, True)
+checks:
+  Lemma 2(a) alive set at n identical at sampled x' (BFS): checks 15 failures 0
+  Lemma 2(a) parents alive/slope constant on C: checks 15 failures 0
+  M_N constant on C': checks 3675 failures 0
+  [control] NC1 q varying with C' inside C: E_C[M_N]=M_n (control, failures expected): checks 15 failures 15
+  [control] NC2 sharp form with varying q' (control, failures expected): checks 1575 failures 0
+  [control] NC3 W3(b) per xi with u instead of u^{-1}: checks 150 failures 0
+  W1 step1 E_C'[M_N']=M_N(C'): checks 3675 failures 0
+  W1(a) children of slope-0 parents have slope 0: checks 15 failures 0
+  W1(a) children of slope>0 parents have slope>0: checks 15 failures 0
+  W1(a) grandchildren: slope 0 iff line slope 0: checks 15 failures 0
+  W1b E_C[M_N]=M_n: checks 3675 failures 0
+  W2 bound Var <= M_n^2 chi^2_q: checks 525 failures 0
+  W2 equality for a single parent: checks 105 failures 0
+  W2 identity (exact Parseval form): checks 525 failures 0
+  W2 literal Fourier form (float): checks 136 failures 0
+  W2 pointwise child mass (Prop B(i) weighted): checks 525 failures 0
+  W3 identity sum_{xi!=0} F^q = eps~ (level k): checks 364 failures 0
+  W3(a) E_C Psi(xi)=0 (child-target mass flat in s): checks 364 failures 0
+  W3(b) per xi (float64 FFT, rel. tol 1e-9): checks 728 failures 0
+  W3(b) summed over xi (exact): checks 364 failures 0
+  W3(b) summed: equality for a single parent: checks 91 failures 0
+  W4 LHS >= 0 (E_C Var_{C'}): checks 3675 failures 0
+  W4 adapted: LHS <= eps~^q M_n^2: checks 3675 failures 0
+  W4 equality: single parent and point-mass q': checks 315 failures 0
+  W4 sharp: LHS <= eps^{q,q'} M_n^2: checks 2100 failures 0
+  W5 m=0 iff a complete class exists: checks 15 failures 0
+  W5(a) eps~^q >= m (all point masses): checks 480 failures 0
+  W5(a) eps~^q >= m (gradient-descent minimiser): checks 45 failures 0
+  W5(a) eps~^q >= m (perturbed q*): checks 150 failures 0
+  W5(a) eps~^q >= m (random): checks 150 failures 0
+  W5(a) eps~^q >= m(W;D'): checks 105 failures 0
+  W5(b) eps~^{q*} = m(W;D'): checks 15 failures 0
+  W5(c) complete coset + q*: LHS = 0: checks 525 failures 0
+  W5(c) complete coset + q*: M_N' constant on every C': checks 525 failures 0
+  [control] control: complete coset, q in {unif, rand}: count of cases with M_N' constant on every C': checks 180 failures 180
+  eps^{q,q'} <= eps~^q: checks 2100 failures 0
+  locality: alive structure at N, N' depends on w mod p^Ken only: checks 15 failures 0
+max ratios:
+  W2 Var/bound: 1  (exact 1)
+  W3(b) per-xi LHS/RHS (float): 1
+  W3(b) summed LHS/RHS: 1  (exact 1)
+min ratios: {}
+exact equalities: {'W5 descent reached eps~=0 when m=0': 15, 'W4 single+point equality': 315}
+control failure example NC1 q varying with C' inside C: E_C[M_N]=M_n (control, failures expected) (('D20', 4592538, 9, 4, 0),)
+control failure example NC1 q varying with C' inside C: E_C[M_N]=M_n (control, failures expected) (('any', 218034, 11, 3, 0),)
+control failure example NC1 q varying with C' inside C: E_C[M_N]=M_n (control, failures expected) (('any', 601950, 10, 3, 0),)
+RESULT OK core_failures=0 time=5.6s
+# exit 0  wall 6 s

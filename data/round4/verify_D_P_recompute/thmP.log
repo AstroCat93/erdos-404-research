@@ -1,0 +1,203 @@
+=== command: /tmp/r4_verify_D_P_recompute/thmP_test 7 6 34 70 21 600 11 1 6 35 70 34
+=== start (UTC): 2026-10-14T03:55:31Z
+# thmP_test p=7 T=6 n0=34 N=70 L=21 samples=600 forced depth 1..6 at i in [35,70], premise P(x,34)
+samples 600 (skipped 0 for valuation >= L); P(x,34): 378; of these P(x,70): 378, not P(x,70): 0
+by max depth in (34,70]:  d=1: 18 premise, 0 fail  d=2: 101 premise, 0 fail  d=3: 74 premise, 0 fail  d=4: 59 premise, 0 fail  d=5: 68 premise, 0 fail  d=6: 58 premise, 0 fail
+samples with a gate deeper than T=6: 0 (fails among them: 0)
+RESULT violations of Theorem P (premise, no gate > T, but not P(x,N)): 0
+=== exit: 0   wall: 1.397032604 s
+=== command: /tmp/r4_verify_D_P_recompute/thmP_test 7 6 34 100 21 300 12 0 0 0 0 34
+=== start (UTC): 2026-10-14T03:55:32Z
+# thmP_test p=7 T=6 n0=34 N=100 L=21 samples=300 forced depth 0..0 at i in [0,0], premise P(x,34)
+samples 300 (skipped 0 for valuation >= L); P(x,34): 190; of these P(x,100): 190, not P(x,100): 0
+by max depth in (34,100]:  d=2: 150 premise, 0 fail  d=3: 32 premise, 0 fail  d=4: 8 premise, 0 fail
+samples with a gate deeper than T=6: 0 (fails among them: 0)
+RESULT violations of Theorem P (premise, no gate > T, but not P(x,N)): 0
+=== exit: 0   wall: .242006397 s
+=== command: /tmp/r4_verify_D_P_recompute/thmP_test 11 6 33 70 17 400 13 1 6 34 70 33
+=== start (UTC): 2026-10-14T03:55:33Z
+# thmP_test p=11 T=6 n0=33 N=70 L=17 samples=400 forced depth 1..6 at i in [34,70], premise P(x,33)
+samples 400 (skipped 0 for valuation >= L); P(x,33): 289; of these P(x,70): 289, not P(x,70): 0
+by max depth in (33,70]:  d=1: 31 premise, 0 fail  d=2: 67 premise, 0 fail  d=3: 38 premise, 0 fail  d=4: 47 premise, 0 fail  d=5: 61 premise, 0 fail  d=6: 45 premise, 0 fail
+samples with a gate deeper than T=6: 0 (fails among them: 0)
+RESULT violations of Theorem P (premise, no gate > T, but not P(x,N)): 0
+=== exit: 0   wall: 15.970844092 s
+=== command: /tmp/r4_verify_D_P_recompute/thmP_test 13 7 39 60 16 300 14 1 6 40 60 39
+=== start (UTC): 2026-10-14T03:55:49Z
+# thmP_test p=13 T=7 n0=39 N=60 L=16 samples=300 forced depth 1..6 at i in [40,60], premise P(x,39)
+samples 300 (skipped 0 for valuation >= L); P(x,39): 215; of these P(x,60): 215, not P(x,60): 0
+by max depth in (39,60]:  d=1: 33 premise, 0 fail  d=2: 44 premise, 0 fail  d=3: 37 premise, 0 fail  d=4: 28 premise, 0 fail  d=5: 37 premise, 0 fail  d=6: 36 premise, 0 fail
+samples with a gate deeper than T=7: 0 (fails among them: 0)
+RESULT violations of Theorem P (premise, no gate > T, but not P(x,N)): 0
+=== exit: 0   wall: 35.175985060 s
+=== command: /tmp/r4_verify_D_P_recompute/thmP_test_big 13 7 39 50 16 40 15 7 7 40 50 39
+=== start (UTC): 2026-10-14T03:56:24Z
+hash full
+# thmP_test p=13 T=7 n0=39 N=50 L=16 samples=40 forced depth 7..7 at i in [40,50], premise P(x,39)
+=== exit: 2   wall: 71.498296580 s
+=== command: /tmp/r4_verify_D_P_recompute/thmP_test 7 6 34 40 21 300 21 4 6 21 30 20
+=== start (UTC): 2026-10-14T03:57:35Z
+# thmP_test p=7 T=6 n0=34 N=40 L=21 samples=300 forced depth 4..6 at i in [21,30], premise P(x,20)
+CONTROL_FAIL x=104320802842846012 (mod p^21) dmax=6 forced t=6 at i=25
+CONTROL_FAIL x=525867662200202350 (mod p^21) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=142304232310738477 (mod p^21) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=240159126572912065 (mod p^21) dmax=6 forced t=6 at i=27
+CONTROL_FAIL x=550340405757102562 (mod p^21) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=405239419314446993 (mod p^21) dmax=6 forced t=6 at i=25
+CONTROL_FAIL x=219803068541983801 (mod p^21) dmax=5 forced t=5 at i=21
+CONTROL_FAIL x=376372663210779707 (mod p^21) dmax=5 forced t=5 at i=25
+CONTROL_FAIL x=143042054135774187 (mod p^21) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=115057407917553810 (mod p^21) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=471417459441739477 (mod p^21) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=364308166044987031 (mod p^21) dmax=5 forced t=5 at i=21
+CONTROL_FAIL x=303616951373308195 (mod p^21) dmax=5 forced t=5 at i=21
+CONTROL_FAIL x=113592138946308820 (mod p^21) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=200740845119528947 (mod p^21) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=15109427459506809 (mod p^21) dmax=5 forced t=5 at i=26
+CONTROL_FAIL x=162785452481060073 (mod p^21) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=157517069295348273 (mod p^21) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=488869165069660604 (mod p^21) dmax=6 forced t=6 at i=23
+CONTROL_FAIL x=465238059226965307 (mod p^21) dmax=6 forced t=6 at i=25
+CONTROL_FAIL x=479790445389610463 (mod p^21) dmax=6 forced t=6 at i=25
+CONTROL_FAIL x=350526245729625317 (mod p^21) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=167326637797734418 (mod p^21) dmax=6 forced t=6 at i=25
+CONTROL_FAIL x=119618014866915104 (mod p^21) dmax=6 forced t=6 at i=27
+CONTROL_FAIL x=195692485413438779 (mod p^21) dmax=6 forced t=6 at i=25
+CONTROL_FAIL x=443981188211540308 (mod p^21) dmax=5 forced t=5 at i=21
+CONTROL_FAIL x=498610335898680231 (mod p^21) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=40693350747561667 (mod p^21) dmax=6 forced t=6 at i=27
+CONTROL_FAIL x=459401349931573642 (mod p^21) dmax=5 forced t=5 at i=23
+CONTROL_FAIL x=52992752491636109 (mod p^21) dmax=6 forced t=6 at i=23
+CONTROL_FAIL x=412161290820971814 (mod p^21) dmax=6 forced t=6 at i=25
+CONTROL_FAIL x=519828133887629427 (mod p^21) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=218878625768778454 (mod p^21) dmax=5 forced t=5 at i=25
+CONTROL_FAIL x=546492486827605449 (mod p^21) dmax=6 forced t=6 at i=23
+CONTROL_FAIL x=29375640995961379 (mod p^21) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=62103672194557693 (mod p^21) dmax=5 forced t=5 at i=21
+CONTROL_FAIL x=524569202419297191 (mod p^21) dmax=5 forced t=5 at i=26
+CONTROL_FAIL x=512217082136288775 (mod p^21) dmax=6 forced t=6 at i=27
+CONTROL_FAIL x=385411778745422653 (mod p^21) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=494558454445151122 (mod p^21) dmax=6 forced t=6 at i=23
+CONTROL_FAIL x=9005924012470828 (mod p^21) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=185694462228542849 (mod p^21) dmax=6 forced t=6 at i=27
+CONTROL_FAIL x=391377449431717789 (mod p^21) dmax=6 forced t=6 at i=23
+CONTROL_FAIL x=133462701099174671 (mod p^21) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=394545997550252063 (mod p^21) dmax=6 forced t=6 at i=23
+CONTROL_FAIL x=89863058874241877 (mod p^21) dmax=6 forced t=6 at i=28
+CONTROL_FAIL x=237260533499386070 (mod p^21) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=382890044411845619 (mod p^21) dmax=6 forced t=6 at i=23
+CONTROL_FAIL x=58466941562265448 (mod p^21) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=452138592096735698 (mod p^21) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=300940660024254750 (mod p^21) dmax=6 forced t=6 at i=25
+CONTROL_FAIL x=4825647190688389 (mod p^21) dmax=6 forced t=6 at i=26
+samples 300 (skipped 0 for valuation >= L); P(x,20): 210; of these P(x,40): 158, not P(x,40): 52
+by max depth in (20,40]:  d=4: 66 premise, 0 fail  d=5: 69 premise, 10 fail  d=6: 75 premise, 42 fail
+samples with a gate deeper than T=6: 0 (fails among them: 0)
+RESULT (CONTROL run: hypotheses of Theorem P deliberately not met) implication failures with dmax <= T: 52
+=== exit: 0   wall: 1.127288801 s
+=== command: /tmp/r4_verify_D_P_recompute/thmP_test 7 6 34 45 21 150 22 7 8 35 45 34
+=== start (UTC): 2026-10-14T03:57:36Z
+# thmP_test p=7 T=6 n0=34 N=45 L=21 samples=150 forced depth 7..8 at i in [35,45], premise P(x,34)
+samples 150 (skipped 0 for valuation >= L); P(x,34): 91; of these P(x,45): 87, not P(x,45): 4
+by max depth in (34,45]:  d=7: 56 premise, 0 fail  d=8: 35 premise, 4 fail
+samples with a gate deeper than T=6: 91 (fails among them: 4)
+RESULT (CONTROL run: hypotheses of Theorem P deliberately not met) implication failures with dmax <= T: 0
+=== exit: 0   wall: 29.572532631 s
+=== command: /tmp/r4_verify_D_P_recompute/thmP_test 13 7 39 40 16 300 23 4 6 21 33 20
+=== start (UTC): 2026-10-14T03:58:06Z
+# thmP_test p=13 T=7 n0=39 N=40 L=16 samples=300 forced depth 4..6 at i in [21,33], premise P(x,20)
+CONTROL_FAIL x=431274430616481079 (mod p^16) dmax=5 forced t=5 at i=22
+CONTROL_FAIL x=654399189265038793 (mod p^16) dmax=6 forced t=6 at i=22
+CONTROL_FAIL x=309882194058410600 (mod p^16) dmax=5 forced t=5 at i=23
+CONTROL_FAIL x=39238567128274152 (mod p^16) dmax=6 forced t=6 at i=24
+CONTROL_FAIL x=446806578445697457 (mod p^16) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=625324750221260521 (mod p^16) dmax=6 forced t=6 at i=23
+CONTROL_FAIL x=565482023818541496 (mod p^16) dmax=6 forced t=6 at i=22
+CONTROL_FAIL x=335347129781866735 (mod p^16) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=144577448885907324 (mod p^16) dmax=6 forced t=6 at i=25
+CONTROL_FAIL x=653270470524436144 (mod p^16) dmax=6 forced t=6 at i=23
+CONTROL_FAIL x=560248734945296855 (mod p^16) dmax=6 forced t=6 at i=23
+CONTROL_FAIL x=357962743889480709 (mod p^16) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=625365254142816762 (mod p^16) dmax=6 forced t=6 at i=23
+CONTROL_FAIL x=381076052570645752 (mod p^16) dmax=6 forced t=6 at i=31
+CONTROL_FAIL x=300446036524358777 (mod p^16) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=403317515645565421 (mod p^16) dmax=5 forced t=5 at i=22
+CONTROL_FAIL x=320337087762589643 (mod p^16) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=161393089415432344 (mod p^16) dmax=6 forced t=6 at i=24
+CONTROL_FAIL x=366684658075430112 (mod p^16) dmax=6 forced t=6 at i=24
+CONTROL_FAIL x=179397694080304663 (mod p^16) dmax=5 forced t=5 at i=24
+CONTROL_FAIL x=613287355369963014 (mod p^16) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=660916091699290377 (mod p^16) dmax=6 forced t=6 at i=24
+CONTROL_FAIL x=417544236508689151 (mod p^16) dmax=5 forced t=5 at i=22
+CONTROL_FAIL x=197028730125281524 (mod p^16) dmax=6 forced t=6 at i=24
+CONTROL_FAIL x=384900729306765609 (mod p^16) dmax=5 forced t=5 at i=24
+CONTROL_FAIL x=504337156693898437 (mod p^16) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=127043311830627999 (mod p^16) dmax=5 forced t=5 at i=25
+CONTROL_FAIL x=70353406852672363 (mod p^16) dmax=6 forced t=6 at i=22
+CONTROL_FAIL x=325984634705714806 (mod p^16) dmax=5 forced t=5 at i=23
+CONTROL_FAIL x=237560842872980500 (mod p^16) dmax=5 forced t=5 at i=23
+CONTROL_FAIL x=147852469515046612 (mod p^16) dmax=6 forced t=6 at i=22
+CONTROL_FAIL x=101770180639326565 (mod p^16) dmax=6 forced t=6 at i=24
+CONTROL_FAIL x=635476498466676170 (mod p^16) dmax=5 forced t=5 at i=21
+CONTROL_FAIL x=603065604810664259 (mod p^16) dmax=6 forced t=6 at i=22
+CONTROL_FAIL x=14168765696426303 (mod p^16) dmax=6 forced t=6 at i=25
+CONTROL_FAIL x=171101874698193222 (mod p^16) dmax=5 forced t=5 at i=22
+CONTROL_FAIL x=165996769327543795 (mod p^16) dmax=6 forced t=6 at i=22
+CONTROL_FAIL x=37124233359856020 (mod p^16) dmax=6 forced t=6 at i=25
+CONTROL_FAIL x=474975138763997435 (mod p^16) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=630955522367193729 (mod p^16) dmax=5 forced t=5 at i=22
+CONTROL_FAIL x=416840586873526793 (mod p^16) dmax=5 forced t=5 at i=23
+CONTROL_FAIL x=153090268553794041 (mod p^16) dmax=6 forced t=6 at i=24
+CONTROL_FAIL x=79959020465728458 (mod p^16) dmax=6 forced t=6 at i=24
+CONTROL_FAIL x=600676459785122934 (mod p^16) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=2929380564370470 (mod p^16) dmax=6 forced t=6 at i=24
+CONTROL_FAIL x=619265139710283404 (mod p^16) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=2947688288896795 (mod p^16) dmax=6 forced t=6 at i=24
+CONTROL_FAIL x=327188591706610886 (mod p^16) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=604718688435914275 (mod p^16) dmax=6 forced t=6 at i=24
+CONTROL_FAIL x=257360326111506280 (mod p^16) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=194620100184074102 (mod p^16) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=553033238631572572 (mod p^16) dmax=6 forced t=6 at i=23
+CONTROL_FAIL x=296619721900457685 (mod p^16) dmax=6 forced t=6 at i=24
+CONTROL_FAIL x=319754868672866135 (mod p^16) dmax=6 forced t=6 at i=24
+CONTROL_FAIL x=604503329931298643 (mod p^16) dmax=6 forced t=6 at i=25
+CONTROL_FAIL x=566796265384416188 (mod p^16) dmax=6 forced t=6 at i=22
+CONTROL_FAIL x=247980951758168657 (mod p^16) dmax=5 forced t=5 at i=24
+CONTROL_FAIL x=207356102174088626 (mod p^16) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=280019364186356366 (mod p^16) dmax=6 forced t=6 at i=26
+CONTROL_FAIL x=405683703587044859 (mod p^16) dmax=6 forced t=6 at i=24
+CONTROL_FAIL x=306134995730260295 (mod p^16) dmax=6 forced t=6 at i=25
+CONTROL_FAIL x=517765028746046528 (mod p^16) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=342020489109243610 (mod p^16) dmax=5 forced t=5 at i=23
+CONTROL_FAIL x=233097164743045724 (mod p^16) dmax=6 forced t=6 at i=22
+CONTROL_FAIL x=20878382298008808 (mod p^16) dmax=6 forced t=6 at i=25
+CONTROL_FAIL x=508623819547571950 (mod p^16) dmax=6 forced t=6 at i=25
+CONTROL_FAIL x=411907553055913619 (mod p^16) dmax=6 forced t=6 at i=23
+CONTROL_FAIL x=320219425952488684 (mod p^16) dmax=6 forced t=6 at i=28
+CONTROL_FAIL x=321417281231155153 (mod p^16) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=403424492436950808 (mod p^16) dmax=6 forced t=6 at i=21
+CONTROL_FAIL x=111119765701925437 (mod p^16) dmax=6 forced t=6 at i=24
+samples 300 (skipped 0 for valuation >= L); P(x,20): 223; of these P(x,40): 152, not P(x,40): 71
+by max depth in (20,40]:  d=4: 72 premise, 0 fail  d=5: 74 premise, 15 fail  d=6: 77 premise, 56 fail
+samples with a gate deeper than T=7: 0 (fails among them: 0)
+RESULT (CONTROL run: hypotheses of Theorem P deliberately not met) implication failures with dmax <= T: 71
+=== exit: 0   wall: 16.276740720 s
+THMP_BATCH_DONE
+=== command: /tmp/r4_verify_D_P_recompute/thmP_test_big 13 7 39 50 16 16 16 7 7 40 50 39
+=== start (UTC): 2026-10-14T03:58:58Z
+# thmP_test p=13 T=7 n0=39 N=50 L=16 samples=16 forced depth 7..7 at i in [40,50], premise P(x,39)
+undecided (memo budget exhausted, neither witness nor refutation): 2
+samples 16 (skipped 0 for valuation >= L); P(x,39): 9; of these P(x,50): 9, not P(x,50): 0
+by max depth in (39,50]:  d=7: 9 premise, 0 fail
+samples with a gate deeper than T=7: 0 (fails among them: 0)
+RESULT violations of Theorem P (premise, no gate > T, but not P(x,N)): 0
+=== exit: 0   wall: 100.554283358 s
+=== command: /tmp/r4_verify_D_P_recompute/thmP_test_big 13 7 39 50 16 32 17 7 7 40 50 39
+=== start (UTC): 2026-10-14T04:00:51Z
+# thmP_test p=13 T=7 n0=39 N=50 L=16 samples=32 forced depth 7..7 at i in [40,50], premise P(x,39)
+undecided (memo budget exhausted, neither witness nor refutation): 5
+samples 32 (skipped 0 for valuation >= L); P(x,39): 20; of these P(x,50): 20, not P(x,50): 0
+by max depth in (39,50]:  d=7: 20 premise, 0 fail
+samples with a gate deeper than T=7: 0 (fails among them: 0)
+RESULT violations of Theorem P (premise, no gate > T, but not P(x,N)): 0
+=== exit: 0   wall: 246.733675401 s

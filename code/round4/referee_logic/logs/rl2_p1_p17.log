@@ -1,0 +1,11 @@
+=== command: python3 rl2_p1.py 17 4
+=== start: 2026-10-14T18:22:09Z
+p=17: greedy phase-1 schedule b = (3, 4, 5, 7, 9, 13, 16, 23, 29, 44, 55, 85, 108, 169, 214, 288)  (k_0 = 14)
+  Lemma 5.1 valuations and linear regime on the schedule at 3 random x: True
+  k=1: composite blocks (3,5] D=1 K=2 n1=2 n2=0: max eps_k = 2.2902e-12 <= threshold 1.21864e-06: True
+  k=2: composite blocks (4,7] D=1 K=3 n1=3 n2=0: max eps_k = 3.41809e-12 <= threshold 1.82795e-06: True
+  k=3: composite blocks (5,9] D=2 K=4 n1=4 n2=0: max eps_k = 1.44929e-16 <= threshold 2.43727e-06: True
+Terminated
+=== exit: 143
+=== wall: 670 s
+=== killed by hand at 18:33Z during k=4 (object-array DP near the 3 GB memory cap); the k<=3 lines above stand, no RESULT line

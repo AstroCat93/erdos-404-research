@@ -1,0 +1,20 @@
+# cmd: python3 -I code/round3/referee_computation/csv_claims.py data/round3/R3N/survey_2_4096.csv data/round3/R3N/survey_4098_16384.csv data/round3/R3N/survey_16386_32768_merged.csv
+even a <= 32768: 16384  with exact value: 16384  missing: []
+g takes any of 1,2,4,5: []
+g=3 <=> a=4 mod 8 violations: [] 0
+largest excesses: 17662:203812, 594:89804, 17534:59527, 16846:44786, 26274:42347, 27142:26746, 10578:24271, 34:18412, 32494:18023, 22050:16628, 16510:14723, 9934:14654
+largest, a<=4096: 594:89804, 34:18412, 1102:11536, 2210:6261, 3456:4823, 1438:3948, 574:3526, 1602:3486, 640:3196, 2662:3129, 1086:2609
+largest, a<=16384: 594:89804, 10578:24271, 34:18412
+survival law G * #{even a: g >= G} / 16384:
+  G=   256  count= 656  G*count/16384=10.250
+  G=   512  count= 367  G*count/16384=11.469
+  G=  1024  count= 174  G*count/16384=10.875
+  G=  2048  count=  94  G*count/16384=11.750
+  G=  4096  count=  43  G*count/16384=10.750
+  G=  8192  count=  19  G*count/16384=9.500
+  G= 16384  count=  10  G*count/16384=10.000
+  G= 32768  count=   5  G*count/16384=10.000
+  G= 65536  count=   2  G*count/16384=8.000
+  G=131072  count=   1  G*count/16384=8.000
+shadow a=16382: f=20215 g=3846
+shadow a=32766: f=37403 g=4651

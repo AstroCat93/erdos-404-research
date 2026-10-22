@@ -1,0 +1,58 @@
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py shadow 3 11 6 10 18 14 9
+=== start (UTC): 2026-10-14T01:14:18Z
+T2 p=3: window [6,10,18) H=12, gate at i*=14 (c=6), unit w=127180276553666
+  s= 1 K= 7 D=3 M_W=3: eps=0.40146  eps/p^s=0.13382  lowerbd=n/a  PropD(p^K Coll_K)=18.17 >= p^K Coll_K=10.526: True  partial sum_s mu(depth=s) eps = 0.089212
+  s= 2 K= 5 D=1 M_W=2: eps=0.12398  eps/p^s=0.013775  lowerbd=-2.985  PropD(p^K Coll_K)=2.0189 >= p^K Coll_K=1.249: True  partial sum_s mu(depth=s) eps = 0.098396
+  s= 3 K= 6 D=1 M_W=3: eps=1.4738  eps/p^s=0.054584  lowerbd=-2.956  PropD(p^K Coll_K)=6.0568 >= p^K Coll_K=2.5988: True  partial sum_s mu(depth=s) eps = 0.13479
+  s= 4 K= 7 D=1 M_W=4: eps=5.0611  eps/p^s=0.062483  lowerbd=-2.867  PropD(p^K Coll_K)=18.17 >= p^K Coll_K=6.1861: True  partial sum_s mu(depth=s) eps = 0.17644
+  s= 5 K= 8 D=1 M_W=5: eps=12.966  eps/p^s=0.053358  lowerbd=-2.6  PropD(p^K Coll_K)=54.511 >= p^K Coll_K=14.091: True  partial sum_s mu(depth=s) eps = 0.21201
+  s= 6 K= 9 D=1 M_W=6: eps=37.919  eps/p^s=0.052015  lowerbd=-1.799  PropD(p^K Coll_K)=163.53 >= p^K Coll_K=39.044: True  partial sum_s mu(depth=s) eps = 0.24669
+  s= 7 K=10 D=1 M_W=7: eps=116.01  eps/p^s=0.053044  lowerbd=0.6041  PropD(p^K Coll_K)=490.6 >= p^K Coll_K=117.13: True  partial sum_s mu(depth=s) eps = 0.28205
+  s= 8 K=11 D=1 M_W=8: eps=350.27  eps/p^s=0.053387  lowerbd=7.812  PropD(p^K Coll_K)=1471.8 >= p^K Coll_K=351.4: True  partial sum_s mu(depth=s) eps = 0.31764
+  s= 9 K=12 D=1 M_W=9: eps=1053.1  eps/p^s=0.053501  lowerbd=29.44  PropD(p^K Coll_K)=4415.4 >= p^K Coll_K=1054.2: True  partial sum_s mu(depth=s) eps = 0.35331
+T2 p=3: failures (eps < lower bound, or Prop D < exact): 0
+=== exit: 0   wall: 0.27 s
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py shadow 5 12 10 16 26 21 6
+=== start (UTC): 2026-10-14T01:14:18Z
+T2 p=5: window [10,16,26) H=16, gate at i*=21 (c=9), unit w=779725332136096265951
+  s= 1 K= 6 D=4 M_W=3: eps=0.69347  eps/p^s=0.13869  lowerbd=-624.9  PropD(p^K Coll_K)=15.697 >= p^K Coll_K=15.342: True  partial sum_s mu(depth=s) eps = 0.11096
+  s= 2 K= 5 D=2 M_W=2: eps=0.22755  eps/p^s=0.0091021  lowerbd=-24.99  PropD(p^K Coll_K)=5.2322 >= p^K Coll_K=2.8154: True  partial sum_s mu(depth=s) eps = 0.11824
+  s= 3 K= 6 D=2 M_W=3: eps=3.1439  eps/p^s=0.025151  lowerbd=-24.94  PropD(p^K Coll_K)=15.697 >= p^K Coll_K=5.7318: True  partial sum_s mu(depth=s) eps = 0.13836
+  s= 4 K= 7 D=2 M_W=4: eps=12.42  eps/p^s=0.019873  lowerbd=-24.7  PropD(p^K Coll_K)=78.483 >= p^K Coll_K=15.008: True  partial sum_s mu(depth=s) eps = 0.15426
+  s= 5 K= 8 D=2 M_W=5: eps=70.172  eps/p^s=0.022455  lowerbd=-23.51  PropD(p^K Coll_K)=392.41 >= p^K Coll_K=72.76: True  partial sum_s mu(depth=s) eps = 0.17222
+  s= 6 K= 9 D=2 M_W=6: eps=291.24  eps/p^s=0.01864  lowerbd=-17.55  PropD(p^K Coll_K)=1962.1 >= p^K Coll_K=293.83: True  partial sum_s mu(depth=s) eps = 0.18713
+T2 p=5: failures (eps < lower bound, or Prop D < exact): 0
+=== exit: 0   wall: 0.4 s
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py shadow 7 13 14 22 36 30 5
+=== start (UTC): 2026-10-14T01:14:19Z
+T2 p=7: window [14,22,36) H=22, gate at i*=30 (c=14), unit w=8710568586086702935459233
+  s= 1 K= 3 D=1 M_W=1: eps=0.033159  eps/p^s=0.004737  lowerbd=-7  PropD(p^K Coll_K)=2.7005 >= p^K Coll_K=2.6582: True  partial sum_s mu(depth=s) eps = 0.0040603
+  s= 2 K= 4 D=1 M_W=2: eps=0.037364  eps/p^s=0.00076254  lowerbd=-7  PropD(p^K Coll_K)=2.9622 >= p^K Coll_K=2.6624: True  partial sum_s mu(depth=s) eps = 0.0047139
+  s= 3 K= 5 D=1 M_W=3: eps=0.37331  eps/p^s=0.0010884  lowerbd=-6.999  PropD(p^K Coll_K)=10.813 >= p^K Coll_K=2.9983: True  partial sum_s mu(depth=s) eps = 0.0056468
+  s= 4 K= 6 D=1 M_W=4: eps=2.3956  eps/p^s=0.00099774  lowerbd=-6.993  PropD(p^K Coll_K)=74.914 >= p^K Coll_K=5.0206: True  partial sum_s mu(depth=s) eps = 0.006502
+  s= 5 K= 7 D=1 M_W=5: eps=18.518  eps/p^s=0.0011018  lowerbd=-6.951  PropD(p^K Coll_K)=524.4 >= p^K Coll_K=21.143: True  partial sum_s mu(depth=s) eps = 0.0074464
+T2 p=7: failures (eps < lower bound, or Prop D < exact): 0
+=== exit: 0   wall: 0.27 s
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py shadow 7 17 14 20 29 26 6
+=== start (UTC): 2026-10-14T01:17:09Z
+T2 p=7: window [14,20,29) H=15, gate at i*=26 (c=10), unit w=14144390777911461397997959
+  s= 1 K= 2 D=1 M_W=1: eps=0.00053239  eps/p^s=7.6056e-05  lowerbd=-7  PropD(p^K Coll_K)=1.04 >= p^K Coll_K=1.0259: True  partial sum_s mu(depth=s) eps = 6.519e-05
+  s= 2 K= 3 D=1 M_W=2: eps=0.034528  eps/p^s=0.00070466  lowerbd=-6.997  PropD(p^K Coll_K)=1.1408 >= p^K Coll_K=1.0599: True  partial sum_s mu(depth=s) eps = 0.00066919
+  s= 3 K= 4 D=1 M_W=3: eps=0.54368  eps/p^s=0.0015851  lowerbd=-6.982  PropD(p^K Coll_K)=4.1645 >= p^K Coll_K=1.5691: True  partial sum_s mu(depth=s) eps = 0.0020278
+  s= 4 K= 5 D=1 M_W=4: eps=5.5843  eps/p^s=0.0023258  lowerbd=-6.872  PropD(p^K Coll_K)=28.851 >= p^K Coll_K=6.6097: True  partial sum_s mu(depth=s) eps = 0.0040214
+  s= 5 K= 6 D=1 M_W=5: eps=44.583  eps/p^s=0.0026527  lowerbd=-6.102  PropD(p^K Coll_K)=201.96 >= p^K Coll_K=45.609: True  partial sum_s mu(depth=s) eps = 0.0062951
+  s= 6 K= 7 D=1 M_W=6: eps=300.57  eps/p^s=0.0025548  lowerbd=-0.7169  PropD(p^K Coll_K)=1413.7 >= p^K Coll_K=301.59: True  partial sum_s mu(depth=s) eps = 0.0084849
+T2 p=7: failures (eps < lower bound, or Prop D < exact): 0
+=== exit: 0   wall: 0.25 s
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py shadow 5 18 12 18 30 25 7
+=== start (UTC): 2026-10-14T01:17:09Z
+T2 p=5: window [12,18,30) H=18, gate at i*=25 (c=11), unit w=777028796850016575432
+  s= 1 K= 5 D=2 M_W=2: eps=0.22248  eps/p^s=0.044497  lowerbd=-25  PropD(p^K Coll_K)=5.1995 >= p^K Coll_K=4.91: True  partial sum_s mu(depth=s) eps = 0.035598
+  s= 2 K= 5 D=1 M_W=2: eps=0.1749  eps/p^s=0.0069959  lowerbd=-4.997  PropD(p^K Coll_K)=2.2891 >= p^K Coll_K=1.2686: True  partial sum_s mu(depth=s) eps = 0.041194
+  s= 3 K= 6 D=1 M_W=3: eps=0.73338  eps/p^s=0.005867  lowerbd=-4.985  PropD(p^K Coll_K)=6.8672 >= p^K Coll_K=1.8271: True  partial sum_s mu(depth=s) eps = 0.045888
+  s= 4 K= 7 D=1 M_W=4: eps=3.4279  eps/p^s=0.0054847  lowerbd=-4.925  PropD(p^K Coll_K)=34.336 >= p^K Coll_K=4.5217: True  partial sum_s mu(depth=s) eps = 0.050276
+  s= 5 K= 8 D=1 M_W=5: eps=17.704  eps/p^s=0.0056653  lowerbd=-4.627  PropD(p^K Coll_K)=171.68 >= p^K Coll_K=18.798: True  partial sum_s mu(depth=s) eps = 0.054808
+  s= 6 K= 9 D=1 M_W=6: eps=72.364  eps/p^s=0.0046313  lowerbd=-3.137  PropD(p^K Coll_K)=858.4 >= p^K Coll_K=73.458: True  partial sum_s mu(depth=s) eps = 0.058513
+  s= 7 K=10 D=1 M_W=7: eps=366.2  eps/p^s=0.0046873  lowerbd=4.313  PropD(p^K Coll_K)=4292 >= p^K Coll_K=367.29: True  partial sum_s mu(depth=s) eps = 0.062263
+T2 p=5: failures (eps < lower bound, or Prop D < exact): 0
+=== exit: 0   wall: 3.51 s

@@ -1,0 +1,8 @@
+=== command: python3 t1_lemmaQ.py 7 32 80 neg 4 3 50
+=== start (UTC): 2026-10-14T01:23:42Z
+p=7 KIND=neg kmax=4 fmax=3 tmax=50
+cases=53980 FAILURES=0 max P/bound=1.000000 (attained with equality in 3435 cases)
+cases with >=1 2D block: 1008, max #2D blocks in one case: 2
+negative controls (violations of stronger unproved variants): noM:0, half2D:210, depth2:0, noq:3603
+worst case (u mod p^12, t, k, f, P, bound): 6255594700 2 1 None 1/4 1/4
+=== exit: 0   wall: 67.64 s

@@ -1,0 +1,20 @@
+=== command: python3 code/round3/check_R3M/ck_propA.py 3 101 25 20 26 2
+=== start (UTC): 2026-10-13T08:00:30Z
+RESULT propA p=3 n=20 N=26 L=2 [hypotheses W1-W3 enforced] samples=25 parents=762 (parent,state) identities=2070 parents failing (iii)=0 inheritance failures=0 constancy failures=0 A' identity fails=0/25 (2.1) fails=0/87 lambda hist={0: 456, 1: 190, 2: 116}
+=== exit: 0   wall: 32.83 s
+=== command: python3 code/round3/check_R3M/ck_propA.py 3 102 4 24 33 3
+=== start (UTC): 2026-10-13T08:01:03Z
+RESULT propA p=3 n=24 N=33 L=3 [hypotheses W1-W3 enforced] samples=4 parents=376 (parent,state) identities=1980 parents failing (iii)=0 inheritance failures=0 constancy failures=0 A' identity fails=0/4 (2.1) fails=0/51 lambda hist={1: 264, 2: 102, 3: 10}
+=== exit: 0   wall: 277.93 s
+=== command: python3 code/round3/check_R3M/ck_propA.py 5 103 4 30 40 2 0 40
+=== start (UTC): 2026-10-13T08:05:41Z
+RESULT propA p=5 n=30 N=40 L=2 [hypotheses W1-W3 enforced] samples=4 parents=160 (parent,state) identities=572 parents failing (iii)=0 inheritance failures=0 constancy failures=0 A' identity fails=0/4 (2.1) fails=0/38 lambda hist={0: 97, 1: 55, 2: 8}
+=== exit: 0   wall: 264.07 s
+=== command: python3 code/round3/check_R3M/ck_propA.py 7 104 3 28 42 1 0 30
+=== start (UTC): 2026-10-13T08:10:05Z
+RESULT propA p=7 n=28 N=42 L=1 [hypotheses W1-W3 enforced] samples=3 parents=90 (parent,state) identities=270 parents failing (iii)=0 inheritance failures=0 constancy failures=0 A' identity fails=0/3 (2.1) fails=0/9 lambda hist={0: 60, 1: 30}
+=== exit: 0   wall: 365.54 s
+=== command: python3 code/round3/check_R3M/ck_propA.py 3 105 10 20 26 3 1
+=== start (UTC): 2026-10-13T08:16:10Z
+RESULT propA p=3 n=20 N=26 L=3 [NEG(no W1-W3 filter)] samples=10 parents=215 (parent,state) identities=3223 parents failing (iii)=54 inheritance failures=0 constancy failures=0 A' identity fails=0/10 (2.1) fails=0/16 lambda hist={0: 64, 1: 30, 2: 11, 3: 110}
+=== exit: 0   wall: 9.79 s

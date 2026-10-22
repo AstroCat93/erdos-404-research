@@ -1,0 +1,68 @@
+=== command: python3 code/round3/check_R3M/ck_C5_N3_C4.py C5 3 401 30 10 5 5
+=== start (UTC): 2026-10-13T17:12:04Z
+RESULT C5 p=3 n=10 H=5 H2=5: identity exact in 30/30 samples
+=== exit: 0   wall: 0.05 s
+=== command: python3 code/round3/check_R3M/ck_C5_N3_C4.py C5 3 402 20 16 6 6
+=== start (UTC): 2026-10-13T17:12:04Z
+RESULT C5 p=3 n=16 H=6 H2=6: identity exact in 20/20 samples
+=== exit: 0   wall: 0.07 s
+=== command: python3 code/round3/check_R3M/ck_C5_N3_C4.py C5 3 403 10 24 8 8
+=== start (UTC): 2026-10-13T17:12:04Z
+RESULT C5 p=3 n=24 H=8 H2=8: identity exact in 10/10 samples
+=== exit: 0   wall: 0.46 s
+=== command: python3 code/round3/check_R3M/ck_C5_N3_C4.py C5 5 404 20 12 6 6
+=== start (UTC): 2026-10-13T17:12:05Z
+RESULT C5 p=5 n=12 H=6 H2=6: identity exact in 20/20 samples
+=== exit: 0   wall: 0.06 s
+=== command: python3 code/round3/check_R3M/ck_C5_N3_C4.py C5 5 405 10 20 10 10
+=== start (UTC): 2026-10-13T17:12:05Z
+RESULT C5 p=5 n=20 H=10 H2=10: identity exact in 10/10 samples
+=== exit: 0   wall: 0.39 s
+=== command: python3 code/round3/check_R3M/ck_C5_N3_C4.py C5 7 406 20 14 8 8
+=== start (UTC): 2026-10-13T17:12:05Z
+RESULT C5 p=7 n=14 H=8 H2=8: identity exact in 20/20 samples
+=== exit: 0   wall: 0.07 s
+=== command: python3 code/round3/check_R3M/ck_C5_N3_C4.py C5 11 407 10 22 11 11
+=== start (UTC): 2026-10-13T17:12:06Z
+RESULT C5 p=11 n=22 H=11 H2=11: identity exact in 10/10 samples
+=== exit: 0   wall: 0.09 s
+=== command: python3 code/round3/check_R3M/ck_C5_N3_C4.py N3 3 501 8 8
+=== start (UTC): 2026-10-13T17:12:06Z
+N3 p=3 t=3: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..8: 0.1667 0.1667 0.1667 0.1667 0.1667 0.1667 0.1667 0.1667   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.04167)
+N3 p=3 t=4: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..8: 0.1667 0.1667 0.1667 0.1667 0.1667 0.1667 0.1667 0.1667   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.02083)
+N3 p=3 t=5: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..8: 0.03125 0.1641 0.1641 0.1641 0.1641 0.1641 0.1641 0.1641   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.03125)
+N3 p=3 t=6: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..8: 0.1094 0.1641 0.1641 0.1641 0.1641 0.1641 0.1641 0.1641   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.01562)
+N3 p=3 t=7: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..8: 0.1367 0.1641 0.1641 0.1641 0.1641 0.1641 0.1641 0.1641   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.007812)
+N3 p=3 t=8: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..8: 0.1194 0.1659 0.1659 0.1659 0.1659 0.1659 0.1659 0.1659   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.01172)
+RESULT N3 p=3: lower-bound violations 0/252
+=== exit: 0   wall: 0.04 s
+=== command: python3 code/round3/check_R3M/ck_C5_N3_C4.py N3 5 502 8 8
+=== start (UTC): 2026-10-13T17:12:06Z
+N3 p=5 t=3: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..8: 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.05)
+N3 p=5 t=4: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..8: 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.025)
+N3 p=5 t=5: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..8: 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.0125)
+N3 p=5 t=6: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..8: 0.2 0.2 0.2 0.2 0.2 0.2 0.2 0.2   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.00625)
+N3 p=5 t=7: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..8: 0.1999 0.2021 0.2021 0.2021 0.2021 0.2021 0.2021 0.2021   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.01562)
+N3 p=5 t=8: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..8: 0.2021 0.2021 0.2021 0.2021 0.2021 0.2021 0.2021 0.2021   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.007812)
+RESULT N3 p=5: lower-bound violations 0/264
+=== exit: 0   wall: 0.03 s
+=== command: python3 code/round3/check_R3M/ck_C5_N3_C4.py N3 7 503 6 9
+=== start (UTC): 2026-10-13T17:12:06Z
+N3 p=7 t=3: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..6: 0.2143 0.2143 0.2143 0.2143 0.2143 0.2143   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.05357)
+N3 p=7 t=4: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..6: 0.2143 0.2143 0.2143 0.2143 0.2143 0.2143   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.02679)
+N3 p=7 t=5: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..6: 0.2143 0.2143 0.2143 0.2143 0.2143 0.2143   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.01339)
+N3 p=7 t=6: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..6: 0.2143 0.2143 0.2143 0.2143 0.2143 0.2143   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.006696)
+N3 p=7 t=7: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..6: 0.2143 0.2143 0.2143 0.2143 0.2143 0.2143   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.003348)
+N3 p=7 t=8: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..6: 0.2143 0.2143 0.2143 0.2143 0.2143 0.2143   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.001674)
+N3 p=7 t=9: shell masses (1-1/p)p^-s E[Lam_t|v(y+2)=s], s=1..6: 0.183 0.2161 0.2161 0.2161 0.2161 0.2161   (lower bound (1-1/p)p^v((t-2)!)2^-(t+1) = 0.005859)
+RESULT N3 p=7: lower-bound violations 0/234
+=== exit: 0   wall: 0.05 s
+=== command: python3 code/round3/check_R3M/ck_C5_N3_C4.py C4 3 601 400 60 1.25
+=== start (UTC): 2026-10-13T17:12:06Z
+RESULT C4 p=3 n0=60 r=1.25: implication tested 2491 times, failures 0; eps_l measurability tested 0 times, failures 0
+=== exit: 0   wall: 0.13 s
+=== command: python3 code/round3/check_R3M/ck_C5_N3_C4.py C4 5 602 400 60 1.25
+=== start (UTC): 2026-10-13T17:12:06Z
+Terminated
+=== exit: 143   wall: 648.05 s
+=== (run above killed by hand by the second check_R3M instance after 648 s: the eps-measurability DP modulo 5^9 is too slow in Python; no result taken from it. The C4 p=7 run of ck_batch3.sh was not started. The measurability test is redone with small composite jumps in C3struct.log.)

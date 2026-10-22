@@ -1,0 +1,9 @@
+# definition-level big-integer check of K. Kitamura's three shipped p=2 witness files (commit 32697193)
+# start 2026-10-13T06:16:57Z
+# command: nice -n 10 python3 -I code/round3/S0/verify_witness_bigint.py 34 18444 /tmp/r3_S0/kita/erdos-404-p2-landscape/data/a34_g18412_witness_indices.txt   (file sha256 1db127e4e8cdadb8...)
+a=34: |B|=9216 terms, max index 18446, exact v_2(sum) = 18444, claimed f >= 18444: OK (0.2 s)
+# command: nice -n 10 python3 -I code/round3/S0/verify_witness_bigint.py 1102 12633 /tmp/r3_S0/kita/erdos-404-p2-landscape/data/a1102_g11536_witness_indices.txt   (file sha256 7669e58ff996e880...)
+a=1102: |B|=5731 terms, max index 12638, exact v_2(sum) = 12633, claimed f >= 12633: OK (0.1 s)
+# command: nice -n 10 python3 -I code/round3/S0/verify_witness_bigint.py 3456 8275 /tmp/r3_S0/kita/erdos-404-p2-landscape/data/a3456_g4823_witness_indices.txt   (file sha256 8182eef0350ff641...)
+a=3456: |B|=2392 terms, max index 8278, exact v_2(sum) = 8275, claimed f >= 8275: OK (0.0 s)
+# end 2026-10-13T06:16:58Z

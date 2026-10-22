@@ -1,0 +1,58 @@
+=== command: python3 cov_verify.py 7 1 4 all
+=== start (UTC): 2026-10-13T23:37:06Z
+RESULT cov_verify p=7 t=1 H=4 c=0 modulus=p^1 mode=all: classes checked=1 of 1, classes with misses=0 []
+=== exit: 0   wall: 0.13 s
+=== command: python3 cov_verify.py 7 2 7 all
+=== start (UTC): 2026-10-13T23:37:06Z
+RESULT cov_verify p=7 t=2 H=7 c=0 modulus=p^2 mode=all: classes checked=1 of 1, classes with misses=0 []
+=== exit: 0   wall: 0.16 s
+=== command: python3 cov_verify.py 7 3 19 all
+=== start (UTC): 2026-10-13T23:37:07Z
+RESULT cov_verify p=7 t=3 H=19 c=2 modulus=p^5 mode=all: classes checked=42 of 42, classes with misses=0 []
+=== exit: 0   wall: 0.43 s
+=== command: python3 cov_verify.py 7 4 26 all
+=== start (UTC): 2026-10-13T23:37:07Z
+RESULT cov_verify p=7 t=4 H=26 c=3 modulus=p^7 mode=all: classes checked=294 of 294, classes with misses=0 []
+=== exit: 0   wall: 5.55 s
+=== command: python3 cov_verify.py 7 5 28 all
+=== start (UTC): 2026-10-13T23:37:13Z
+RESULT cov_verify p=7 t=5 H=28 c=3 modulus=p^8 mode=all: classes checked=294 of 294, classes with misses=0 []
+=== exit: 0   wall: 30.13 s
+=== command: python3 cov_verify.py 7 6 34 sample:120:7 5
+=== start (UTC): 2026-10-13T23:37:43Z
+RESULT cov_verify p=7 t=6 H=34 c=4 modulus=p^10 mode=sample:120:7: classes checked=121 of 2058, classes with misses=0 []
+RESULT cov_verify extra p=7 t=6 H=34 K'=5: missed residues=0 of 282475249
+=== exit: 0   wall: 693.95 s
+=== command: python3 cov_verify.py 7 6 33 sample:40:8 5
+=== start (UTC): 2026-10-13T23:49:17Z
+RESULT cov_verify p=7 t=6 H=33 c=4 modulus=p^10 mode=sample:40:8: classes checked=41 of 2058, classes with misses=9 [(515, 2), (543, 2), (604, 2), (1182, 2), (1770, 2)]
+RESULT cov_verify extra p=7 t=6 H=33 K'=5: missed residues=2 of 282475249
+=== exit: 0   wall: 190.45 s
+=== command: python3 cov_verify.py 7 3 18 all
+=== start (UTC): 2026-10-13T23:52:27Z
+RESULT cov_verify p=7 t=3 H=18 c=2 modulus=p^5 mode=all: classes checked=42 of 42, classes with misses=21 [(1, 8), (4, 4), (5, 20), (8, 8), (11, 4)]
+=== exit: 0   wall: 0.09 s
+=== command: python3 cov_verify.py 13 1 6 all
+=== start (UTC): 2026-10-13T23:52:27Z
+RESULT cov_verify p=13 t=1 H=6 c=0 modulus=p^1 mode=all: classes checked=1 of 1, classes with misses=0 []
+=== exit: 0   wall: 0.03 s
+=== command: python3 cov_verify.py 13 2 10 all
+=== start (UTC): 2026-10-13T23:52:27Z
+RESULT cov_verify p=13 t=2 H=10 c=0 modulus=p^2 mode=all: classes checked=1 of 1, classes with misses=0 []
+=== exit: 0   wall: 0.03 s
+=== command: python3 cov_verify.py 13 3 19 all
+=== start (UTC): 2026-10-13T23:52:27Z
+RESULT cov_verify p=13 t=3 H=19 c=1 modulus=p^4 mode=all: classes checked=12 of 12, classes with misses=0 []
+=== exit: 0   wall: 0.06 s
+=== command: python3 cov_verify.py 13 4 24 all
+=== start (UTC): 2026-10-13T23:52:28Z
+RESULT cov_verify p=13 t=4 H=24 c=1 modulus=p^5 mode=all: classes checked=12 of 12, classes with misses=0 []
+=== exit: 0   wall: 0.14 s
+=== command: python3 cov_verify.py 11 4 22 all
+=== start (UTC): 2026-10-13T23:52:28Z
+RESULT cov_verify p=11 t=4 H=22 c=1 modulus=p^5 mode=all: classes checked=10 of 10, classes with misses=0 []
+=== exit: 0   wall: 0.07 s
+=== command: python3 cov_verify.py 11 5 30 sample:60:9
+=== start (UTC): 2026-10-13T23:52:28Z
+RESULT cov_verify p=11 t=5 H=30 c=2 modulus=p^7 mode=sample:60:9: classes checked=60 of 110, classes with misses=0 []
+=== exit: 0   wall: 19.0 s

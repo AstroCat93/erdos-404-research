@@ -1,0 +1,15 @@
+=== command: python3 code/round3/check_R3M/ck_lemma12.py 3 1101 60 40
+=== start (UTC): 2026-10-13T17:23:36Z
+RESULT lemma1 p=3 nmax=40: (a) fails 0/2400; (b) fails 0/2400; (c) fails 0/49200; (d) fails 0/240; (e) fails 0/240
+RESULT lemma2 p=3: (a) aliveness changes 0/20280; (b) congruence mod p^(m-M_n) fails 0/20280; holds also mod p^(m-M_n+1) in 13514/20280 (informative)
+=== exit: 0   wall: 2.25 s
+=== command: python3 code/round3/check_R3M/ck_lemma12.py 5 1102 60 40
+=== start (UTC): 2026-10-13T17:23:38Z
+RESULT lemma1 p=5 nmax=40: (a) fails 0/2400; (b) fails 0/2400; (c) fails 0/49200; (d) fails 0/240; (e) fails 0/240
+RESULT lemma2 p=5: (a) aliveness changes 0/33843; (b) congruence mod p^(m-M_n) fails 0/33843; holds also mod p^(m-M_n+1) in 14639/33843 (informative)
+=== exit: 0   wall: 19.24 s
+=== command: python3 code/round3/check_R3M/ck_lemma12.py 7 1103 60 40
+=== start (UTC): 2026-10-13T17:23:57Z
+RESULT lemma1 p=7 nmax=40: (a) fails 0/2400; (b) fails 0/2400; (c) fails 0/49200; (d) fails 0/240; (e) fails 0/240
+RESULT lemma2 p=7: (a) aliveness changes 0/49182; (b) congruence mod p^(m-M_n) fails 0/49182; holds also mod p^(m-M_n+1) in 18181/49182 (informative)
+=== exit: 0   wall: 532.61 s

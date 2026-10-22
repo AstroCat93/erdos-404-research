@@ -1,0 +1,129 @@
+### command: python3 -I code/round3/referee_logic/c2_test.py 3 41 25 9 3 3 2200 1
+# c2_test p=3 seed=41 samples=25 n=9 N=12 N'=15 PREC=45
+x mod p^6=333 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^7=1314 m=5 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=414 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=459 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=297 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=297 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^7=585 m=5 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=54 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=621 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^7=99 m=5 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=459 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=216 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=540 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=252 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=414 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=495 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=9 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=171 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=657 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=333 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=297 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=54 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=576 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^7=342 m=5 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^6=378 m=4 D=1 D'=1 M_N'=2 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+# summary: {'tested': 25, 'skip_hyp': 849, 'skip_empty': 397, 'skip_big': 0, 'single': 25, 'M_ok': 25, 'B_ok': 25, 'B_eq': 25, 'C2_ok': 25, 'C2_eq': 25, 'N_ok': 25, 'const_ok': 25} max C2 ratio over |P|>1: 0.0000
+### exit 0 wall 0 s
+### command: python3 -I code/round3/referee_logic/c2_test.py 3 42 25 15 3 3 2200 1
+# c2_test p=3 seed=42 samples=25 n=15 N=18 N'=21 PREC=63
+x mod p^10=37839 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^10=41241 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=134283 m=9 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=165063 m=9 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=52311 m=9 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^12=70941 m=10 D=1 D'=1 M_N'=5 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^10=33330 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=79284 m=9 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^10=41970 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^10=10299 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^10=1470 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^10=53013 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^10=23421 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=112818 m=9 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^10=22476 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=117273 m=9 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^10=28551 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^10=48531 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=66 m=9 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^10=54795 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^10=55092 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^10=44832 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^10=22206 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^10=15726 m=8 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=167250 m=9 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+# summary: {'tested': 25, 'skip_hyp': 750, 'skip_empty': 4167, 'skip_big': 0, 'single': 25, 'M_ok': 25, 'B_ok': 25, 'B_eq': 25, 'C2_ok': 25, 'C2_eq': 25, 'N_ok': 25, 'const_ok': 25} max C2 ratio over |P|>1: 0.0000
+### exit 0 wall 2 s
+### command: python3 -I code/round3/referee_logic/c2_test.py 3 43 25 18 3 3 2200 1
+# c2_test p=3 seed=43 samples=25 n=18 N=21 N'=24 PREC=72
+x mod p^12=105120 m=10 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^12=449208 m=10 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^12=489546 m=10 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=84087 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=121752 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=39294 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=67239 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^12=493839 m=10 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^13=1385325 m=11 D=1 D'=1 M_N'=5 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^13=1364913 m=11 D=1 D'=1 M_N'=5 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=136818 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=40023 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^12=253350 m=10 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=80928 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^12=453987 m=10 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=165816 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=128880 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=142812 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=121428 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^13=264123 m=11 D=1 D'=1 M_N'=5 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=158634 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=20340 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=20583 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=24390 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=19854 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+# summary: {'tested': 25, 'skip_hyp': 417, 'skip_empty': 4919, 'skip_big': 0, 'single': 25, 'M_ok': 25, 'B_ok': 25, 'B_eq': 25, 'C2_ok': 25, 'C2_eq': 25, 'N_ok': 25, 'const_ok': 25} max C2 ratio over |P|>1: 0.0000
+### exit 0 wall 3 s
+### command: python3 -I code/round3/referee_logic/c2_test.py 3 44 15 18 4 4 6600 1
+# c2_test p=3 seed=44 samples=15 n=18 N=22 N'=26 PREC=78
+x mod p^12=351279 m=10 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=128880 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^12=473994 m=10 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^13=877212 m=11 D=1 D'=1 M_N'=5 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=165492 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=84978 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^12=400365 m=10 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=19530 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=137871 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=84087 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^12=473751 m=10 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=56223 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^12=447021 m=10 D=1 D'=1 M_N'=4 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=140463 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+x mod p^11=8190 m=9 D=1 D'=1 M_N'=3 Z0_n=1 chi2=0.03125 eps=0.01465 C2 ratio=1.0000 const=True
+# summary: {'tested': 15, 'skip_hyp': 338, 'skip_empty': 3182, 'skip_big': 0, 'single': 15, 'M_ok': 15, 'B_ok': 15, 'B_eq': 15, 'C2_ok': 15, 'C2_eq': 15, 'N_ok': 15, 'const_ok': 15} max C2 ratio over |P|>1: 0.0000
+### exit 0 wall 4 s
+### command: python3 -I code/round3/referee_logic/c2_test.py 5 45 10 16 5 5 3200 1
+# c2_test p=5 seed=45 samples=10 n=16 N=21 N'=26 PREC=78
+# summary: {'tested': 0, 'skip_hyp': 1491, 'skip_empty': 2509, 'skip_big': 0, 'single': 0, 'M_ok': 0, 'B_ok': 0, 'B_eq': 0, 'C2_ok': 0, 'C2_eq': 0, 'N_ok': 0, 'const_ok': 0} max C2 ratio over |P|>1: 0.0000
+### exit 0 wall 43 s
+### command: python3 -I code/round3/referee_logic/c2_test.py 5 46 15 20 5 5 3200 0
+# c2_test p=5 seed=46 samples=15 n=20 N=25 N'=30 PREC=90
+x mod p^7=46336 m=5 D=1 D'=1 M_N'=2 Z0_n=98 chi2=0.05469 eps=0.005608 C2 ratio=0.0048 const=True
+x mod p^7=60806 m=5 D=1 D'=1 M_N'=2 Z0_n=102 chi2=0.05469 eps=0.02316 C2 ratio=0.0520 const=True
+x mod p^8=341486 m=6 D=1 D'=1 M_N'=3 Z0_n=24 chi2=0.05469 eps=0.005608 C2 ratio=0.0575 const=True
+x mod p^7=14585 m=5 D=1 D'=1 M_N'=2 Z0_n=42 chi2=0.03516 eps=0.003872 C2 ratio=0.0154 const=True
+x mod p^7=26191 m=5 D=1 D'=1 M_N'=2 Z0_n=250 chi2=0.05469 eps=0.006752 C2 ratio=0.0019 const=True
+x mod p^7=8531 m=5 D=1 D'=1 M_N'=2 Z0_n=100 chi2=0.05469 eps=0.02316 C2 ratio=0.0258 const=True
+x mod p^7=30406 m=5 D=1 D'=1 M_N'=2 Z0_n=100 chi2=0.05469 eps=0.02316 C2 ratio=0.0258 const=True
+x mod p^7=71706 m=5 D=1 D'=1 M_N'=2 Z0_n=126 chi2=0.05469 eps=0.02316 C2 ratio=0.0210 const=True
+x mod p^7=44660 m=5 D=1 D'=1 M_N'=2 Z0_n=48 chi2=0.03516 eps=0.003872 C2 ratio=0.0164 const=True
+x mod p^8=152731 m=6 D=1 D'=1 M_N'=3 Z0_n=18 chi2=0.05469 eps=0.02316 C2 ratio=0.2575 const=True
+x mod p^7=69310 m=5 D=1 D'=1 M_N'=2 Z0_n=54 chi2=0.03516 eps=0.003872 C2 ratio=0.0120 const=True
+x mod p^8=314730 m=6 D=1 D'=1 M_N'=3 Z0_n=6 chi2=0.03516 eps=0.02123 C2 ratio=0.3248 const=True
+x mod p^7=25061 m=5 D=1 D'=1 M_N'=2 Z0_n=52 chi2=0.05469 eps=0.005608 C2 ratio=0.0124 const=True
+x mod p^7=73831 m=5 D=1 D'=1 M_N'=2 Z0_n=130 chi2=0.05469 eps=0.02316 C2 ratio=0.0285 const=True
+x mod p^7=61760 m=5 D=1 D'=1 M_N'=2 Z0_n=61 chi2=0.03516 eps=0.003872 C2 ratio=0.0050 const=True
+# summary: {'tested': 15, 'skip_hyp': 13, 'skip_empty': 33, 'skip_big': 0, 'single': 0, 'M_ok': 15, 'B_ok': 15, 'B_eq': 0, 'C2_ok': 15, 'C2_eq': 0, 'N_ok': 15, 'const_ok': 15} max C2 ratio over |P|>1: 0.3248
+### exit 0 wall 18 s

@@ -1,0 +1,5 @@
+=== command: python3 t2b_chain.py 5 205 30 deep 7 25 78125
+=== start (UTC): 2026-10-14T01:28:18Z
+p=5 KIND=deep: {'balls': 30, 'thm1_ok': 30, 'thm1_bad': 0, 'F_ok': 14, 'F_bad': 0, 'F_skip': 16, 'D_ok': 30, 'D_bad': 0, 'chi_ok': 30, 'chi_bad': 0, 'E_ok': 14, 'E_bad': 0, 'path_agree': 44, 'path_disagree': 0, 'Ep_ok': 14, 'Ep_bad': 0, 'theta_pos': 14}
+max ratios: Coll_K/PropD=0.9858  chi-version=1.0000  E_B eps/PropE=0.0241  LemmaF LHS/RHS=1.0000
+=== exit: 0   wall: 9.57 s

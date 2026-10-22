@@ -1,0 +1,12 @@
+=== command: python3 code/round3/check_R3M/ck_gate_kill.py 3 1601 300 24
+=== start (UTC): 2026-10-13T17:44:03Z
+RESULT gatekill p=3 n=24 samples=300: v(S_e|i(-i)) == v(x+i) fails 0/5472; deep gates (p^s > e(i-1)!, V_n > s) with nonempty slope-0 population 0/303; v(x+1)>=1 or v(x+2)>=1 (V_n > s) with nonempty slope-0 population 0/188
+=== exit: 0   wall: 0.29 s
+=== command: python3 code/round3/check_R3M/ck_gate_kill.py 5 1602 200 24
+=== start (UTC): 2026-10-13T17:44:03Z
+RESULT gatekill p=5 n=24 samples=200: v(S_e|i(-i)) == v(x+i) fails 0/171220; deep gates (p^s > e(i-1)!, V_n > s) with nonempty slope-0 population 0/156; v(x+1)>=1 or v(x+2)>=1 (V_n > s) with nonempty slope-0 population 0/83
+=== exit: 0   wall: 1.81 s
+=== command: python3 code/round3/check_R3M/ck_gate_kill.py 7 1603 100 24
+=== start (UTC): 2026-10-13T17:44:05Z
+RESULT gatekill p=7 n=24 samples=100: v(S_e|i(-i)) == v(x+i) fails 0/705960; deep gates (p^s > e(i-1)!, V_n > s) with nonempty slope-0 population 0/90; v(x+1)>=1 or v(x+2)>=1 (V_n > s) with nonempty slope-0 population 0/32
+=== exit: 0   wall: 4.05 s

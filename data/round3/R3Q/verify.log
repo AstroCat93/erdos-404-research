@@ -1,0 +1,32 @@
+# cmd: python3 -I verify_bounds.py /tmp/r3_R3Q/all_scan_lines.txt  (start 17:09:18)
+K=32: recomputed delta bound = 2^-2.8864 = 1.352409e-01; logged 1.3524e-01; ratio 1.000007
+K=36: recomputed delta bound = 2^-3.2386 = 1.059432e-01; logged 1.0594e-01; ratio 1.000030
+K=37: recomputed delta bound = 2^-3.3146 = 1.005059e-01; logged 1.0051e-01; ratio 0.999959
+K=38: recomputed delta bound = 2^-3.3799 = 9.606000e-02; logged 9.6060e-02; ratio 1.000000
+K=39: recomputed delta bound = 2^-3.4020 = 9.459932e-02; logged 9.4599e-02; ratio 1.000003
+K=40: recomputed delta bound = 2^-3.4575 = 9.103302e-02; logged 9.1033e-02; ratio 1.000000
+K=44: recomputed delta bound = 2^-3.6844 = 7.778184e-02; logged 7.7782e-02; ratio 0.999998
+K=48: recomputed delta bound = 2^-3.8191 = 7.085001e-02; logged 7.0850e-02; ratio 1.000000
+K=56: recomputed delta bound = 2^-3.9453 = 6.491650e-02; logged 6.4916e-02; ratio 1.000008
+K=64: recomputed delta bound = 2^-3.9834 = 6.322394e-02; logged 6.3224e-02; ratio 0.999999
+K=96: recomputed delta bound = 2^-3.9993 = 6.253178e-02; logged 6.2532e-02; ratio 0.999997
+K=128: recomputed delta bound = 2^-4.0000 = 6.250059e-02; logged 6.2501e-02; ratio 0.999993
+K=192: recomputed delta bound = 2^-4.0000 = 6.250000e-02; logged 6.2500e-02; ratio 1.000000
+K=256: recomputed delta bound = 2^-4.0000 = 6.250000e-02; logged 6.2500e-02; ratio 1.000000
+K=320: recomputed delta bound = 2^-4.0000 = 6.250000e-02; logged 6.2500e-02; ratio 1.000000
+K=384: recomputed delta bound = 2^-4.0000 = 6.250000e-02; logged 6.2500e-02; ratio 1.000000
+K=448: recomputed delta bound = 2^-4.4562 = 4.555511e-02; logged 4.5555e-02; ratio 1.000002
+K=512: recomputed delta bound = 2^-5.6045 = 2.055332e-02; logged 2.0553e-02; ratio 1.000016
+K=576: recomputed delta bound = 2^-6.8620 = 8.596528e-03; logged 8.5965e-03; ratio 1.000003
+K=640: recomputed delta bound = 2^-9.0387 = 1.901461e-03; logged 1.9015e-03; ratio 0.999979
+K=768: recomputed delta bound = 2^-11.1762 = 4.321461e-04; logged 4.3215e-04; ratio 0.999991
+K=896: recomputed delta bound = 2^-14.5082 = 4.291300e-05; logged 4.2913e-05; ratio 1.000000
+K=1024: recomputed delta bound = 2^-17.6282 = 4.935928e-06; logged 4.9359e-06; ratio 1.000006
+K=1280: recomputed delta bound = 2^-23.6814 = 7.433616e-08; logged 7.4336e-08; ratio 1.000002
+K=1536: recomputed delta bound = 2^-28.8217 = 2.107617e-09; logged 2.1076e-09; ratio 1.000008
+K=2048: recomputed delta bound = 2^-40.4859 = 6.494454e-13; logged 6.4945e-13; ratio 0.999993
+K=2560: recomputed delta bound = 2^-49.5456 = 1.217035e-15; logged 1.2170e-15; ratio 1.000029
+K=3072: recomputed delta bound = 2^-64.4304 = 4.022777e-20; logged 4.0228e-20; ratio 0.999994
+K=3584: recomputed delta bound = 2^-66.6309 = 8.751584e-21; logged 8.7516e-21; ratio 0.999998
+K=4096: recomputed delta bound = 2^-72.6037 = 1.393552e-22; logged 1.3936e-22; ratio 0.999965
+# wall 1 s

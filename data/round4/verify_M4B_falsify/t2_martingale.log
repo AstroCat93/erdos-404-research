@@ -1,0 +1,19 @@
+### command: python3 t2_martingale.py 4 30 400
+### start (UTC): 2026-10-14T00:02:46Z
+RESULT p=3 rule=lin n0=6 n1=9: {'atoms': 33, 'a_fail': 0, 'b_fail': 0, 'c_fail': 0, 'd_fail': 0, 'nonzero': 33, 'cross_paths': 6554, 'out_atoms': 0, 'out_a_fail': 0, 'out_b_fail': 0, 'peek': 0, 'peek_up': 0, 'peek_eq': 0}
+RESULT p=3 rule=ladder n0=6 n1=9: {'atoms': 64, 'a_fail': 0, 'b_fail': 0, 'c_fail': 0, 'd_fail': 0, 'nonzero': 64, 'cross_paths': 8722, 'out_atoms': 0, 'out_a_fail': 0, 'out_b_fail': 0, 'peek': 0, 'peek_up': 0, 'peek_eq': 0}
+RESULT p=3 rule=hash n0=6 n1=9: {'atoms': 97, 'a_fail': 0, 'b_fail': 0, 'c_fail': 0, 'd_fail': 0, 'nonzero': 97, 'cross_paths': 17640, 'out_atoms': 0, 'out_a_fail': 0, 'out_b_fail': 0, 'peek': 0, 'peek_up': 0, 'peek_eq': 0}
+RESULT p=5 rule=lin n0=14 n1=16: {'atoms': 127, 'a_fail': 0, 'b_fail': 0, 'c_fail': 0, 'd_fail': 0, 'nonzero': 127, 'cross_paths': 4699532, 'out_atoms': 0, 'out_a_fail': 0, 'out_b_fail': 0, 'peek': 0, 'peek_up': 0, 'peek_eq': 0}
+RESULT p=5 rule=ladder n0=14 n1=18: {'atoms': 158, 'a_fail': 0, 'b_fail': 0, 'c_fail': 0, 'd_fail': 0, 'nonzero': 158, 'cross_paths': 4745784, 'out_atoms': 0, 'out_a_fail': 0, 'out_b_fail': 0, 'peek': 0, 'peek_up': 0, 'peek_eq': 0}
+RESULT p=5 rule=hash n0=14 n1=16: {'atoms': 189, 'a_fail': 0, 'b_fail': 0, 'c_fail': 0, 'd_fail': 0, 'nonzero': 189, 'cross_paths': 4856556, 'out_atoms': 0, 'out_a_fail': 0, 'out_b_fail': 0, 'peek': 0, 'peek_up': 0, 'peek_eq': 0}
+RESULT p=7 rule=lin n0=14 n1=21: {'atoms': 221, 'a_fail': 0, 'b_fail': 0, 'c_fail': 0, 'd_fail': 0, 'nonzero': 221, 'cross_paths': 540636812, 'out_atoms': 0, 'out_a_fail': 0, 'out_b_fail': 0, 'peek': 0, 'peek_up': 0, 'peek_eq': 0}
+RESULT p=7 rule=ladder n0=15 n1=19: {'atoms': 252, 'a_fail': 0, 'b_fail': 0, 'c_fail': 0, 'd_fail': 0, 'nonzero': 252, 'cross_paths': 541183124, 'out_atoms': 0, 'out_a_fail': 0, 'out_b_fail': 0, 'peek': 0, 'peek_up': 0, 'peek_eq': 0}
+RESULT p=7 rule=hash n0=15 n1=20: {'atoms': 282, 'a_fail': 0, 'b_fail': 0, 'c_fail': 0, 'd_fail': 0, 'nonzero': 282, 'cross_paths': 762368460, 'out_atoms': 0, 'out_a_fail': 0, 'out_b_fail': 0, 'peek': 0, 'peek_up': 0, 'peek_eq': 0}
+RESULT sensitivity p=3 (W3' violated by a gate of depth >= m inside the window): 90 points, A(i) violated at 0
+RESULT sensitivity p=5 (W3' violated by a gate of depth >= m inside the window): 90 points, A(i) violated at 0
+RESULT sensitivity p=7 (W3' violated by a gate of depth >= m inside the window): 90 points, A(i) violated at 0
+RESULT negative control (peeking rule) p=5: 30 atoms, E[M_next] > M in 30, equal in 0
+RESULT negative control (peeking rule) p=7: 60 atoms, E[M_next] > M in 60, equal in 0
+SUMMARY t2 {'atoms': 282, 'a_fail': 0, 'b_fail': 0, 'c_fail': 0, 'd_fail': 0, 'nonzero': 282, 'cross_paths': 762368460, 'out_atoms': 270, 'out_a_fail': 0, 'out_b_fail': 0, 'peek': 60, 'peek_up': 60, 'peek_eq': 0}
+### exit: 0
+### wall: 13 s

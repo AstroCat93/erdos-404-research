@@ -1,0 +1,8 @@
+# cmd: nice -n 10 /tmp/r3_R3N/bfsA 594 66126 -p 2000   (bfsA = gcc -O3 -march=native code/round3/R3N/bfsA.c)
+bfsA a=594 K=66126 witness=(none)
+N=2596 R=63534 pop=35 L=994 maxpop=1856 work=1.558e+08 children=154835 dups=0 t=0.2s
+N=4596 R=61537 pop=1240 L=963 maxpop=39706 work=1.848e+09 children=1890289 dups=0 t=12.0s
+N=6596 R=59536 pop=3682 L=932 maxpop=86604 work=5.998e+09 children=6294739 dups=0 t=53.2s
+N=8596 R=57535 pop=1954 L=900 maxpop=222270 work=1.774e+10 children=19106056 dups=0 t=157.5s
+N=10596 R=55536 pop=3655 L=869 maxpop=222270 work=2.548e+10 children=27881404 dups=0 t=223.5s
+# killed at N=10596 (about 6 min CPU) to free memory; superseded by dfsW

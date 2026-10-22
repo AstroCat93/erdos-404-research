@@ -1,0 +1,24 @@
+### command: python3 t4_Qbound.py 3 5 300 12,18,24,30
+### start (UTC): 2026-10-14T00:02:39Z
+RESULT t4 p=3 nx=300 per n
+  n=12: Z^0!=0 in 31/300; failures G 0, V 0, B 0; max M (Haar) 4.805, max M (forced gate) 1.068; log10 Bnd(n) = 10.60
+  n=18: Z^0!=0 in 36/300; failures G 0, V 0, B 0; max M (Haar) 1.352, max M (forced gate) 4.055; log10 Bnd(n) = 18.98
+  n=24: Z^0!=0 in 30/300; failures G 0, V 0, B 0; max M (Haar) 5.702, max M (forced gate) 0.8553; log10 Bnd(n) = 28.27
+  n=30: Z^0!=0 in 23/300; failures G 0, V 0, B 0; max M (Haar) 1.069, max M (forced gate) 1.118; log10 Bnd(n) = 38.24
+### exit: 0   wall: 1.31 s
+
+### command: python3 t4_Qbound.py 5 6 200 15,20,25
+### start (UTC): 2026-10-14T00:02:40Z
+RESULT t4 p=5 nx=200 per n
+  n=15: Z^0!=0 in 47/200; failures G 0, V 0, B 0; max M (Haar) 0.5722, max M (forced gate) 0.782; log10 Bnd(n) = 13.69
+  n=20: Z^0!=0 in 45/200; failures G 0, V 0, B 0; max M (Haar) 0.9239, max M (forced gate) 0.8941; log10 Bnd(n) = 20.71
+  n=25: Z^0!=0 in 37/200; failures G 0, V 0, B 0; max M (Haar) 1.697, max M (forced gate) 0.9164; log10 Bnd(n) = 28.29
+### exit: 0   wall: 3.11 s
+
+### command: python3 t4_Qbound.py 7 7 100 21,28
+### start (UTC): 2026-10-14T00:02:43Z
+RESULT t4 p=7 nx=100 per n
+  n=21: Z^0!=0 in 32/100; failures G 0, V 0, B 0; max M (Haar) 0.5509, max M (forced gate) 2.693; log10 Bnd(n) = 21.48
+  n=28: Z^0!=0 in 31/100; failures G 0, V 0, B 0; max M (Haar) 0.6186, max M (forced gate) 1.322; log10 Bnd(n) = 32.11
+### exit: 0   wall: 18.86 s
+

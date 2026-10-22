@@ -1,0 +1,8 @@
+# command: /tmp/r3_R3C/bin/covchk 29 7 44 1 pos 3
+# cwd: /home/user/erdos-404-research  host: vm  cpu:  Intel(R) Xeon(R) Processor @ 2.10GHz
+# start: 2026-10-13 19:04:13 UTC
+# covchk(C) p=29 t=7 H=44 c=1 M=8 k=1 F=17249876309 nK=1
+C p=29 t=7 H=44 M=8 K=3 Kmodpc=3 miss=2 UNCOVERED 555.07s
+END C p=29 t=7 H=44 nK=1 bad=1 SOME_UNCOVERED 555.1s
+# wall=555.213 s user=532.478 s sys=2.099 s
+# end: 2026-10-13 19:13:28 UTC

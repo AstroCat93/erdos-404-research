@@ -1,0 +1,25 @@
+=== command: python3 cm4_atomlow.py /home/user/erdos-404-research/data/round4/M4A/atom_p23.txt 6 3 4 23
+=== start (UTC): 2026-10-14T02:03:53Z
+p=23 l=0 n=300 j=1 N'_j=322 gates=[(322, 1)]: p^j Coll_j - 1 in [5.978677e-09, 5.978677e-09], Prop D - 1 = 5.978677e-09, max excess ratio 1.000000
+p=23 l=0 n=300 j=2 N'_j=345 gates=[(322, 1), (345, 1)]: p^j Coll_j - 1 in [5.978680e-09, 5.978680e-09], Prop D - 1 = 1.140171e-08, max excess ratio 0.524367
+p=23 l=0 n=300 j=3 N'_j=368 gates=[(322, 1), (345, 1), (368, 1)]: p^j Coll_j - 1 in [5.978680e-09, 5.978680e-09], Prop D - 1 = 1.682474e-08, max excess ratio 0.355350
+p=23 l=1 n=405 j=1 N'_j=414 gates=[(414, 1)]: p^j Coll_j - 1 in [6.215668e-02, 6.215668e-02], Prop D - 1 = 6.215668e-02, max excess ratio 1.000000
+p=23 l=1 n=405 j=2 N'_j=437 gates=[(414, 1), (437, 1)]: p^j Coll_j - 1 in [6.215668e-02, 6.215668e-02], Prop D - 1 = 6.215668e-02, max excess ratio 1.000000
+p=23 l=1 n=405 j=3 N'_j=460 gates=[(414, 1), (437, 1), (460, 1)]: p^j Coll_j - 1 in [6.215668e-02, 6.215668e-02], Prop D - 1 = 6.215669e-02, max excess ratio 1.000000
+p=23 l=2 n=547 j=1 N'_j=552 gates=[(552, 1)]: p^j Coll_j - 1 in [7.968750e-01, 7.968750e-01], Prop D - 1 = 7.968750e-01, max excess ratio 1.000000
+p=23 l=2 n=547 j=2 N'_j=575 gates=[(552, 1), (575, 1)]: p^j Coll_j - 1 in [7.968750e-01, 7.968750e-01], Prop D - 1 = 7.968750e-01, max excess ratio 1.000000
+p=23 l=2 n=547 j=3 N'_j=598 gates=[(552, 1), (575, 1), (598, 1)]: p^j Coll_j - 1 in [7.968750e-01, 7.968750e-01], Prop D - 1 = 7.968750e-01, max excess ratio 1.000000
+p=23 l=3 n=739 j=1 N'_j=759 gates=[(759, 1)]: p^j Coll_j - 1 in [1.356420e-08, 1.356420e-08], Prop D - 1 = 1.356420e-08, max excess ratio 1.000000
+p=23 l=3 n=739 j=2 N'_j=782 gates=[(759, 1), (782, 1)]: p^j Coll_j - 1 in [1.356421e-08, 1.356421e-08], Prop D - 1 = 1.898724e-08, max excess ratio 0.714385
+p=23 l=3 n=739 j=3 N'_j=805 gates=[(759, 1), (782, 1), (805, 1)]: p^j Coll_j - 1 in [1.356421e-08, 1.356421e-08], Prop D - 1 = 2.441027e-08, max excess ratio 0.555676
+p=23 l=4 n=998 j=1 N'_j=1012 gates=[(1012, 1)]: p^j Coll_j - 1 in [8.786842e-04, 8.786842e-04], Prop D - 1 = 8.786842e-04, max excess ratio 1.000000
+p=23 l=4 n=998 j=2 N'_j=1035 gates=[(1012, 1), (1035, 1)]: p^j Coll_j - 1 in [8.786842e-04, 8.786842e-04], Prop D - 1 = 8.786897e-04, max excess ratio 0.999994
+p=23 l=4 n=998 j=3 N'_j=1058 gates=[(1012, 1), (1035, 1), (1058, 1)]: p^j Coll_j - 1 in [8.786842e-04, 8.786842e-04], Prop D - 1 = 8.786951e-04, max excess ratio 0.999988
+p=23 l=5 n=1348 j=1 N'_j=1357 gates=[(1357, 1)]: p^j Coll_j - 1 in [6.215668e-02, 6.215668e-02], Prop D - 1 = 6.215668e-02, max excess ratio 1.000000
+p=23 l=5 n=1348 j=2 N'_j=1380 gates=[(1357, 1), (1380, 1)]: p^j Coll_j - 1 in [6.215668e-02, 6.215668e-02], Prop D - 1 = 6.215668e-02, max excess ratio 1.000000
+p=23 l=5 n=1348 j=3 N'_j=1403 gates=[(1357, 1), (1380, 1), (1403, 1)]: p^j Coll_j - 1 in [6.215668e-02, 6.215668e-02], Prop D - 1 = 6.215669e-02, max excess ratio 1.000000
+p=23 l=6 n=1820 j=1 N'_j=1840 gates=[(1840, 1)]: p^j Coll_j - 1 in [1.356420e-08, 1.356420e-08], Prop D - 1 = 1.356420e-08, max excess ratio 1.000000
+p=23 l=6 n=1820 j=2 N'_j=1863 gates=[(1840, 1), (1863, 1)]: p^j Coll_j - 1 in [1.356421e-08, 1.356421e-08], Prop D - 1 = 1.898724e-08, max excess ratio 0.714386
+p=23 l=6 n=1820 j=3 N'_j=1886 gates=[(1840, 1), (1863, 1), (1886, 1)]: p^j Coll_j - 1 in [1.356421e-08, 1.356421e-08], Prop D - 1 = 2.441027e-08, max excess ratio 0.555676
+RESULT p=23: 84 checks ok, 0 violations, 0 (l,j) skipped (level jumps past j); max ratio 1.000000
+=== exit: 0   wall: 3.09 s

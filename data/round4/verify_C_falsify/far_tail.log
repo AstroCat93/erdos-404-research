@@ -1,0 +1,29 @@
+### command: nice -n 10 python3 code/round4/verify_C_falsify/far_tail.py 200 11 13 97
+### start: 2026-10-14T03:59:15Z
+(a) analytic kappa_p vs printed:
+   p=11 kappa_analytic=0.226719 printed>=0.226  consistent(printed<=analytic): True
+   p=13 kappa_analytic=0.270668 printed>=0.270  consistent(printed<=analytic): True
+   p=17 kappa_analytic=0.313282 printed>=0.313  consistent(printed<=analytic): True
+   p=19 kappa_analytic=0.329995 printed>=0.329  consistent(printed<=analytic): True
+   p=23 kappa_analytic=0.358443 printed>=0.358  consistent(printed<=analytic): True
+   p=29 kappa_analytic=0.392304 printed>=0.392  consistent(printed<=analytic): True
+   p=31 kappa_analytic=0.401935 printed>=0.401  consistent(printed<=analytic): True
+   p=37 kappa_analytic=0.427255 printed>=0.427  consistent(printed<=analytic): True
+   p=41 kappa_analytic=0.441798 printed>=0.441  consistent(printed<=analytic): True
+   p=43 kappa_analytic=0.448510 printed>=0.448  consistent(printed<=analytic): True
+   p=47 kappa_analytic=0.460985 printed>=0.460  consistent(printed<=analytic): True
+   p=53 kappa_analytic=0.477720 printed>=0.477  consistent(printed<=analytic): True
+   p=59 kappa_analytic=0.492550 printed>=0.492  consistent(printed<=analytic): True
+   p=61 kappa_analytic=0.497139 printed>=0.497  consistent(printed<=analytic): True
+   p=67 kappa_analytic=0.510007 printed>=0.510  consistent(printed<=analytic): True
+   p=71 kappa_analytic=0.517924 printed>=0.517  consistent(printed<=analytic): True
+   p=73 kappa_analytic=0.521708 printed>=0.521  consistent(printed<=analytic): True
+   p=79 kappa_analytic=0.532436 printed>=0.532  consistent(printed<=analytic): True
+   p=83 kappa_analytic=0.539121 printed>=0.539  consistent(printed<=analytic): True
+   p=89 kappa_analytic=0.548538 printed>=0.548  consistent(printed<=analytic): True
+   p=97 kappa_analytic=0.560106 printed>=0.560  consistent(printed<=analytic): True
+(b) continuation of the schedule to b = 10^200:
+   p=11: 1445 windows with 10^60 <= b_(k-1) <= 10^200; all (T1),(T2),N>=p asserted; s_k > 3+10 ln b in 0 windows; max log(T' bound)/b = -0.22671936 (kappa_analytic 0.226719); delta_A with this longer explicit range = 0.0874274367768, c_p = 0.000125497932335
+   p=13: 1444 windows with 10^60 <= b_(k-1) <= 10^200; all (T1),(T2),N>=p asserted; s_k > 3+10 ln b in 0 windows; max log(T' bound)/b = -0.2706683 (kappa_analytic 0.270668); delta_A with this longer explicit range = 0.0219904749557, c_p = 0.572777376113
+   p=97: 1444 windows with 10^60 <= b_(k-1) <= 10^200; all (T1),(T2),N>=p asserted; s_k > 3+10 ln b in 0 windows; max log(T' bound)/b = -0.56010631 (kappa_analytic 0.560106); delta_A with this longer explicit range = 0.021615897385, c_p = 0.727568980142
+### wall: 103 s

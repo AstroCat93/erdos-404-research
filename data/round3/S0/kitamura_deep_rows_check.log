@@ -1,0 +1,22 @@
+# two-sided re-check of K. Kitamura's deep exact rows f(1102,2)=12633, f(3456,2)=8275, f(8190,2)=16396
+# binary: clang -O3 -march=native code/round3/S0/sumform_big_cap.c (copy of code/D/sumform_big.c; args a K log2(PMAX) log2(HS))
+# start 2026-10-13T06:18:04Z
+# command: nice -n 10 timeout 2400 /tmp/r3_S0/bin/sumform_big_cap 3456 8275 18 20
+a=3456 K=8275 reachable=1 (final stage N=8279, maxpop=23748)
+#   exit=0 wall=5 s
+# command: nice -n 10 timeout 2400 /tmp/r3_S0/bin/sumform_big_cap 3456 8276 18 20
+a=3456 K=8276 reachable=0 (died at final gate N+1=8280, maxpop=23748)
+#   exit=0 wall=4 s
+# command: nice -n 10 timeout 2400 /tmp/r3_S0/bin/sumform_big_cap 1102 12633 18 20
+a=1102 K=12633 reachable=1 (final stage N=12639, maxpop=152100)
+#   exit=0 wall=35 s
+# command: nice -n 10 timeout 2400 /tmp/r3_S0/bin/sumform_big_cap 1102 12634 18 20
+a=1102 K=12634 reachable=0 (died at final gate N+1=12640, maxpop=152100)
+#   exit=0 wall=37 s
+# command: nice -n 10 timeout 2400 /tmp/r3_S0/bin/sumform_big_cap 8190 16396 18 20
+a=8190 K=16396 reachable=1 (final stage N=16399, maxpop=137384)
+#   exit=0 wall=27 s
+# command: nice -n 10 timeout 2400 /tmp/r3_S0/bin/sumform_big_cap 8190 16397 18 20
+a=8190 K=16397 reachable=0 (died at final gate N+1=16400, maxpop=137384)
+#   exit=0 wall=33 s
+# end 2026-10-13T06:20:25Z

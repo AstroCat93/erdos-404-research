@@ -1,0 +1,46 @@
+# https://www.erdosproblems.com/history/404 , fetched 2026-10-13 (curl)
+Revision history of 
+404
+. All highlighted changes are compared to the current version.
+Current version
+For which integers $a\geq 1$ and primes $p$ is there a finite upper bound on those $k$ such that there are $a=a_1<\cdots<a_n$ with\[p^k \mid (a_1!+\cdots+a_n!)?\]If $f(a,p)$ is the greatest such $k$, how does this function behave?
+Is there a prime $p$ and an infinite sequence $a_1<a_2<\cdots$ such that if $p^{m_k}$ is the highest power of $p$ dividing $\sum_{i\leq k}a_i!$ then $m_k\to \infty$?
+See also 
+[403]
+. Lin 
+[Li76]
+ has shown that $f(2,2) \leq 254$. 
+2025-10-20 00:00:00
+For which integers $a\geq 1$ and primes $p$ is there a finite upper bound on those $k$ such that there are $a=a_1<\cdots<a_n$ with\[p^k \mid (a_1!+\cdots+a_n!)?\]If $f(a,p)$ is the greatest such $k$, how does this function behave?
+{P}
+Is there a prime $p$ and an infinite sequence $a_1<a_2<\cdots$ such that if $p^{m_k}$ is the highest power of $p$ dividing $\sum_{i\leq k}a_i!$ then $m_k\to \infty$?
+See also 
+[403]
+. Lin 
+[Li76]
+ has shown that $f(2,2) \leq 254$. 
+
+# https://www.erdosproblems.com/forum/thread/404/proof-claims
+84:No proof claims have been submitted yet.
+
+# https://www.erdosproblems.com/bibs/Li76
+<div class="bib">
+  [Li76]
+  Lin, S., <i>On two problems of Erd&#337;s concerning sums of distinct factorials</i>.
+  
+    Bell Laboratories internal memorandum
+  
+  (1960).
+  (<a href="/search_bib/Li76">See all problems with this reference</a>)
+  (<a href="https://scholar.google.com/scholar?q=On+two+problems+of+Erd%5CH%7Bo%7Ds+concerning+sums+of+distinct+factorials">Find on Google Scholar</a>)
+  
+</div>
+# https://www.erdosproblems.com/forum/user/Sky-Yang
+Sky-Yang
+  This user hasn’t added a bio yet.
+Likes
+404
+Currently working on
+404
+    View all proof claims by Sky-Yang
+This user hasn’t made any posts yet.

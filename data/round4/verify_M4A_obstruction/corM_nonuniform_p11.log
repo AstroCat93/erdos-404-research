@@ -1,0 +1,12 @@
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py nonuniform 11 1 6 3
+=== start (UTC): 2026-10-14T01:54:05Z
+T5 p=11 t=6 s=1: k=V_t(u)=1 f=1  exact G=0.26855 >= path bound p^k 2^-(t+1)=0.085938: True   Lemma Q bound=2.75 >= exact: True
+T5 p=11 t=6 s=2: k=V_t(u)=2 f=2  exact G=2.8359 >= path bound p^k 2^-(t+1)=0.94531: True   Lemma Q bound=30.25 >= exact: True
+T5 p=11 t=6 s=3: k=V_t(u)=3 f=3  exact G=31.195 >= path bound p^k 2^-(t+1)=10.398: True   Lemma Q bound=332.75 >= exact: True
+=== exit: 0   wall: 0.86 s
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py nonuniform 13 2 6 3
+=== start (UTC): 2026-10-14T01:54:06Z
+T5 p=13 t=6 s=1: k=V_t(u)=1 f=1  exact G=0.30469 >= path bound p^k 2^-(t+1)=0.10156: True   Lemma Q bound=3.25 >= exact: True
+T5 p=13 t=6 s=2: k=V_t(u)=2 f=2  exact G=3.9609 >= path bound p^k 2^-(t+1)=1.3203: True   Lemma Q bound=42.25 >= exact: True
+T5 p=13 t=6 s=3: k=V_t(u)=3 f=3  exact G=51.492 >= path bound p^k 2^-(t+1)=17.164: True   Lemma Q bound=549.25 >= exact: True
+=== exit: 0   wall: 6.42 s

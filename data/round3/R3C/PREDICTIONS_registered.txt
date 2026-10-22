@@ -1,0 +1,156 @@
+# PREDICTIONS REGISTERED BEFORE ANY RUN WHOSE OUTCOME IS PREDICTED (track R3C, round 3)
+# registered: 2026-10-13 06:12:36 UTC
+# law: note.md Conjecture 10.24 (bottleneck threshold law), nu = R*/ln(p^M n); bands: nu<1.17 FAIL, nu>1.47 HOLD, else MIXED.
+# generator: python3 code/round3/R3C/predict.py p 1 7 pos:(p-1)   (uses code/round2/R3/src/bottleneck.py read-only)
+# 'uniform' = Cov(p,t,H) over all unit classes K' mod p^c (n = phi(p^c)); 'positions n=p-1' = the p-1 depth-7 positions N*=p^7 K'', K''=1..p-1.
+#
+# KNOWN IN ADVANCE (not tests): Cov(p,1,H) iff H>=rho0+1=7 (Lemma 10.11, proved) for p=29,31;
+#   Cov(29,5,29), Cov(31,5,31) HOLD and Cov(29,6,29), Cov(31,6,31) FAIL (L_29=L_31=5, note.md 3.5, R8);
+#   Cov(29,6,58), Cov(31,6,62) HOLD (round-1 two-block windows j=5, note.md 4.4).
+#   Lemma 10.11 also refutes every H with (H-1) mod p < 6 (marked 'proved' below).
+#
+# GENUINE PREDICTIONS (untested before this file): minimal uniform H_t for p=29,31, t=2..6, = 'predicted minimal H' below;
+#   every listed H with band FAIL is predicted to fail uniform Cov, every HOLD-band H to hold, MIXED = no prediction.
+#   p=29 depth 7: H=45 (nu=2.308) predicted to cover at ALL 28 positions K''=1..28 (planned certificate H);
+#                 H=44 (nu=1.149) predicted to fail at >=1 of the 28 positions (run only if budget allows);
+#                 H=58 (two-block window) predicted to cover at all 28 (nu >> 1.47).
+#   p=31 depth 7: H=46 (nu=2.614) predicted to cover at all 30 positions; H=45 MIXED (not planned: memory).
+#
+# p=29 rho0=6
+p=29 t=1 [uniform] predicted minimal H (first HOLD-band H) = 8
+  H=5: (H-1) mod p = 4 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=6: (H-1) mod p = 5 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=7 c=0 M=1 n=1 R*=4.414 nu=1.311 -> MIXED
+  H=8 c=0 M=1 n=1 R*=8.828 nu=2.622 -> HOLD
+  H=9 c=0 M=1 n=1 R*=17.66 nu=5.243 -> HOLD
+  H=10 c=0 M=1 n=1 R*=35.31 nu=10.486 -> HOLD
+p=29 t=2 [uniform] predicted minimal H (first HOLD-band H) = 14
+  H=10 c=0 M=2 n=1 R*=1.218 nu=0.181 -> FAIL
+  H=11 c=0 M=2 n=1 R*=2.435 nu=0.362 -> FAIL
+  H=12 c=0 M=2 n=1 R*=4.87 nu=0.723 -> FAIL
+  H=13 c=0 M=2 n=1 R*=9.741 nu=1.446 -> MIXED
+  H=14 c=0 M=2 n=1 R*=19.48 nu=2.893 -> HOLD
+  H=15 c=0 M=2 n=1 R*=38.96 nu=5.786 -> HOLD
+  H=16 c=0 M=2 n=1 R*=77.93 nu=11.571 -> HOLD
+p=29 t=3 [uniform] predicted minimal H (first HOLD-band H) = 19
+  H=15 c=0 M=3 n=1 R*=1.344 nu=0.133 -> FAIL
+  H=16 c=0 M=3 n=1 R*=2.687 nu=0.266 -> FAIL
+  H=17 c=0 M=3 n=1 R*=5.374 nu=0.532 -> FAIL
+  H=18 c=0 M=3 n=1 R*=10.75 nu=1.064 -> FAIL
+  H=19 c=0 M=3 n=1 R*=21.5 nu=2.128 -> HOLD
+  H=20 c=0 M=3 n=1 R*=42.99 nu=4.256 -> HOLD
+  H=21 c=0 M=3 n=1 R*=85.99 nu=8.512 -> HOLD
+p=29 t=4 [uniform] predicted minimal H (first HOLD-band H) = 24
+  H=20 c=0 M=4 n=1 R*=1.483 nu=0.110 -> FAIL
+  H=21 c=0 M=4 n=1 R*=2.965 nu=0.220 -> FAIL
+  H=22 c=0 M=4 n=1 R*=5.93 nu=0.440 -> FAIL
+  H=23 c=0 M=4 n=1 R*=11.86 nu=0.881 -> FAIL
+  H=24 c=0 M=4 n=1 R*=23.72 nu=1.761 -> HOLD
+  H=25 c=0 M=4 n=1 R*=47.44 nu=3.522 -> HOLD
+  H=26 c=0 M=4 n=1 R*=94.88 nu=7.044 -> HOLD
+p=29 t=5 [uniform] predicted minimal H (first HOLD-band H) = 29
+  H=25 c=0 M=5 n=1 R*=1.636 nu=0.097 -> FAIL
+  H=26 c=0 M=5 n=1 R*=3.272 nu=0.194 -> FAIL
+  H=27 c=0 M=5 n=1 R*=6.544 nu=0.389 -> FAIL
+  H=28 c=0 M=5 n=1 R*=13.09 nu=0.777 -> FAIL
+  H=29 c=0 M=5 n=1 R*=26.17 nu=1.555 -> HOLD
+  H=30: (H-1) mod p = 0 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=31: (H-1) mod p = 1 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=32: (H-1) mod p = 2 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=33: (H-1) mod p = 3 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=34: (H-1) mod p = 4 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=35: (H-1) mod p = 5 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=36 c=1 M=6 n=28 R*=26.17 nu=1.112 -> FAIL
+p=29 t=6 [uniform] predicted minimal H (first HOLD-band H) = 40
+  H=35: (H-1) mod p = 5 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=36 c=1 M=7 n=28 R*=0.9026 nu=0.034 -> FAIL
+  H=37 c=1 M=7 n=28 R*=3.61 nu=0.134 -> FAIL
+  H=38 c=1 M=7 n=28 R*=13.54 nu=0.503 -> FAIL
+  H=39 c=1 M=7 n=28 R*=29.78 nu=1.107 -> FAIL
+  H=40 c=1 M=7 n=28 R*=60.47 nu=2.248 -> HOLD
+  H=41 c=1 M=7 n=28 R*=120.9 nu=4.496 -> HOLD
+  H=42 c=1 M=7 n=28 R*=247.3 nu=9.192 -> HOLD
+p=29 t=7 [positions n=28] predicted minimal H (first HOLD-band H) = 45
+  H=39 c=1 M=8 n=28 R*=1.027 nu=0.034 -> FAIL
+  H=40 c=1 M=8 n=28 R*=2.085 nu=0.069 -> FAIL
+  H=41 c=1 M=8 n=28 R*=4.171 nu=0.138 -> FAIL
+  H=42 c=1 M=8 n=28 R*=8.528 nu=0.282 -> FAIL
+  H=43 c=1 M=8 n=28 R*=17.15 nu=0.567 -> FAIL
+  H=44 c=1 M=8 n=28 R*=34.8 nu=1.149 -> FAIL
+  H=45 c=1 M=8 n=28 R*=69.87 nu=2.308 -> HOLD
+  H=46 c=1 M=8 n=28 R*=140 nu=4.626 -> HOLD
+  H=47 c=1 M=8 n=28 R*=281.2 nu=9.288 -> HOLD
+# p=31 rho0=6
+p=31 t=1 [uniform] predicted minimal H (first HOLD-band H) = 8
+  H=5: (H-1) mod p = 4 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=6: (H-1) mod p = 5 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=7 c=0 M=1 n=1 R*=4.129 nu=1.202 -> MIXED
+  H=8 c=0 M=1 n=1 R*=8.258 nu=2.405 -> HOLD
+  H=9 c=0 M=1 n=1 R*=16.52 nu=4.810 -> HOLD
+  H=10 c=0 M=1 n=1 R*=33.03 nu=9.619 -> HOLD
+p=31 t=2 [uniform] predicted minimal H (first HOLD-band H) = 14
+  H=10 c=0 M=2 n=1 R*=1.066 nu=0.155 -> FAIL
+  H=11 c=0 M=2 n=1 R*=2.131 nu=0.310 -> FAIL
+  H=12 c=0 M=2 n=1 R*=4.262 nu=0.621 -> FAIL
+  H=13 c=0 M=2 n=1 R*=8.524 nu=1.241 -> MIXED
+  H=14 c=0 M=2 n=1 R*=17.05 nu=2.482 -> HOLD
+  H=15 c=0 M=2 n=1 R*=34.1 nu=4.965 -> HOLD
+  H=16 c=0 M=2 n=1 R*=68.2 nu=9.930 -> HOLD
+p=31 t=3 [uniform] predicted minimal H (first HOLD-band H) = 19
+  H=15 c=0 M=3 n=1 R*=1.1 nu=0.107 -> FAIL
+  H=16 c=0 M=3 n=1 R*=2.2 nu=0.214 -> FAIL
+  H=17 c=0 M=3 n=1 R*=4.4 nu=0.427 -> FAIL
+  H=18 c=0 M=3 n=1 R*=8.799 nu=0.854 -> FAIL
+  H=19 c=0 M=3 n=1 R*=17.6 nu=1.708 -> HOLD
+  H=20 c=0 M=3 n=1 R*=35.2 nu=3.417 -> HOLD
+  H=21 c=0 M=3 n=1 R*=70.4 nu=6.833 -> HOLD
+p=31 t=4 [uniform] predicted minimal H (first HOLD-band H) = 25
+  H=20 c=0 M=4 n=1 R*=1.135 nu=0.083 -> FAIL
+  H=21 c=0 M=4 n=1 R*=2.271 nu=0.165 -> FAIL
+  H=22 c=0 M=4 n=1 R*=4.542 nu=0.331 -> FAIL
+  H=23 c=0 M=4 n=1 R*=9.083 nu=0.661 -> FAIL
+  H=24 c=0 M=4 n=1 R*=18.17 nu=1.323 -> MIXED
+  H=25 c=0 M=4 n=1 R*=36.33 nu=2.645 -> HOLD
+  H=26 c=0 M=4 n=1 R*=72.67 nu=5.290 -> HOLD
+  H=27 c=0 M=4 n=1 R*=145.3 nu=10.580 -> HOLD
+p=31 t=5 [uniform] predicted minimal H (first HOLD-band H) = 30
+  H=25 c=0 M=5 n=1 R*=1.172 nu=0.068 -> FAIL
+  H=26 c=0 M=5 n=1 R*=2.344 nu=0.137 -> FAIL
+  H=27 c=0 M=5 n=1 R*=4.688 nu=0.273 -> FAIL
+  H=28 c=0 M=5 n=1 R*=9.376 nu=0.546 -> FAIL
+  H=29 c=0 M=5 n=1 R*=18.75 nu=1.092 -> FAIL
+  H=30 c=0 M=5 n=1 R*=37.51 nu=2.184 -> HOLD
+  H=31 c=0 M=5 n=1 R*=75.01 nu=4.369 -> HOLD
+  H=32: (H-1) mod p = 0 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=33: (H-1) mod p = 1 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=34: (H-1) mod p = 2 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=35: (H-1) mod p = 3 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=36: (H-1) mod p = 4 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=37: (H-1) mod p = 5 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=38 c=1 M=6 n=30 R*=75.01 nu=3.125 -> HOLD
+p=31 t=6 [uniform] predicted minimal H (first HOLD-band H) = 41
+  H=30 c=0 M=6 n=1 R*=1.21 nu=0.059 -> FAIL
+  H=31 c=0 M=6 n=1 R*=2.42 nu=0.117 -> FAIL
+  H=35: (H-1) mod p = 3 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=36: (H-1) mod p = 4 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=37: (H-1) mod p = 5 < rho0 -> FAIL (proved, Lemma 10.11)
+  H=38 c=1 M=7 n=30 R*=2.42 nu=0.088 -> FAIL
+  H=39 c=1 M=7 n=30 R*=12.1 nu=0.441 -> FAIL
+  H=40 c=1 M=7 n=30 R*=29.04 nu=1.058 -> FAIL
+  H=41 c=1 M=7 n=30 R*=60.49 nu=2.205 -> HOLD
+  H=42 c=1 M=7 n=30 R*=140.3 nu=5.115 -> HOLD
+  H=43 c=1 M=7 n=30 R*=300 nu=10.935 -> HOLD
+p=31 t=7 [positions n=30] predicted minimal H (first HOLD-band H) = 46
+  H=40 c=1 M=8 n=30 R*=0.9367 nu=0.030 -> FAIL
+  H=41 c=1 M=8 n=30 R*=1.951 nu=0.063 -> FAIL
+  H=42 c=1 M=8 n=30 R*=4.527 nu=0.147 -> FAIL
+  H=43 c=1 M=8 n=30 R*=9.679 nu=0.314 -> FAIL
+  H=44 c=1 M=8 n=30 R*=20.06 nu=0.650 -> FAIL
+  H=45 c=1 M=8 n=30 R*=40.12 nu=1.300 -> MIXED
+  H=46 c=1 M=8 n=30 R*=80.71 nu=2.614 -> HOLD
+  H=47 c=1 M=8 n=30 R*=162.3 nu=5.256 -> HOLD
+  H=48 c=1 M=8 n=30 R*=325.9 nu=10.555 -> HOLD
+extra: p=29 t=7 H=58 n=28 R*=5.762e+05 nu=19033.949 -> HOLD
+extra: p=31 t=7 H=62 n=30 R*=5.407e+06 nu=175138.129 -> HOLD
+extra: p=29 t=7 H=44 n=1 R*=34.8 nu=1.292 -> MIXED
+extra: p=29 t=7 H=45 n=1 R*=69.87 nu=2.594 -> HOLD

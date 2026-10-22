@@ -1,0 +1,18 @@
+# teorth/erdosproblems data/problems.yaml at 76848eddd25687dfc69bb26bec740c35c4a9c6b4 (2026-10-12 22:24:57 UTC), cloned 2026-10-13
+- number: "404"
+  prize: "no"
+  informal_status:
+    state: "open"
+    last_update: "2025-08-31"
+  formal_status:
+    state: "unformalized"
+  status:
+    state: "open"
+    last_update: "2025-08-31"
+  oeis: ["N/A"]
+  formalized:
+    state: "no"
+    last_update: "2025-08-31"
+  tags: ["number theory", "factorials"]
+
+433:| [404](https://www.erdosproblems.com/404) | no | open | no | [view](https://mehmetmars7.github.io/Erdosproblems-llm-hunter/problem.html?type=erdos&id=404) | N/A | [number theory](https://www.erdosproblems.com/tags/number%20theory), [factorials](https://www.erdosproblems.com/tags/factorials) |  |

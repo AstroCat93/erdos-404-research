@@ -1,0 +1,100 @@
+### command: python3 b2_t3_corB2p.py 20261014 4000 22
+### start (UTC): 2026-10-14T00:45:21Z
+progress: 50 cases, failures 0, by family {'short': 9, 'rand': 14, 'end': 11, 'two': 3, 'negk': 13}, max s 49, max K 49
+progress: 100 cases, failures 0, by family {'short': 20, 'rand': 32, 'end': 23, 'two': 5, 'negk': 20}, max s 53, max K 53
+progress: 150 cases, failures 0, by family {'short': 27, 'rand': 51, 'end': 35, 'two': 7, 'negk': 30}, max s 60, max K 62
+progress: 200 cases, failures 0, by family {'short': 36, 'rand': 62, 'end': 46, 'two': 12, 'negk': 44}, max s 60, max K 62
+progress: 250 cases, failures 0, by family {'short': 49, 'rand': 78, 'end': 58, 'two': 16, 'negk': 49}, max s 60, max K 62
+progress: 300 cases, failures 0, by family {'short': 60, 'rand': 95, 'end': 66, 'two': 17, 'negk': 62}, max s 60, max K 62
+progress: 350 cases, failures 0, by family {'short': 67, 'rand': 113, 'end': 75, 'two': 19, 'negk': 76}, max s 60, max K 62
+progress: 400 cases, failures 0, by family {'short': 77, 'rand': 131, 'end': 84, 'two': 23, 'negk': 85}, max s 60, max K 62
+progress: 450 cases, failures 0, by family {'short': 81, 'rand': 149, 'end': 94, 'two': 27, 'negk': 99}, max s 60, max K 62
+progress: 500 cases, failures 0, by family {'short': 86, 'rand': 173, 'end': 100, 'two': 33, 'negk': 108}, max s 60, max K 62
+progress: 550 cases, failures 0, by family {'short': 96, 'rand': 190, 'end': 107, 'two': 36, 'negk': 121}, max s 60, max K 62
+progress: 600 cases, failures 0, by family {'short': 105, 'rand': 209, 'end': 118, 'two': 38, 'negk': 130}, max s 60, max K 62
+progress: 650 cases, failures 0, by family {'short': 118, 'rand': 227, 'end': 128, 'two': 40, 'negk': 137}, max s 60, max K 62
+progress: 700 cases, failures 0, by family {'short': 127, 'rand': 245, 'end': 138, 'two': 43, 'negk': 147}, max s 60, max K 62
+progress: 750 cases, failures 0, by family {'short': 134, 'rand': 263, 'end': 151, 'two': 50, 'negk': 152}, max s 60, max K 62
+progress: 800 cases, failures 0, by family {'short': 142, 'rand': 284, 'end': 158, 'two': 54, 'negk': 162}, max s 60, max K 62
+progress: 850 cases, failures 0, by family {'short': 156, 'rand': 306, 'end': 167, 'two': 55, 'negk': 166}, max s 60, max K 62
+progress: 900 cases, failures 0, by family {'short': 166, 'rand': 321, 'end': 182, 'two': 57, 'negk': 174}, max s 60, max K 62
+progress: 950 cases, failures 0, by family {'short': 172, 'rand': 340, 'end': 194, 'two': 59, 'negk': 185}, max s 60, max K 62
+progress: 1000 cases, failures 0, by family {'short': 183, 'rand': 353, 'end': 204, 'two': 64, 'negk': 196}, max s 60, max K 62
+progress: 1050 cases, failures 0, by family {'short': 192, 'rand': 369, 'end': 219, 'two': 66, 'negk': 204}, max s 60, max K 62
+progress: 1100 cases, failures 0, by family {'short': 202, 'rand': 390, 'end': 223, 'two': 72, 'negk': 213}, max s 60, max K 62
+progress: 1150 cases, failures 0, by family {'short': 211, 'rand': 415, 'end': 233, 'two': 73, 'negk': 218}, max s 60, max K 62
+progress: 1200 cases, failures 0, by family {'short': 217, 'rand': 433, 'end': 244, 'two': 75, 'negk': 231}, max s 60, max K 62
+progress: 1250 cases, failures 0, by family {'short': 226, 'rand': 452, 'end': 254, 'two': 78, 'negk': 240}, max s 60, max K 62
+progress: 1300 cases, failures 0, by family {'short': 235, 'rand': 472, 'end': 265, 'two': 79, 'negk': 249}, max s 60, max K 62
+progress: 1350 cases, failures 0, by family {'short': 241, 'rand': 487, 'end': 277, 'two': 83, 'negk': 262}, max s 60, max K 62
+progress: 1400 cases, failures 0, by family {'short': 249, 'rand': 509, 'end': 286, 'two': 88, 'negk': 268}, max s 60, max K 62
+progress: 1450 cases, failures 0, by family {'short': 259, 'rand': 528, 'end': 295, 'two': 91, 'negk': 277}, max s 60, max K 62
+progress: 1500 cases, failures 0, by family {'short': 273, 'rand': 545, 'end': 301, 'two': 92, 'negk': 289}, max s 60, max K 62
+progress: 1550 cases, failures 0, by family {'short': 279, 'rand': 568, 'end': 313, 'two': 96, 'negk': 294}, max s 60, max K 63
+progress: 1600 cases, failures 0, by family {'short': 293, 'rand': 582, 'end': 321, 'two': 97, 'negk': 307}, max s 60, max K 63
+progress: 1650 cases, failures 0, by family {'short': 308, 'rand': 592, 'end': 332, 'two': 102, 'negk': 316}, max s 60, max K 63
+progress: 1700 cases, failures 0, by family {'short': 316, 'rand': 608, 'end': 340, 'two': 105, 'negk': 331}, max s 60, max K 63
+progress: 1750 cases, failures 0, by family {'short': 326, 'rand': 625, 'end': 354, 'two': 107, 'negk': 338}, max s 60, max K 63
+progress: 1800 cases, failures 0, by family {'short': 336, 'rand': 644, 'end': 359, 'two': 109, 'negk': 352}, max s 60, max K 63
+progress: 1850 cases, failures 0, by family {'short': 343, 'rand': 667, 'end': 368, 'two': 111, 'negk': 361}, max s 60, max K 63
+progress: 1900 cases, failures 0, by family {'short': 352, 'rand': 686, 'end': 382, 'two': 114, 'negk': 366}, max s 60, max K 63
+progress: 1950 cases, failures 0, by family {'short': 363, 'rand': 700, 'end': 391, 'two': 118, 'negk': 378}, max s 60, max K 63
+progress: 2000 cases, failures 0, by family {'short': 371, 'rand': 720, 'end': 402, 'two': 122, 'negk': 385}, max s 60, max K 63
+progress: 2050 cases, failures 0, by family {'short': 381, 'rand': 742, 'end': 408, 'two': 124, 'negk': 395}, max s 60, max K 63
+progress: 2100 cases, failures 0, by family {'short': 391, 'rand': 758, 'end': 417, 'two': 129, 'negk': 405}, max s 60, max K 63
+progress: 2150 cases, failures 0, by family {'short': 397, 'rand': 778, 'end': 427, 'two': 132, 'negk': 416}, max s 60, max K 63
+progress: 2200 cases, failures 0, by family {'short': 408, 'rand': 796, 'end': 437, 'two': 136, 'negk': 423}, max s 60, max K 63
+progress: 2250 cases, failures 0, by family {'short': 413, 'rand': 816, 'end': 452, 'two': 138, 'negk': 431}, max s 60, max K 63
+progress: 2300 cases, failures 0, by family {'short': 428, 'rand': 837, 'end': 460, 'two': 138, 'negk': 437}, max s 60, max K 63
+progress: 2350 cases, failures 0, by family {'short': 437, 'rand': 850, 'end': 467, 'two': 144, 'negk': 452}, max s 60, max K 63
+progress: 2400 cases, failures 0, by family {'short': 446, 'rand': 864, 'end': 479, 'two': 145, 'negk': 466}, max s 60, max K 63
+progress: 2450 cases, failures 0, by family {'short': 459, 'rand': 883, 'end': 487, 'two': 150, 'negk': 471}, max s 60, max K 67
+progress: 2500 cases, failures 0, by family {'short': 468, 'rand': 902, 'end': 499, 'two': 151, 'negk': 480}, max s 60, max K 67
+progress: 2550 cases, failures 0, by family {'short': 478, 'rand': 922, 'end': 506, 'two': 156, 'negk': 488}, max s 60, max K 67
+progress: 2600 cases, failures 0, by family {'short': 486, 'rand': 935, 'end': 524, 'two': 160, 'negk': 495}, max s 60, max K 67
+progress: 2650 cases, failures 0, by family {'short': 499, 'rand': 949, 'end': 539, 'two': 162, 'negk': 501}, max s 60, max K 67
+progress: 2700 cases, failures 0, by family {'short': 509, 'rand': 970, 'end': 551, 'two': 164, 'negk': 506}, max s 60, max K 67
+progress: 2750 cases, failures 0, by family {'short': 518, 'rand': 990, 'end': 561, 'two': 167, 'negk': 514}, max s 60, max K 67
+progress: 2800 cases, failures 0, by family {'short': 527, 'rand': 1003, 'end': 573, 'two': 172, 'negk': 525}, max s 60, max K 67
+progress: 2850 cases, failures 0, by family {'short': 536, 'rand': 1025, 'end': 581, 'two': 174, 'negk': 534}, max s 60, max K 67
+progress: 2900 cases, failures 0, by family {'short': 548, 'rand': 1042, 'end': 590, 'two': 175, 'negk': 545}, max s 60, max K 67
+progress: 2950 cases, failures 0, by family {'short': 555, 'rand': 1057, 'end': 604, 'two': 177, 'negk': 557}, max s 60, max K 67
+progress: 3000 cases, failures 0, by family {'short': 566, 'rand': 1079, 'end': 609, 'two': 178, 'negk': 568}, max s 60, max K 67
+progress: 3050 cases, failures 0, by family {'short': 576, 'rand': 1102, 'end': 615, 'two': 181, 'negk': 576}, max s 60, max K 67
+progress: 3100 cases, failures 0, by family {'short': 584, 'rand': 1122, 'end': 627, 'two': 183, 'negk': 584}, max s 60, max K 67
+progress: 3150 cases, failures 0, by family {'short': 589, 'rand': 1142, 'end': 638, 'two': 187, 'negk': 594}, max s 60, max K 67
+progress: 3200 cases, failures 0, by family {'short': 606, 'rand': 1156, 'end': 646, 'two': 188, 'negk': 604}, max s 60, max K 67
+progress: 3250 cases, failures 0, by family {'short': 620, 'rand': 1172, 'end': 657, 'two': 190, 'negk': 611}, max s 60, max K 67
+progress: 3300 cases, failures 0, by family {'short': 627, 'rand': 1197, 'end': 665, 'two': 192, 'negk': 619}, max s 60, max K 67
+progress: 3350 cases, failures 0, by family {'short': 635, 'rand': 1218, 'end': 671, 'two': 198, 'negk': 628}, max s 60, max K 67
+progress: 3400 cases, failures 0, by family {'short': 647, 'rand': 1235, 'end': 682, 'two': 202, 'negk': 634}, max s 60, max K 67
+progress: 3450 cases, failures 0, by family {'short': 660, 'rand': 1253, 'end': 691, 'two': 205, 'negk': 641}, max s 60, max K 67
+progress: 3500 cases, failures 0, by family {'short': 664, 'rand': 1275, 'end': 703, 'two': 208, 'negk': 650}, max s 60, max K 67
+progress: 3550 cases, failures 0, by family {'short': 675, 'rand': 1292, 'end': 713, 'two': 210, 'negk': 660}, max s 60, max K 67
+progress: 3600 cases, failures 0, by family {'short': 685, 'rand': 1312, 'end': 723, 'two': 212, 'negk': 668}, max s 60, max K 67
+progress: 3650 cases, failures 0, by family {'short': 695, 'rand': 1331, 'end': 736, 'two': 215, 'negk': 673}, max s 60, max K 67
+progress: 3700 cases, failures 0, by family {'short': 706, 'rand': 1357, 'end': 741, 'two': 216, 'negk': 680}, max s 60, max K 67
+progress: 3750 cases, failures 0, by family {'short': 720, 'rand': 1375, 'end': 749, 'two': 220, 'negk': 686}, max s 60, max K 67
+progress: 3800 cases, failures 0, by family {'short': 731, 'rand': 1399, 'end': 754, 'two': 221, 'negk': 695}, max s 60, max K 67
+progress: 3850 cases, failures 0, by family {'short': 738, 'rand': 1420, 'end': 764, 'two': 224, 'negk': 704}, max s 60, max K 67
+progress: 3900 cases, failures 0, by family {'short': 745, 'rand': 1441, 'end': 778, 'two': 227, 'negk': 709}, max s 60, max K 67
+progress: 3950 cases, failures 0, by family {'short': 752, 'rand': 1456, 'end': 786, 'two': 230, 'negk': 726}, max s 60, max K 67
+progress: 4000 cases, failures 0, by family {'short': 757, 'rand': 1477, 'end': 795, 'two': 232, 'negk': 739}, max s 60, max K 67
+examples (d>=2):
+  p=3 [18,27,33) d=2 s=1 g=1 D=5 K=7 eps=0.0397475 eps_post=0.0551548 Delta(r*)=-0.00431621 ratio=0.960872
+  p=3 [20,24,29) d=4 s=3 g=4 D=4 K=5 eps=0.118652 eps_post=0.03125 Delta(r*)=-0.015625 ratio=0.750000
+  p=3 [31,35,39) d=4 s=3 g=4 D=4 K=5 eps=0.118652 eps_post=0.03125 Delta(r*)=-0.015625 ratio=0.750000
+  p=3 [9,15,23) d=6 s=6 g=7 D=7 K=9 eps=1.48918 eps_post=0.0458984 Delta(r*)=-0.00463867 ratio=0.949468
+  p=7 [4,12,24) d=2 s=4 g=4 D=4 K=6 eps=11.5605 eps_post=0.0148914 Delta(r*)=0.00873603 ratio=1.293324
+  p=7 [2,11,19) d=5 s=3 g=3 D=3 K=4 eps=0.197575 eps_post=0.0142822 Delta(r*)=0.00830078 ratio=1.290598
+  p=7 [30,36,42) d=3 s=1 g=1 D=1 K=8 eps=8443.22 eps_post=9649.89 Delta(r*)=-1 ratio=0.999948
+  p=5 [25,27,34) d=2 s=4 g=4 D=4 K=5 eps=6.3324 eps_post=0.0351562 Delta(r*)=0.0107422 ratio=1.152778
+  p=7 [3,12,20) d=8 s=7 g=8 D=8 K=9 eps=415.08 eps_post=0.0142822 Delta(r*)=0.00830078 ratio=1.290598
+  p=7 [11,20,26) d=5 s=4 g=4 D=4 K=5 eps=1.38302 eps_post=0.0142822 Delta(r*)=0.00830078 ratio=1.290598
+  p=3 [2,12,18) d=7 s=7 g=9 D=10 K=13 eps=23.6209 eps_post=0.113251 Delta(r*)=0.0807152 ratio=1.356356
+  p=7 [30,45,46) d=9 s=8 g=9 D=9 K=10 eps=1452.78 eps_post=0.0142822 Delta(r*)=0.00830078 ratio=1.290598
+ratio range over d>=2 cases with eps_post>0: [0.614437, 1.435984] (1998 cases, ratio != 1 in 1988)
+histogram of K-g (10 means >= 10): {0: 1134, 1: 1498, 2: 684, 3: 133, 4: 176, 5: 115, 6: 84, 7: 18, 8: 35, 9: 23, 10: 100}
+RESULT corB2p: {'cases': 4000, 'fail': 0, 'by_fam': {'short': 757, 'rand': 1477, 'end': 795, 'two': 232, 'negk': 739}, 'by_p': {5: 963, 3: 1021, 7: 2016}, 'maxs': 60, 'maxK': 67, 'K_eq_g': 1134, 'rmin': 0.6144366197183099, 'rmax': 1.4359838274932615, 'n_ratio': 1998, 'ratio_ne_1': 1988, 'Kg_hist': {1: 1498, 2: 684, 0: 1134, 6: 84, 10: 100, 7: 18, 4: 176, 3: 133, 8: 35, 5: 115, 9: 23}}
+### exit: 0
+### wall: 61 s

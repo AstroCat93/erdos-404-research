@@ -1,0 +1,39 @@
+=== command: python3 test_small.py Q 3 11 3000 8 3
+=== start (UTC): 2026-10-14T00:50:38Z
+Q p=3 seed=11 ctrl=0: tests=3000 violations=0 max P/bound=1.000000
+=== exit: 0   wall: 1.235596004 s
+=== command: python3 test_small.py Q 5 12 3000 5 2
+=== start (UTC): 2026-10-14T00:50:40Z
+Q p=5 seed=12 ctrl=0: tests=3000 violations=0 max P/bound=1.000000
+=== exit: 0   wall: 1.983456349 s
+=== command: python3 test_small.py Q 7 13 3000 4 2
+=== start (UTC): 2026-10-14T00:50:42Z
+Q p=7 seed=13 ctrl=0: tests=3000 violations=0 max P/bound=1.000000
+=== exit: 0   wall: 3.628796980 s
+=== command: python3 test_small.py Q 3 21 1500 8 3 1
+=== start (UTC): 2026-10-14T00:50:45Z
+  VIOLATION u=700 t=14 k=8 f=0 dep=[0, 3, 0, 0, 1, 0, 0, 1, 0, 0, 2, 0, 0, 1] P=34299/33554432 bound=1331/2097152
+  VIOLATION u=10 t=14 k=5 f=0 dep=[0, 1, 0, 0, 1, 0, 0, 2, 0, 0, 1, 0, 0, 1] P=2667/1048576 bound=121/65536
+  VIOLATION u=687 t=12 k=5 f=-1 dep=[0, 0, 1, 0, 0, 2, 0, 0, 1, 0, 0, 1] P=3433/1048576 bound=605/262144
+  VIOLATION u=13 t=11 k=3 f=-1 dep=[0, 1, 0, 0, 2, 0, 0, 1, 0, 0, 1] P=1/32 bound=1/64
+  VIOLATION u=19740 t=8 k=3 f=-1 dep=[0, 0, 1, 0, 0, 2, 0, 0] P=1/32 bound=5/256
+Q p=3 seed=21 ctrl=1: tests=1500 violations=80 max P/bound=3.795455
+=== exit: 0   wall: .724856967 s
+=== command: python3 test_small.py Q 5 22 1500 5 2 1
+=== start (UTC): 2026-10-14T00:50:46Z
+  VIOLATION u=33 t=22 k=3 f=2 dep=[0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1] P=525/262144 bound=53/65536
+  VIOLATION u=13 t=19 k=4 f=-1 dep=[0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0] P=4415/2097152 bound=53/65536
+  VIOLATION u=403241 t=23 k=3 f=-1 dep=[0, 0, 0, 1, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0] P=557/65536 bound=13/4096
+  VIOLATION u=726240 t=20 k=3 f=-1 dep=[0, 0, 0, 0, 1, 0, 0, 0, 0, 4, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] P=2031/262144 bound=13/4096
+  VIOLATION u=93 t=16 k=4 f=-1 dep=[0, 1, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0] P=257/131072 bound=53/65536
+Q p=5 seed=22 ctrl=1: tests=1500 violations=62 max P/bound=7.060805
+=== exit: 0   wall: 1.031871032 s
+=== command: python3 test_small.py Q 7 23 1500 4 2 1
+=== start (UTC): 2026-10-14T00:50:47Z
+  VIOLATION u=3336967233 t=29 k=4 f=2 dep=[0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0] P=1800857335/17592186044416 bound=131034117/7696581394432
+  VIOLATION u=138 t=27 k=4 f=0 dep=[0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0] P=383145/536870912 bound=110391/939524096
+  VIOLATION u=89 t=17 k=3 f=1 dep=[0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0] P=41/8192 bound=93/114688
+  VIOLATION u=13282022694 t=21 k=4 f=-1 dep=[0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0] P=3522855/8589934592 bound=993519/15032385536
+  VIOLATION u=138 t=26 k=3 f=0 dep=[0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0] P=41/8192 bound=93/114688
+Q p=7 seed=23 ctrl=1: tests=1500 violations=53 max P/bound=6.431302
+=== exit: 0   wall: 2.116750498 s

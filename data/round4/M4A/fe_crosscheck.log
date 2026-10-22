@@ -1,0 +1,40 @@
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/fe_crosscheck.py /home/user/erdos-404-research/data/round4/M4A/atom_p7.txt 9 8
+=== start (UTC): 2026-10-13T23:31:30Z
+chi^2_0 <= 0.504642
+l=1 [300,405,547) D=17 K=40 eps_bar(PropD) = 1.637
+l=2 [405,547,739) D=23 K=56 eps_bar(PropD) = 12.93
+l=3 [547,739,998) D=33 K=76 eps_bar(PropD) = 98.64
+l=4 [739,998,1348) D=43 K=101 eps_bar(PropD) = 137.8
+l=5 [998,1348,1820) D=58 K=136 eps_bar(PropD) = 336.3
+l=6 [1348,1820,2457) D=78 K=184 eps_bar(PropD) = 3835
+l=7 [1820,2457,3317) D=106 K=249 eps_bar(PropD) = 4.643e+05
+l=8 [2457,3317,4478) D=143 K=337 eps_bar(PropD) = 4.956e+07
+l=9 [3317,4478,6046) D=194 K=456 theta=97 log10 E_A eps <= -45.301
+RESULT log10[(1+chi^2_0) prod_(l<=L1)(1+eps_bar_l)] = 25.3570
+=== exit: 0   wall: 3.67 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/fe_crosscheck.py /home/user/erdos-404-research/data/round4/M4A/atom_p13.txt 8 6
+=== start (UTC): 2026-10-13T23:42:41Z
+chi^2_0 <= 0.422094
+l=1 [300,405,547) D=8 K=20 eps_bar(PropD) = 0.434
+l=2 [405,547,739) D=12 K=28 eps_bar(PropD) = 1.479
+l=3 [547,739,998) D=16 K=38 eps_bar(PropD) = 0.4578
+l=4 [739,998,1348) D=22 K=51 eps_bar(PropD) = 0.05985
+l=5 [998,1348,1820) D=29 K=68 eps_bar(PropD) = 0.04317
+l=6 [1348,1820,2457) D=39 K=91 eps_bar(PropD) = 0.05171
+l=7 [1820,2457,3317) D=52 K=124 theta=26 log10 E_A eps <= -23.528
+l=8 [2457,3317,4478) D=72 K=169 theta=36 log10 E_A eps <= -30.581
+RESULT log10[(1+chi^2_0) prod_(l<=L1)(1+eps_bar_l)] = 0.9329
+=== exit: 0   wall: 11.32 s
+=== command: python3 /home/user/erdos-404-research/code/round4/M4A/fe_crosscheck.py /home/user/erdos-404-research/data/round4/M4A/atom_p11.txt 8 6
+=== start (UTC): 2026-10-13T23:42:52Z
+chi^2_0 <= 3.63828
+l=1 [300,405,547) D=11 K=25 eps_bar(PropD) = 4.245
+l=2 [405,547,739) D=14 K=33 eps_bar(PropD) = 0.4531
+l=3 [547,739,998) D=19 K=45 eps_bar(PropD) = 0.6354
+l=4 [739,998,1348) D=26 K=61 eps_bar(PropD) = 2.761
+l=5 [998,1348,1820) D=35 K=83 eps_bar(PropD) = 2.805
+l=6 [1348,1820,2457) D=48 K=110 eps_bar(PropD) = 3.788
+l=7 [1820,2457,3317) D=62 K=149 theta=31 log10 E_A eps <= -25.038
+l=8 [2457,3317,4478) D=87 K=203 theta=44 log10 E_A eps <= -32.797
+RESULT log10[(1+chi^2_0) prod_(l<=L1)(1+eps_bar_l)] = 3.5979
+=== exit: 0   wall: 2.84 s

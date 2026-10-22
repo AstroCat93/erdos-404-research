@@ -1,0 +1,33 @@
+=== command: python3 code/round4/verify_M4A_obstruction/obstr_tests.py consts 13 6
+=== start (UTC): 2026-10-14T01:13:53Z
+T3 p=3: q_1=33/32 (1.031250) > 1: True;  q_2/p=0.56250 < 1: True;  q_s/p^s -> max atom of Z = 3/16; q_s/p^s at s=6: 3/16
+       P_0(1,s), s=1..6: ['0', '0', '0', '0', '0', '0'];  P(sum == 0 exactly) = 0
+       P_0(2,s), s=1..6: ['1/4', '1/4', '1/4', '1/4', '1/4', '1/4'];  P(sum == 0 exactly) = 1/4
+       P_0(3,s), s=1..6: ['5/16', '0', '0', '0', '0', '0'];  P(sum == 0 exactly) = 0
+       only g=2 has an exact zero (prob 1/4), every g>=3 has S == 1 mod (g-1): True
+T3 p=5: q_1=265/256 (1.035156) > 1: True;  q_2/p=0.39062 < 1: True;  q_s/p^s -> max atom of Z = 3/64; q_s/p^s at s=6: 3/64
+       P_0(1,s), s=1..6: ['0', '0', '0', '0', '0', '0'];  P(sum == 0 exactly) = 0
+       P_0(2,s), s=1..6: ['1/4', '1/4', '1/4', '1/4', '1/4', '1/4'];  P(sum == 0 exactly) = 1/4
+       P_0(3,s), s=1..6: ['1/16', '0', '0', '0', '0', '0'];  P(sum == 0 exactly) = 0
+       only g=2 has an exact zero (prob 1/4), every g>=3 has S == 1 mod (g-1): True
+T3 p=7: q_1=8309/8192 (1.014282) > 1: True;  q_2/p=0.15894 < 1: True;  q_s/p^s -> max atom of Z = 3/256; q_s/p^s at s=6: 3/256
+       M4A values: q_1=8309/8192 True, q_2=4557/4096 True, q_3=33271/8192 True, q_s=7^s*3/256 (s>=4) True
+       P_0(1,s), s=1..6: ['0', '0', '0', '0', '0', '0'];  P(sum == 0 exactly) = 0
+       P_0(2,s), s=1..6: ['1/4', '1/4', '1/4', '1/4', '1/4', '1/4'];  P(sum == 0 exactly) = 1/4
+       P_0(3,s), s=1..6: ['0', '0', '0', '0', '0', '0'];  P(sum == 0 exactly) = 0
+       P_0(4,s), s=1..6: ['9/64', '0', '0', '0', '0', '0'];  P(sum == 0 exactly) = 0
+       P_0(5,s), s=1..6: ['33/256', '1/64', '0', '0', '0', '0'];  P(sum == 0 exactly) = 0
+       P_0(6,s), s=1..6: ['37/256', '7/1024', '0', '0', '0', '0'];  P(sum == 0 exactly) = 0
+       P_0(7,s), s=1..6: ['591/4096', '15/1024', '1/4096', '0', '0', '0'];  P(sum == 0 exactly) = 0
+       only g=2 has an exact zero (prob 1/4), every g>=3 has S == 1 mod (g-1): True
+T3 p=11: q_1=525041/524288 (1.001436) > 1: True;  q_2/p=0.10105 < 1: True;  q_s/p^s -> max atom of Z = 3/4096; q_s/p^s at s=6: 3/4096
+       P_0(1,s), s=1..6: ['0', '0', '0', '0', '0', '0'];  P(sum == 0 exactly) = 0
+       P_0(2,s), s=1..6: ['1/4', '1/4', '1/4', '1/4', '1/4', '1/4'];  P(sum == 0 exactly) = 1/4
+       P_0(3,s), s=1..6: ['0', '0', '0', '0', '0', '0'];  P(sum == 0 exactly) = 0
+       only g=2 has an exact zero (prob 1/4), every g>=3 has S == 1 mod (g-1): True
+T3 p=13: q_1=33555171/33554432 (1.000022) > 1: True;  q_2/p=0.07755 < 1: True;  q_s/p^s -> max atom of Z = 3/16384; q_s/p^s at s=6: 3/16384
+       P_0(1,s), s=1..6: ['0', '0', '0', '0', '0', '0'];  P(sum == 0 exactly) = 0
+       P_0(2,s), s=1..6: ['1/4', '1/4', '1/4', '1/4', '1/4', '1/4'];  P(sum == 0 exactly) = 1/4
+       P_0(3,s), s=1..6: ['0', '0', '0', '0', '0', '0'];  P(sum == 0 exactly) = 0
+       only g=2 has an exact zero (prob 1/4), every g>=3 has S == 1 mod (g-1): True
+=== exit: 0   wall: 6.13 s

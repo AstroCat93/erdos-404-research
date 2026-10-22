@@ -1,0 +1,74 @@
+=== command: python3 code/round4/verify_M4A_obstruction/corM_improve.py data/round4/M4A/atom_p7.txt 8 1.00052044801e-45
+=== start (UTC): 2026-10-14T02:02:53Z
+p=7 m=51: chi^2_0 <= 0.504642
+  l=1 [300,405,547): Prop D - 1 = 1.63688;  p Coll_1(first half) = 1.02539;  improved eps_bar = 1.61149
+  l=2 [405,547,739): Prop D - 1 = 12.9262;  p Coll_1(first half) = 1.02539;  improved eps_bar = 12.9008
+  l=3 [547,739,998): Prop D - 1 = 98.6367;  p Coll_1(first half) = 1.3125;  improved eps_bar = 98.3242
+  l=4 [739,998,1348): Prop D - 1 = 137.821;  p Coll_1(first half) = 1.01428;  improved eps_bar = 137.806
+  l=5 [998,1348,1820): Prop D - 1 = 336.303;  p Coll_1(first half) = 1.01428;  improved eps_bar = 336.288
+  l=6 [1348,1820,2457): Prop D - 1 = 3834.74;  p Coll_1(first half) = 1.01428;  improved eps_bar = 3834.73
+  l=7 [1820,2457,3317): Prop D - 1 = 464266;  p Coll_1(first half) = 1.14844;  improved eps_bar = 464266
+  l=8 [2457,3317,4478): Prop D - 1 = 4.95628e+07;  p Coll_1(first half) = 1.14844;  improved eps_bar = 4.95628e+07
+  M4A     : Pi_A <= 5.42479e+25;  mu(K_p cap A)/mu(A) >= 1.84339e-26
+  improved: Pi_A <= 5.34514e+25;  mu(K_p cap A)/mu(A) >= 1.87086e-26
+=== exit: 0   wall: 0.32 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_improve.py data/round4/M4A/atom_p11.txt 6 1.83183940984e-25
+=== start (UTC): 2026-10-14T02:02:54Z
+p=11 m=30: chi^2_0 <= 3.63828
+  l=1 [300,405,547): Prop D - 1 = 4.24547;  p Coll_1(first half) = 4.125;  improved eps_bar = 1.12047
+  l=2 [405,547,739): Prop D - 1 = 0.453086;  p Coll_1(first half) = 1.01917;  improved eps_bar = 0.433921
+  l=3 [547,739,998): Prop D - 1 = 0.635356;  p Coll_1(first half) = 1.01715;  improved eps_bar = 0.618205
+  l=4 [739,998,1348): Prop D - 1 = 2.76092;  p Coll_1(first half) = 2.0625;  improved eps_bar = 1.69842
+  l=5 [998,1348,1820): Prop D - 1 = 2.8053;  p Coll_1(first half) = 1.01715;  improved eps_bar = 2.78815
+  l=6 [1348,1820,2457): Prop D - 1 = 3.78773;  p Coll_1(first half) = 1.00207;  improved eps_bar = 3.78567
+  M4A     : Pi_A <= 9445.37;  mu(K_p cap A)/mu(A) >= 0.000105872
+  improved: Pi_A <= 2661.87;  mu(K_p cap A)/mu(A) >= 0.000375675
+=== exit: 0   wall: 0.77 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_improve.py data/round4/M4A/atom_p13.txt 6 5.93040777858e-24
+=== start (UTC): 2026-10-14T02:02:54Z
+p=13 m=26: chi^2_0 <= 0.422094
+  l=1 [300,405,547): Prop D - 1 = 0.433964;  p Coll_1(first half) = 1.42188;  improved eps_bar = 0.0120886
+  l=2 [405,547,739): Prop D - 1 = 1.47852;  p Coll_1(first half) = 2.4375;  improved eps_bar = 0.0410223
+  l=3 [547,739,998): Prop D - 1 = 0.457808;  p Coll_1(first half) = 1.42188;  improved eps_bar = 0.0359327
+  l=4 [739,998,1348): Prop D - 1 = 0.0598492;  p Coll_1(first half) = 1.02515;  improved eps_bar = 0.0347027
+  l=5 [998,1348,1820): Prop D - 1 = 0.0431679;  p Coll_1(first half) = 1.00055;  improved eps_bar = 0.0426186
+  l=6 [1348,1820,2457): Prop D - 1 = 0.0517123;  p Coll_1(first half) = 1.00015;  improved eps_bar = 0.0515597
+  M4A     : Pi_A <= 20.4275;  mu(K_p cap A)/mu(A) >= 0.0489536
+  improved: Pi_A <= 4.19831;  mu(K_p cap A)/mu(A) >= 0.238191
+=== exit: 0   wall: 5.51 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_improve.py data/round4/M4A/atom_p17.txt 6 2.75731230963e-21
+=== start (UTC): 2026-10-14T02:03:00Z
+p=17 m=18: chi^2_0 <= 7.50249
+  l=1 [300,405,547): Prop D - 1 = 7.50253;  p Coll_1(first half) = 8.5;  improved eps_bar = 0.00253071
+  l=2 [405,547,739): Prop D - 1 = 0.000301028;  p Coll_1(first half) = 1;  improved eps_bar = 0.000300169
+  l=3 [547,739,998): Prop D - 1 = 0.00239594;  p Coll_1(first half) = 1.0018;  improved eps_bar = 0.000595401
+  l=4 [739,998,1348): Prop D - 1 = 0.594706;  p Coll_1(first half) = 1.59375;  improved eps_bar = 0.00095596
+  l=5 [998,1348,1820): Prop D - 1 = 0.000897118;  p Coll_1(first half) = 1;  improved eps_bar = 0.000896509
+  l=6 [1348,1820,2457): Prop D - 1 = 0.0409166;  p Coll_1(first half) = 1.03967;  improved eps_bar = 0.0012438
+  M4A     : Pi_A <= 287.152;  mu(K_p cap A)/mu(A) >= 0.00348248
+  improved: Pi_A <= 20.405;  mu(K_p cap A)/mu(A) >= 0.0490075
+=== exit: 0   wall: 1.69 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_improve.py data/round4/M4A/atom_p19.txt 6 2.55669461202e-18
+=== start (UTC): 2026-10-14T02:03:02Z
+p=19 m=16: chi^2_0 <= 0.0014437
+  l=1 [300,405,547): Prop D - 1 = 0.00144449;  p Coll_1(first half) = 1;  improved eps_bar = 0.00144419
+  l=2 [405,547,739): Prop D - 1 = 0.0720314;  p Coll_1(first half) = 1.07153;  improved eps_bar = 0.0004982
+  l=3 [547,739,998): Prop D - 1 = 0.00046573;  p Coll_1(first half) = 1;  improved eps_bar = 0.000465433
+  l=4 [739,998,1348): Prop D - 1 = 0.000475248;  p Coll_1(first half) = 1.00001;  improved eps_bar = 0.000466322
+  l=5 [998,1348,1820): Prop D - 1 = 2.56747;  p Coll_1(first half) = 3.5625;  improved eps_bar = 0.00496857
+  l=6 [1348,1820,2457): Prop D - 1 = 0.00141195;  p Coll_1(first half) = 1.00002;  improved eps_bar = 0.00139609
+  M4A     : Pi_A <= 9.1665;  mu(K_p cap A)/mu(A) >= 0.109093
+  improved: Pi_A <= 2.40987;  mu(K_p cap A)/mu(A) >= 0.41496
+=== exit: 0   wall: 4.0 s
+=== command: python3 code/round4/verify_M4A_obstruction/corM_improve.py data/round4/M4A/atom_p23.txt 6 3.9709855028e-18
+=== start (UTC): 2026-10-14T02:03:06Z
+p=23 m=14: chi^2_0 <= 2.22478e-08
+  l=1 [300,405,547): Prop D - 1 = 5.4786e-08;  p Coll_1(first half) = 1;  improved eps_bar = 4.88073e-08
+  l=2 [405,547,739): Prop D - 1 = 0.0621592;  p Coll_1(first half) = 1.06216;  improved eps_bar = 2.47837e-06
+  l=3 [547,739,998): Prop D - 1 = 0.796879;  p Coll_1(first half) = 1.79688;  improved eps_bar = 4.24144e-06
+  l=4 [739,998,1348): Prop D - 1 = 2.40656e-06;  p Coll_1(first half) = 1;  improved eps_bar = 2.39299e-06
+  l=5 [998,1348,1820): Prop D - 1 = 0.000883393;  p Coll_1(first half) = 1.00088;  improved eps_bar = 4.70878e-06
+  l=6 [1348,1820,2457): Prop D - 1 = 0.0621617;  p Coll_1(first half) = 1.06216;  improved eps_bar = 5.06619e-06
+  M4A     : Pi_A <= 4.83776;  mu(K_p cap A)/mu(A) >= 0.206707
+  improved: Pi_A <= 2.38435;  mu(K_p cap A)/mu(A) >= 0.419402
+=== exit: 0   wall: 20.65 s

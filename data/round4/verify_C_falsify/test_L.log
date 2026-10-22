@@ -1,0 +1,12 @@
+### command: nice -n 10 python3 code/round4/verify_C_falsify/test_L.py 11 10 6000
+### start: 2026-10-14T04:05:26Z
+p=11: windows with b_(l+1) <= 6000; points in G_l tested 119; lin_l failures 0; identity v(x+jp)=3+v(xi'+j/p^2) failures 0
+### wall: 1 s
+### command: nice -n 10 python3 code/round4/verify_C_falsify/test_L.py 13 10 6000
+### start: 2026-10-14T04:05:27Z
+p=13: windows with b_(l+1) <= 6000; points in G_l tested 120; lin_l failures 0; identity v(x+jp)=3+v(xi'+j/p^2) failures 0
+### wall: 1 s
+### command: nice -n 10 python3 code/round4/verify_C_falsify/test_L.py 17 8 6000
+### start: 2026-10-14T04:05:28Z
+p=17: windows with b_(l+1) <= 6000; points in G_l tested 72; lin_l failures 0; identity v(x+jp)=3+v(xi'+j/p^2) failures 0
+### wall: 0 s

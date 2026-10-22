@@ -1,0 +1,30 @@
+### command: python3 code/round3/R3M/spectral_mc.py 3 101 1500 16 4
+### start: 2026-10-13T06:41:15Z
+# spectral_mc p=3 seed=101 NX=1500 n=16 H=4: samples=1500 with Z0>0: 184
+SUMMARY median Z0 = 18.0; mean chi^2 = 5.1630; median var/diag = 0.3904; mean var/diag = 0.4540; median var/CS = 1.638e-02; max var/diag = 1.6469
+SUMMARY E[c_n^2 Var] = 5.192e-03 ; diagonal part E[c_n^2 Z chi^2] = 9.738e-03 ; CS bound E[c_n^2 Z^2 chi^2] = 2.373e-01 ; E[M_n^2] = 0.1391
+### wall: .662888186 s
+### command: python3 code/round3/R3M/spectral_mc.py 3 101 1500 24 6
+### start: 2026-10-13T06:41:15Z
+# spectral_mc p=3 seed=101 NX=1500 n=24 H=6: samples=1500 with Z0>0: 173
+SUMMARY median Z0 = 46.0; mean chi^2 = 4.3559; median var/diag = 0.4820; mean var/diag = 0.6893; median var/CS = 9.853e-03; max var/diag = 2.8660
+SUMMARY E[c_n^2 Var] = 8.510e-04 ; diagonal part E[c_n^2 Z chi^2] = 1.304e-03 ; CS bound E[c_n^2 Z^2 chi^2] = 8.596e-02 ; E[M_n^2] = 0.1360
+### wall: 2.951676374 s
+### command: python3 code/round3/R3M/spectral_mc.py 3 101 1500 32 8
+### start: 2026-10-13T06:41:18Z
+# spectral_mc p=3 seed=101 NX=1500 n=32 H=8: samples=1500 with Z0>0: 168
+SUMMARY median Z0 = 456.0; mean chi^2 = 3.7875; median var/diag = 0.4628; mean var/diag = 0.5945; median var/CS = 9.692e-04; max var/diag = 8.7079
+SUMMARY E[c_n^2 Var] = 1.277e-03 ; diagonal part E[c_n^2 Z chi^2] = 1.442e-03 ; CS bound E[c_n^2 Z^2 chi^2] = 1.113e+00 ; E[M_n^2] = 0.1322
+### wall: 11.694090508 s
+### command: python3 code/round3/R3M/spectral_mc.py 3 101 1500 40 10
+### start: 2026-10-13T06:41:30Z
+# spectral_mc p=3 seed=101 NX=1500 n=40 H=10: samples=1500 with Z0>0: 170
+SUMMARY median Z0 = 1093.0; mean chi^2 = 12.8368; median var/diag = 0.6253; mean var/diag = 0.7374; median var/CS = 5.359e-04; max var/diag = 2.8304
+SUMMARY E[c_n^2 Var] = 4.490e-04 ; diagonal part E[c_n^2 Z chi^2] = 6.198e-04 ; CS bound E[c_n^2 Z^2 chi^2] = 9.391e-01 ; E[M_n^2] = 0.1301
+### wall: 63.886519815 s
+### command: python3 code/round3/R3M/spectral_mc.py 3 101 1500 48 12
+### start: 2026-10-13T06:42:34Z
+# spectral_mc p=3 seed=101 NX=1500 n=48 H=12: samples=1500 with Z0>0: 174
+SUMMARY median Z0 = 1064.0; mean chi^2 = 1.4328; median var/diag = 0.6462; mean var/diag = 0.7925; median var/CS = 4.127e-04; max var/diag = 4.3504
+SUMMARY E[c_n^2 Var] = 5.753e-05 ; diagonal part E[c_n^2 Z chi^2] = 7.617e-05 ; CS bound E[c_n^2 Z^2 chi^2] = 1.402e-01 ; E[M_n^2] = 0.1302
+### wall: 194.260284250 s

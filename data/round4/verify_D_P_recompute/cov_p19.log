@@ -1,0 +1,87 @@
+=== command: /tmp/r4_verify_D_P_recompute/covchk 19 1 5 all
+=== start (UTC): 2026-10-14T03:27:04Z
+# covchk p=19 t=1 H=5 c=0 M=t+c=1 Q=p^M=19 explicit=2 mode=all
+K=1 Kmodpc=0 missing=0 covered
+SUMMARY p=19 t=1 H=5 c=0 classes=1 not_covered=0 worst_missing=0 ALL_COVERED cpu=0.0s
+=== exit: 0   wall: .003887273 s
+=== command: /tmp/r4_verify_D_P_recompute/covchk 19 2 12 all
+=== start (UTC): 2026-10-14T03:27:04Z
+# covchk p=19 t=2 H=12 c=0 M=t+c=2 Q=p^M=361 explicit=6 mode=all
+K=1 Kmodpc=0 missing=0 covered
+SUMMARY p=19 t=2 H=12 c=0 classes=1 not_covered=0 worst_missing=0 ALL_COVERED cpu=0.0s
+=== exit: 0   wall: .003756942 s
+=== command: /tmp/r4_verify_D_P_recompute/covchk 19 3 17 all
+=== start (UTC): 2026-10-14T03:27:04Z
+# covchk p=19 t=3 H=17 c=0 M=t+c=3 Q=p^M=6859 explicit=10 mode=all
+K=1 Kmodpc=0 missing=0 covered
+SUMMARY p=19 t=3 H=17 c=0 classes=1 not_covered=0 worst_missing=0 ALL_COVERED cpu=0.0s
+=== exit: 0   wall: .003930007 s
+=== command: /tmp/r4_verify_D_P_recompute/covchk 19 4 27 all
+=== start (UTC): 2026-10-14T03:27:04Z
+# covchk p=19 t=4 H=27 c=1 M=t+c=5 Q=p^M=2476099 explicit=19 mode=all
+K=1 Kmodpc=1 missing=0 covered
+K=2 Kmodpc=2 missing=0 covered
+K=3 Kmodpc=3 missing=0 covered
+K=4 Kmodpc=4 missing=0 covered
+K=5 Kmodpc=5 missing=0 covered
+K=6 Kmodpc=6 missing=0 covered
+K=7 Kmodpc=7 missing=0 covered
+K=8 Kmodpc=8 missing=0 covered
+K=9 Kmodpc=9 missing=0 covered
+K=10 Kmodpc=10 missing=0 covered
+K=11 Kmodpc=11 missing=0 covered
+K=12 Kmodpc=12 missing=0 covered
+K=13 Kmodpc=13 missing=0 covered
+K=14 Kmodpc=14 missing=0 covered
+K=15 Kmodpc=15 missing=0 covered
+K=16 Kmodpc=16 missing=0 covered
+K=17 Kmodpc=17 missing=0 covered
+K=18 Kmodpc=18 missing=0 covered
+SUMMARY p=19 t=4 H=27 c=1 classes=18 not_covered=0 worst_missing=0 ALL_COVERED cpu=0.0s
+=== exit: 0   wall: .027556409 s
+=== command: /tmp/r4_verify_D_P_recompute/covchk 19 5 31 all
+=== start (UTC): 2026-10-14T03:27:04Z
+# covchk p=19 t=5 H=31 c=1 M=t+c=6 Q=p^M=47045881 explicit=22 mode=all
+K=1 Kmodpc=1 missing=0 covered
+K=2 Kmodpc=2 missing=0 covered
+K=3 Kmodpc=3 missing=0 covered
+K=4 Kmodpc=4 missing=0 covered
+K=5 Kmodpc=5 missing=0 covered
+K=6 Kmodpc=6 missing=0 covered
+K=7 Kmodpc=7 missing=0 covered
+K=8 Kmodpc=8 missing=0 covered
+K=9 Kmodpc=9 missing=0 covered
+K=10 Kmodpc=10 missing=0 covered
+K=11 Kmodpc=11 missing=0 covered
+K=12 Kmodpc=12 missing=0 covered
+K=13 Kmodpc=13 missing=0 covered
+K=14 Kmodpc=14 missing=0 covered
+K=15 Kmodpc=15 missing=0 covered
+K=16 Kmodpc=16 missing=0 covered
+K=17 Kmodpc=17 missing=0 covered
+K=18 Kmodpc=18 missing=0 covered
+SUMMARY p=19 t=5 H=31 c=1 classes=18 not_covered=0 worst_missing=0 ALL_COVERED cpu=0.5s
+=== exit: 0   wall: .461980450 s
+=== command: /tmp/r4_verify_D_P_recompute/covchk 19 6 35 all
+=== start (UTC): 2026-10-14T03:27:04Z
+# covchk p=19 t=6 H=35 c=1 M=t+c=7 Q=p^M=893871739 explicit=22 mode=all
+K=1 Kmodpc=1 missing=0 covered
+K=2 Kmodpc=2 missing=0 covered
+K=3 Kmodpc=3 missing=0 covered
+K=4 Kmodpc=4 missing=0 covered
+K=5 Kmodpc=5 missing=0 covered
+K=6 Kmodpc=6 missing=0 covered
+K=7 Kmodpc=7 missing=0 covered
+K=8 Kmodpc=8 missing=0 covered
+K=9 Kmodpc=9 missing=0 covered
+K=10 Kmodpc=10 missing=0 covered
+K=11 Kmodpc=11 missing=0 covered
+K=12 Kmodpc=12 missing=0 covered
+K=13 Kmodpc=13 missing=0 covered
+K=14 Kmodpc=14 missing=0 covered
+K=15 Kmodpc=15 missing=0 covered
+K=16 Kmodpc=16 missing=0 covered
+K=17 Kmodpc=17 missing=0 covered
+K=18 Kmodpc=18 missing=0 covered
+SUMMARY p=19 t=6 H=35 c=1 classes=18 not_covered=0 worst_missing=0 ALL_COVERED cpu=11.9s
+=== exit: 0   wall: 12.342626855 s

@@ -1,0 +1,35 @@
+### command: nice -n 10 python3 code/round4/verify_C_obstruction/context_checks.py data/round4/verify_C_obstruction/qfourier.log
+### start: 2026-10-14T02:59:47Z
+p=7: delta_1 = 5/7 = 0.71429; Phi_p = [4, 6]; 0 in Phi_p: False
+p=11: delta_1 = 8/11 = 0.72727; Phi_p = [7, 8, 10]; 0 in Phi_p: False; round-1 delta_6 = 0.69976 (upper bound for mu(K_p)); delta_G/delta_1 = 0.9622
+p=13: delta_1 = 10/13 = 0.76923; Phi_p = [9, 10, 12]; 0 in Phi_p: False; round-1 delta_5 = 0.75454 (upper bound for mu(K_p)); delta_G/delta_1 = 0.9809
+p=17: delta_1 = 13/17 = 0.76471; Phi_p = [12, 13, 14, 16]; 0 in Phi_p: False; round-1 delta_4 = 0.75692 (upper bound for mu(K_p)); delta_G/delta_1 = 0.9898
+p=19: delta_1 = 15/19 = 0.78947; Phi_p = [14, 15, 16, 18]; 0 in Phi_p: False; round-1 delta_4 = 0.77792 (upper bound for mu(K_p)); delta_G/delta_1 = 0.9854
+p=23: delta_1 = 20/23 = 0.86957; Phi_p = [19, 20, 22]; 0 in Phi_p: False; round-1 delta_3 = 0.85617 (upper bound for mu(K_p)); delta_G/delta_1 = 0.9846
+p=29: delta_1 = 25/29 = 0.86207; Phi_p = [24, 25, 26, 28]; 0 in Phi_p: False
+p=31: delta_1 = 27/31 = 0.87097; Phi_p = [26, 27, 28, 30]; 0 in Phi_p: False
+Prop 11.12 floor check, chi^2_{W_0}(A) = q1 - 1 vs (p-1) 4^-p:
+  p=5: q1-1 = 3.516e-02 >= 3.906e-03: True
+  p=7: q1-1 = 1.428e-02 >= 3.662e-04: True
+  p=11: q1-1 = 1.436e-03 >= 2.384e-06: True
+  p=13: q1-1 = 2.202e-05 >= 1.788e-07: True
+  p=17: q1-1 = 6.093e-07 >= 9.313e-10: True
+  p=19: q1-1 = 9.828e-08 >= 6.548e-11: True
+  p=23: q1-1 = 5.423e-09 >= 3.126e-13: True
+  p=29: q1-1 = 7.316e-11 >= 9.714e-17: True
+  p=31: q1-1 = 7.455e-11 >= 6.505e-18: True
+  p=37: q1-1 = 8.929e-14 >= 1.906e-21: True
+  p=41: q1-1 = 3.693e-20 >= 8.272e-24: True
+  p=43: q1-1 = 8.356e-13 >= 5.428e-25: True
+  p=47: q1-1 = 3.539e-21 >= 2.322e-27: True
+  p=53: q1-1 = 6.068e-27 >= 6.409e-31: True
+  p=59: q1-1 = 4.264e-19 >= 1.745e-34: True
+  p=61: q1-1 = 2.811e-24 >= 1.128e-35: True
+  p=67: q1-1 = 2.304e-28 >= 3.031e-39: True
+  p=71: q1-1 = 1.153e-26 >= 1.256e-41: True
+  p=73: q1-1 = 1.328e-32 >= 8.071e-43: True
+  p=79: q1-1 = 3.227e-31 >= 2.135e-46: True
+  p=83: q1-1 = 5.912e-36 >= 8.767e-49: True
+  p=89: q1-1 = 1.962e-40 >= 2.297e-52: True
+  p=97: q1-1 = 2.094e-43 >= 3.823e-57: True
+### wall: 0 s
